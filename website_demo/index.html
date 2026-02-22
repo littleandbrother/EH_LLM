@@ -1,0 +1,739 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EH-GPT Web Demo</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Outfit:wght@500;600;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg-base: #0f1115;
+            --bg-panel: rgba(25, 28, 36, 0.7);
+            --bg-message-user: rgba(59, 130, 246, 0.15);
+            --bg-message-bot: transparent;
+            --accent: #3b82f6;
+            --accent-glow: rgba(59, 130, 246, 0.5);
+            --text-main: #f3f4f6;
+            --text-muted: #9ca3af;
+            --border: rgba(255, 255, 255, 0.1);
+            --glass-bg: rgba(20, 22, 28, 0.6);
+            --glass-border: rgba(255, 255, 255, 0.08);
+            
+            --success: #10b981;
+            --warning: #f59e0b;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: var(--bg-base);
+            color: var(--text-main);
+            height: 100vh;
+            display: flex;
+            overflow: hidden;
+            background-image: 
+                radial-gradient(circle at 15% 50%, rgba(59, 130, 246, 0.08), transparent 25%),
+                radial-gradient(circle at 85% 30%, rgba(16, 185, 129, 0.05), transparent 25%);
+        }
+
+        /* Layout */
+        .app-container {
+            display: flex;
+            width: 100%;
+            height: 100%;
+        }
+
+        .main-chat {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            position: relative;
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+
+        .sidebar {
+            width: 380px;
+            background: var(--glass-bg);
+            backdrop-filter: blur(20px);
+            -webkit-backdrop-filter: blur(20px);
+            border-left: 1px solid var(--border);
+            display: flex;
+            flex-direction: column;
+            transform: translateX(100%);
+            transition: transform 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+            position: absolute;
+            right: 0;
+            top: 0;
+            bottom: 0;
+            z-index: 10;
+        }
+        
+        .sidebar.active {
+            transform: translateX(0);
+            box-shadow: -10px 0 30px rgba(0,0,0,0.5);
+        }
+
+        /* Header */
+        header {
+            padding: 24px;
+            display: flex;
+            align-items: center;
+            border-bottom: 1px solid var(--border);
+            background: rgba(15, 17, 21, 0.8);
+            backdrop-filter: blur(10px);
+            z-index: 5;
+        }
+
+        .logo {
+            font-family: 'Outfit', sans-serif;
+            font-size: 24px;
+            font-weight: 700;
+            background: linear-gradient(135deg, #fff 0%, #a5b4fc 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+        
+        .logo-icon {
+            width: 28px;
+            height: 28px;
+            border-radius: 8px;
+            background: linear-gradient(135deg, #3b82f6, #8b5cf6);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-shadow: 0 0 15px var(--accent-glow);
+        }
+
+        /* Chat Area */
+        .messages-container {
+            flex: 1;
+            overflow-y: auto;
+            padding: 40px 24px;
+            display: flex;
+            flex-direction: column;
+            gap: 32px;
+            scroll-behavior: smooth;
+        }
+
+        .messages-container::-webkit-scrollbar {
+            width: 6px;
+        }
+        .messages-container::-webkit-scrollbar-thumb {
+            background-color: rgba(255,255,255,0.1);
+            border-radius: 3px;
+        }
+
+        .message {
+            display: flex;
+            gap: 16px;
+            max-width: 850px;
+            margin: 0 auto;
+            width: 100%;
+            opacity: 0;
+            transform: translateY(20px);
+            animation: slideUp 0.5s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+        }
+
+        @keyframes slideUp {
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .avatar {
+            width: 36px;
+            height: 36px;
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-shrink: 0;
+            font-weight: 600;
+            font-size: 14px;
+        }
+
+        .user .avatar {
+            background: rgba(255,255,255,0.1);
+        }
+
+        .bot .avatar {
+            background: linear-gradient(135deg, #3b82f6, #8b5cf6);
+            box-shadow: 0 0 15px rgba(59, 130, 246, 0.3);
+        }
+
+        .content {
+            flex: 1;
+            line-height: 1.6;
+            letter-spacing: 0.01em;
+        }
+
+        .bot .content {
+            color: #e5e7eb;
+        }
+
+        .user .content {
+            background: var(--bg-message-user);
+            padding: 16px 20px;
+            border-radius: 12px;
+            border: 1px solid rgba(59, 130, 246, 0.2);
+            color: #fff;
+            max-width: fit-content;
+        }
+        
+        .thinking-bubble {
+            background: rgba(255,255,255,0.03);
+            border: 1px solid rgba(255,255,255,0.05);
+            border-radius: 12px;
+            padding: 12px 16px;
+            margin-bottom: 16px;
+            display: inline-flex;
+            align-items: center;
+            gap: 12px;
+            color: var(--text-muted);
+            font-size: 14px;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+        
+        .thinking-bubble:hover {
+            background: rgba(255,255,255,0.06);
+            border-color: rgba(255,255,255,0.1);
+        }
+        
+        .thinking-icon {
+            width: 16px;
+            height: 16px;
+            border: 2px solid transparent;
+            border-top-color: var(--text-muted);
+            border-right-color: var(--text-muted);
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+        }
+        
+        .thinking-bubble.done .thinking-icon {
+            animation: none;
+            border-color: var(--success);
+            background: var(--success);
+        }
+        
+        @keyframes spin { 100% { transform: rotate(360deg); } }
+
+        /* Document/Card References */
+        .citation-card {
+            background: rgba(0,0,0,0.2);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            padding: 12px 16px;
+            margin: 16px 0;
+            display: flex;
+            align-items: flex-start;
+            gap: 12px;
+            transition: all 0.2s;
+        }
+        
+        .citation-card:hover {
+            border-color: rgba(59, 130, 246, 0.5);
+            background: rgba(59, 130, 246, 0.05);
+        }
+        
+        .citation-badge {
+            background: rgba(59, 130, 246, 0.2);
+            color: #60a5fa;
+            font-size: 12px;
+            font-weight: 600;
+            padding: 2px 6px;
+            border-radius: 4px;
+        }
+        
+        /* Highlight specific schema keywords */
+        .schema-tag {
+            background: rgba(139, 92, 246, 0.2);
+            color: #c4b5fd;
+            padding: 2px 6px;
+            border-radius: 4px;
+            font-family: monospace;
+            font-size: 13px;
+        }
+
+        /* Input Area */
+        .input-area {
+            padding: 24px 40px;
+            background: linear-gradient(to top, var(--bg-base) 60%, transparent);
+            position: relative;
+            z-index: 5;
+        }
+
+        .input-box {
+            max-width: 850px;
+            margin: 0 auto;
+            position: relative;
+            background: var(--bg-panel);
+            border: 1px solid var(--border);
+            border-radius: 16px;
+            padding: 16px 20px;
+            display: flex;
+            align-items: flex-end;
+            backdrop-filter: blur(10px);
+            transition: border-color 0.2s, box-shadow 0.2s;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.3);
+        }
+
+        .input-box:focus-within {
+            border-color: rgba(59, 130, 246, 0.5);
+            box-shadow: 0 4px 30px rgba(59, 130, 246, 0.15);
+        }
+
+        textarea {
+            width: 100%;
+            background: transparent;
+            border: none;
+            color: var(--text-main);
+            font-family: 'Inter', sans-serif;
+            font-size: 15px;
+            resize: none;
+            outline: none;
+            max-height: 200px;
+            line-height: 1.5;
+            padding-right: 40px;
+        }
+
+        textarea::placeholder {
+            color: rgba(255,255,255,0.3);
+        }
+
+        .send-btn {
+            position: absolute;
+            right: 16px;
+            bottom: 12px;
+            background: var(--text-main);
+            color: var(--bg-base);
+            border: none;
+            width: 32px;
+            height: 32px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+        
+        .send-btn.disabled {
+            background: rgba(255,255,255,0.1);
+            color: rgba(255,255,255,0.3);
+            cursor: not-allowed;
+        }
+
+        .send-btn:not(.disabled):hover {
+            transform: scale(1.05);
+            box-shadow: 0 0 10px rgba(255,255,255,0.5);
+        }
+
+        /* Sidebar Insights */
+        .sidebar-header {
+            padding: 24px;
+            border-bottom: 1px solid var(--border);
+            font-family: 'Outfit', sans-serif;
+            font-weight: 600;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .close-sidebar {
+            cursor: pointer;
+            color: var(--text-muted);
+            transition: color 0.2s;
+        }
+        .close-sidebar:hover { color: #fff; }
+
+        .sidebar-content {
+            padding: 24px;
+            overflow-y: auto;
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            gap: 24px;
+        }
+
+        .insight-card {
+            background: rgba(0,0,0,0.2);
+            border: 1px solid var(--glass-border);
+            border-radius: 12px;
+            padding: 16px;
+            animation: fadeInRight 0.5s ease forwards;
+            opacity: 0;
+        }
+        
+        @keyframes fadeInRight {
+            from { opacity: 0; transform: translateX(20px); }
+            to { opacity: 1; transform: translateX(0); }
+        }
+
+        .insight-title {
+            font-size: 12px;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            color: var(--text-muted);
+            margin-bottom: 12px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        
+        .graph-node {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            padding: 10px 0;
+            border-bottom: 1px solid rgba(255,255,255,0.05);
+        }
+        .graph-node:last-child { border-bottom: none; }
+        
+        .node-icon {
+            width: 24px; height: 24px;
+            border-radius: 6px;
+            background: rgba(59, 130, 246, 0.1);
+            color: #60a5fa;
+            display: flex;align-items: center; justify-content: center;
+        }
+        
+        .node-info {
+            font-size: 13px;
+        }
+        .node-info span.val { color: var(--success);  font-family: monospace;}
+        
+        .markdown p { margin-bottom: 1em; }
+        .markdown strong { color: #fff; font-weight: 600; }
+        .markdown ul { padding-left: 20px; margin-bottom: 1em; }
+        .markdown li { margin-bottom: 4px; }
+        
+        /* Simple CSS Bar Chart for Design Suggestions */
+        .bar-chart {
+            margin-top: 16px;
+            display: flex;
+            align-items: flex-end;
+            height: 120px;
+            gap: 16px;
+            padding-bottom: 24px;
+            border-bottom: 1px solid rgba(255,255,255,0.1);
+            position: relative;
+        }
+        .bar-col {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: flex-end;
+            position: relative;
+        }
+        .bar {
+            width: 100%;
+            background: linear-gradient(to top, rgba(59,130,246,0.2), rgba(59,130,246,0.8));
+            border-radius: 4px 4px 0 0;
+            transition: height 1s cubic-bezier(0.19, 1, 0.22, 1);
+            position: relative;
+        }
+        .bar.em { background: linear-gradient(to top, rgba(16,185,129,0.2), rgba(16,185,129,0.8)); }
+        .bar.hybrid { background: linear-gradient(to top, rgba(139,92,246,0.2), rgba(139,92,246,0.8)); }
+        
+        .bar-label {
+            position: absolute;
+            bottom: -20px;
+            font-size: 11px;
+            color: var(--text-muted);
+            white-space: nowrap;
+        }
+        .bar-val {
+            position: absolute;
+            top: -20px;
+            font-size: 12px;
+            font-weight: 600;
+        }
+
+    </style>
+</head>
+<body>
+
+<div class="app-container">
+    <!-- Main Chat -->
+    <main class="main-chat">
+        <header>
+            <div class="logo">
+                <div class="logo-icon">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>
+                </div>
+                EH-GPT
+            </div>
+            <div style="margin-left:auto; display:flex; gap:16px;">
+                <span style="background:rgba(16,185,129,0.1); color:#10b981; padding:4px 10px; border-radius:12px; font-size:12px; font-weight:600; border:1px solid rgba(16,185,129,0.2);">Schema v1.0 Activated</span>
+            </div>
+        </header>
+
+        <div class="messages-container" id="chat-box">
+            <!-- Messages injected here via JS -->
+        </div>
+
+        <div class="input-area">
+            <div class="input-box">
+                <textarea id="prompt-input" rows="1" placeholder="Describe your energy harvesting requirement... e.g. 'I need a 40mW vibration EH'"></textarea>
+                <button class="send-btn" id="send-btn">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="22" y1="2" x2="11" y2="13"></line><polygon points="22 2 15 22 11 13 2 9 22 2"></polygon></svg>
+                </button>
+            </div>
+            <div style="text-align:center; font-size:11px; color:var(--text-muted); margin-top:12px;">
+                EH-GPT generates physics-aware designs grounded in literature. Responses build upon verified Data Construction Schemas.
+            </div>
+        </div>
+    </main>
+
+    <!-- Right Sidebar for Reasoning & Evidence -->
+    <aside class="sidebar" id="sidebar">
+        <div class="sidebar-header">
+            <span>Knowledge Graph Tracker</span>
+            <div class="close-sidebar" id="close-sidebar">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+            </div>
+        </div>
+        <div class="sidebar-content" id="sidebar-content">
+            <!-- Dynamic insights dumped here -->
+        </div>
+    </aside>
+</div>
+
+<script>
+    const chatBox = document.getElementById('chat-box');
+    const promptInput = document.getElementById('prompt-input');
+    const sendBtn = document.getElementById('send-btn');
+    const sidebar = document.getElementById('sidebar');
+    const closeSidebar = document.getElementById('close-sidebar');
+    const sidebarContent = document.getElementById('sidebar-content');
+
+    let stepCounter = 0;
+
+    // Auto-resize textarea
+    promptInput.addEventListener('input', function() {
+        this.style.height = 'auto';
+        this.style.height = (this.scrollHeight) + 'px';
+        if(this.value.trim() === '') {
+            sendBtn.classList.add('disabled');
+        } else {
+            sendBtn.classList.remove('disabled');
+        }
+    });
+
+    closeSidebar.addEventListener('click', () => {
+        sidebar.classList.remove('active');
+    });
+
+    const conversationScript = [
+        {
+            role: 'bot',
+            thinking: 'Analyzing requirement: 40mW output power. Motivation: Vibration. Identifying missing constraints...',
+            insight: `
+                <div class="insight-card">
+                    <div class="insight-title">
+                        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+                        Constraint Analysis
+                    </div>
+                    <div class="graph-node">
+                        <div class="node-icon">P</div>
+                        <div class="node-info">Target Power: <span class="val">40 mW</span></div>
+                    </div>
+                </div>
+                <div class="insight-card" style="animation-delay: 0.2s">
+                    <div class="insight-title" style="color:var(--warning)">
+                        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"></path><line x1="12" y1="9" x2="12" y2="13"></line><line x1="12" y1="17" x2="12.01" y2="17"></line></svg>
+                        Missing Critical Variables
+                    </div>
+                    <div style="font-size:13px; color:var(--text-muted); line-height:1.5;">
+                        <span class="schema-tag">excitation.frequency_Hz</span> and <span class="schema-tag">excitation.acceleration_g</span> are unbound. EH performance is highly condition-dependent. Querying user...
+                    </div>
+                </div>
+            `,
+            text: `**40mW** 对于振动能量采集来说是一个较高的目标功率。若要在单机器件上实现，需要极其匹配的谐振设计与高效的机电耦合机制。\n\n为了给您提供最合理的设计依据，我需要了解您的实际应用场景参数：\n1. **振动源是什么？**（例如：人体步行、桥梁、工业电机）\n2. **其大致的中心振动频率 (Hz) 和加速度 (g) 是多少？**`
+        },
+        {
+            role: 'bot',
+            thinking: 'Constraints matched: 50Hz, 0.5g. Searching scientific literature knowledge graph for designs >40mW at 50Hz, 0.5g...',
+            insight: `
+                <div class="insight-card">
+                    <div class="insight-title">
+                        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="12 2 2 7 12 12 22 7 12 2"></polygon><polyline points="2 17 12 22 22 17"></polyline><polyline points="2 12 12 17 22 12"></polyline></svg>
+                        Knowledge Graph Retrieval
+                    </div>
+                    <div class="graph-node">
+                        <div class="node-icon">f</div>
+                        <div class="node-info">Freq: <span class="val">50 Hz</span></div>
+                    </div>
+                    <div class="graph-node">
+                        <div class="node-icon">a</div>
+                        <div class="node-info">Acc: <span class="val">0.5 g</span></div>
+                    </div>
+                    <div class="graph-node">
+                        <div class="node-icon" style="color:var(--warning); background:rgba(245,158,11,0.1)">#</div>
+                        <div class="node-info">Found candidates: <span class="val" style="color:var(--warning)">32</span></div>
+                    </div>
+                </div>
+                <div class="insight-card" style="animation-delay: 0.2s">
+                    <div class="insight-title">Literature Baselines</div>
+                    <div class="bar-chart">
+                        <div class="bar-col">
+                            <div class="bar-val">12mW</div>
+                            <div class="bar" style="height:30%"></div>
+                            <div class="bar-label">Piezo</div>
+                        </div>
+                        <div class="bar-col">
+                            <div class="bar-val">28mW</div>
+                            <div class="bar em" style="height:70%"></div>
+                            <div class="bar-label">EM</div>
+                        </div>
+                        <div class="bar-col">
+                            <div class="bar-val">45mW</div>
+                            <div class="bar hybrid" style="height:100%"></div>
+                            <div class="bar-label">Hybrid</div>
+                        </div>
+                    </div>
+                    <div style="font-size:12px; color:var(--text-muted); text-align:center;">Avg Power at target conditions</div>
+                </div>
+            `,
+            text: `基于 **50Hz** 和 **0.5g** 的工业水泵电机振动环境，结合 **40mW** 的高输出功率需求，单纯的压电(Piezo)或摩擦电(TENG)很难在小体积下达标。我为您推荐 **压电-电磁复合式能量采集器 (Hybrid PE-EM Harvester)** 设计方案。\n\n### 🔧 核心结构设计 (Structure Configuration)\n您可以采用 **悬臂梁复合架构 (Cantilever + Magnetic Proof Mass)**：\n- **压电层 (Piezoelectric)**: 在悬臂梁根部贴附 PZT-5H 压电陶瓷（利用其高应力系数提取电压）。\n- **电磁层 (Electromagnetic)**: 悬臂梁末端质量块采用 NdFeB 永磁体，并在基座正下方放置感应线圈（利用大幅度位移产生大电流）。\n- **尺寸建议 (Geometry)**: 悬臂梁长度约 60-80mm 即可将固有频率调谐至 50Hz 附近。\n\n### ⚡ 电气接口 (Electrical Interface)\n- **电路设计 (Circuit)**: 压电输出呈高压低流，电磁呈低压大流。建议使用标准的 Standard Energy Harvesting (SEH) 全桥整流后，接入 **LTC3588** 等定制 PMIC 进行阻抗匹配和双路能量合并，储能推荐使用 100μF 钽电容。\n\n### 📊 性能预期与合理性 (Performance Justification)\n在 <span class="schema-tag">metadata.measured_at.acceleration_g = 0.5</span> 且频率匹配在 50Hz 时：\n- **电磁模块 (EM)**: 预计贡献 ~28-35mW (电流主导)\n- **压电模块 (PE)**: 预计贡献 ~5-10mW (电压主导)\n- **合并输出 (Output Power)**: 在最优匹配电阻（通常在几十 kΩ）下，总功率可突破 **42mW**，完全满足您驱动大型传感器节点的需要。\n\n---\n**参考文献追踪 (Evidence Tracker)**:\n<div class="citation-card">\n<div>\n<div class="citation-badge">DOI: 10.1016/j.apenergy.2020.115454</div>\n<div style="font-size:13px; margin-top:6px;">"A hybrid piezoelectric-electromagnetic energy harvester for scavenging vibration energy..." (Appl. Energy, 2020) demonstrated 45.2 mW under 0.5g at 49.5Hz.</div>\n</div>\n</div>`
+        }
+    ];
+
+    promptInput.addEventListener('keydown', (e) => {
+        if(e.key === 'Enter' && !e.shiftKey) {
+            e.preventDefault();
+            if(!sendBtn.classList.contains('disabled')) {
+                sendMessage();
+            }
+        }
+    });
+
+    sendBtn.addEventListener('click', () => {
+        if(!sendBtn.classList.contains('disabled')) {
+            sendMessage();
+        }
+    });
+
+    function appendUserMessage(text) {
+        const msg = document.createElement('div');
+        msg.className = 'message user';
+        msg.innerHTML = `
+            <div class="avatar">U</div>
+            <div class="content">${text}</div>
+        `;
+        chatBox.appendChild(msg);
+        chatBox.scrollTop = chatBox.scrollHeight;
+    }
+
+    function appendBotMessage(thinkingText, text, insightHtml) {
+        const msg = document.createElement('div');
+        msg.className = 'message bot';
+        
+        let html = `
+            <div class="avatar">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>
+            </div>
+            <div class="content markdown">
+        `;
+        
+        if(thinkingText) {
+            html += `
+                <div class="thinking-bubble" onclick="document.getElementById('sidebar').classList.add('active')">
+                    <div class="thinking-icon"></div>
+                    <span>${thinkingText}</span>
+                </div>
+            `;
+        }
+        
+        html += `<div class="msg-text"></div></div>`;
+        msg.innerHTML = html;
+        chatBox.appendChild(msg);
+        chatBox.scrollTop = chatBox.scrollHeight;
+        
+        // Update Sidebar synchronously
+        if(insightHtml) {
+            sidebarContent.innerHTML = insightHtml;
+            sidebar.classList.add('active');
+        }
+
+        // Simulate thinking time
+        setTimeout(() => {
+            const bubble = msg.querySelector('.thinking-bubble');
+            if(bubble) {
+                bubble.classList.add('done');
+                bubble.querySelector('span').innerHTML = 'Analyzed Data Schema Context';
+            }
+            // Typewriter effect
+            const textEl = msg.querySelector('.msg-text');
+            typeWriter(textEl, text, 0);
+        }, 1500);
+    }
+
+    function typeWriter(element, text, index) {
+        if (index < text.length) {
+            // Handle basic markdown rendering on the fly
+            let chunk = text.charAt(index);
+            // Quick lookahead for markdown elements (hacky but works for demo)
+            element.innerHTML = marked.parse(text.substring(0, index + 1));
+            chatBox.scrollTop = chatBox.scrollHeight;
+            setTimeout(() => typeWriter(element, text, index + 1), 10);
+        }
+    }
+
+    // Mini markdown parser for the demo
+    const marked = {
+        parse: function(str) {
+            let html = str
+                .replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>')
+                .replace(/### (.*?)\n/g, '<h3 style="margin:16px 0 8px; color:#fff;">$1</h3>')
+                .replace(/\n- (.*?)/g, '<br>• $1')
+                .replace(/\n/g, '<br>');
+            return html;
+        }
+    };
+
+    function sendMessage() {
+        const text = promptInput.value.trim();
+        promptInput.value = '';
+        promptInput.style.height = 'auto';
+        sendBtn.classList.add('disabled');
+        
+        appendUserMessage(text);
+        
+        if(stepCounter < conversationScript.length) {
+            const reply = conversationScript[stepCounter];
+            setTimeout(() => {
+                appendBotMessage(reply.thinking, reply.text, reply.insight);
+                stepCounter++;
+            }, 600);
+        }
+    }
+    
+    // Initial welcome message
+    setTimeout(() => {
+        const msg = document.createElement('div');
+        msg.className = 'message bot';
+        msg.innerHTML = `
+            <div class="avatar">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>
+            </div>
+            <div class="content markdown">
+                <p>你好！我是基于 <strong>Energy Harvester Schema v1.0</strong> 训练的 EH-GPT。我能够基于物理约束为您推荐论文级验证的能量采集器设计方案。</p>
+                <p>有什么我可以帮您的？</p>
+            </div>
+        `;
+        chatBox.appendChild(msg);
+    }, 500);
+
+</script>
+</body>
+</html>
