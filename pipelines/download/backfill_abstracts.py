@@ -188,24 +188,39 @@ def backfill(source_filter: str = None, dry_run: bool = False):
             abstract = fetch_s2_abstract(s2_id, session)
             time.sleep(1.0)  # S2: ~1 req/s without API key
 
-        # Cross-source fallback: try the other API if we have the ID
-        if not abstract:
-            # Try OA via DOI
-            doi = paper.get("doi", "")
-            if doi and src == "semantic_scholar":
-                oa_url = f"https://api.openalex.org/works/doi:{doi}"
-                params = {"select": "abstract_inverted_index"}
-                if OPENALEX_EMAIL:
-                    params["mailto"] = OPENALEX_EMAIL
-                try:
-                    resp = session.get(oa_url, params=params, timeout=15)
-                    if resp.status_code == 200:
-                        data = resp.json()
-                        abstract = reconstruct_abstract(
-                            data.get("abstract_inverted_index"))
-                except requests.RequestException:
-                    pass
-                time.sleep(0.15)
+        # Cross-source fallback: Try S2 via DOI if OA failed
+        if not abstract and doi:
+            s2_url = f"https://api.semanticscholar.org/graph/v1/paper/DOI:{doi}"
+            params = {"fields": "abstract"}
+            headers = {}
+            if S2_API_KEY:
+                headers["x-api-key"] = S2_API_KEY
+            try:
+                resp = session.get(s2_url, params=params, headers=headers, timeout=15)
+                if resp.status_code == 429:
+                    time.sleep(30)
+                    resp = session.get(s2_url, params=params, headers=headers, timeout=15)
+                if resp.status_code == 200:
+                    data = resp.json()
+                    abstract = (data.get("abstract") or "").strip()
+            except requests.RequestException:
+                pass
+            time.sleep(1.0) # S2 rate limit
+
+        # Cross-source fallback: Try OA via DOI if S2 failed
+        if not abstract and doi:
+            oa_url = f"https://api.openalex.org/works/doi:{doi}"
+            params = {"select": "abstract_inverted_index"}
+            if OPENALEX_EMAIL:
+                params["mailto"] = OPENALEX_EMAIL
+            try:
+                resp = session.get(oa_url, params=params, timeout=15)
+                if resp.status_code == 200:
+                    data = resp.json()
+                    abstract = reconstruct_abstract(data.get("abstract_inverted_index"))
+            except requests.RequestException:
+                pass
+            time.sleep(0.15)
 
         if abstract:
             papers[idx]["abstract"] = abstract
