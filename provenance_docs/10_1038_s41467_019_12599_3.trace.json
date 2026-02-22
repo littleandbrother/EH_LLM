@@ -1,0 +1,28 @@
+{
+  "paper_id": "10_1038_s41467_019_12599_3",
+  "doi": "10.1038/s41467-019-12599-3",
+  "title": "Non-reciprocal robotic metamaterials",
+  "source_apis": [
+    "openalex"
+  ],
+  "pdf_url": "https://www.nature.com/articles/s41467-019-12599-3.pdf",
+  "pdf_local_path": "data_registry/raw/10.1038_s41467-019-12599-3.pdf",
+  "processing": {
+    "tool": "MinerU",
+    "version": "unknown",
+    "timestamp": "2026-02-22T13:48:24.870572+00:00",
+    "duration_s": 0.0,
+    "success": false,
+    "error": "MinerU CLI not found. Install with: pip install 'mineru[all]'"
+  },
+  "outputs": {
+    "content_md": "",
+    "layout_json": "",
+    "images_dir": "",
+    "normalized_json": ""
+  },
+  "data_lineage": {
+    "papers_jsonl_hash": "eb7ea0797aa52a3f09c1a0de1135e0a7",
+    "pipeline_step": "ingestion/mineru_runner.py"
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "metadata": {
+    "paper_id": null,
+    "title": "A piezoelectric bistable plate for nonlinear broadband energy harvesting",
+    "year": 2010,
+    "journal": "Applied Physics Letters",
+    "doi": "10.1063/1.3487780",
+    "eh_type": "piezoelectric",
+    "application_domain": null
+  },
+  "structure": {
+    "configuration": "other",
+    "layers": [
+      {
+        "material": "PZT-5A",
+        "role": "active",
+        "thickness_um": null
+      },
+      {
+        "material": "Carbon fiber epoxy",
+        "role": "substrate",
+        "thickness_um": null
+      }
+    ],
+    "proof_mass": true,
+    "geometry": {
+      "length_mm": 200,
+      "width_mm": 200,
+      "thickness_mm": null,
+      "diameter_mm": null,
+      "volume_mm3": null,
+      "mass_g": null
+    }
+  },
+  "excitation": {
+    "type": "vibration",
+    "frequency_Hz": 9.8,
+    "acceleration_g": 2.0,
+    "acceleration_ms2": 19.62,
+    "displacement_mm": null,
+    "velocity_ms": null,
+    "force_N": null,
+    "rotation_rpm": null,
+    "human_motion": false,
+    "motion_source": "machine vibration"
+  },
+  "circuit": {
+    "rectifier": "none",
+    "load_resistance_ohm": 98500,
+    "power_management_ic": null,
+    "storage": "none",
+    "storage_value": null
+  },
+  "performance": {
+    "open_circuit_voltage_V": null,
+    "short_circuit_current_A": null,
+    "output_power_W": 0.034,
+    "power_density_W_per_m3": null,
+    "power_density_W_per_m2": null,
+    "power_density_W_per_kg": null,
+    "efficiency": null,
+    "bandwidth_Hz": null,
+    "resonant_frequency_Hz": 10.9,
+    "measured_at": {
+      "frequency_Hz": 9.8,
+      "acceleration_g": 2.0,
+      "displacement_mm": null,
+      "load_resistance_ohm": null
+    }
+  },
+  "experiment": {
+    "environment": "lab_shaker",
+    "real_world_test": false,
+    "human_walking": false,
+    "rotation_rpm": null,
+    "durability_cycles": null,
+    "temperature_C": null,
+    "powered_device": null
+  },
+  "evidence": {
+    "source": "text",
+    "page": null,
+    "section": "A piezoelectric bistable plate for nonlinear broadband energy harvesting",
+    "figure": "Fig. 7",
+    "table": null,
+    "bbox": null,
+    "chunk_id": null,
+    "verbatim": "Very high electrical power output is obtained for intermittency and large amplitude LCO giving 34 mW and 27 mW respectively, for an acceleration forcing level of 2.0 g"
+  },
+  "claim": {
+    "novelty": "broadband design",
+    "mechanism": "bistable potential well"
+  },
+  "limitation": {
+    "items": []
+  }
+}

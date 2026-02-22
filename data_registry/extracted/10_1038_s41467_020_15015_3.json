@@ -1,0 +1,48 @@
+{
+  "metadata": {
+    "paper_id": "10.1038/s41467-020-15015-3",
+    "title": "Piezo-catalysis for nondestructive tooth whitening",
+    "year": 2020,
+    "journal": "Nature Communications",
+    "doi": "10.1038/s41467-020-15015-3",
+    "eh_type": "piezoelectric",
+    "application_domain": "tooth whitening"
+  },
+  "structure": {
+    "configuration": "other",
+    "layers": [
+      {
+        "material": "BaTiO3",
+        "role": "active",
+        "thickness_um": 0.13
+      }
+    ],
+    "proof_mass": false
+  },
+  "excitation": {
+    "type": "vibration",
+    "frequency_Hz": 40000,
+    "motion_source": "ultrasonic vibration"
+  },
+  "circuit": {
+    "rectifier": "none"
+  },
+  "performance": {
+    "measured_at": {
+      "frequency_Hz": 40000
+    }
+  },
+  "experiment": {
+    "environment": "lab_custom_rig",
+    "real_world_test": true
+  },
+  "evidence": {
+    "source": "text",
+    "section": "Methods",
+    "verbatim": "An 80 W, 40 kHz ultrasonic vibration was used to simulate the vibration during daily tooth brushing... BTO nanoparticles have a generally rectangular morphology with an average size of ~130 nm"
+  },
+  "claim": {
+    "novelty": "piezo-catalysis for tooth whitening",
+    "mechanism": "mechanical vibration induces piezoelectric charges which generate reactive oxygen species to degrade stains"
+  }
+}

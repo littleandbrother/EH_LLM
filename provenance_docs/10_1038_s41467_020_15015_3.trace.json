@@ -1,0 +1,28 @@
+{
+  "paper_id": "10_1038_s41467_020_15015_3",
+  "doi": "10.1038/s41467-020-15015-3",
+  "title": "Piezo-catalysis for nondestructive tooth whitening",
+  "source_apis": [
+    "openalex"
+  ],
+  "pdf_url": "https://www.nature.com/articles/s41467-020-15015-3.pdf",
+  "pdf_local_path": "data_registry/raw/10.1038_s41467-020-15015-3.pdf",
+  "processing": {
+    "tool": "MinerU",
+    "version": "mineru, version 2.7.6",
+    "timestamp": "2026-02-22T13:52:07.097329+00:00",
+    "duration_s": 163.26,
+    "success": true,
+    "error": ""
+  },
+  "outputs": {
+    "content_md": "/Users/depengsu/Desktop/paper_story_agnet/EH-LLM/parsed_docs/10_1038_s41467_020_15015_3/content.md",
+    "layout_json": "/Users/depengsu/Desktop/paper_story_agnet/EH-LLM/parsed_docs/10_1038_s41467_020_15015_3/layout.json",
+    "images_dir": "/Users/depengsu/Desktop/paper_story_agnet/EH-LLM/parsed_docs/10_1038_s41467_020_15015_3/10.1038_s41467-020-15015-3/auto/images",
+    "normalized_json": "/Users/depengsu/Desktop/paper_story_agnet/EH-LLM/normalized_docs/10_1038_s41467_020_15015_3.json"
+  },
+  "data_lineage": {
+    "papers_jsonl_hash": "1ebd0cf54ecb894dafc76cea63a1b741",
+    "pipeline_step": "ingestion/mineru_runner.py"
+  }
+}
