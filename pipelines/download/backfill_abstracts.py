@@ -175,6 +175,7 @@ def backfill(source_filter: str = None, dry_run: bool = False):
     for idx, paper in pbar:
         src = paper.get("source", "")
         abstract = ""
+        doi = paper.get("doi", "")
 
         # Try OpenAlex first (faster API, more permissive rate limits)
         if src in ("openalex", "both"):
