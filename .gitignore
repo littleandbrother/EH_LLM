@@ -1,5 +1,8 @@
 # ===== EH-LLM .gitignore =====
 
+# --- API Keys ---
+.env
+
 # --- 大型数据文件 ---
 data_registry/raw/*.pdf
 data_registry/raw/**/*.pdf

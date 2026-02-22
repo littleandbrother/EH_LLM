@@ -1,0 +1,546 @@
+# ============================================================
+# EH-GPT Energy Harvester Schema v1.0
+# ============================================================
+# Physics-aware schema for structured energy harvester
+# knowledge extraction from scientific literature.
+#
+# Design → Structure → Condition → Performance → Evidence
+#
+# Target: Methods → Data Construction section of publication
+# ============================================================
+
+schema_version: "v1.0"
+schema_name: "eh_harvester_record"
+description: >
+  A physics-aware energy-harvesting schema capturing structural
+  configuration, excitation conditions, electrical interfaces,
+  and experimentally validated performance metrics with
+  provenance tracking.
+
+# ============================================================
+# Extraction Priority Phases
+# ============================================================
+# Phase 1 (必须 — publishable baseline):
+#   eh_type, frequency, acceleration, power, structure.configuration
+# Phase 2 (补充):
+#   geometry, circuit, power_density
+# Phase 3 (高级):
+#   claim, limitation, reasoning relations
+# ============================================================
+
+# -----------------------------------------------------------
+# Level 1: Paper Metadata (来源: API + MinerU)
+# -----------------------------------------------------------
+metadata:
+  paper_id:
+    type: string
+    description: "Unique paper identifier (S2 paperId or OpenAlex ID)"
+    required: true
+
+  title:
+    type: string
+    required: true
+
+  year:
+    type: integer
+    required: true
+
+  journal:
+    type: string
+    description: "Journal or conference venue name"
+
+  doi:
+    type: string
+
+  eh_type:
+    type: string
+    required: true
+    phase: 1
+    description: "Primary energy harvesting mechanism"
+    enum:
+      - piezoelectric
+      - triboelectric       # TENG
+      - electromagnetic
+      - electrostatic
+      - hybrid
+      - magnetoelectric
+    normalization: >
+      Map aliases: "PZT-based" → piezoelectric,
+      "TENG" → triboelectric, "EM harvester" → electromagnetic
+
+  application_domain:
+    type: string
+    description: "Target application domain"
+    examples:
+      - "structural health monitoring"
+      - "wearable sensor"
+      - "IoT node"
+      - "tire pressure monitoring"
+      - "implantable medical device"
+      - "railway monitoring"
+
+# -----------------------------------------------------------
+# Level 2: Device Structure (最关键 — device physics)
+# -----------------------------------------------------------
+structure:
+  _phase: 1   # configuration is Phase 1; geometry is Phase 2
+  _description: >
+    Core structural design of the energy harvester.
+    This is what differentiates EH-GPT from generic LLM extraction.
+
+  configuration:
+    type: string
+    required: true
+    phase: 1
+    description: "Topology / structural form of the harvester"
+    enum:
+      - cantilever
+      - stack
+      - rotary
+      - cymbal
+      - diaphragm
+      - sliding_teng          # sliding mode TENG
+      - freestanding_teng     # freestanding triboelectric layer
+      - contact_separation    # contact-separation TENG
+      - single_electrode_teng
+      - multilayer_stack
+      - spiral
+      - auxetic
+      - other
+
+  layers:
+    type: array
+    description: "Material stack from top to bottom"
+    items:
+      type: object
+      properties:
+        material:
+          type: string
+          description: "Material name (e.g., PZT, PVDF, PTFE, Kapton, Al)"
+          required: true
+        role:
+          type: string
+          enum:
+            - active          # piezo / tribo / EM active layer
+            - substrate
+            - electrode
+            - spacer
+            - encapsulation
+            - proof_mass
+        thickness_um:
+          type: number
+          description: "Layer thickness in micrometers"
+          unit: "μm"
+
+  proof_mass:
+    type: boolean
+    description: "Whether a proof/tip mass is used"
+
+  geometry:
+    type: object
+    phase: 2
+    description: "Overall device dimensions"
+    properties:
+      length_mm:
+        type: number
+        unit: "mm"
+      width_mm:
+        type: number
+        unit: "mm"
+      thickness_mm:
+        type: number
+        unit: "mm"
+      diameter_mm:
+        type: number
+        unit: "mm"
+        description: "For circular/diaphragm geometries"
+      volume_mm3:
+        type: number
+        unit: "mm³"
+        description: "Total device volume (can be derived)"
+      mass_g:
+        type: number
+        unit: "g"
+
+# -----------------------------------------------------------
+# Level 3: Excitation / Input Condition (极关键)
+# -----------------------------------------------------------
+# EH is a condition-dependent system.
+# Power comparison is meaningless without excitation context.
+# -----------------------------------------------------------
+excitation:
+  _phase: 1
+  _description: >
+    Input mechanical excitation. MUST be extracted alongside
+    performance — otherwise performance data is invalid.
+
+  type:
+    type: string
+    required: true
+    enum:
+      - vibration
+      - impact
+      - rotation
+      - human_motion
+      - wind_induced
+      - acoustic
+      - flow_induced
+      - other
+
+  frequency_Hz:
+    type: number
+    required: true
+    phase: 1
+    unit: "Hz"
+    description: "Excitation frequency"
+
+  acceleration_g:
+    type: number
+    phase: 1
+    unit: "g"
+    description: "Acceleration amplitude (1g = 9.81 m/s²)"
+
+  acceleration_ms2:
+    type: number
+    unit: "m/s²"
+    description: "Acceleration in SI units"
+
+  displacement_mm:
+    type: number
+    unit: "mm"
+    description: "Displacement amplitude"
+
+  velocity_ms:
+    type: number
+    unit: "m/s"
+
+  force_N:
+    type: number
+    unit: "N"
+    description: "Applied force (for impact/press type)"
+
+  rotation_rpm:
+    type: number
+    unit: "rpm"
+    description: "For rotary harvesters"
+
+  human_motion:
+    type: boolean
+    description: "Whether excitation comes from human body"
+    default: false
+
+  motion_source:
+    type: string
+    description: "Specific motion source"
+    examples:
+      - "walking"
+      - "running"
+      - "wrist"
+      - "heartbeat"
+      - "machine vibration"
+      - "bridge"
+      - "vehicle tire"
+
+# -----------------------------------------------------------
+# Level 4: Electrical Interface
+# -----------------------------------------------------------
+# 90% of GPTs ignore this, but reviewers are very sensitive.
+# EH performance is strongly circuit-dependent.
+# -----------------------------------------------------------
+circuit:
+  _phase: 2
+
+  rectifier:
+    type: string
+    enum:
+      - full_bridge
+      - half_bridge
+      - voltage_doubler
+      - active_rectifier
+      - none
+      - not_specified
+
+  load_resistance_ohm:
+    type: number
+    unit: "Ω"
+    description: "Matched or optimal load resistance"
+
+  power_management_ic:
+    type: string
+    description: "PMIC model (e.g., LTC3588, BQ25504)"
+
+  storage:
+    type: string
+    enum:
+      - capacitor
+      - supercapacitor
+      - battery
+      - li_ion
+      - none
+      - not_specified
+
+  storage_value:
+    type: string
+    description: "Storage specification (e.g., '100μF', '3.7V 100mAh')"
+
+# -----------------------------------------------------------
+# Level 5: Performance Metrics (核心)
+# -----------------------------------------------------------
+# ALL metrics MUST be bound to excitation conditions via
+# measured_at. Unbound performance data is invalid.
+# -----------------------------------------------------------
+performance:
+  _phase: 1
+  _description: >
+    Experimentally measured output performance.
+    Must include measured_at conditions for validity.
+
+  open_circuit_voltage_V:
+    type: number
+    unit: "V"
+    description: "Peak or RMS open-circuit voltage"
+    value_type_note: "Specify peak or RMS in evidence"
+
+  short_circuit_current_A:
+    type: number
+    unit: "A"
+    description: "Peak or RMS short-circuit current"
+
+  output_power_W:
+    type: number
+    required: true
+    phase: 1
+    unit: "W"
+    description: "Maximum output power"
+    normalization: >
+      Convert all to Watts: μW→W (*1e-6), mW→W (*1e-3).
+      Distinguish peak vs. average vs. RMS.
+
+  power_density_W_per_m3:
+    type: number
+    phase: 2
+    unit: "W/m³"
+    description: "Volumetric power density"
+
+  power_density_W_per_m2:
+    type: number
+    unit: "W/m²"
+    description: "Areal power density"
+
+  power_density_W_per_kg:
+    type: number
+    phase: 2
+    unit: "W/kg"
+    description: "Gravimetric power density"
+
+  efficiency:
+    type: number
+    description: "Energy conversion efficiency (0-1)"
+    unit: "ratio"
+
+  bandwidth_Hz:
+    type: number
+    unit: "Hz"
+    description: "Operational bandwidth (3dB or half-power)"
+
+  resonant_frequency_Hz:
+    type: number
+    unit: "Hz"
+    description: "Natural/resonant frequency of the device"
+
+  # --- Condition binding (CRITICAL) ---
+  measured_at:
+    type: object
+    required: true
+    description: >
+      Excitation conditions at which performance was measured.
+      Without this, performance data is considered invalid.
+    properties:
+      frequency_Hz:
+        type: number
+        unit: "Hz"
+      acceleration_g:
+        type: number
+        unit: "g"
+      displacement_mm:
+        type: number
+        unit: "mm"
+      load_resistance_ohm:
+        type: number
+        unit: "Ω"
+
+# -----------------------------------------------------------
+# Level 6: Experiment Context
+# -----------------------------------------------------------
+experiment:
+  _phase: 2
+
+  environment:
+    type: string
+    description: "Testing environment"
+    enum:
+      - lab_shaker
+      - lab_custom_rig
+      - field_test
+      - simulation_only
+      - other
+
+  real_world_test:
+    type: boolean
+    description: "Whether tested in real-world (non-lab) conditions"
+    default: false
+
+  human_walking:
+    type: boolean
+    default: false
+
+  rotation_rpm:
+    type: number
+    unit: "rpm"
+
+  durability_cycles:
+    type: number
+    description: "Number of cycles tested for durability"
+
+  temperature_C:
+    type: number
+    unit: "°C"
+    description: "Operating temperature during test"
+
+  powered_device:
+    type: string
+    description: "What device/sensor was powered (if self-powered demo)"
+    examples:
+      - "LED"
+      - "accelerometer"
+      - "temperature sensor"
+      - "BLE transmitter"
+      - "LCD display"
+
+# -----------------------------------------------------------
+# Level 7: Evidence Tracking (子刊关键 — anti-hallucination)
+# -----------------------------------------------------------
+evidence:
+  _phase: 1
+  _description: >
+    Provenance tracking for every extracted claim.
+    Maps back to MinerU parsed document layout.
+
+  source:
+    type: string
+    required: true
+    enum:
+      - table
+      - figure
+      - text
+      - equation
+      - caption
+      - supplementary
+
+  page:
+    type: integer
+    description: "Page number in the original PDF"
+
+  section:
+    type: string
+    description: "Section name (e.g., 'Results', 'Experimental Setup')"
+
+  figure:
+    type: string
+    description: "Figure reference (e.g., 'Fig.4', 'Figure 3a')"
+
+  table:
+    type: string
+    description: "Table reference (e.g., 'Table 2')"
+
+  bbox:
+    type: array
+    description: "Bounding box [x0, y0, x1, y1] in PDF coordinates"
+    items:
+      type: number
+
+  chunk_id:
+    type: string
+    description: "Reference to parsed document chunk"
+
+  verbatim:
+    type: string
+    description: "Exact quoted text supporting the extraction"
+
+# -----------------------------------------------------------
+# Advanced: Design Claim (Phase 3)
+# -----------------------------------------------------------
+claim:
+  _phase: 3
+  _description: "Author's stated novelty or contribution"
+
+  novelty:
+    type: string
+    description: "Claimed novelty of the design"
+    examples:
+      - "broadband design"
+      - "ultra-low frequency harvesting"
+      - "self-powered IoT node"
+
+  mechanism:
+    type: string
+    description: "Key mechanism enabling the novelty"
+    examples:
+      - "nonlinear stiffness"
+      - "frequency up-conversion"
+      - "multi-mode coupling"
+      - "bistable potential well"
+
+# -----------------------------------------------------------
+# Advanced: Failure / Limitation (Phase 3)
+# -----------------------------------------------------------
+# This field is extremely novel — almost no one does this.
+# Source for Fig 5 (Failure Analysis) in the paper.
+# -----------------------------------------------------------
+limitation:
+  _phase: 3
+
+  items:
+    type: array
+    description: "Reported limitations of the design"
+    items:
+      type: string
+    examples:
+      - "narrow bandwidth"
+      - "low durability"
+      - "requires high acceleration (>1g)"
+      - "bulky form factor"
+      - "not waterproof"
+      - "aging of triboelectric charge"
+      - "temperature sensitivity"
+
+# ============================================================
+# Validation Rules
+# ============================================================
+validation:
+  - rule: "performance.output_power_W requires performance.measured_at"
+    severity: error
+    message: "Output power must include measurement conditions"
+
+  - rule: "performance.power_density_W_per_m3 requires structure.geometry.volume_mm3"
+    severity: warning
+    message: "Volumetric power density should have device volume for validation"
+
+  - rule: "metadata.eh_type must be in enum"
+    severity: error
+
+  - rule: "evidence.source is required for every extracted field"
+    severity: warning
+    message: "All extractions should have provenance"
+
+# ============================================================
+# Gold Standard Test Query
+# ============================================================
+# If EH-GPT can answer:
+#   "在 0.3g、20–50Hz 人体步行条件下推荐 EH 结构"
+# and return:
+#   - design type (configuration)
+#   - expected power range (output_power_W)
+#   - citation evidence (evidence.*)
+# → Schema is successful.
+# ============================================================

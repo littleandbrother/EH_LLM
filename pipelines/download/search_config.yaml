@@ -1,0 +1,63 @@
+# ============================================================
+# EH-LLM Paper Search Configuration
+# ============================================================
+# 用于 Semantic Scholar + OpenAlex 双源检索
+# 目标: 300-500 篇 vibration energy harvesting 相关论文
+# ============================================================
+
+# --- 检索关键词 ---
+queries:
+  # 核心查询
+  - "vibration energy harvesting"
+  - "piezoelectric energy harvester"
+  - "electromagnetic energy harvester vibration"
+  - "MEMS energy harvester"
+  - "vibration energy scavenging"
+  # 补充查询 (结构 + 机制)
+  - "cantilever beam energy harvester"
+  - "nonlinear energy harvesting vibration"
+  - "broadband energy harvester"
+  - "triboelectric vibration energy"
+  - "magnetoelectric energy harvester"
+
+# --- 过滤条件 ---
+filters:
+  year_range: [2010, 2026]        # 只取 2010 年以后的论文
+  min_citation_count: 5           # 至少 5 次引用（过滤低质量）
+  publication_types:               # 限制论文类型
+    - "JournalArticle"
+    - "Conference"
+  exclude_keywords:                # 排除无关主题
+    - "wireless power transfer"
+    - "solar energy"
+    - "thermoelectric"
+    - "wind energy"
+
+# --- API 配置 ---
+semantic_scholar:
+  max_results_per_query: 100       # 每个查询最多返回
+  fields:
+    - "paperId"
+    - "externalIds"
+    - "title"
+    - "abstract"
+    - "year"
+    - "venue"
+    - "authors"
+    - "citationCount"
+    - "openAccessPdf"
+    - "publicationTypes"
+    - "fieldsOfStudy"
+  rate_limit_delay: 1.0            # 请求间隔 (秒)
+
+openalex:
+  max_results_per_query: 200       # OpenAlex 单次查询更多
+  per_page: 50                     # 每页数量
+  rate_limit_delay: 0.2            # OpenAlex 限制宽松
+
+# --- 输出配置 ---
+output:
+  papers_jsonl: "data_registry/papers.jsonl"
+  pdf_dir: "data_registry/raw/"
+  download_pdf: true              # 是否下载开放获取 PDF
+  max_pdf_downloads: 500          # 最大下载数
