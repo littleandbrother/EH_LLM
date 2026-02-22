@@ -8,6 +8,21 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Outfit:wght@500;600;700&display=swap"
         rel="stylesheet">
+
+    <!-- Markdown Parser -->
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+
+    <!-- Math Formula Renderer -->
+    <script>
+        MathJax = {
+            tex: {
+                inlineMath: [['$', '$'], ['\\(', '\\)']],
+                displayMath: [['$$', '$$'], ['\\[', '\\]']]
+            }
+        };
+    </script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
     <style>
         :root {
             --bg-base: #0f1115;
@@ -625,16 +640,11 @@
             chatBox.scrollTop = chatBox.scrollHeight;
         }
 
-        const marked = {
-            parse: function (str) {
-                let html = str
-                    .replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>')
-                    .replace(/### (.*?)\n/g, '<h3 style="margin:16px 0 8px; color:#fff;">$1</h3>')
-                    .replace(/\n- (.*?)/g, '<br>• $1')
-                    .replace(/\n/g, '<br>');
-                return html;
-            }
-        };
+        // Configure marked.js to break on newlines like GitHub
+        marked.setOptions({
+            breaks: true,
+            gfm: true
+        });
 
         let messageHistory = [];
 
@@ -695,6 +705,12 @@
                                     }
                                     fullResponse += data.content;
                                     textEl.innerHTML = marked.parse(fullResponse);
+
+                                    // Trigger MathJax to typeset the new math formulas
+                                    if (window.MathJax) {
+                                        MathJax.typesetPromise([textEl]).catch((err) => console.log('MathJax error:', err));
+                                    }
+
                                     chatBox.scrollTop = chatBox.scrollHeight;
                                 }
                             } catch (e) {
