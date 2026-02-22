@@ -5,10 +5,10 @@ import time
 from pathlib import Path
 from dotenv import load_dotenv
 
-from volcenginesdkarkruntime import Ark
+from openai import OpenAI
 
 SCRIPT_DIR = Path(__file__).parent
-PROJECT_ROOT = SCRIPT_DIR.parent.parent
+PROJECT_ROOT = SCRIPT_DIR.parent.parent.parent
 INPUT_FILE = PROJECT_ROOT / "data_registry" / "papers_stage03.jsonl"
 OUTPUT_FILE = PROJECT_ROOT / "data_registry" / "papers_stage04_core_corpus.jsonl"
 ENV_PATH = PROJECT_ROOT / "pipelines" / "download" / ".env"
@@ -16,26 +16,17 @@ ENV_PATH = PROJECT_ROOT / "pipelines" / "download" / ".env"
 load_dotenv(ENV_PATH)
 
 ARK_API_KEY = os.getenv("ARK_API_KEY")
-if not ARK_API_KEY:
-    raise ValueError("ARK_API_KEY is not set.")
-
-client = Ark(api_key=ARK_API_KEY)
-MODEL_ENDPOINT = "ep-20250218141441-dwc8j"
-
-PROMPT_TEMPLATE = """
-{user_prompt_placeholder}
-
-Paper Title: {title}
-Paper Abstract:
-{abstract}
-"""
+client = OpenAI(
+    api_key=ARK_API_KEY,
+    base_url="https://ark.cn-beijing.volces.com/api/v3",
+)
+MODEL_ENDPOINT = "glm-4-7-251222"
 
 def evaluate_paper(paper: dict, user_prompt: str) -> dict:
-    prompt = PROMPT_TEMPLATE.format(
-        user_prompt_placeholder=user_prompt,
-        title=paper.get("title", "No Title"),
-        abstract=paper.get("abstract", "")
-    )
+    # Build text to evaluate (Title + Abstract) to give the LLM full context
+    text_to_eval = f"Title: {paper.get('title', 'Unknown')}\nAbstract: {paper.get('abstract', '')}"
+    
+    prompt = user_prompt.replace("{abstract_text}", text_to_eval)
     
     try:
         response = client.chat.completions.create(
@@ -98,8 +89,10 @@ def main():
                 continue
                 
             # Embed the LLM's opinion
-            paper["design_score"] = result.get("design_score", 0)
+            paper["design_score"] = result.get("total_design_score", 0)
             paper["llm_reason"] = result.get("reason", "")
+            paper["llm_scores"] = result.get("scores", {})
+            paper["decision"] = result.get("decision", "DROP")
             
             # Save strictly if >= 6
             if paper["design_score"] >= 6:
