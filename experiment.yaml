@@ -1,0 +1,79 @@
+# ============================================================
+# EH-LLM Experiment Configuration Template
+# ============================================================
+# 原则：所有实验必须通过此 YAML 配置启动
+#       每次运行自动生成 run_id，保证可追溯性
+# ============================================================
+
+# --- 基本信息 ---
+experiment:
+  name: ""                       # 实验名称（简短描述性）
+  description: ""                # 实验目的描述
+  author: "depengsu"
+  date: ""                       # YYYY-MM-DD
+  phase: ""                      # Phase 0-7
+  task_id: ""                    # e.g., "1.1", "2.3"
+  tags: []                       # 标签 ["sft", "extraction", "baseline"]
+
+# --- 数据配置 ---
+data:
+  source: ""                     # 数据来源路径 (相对于 data_registry/)
+  schema_version: "v1"           # Schema 版本
+  split:
+    train: 0.8
+    val: 0.1
+    test: 0.1
+  preprocessing:
+    normalize: true              # 是否应用单位归一化
+    filter: {}                   # 过滤条件
+
+# --- 模型配置 ---
+model:
+  base_model: ""                 # e.g., "meta-llama/Llama-3-8B"
+  model_type: ""                 # "extraction" | "reasoning"
+  quantization: null             # null | "4bit" | "8bit"
+  lora:
+    enabled: true
+    rank: 16
+    alpha: 32
+    target_modules: ["q_proj", "v_proj"]
+
+# --- 训练配置 ---
+training:
+  epochs: 3
+  batch_size: 4
+  gradient_accumulation_steps: 4
+  learning_rate: 2.0e-5
+  warmup_ratio: 0.03
+  max_seq_length: 2048
+  optimizer: "adamw"
+  scheduler: "cosine"
+  save_steps: 100
+  eval_steps: 50
+  fp16: true
+
+# --- 评测配置 ---
+evaluation:
+  metrics:
+    - "f1"
+    - "exact_match"
+    - "citation_precision"
+    - "hallucination_rate"
+    - "constraint_satisfaction"
+  benchmark: ""                  # 评测基准名称
+  comparison_models: []          # 对比模型列表
+
+# --- 输出配置 ---
+output:
+  checkpoint_dir: "artifacts/checkpoints/"
+  report_dir: "artifacts/reports/"
+  log_level: "INFO"
+
+# --- 运行记录 (自动填充) ---
+run:
+  run_id: null                   # 自动生成: YYYYMMDD_HHMMSS_<hash>
+  status: null                   # pending | running | completed | failed
+  start_time: null
+  end_time: null
+  gpu: null
+  notes: ""

@@ -1,0 +1,44 @@
+# ===== EH-LLM .gitignore =====
+
+# --- 大型数据文件 ---
+data_registry/raw/*.pdf
+data_registry/raw/**/*.pdf
+*.pdf
+
+# --- 模型权重 ---
+artifacts/checkpoints/
+*.ckpt
+*.bin
+*.safetensors
+*.pt
+*.pth
+
+# --- 运行记录 (保留结构，忽略大型日志) ---
+runs/*/logs/
+runs/*/tensorboard/
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+dist/
+build/
+*.egg
+.venv/
+venv/
+env/
+
+# --- Jupyter ---
+.ipynb_checkpoints/
+
+# --- IDE ---
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# --- OS ---
+Thumbs.db
