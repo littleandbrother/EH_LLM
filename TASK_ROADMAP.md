@@ -36,7 +36,7 @@
 
 | Task | 描述 | 交付物 | 状态 | 备注 |
 |------|------|--------|------|------|
-| 1.1 | **定义 Energy Harvester Schema**（最重要） | `schemas/eh_schema_v1.yaml` | ⬜ | Device / Excitation / Output / Normalization |
+| 1.1 | **定义 Energy Harvester Schema**（最重要） | `schemas/eh_schema_v1.yaml` | ✅ | 7-level physics-aware schema, 54+ fields, phased priorities |
 | 1.2 | 指标口径统一规则 | `docs/normalization_rules.md` | ⬜ | Vrms, P_norm 等 — 论文 novelty 之一 |
 | 1.3 | Semantic Scholar 自动下载 Pipeline | `pipelines/download/`, `data_registry/papers.jsonl` | ⬜ | 目标 300–500 篇 vibration EH |
 
