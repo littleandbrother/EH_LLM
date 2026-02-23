@@ -36,7 +36,7 @@ from pathlib import Path
 SCRIPT_DIR = Path(__file__).parent
 PROJECT_ROOT = SCRIPT_DIR.parent
 
-PAPERS_JSONL = PROJECT_ROOT / "data_registry" / "papers.jsonl"
+PAPERS_JSONL = PROJECT_ROOT / "data_registry" / "papers_stage04_core_corpus.jsonl"
 PDF_DIR = PROJECT_ROOT / "data_registry" / "raw"
 PARSED_DIR = PROJECT_ROOT / "parsed_docs"
 NORMALIZED_DIR = PROJECT_ROOT / "normalized_docs"
@@ -90,8 +90,9 @@ def run_mineru(pdf_path: Path, output_dir: Path,
     }
 
     # Build command
+    mineru_bin = os.path.join(os.path.dirname(sys.executable), "mineru")
     cmd = [
-        "mineru",
+        mineru_bin,
         "-p", str(pdf_path),
         "-o", str(output_dir),
         "-l", lang,
@@ -110,7 +111,8 @@ def run_mineru(pdf_path: Path, output_dir: Path,
         result["duration_s"] = round(time.time() - start, 2)
 
         if proc.returncode != 0:
-            result["error"] = proc.stderr[-500:] if proc.stderr else f"exit code {proc.returncode}"
+            err_msg = proc.stderr[-1000:] if proc.stderr else (proc.stdout[-1000:] if proc.stdout else "No output")
+            result["error"] = f"exit code {proc.returncode} | {err_msg}"
             return result
 
     except subprocess.TimeoutExpired:
@@ -168,6 +170,8 @@ def run_mineru(pdf_path: Path, output_dir: Path,
         result["images_dir"] = str(img_dirs[0])
 
     result["success"] = bool(md_files)
+    if not result["success"]:
+        result["error"] = result.get("error") or f"MinerU exited 0 but no output files found. STDOUT: {proc.stdout[-5000:] if proc.stdout else ''} STDERR: {proc.stderr[-5000:] if proc.stderr else ''}"
     return result
 
 
@@ -310,8 +314,9 @@ def build_provenance_trace(paper: dict, paper_id: str,
 def _get_mineru_version() -> str:
     """Get installed MinerU version."""
     try:
+        mineru_bin = os.path.join(os.path.dirname(sys.executable), "mineru")
         result = subprocess.run(
-            ["mineru", "--version"],
+            [mineru_bin, "--version"],
             capture_output=True, text=True, timeout=10
         )
         return result.stdout.strip() or "unknown"
@@ -404,8 +409,8 @@ def run(limit: int = None, paper_id_filter: str = None,
         return
 
     papers = _load_papers()
-    # Filter to papers with PDF paths
-    papers_with_pdf = [p for p in papers if p.get("pdf_path")]
+    # Filter to papers with PDFs
+    papers_with_pdf = [p for p in papers if p.get("pdf_path") or (PDF_DIR / f"{make_paper_id(p)}.pdf").exists()]
 
     if paper_id_filter:
         papers_with_pdf = [
@@ -442,7 +447,7 @@ def run(limit: int = None, paper_id_filter: str = None,
     for i, paper in enumerate(papers_with_pdf, 1):
         pid = make_paper_id(paper)
         title = paper.get("title", "Unknown")[:60]
-        pdf_path = PROJECT_ROOT / paper["pdf_path"]
+        pdf_path = PROJECT_ROOT / paper.get("pdf_path", f"data_registry/raw/{pid}.pdf")
 
         print(f"[{i}/{len(papers_with_pdf)}] {pid}")
         print(f"  📄 {title}...")
