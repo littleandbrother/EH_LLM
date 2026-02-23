@@ -1,0 +1,28 @@
+{
+  "paper_id": "10_1088_1361_6439_aac58a",
+  "doi": "10.1088/1361-6439/aac58a",
+  "title": "High-performance low-frequency MEMS energy harvester via partially covering PZT thick film",
+  "source_apis": [
+    "openalex"
+  ],
+  "pdf_url": "",
+  "pdf_local_path": "",
+  "processing": {
+    "tool": "MinerU",
+    "version": "mineru, version 2.7.6",
+    "timestamp": "2026-02-23T11:41:18.971567+00:00",
+    "duration_s": 5.09,
+    "success": false,
+    "error": ""
+  },
+  "outputs": {
+    "content_md": "",
+    "layout_json": "",
+    "images_dir": "",
+    "normalized_json": ""
+  },
+  "data_lineage": {
+    "papers_jsonl_hash": "500fa9e1ccbceb2a8f398eb6743b9d87",
+    "pipeline_step": "ingestion/mineru_runner.py"
+  }
+}

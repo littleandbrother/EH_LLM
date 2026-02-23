@@ -1,0 +1,28 @@
+{
+  "paper_id": "10_1109_tmag_2015_2437892",
+  "doi": "10.1109/tmag.2015.2437892",
+  "title": "Design and Optimization of an Electromagnetic Vibration Energy Harvester Using Dual Halbach Arrays",
+  "source_apis": [
+    "openalex"
+  ],
+  "pdf_url": "",
+  "pdf_local_path": "",
+  "processing": {
+    "tool": "MinerU",
+    "version": "mineru, version 2.7.6",
+    "timestamp": "2026-02-23T11:37:06.092540+00:00",
+    "duration_s": 6.03,
+    "success": false,
+    "error": ""
+  },
+  "outputs": {
+    "content_md": "",
+    "layout_json": "",
+    "images_dir": "",
+    "normalized_json": ""
+  },
+  "data_lineage": {
+    "papers_jsonl_hash": "113a3775f9293c3575984dd8e957bf30",
+    "pipeline_step": "ingestion/mineru_runner.py"
+  }
+}

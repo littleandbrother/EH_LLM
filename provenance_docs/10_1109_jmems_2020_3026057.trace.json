@@ -1,0 +1,28 @@
+{
+  "paper_id": "10_1109_jmems_2020_3026057",
+  "doi": "10.1109/jmems.2020.3026057",
+  "title": "An Electromagnetic Translational Vibration Energy Harvester Fabricated in MP35N Alloy",
+  "source_apis": [
+    "openalex"
+  ],
+  "pdf_url": "",
+  "pdf_local_path": "",
+  "processing": {
+    "tool": "MinerU",
+    "version": "mineru, version 2.7.6",
+    "timestamp": "2026-02-23T11:43:07.980151+00:00",
+    "duration_s": 5.25,
+    "success": false,
+    "error": ""
+  },
+  "outputs": {
+    "content_md": "",
+    "layout_json": "",
+    "images_dir": "",
+    "normalized_json": ""
+  },
+  "data_lineage": {
+    "papers_jsonl_hash": "8116f739f1128b56e7d4717405f362c6",
+    "pipeline_step": "ingestion/mineru_runner.py"
+  }
+}

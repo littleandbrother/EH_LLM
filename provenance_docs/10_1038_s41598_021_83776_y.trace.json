@@ -1,0 +1,28 @@
+{
+  "paper_id": "10_1038_s41598_021_83776_y",
+  "doi": "10.1038/s41598-021-83776-y",
+  "title": "Design and optimisation of magnetically-tunable hybrid piezoelectric-triboelectric energy harvester",
+  "source_apis": [
+    "semantic_scholar"
+  ],
+  "pdf_url": "https://www.nature.com/articles/s41598-021-83776-y.pdf",
+  "pdf_local_path": "",
+  "processing": {
+    "tool": "MinerU",
+    "version": "mineru, version 2.7.6",
+    "timestamp": "2026-02-23T11:39:48.073350+00:00",
+    "duration_s": 5.02,
+    "success": false,
+    "error": ""
+  },
+  "outputs": {
+    "content_md": "",
+    "layout_json": "",
+    "images_dir": "",
+    "normalized_json": ""
+  },
+  "data_lineage": {
+    "papers_jsonl_hash": "fb277e6fa56f5e0918461adee7d59853",
+    "pipeline_step": "ingestion/mineru_runner.py"
+  }
+}

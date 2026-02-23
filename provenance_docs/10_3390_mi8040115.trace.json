@@ -1,0 +1,28 @@
+{
+  "paper_id": "10_3390_mi8040115",
+  "doi": "10.3390/mi8040115",
+  "title": "Helical Piezoelectric Energy Harvester and Its Application to Energy Harvesting Garments",
+  "source_apis": [
+    "openalex"
+  ],
+  "pdf_url": "https://www.mdpi.com/2072-666X/8/4/115/pdf?version=1491312165",
+  "pdf_local_path": "",
+  "processing": {
+    "tool": "MinerU",
+    "version": "mineru, version 2.7.6",
+    "timestamp": "2026-02-23T11:36:49.144238+00:00",
+    "duration_s": 5.94,
+    "success": false,
+    "error": ""
+  },
+  "outputs": {
+    "content_md": "",
+    "layout_json": "",
+    "images_dir": "",
+    "normalized_json": ""
+  },
+  "data_lineage": {
+    "papers_jsonl_hash": "bdf83f6008fc2ec00bd1bb79f60f4f08",
+    "pipeline_step": "ingestion/mineru_runner.py"
+  }
+}

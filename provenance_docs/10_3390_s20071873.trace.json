@@ -1,0 +1,28 @@
+{
+  "paper_id": "10_3390_s20071873",
+  "doi": "10.3390/s20071873",
+  "title": "A Combination of a Vibrational Electromagnetic Energy Harvester and a Giant Magnetoimpedance (GMI) Sensor",
+  "source_apis": [
+    "openalex"
+  ],
+  "pdf_url": "https://www.mdpi.com/1424-8220/20/7/1873/pdf",
+  "pdf_local_path": "",
+  "processing": {
+    "tool": "MinerU",
+    "version": "mineru, version 2.7.6",
+    "timestamp": "2026-02-23T11:41:53.651737+00:00",
+    "duration_s": 5.01,
+    "success": false,
+    "error": ""
+  },
+  "outputs": {
+    "content_md": "",
+    "layout_json": "",
+    "images_dir": "",
+    "normalized_json": ""
+  },
+  "data_lineage": {
+    "papers_jsonl_hash": "f1bcb07798936fc94333e985514ceb50",
+    "pipeline_step": "ingestion/mineru_runner.py"
+  }
+}

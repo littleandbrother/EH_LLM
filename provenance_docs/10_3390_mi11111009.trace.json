@@ -1,0 +1,28 @@
+{
+  "paper_id": "10_3390_mi11111009",
+  "doi": "10.3390/mi11111009",
+  "title": "Ultra-Low Frequency Eccentric Pendulum-Based Electromagnetic Vibrational Energy Harvester",
+  "source_apis": [
+    "semantic_scholar"
+  ],
+  "pdf_url": "https://www.mdpi.com/2072-666X/11/11/1009/pdf?version=1605503116",
+  "pdf_local_path": "",
+  "processing": {
+    "tool": "MinerU",
+    "version": "mineru, version 2.7.6",
+    "timestamp": "2026-02-23T11:38:06.369616+00:00",
+    "duration_s": 5.16,
+    "success": false,
+    "error": ""
+  },
+  "outputs": {
+    "content_md": "",
+    "layout_json": "",
+    "images_dir": "",
+    "normalized_json": ""
+  },
+  "data_lineage": {
+    "papers_jsonl_hash": "e516178181bbcc7297c4c6aa94d86a7b",
+    "pipeline_step": "ingestion/mineru_runner.py"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "paper_id": "10_1063_1_4978403",
+  "doi": "10.1063/1.4978403",
+  "title": "Multi-directional electromagnetic vibration energy harvester using circular Halbach array",
+  "source_apis": [
+    "openalex"
+  ],
+  "pdf_url": "https://aip.scitation.org/doi/pdf/10.1063/1.4978403",
+  "pdf_local_path": "",
+  "processing": {
+    "tool": "MinerU",
+    "version": "mineru, version 2.7.6",
+    "timestamp": "2026-02-23T11:41:11.974615+00:00",
+    "duration_s": 5.38,
+    "success": false,
+    "error": ""
+  },
+  "outputs": {
+    "content_md": "",
+    "layout_json": "",
+    "images_dir": "",
+    "normalized_json": ""
+  },
+  "data_lineage": {
+    "papers_jsonl_hash": "245a2c7e1b7ec23d20fd255c2b100498",
+    "pipeline_step": "ingestion/mineru_runner.py"
+  }
+}

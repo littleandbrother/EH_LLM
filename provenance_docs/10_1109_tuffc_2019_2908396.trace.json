@@ -1,0 +1,28 @@
+{
+  "paper_id": "10_1109_tuffc_2019_2908396",
+  "doi": "10.1109/tuffc.2019.2908396",
+  "title": "Low-Frequency Vibration Energy Harvesting With Bidomain LiNbO<sub>3</sub> Single Crystals",
+  "source_apis": [
+    "openalex"
+  ],
+  "pdf_url": "",
+  "pdf_local_path": "",
+  "processing": {
+    "tool": "MinerU",
+    "version": "mineru, version 2.7.6",
+    "timestamp": "2026-02-23T11:38:51.610554+00:00",
+    "duration_s": 8.24,
+    "success": false,
+    "error": ""
+  },
+  "outputs": {
+    "content_md": "",
+    "layout_json": "",
+    "images_dir": "",
+    "normalized_json": ""
+  },
+  "data_lineage": {
+    "papers_jsonl_hash": "a57388b5ec0d1d58e321e34bc1a958ec",
+    "pipeline_step": "ingestion/mineru_runner.py"
+  }
+}

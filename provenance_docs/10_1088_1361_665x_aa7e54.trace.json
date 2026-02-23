@@ -1,0 +1,28 @@
+{
+  "paper_id": "10_1088_1361_665x_aa7e54",
+  "doi": "10.1088/1361-665x/aa7e54",
+  "title": "A velocity-amplified electromagnetic energy harvester for small amplitude vibration",
+  "source_apis": [
+    "openalex"
+  ],
+  "pdf_url": "",
+  "pdf_local_path": "",
+  "processing": {
+    "tool": "MinerU",
+    "version": "mineru, version 2.7.6",
+    "timestamp": "2026-02-23T11:40:40.499268+00:00",
+    "duration_s": 5.17,
+    "success": false,
+    "error": ""
+  },
+  "outputs": {
+    "content_md": "",
+    "layout_json": "",
+    "images_dir": "",
+    "normalized_json": ""
+  },
+  "data_lineage": {
+    "papers_jsonl_hash": "c95c2585a29c78c5c5398b1a86ee66ea",
+    "pipeline_step": "ingestion/mineru_runner.py"
+  }
+}

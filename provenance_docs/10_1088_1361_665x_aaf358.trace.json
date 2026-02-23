@@ -1,0 +1,28 @@
+{
+  "paper_id": "10_1088_1361_665x_aaf358",
+  "doi": "10.1088/1361-665x/aaf358",
+  "title": "Nonlinear piezoelectric vibration energy harvester with frequency-tuned impacting resonators for improving broadband performance at low frequencies",
+  "source_apis": [
+    "openalex"
+  ],
+  "pdf_url": "http://infoscience.epfl.ch/record/266877",
+  "pdf_local_path": "",
+  "processing": {
+    "tool": "MinerU",
+    "version": "mineru, version 2.7.6",
+    "timestamp": "2026-02-23T11:38:20.490776+00:00",
+    "duration_s": 5.26,
+    "success": false,
+    "error": ""
+  },
+  "outputs": {
+    "content_md": "",
+    "layout_json": "",
+    "images_dir": "",
+    "normalized_json": ""
+  },
+  "data_lineage": {
+    "papers_jsonl_hash": "af27ccecb7d877b881542ae175403c1d",
+    "pipeline_step": "ingestion/mineru_runner.py"
+  }
+}

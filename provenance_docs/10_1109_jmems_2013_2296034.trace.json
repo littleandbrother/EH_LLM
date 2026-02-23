@@ -1,0 +1,28 @@
+{
+  "paper_id": "10_1109_jmems_2013_2296034",
+  "doi": "10.1109/jmems.2013.2296034",
+  "title": "High Voltage Output MEMS Vibration Energy Harvester in $d_{31}$ Mode With PZT Thin Film",
+  "source_apis": [
+    "openalex"
+  ],
+  "pdf_url": "",
+  "pdf_local_path": "",
+  "processing": {
+    "tool": "MinerU",
+    "version": "mineru, version 2.7.6",
+    "timestamp": "2026-02-23T11:37:44.945809+00:00",
+    "duration_s": 8.39,
+    "success": false,
+    "error": ""
+  },
+  "outputs": {
+    "content_md": "",
+    "layout_json": "",
+    "images_dir": "",
+    "normalized_json": ""
+  },
+  "data_lineage": {
+    "papers_jsonl_hash": "6f3ae7cec1550c206469f2715fd08879",
+    "pipeline_step": "ingestion/mineru_runner.py"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "paper_id": "10_3390_mi13060863",
+  "doi": "10.3390/mi13060863",
+  "title": "Fully Integrated High-Performance MEMS Energy Harvester for Mechanical and Contactless Magnetic Excitation in Resonance and at Low Frequencies",
+  "source_apis": [
+    "openalex"
+  ],
+  "pdf_url": "https://www.mdpi.com/2072-666X/13/6/863/pdf?version=1653915567",
+  "pdf_local_path": "",
+  "processing": {
+    "tool": "MinerU",
+    "version": "mineru, version 2.7.6",
+    "timestamp": "2026-02-23T11:41:39.868181+00:00",
+    "duration_s": 5.11,
+    "success": false,
+    "error": ""
+  },
+  "outputs": {
+    "content_md": "",
+    "layout_json": "",
+    "images_dir": "",
+    "normalized_json": ""
+  },
+  "data_lineage": {
+    "papers_jsonl_hash": "2cfdb7f6e5e3fc6a73d65eab32901b88",
+    "pipeline_step": "ingestion/mineru_runner.py"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "paper_id": "10_1088_1361_665x_ab9147",
+  "doi": "10.1088/1361-665x/ab9147",
+  "title": "A hula-hooping-like nonlinear buckled elastic string electromagnetic energy harvester for omnidirectional broadband excitations",
+  "source_apis": [
+    "openalex"
+  ],
+  "pdf_url": "",
+  "pdf_local_path": "",
+  "processing": {
+    "tool": "MinerU",
+    "version": "mineru, version 2.7.6",
+    "timestamp": "2026-02-23T11:41:25.968803+00:00",
+    "duration_s": 5.1,
+    "success": false,
+    "error": ""
+  },
+  "outputs": {
+    "content_md": "",
+    "layout_json": "",
+    "images_dir": "",
+    "normalized_json": ""
+  },
+  "data_lineage": {
+    "papers_jsonl_hash": "4013ef8a67a12444df9e838ecaf84ebe",
+    "pipeline_step": "ingestion/mineru_runner.py"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "paper_id": "10_1088_0960_1317_26_12_124012",
+  "doi": "10.1088/0960-1317/26/12/124012",
+  "title": "Electrostatic MEMS vibration energy harvester for HVAC applications with impact-based frequency up-conversion",
+  "source_apis": [
+    "openalex"
+  ],
+  "pdf_url": "",
+  "pdf_local_path": "",
+  "processing": {
+    "tool": "MinerU",
+    "version": "mineru, version 2.7.6",
+    "timestamp": "2026-02-23T11:42:11.002123+00:00",
+    "duration_s": 8.49,
+    "success": false,
+    "error": ""
+  },
+  "outputs": {
+    "content_md": "",
+    "layout_json": "",
+    "images_dir": "",
+    "normalized_json": ""
+  },
+  "data_lineage": {
+    "papers_jsonl_hash": "39c3e1cb2c79a41fd377b95d1b665c71",
+    "pipeline_step": "ingestion/mineru_runner.py"
+  }
+}

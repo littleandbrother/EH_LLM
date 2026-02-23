@@ -1,0 +1,28 @@
+{
+  "paper_id": "10_1021_nn405209u",
+  "doi": "10.1021/nn405209u",
+  "title": "Triboelectric nanogenerator built on suspended 3D spiral structure as vibration and positioning sensor and wave energy harvester.",
+  "source_apis": [
+    "semantic_scholar"
+  ],
+  "pdf_url": "",
+  "pdf_local_path": "",
+  "processing": {
+    "tool": "MinerU",
+    "version": "mineru, version 2.7.6",
+    "timestamp": "2026-02-23T11:43:39.477822+00:00",
+    "duration_s": 5.11,
+    "success": false,
+    "error": ""
+  },
+  "outputs": {
+    "content_md": "",
+    "layout_json": "",
+    "images_dir": "",
+    "normalized_json": ""
+  },
+  "data_lineage": {
+    "papers_jsonl_hash": "496796f0cacec1981a7978d6c7713e5e",
+    "pipeline_step": "ingestion/mineru_runner.py"
+  }
+}

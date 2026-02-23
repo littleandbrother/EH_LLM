@@ -1,0 +1,28 @@
+{
+  "paper_id": "10_1063_1_4878537",
+  "doi": "10.1063/1.4878537",
+  "title": "Energy harvester array using piezoelectric circular diaphragm for broadband vibration",
+  "source_apis": [
+    "openalex"
+  ],
+  "pdf_url": "",
+  "pdf_local_path": "",
+  "processing": {
+    "tool": "MinerU",
+    "version": "mineru, version 2.7.6",
+    "timestamp": "2026-02-23T11:44:17.945293+00:00",
+    "duration_s": 6.41,
+    "success": false,
+    "error": ""
+  },
+  "outputs": {
+    "content_md": "",
+    "layout_json": "",
+    "images_dir": "",
+    "normalized_json": ""
+  },
+  "data_lineage": {
+    "papers_jsonl_hash": "ec563af02f141e3ebdd08c45bf241941",
+    "pipeline_step": "ingestion/mineru_runner.py"
+  }
+}

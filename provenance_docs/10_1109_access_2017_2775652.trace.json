@@ -1,0 +1,28 @@
+{
+  "paper_id": "10_1109_access_2017_2775652",
+  "doi": "10.1109/access.2017.2775652",
+  "title": "Performance Dependence on Initial Free-End Levitation of a Magnetically Levitated Piezoelectric Vibration Energy Harvester With a Composite Cantilever Beam",
+  "source_apis": [
+    "openalex"
+  ],
+  "pdf_url": "https://doi.org/10.1109/access.2017.2775652",
+  "pdf_local_path": "",
+  "processing": {
+    "tool": "MinerU",
+    "version": "mineru, version 2.7.6",
+    "timestamp": "2026-02-23T11:38:58.673699+00:00",
+    "duration_s": 5.17,
+    "success": false,
+    "error": ""
+  },
+  "outputs": {
+    "content_md": "",
+    "layout_json": "",
+    "images_dir": "",
+    "normalized_json": ""
+  },
+  "data_lineage": {
+    "papers_jsonl_hash": "1c3e18b483877017f1da564bac2a6a2d",
+    "pipeline_step": "ingestion/mineru_runner.py"
+  }
+}

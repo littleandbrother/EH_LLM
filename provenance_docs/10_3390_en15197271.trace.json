@@ -1,0 +1,28 @@
+{
+  "paper_id": "10_3390_en15197271",
+  "doi": "10.3390/en15197271",
+  "title": "Automatic Resonance Tuning Technique for an Ultra-Broadband Piezoelectric Energy Harvester",
+  "source_apis": [
+    "openalex"
+  ],
+  "pdf_url": "https://www.mdpi.com/1996-1073/15/19/7271/pdf?version=1665297117",
+  "pdf_local_path": "",
+  "processing": {
+    "tool": "MinerU",
+    "version": "mineru, version 2.7.6",
+    "timestamp": "2026-02-23T11:38:13.387054+00:00",
+    "duration_s": 5.07,
+    "success": false,
+    "error": ""
+  },
+  "outputs": {
+    "content_md": "",
+    "layout_json": "",
+    "images_dir": "",
+    "normalized_json": ""
+  },
+  "data_lineage": {
+    "papers_jsonl_hash": "beaff6a8d569dc084e9d4f860277352f",
+    "pipeline_step": "ingestion/mineru_runner.py"
+  }
+}

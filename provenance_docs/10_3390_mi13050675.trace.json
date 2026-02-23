@@ -1,0 +1,28 @@
+{
+  "paper_id": "10_3390_mi13050675",
+  "doi": "10.3390/mi13050675",
+  "title": "Design and Optimization of Piezoelectric Cantilever Beam Vibration Energy Harvester",
+  "source_apis": [
+    "openalex"
+  ],
+  "pdf_url": "https://www.mdpi.com/2072-666X/13/5/675/pdf?version=1650972889",
+  "pdf_local_path": "",
+  "processing": {
+    "tool": "MinerU",
+    "version": "mineru, version 2.7.6",
+    "timestamp": "2026-02-23T11:37:27.710647+00:00",
+    "duration_s": 5.06,
+    "success": false,
+    "error": ""
+  },
+  "outputs": {
+    "content_md": "",
+    "layout_json": "",
+    "images_dir": "",
+    "normalized_json": ""
+  },
+  "data_lineage": {
+    "papers_jsonl_hash": "1fcea31b4b0551d77da55860e08bdcbe",
+    "pipeline_step": "ingestion/mineru_runner.py"
+  }
+}

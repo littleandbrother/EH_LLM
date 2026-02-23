@@ -1,0 +1,28 @@
+{
+  "paper_id": "10_7498_aps_68_20190806",
+  "doi": "10.7498/aps.68.20190806",
+  "title": "Design and output performance of vibration energy harvesting triboelectric nanogenerator",
+  "source_apis": [
+    "openalex"
+  ],
+  "pdf_url": "https://doi.org/10.7498/aps.68.20190806",
+  "pdf_local_path": "",
+  "processing": {
+    "tool": "MinerU",
+    "version": "mineru, version 2.7.6",
+    "timestamp": "2026-02-23T11:40:26.423091+00:00",
+    "duration_s": 5.03,
+    "success": false,
+    "error": ""
+  },
+  "outputs": {
+    "content_md": "",
+    "layout_json": "",
+    "images_dir": "",
+    "normalized_json": ""
+  },
+  "data_lineage": {
+    "papers_jsonl_hash": "e9da348a03ee0b15712d68c281af7ced",
+    "pipeline_step": "ingestion/mineru_runner.py"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "paper_id": "10_1080_19475411_2020_1751743",
+  "doi": "10.1080/19475411.2020.1751743",
+  "title": "Performance enhancement of cantilever piezoelectric energy harvesters by sizing analysis",
+  "source_apis": [
+    "semantic_scholar"
+  ],
+  "pdf_url": "https://doi.org/10.1080/19475411.2020.1751743",
+  "pdf_local_path": "",
+  "processing": {
+    "tool": "MinerU",
+    "version": "mineru, version 2.7.6",
+    "timestamp": "2026-02-23T11:42:53.546446+00:00",
+    "duration_s": 5.12,
+    "success": false,
+    "error": ""
+  },
+  "outputs": {
+    "content_md": "",
+    "layout_json": "",
+    "images_dir": "",
+    "normalized_json": ""
+  },
+  "data_lineage": {
+    "papers_jsonl_hash": "a45bb09c25ae87d2da53e9cf73272805",
+    "pipeline_step": "ingestion/mineru_runner.py"
+  }
+}

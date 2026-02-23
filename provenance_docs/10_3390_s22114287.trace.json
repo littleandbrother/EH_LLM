@@ -1,0 +1,28 @@
+{
+  "paper_id": "10_3390_s22114287",
+  "doi": "10.3390/s22114287",
+  "title": "A Cantilever Beam-Based Triboelectric Nanogenerator as a Drill Pipe Transverse Vibration Energy Harvester Powering Intelligent Exploitation System",
+  "source_apis": [
+    "semantic_scholar"
+  ],
+  "pdf_url": "https://www.mdpi.com/1424-8220/22/11/4287/pdf?version=1654594770",
+  "pdf_local_path": "",
+  "processing": {
+    "tool": "MinerU",
+    "version": "mineru, version 2.7.6",
+    "timestamp": "2026-02-23T11:43:00.772974+00:00",
+    "duration_s": 5.27,
+    "success": false,
+    "error": ""
+  },
+  "outputs": {
+    "content_md": "",
+    "layout_json": "",
+    "images_dir": "",
+    "normalized_json": ""
+  },
+  "data_lineage": {
+    "papers_jsonl_hash": "9ca41779267e995ff1dba1c46d586ff6",
+    "pipeline_step": "ingestion/mineru_runner.py"
+  }
+}

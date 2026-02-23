@@ -1,0 +1,28 @@
+{
+  "paper_id": "10_1109_memsys_2015_7051143",
+  "doi": "10.1109/memsys.2015.7051143",
+  "title": "Cylindrical halbach magnet array for electromagnetic vibration energy harvesters",
+  "source_apis": [
+    "openalex"
+  ],
+  "pdf_url": "",
+  "pdf_local_path": "",
+  "processing": {
+    "tool": "MinerU",
+    "version": "mineru, version 2.7.6",
+    "timestamp": "2026-02-23T11:41:04.713065+00:00",
+    "duration_s": 8.39,
+    "success": false,
+    "error": ""
+  },
+  "outputs": {
+    "content_md": "",
+    "layout_json": "",
+    "images_dir": "",
+    "normalized_json": ""
+  },
+  "data_lineage": {
+    "papers_jsonl_hash": "657e9697ed6ab7f1b03a52521a720f13",
+    "pipeline_step": "ingestion/mineru_runner.py"
+  }
+}

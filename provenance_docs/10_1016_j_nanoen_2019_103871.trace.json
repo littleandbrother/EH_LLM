@@ -1,0 +1,28 @@
+{
+  "paper_id": "10_1016_j_nanoen_2019_103871",
+  "doi": "10.1016/j.nanoen.2019.103871",
+  "title": "A rotational pendulum based electromagnetic/triboelectric hybrid-generator for ultra-low-frequency vibrations aiming at human motion and blue energy applications",
+  "source_apis": [
+    "openalex"
+  ],
+  "pdf_url": "",
+  "pdf_local_path": "",
+  "processing": {
+    "tool": "MinerU",
+    "version": "mineru, version 2.7.6",
+    "timestamp": "2026-02-23T11:43:46.386731+00:00",
+    "duration_s": 5.01,
+    "success": false,
+    "error": ""
+  },
+  "outputs": {
+    "content_md": "",
+    "layout_json": "",
+    "images_dir": "",
+    "normalized_json": ""
+  },
+  "data_lineage": {
+    "papers_jsonl_hash": "08de115d13b228cff60977e1b921e9cd",
+    "pipeline_step": "ingestion/mineru_runner.py"
+  }
+}

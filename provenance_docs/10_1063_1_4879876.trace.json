@@ -1,0 +1,28 @@
+{
+  "paper_id": "10_1063_1_4879876",
+  "doi": "10.1063/1.4879876",
+  "title": "Structure–performance relationships for cantilever-type piezoelectric energy harvesters",
+  "source_apis": [
+    "openalex"
+  ],
+  "pdf_url": "https://pubs.aip.org/aip/jap/article-pdf/doi/10.1063/1.4879876/15138629/204108_1_online.pdf",
+  "pdf_local_path": "",
+  "processing": {
+    "tool": "MinerU",
+    "version": "mineru, version 2.7.6",
+    "timestamp": "2026-02-23T11:36:58.195214+00:00",
+    "duration_s": 6.87,
+    "success": false,
+    "error": ""
+  },
+  "outputs": {
+    "content_md": "",
+    "layout_json": "",
+    "images_dir": "",
+    "normalized_json": ""
+  },
+  "data_lineage": {
+    "papers_jsonl_hash": "46518b84e3f717b323275e8956e7dcfe",
+    "pipeline_step": "ingestion/mineru_runner.py"
+  }
+}

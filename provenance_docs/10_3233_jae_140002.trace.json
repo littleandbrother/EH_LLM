@@ -1,0 +1,28 @@
+{
+  "paper_id": "10_3233_jae_140002",
+  "doi": "10.3233/jae-140002",
+  "title": "Design, fabrication and performances of MEMS piezoelectric energy harvester",
+  "source_apis": [
+    "openalex"
+  ],
+  "pdf_url": "",
+  "pdf_local_path": "",
+  "processing": {
+    "tool": "MinerU",
+    "version": "mineru, version 2.7.6",
+    "timestamp": "2026-02-23T11:41:46.719888+00:00",
+    "duration_s": 5.01,
+    "success": false,
+    "error": ""
+  },
+  "outputs": {
+    "content_md": "",
+    "layout_json": "",
+    "images_dir": "",
+    "normalized_json": ""
+  },
+  "data_lineage": {
+    "papers_jsonl_hash": "8c0fb9d2784408abf336f606a3980388",
+    "pipeline_step": "ingestion/mineru_runner.py"
+  }
+}

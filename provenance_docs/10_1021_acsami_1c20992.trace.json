@@ -1,0 +1,28 @@
+{
+  "paper_id": "10_1021_acsami_1c20992",
+  "doi": "10.1021/acsami.1c20992",
+  "title": "Performance-Improved Highly Integrated Uniaxial Tristate Hybrid Nanogenerator for Sustainable Mechanical Energy Harvesting.",
+  "source_apis": [
+    "semantic_scholar"
+  ],
+  "pdf_url": "",
+  "pdf_local_path": "",
+  "processing": {
+    "tool": "MinerU",
+    "version": "mineru, version 2.7.6",
+    "timestamp": "2026-02-23T11:39:58.200412+00:00",
+    "duration_s": 8.2,
+    "success": false,
+    "error": ""
+  },
+  "outputs": {
+    "content_md": "",
+    "layout_json": "",
+    "images_dir": "",
+    "normalized_json": ""
+  },
+  "data_lineage": {
+    "papers_jsonl_hash": "4f8a8711d655387b5a1a7e2618e9932c",
+    "pipeline_step": "ingestion/mineru_runner.py"
+  }
+}

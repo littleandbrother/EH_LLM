@@ -1,0 +1,28 @@
+{
+  "paper_id": "10_1109_jsen_2020_3007000",
+  "doi": "10.1109/jsen.2020.3007000",
+  "title": "Pagoda-Shaped Triboelectric Nanogenerator With High Reliability for Harvesting Vibration Energy and Measuring Vibration Frequency in Downhole",
+  "source_apis": [
+    "openalex"
+  ],
+  "pdf_url": "",
+  "pdf_local_path": "",
+  "processing": {
+    "tool": "MinerU",
+    "version": "mineru, version 2.7.6",
+    "timestamp": "2026-02-23T11:36:40.840635+00:00",
+    "duration_s": 9.02,
+    "success": false,
+    "error": ""
+  },
+  "outputs": {
+    "content_md": "",
+    "layout_json": "",
+    "images_dir": "",
+    "normalized_json": ""
+  },
+  "data_lineage": {
+    "papers_jsonl_hash": "fe54e1d5ece602b2d6fdaf401a38a0c1",
+    "pipeline_step": "ingestion/mineru_runner.py"
+  }
+}

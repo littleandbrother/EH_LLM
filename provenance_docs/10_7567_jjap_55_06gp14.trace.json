@@ -1,0 +1,28 @@
+{
+  "paper_id": "10_7567_jjap_55_06gp14",
+  "doi": "10.7567/jjap.55.06gp14",
+  "title": "Design of piezoelectric MEMS cantilever for low-frequency vibration energy harvester",
+  "source_apis": [
+    "openalex"
+  ],
+  "pdf_url": "",
+  "pdf_local_path": "",
+  "processing": {
+    "tool": "MinerU",
+    "version": "mineru, version 2.7.6",
+    "timestamp": "2026-02-23T11:39:05.695584+00:00",
+    "duration_s": 5.18,
+    "success": false,
+    "error": ""
+  },
+  "outputs": {
+    "content_md": "",
+    "layout_json": "",
+    "images_dir": "",
+    "normalized_json": ""
+  },
+  "data_lineage": {
+    "papers_jsonl_hash": "380d06d7b0a62528dc72e3d1c1fc56ea",
+    "pipeline_step": "ingestion/mineru_runner.py"
+  }
+}

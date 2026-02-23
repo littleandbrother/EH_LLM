@@ -1,0 +1,28 @@
+{
+  "paper_id": "10_3390_mi14020240",
+  "doi": "10.3390/mi14020240",
+  "title": "A Hybrid Piezoelectric and Electromagnetic Broadband Harvester with Double Cantilever Beams",
+  "source_apis": [
+    "semantic_scholar"
+  ],
+  "pdf_url": "https://www.mdpi.com/2072-666X/14/2/240/pdf?version=1674031263",
+  "pdf_local_path": "",
+  "processing": {
+    "tool": "MinerU",
+    "version": "mineru, version 2.7.6",
+    "timestamp": "2026-02-23T11:38:41.481243+00:00",
+    "duration_s": 5.11,
+    "success": false,
+    "error": ""
+  },
+  "outputs": {
+    "content_md": "",
+    "layout_json": "",
+    "images_dir": "",
+    "normalized_json": ""
+  },
+  "data_lineage": {
+    "papers_jsonl_hash": "a0c49715cc150300d559653308346c0d",
+    "pipeline_step": "ingestion/mineru_runner.py"
+  }
+}

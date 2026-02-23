@@ -1,0 +1,28 @@
+{
+  "paper_id": "10_1177_1045389x18770870",
+  "doi": "10.1177/1045389x18770870",
+  "title": "Theoretical modeling and analysis of a 2-degree-of-freedom hybrid piezoelectric–electromagnetic vibration energy harvester with a driven beam",
+  "source_apis": [
+    "openalex"
+  ],
+  "pdf_url": "",
+  "pdf_local_path": "",
+  "processing": {
+    "tool": "MinerU",
+    "version": "mineru, version 2.7.6",
+    "timestamp": "2026-02-23T11:38:27.479165+00:00",
+    "duration_s": 5.03,
+    "success": false,
+    "error": ""
+  },
+  "outputs": {
+    "content_md": "",
+    "layout_json": "",
+    "images_dir": "",
+    "normalized_json": ""
+  },
+  "data_lineage": {
+    "papers_jsonl_hash": "c40c495a56426e59524d57135f3fd21f",
+    "pipeline_step": "ingestion/mineru_runner.py"
+  }
+}

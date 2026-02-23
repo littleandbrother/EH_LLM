@@ -1,0 +1,28 @@
+{
+  "paper_id": "10_3390_en12142710",
+  "doi": "10.3390/en12142710",
+  "title": "A Nonlinear Broadband Electromagnetic Vibration Energy Harvester Based on Double-Clamped Beam",
+  "source_apis": [
+    "openalex"
+  ],
+  "pdf_url": "https://www.mdpi.com/1996-1073/12/14/2710/pdf?version=1563418892",
+  "pdf_local_path": "",
+  "processing": {
+    "tool": "MinerU",
+    "version": "mineru, version 2.7.6",
+    "timestamp": "2026-02-23T11:42:18.188857+00:00",
+    "duration_s": 5.25,
+    "success": false,
+    "error": ""
+  },
+  "outputs": {
+    "content_md": "",
+    "layout_json": "",
+    "images_dir": "",
+    "normalized_json": ""
+  },
+  "data_lineage": {
+    "papers_jsonl_hash": "ef095a86265e9c0cb59a143dd8ef436d",
+    "pipeline_step": "ingestion/mineru_runner.py"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "paper_id": "10_3390_nano12081248",
+  "doi": "10.3390/nano12081248",
+  "title": "A Robust Silicone Rubber Strip-Based Triboelectric Nanogenerator for Vibration Energy Harvesting and Multi-Functional Self-Powered Sensing",
+  "source_apis": [
+    "openalex"
+  ],
+  "pdf_url": "https://www.mdpi.com/2079-4991/12/8/1248/pdf?version=1649342323",
+  "pdf_local_path": "",
+  "processing": {
+    "tool": "MinerU",
+    "version": "mineru, version 2.7.6",
+    "timestamp": "2026-02-23T11:39:20.080506+00:00",
+    "duration_s": 5.34,
+    "success": false,
+    "error": ""
+  },
+  "outputs": {
+    "content_md": "",
+    "layout_json": "",
+    "images_dir": "",
+    "normalized_json": ""
+  },
+  "data_lineage": {
+    "papers_jsonl_hash": "27dd2abf5466e4ac3fd9ea5327f7ec11",
+    "pipeline_step": "ingestion/mineru_runner.py"
+  }
+}

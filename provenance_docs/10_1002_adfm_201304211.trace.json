@@ -1,0 +1,28 @@
+{
+  "paper_id": "10_1002_adfm_201304211",
+  "doi": "10.1002/adfm.201304211",
+  "title": "3D Stack Integrated Triboelectric Nanogenerator for Harvesting Vibration Energy",
+  "source_apis": [
+    "openalex"
+  ],
+  "pdf_url": "",
+  "pdf_local_path": "",
+  "processing": {
+    "tool": "MinerU",
+    "version": "mineru, version 2.7.6",
+    "timestamp": "2026-02-23T13:25:19.856782+00:00",
+    "duration_s": 3.09,
+    "success": true,
+    "error": ""
+  },
+  "outputs": {
+    "content_md": "/Users/depengsu/Desktop/paper_story_agnet/EH-LLM/parsed_docs/10_1002_adfm_201304211/content.md",
+    "layout_json": "/Users/depengsu/Desktop/paper_story_agnet/EH-LLM/parsed_docs/10_1002_adfm_201304211/layout.json",
+    "images_dir": "/Users/depengsu/Desktop/paper_story_agnet/EH-LLM/parsed_docs/10_1002_adfm_201304211/10_1002_adfm_201304211/auto/images",
+    "normalized_json": "/Users/depengsu/Desktop/paper_story_agnet/EH-LLM/normalized_docs/10_1002_adfm_201304211.json"
+  },
+  "data_lineage": {
+    "papers_jsonl_hash": "b0cd2e1d5a8c71a96d64b74c0ac34619",
+    "pipeline_step": "ingestion/mineru_runner.py"
+  }
+}

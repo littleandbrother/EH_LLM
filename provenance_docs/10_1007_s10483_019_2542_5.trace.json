@@ -1,0 +1,28 @@
+{
+  "paper_id": "10_1007_s10483_019_2542_5",
+  "doi": "10.1007/s10483-019-2542-5",
+  "title": "Low-frequency and broadband vibration energy harvester driven by mechanical impact based on layer-separated piezoelectric beam",
+  "source_apis": [
+    "semantic_scholar"
+  ],
+  "pdf_url": "https://link.springer.com/content/pdf/10.1007/s10483-019-2542-5.pdf",
+  "pdf_local_path": "",
+  "processing": {
+    "tool": "MinerU",
+    "version": "mineru, version 2.7.6",
+    "timestamp": "2026-02-23T11:40:05.332301+00:00",
+    "duration_s": 5.26,
+    "success": false,
+    "error": ""
+  },
+  "outputs": {
+    "content_md": "",
+    "layout_json": "",
+    "images_dir": "",
+    "normalized_json": ""
+  },
+  "data_lineage": {
+    "papers_jsonl_hash": "1c8b747037835ca11c88f2b5ca4bc0e2",
+    "pipeline_step": "ingestion/mineru_runner.py"
+  }
+}

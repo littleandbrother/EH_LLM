@@ -1,0 +1,28 @@
+{
+  "paper_id": "10_1088_1361_665X_aa573f",
+  "doi": "10.1088/1361-665X/aa573f",
+  "title": "Design and experiment of human hand motion driven electromagnetic energy harvester using dual Halbach magnet array",
+  "source_apis": [
+    "semantic_scholar"
+  ],
+  "pdf_url": "",
+  "pdf_local_path": "",
+  "processing": {
+    "tool": "MinerU",
+    "version": "mineru, version 2.7.6",
+    "timestamp": "2026-02-23T11:45:39.477700+00:00",
+    "duration_s": 18.32,
+    "success": false,
+    "error": ""
+  },
+  "outputs": {
+    "content_md": "",
+    "layout_json": "",
+    "images_dir": "",
+    "normalized_json": ""
+  },
+  "data_lineage": {
+    "papers_jsonl_hash": "bfb1ff65661bb77e5aa53d969dcf857a",
+    "pipeline_step": "ingestion/mineru_runner.py"
+  }
+}

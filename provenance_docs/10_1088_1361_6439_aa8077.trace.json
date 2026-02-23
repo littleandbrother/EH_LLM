@@ -1,0 +1,28 @@
+{
+  "paper_id": "10_1088_1361_6439_aa8077",
+  "doi": "10.1088/1361-6439/aa8077",
+  "title": "MEMS-based wide-bandwidth electromagnetic energy harvester with electroplated nickel structure",
+  "source_apis": [
+    "openalex"
+  ],
+  "pdf_url": "",
+  "pdf_local_path": "",
+  "processing": {
+    "tool": "MinerU",
+    "version": "mineru, version 2.7.6",
+    "timestamp": "2026-02-23T11:39:12.890655+00:00",
+    "duration_s": 5.27,
+    "success": false,
+    "error": ""
+  },
+  "outputs": {
+    "content_md": "",
+    "layout_json": "",
+    "images_dir": "",
+    "normalized_json": ""
+  },
+  "data_lineage": {
+    "papers_jsonl_hash": "ef2e89aa89c2d5eeaea4bdfb476f17a7",
+    "pipeline_step": "ingestion/mineru_runner.py"
+  }
+}
