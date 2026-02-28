@@ -70,7 +70,7 @@ def make_paper_id(paper: dict) -> str:
 # ---------------------------------------------------------------------------
 
 def run_mineru(pdf_path: Path, output_dir: Path,
-               device: str = "mps",
+               device: str = "cuda",
                backend: str = "pipeline",
                lang: str = "en") -> dict:
     """
@@ -396,7 +396,7 @@ def _load_papers() -> list[dict]:
 # ---------------------------------------------------------------------------
 
 def run(limit: int = None, paper_id_filter: str = None,
-        device: str = "mps", backend: str = "pipeline",
+        device: str = "cuda", backend: str = "pipeline",
         lang: str = "en", force: bool = False):
     """Run the MinerU extraction pipeline."""
     print(f"\n{'='*60}")
@@ -520,8 +520,8 @@ def main():
                         help="Max number of PDFs to process")
     parser.add_argument("--paper-id", type=str, default=None,
                         help="Process specific paper (DOI or ID substring)")
-    parser.add_argument("--device", type=str, default="mps",
-                        help="Inference device: cpu/cuda/mps (default: mps)")
+    parser.add_argument("--device", default="cuda",
+                        help="MinerU device: cpu, mps, cuda (default: cuda)")
     parser.add_argument("--backend", type=str, default="pipeline",
                         help="MinerU backend: pipeline/hybrid-auto-engine "
                              "(default: pipeline)")
