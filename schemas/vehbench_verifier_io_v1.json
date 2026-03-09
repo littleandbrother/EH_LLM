@@ -1,0 +1,277 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "vehbench_verifier_io_v1.json",
+  "title": "VEHBench Verifier I/O v1",
+  "description": "Request and response contract for the fast physics verifier used by VEHBench solvers and evaluation scripts.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "record_type",
+    "request",
+    "response"
+  ],
+  "$defs": {
+    "nullableNumber": {
+      "type": [
+        "number",
+        "null"
+      ]
+    },
+    "nullableString": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "designParameterSet": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "beam_length_mm": {
+          "$ref": "#/$defs/nullableNumber"
+        },
+        "beam_width_mm": {
+          "$ref": "#/$defs/nullableNumber"
+        },
+        "substrate_thickness_um": {
+          "$ref": "#/$defs/nullableNumber"
+        },
+        "piezo_thickness_um": {
+          "$ref": "#/$defs/nullableNumber"
+        },
+        "tip_mass_g": {
+          "$ref": "#/$defs/nullableNumber"
+        },
+        "load_resistance_ohm": {
+          "$ref": "#/$defs/nullableNumber"
+        }
+      }
+    }
+  },
+  "properties": {
+    "schema_version": {
+      "const": "vehbench_verifier_io_v1"
+    },
+    "record_type": {
+      "const": "verifier_interaction"
+    },
+    "request": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "task_id",
+        "candidate_id",
+        "design_parameters",
+        "material_parameters",
+        "excitation_settings",
+        "load_settings"
+      ],
+      "properties": {
+        "task_id": {
+          "type": "string"
+        },
+        "candidate_id": {
+          "type": "string"
+        },
+        "design_parameters": {
+          "$ref": "#/$defs/designParameterSet"
+        },
+        "material_parameters": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "structure_class": {
+              "type": [
+                "string",
+                "null"
+              ],
+              "enum": [
+                "unimorph",
+                "bimorph",
+                "other_piezo_cantilever",
+                null
+              ]
+            },
+            "piezo_material": {
+              "$ref": "#/$defs/nullableString"
+            },
+            "substrate_material": {
+              "$ref": "#/$defs/nullableString"
+            },
+            "piezo_modulus_gpa": {
+              "$ref": "#/$defs/nullableNumber"
+            },
+            "substrate_modulus_gpa": {
+              "$ref": "#/$defs/nullableNumber"
+            },
+            "piezo_density_kg_m3": {
+              "$ref": "#/$defs/nullableNumber"
+            },
+            "substrate_density_kg_m3": {
+              "$ref": "#/$defs/nullableNumber"
+            },
+            "electromechanical_coupling_note": {
+              "$ref": "#/$defs/nullableString"
+            }
+          }
+        },
+        "excitation_settings": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "excitation_type": {
+              "type": [
+                "string",
+                "null"
+              ],
+              "enum": [
+                "sinusoidal_base_excitation",
+                "other",
+                null
+              ]
+            },
+            "frequency_hz": {
+              "$ref": "#/$defs/nullableNumber"
+            },
+            "acceleration_g": {
+              "$ref": "#/$defs/nullableNumber"
+            },
+            "acceleration_ms2": {
+              "$ref": "#/$defs/nullableNumber"
+            },
+            "base_displacement_mm": {
+              "$ref": "#/$defs/nullableNumber"
+            }
+          }
+        },
+        "load_settings": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "load_type": {
+              "type": [
+                "string",
+                "null"
+              ],
+              "enum": [
+                "resistive",
+                "rectified",
+                "unspecified",
+                null
+              ]
+            },
+            "load_resistance_ohm": {
+              "$ref": "#/$defs/nullableNumber"
+            }
+          }
+        },
+        "constraint_context": {
+          "type": [
+            "object",
+            "null"
+          ],
+          "additionalProperties": false,
+          "properties": {
+            "target_resonant_frequency_hz": {
+              "$ref": "#/$defs/nullableNumber"
+            },
+            "stress_limit_mpa": {
+              "$ref": "#/$defs/nullableNumber"
+            },
+            "displacement_limit_mm": {
+              "$ref": "#/$defs/nullableNumber"
+            },
+            "power_target_uw": {
+              "$ref": "#/$defs/nullableNumber"
+            }
+          }
+        }
+      }
+    },
+    "response": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "verifier_version",
+        "is_valid_request",
+        "is_feasible",
+        "outputs",
+        "violations"
+      ],
+      "properties": {
+        "verifier_version": {
+          "type": "string"
+        },
+        "is_valid_request": {
+          "type": "boolean"
+        },
+        "is_feasible": {
+          "type": "boolean"
+        },
+        "outputs": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "resonant_frequency_hz": {
+              "$ref": "#/$defs/nullableNumber"
+            },
+            "tip_displacement_mm": {
+              "$ref": "#/$defs/nullableNumber"
+            },
+            "root_stress_mpa": {
+              "$ref": "#/$defs/nullableNumber"
+            },
+            "load_power_uw": {
+              "$ref": "#/$defs/nullableNumber"
+            },
+            "open_circuit_voltage_v": {
+              "$ref": "#/$defs/nullableNumber"
+            }
+          }
+        },
+        "violations": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "enum": [
+              "frequency_too_high",
+              "frequency_too_low",
+              "stress_exceeded",
+              "displacement_exceeded",
+              "power_below_target",
+              "invalid_geometry"
+            ]
+          }
+        },
+        "objective_value": {
+          "$ref": "#/$defs/nullableNumber"
+        },
+        "normalized_objective": {
+          "$ref": "#/$defs/nullableNumber"
+        },
+        "diagnostics": {
+          "type": [
+            "object",
+            "null"
+          ],
+          "additionalProperties": false,
+          "properties": {
+            "wall_time_ms": {
+              "type": [
+                "integer",
+                "null"
+              ]
+            },
+            "solver_visible_message": {
+              "$ref": "#/$defs/nullableString"
+            },
+            "assumption_notes": {
+              "$ref": "#/$defs/nullableString"
+            }
+          }
+        }
+      }
+    }
+  }
+}

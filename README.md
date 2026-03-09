@@ -1,5 +1,54 @@
 # EH-LLM (EH-GPT)
 
+## 中文简版目录
+
+### 先看这几个文件
+
+- [docs/PROJECT_HANDOFF.md](docs/PROJECT_HANDOFF.md)
+  当前最重要的交接文档，包含真实用途、当前状态、已完成修复、远程环境、接手步骤。
+- [docs/VEHBENCH_MASTER_EXECUTION_PLAN.md](docs/VEHBENCH_MASTER_EXECUTION_PLAN.md)
+  `VEHBench` benchmark 论文与工程主线的执行总纲；包含目标范围、阶段拆解、当前状态、验收标准、实验矩阵和下一步顺序。
+- [docs/vehbench_normalization_rules.md](docs/vehbench_normalization_rules.md)
+  `VEHBench` 单位归一化和字段落库规则；后面做 extraction、candidate/silver/gold、verifier 回代时都以这份为准。
+- [TASK_ROADMAP.md](TASK_ROADMAP.md)
+  旧版通用路线图，保留作背景参考。
+- [VEHBENCH_NEURIPS_DB_EXECUTION_BLUEPRINT.md](VEHBENCH_NEURIPS_DB_EXECUTION_BLUEPRINT.md)
+  较早期的蓝图和实验背景，保留作补充参考。
+
+### 这个项目现在实际在做什么
+
+- 主题：振动能量采集（VEH）论文搜索、筛选、PDF 解析、结构化抽取。
+- 实际主链路：
+  `search_papers.py -> backfill_abstracts.py -> filter_01~04 -> cleanup_pdfs.py -> mineru_runner.py -> extract_schema.py`
+
+### 当前真实状态
+
+- 代码侧关键修复已完成：
+  检索去重、stage4 写出逻辑、PDF cleanup、MinerU 状态机、远程部署脚本、extract/mineru 依赖声明。
+- 数据侧尚未完全重建：
+  当前仓库里的 stage4 / parsed / normalized / extracted 仍带有历史产物，和最新代码不完全一致。
+- 远程环境已验证可用：
+  远程 `openai` 与 `mineru` 已可导入，远程 venv 当前使用 `/root/ehllm-venv`。
+
+### 接手时优先看的入口
+
+- `pipelines/download/search_papers.py`
+- `pipelines/download/filtering/filter_04_llm_score.py`
+- `pipelines/download/cleanup_pdfs.py`
+- `ingestion/mineru_runner.py`
+- `pipelines/extract/extract_schema.py`
+- `scripts/deploy_remote.sh`
+- `scripts/run_remote.sh`
+- `scripts/fetch_remote.sh`
+
+### 推荐继续顺序
+
+1. 先读 `docs/PROJECT_HANDOFF.md`
+2. 再重建 `papers.jsonl -> stage04`
+3. 然后修正/确认 `pdf_path`
+4. 再跑 `mineru_runner.py`
+5. 最后跑 `extract_schema.py`
+
 > **Physical-AI System Builder** — Energy Harvesting + TinyML + LLM + System Automation
 
 A domain-specific LLM system for **vibration energy harvester** design assistance.

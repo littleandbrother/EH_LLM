@@ -3,12 +3,13 @@
 EH-LLM Extraction Pipeline (GLM Phase)
 =======================================
 Reads normalized JSON docs from MinerU and extracts EH structured data
-using Volcengine Ark GLM-4 model according to eh_schema_v1.yaml.
+using Volcengine Ark GLM-4 model according to a selected schema file.
 
 Usage:
-    python extract_schema.py                 # Process all un-extracted docs
-    python extract_schema.py --paper-id X    # Process specific paper
-    python extract_schema.py --limit N       # Process max N papers
+    python extract_schema.py                           # Process all un-extracted docs
+    python extract_schema.py --paper-id X             # Process specific paper
+    python extract_schema.py --limit N                # Process max N papers
+    python extract_schema.py --schema-path path.json  # Use alternate schema
 """
 
 import argparse
@@ -52,6 +53,14 @@ def create_client() -> OpenAI:
         print("❌ ARK_API_KEY not set.")
         sys.exit(1)
     return OpenAI(base_url=LLM_BASE_URL, api_key=ARK_API_KEY)
+
+
+def load_schema(schema_path: Path) -> dict:
+    suffix = schema_path.suffix.lower()
+    with open(schema_path, "r", encoding="utf-8") as f:
+        if suffix == ".json":
+            return json.load(f)
+        return yaml.safe_load(f)
 
 
 def build_system_prompt(schema: dict) -> str:
@@ -133,15 +142,14 @@ def extract_paper(client: OpenAI, sys_prompt: str, doc: dict) -> dict:
                 continue
             return {"error": str(e)}
 
-def run(limit: int = None, paper_id: str = None):
+def run(limit: int = None, paper_id: str = None, schema_path: Path = SCHEMA_PATH):
     # Load schema
-    if not SCHEMA_PATH.exists():
-        print(f"❌ Schema not found: {SCHEMA_PATH}")
+    if not schema_path.exists():
+        print(f"❌ Schema not found: {schema_path}")
         sys.exit(1)
-        
-    with open(SCHEMA_PATH, "r", encoding="utf-8") as f:
-        schema = yaml.safe_load(f)
-        
+
+    schema = load_schema(schema_path)
+
     sys_prompt = build_system_prompt(schema)
     client = create_client()
 
@@ -196,5 +204,6 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("--limit", type=int, default=None)
     parser.add_argument("--paper-id", type=str, default=None)
+    parser.add_argument("--schema-path", type=Path, default=SCHEMA_PATH)
     args = parser.parse_args()
-    run(limit=args.limit, paper_id=args.paper_id)
+    run(limit=args.limit, paper_id=args.paper_id, schema_path=args.schema_path)

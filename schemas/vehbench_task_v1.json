@@ -1,0 +1,452 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "vehbench_task_v1.json",
+  "title": "VEHBench Task v1",
+  "description": "Benchmark task definition for piezoelectric cantilever inverse design under a unified VEHBench evaluation protocol.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "record_type",
+    "task_id",
+    "source_type",
+    "task_type",
+    "source_refs",
+    "variable_bounds",
+    "fixed_conditions",
+    "hard_constraints",
+    "objective",
+    "verifier",
+    "budget",
+    "metric_spec",
+    "split"
+  ],
+  "$defs": {
+    "nullableNumber": {
+      "type": [
+        "number",
+        "null"
+      ]
+    },
+    "nullableString": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "boundedVariable": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "min",
+        "max",
+        "unit"
+      ],
+      "properties": {
+        "min": {
+          "type": "number"
+        },
+        "max": {
+          "type": "number"
+        },
+        "unit": {
+          "type": "string"
+        },
+        "step": {
+          "$ref": "#/$defs/nullableNumber"
+        },
+        "discrete_values": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "type": [
+              "number",
+              "string",
+              "boolean"
+            ]
+          }
+        }
+      }
+    }
+  },
+  "properties": {
+    "schema_version": {
+      "const": "vehbench_task_v1"
+    },
+    "record_type": {
+      "const": "benchmark_task"
+    },
+    "task_id": {
+      "type": "string"
+    },
+    "source_type": {
+      "type": "string",
+      "enum": [
+        "paper_grounded",
+        "synthetic",
+        "hybrid"
+      ]
+    },
+    "task_type": {
+      "type": "string",
+      "enum": [
+        "frequency_matching",
+        "constrained_power_maximization",
+        "feasibility_repair"
+      ]
+    },
+    "source_refs": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "source_paper_uid": {
+          "$ref": "#/$defs/nullableString"
+        },
+        "source_record_id": {
+          "$ref": "#/$defs/nullableString"
+        },
+        "generator_name": {
+          "$ref": "#/$defs/nullableString"
+        },
+        "generator_seed": {
+          "type": [
+            "integer",
+            "null"
+          ]
+        }
+      }
+    },
+    "variable_bounds": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "beam_length_mm": {
+          "$ref": "#/$defs/boundedVariable"
+        },
+        "beam_width_mm": {
+          "$ref": "#/$defs/boundedVariable"
+        },
+        "substrate_thickness_um": {
+          "$ref": "#/$defs/boundedVariable"
+        },
+        "piezo_thickness_um": {
+          "$ref": "#/$defs/boundedVariable"
+        },
+        "tip_mass_g": {
+          "$ref": "#/$defs/boundedVariable"
+        },
+        "load_resistance_ohm": {
+          "$ref": "#/$defs/boundedVariable"
+        }
+      }
+    },
+    "fixed_conditions": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "device_type": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "piezoelectric_cantilever",
+            null
+          ]
+        },
+        "structure_class": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "unimorph",
+            "bimorph",
+            "other_piezo_cantilever",
+            null
+          ]
+        },
+        "piezo_material": {
+          "$ref": "#/$defs/nullableString"
+        },
+        "substrate_material": {
+          "$ref": "#/$defs/nullableString"
+        },
+        "excitation_frequency_hz": {
+          "$ref": "#/$defs/nullableNumber"
+        },
+        "acceleration_g": {
+          "$ref": "#/$defs/nullableNumber"
+        },
+        "target_resonant_frequency_hz": {
+          "$ref": "#/$defs/nullableNumber"
+        },
+        "load_type": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "resistive",
+            "rectified",
+            "unspecified",
+            null
+          ]
+        },
+        "notes": {
+          "$ref": "#/$defs/nullableString"
+        }
+      }
+    },
+    "hard_constraints": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "frequency_error_tolerance_hz": {
+          "$ref": "#/$defs/nullableNumber"
+        },
+        "frequency_error_tolerance_pct": {
+          "$ref": "#/$defs/nullableNumber"
+        },
+        "stress_limit_mpa": {
+          "$ref": "#/$defs/nullableNumber"
+        },
+        "displacement_limit_mm": {
+          "$ref": "#/$defs/nullableNumber"
+        },
+        "power_target_uw": {
+          "$ref": "#/$defs/nullableNumber"
+        },
+        "require_linear_regime": {
+          "type": [
+            "boolean",
+            "null"
+          ]
+        },
+        "geometry_notes": {
+          "$ref": "#/$defs/nullableString"
+        }
+      }
+    },
+    "objective": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "name",
+        "direction"
+      ],
+      "properties": {
+        "name": {
+          "type": "string",
+          "enum": [
+            "match_resonant_frequency",
+            "maximize_feasible_power",
+            "repair_feasibility"
+          ]
+        },
+        "direction": {
+          "type": "string",
+          "enum": [
+            "target",
+            "maximize",
+            "minimize"
+          ]
+        },
+        "target_value": {
+          "$ref": "#/$defs/nullableNumber"
+        },
+        "target_unit": {
+          "$ref": "#/$defs/nullableString"
+        },
+        "normalization_reference": {
+          "$ref": "#/$defs/nullableString"
+        }
+      }
+    },
+    "verifier": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "verifier_version"
+      ],
+      "properties": {
+        "verifier_version": {
+          "type": "string"
+        },
+        "model_family": {
+          "$ref": "#/$defs/nullableString"
+        },
+        "deterministic": {
+          "type": [
+            "boolean",
+            "null"
+          ]
+        },
+        "violation_labels": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "enum": [
+              "frequency_too_high",
+              "frequency_too_low",
+              "stress_exceeded",
+              "displacement_exceeded",
+              "power_below_target",
+              "invalid_geometry"
+            ]
+          }
+        }
+      }
+    },
+    "budget": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "max_queries"
+      ],
+      "properties": {
+        "max_queries": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "max_wall_clock_s": {
+          "type": [
+            "integer",
+            "null"
+          ]
+        },
+        "max_tokens": {
+          "type": [
+            "integer",
+            "null"
+          ]
+        }
+      }
+    },
+    "metric_spec": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "primary_metric"
+      ],
+      "properties": {
+        "primary_metric": {
+          "type": "string",
+          "enum": [
+            "constraint_satisfaction_rate",
+            "queries_to_success",
+            "normalized_objective",
+            "repair_success_rate"
+          ]
+        },
+        "secondary_metrics": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "enum": [
+              "frequency_error_hz",
+              "frequency_error_pct",
+              "feasible_power_uw",
+              "invalid_proposal_rate",
+              "wall_clock_s",
+              "token_cost",
+              "dollar_cost"
+            ]
+          }
+        }
+      }
+    },
+    "split": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "name"
+      ],
+      "properties": {
+        "name": {
+          "type": "string",
+          "enum": [
+            "train",
+            "val",
+            "test-id",
+            "test-ood"
+          ]
+        },
+        "ood_tags": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "enum": [
+              "unseen_geometry_regime",
+              "unseen_excitation_range",
+              "unseen_material_combination",
+              "unseen_load_regime"
+            ]
+          }
+        }
+      }
+    },
+    "initial_candidate": {
+      "type": [
+        "object",
+        "null"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "beam_length_mm": {
+          "$ref": "#/$defs/nullableNumber"
+        },
+        "beam_width_mm": {
+          "$ref": "#/$defs/nullableNumber"
+        },
+        "substrate_thickness_um": {
+          "$ref": "#/$defs/nullableNumber"
+        },
+        "piezo_thickness_um": {
+          "$ref": "#/$defs/nullableNumber"
+        },
+        "tip_mass_g": {
+          "$ref": "#/$defs/nullableNumber"
+        },
+        "load_resistance_ohm": {
+          "$ref": "#/$defs/nullableNumber"
+        }
+      }
+    },
+    "reference_solution": {
+      "type": [
+        "object",
+        "null"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "beam_length_mm": {
+          "$ref": "#/$defs/nullableNumber"
+        },
+        "beam_width_mm": {
+          "$ref": "#/$defs/nullableNumber"
+        },
+        "substrate_thickness_um": {
+          "$ref": "#/$defs/nullableNumber"
+        },
+        "piezo_thickness_um": {
+          "$ref": "#/$defs/nullableNumber"
+        },
+        "tip_mass_g": {
+          "$ref": "#/$defs/nullableNumber"
+        },
+        "load_resistance_ohm": {
+          "$ref": "#/$defs/nullableNumber"
+        },
+        "best_known_score": {
+          "$ref": "#/$defs/nullableNumber"
+        }
+      }
+    },
+    "notes": {
+      "$ref": "#/$defs/nullableString"
+    }
+  }
+}

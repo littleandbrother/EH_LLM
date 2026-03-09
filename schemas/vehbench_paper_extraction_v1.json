@@ -1,0 +1,447 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "vehbench_paper_extraction_v1.json",
+  "title": "VEHBench Paper Extraction Record v1",
+  "description": "Structured extraction record for piezoelectric cantilever vibration energy harvester papers used to build VEHBench benchmark-ready records.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "record_type",
+    "paper_uid",
+    "source_metadata",
+    "device_scope",
+    "design",
+    "materials",
+    "excitation",
+    "load",
+    "outputs",
+    "evidence_spans",
+    "unit_normalization_log",
+    "extraction_quality"
+  ],
+  "$defs": {
+    "nullableNumber": {
+      "type": [
+        "number",
+        "null"
+      ]
+    },
+    "nullableString": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "evidenceSpan": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "field_path",
+        "evidence_type",
+        "quote"
+      ],
+      "properties": {
+        "field_path": {
+          "type": "string",
+          "description": "Dot path to the extracted field, e.g. outputs.resonant_frequency_hz."
+        },
+        "evidence_type": {
+          "type": "string",
+          "enum": [
+            "section_text",
+            "table",
+            "figure_caption",
+            "equation",
+            "appendix"
+          ]
+        },
+        "section_heading": {
+          "$ref": "#/$defs/nullableString"
+        },
+        "page_index": {
+          "type": [
+            "integer",
+            "null"
+          ]
+        },
+        "table_id": {
+          "$ref": "#/$defs/nullableString"
+        },
+        "figure_id": {
+          "$ref": "#/$defs/nullableString"
+        },
+        "quote": {
+          "type": "string"
+        },
+        "notes": {
+          "$ref": "#/$defs/nullableString"
+        }
+      }
+    },
+    "normalizationRecord": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "field_path",
+        "original_text",
+        "normalized_unit"
+      ],
+      "properties": {
+        "field_path": {
+          "type": "string"
+        },
+        "original_text": {
+          "type": "string"
+        },
+        "normalized_value": {
+          "type": [
+            "number",
+            "string",
+            "null"
+          ]
+        },
+        "normalized_unit": {
+          "type": "string"
+        },
+        "conversion_method": {
+          "$ref": "#/$defs/nullableString"
+        },
+        "notes": {
+          "$ref": "#/$defs/nullableString"
+        }
+      }
+    }
+  },
+  "properties": {
+    "schema_version": {
+      "const": "vehbench_paper_extraction_v1"
+    },
+    "record_type": {
+      "const": "paper_extraction_record"
+    },
+    "paper_uid": {
+      "type": "string",
+      "description": "Canonical stable paper identifier used across metadata, PDF registry, extraction, and benchmark task generation."
+    },
+    "source_metadata": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "title"
+      ],
+      "properties": {
+        "doi": {
+          "$ref": "#/$defs/nullableString"
+        },
+        "title": {
+          "type": "string"
+        },
+        "year": {
+          "type": [
+            "integer",
+            "null"
+          ]
+        },
+        "venue": {
+          "$ref": "#/$defs/nullableString"
+        },
+        "authors": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "source_provider": {
+          "$ref": "#/$defs/nullableString"
+        },
+        "pdf_path": {
+          "$ref": "#/$defs/nullableString"
+        }
+      }
+    },
+    "device_scope": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "device_type",
+        "structure_class",
+        "linear_regime",
+        "excitation_type",
+        "experiment_type"
+      ],
+      "properties": {
+        "device_type": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "piezoelectric_cantilever",
+            null
+          ]
+        },
+        "structure_class": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "unimorph",
+            "bimorph",
+            "other_piezo_cantilever",
+            null
+          ]
+        },
+        "optional_tip_mass": {
+          "type": [
+            "boolean",
+            "null"
+          ]
+        },
+        "linear_regime": {
+          "type": [
+            "boolean",
+            "null"
+          ]
+        },
+        "excitation_type": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "sinusoidal_base_excitation",
+            "other",
+            null
+          ]
+        },
+        "experiment_type": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "experimental",
+            "simulation",
+            "analytical",
+            "hybrid",
+            "unspecified",
+            null
+          ]
+        },
+        "include_recommendation": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "include",
+            "exclude",
+            "manual_review",
+            null
+          ]
+        },
+        "exclude_reason": {
+          "$ref": "#/$defs/nullableString"
+        }
+      }
+    },
+    "design": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "beam_length_mm": {
+          "$ref": "#/$defs/nullableNumber"
+        },
+        "beam_width_mm": {
+          "$ref": "#/$defs/nullableNumber"
+        },
+        "substrate_thickness_um": {
+          "$ref": "#/$defs/nullableNumber"
+        },
+        "piezo_thickness_um": {
+          "$ref": "#/$defs/nullableNumber"
+        },
+        "beam_total_thickness_um": {
+          "$ref": "#/$defs/nullableNumber"
+        },
+        "tip_mass_g": {
+          "$ref": "#/$defs/nullableNumber"
+        },
+        "proof_mass_geometry": {
+          "$ref": "#/$defs/nullableString"
+        },
+        "active_area_mm2": {
+          "$ref": "#/$defs/nullableNumber"
+        },
+        "clamped_length_mm": {
+          "$ref": "#/$defs/nullableNumber"
+        },
+        "notes": {
+          "$ref": "#/$defs/nullableString"
+        }
+      }
+    },
+    "materials": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "piezo_material": {
+          "$ref": "#/$defs/nullableString"
+        },
+        "substrate_material": {
+          "$ref": "#/$defs/nullableString"
+        },
+        "electrode_material": {
+          "$ref": "#/$defs/nullableString"
+        },
+        "adhesive_or_encapsulation": {
+          "$ref": "#/$defs/nullableString"
+        },
+        "material_notes": {
+          "$ref": "#/$defs/nullableString"
+        }
+      }
+    },
+    "excitation": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "excitation_frequency_hz": {
+          "$ref": "#/$defs/nullableNumber"
+        },
+        "acceleration_g": {
+          "$ref": "#/$defs/nullableNumber"
+        },
+        "acceleration_ms2": {
+          "$ref": "#/$defs/nullableNumber"
+        },
+        "base_displacement_mm": {
+          "$ref": "#/$defs/nullableNumber"
+        },
+        "base_velocity_ms": {
+          "$ref": "#/$defs/nullableNumber"
+        },
+        "excitation_notes": {
+          "$ref": "#/$defs/nullableString"
+        }
+      }
+    },
+    "load": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "load_type"
+      ],
+      "properties": {
+        "load_type": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "resistive",
+            "rectified",
+            "open_circuit",
+            "short_circuit",
+            "unspecified",
+            null
+          ]
+        },
+        "load_resistance_ohm": {
+          "$ref": "#/$defs/nullableNumber"
+        },
+        "rectifier_assumption": {
+          "$ref": "#/$defs/nullableString"
+        },
+        "load_notes": {
+          "$ref": "#/$defs/nullableString"
+        }
+      }
+    },
+    "outputs": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "resonant_frequency_hz": {
+          "$ref": "#/$defs/nullableNumber"
+        },
+        "power_uw": {
+          "$ref": "#/$defs/nullableNumber"
+        },
+        "power_density_uw_cm3": {
+          "$ref": "#/$defs/nullableNumber"
+        },
+        "voltage_v": {
+          "$ref": "#/$defs/nullableNumber"
+        },
+        "current_ma": {
+          "$ref": "#/$defs/nullableNumber"
+        },
+        "stress_mpa": {
+          "$ref": "#/$defs/nullableNumber"
+        },
+        "tip_displacement_mm": {
+          "$ref": "#/$defs/nullableNumber"
+        },
+        "matched_load_resistance_ohm": {
+          "$ref": "#/$defs/nullableNumber"
+        },
+        "output_notes": {
+          "$ref": "#/$defs/nullableString"
+        }
+      }
+    },
+    "evidence_spans": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/evidenceSpan"
+      }
+    },
+    "unit_normalization_log": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/normalizationRecord"
+      }
+    },
+    "extraction_quality": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "extraction_confidence",
+        "manual_review_needed"
+      ],
+      "properties": {
+        "extraction_confidence": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "minimum": 0.0,
+          "maximum": 1.0
+        },
+        "completeness_score": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "minimum": 0.0,
+          "maximum": 1.0
+        },
+        "manual_review_needed": {
+          "type": "boolean"
+        },
+        "extractor_model": {
+          "$ref": "#/$defs/nullableString"
+        },
+        "extracted_at_utc": {
+          "$ref": "#/$defs/nullableString"
+        }
+      }
+    },
+    "notes": {
+      "$ref": "#/$defs/nullableString"
+    }
+  }
+}
