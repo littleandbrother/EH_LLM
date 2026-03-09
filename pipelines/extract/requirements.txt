@@ -1,0 +1,2 @@
+-r ../download/requirements.txt
+openai>=2.0.0

@@ -1,0 +1,1 @@
+mineru[pipeline]>=2.7.0

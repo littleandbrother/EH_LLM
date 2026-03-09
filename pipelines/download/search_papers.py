@@ -15,6 +15,7 @@ import argparse
 import hashlib
 import json
 import os
+import re
 import sys
 import time
 from datetime import datetime
@@ -210,10 +211,88 @@ def reconstruct_abstract(inverted_index: dict) -> str:
     return " ".join(words[i] for i in sorted(words.keys()))
 
 
+def normalize_doi(doi: str) -> str:
+    """Normalize DOI strings to a stable comparable form."""
+    value = (doi or "").strip()
+    if not value:
+        return ""
+    value = re.sub(r"^https?://(?:dx\.)?doi\.org/", "", value,
+                   flags=re.IGNORECASE)
+    return value.lower()
+
+
+def normalize_title(title: str) -> str:
+    """Normalize titles so punctuation-only differences hash identically."""
+    value = (title or "").strip().lower()
+    value = re.sub(r"\s+", " ", value)
+    value = re.sub(r"[^\w\s]", "", value)
+    return value.strip()
+
+
+def merge_string_lists(*values: list[str]) -> list[str]:
+    """Merge string lists while preserving order and dropping empties."""
+    merged = []
+    seen = set()
+    for items in values:
+        for item in items or []:
+            clean = (item or "").strip()
+            if not clean:
+                continue
+            key = clean.lower()
+            if key in seen:
+                continue
+            seen.add(key)
+            merged.append(clean)
+    return merged
+
+
+def merge_authors(*author_lists: list[dict]) -> list[dict]:
+    """Merge author lists by normalized name."""
+    merged = []
+    seen = set()
+    for authors in author_lists:
+        for author in authors or []:
+            if isinstance(author, dict):
+                name = (author.get("name") or "").strip()
+                author_id = author.get("authorId", "")
+                payload = {"name": name, "authorId": author_id}
+            else:
+                name = str(author).strip()
+                payload = {"name": name, "authorId": ""}
+            if not name:
+                continue
+            key = name.lower()
+            if key in seen:
+                continue
+            seen.add(key)
+            merged.append(payload)
+    return merged
+
+
+def choose_longer_text(preferred: str, fallback: str) -> str:
+    """Pick the longer non-empty text value."""
+    preferred = (preferred or "").strip()
+    fallback = (fallback or "").strip()
+    if len(preferred) >= len(fallback):
+        return preferred or fallback
+    return fallback or preferred
+
+
+def merge_source_labels(left: str, right: str) -> str:
+    """Collapse source labels into semantic_scholar/openalex/both."""
+    labels = {value for value in ((left or "").strip(), (right or "").strip())
+              if value}
+    if not labels:
+        return ""
+    if "both" in labels or len(labels) > 1:
+        return "both"
+    return next(iter(labels))
+
+
 def normalize_s2_paper(paper: dict) -> dict:
     """Normalize a Semantic Scholar paper to unified format."""
     ext_ids = paper.get("externalIds") or {}
-    doi = ext_ids.get("DOI", "")
+    doi = normalize_doi(ext_ids.get("DOI", ""))
 
     oa_pdf = paper.get("openAccessPdf") or {}
     pdf_url = oa_pdf.get("url", "")
@@ -246,7 +325,7 @@ def normalize_s2_paper(paper: dict) -> dict:
 def normalize_oa_paper(paper: dict) -> dict:
     """Normalize an OpenAlex paper to unified format."""
     doi_raw = paper.get("doi") or ""
-    doi = doi_raw.replace("https://doi.org/", "") if doi_raw else ""
+    doi = normalize_doi(doi_raw)
 
     # Get venue from primary_location
     loc = paper.get("primary_location") or {}
@@ -292,34 +371,62 @@ def normalize_oa_paper(paper: dict) -> dict:
 
 def compute_hash(paper: dict) -> str:
     """Compute a content hash for deduplication."""
-    key = f"{paper.get('doi', '')}|{paper.get('title', '').lower()}"
-    return hashlib.md5(key.encode()).hexdigest()
+    doi = normalize_doi(paper.get("doi", ""))
+    if doi:
+        key = f"doi:{doi}"
+    else:
+        title = normalize_title(paper.get("title", ""))
+        year = paper.get("year") or ""
+        key = f"title:{title}|year:{year}"
+    return hashlib.md5(key.encode("utf-8")).hexdigest()
+
+
+def merge_paper_records(existing: dict, incoming: dict) -> dict:
+    """Merge two records that refer to the same paper."""
+    merged = dict(existing)
+    merged["doi"] = normalize_doi(
+        incoming.get("doi") or existing.get("doi") or "")
+    merged["title"] = choose_longer_text(
+        incoming.get("title", ""), existing.get("title", ""))
+    merged["abstract"] = choose_longer_text(
+        incoming.get("abstract", ""), existing.get("abstract", ""))
+    merged["venue"] = choose_longer_text(
+        incoming.get("venue", ""), existing.get("venue", ""))
+    merged["year"] = incoming.get("year") or existing.get("year")
+    merged["citation_count"] = max(
+        incoming.get("citation_count", 0) or 0,
+        existing.get("citation_count", 0) or 0,
+    )
+    merged["source"] = merge_source_labels(
+        existing.get("source", ""), incoming.get("source", ""))
+    merged["paper_id_s2"] = incoming.get("paper_id_s2") or existing.get(
+        "paper_id_s2", "")
+    merged["paper_id_oa"] = incoming.get("paper_id_oa") or existing.get(
+        "paper_id_oa", "")
+    merged["pdf_url"] = incoming.get("pdf_url") or existing.get("pdf_url", "")
+    merged["pdf_path"] = existing.get("pdf_path") or incoming.get("pdf_path", "")
+    merged["authors"] = merge_authors(
+        existing.get("authors"), incoming.get("authors"))
+    merged["publication_types"] = merge_string_lists(
+        existing.get("publication_types"), incoming.get("publication_types"))
+    merged["fields_of_study"] = merge_string_lists(
+        existing.get("fields_of_study"), incoming.get("fields_of_study"))
+    merged["hash"] = compute_hash(merged)
+    return merged
 
 
 def deduplicate(papers: list[dict]) -> list[dict]:
-    """Deduplicate papers by DOI and title hash."""
-    seen_dois = set()
-    seen_hashes = set()
-    unique = []
-
+    """Deduplicate papers by canonical DOI/title hash and merge metadata."""
+    merged_records = {}
     for p in papers:
-        doi = p.get("doi", "").strip().lower()
-        h = compute_hash(p)
-
-        # Skip if we've seen this DOI (and it's not empty)
-        if doi and doi in seen_dois:
-            continue
-        # Skip if title hash matches
-        if h in seen_hashes:
-            continue
-
-        if doi:
-            seen_dois.add(doi)
-        seen_hashes.add(h)
-        p["hash"] = h
-        unique.append(p)
-
-    return unique
+        p["doi"] = normalize_doi(p.get("doi", ""))
+        p["hash"] = compute_hash(p)
+        current = merged_records.get(p["hash"])
+        if current is None:
+            merged_records[p["hash"]] = p
+        else:
+            merged_records[p["hash"]] = merge_paper_records(current, p)
+    return list(merged_records.values())
 
 
 def apply_exclusions(papers: list[dict], exclude_kw: list[str]) -> list[dict]:
@@ -468,26 +575,23 @@ def run_pipeline(config: dict, single_query: str = None,
                 line = line.strip()
                 if line:
                     p = json.loads(line)
-                    h = p.get("hash", compute_hash(p))
-                    existing[h] = p
+                    p["doi"] = normalize_doi(p.get("doi", ""))
+                    h = compute_hash(p)
+                    p["hash"] = h
+                    if h in existing:
+                        existing[h] = merge_paper_records(existing[h], p)
+                    else:
+                        existing[h] = p
         print(f"📂 Found {len(existing)} existing records, merging...")
 
-    # Merge: new papers override existing by hash
+    # Merge: combine new papers with existing canonical records
     for p in papers:
-        h = p.get("hash", compute_hash(p))
+        h = compute_hash(p)
+        p["hash"] = h
         if h in existing:
-            # Keep pdf_path if already downloaded
-            old_path = existing[h].get("pdf_path", "")
-            if old_path and not p.get("pdf_path"):
-                p["pdf_path"] = old_path
-            # Merge sources
-            if existing[h].get("source") != p.get("source"):
-                p["source"] = "both"
-                if "paper_id_s2" in existing[h]:
-                    p["paper_id_s2"] = existing[h]["paper_id_s2"]
-                if "paper_id_oa" in existing[h]:
-                    p["paper_id_oa"] = existing[h]["paper_id_oa"]
-        existing[h] = p
+            existing[h] = merge_paper_records(existing[h], p)
+        else:
+            existing[h] = p
 
     # --- Write output ---
     final_papers = list(existing.values())
@@ -504,8 +608,8 @@ def run_pipeline(config: dict, single_query: str = None,
     print(f"{'='*60}")
     print(f"  Total unique papers:  {len(final_papers)}")
     print(f"  With PDF:             {sum(1 for p in final_papers if p.get('pdf_path'))}")
-    print(f"  S2 sourced:           {sum(1 for p in final_papers if 's2' in p.get('source', ''))}")
-    print(f"  OpenAlex sourced:     {sum(1 for p in final_papers if 'oa' in p.get('source', '') or p.get('source') == 'openalex')}")
+    print(f"  S2 sourced:           {sum(1 for p in final_papers if p.get('source') in ('semantic_scholar', 'both'))}")
+    print(f"  OpenAlex sourced:     {sum(1 for p in final_papers if p.get('source') in ('openalex', 'both'))}")
     print(f"  Both sources:         {sum(1 for p in final_papers if p.get('source') == 'both')}")
     print(f"  Output:               {papers_jsonl_path}")
     print(f"{'='*60}")

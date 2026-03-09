@@ -25,6 +25,7 @@ import re
 import shutil
 import subprocess
 import sys
+import tempfile
 import time
 from datetime import datetime, timezone
 from pathlib import Path
@@ -41,6 +42,19 @@ PDF_DIR = PROJECT_ROOT / "data_registry" / "raw"
 PARSED_DIR = PROJECT_ROOT / "parsed_docs"
 NORMALIZED_DIR = PROJECT_ROOT / "normalized_docs"
 PROVENANCE_DIR = PROJECT_ROOT / "provenance_docs"
+DEFAULT_MINERU_SOURCE = os.getenv("MINERU_MODEL_SOURCE", "modelscope")
+
+
+def detect_default_device() -> str:
+    """Choose a sensible default device for the current platform."""
+    if sys.platform == "darwin":
+        return "mps"
+    if sys.platform.startswith("linux"):
+        return "cuda"
+    return "cpu"
+
+
+DEFAULT_DEVICE = detect_default_device()
 
 # Ensure dirs exist
 for d in [PARSED_DIR, NORMALIZED_DIR, PROVENANCE_DIR]:
@@ -70,9 +84,10 @@ def make_paper_id(paper: dict) -> str:
 # ---------------------------------------------------------------------------
 
 def run_mineru(pdf_path: Path, output_dir: Path,
-               device: str = "mps",
+               device: str = DEFAULT_DEVICE,
                backend: str = "pipeline",
-               lang: str = "en") -> dict:
+               lang: str = "en",
+               source: str = DEFAULT_MINERU_SOURCE) -> dict:
     """
     Run MinerU CLI on a single PDF.
 
@@ -90,14 +105,15 @@ def run_mineru(pdf_path: Path, output_dir: Path,
     }
 
     # Build command
-    mineru_bin = os.path.join(os.path.dirname(sys.executable), "mineru")
     cmd = [
-        mineru_bin,
+        sys.executable,
+        "-m", "mineru.cli.client",
         "-p", str(pdf_path),
         "-o", str(output_dir),
         "-l", lang,
         "-b", backend,
         "-d", device,
+        "--source", source,
     ]
 
     start = time.time()
@@ -117,11 +133,11 @@ def run_mineru(pdf_path: Path, output_dir: Path,
 
     except subprocess.TimeoutExpired:
         result["duration_s"] = round(time.time() - start, 2)
-        result["error"] = "timeout (600s)"
+        result["error"] = "timeout (1800s)"
         return result
     except FileNotFoundError:
-        result["error"] = ("MinerU CLI not found. Install with: "
-                           "pip install 'mineru[all]'")
+        result["error"] = ("MinerU module not found. Install with: "
+                           "pip install 'mineru[pipeline]'")
         return result
 
     # Locate outputs — MinerU creates a subdir named after the PDF
@@ -314,9 +330,8 @@ def build_provenance_trace(paper: dict, paper_id: str,
 def _get_mineru_version() -> str:
     """Get installed MinerU version."""
     try:
-        mineru_bin = os.path.join(os.path.dirname(sys.executable), "mineru")
         result = subprocess.run(
-            [mineru_bin, "--version"],
+            [sys.executable, "-m", "mineru.cli.client", "--version"],
             capture_output=True, text=True, timeout=10
         )
         return result.stdout.strip() or "unknown"
@@ -335,26 +350,20 @@ def show_status():
         return
 
     papers = _load_papers()
-    papers_with_pdf = [p for p in papers if p.get("pdf_path")]
-
-    processed = set()
-    for d in PARSED_DIR.iterdir():
-        if d.is_dir():
-            processed.add(d.name)
-
-    failed = set()
-    for f in PROVENANCE_DIR.glob("*.trace.json"):
-        trace = json.loads(f.read_text())
-        if not trace.get("processing", {}).get("success", False):
-            failed.add(f.stem.replace(".trace", ""))
+    paper_ids_with_pdf = {
+        make_paper_id(p) for p in papers if _paper_has_pdf(p)
+    }
+    processed = _load_successful_processed_ids()
+    failed = _load_failed_processed_ids() - processed
+    remaining = paper_ids_with_pdf - processed
 
     print(f"\n📊 MinerU Processing Status")
     print(f"{'='*50}")
     print(f"  Total papers:          {len(papers)}")
-    print(f"  Papers with PDF:       {len(papers_with_pdf)}")
+    print(f"  Papers with PDF:       {len(paper_ids_with_pdf)}")
     print(f"  Successfully parsed:   {len(processed)}")
     print(f"  Failed:                {len(failed)}")
-    print(f"  Remaining:             {len(papers_with_pdf) - len(processed)}")
+    print(f"  Remaining:             {len(remaining)}")
     print(f"{'='*50}")
 
     if processed:
@@ -391,17 +400,64 @@ def _load_papers() -> list[dict]:
     return papers
 
 
+def _resolve_pdf_path(paper: dict) -> Path:
+    """Resolve the PDF path from registry metadata or the canonical raw path."""
+    stored_path = paper.get("pdf_path", "")
+    if stored_path:
+        candidate = PROJECT_ROOT / stored_path
+        if candidate.exists():
+            return candidate
+    return PDF_DIR / f"{make_paper_id(paper)}.pdf"
+
+
+def _paper_has_pdf(paper: dict) -> bool:
+    """Return True when a paper PDF can be resolved locally."""
+    return _resolve_pdf_path(paper).exists()
+
+
+def _load_trace_statuses() -> dict[str, bool]:
+    """Load success flags from provenance traces."""
+    statuses = {}
+    for trace_path in PROVENANCE_DIR.glob("*.trace.json"):
+        try:
+            trace = json.loads(trace_path.read_text(encoding="utf-8"))
+        except Exception:
+            continue
+        paper_id = trace.get("paper_id") or trace_path.stem.replace(".trace", "")
+        statuses[paper_id] = bool(trace.get("processing", {}).get("success", False))
+    return statuses
+
+
+def _load_successful_processed_ids() -> set[str]:
+    """Return paper IDs with successful normalized output."""
+    success_ids = {f.stem for f in NORMALIZED_DIR.glob("*.json")}
+    for paper_id, status in _load_trace_statuses().items():
+        if status:
+            success_ids.add(paper_id)
+    return success_ids
+
+
+def _load_failed_processed_ids() -> set[str]:
+    """Return paper IDs with failed provenance traces."""
+    return {
+        paper_id for paper_id, status in _load_trace_statuses().items()
+        if not status
+    }
+
+
 # ---------------------------------------------------------------------------
 # Main
 # ---------------------------------------------------------------------------
 
 def run(limit: int = None, paper_id_filter: str = None,
-        device: str = "mps", backend: str = "pipeline",
-        lang: str = "en", force: bool = False):
+        device: str = DEFAULT_DEVICE, backend: str = "pipeline",
+        lang: str = "en", source: str = DEFAULT_MINERU_SOURCE,
+        force: bool = False):
     """Run the MinerU extraction pipeline."""
     print(f"\n{'='*60}")
     print(f"  EH-LLM MinerU PDF Extraction Pipeline")
     print(f"  Device:  {device}  |  Backend: {backend}  |  Lang: {lang}")
+    print(f"  Model source: {source}")
     print(f"{'='*60}\n")
 
     if not PAPERS_JSONL.exists():
@@ -409,8 +465,7 @@ def run(limit: int = None, paper_id_filter: str = None,
         return
 
     papers = _load_papers()
-    # Filter to papers with PDFs
-    papers_with_pdf = [p for p in papers if p.get("pdf_path") or (PDF_DIR / f"{make_paper_id(p)}.pdf").exists()]
+    papers_with_pdf = [p for p in papers if _paper_has_pdf(p)]
 
     if paper_id_filter:
         papers_with_pdf = [
@@ -423,7 +478,7 @@ def run(limit: int = None, paper_id_filter: str = None,
 
     # Filter already processed (unless forcing)
     if not force:
-        already_done = {d.name for d in PARSED_DIR.iterdir() if d.is_dir()}
+        already_done = _load_successful_processed_ids()
         papers_with_pdf = [
             p for p in papers_with_pdf
             if make_paper_id(p) not in already_done
@@ -447,7 +502,7 @@ def run(limit: int = None, paper_id_filter: str = None,
     for i, paper in enumerate(papers_with_pdf, 1):
         pid = make_paper_id(paper)
         title = paper.get("title", "Unknown")[:60]
-        pdf_path = PROJECT_ROOT / paper.get("pdf_path", f"data_registry/raw/{pid}.pdf")
+        pdf_path = _resolve_pdf_path(paper)
 
         print(f"[{i}/{len(papers_with_pdf)}] {pid}")
         print(f"  📄 {title}...")
@@ -457,22 +512,26 @@ def run(limit: int = None, paper_id_filter: str = None,
             fail_count += 1
             continue
 
-        # Create output directory
         paper_parsed_dir = PARSED_DIR / pid
-        paper_parsed_dir.mkdir(parents=True, exist_ok=True)
+        tmp_output_dir = Path(
+            tempfile.mkdtemp(prefix=f"{pid}_", dir=str(PARSED_DIR)))
 
         # Step 1: Run MinerU
         print(f"  🔍 Running MinerU...", end=" ", flush=True)
         mineru_result = run_mineru(
-            pdf_path, paper_parsed_dir,
-            device=device, backend=backend, lang=lang
+            pdf_path, tmp_output_dir,
+            device=device, backend=backend, lang=lang, source=source
         )
 
         if mineru_result["success"]:
             print(f"✅ ({mineru_result['duration_s']}s)")
+            if paper_parsed_dir.exists():
+                shutil.rmtree(paper_parsed_dir)
+            shutil.move(str(tmp_output_dir), str(paper_parsed_dir))
         else:
             print(f"❌ {mineru_result['error'][:80]}")
             fail_count += 1
+            shutil.rmtree(tmp_output_dir, ignore_errors=True)
             # Still write provenance trace for failures
             trace = build_provenance_trace(paper, pid, mineru_result, "")
             trace_path = PROVENANCE_DIR / f"{pid}.trace.json"
@@ -520,13 +579,16 @@ def main():
                         help="Max number of PDFs to process")
     parser.add_argument("--paper-id", type=str, default=None,
                         help="Process specific paper (DOI or ID substring)")
-    parser.add_argument("--device", type=str, default="mps",
-                        help="Inference device: cpu/cuda/mps (default: mps)")
+    parser.add_argument("--device", type=str, default=DEFAULT_DEVICE,
+                        help=f"Inference device: cpu/cuda/mps (default: {DEFAULT_DEVICE})")
     parser.add_argument("--backend", type=str, default="pipeline",
                         help="MinerU backend: pipeline/hybrid-auto-engine "
                              "(default: pipeline)")
     parser.add_argument("--lang", type=str, default="en",
                         help="Document language (default: en)")
+    parser.add_argument("--source", type=str, default=DEFAULT_MINERU_SOURCE,
+                        choices=["huggingface", "modelscope", "local"],
+                        help="MinerU model source (default: env MINERU_MODEL_SOURCE or modelscope)")
     parser.add_argument("--force", action="store_true",
                         help="Re-process already parsed papers")
     parser.add_argument("--status", action="store_true",
@@ -543,6 +605,7 @@ def main():
         device=args.device,
         backend=args.backend,
         lang=args.lang,
+        source=args.source,
         force=args.force,
     )
 
