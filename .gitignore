@@ -18,10 +18,12 @@ artifacts/checkpoints/
 *.pth
 
 # --- 运行记录 (保留结构，忽略大型日志) ---
+runs/*.log
 runs/*/logs/
 runs/*/tensorboard/
 data_registry/local_stage13_snapshot/
 data_registry/local_stage13_incremental_snapshot/
+data_registry/*.progress.json
 
 # --- Python ---
 __pycache__/
