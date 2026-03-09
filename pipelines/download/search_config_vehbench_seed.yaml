@@ -1,0 +1,70 @@
+# ============================================================
+# VEHBench Focused Seed Search Configuration
+# ============================================================
+# Purpose:
+#   Build a high-precision candidate pool for piezoelectric
+#   cantilever vibration energy harvester inverse design.
+#
+# Usage:
+#   python pipelines/download/search_papers.py \
+#     --config pipelines/download/search_config_vehbench_seed.yaml \
+#     --skip-pdf
+# ============================================================
+
+queries:
+  - "piezoelectric cantilever vibration energy harvester"
+  - "piezoelectric cantilever energy harvester"
+  - "unimorph piezoelectric cantilever energy harvester"
+  - "bimorph piezoelectric cantilever energy harvester"
+  - "tip mass piezoelectric cantilever energy harvester"
+  - "MEMS piezoelectric cantilever vibration energy harvester"
+  - "cantilever piezoelectric energy scavenger vibration"
+  - "piezoelectric beam vibration energy harvester experimental"
+
+filters:
+  year_range: [2005, 2026]
+  min_citation_count: 3
+  publication_types:
+    - "JournalArticle"
+    - "Conference"
+  exclude_keywords:
+    - "wireless power transfer"
+    - "solar energy"
+    - "thermoelectric"
+    - "photovoltaic"
+    - "triboelectric"
+    - "electromagnetic"
+    - "review"
+    - "survey"
+    - "fault diagnosis"
+    - "battery management"
+    - "sensor only"
+    - "nonlinear bistable"
+    - "array"
+
+semantic_scholar:
+  max_results_per_query: 100
+  fields:
+    - "paperId"
+    - "externalIds"
+    - "title"
+    - "abstract"
+    - "year"
+    - "venue"
+    - "authors"
+    - "citationCount"
+    - "openAccessPdf"
+    - "publicationTypes"
+    - "fieldsOfStudy"
+  rate_limit_delay: 1.0
+
+openalex:
+  max_results_per_query: 200
+  per_page: 50
+  rate_limit_delay: 0.2
+
+output:
+  papers_jsonl: "data_registry/papers.jsonl"
+  pdf_dir: "data_registry/raw/"
+  download_pdf: false
+  max_pdf_downloads: 0

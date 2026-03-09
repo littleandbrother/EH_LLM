@@ -33,7 +33,7 @@ from tqdm import tqdm
 SCRIPT_DIR = Path(__file__).parent
 PROJECT_ROOT = SCRIPT_DIR.parent.parent
 ENV_PATH = SCRIPT_DIR / ".env"
-CONFIG_PATH = SCRIPT_DIR / "search_config.yaml"
+DEFAULT_CONFIG_PATH = SCRIPT_DIR / "search_config.yaml"
 
 load_dotenv(ENV_PATH)
 
@@ -45,9 +45,9 @@ S2_PAPER_URL = "https://api.semanticscholar.org/graph/v1/paper"
 OPENALEX_WORKS_URL = "https://api.openalex.org/works"
 
 
-def load_config() -> dict:
+def load_config(config_path: Path = DEFAULT_CONFIG_PATH) -> dict:
     """Load search configuration from YAML."""
-    with open(CONFIG_PATH, "r", encoding="utf-8") as f:
+    with open(config_path, "r", encoding="utf-8") as f:
         return yaml.safe_load(f)
 
 
@@ -617,9 +617,8 @@ def run_pipeline(config: dict, single_query: str = None,
     return final_papers
 
 
-def show_stats():
+def show_stats(config: dict):
     """Show statistics of existing papers.jsonl."""
-    config = load_config()
     output_cfg = config.get("output", {})
     papers_path = PROJECT_ROOT / output_cfg.get(
         "papers_jsonl", "data_registry/papers.jsonl")
@@ -674,6 +673,8 @@ def show_stats():
 def main():
     parser = argparse.ArgumentParser(
         description="EH-LLM Paper Download Pipeline")
+    parser.add_argument("--config", type=Path, default=DEFAULT_CONFIG_PATH,
+                        help="Path to YAML search config (default: pipelines/download/search_config.yaml)")
     parser.add_argument("--query", type=str, default=None,
                         help="Run a single query instead of all configured queries")
     parser.add_argument("--skip-pdf", action="store_true",
@@ -682,11 +683,12 @@ def main():
                         help="Show statistics of existing data")
     args = parser.parse_args()
 
+    config = load_config(args.config)
+
     if args.stats:
-        show_stats()
+        show_stats(config)
         return
 
-    config = load_config()
     run_pipeline(config, single_query=args.query, skip_pdf=args.skip_pdf)
 
 
