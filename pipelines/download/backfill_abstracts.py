@@ -177,20 +177,23 @@ def backfill(source_filter: str = None, dry_run: bool = False):
         abstract = ""
         doi = paper.get("doi", "")
 
+        allow_oa = source_filter in (None, "oa")
+        allow_s2 = source_filter in (None, "s2")
+
         # Try OpenAlex first (faster API, more permissive rate limits)
-        if src in ("openalex", "both"):
+        if allow_oa and src in ("openalex", "both"):
             oa_id = paper.get("paper_id_oa", "")
             abstract = fetch_openalex_abstract(oa_id, session)
             time.sleep(0.15)  # OpenAlex: ~10 req/s for polite pool
 
         # Try S2 if no OA abstract or source is S2
-        if not abstract and src in ("semantic_scholar", "both"):
+        if not abstract and allow_s2 and src in ("semantic_scholar", "both"):
             s2_id = paper.get("paper_id_s2", "")
             abstract = fetch_s2_abstract(s2_id, session)
             time.sleep(1.0)  # S2: ~1 req/s without API key
 
         # Cross-source fallback: Try S2 via DOI if OA failed
-        if not abstract and doi:
+        if not abstract and allow_s2 and source_filter is None and doi:
             s2_url = f"https://api.semanticscholar.org/graph/v1/paper/DOI:{doi}"
             params = {"fields": "abstract"}
             headers = {}
@@ -209,7 +212,7 @@ def backfill(source_filter: str = None, dry_run: bool = False):
             time.sleep(1.0) # S2 rate limit
 
         # Cross-source fallback: Try OA via DOI if S2 failed
-        if not abstract and doi:
+        if not abstract and allow_oa and source_filter is None and doi:
             oa_url = f"https://api.openalex.org/works/doi:{doi}"
             params = {"select": "abstract_inverted_index"}
             if OPENALEX_EMAIL:

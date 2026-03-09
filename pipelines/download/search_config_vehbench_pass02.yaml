@@ -1,0 +1,99 @@
+# ============================================================
+# VEHBench Expanded Pass-02 Search Configuration
+# ============================================================
+# Purpose:
+#   Expand recall beyond the seed pass while still biasing the
+#   pool toward experimental piezoelectric cantilever VEH papers
+#   whose abstracts mention frequency/power/load details.
+#
+# Usage:
+#   python pipelines/download/search_papers.py \
+#     --config pipelines/download/search_config_vehbench_pass02.yaml \
+#     --skip-pdf
+# ============================================================
+
+queries:
+  - "piezoelectric cantilever vibration energy harvester experimental"
+  - "piezoelectric cantilever vibration energy harvester resonant frequency output power"
+  - "piezoelectric cantilever vibration energy harvester load resistance acceleration"
+  - "base excited piezoelectric cantilever energy harvester experimental"
+  - "proof mass piezoelectric cantilever vibration energy harvester experimental"
+  - "tip mass piezoelectric cantilever vibration energy harvester resonant frequency"
+  - "unimorph piezoelectric cantilever vibration energy harvester experimental"
+  - "bimorph piezoelectric cantilever vibration energy harvester experimental"
+  - "piezoelectric beam vibration energy harvester base excitation experimental"
+  - "piezoelectric beam vibration energy harvester output power frequency"
+  - "PZT cantilever vibration energy harvester experimental"
+  - "PZT bimorph cantilever vibration energy harvester load resistance"
+  - "PVDF cantilever vibration energy harvester experimental output power"
+  - "MEMS piezoelectric cantilever vibration energy harvester output power"
+  - "AlN cantilever MEMS vibration energy harvester experimental"
+  - "ScAlN cantilever MEMS vibration energy harvester experimental"
+  - "piezoelectric vibration microgenerator cantilever experimental"
+  - "piezoelectric cantilever generator vibration base excitation"
+  - "low frequency piezoelectric cantilever vibration energy harvester proof mass"
+  - "cantilever piezoelectric energy scavenger base excitation experimental"
+  - "piezoelectric cantilever resonance tuning energy harvester experimental"
+  - "load resistance piezoelectric bimorph vibration harvester"
+  - "piezoelectric cantilever beam energy harvester measured output power"
+  - "piezoelectric energy harvesting cantilever beam fabricated measured vibration"
+
+filters:
+  year_range: [2000, 2026]
+  min_citation_count: 1
+  publication_types:
+    - "JournalArticle"
+    - "Conference"
+  exclude_keywords:
+    - "wireless power transfer"
+    - "solar energy"
+    - "thermoelectric"
+    - "photovoltaic"
+    - "triboelectric"
+    - "electromagnetic"
+    - "magnetostrictive"
+    - "magneto-mechano-electric"
+    - "review"
+    - "survey"
+    - "fault diagnosis"
+    - "battery management"
+    - "sensor only"
+    - "wind energy"
+    - "vortex-induced"
+    - "galloping"
+    - "flutter"
+    - "underwater"
+    - "internal fluid flow"
+    - "knee-joint"
+    - "pacemaker"
+    - "railway"
+    - "bridge vibration"
+    - "traffic-induced"
+    - "floor tile"
+
+semantic_scholar:
+  max_results_per_query: 100
+  fields:
+    - "paperId"
+    - "externalIds"
+    - "title"
+    - "abstract"
+    - "year"
+    - "venue"
+    - "authors"
+    - "citationCount"
+    - "openAccessPdf"
+    - "publicationTypes"
+    - "fieldsOfStudy"
+  rate_limit_delay: 1.0
+
+openalex:
+  max_results_per_query: 200
+  per_page: 50
+  rate_limit_delay: 0.2
+
+output:
+  papers_jsonl: "data_registry/papers.jsonl"
+  pdf_dir: "data_registry/raw/"
+  download_pdf: false
+  max_pdf_downloads: 0

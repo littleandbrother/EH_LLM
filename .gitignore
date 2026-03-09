@@ -20,6 +20,8 @@ artifacts/checkpoints/
 # --- 运行记录 (保留结构，忽略大型日志) ---
 runs/*/logs/
 runs/*/tensorboard/
+data_registry/local_stage13_snapshot/
+data_registry/local_stage13_incremental_snapshot/
 
 # --- Python ---
 __pycache__/

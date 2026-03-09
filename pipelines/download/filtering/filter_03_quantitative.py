@@ -8,19 +8,35 @@ PROJECT_ROOT = SCRIPT_DIR.parent.parent.parent
 INPUT_FILE = PROJECT_ROOT / "data_registry" / "papers_stage02.jsonl"
 OUTPUT_FILE = PROJECT_ROOT / "data_registry" / "papers_stage03.jsonl"
 
-# Must have power units AND excitation condition units
+# Must have electrical output signal AND excitation information.
+# For VEHBench candidate building we keep a strict power-unit gate but use a
+# broader excitation cue set so papers that describe resonance/base excitation
+# in words are not dropped before LLM stage-4 review.
 POWER_KEYWORDS = [
     r"\bW\b",
     r"\bmW\b",
     r"\bµW\b",
-    r"\buW\b"
+    r"\buW\b",
+    r"output power",
+    r"generated power",
+    r"power density",
 ]
 
 EXCITATION_KEYWORDS = [
     r"\bHz\b",
     r"\bg\b",
     r"\brpm\b",
-    r"m/s²"
+    r"m/s²",
+    r"m/s\^2",
+    r"acceleration",
+    r"base excitation",
+    r"base excitations",
+    r"base excited",
+    r"resonant frequency",
+    r"resonance frequency",
+    r"frequency range",
+    r"\bresonance\b",
+    r"vibration level",
 ]
 
 def compile_regex(keywords, ignore_case=False):
@@ -49,16 +65,16 @@ def main():
         for line in fin:
             if not line.strip(): continue
             paper = json.loads(line)
-            abstract = paper.get("abstract", "")
+            text = f"{paper.get('title', '')} {paper.get('abstract', '')}"
             
             total_processed += 1
             
             # Rule 1: Must contain at least one power unit
-            if not power_re.search(abstract):
+            if not power_re.search(text):
                 continue
                 
             # Rule 2: Must contain at least one excitation unit
-            if not excitation_re.search(abstract):
+            if not excitation_re.search(text):
                 continue
                 
             # Passed all filters
