@@ -62,7 +62,11 @@ def main() -> None:
         raise SystemExit("no tasks selected")
 
     solvers = list(AVAILABLE_SOLVERS) if args.solver == "all" else [args.solver]
-    run_id = datetime.now().strftime("vehbench_classical_%Y%m%d_%H%M%S")
+    stamp = datetime.now().strftime("%Y%m%d_%H%M%S_%f")
+    task_slug = args.task_type or "all_tasks"
+    split_slug = args.split or "all_splits"
+    solver_slug = args.solver
+    run_id = f"vehbench_classical_{task_slug}_{split_slug}_{solver_slug}_{stamp}"
     output_dir = Path(args.output_root) / run_id
     result = run_benchmark(
         tasks=tasks,

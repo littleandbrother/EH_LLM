@@ -729,6 +729,7 @@ def evaluate_request(
     task: dict | None = None,
     apply_frequency_calibration: bool = False,
     calibration_profile: dict | None = None,
+    use_task_anchors: bool = True,
 ) -> dict:
     start = time.perf_counter()
     outputs, assumptions, is_valid_request = _evaluate_raw_outputs(request)
@@ -738,7 +739,7 @@ def evaluate_request(
         outputs["resonant_frequency_hz"] = calibrated_frequency
         if note:
             assumptions.append(note)
-    if is_valid_request and task is not None:
+    if is_valid_request and task is not None and use_task_anchors:
         outputs = _apply_task_local_anchors(
             outputs,
             request,
@@ -798,6 +799,7 @@ def evaluate_request_record(
     task: dict | None = None,
     apply_frequency_calibration: bool = False,
     calibration_profile: dict | None = None,
+    use_task_anchors: bool = True,
 ) -> dict:
     request = request_record["request"]
     return evaluate_request(
@@ -805,4 +807,5 @@ def evaluate_request_record(
         task=task,
         apply_frequency_calibration=apply_frequency_calibration,
         calibration_profile=calibration_profile,
+        use_task_anchors=use_task_anchors,
     )

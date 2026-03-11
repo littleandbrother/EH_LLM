@@ -12,3 +12,9 @@
 - val: `23`
 - test-id: `24`
 - test-ood: `28`
+
+## Difficulty Audit
+
+- frequency tasks retargeted: `15`
+- repair tasks with audited infeasible starts: `52`
+- repair tasks dropped for triviality: `0`

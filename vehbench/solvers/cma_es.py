@@ -49,16 +49,18 @@ class CmaEsSolver(BaseSolver):
                 break
 
             candidates.sort(key=lambda item: item[0], reverse=True)
-            top = np.array([genome for _, genome in candidates[:mu]])
-            top_scores = [score for score, _ in candidates[:mu]]
+            effective_mu = min(mu, len(candidates))
+            effective_weights = weights[:effective_mu]
+            effective_weights = effective_weights / np.sum(effective_weights)
+            top = np.array([genome for _, genome in candidates[:effective_mu]])
+            top_scores = [score for score, _ in candidates[:effective_mu]]
             old_mean = mean.copy()
-            mean = np.sum(top * weights[:, None], axis=0)
+            mean = np.sum(top * effective_weights[:, None], axis=0)
             centered = top - old_mean
-            diag_cov = 0.85 * diag_cov + 0.15 * np.average(centered**2, axis=0, weights=weights)
+            diag_cov = 0.85 * diag_cov + 0.15 * np.average(centered**2, axis=0, weights=effective_weights)
             generation_best = top_scores[0]
             if best_score is None or generation_best > best_score:
                 sigma = min(0.35, sigma * 1.05)
                 best_score = generation_best
             else:
                 sigma = max(0.03, sigma * 0.92)
-

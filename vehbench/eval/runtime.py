@@ -244,9 +244,10 @@ class TaskSession:
         )
         interaction = evaluate_request(
             request,
-            task=self.task if self.use_task_anchors else None,
+            task=self.task,
             apply_frequency_calibration=self.apply_frequency_calibration,
             calibration_profile=self.calibration_profile,
+            use_task_anchors=self.use_task_anchors,
         )
         score = score_interaction(self.task, interaction)
         key = tuple(round(float(candidate[name]), 8) for name in ordered_variable_keys(self.task))
