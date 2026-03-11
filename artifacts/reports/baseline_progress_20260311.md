@@ -86,3 +86,34 @@ Run: `artifacts/runs/zero_shot_llm/vehbench_zero_shot_llm_frequency_matching_tes
 - every zero-shot frequency task in this run hit the `20s` hard timeout and therefore used the fallback candidate path
 - the resulting comparison is useful as an engineering checkpoint, but it is not yet a fair estimate of the LLM's actual one-shot capability
 - before any paper-facing comparison, switch to a lower-latency model or a different API path that returns within the watchdog budget
+
+## DashScope Coding Replacement
+
+- replacement endpoint: `https://coding.dashscope.aliyuncs.com/v1`
+- selected model: `kimi-k2.5`
+- supporting probe report: [llm_probe_dashscope_coding_20260312.md](/Users/depengsu/Desktop/paper_story_agnet/EH-LLM-vehbench-baselines/artifacts/reports/llm_probe_dashscope_coding_20260312.md)
+
+### Why Kimi
+
+- `minimal_json`: `4.199s`
+- `frequency_matching` probe: `1.978s`, feasible
+- `feasibility_repair` probe: `1.996s`, non-feasible but valid
+- other tested models were much slower or timed out on task prompts
+
+### Kimi Frequency Zero-Shot
+
+- `test-id` run: `artifacts/runs/zero_shot_llm/vehbench_zero_shot_llm_frequency_matching_test-id_20260312_061601_216713`
+  - success `0.500`
+  - avg best normalized objective `0.365`
+  - avg wall clock `2.474s`
+- `test-ood` run: `artifacts/runs/zero_shot_llm/vehbench_zero_shot_llm_frequency_matching_test-ood_20260312_061601_216649`
+  - success `0.200`
+  - avg best normalized objective `0.071`
+  - avg wall clock `2.299s`
+
+### Updated Interpretation
+
+- these Kimi runs are real model outputs, not watchdog fallbacks
+- `frequency/test-id`: Kimi is clearly below the classical solvers, but no longer degenerate
+- `frequency/test-ood`: Kimi matches the prior zero-shot level numerically, but now the result reflects actual one-shot model behavior
+- this is a valid first `classical vs zero-shot` comparison for the benchmark

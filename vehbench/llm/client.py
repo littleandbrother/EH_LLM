@@ -28,21 +28,21 @@ def _candidate_env_files() -> list[Path]:
 
 
 def _ensure_llm_env() -> None:
-    if os.getenv("ARK_API_KEY"):
+    if os.getenv("VEHBENCH_LLM_API_KEY") or os.getenv("ARK_API_KEY"):
         return
     for env_path in _candidate_env_files():
         _load_env_file(env_path)
-        if os.getenv("ARK_API_KEY"):
+        if os.getenv("VEHBENCH_LLM_API_KEY") or os.getenv("ARK_API_KEY"):
             return
 
 
 def get_llm_config() -> dict[str, str]:
     _ensure_llm_env()
-    api_key = os.getenv("ARK_API_KEY", "")
+    api_key = os.getenv("VEHBENCH_LLM_API_KEY") or os.getenv("ARK_API_KEY", "")
     base_url = os.getenv("VEHBENCH_LLM_BASE_URL", "https://ark.cn-beijing.volces.com/api/v3")
     model = os.getenv("VEHBENCH_LLM_MODEL", "glm-4-7-251222")
     if not api_key:
-        raise RuntimeError("ARK_API_KEY is not configured for zero-shot LLM baseline")
+        raise RuntimeError("VEHBENCH_LLM_API_KEY or ARK_API_KEY is not configured for zero-shot LLM baseline")
     return {
         "api_key": api_key,
         "base_url": base_url,
