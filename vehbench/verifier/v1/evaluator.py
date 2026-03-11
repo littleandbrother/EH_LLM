@@ -595,6 +595,8 @@ def _apply_task_local_anchors(
     request: dict,
     task: dict,
     assumptions: list[str],
+    apply_frequency_calibration: bool = False,
+    calibration_profile: dict | None = None,
 ) -> dict:
     anchored = dict(outputs)
     reference_request = _build_reference_request(request, task)
@@ -604,6 +606,15 @@ def _apply_task_local_anchors(
     reference_outputs, _, reference_valid = _evaluate_raw_outputs(reference_request)
     if not reference_valid:
         return anchored
+    if apply_frequency_calibration:
+        calibrated_reference_frequency, note = apply_frequency_profile(
+            reference_outputs,
+            reference_request,
+            calibration_profile,
+        )
+        reference_outputs["resonant_frequency_hz"] = calibrated_reference_frequency
+        if note:
+            assumptions.append("applied calibration to task-local reference")
 
     context = request.get("constraint_context") or {}
     target_frequency = _safe_number(context.get("target_resonant_frequency_hz"))
@@ -728,7 +739,14 @@ def evaluate_request(
         if note:
             assumptions.append(note)
     if is_valid_request and task is not None:
-        outputs = _apply_task_local_anchors(outputs, request, task, assumptions)
+        outputs = _apply_task_local_anchors(
+            outputs,
+            request,
+            task,
+            assumptions,
+            apply_frequency_calibration=apply_frequency_calibration,
+            calibration_profile=calibration_profile,
+        )
     rounded_outputs = {
         "resonant_frequency_hz": None
         if outputs.get("resonant_frequency_hz") is None

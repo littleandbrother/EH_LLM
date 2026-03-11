@@ -42,6 +42,11 @@ def parse_args() -> argparse.Namespace:
         action="store_true",
         help="Disable calibrated frequency evaluation.",
     )
+    parser.add_argument(
+        "--disable-task-anchors",
+        action="store_true",
+        help="Disable task-local anchors during runtime evaluation.",
+    )
     return parser.parse_args()
 
 
@@ -65,6 +70,7 @@ def main() -> None:
         seed=args.seed,
         output_dir=output_dir,
         apply_frequency_calibration=not args.disable_frequency_calibration,
+        use_task_anchors=not args.disable_task_anchors,
     )
     print(json.dumps(
         {
@@ -72,6 +78,7 @@ def main() -> None:
             "task_count": len(tasks),
             "solvers": solvers,
             "output_dir": str(output_dir),
+            "use_task_anchors": not args.disable_task_anchors,
             "summary": result["summary"],
         },
         indent=2,

@@ -144,17 +144,56 @@ def build_request_from_task(task: dict, candidate: dict, candidate_id: str) -> d
     }
 
 
-def score_interaction(interaction: dict) -> float:
+def latin_hypercube_units(rng, sample_count: int, dim: int) -> list[list[float]]:
+    if sample_count <= 0:
+        return []
+    matrix = []
+    for column in range(dim):
+        perm = rng.permutation(sample_count)
+        values = (perm + rng.uniform(0.0, 1.0, size=sample_count)) / sample_count
+        matrix.append(values.tolist())
+    return [[matrix[col][row] for col in range(dim)] for row in range(sample_count)]
+
+
+def score_interaction(task: dict, interaction: dict) -> float:
     response = interaction["response"]
+    outputs = response.get("outputs") or {}
+    violations = response.get("violations") or []
+    if not response.get("is_valid_request"):
+        return -10.0 - len(violations)
+
+    task_type = task.get("task_type")
+    target_frequency = (task.get("fixed_conditions") or {}).get("target_resonant_frequency_hz")
+    frequency = outputs.get("resonant_frequency_hz")
+    frequency_score = 0.0
+    if target_frequency is not None and frequency is not None:
+        error_pct = abs(float(frequency) - float(target_frequency)) / max(abs(float(target_frequency)), 1e-9) * 100.0
+        frequency_score = 1.0 / (1.0 + error_pct)
+
+    if task_type == "frequency_matching":
+        score = frequency_score
+        if response.get("is_feasible"):
+            score += 1.0
+        return score - 0.02 * len(violations)
+
+    if task_type == "constrained_power_maximization":
+        score = float(response.get("normalized_objective") or 0.0)
+        score += 0.2 * frequency_score
+        if response.get("is_feasible"):
+            score += 1.0
+        return score - 0.05 * len(violations)
+
+    if task_type == "feasibility_repair":
+        score = 1.0 / (1.0 + len(violations))
+        score += 0.5 * frequency_score
+        if response.get("is_feasible"):
+            score += 1.0
+        return score
+
     score = response.get("normalized_objective")
     if score is None:
-        score = -float(len(response.get("violations") or []))
-    score = float(score)
-    if not response.get("is_valid_request"):
-        score -= 2.0
-    if not response.get("is_feasible"):
-        score -= 0.1 * len(response.get("violations") or [])
-    return score
+        score = -float(len(violations))
+    return float(score)
 
 
 @dataclass
@@ -162,6 +201,7 @@ class TaskSession:
     task: dict
     solver_name: str
     apply_frequency_calibration: bool = True
+    use_task_anchors: bool = True
     calibration_profile: dict | None = None
     records: list[dict] = field(default_factory=list)
     _seen: set[tuple[float, ...]] = field(default_factory=set)
@@ -204,11 +244,11 @@ class TaskSession:
         )
         interaction = evaluate_request(
             request,
-            task=self.task,
+            task=self.task if self.use_task_anchors else None,
             apply_frequency_calibration=self.apply_frequency_calibration,
             calibration_profile=self.calibration_profile,
         )
-        score = score_interaction(interaction)
+        score = score_interaction(self.task, interaction)
         key = tuple(round(float(candidate[name]), 8) for name in ordered_variable_keys(self.task))
         self._seen.add(key)
         record = {
@@ -256,4 +296,3 @@ def summarize_task_session(session: TaskSession) -> dict:
         "best_response": None if best is None else best["interaction"]["response"],
         "total_wall_clock_s": round(sum(record["wall_time_s"] for record in session.records), 6),
     }
-

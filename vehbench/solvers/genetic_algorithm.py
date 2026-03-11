@@ -21,8 +21,8 @@ class GeneticAlgorithmSolver(BaseSolver):
         if seed_candidate is not None:
             population.append(np.array(candidate_to_unit(session.task, seed_candidate), dtype=float))
         population.append(self.unit_midpoint(session.task))
-        while len(population) < population_size:
-            population.append(rng.uniform(0.0, 1.0, size=dim))
+        for genome in self.latin_hypercube(rng, max(0, population_size - len(population)), session.task):
+            population.append(genome)
 
         scored_population: list[tuple[float, np.ndarray]] = []
         while population and not session.exhausted:
@@ -59,4 +59,3 @@ class GeneticAlgorithmSolver(BaseSolver):
                 )
                 record = session.evaluate(candidate, metadata={"strategy": "ga_generation"})
                 scored_population.append((record["score"], np.array(candidate_to_unit(session.task, candidate), dtype=float)))
-

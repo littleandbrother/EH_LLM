@@ -39,8 +39,7 @@ class BayesianOptimizationSolver(BaseSolver):
             starters.append(np.array(candidate_to_unit(session.task, seed_candidate), dtype=float))
         starters.append(self.unit_midpoint(session.task))
         initial_count = min(max(4, dim + 1), session.budget)
-        while len(starters) < initial_count:
-            starters.append(rng.uniform(0.0, 1.0, size=dim))
+        starters.extend(self.latin_hypercube(rng, max(0, initial_count - len(starters)), session.task))
 
         for genome in starters:
             if session.exhausted:
@@ -86,4 +85,3 @@ class BayesianOptimizationSolver(BaseSolver):
             record = session.evaluate(candidate, metadata={"strategy": "bo_ei"})
             observed_x.append(np.array(candidate_to_unit(session.task, candidate), dtype=float))
             observed_y.append(record["score"])
-

@@ -8,6 +8,7 @@ from ..eval.runtime import (
     clamp_candidate,
     candidate_to_unit,
     initial_candidate,
+    latin_hypercube_units,
     midpoint_candidate,
     ordered_variable_keys,
     unit_to_candidate,
@@ -34,6 +35,10 @@ class BaseSolver:
     def task_initial_candidate(self, task: dict) -> dict | None:
         return initial_candidate(task)
 
+    def latin_hypercube(self, rng: np.random.Generator, sample_count: int, task: dict) -> list[np.ndarray]:
+        dim = len(ordered_variable_keys(task))
+        return [np.array(row, dtype=float) for row in latin_hypercube_units(rng, sample_count, dim)]
+
     def ensure_unique(self, session, candidate: dict, rng: np.random.Generator) -> dict:
         candidate = clamp_candidate(session.task, candidate)
         if not session.has_seen(candidate):
@@ -46,4 +51,3 @@ class BaseSolver:
             if not session.has_seen(candidate):
                 return candidate
         return candidate
-

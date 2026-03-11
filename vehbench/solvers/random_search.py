@@ -17,8 +17,19 @@ class RandomSearchSolver(BaseSolver):
             session.evaluate(seed_candidate, metadata={"strategy": "initial_candidate"})
 
         dim = len(ordered_variable_keys(session.task))
+        startup = [self.unit_midpoint(session.task)]
+        startup.extend(self.latin_hypercube(rng, min(6, session.remaining), session.task))
+        for genome in startup:
+            if session.exhausted:
+                break
+            candidate = self.ensure_unique(
+                session,
+                unit_to_candidate(session.task, genome.tolist()),
+                rng,
+            )
+            session.evaluate(candidate, metadata={"strategy": "space_filling_start"})
+
         while not session.exhausted:
             candidate = unit_to_candidate(session.task, rng.uniform(0.0, 1.0, size=dim).tolist())
             candidate = self.ensure_unique(session, clamp_candidate(session.task, candidate), rng)
             session.evaluate(candidate, metadata={"strategy": "uniform_random"})
-
