@@ -47,7 +47,7 @@ def get_llm_config() -> dict[str, str]:
         "api_key": api_key,
         "base_url": base_url,
         "model": model,
-        "timeout_s": os.getenv("VEHBENCH_LLM_TIMEOUT_S", "60"),
+        "timeout_s": os.getenv("VEHBENCH_LLM_TIMEOUT_S", "30"),
     }
 
 

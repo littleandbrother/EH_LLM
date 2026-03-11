@@ -261,7 +261,10 @@ class TaskSession:
             "candidate": candidate,
             "score": score,
             "interaction": interaction,
-            "wall_time_s": round(time.perf_counter() - started, 6),
+            "wall_time_s": round(
+                (time.perf_counter() - started) + float((metadata or {}).get("solver_wall_time_s") or 0.0),
+                6,
+            ),
             "metadata": metadata or {},
         }
         self.records.append(record)

@@ -1,31 +1,21 @@
 from __future__ import annotations
 
 import json
+import multiprocessing as mp
 import os
 import re
+import time
 from typing import Any
 
 from .base import BaseSolver
 from ..eval.runtime import clamp_candidate, initial_candidate, midpoint_candidate, ordered_variable_keys
-from ..llm import get_llm_client
+from ..llm import get_llm_client, get_llm_config
 
-SYSTEM_PROMPT = """You are solving a structured vibration energy harvester inverse-design task.
-
-Rules:
-- Return JSON only.
-- Propose one candidate design within the provided variable bounds.
-- Prioritize feasibility first, then objective quality.
-- Do not reference hidden verifier outputs.
-- Use the exact variable names from the task schema.
-
-Response schema:
-{
-  "analysis_summary": "short rationale",
-  "candidate": {
-    "variable_name": numeric_value
-  }
-}
-"""
+SYSTEM_PROMPT = """Return JSON only.
+Choose one in-bounds candidate for the VEHBench task.
+Prioritize feasibility first.
+Use exact variable names.
+Response format: {"candidate":{"variable_name": number}}"""
 
 
 def _extract_json_object(text: str) -> dict[str, Any]:
@@ -48,12 +38,62 @@ def _extract_json_object(text: str) -> dict[str, Any]:
     return payload
 
 
+def _llm_request_worker(
+    queue,
+    config: dict[str, str],
+    system_prompt: str,
+    prompt: str,
+    temperature: float,
+    max_tokens: int,
+) -> None:
+    try:
+        from openai import OpenAI
+
+        client = OpenAI(
+            base_url=config["base_url"],
+            api_key=config["api_key"],
+            timeout=float(config["timeout_s"]),
+        )
+        response = client.chat.completions.create(
+            model=config["model"],
+            messages=[
+                {"role": "system", "content": system_prompt},
+                {"role": "user", "content": prompt},
+            ],
+            temperature=temperature,
+            max_tokens=max_tokens,
+            response_format={"type": "json_object"},
+        )
+        usage = None
+        if response.usage is not None:
+            usage = {
+                "prompt_tokens": response.usage.prompt_tokens,
+                "completion_tokens": response.usage.completion_tokens,
+                "total_tokens": response.usage.total_tokens,
+            }
+        queue.put(
+            {
+                "ok": True,
+                "content": response.choices[0].message.content or "",
+                "usage": usage,
+            }
+        )
+    except Exception as exc:
+        queue.put(
+            {
+                "ok": False,
+                "error": f"{type(exc).__name__}: {exc}",
+            }
+        )
+
+
 class ZeroShotLlmSolver(BaseSolver):
     def __init__(self, seed: int = 0) -> None:
         super().__init__(name="zero_shot_llm", base_seed=seed)
         self.client, self.config = get_llm_client()
         self.temperature = float(self.config.get("temperature", 0.0) or 0.0)
-        self.max_attempts = int(os.getenv("VEHBENCH_ZERO_SHOT_MAX_ATTEMPTS", "6"))
+        self.max_attempts = int(os.getenv("VEHBENCH_ZERO_SHOT_MAX_ATTEMPTS", "1"))
+        self.hard_timeout_s = float(os.getenv("VEHBENCH_ZERO_SHOT_HARD_TIMEOUT_S", "20"))
 
     def _default_candidate(self, task: dict) -> dict:
         if task.get("task_type") == "feasibility_repair":
@@ -64,49 +104,35 @@ class ZeroShotLlmSolver(BaseSolver):
 
     def _prompt(self, task: dict, attempt_index: int, prior_candidates: list[dict]) -> str:
         variable_bounds = {
-            key: {
-                "min": value.get("min"),
-                "max": value.get("max"),
-                "unit": value.get("unit"),
-            }
+            key: [value.get("min"), value.get("max"), value.get("unit")]
             for key, value in (task.get("variable_bounds") or {}).items()
         }
         fixed_conditions = task.get("fixed_conditions") or {}
         hard_constraints = task.get("hard_constraints") or {}
-        objective = task.get("objective") or {}
         payload = {
-            "task_id": task["task_id"],
-            "task_type": task["task_type"],
-            "attempt_index": attempt_index,
-            "variable_bounds": variable_bounds,
-            "target_resonant_frequency_hz": fixed_conditions.get("target_resonant_frequency_hz"),
-            "excitation_frequency_hz": fixed_conditions.get("excitation_frequency_hz"),
-            "acceleration_g": fixed_conditions.get("acceleration_g"),
-            "load_type": fixed_conditions.get("load_type"),
-            "frequency_error_tolerance_pct": hard_constraints.get("frequency_error_tolerance_pct"),
-            "objective": {
-                "name": objective.get("name"),
-                "direction": objective.get("direction"),
-                "target_value": objective.get("target_value"),
-                "target_unit": objective.get("target_unit"),
-            },
-            "initial_candidate": task.get("initial_candidate"),
-            "prior_candidates": prior_candidates[-2:],
+            "task": task["task_type"],
+            "bounds": variable_bounds,
+            "target_hz": fixed_conditions.get("target_resonant_frequency_hz"),
+            "excitation_hz": fixed_conditions.get("excitation_frequency_hz"),
+            "accel_g": fixed_conditions.get("acceleration_g"),
+            "freq_tol_pct": hard_constraints.get("frequency_error_tolerance_pct"),
         }
         if task.get("task_type") == "feasibility_repair":
-            payload["instruction"] = (
-                "Starting from the infeasible initial candidate, return one repaired candidate "
-                "that moves resonance toward the target while staying within bounds."
-            )
-        return (
-            "Solve the following VEHBench task.\n"
-            "Return JSON only and keep `analysis_summary` to one sentence.\n\n"
-            f"{json.dumps(payload, ensure_ascii=True, indent=2)}"
-        )
+            payload["start"] = task.get("initial_candidate")
+            payload["goal"] = "Repair the infeasible start by moving resonance toward target_hz."
+        else:
+            payload["goal"] = "Match target_hz."
+        return json.dumps(payload, ensure_ascii=True, separators=(",", ":"))
 
     def _coerce_candidate(self, task: dict, payload: dict[str, Any]) -> dict:
         candidate = dict(self._default_candidate(task))
-        proposed = payload.get("candidate") or {}
+        proposed = payload.get("candidate")
+        if not isinstance(proposed, dict):
+            proposed = {
+                key: payload[key]
+                for key in ordered_variable_keys(task)
+                if key in payload
+            }
         for key in ordered_variable_keys(task):
             value = proposed.get(key)
             if value is None:
@@ -125,33 +151,50 @@ class ZeroShotLlmSolver(BaseSolver):
                 attempt_index=len(prior_candidates) + 1,
                 prior_candidates=prior_candidates,
             )
-            response = self.client.chat.completions.create(
-                model=self.config["model"],
-                messages=[
-                    {"role": "system", "content": SYSTEM_PROMPT},
-                    {"role": "user", "content": prompt},
-                ],
-                temperature=self.temperature,
-                max_tokens=400,
-            )
-            content = response.choices[0].message.content or ""
-            payload = _extract_json_object(content)
-            candidate = self._coerce_candidate(session.task, payload)
+            api_started = time.perf_counter()
+            payload: dict[str, Any] = {}
+            model_error = None
+            usage = None
+            try:
+                ctx = mp.get_context("spawn")
+                queue = ctx.Queue()
+                proc = ctx.Process(
+                    target=_llm_request_worker,
+                    args=(
+                        queue,
+                        get_llm_config(),
+                        SYSTEM_PROMPT,
+                        prompt,
+                        self.temperature,
+                        160,
+                    ),
+                )
+                proc.start()
+                proc.join(self.hard_timeout_s)
+                if proc.is_alive():
+                    proc.terminate()
+                    proc.join()
+                    raise TimeoutError(f"zero-shot hard timeout after {self.hard_timeout_s}s")
+                result = queue.get_nowait() if not queue.empty() else {"ok": False, "error": "empty llm response"}
+                if not result.get("ok"):
+                    raise RuntimeError(result.get("error") or "unknown llm error")
+                usage = result.get("usage")
+                payload = _extract_json_object(result.get("content") or "")
+                candidate = self._coerce_candidate(session.task, payload)
+            except Exception as exc:
+                model_error = f"{type(exc).__name__}: {exc}"
+                candidate = self._default_candidate(session.task)
+            api_wall_time_s = round(time.perf_counter() - api_started, 6)
             candidate = self.ensure_unique(session, candidate, rng)
             prior_candidates.append(candidate)
             record = session.evaluate(
                 candidate,
                 metadata={
                     "strategy": "zero_shot_llm",
-                    "analysis_summary": payload.get("analysis_summary"),
+                    "solver_wall_time_s": api_wall_time_s,
                     "model": self.config["model"],
-                    "usage": None
-                    if response.usage is None
-                    else {
-                        "prompt_tokens": response.usage.prompt_tokens,
-                        "completion_tokens": response.usage.completion_tokens,
-                        "total_tokens": response.usage.total_tokens,
-                    },
+                    "model_error": model_error,
+                    "usage": usage,
                 },
             )
             if record["interaction"]["response"]["is_feasible"]:

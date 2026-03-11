@@ -44,6 +44,45 @@ Run: `artifacts/runs/zero_shot_llm/vehbench_zero_shot_llm_frequency_matching_tes
 
 ### Repair smoke
 
-- status: implementation complete, but single-task API latency is still too high for reliable interactive smoke
-- current blocker: `feasibility_repair` prompt path is much slower than `frequency_matching`
-- next action: compress repair prompt further or switch to a lighter model / lower-latency config before full LLM benchmark runs
+- status: stable under watchdog
+- run: `artifacts/runs/zero_shot_llm/vehbench_zero_shot_llm_feasibility_repair_test-id_20260311_181013_751265`
+- configuration:
+  - `VEHBENCH_ZERO_SHOT_MAX_ATTEMPTS=1`
+  - `VEHBENCH_ZERO_SHOT_HARD_TIMEOUT_S=20`
+- result: `success_rate = 0.0`, `avg_best_normalized_objective = 0.5`
+- observation: run now terminates reliably, but current model latency still exceeds watchdog budget and falls back to the default repair candidate
+
+## Frequency Classical vs Zero-Shot
+
+### test-id
+
+- classical reference:
+  - `random_search`: success `1.000`
+  - `genetic_algorithm`: success `1.000`
+  - `cma_es`: success `1.000`
+  - `bayesian_optimization`: success `1.000`
+- zero-shot run: `artifacts/runs/zero_shot_llm/vehbench_zero_shot_llm_frequency_matching_test-id_20260311_181045_464068`
+  - success `0.125`
+  - avg best normalized objective `0.027`
+  - avg invalid rate `0.000`
+  - avg wall clock `20.018s`
+
+### test-ood
+
+- classical reference:
+  - `random_search`: success `0.500`
+  - `genetic_algorithm`: success `0.500`
+  - `cma_es`: success `0.300`
+  - `bayesian_optimization`: success `0.600`
+- zero-shot run: `artifacts/runs/zero_shot_llm/vehbench_zero_shot_llm_frequency_matching_test-ood_20260311_181045_464064`
+  - success `0.200`
+  - avg best normalized objective `0.121`
+  - avg invalid rate `0.200`
+  - avg wall clock `20.017s`
+
+### Interpretation
+
+- the harness is stable enough to run zero-shot frequency end-to-end
+- every zero-shot frequency task in this run hit the `20s` hard timeout and therefore used the fallback candidate path
+- the resulting comparison is useful as an engineering checkpoint, but it is not yet a fair estimate of the LLM's actual one-shot capability
+- before any paper-facing comparison, switch to a lower-latency model or a different API path that returns within the watchdog budget
