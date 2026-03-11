@@ -1,0 +1,147 @@
+{
+  "metadata": {
+    "paper_id": "10_3390_mi14061159",
+    "doi": "10.3390/mi14061159",
+    "title": "Multidirectional Piezoelectric Vibration Energy Harvester Based on Cam Rotor Mechanism",
+    "year": 2023,
+    "journal": "Micromachines"
+  },
+  "configuration": "cantilever",
+  "proof_mass": true,
+  "geometry": {
+    "length_mm": 100,
+    "width_mm": 10,
+    "thickness_mm": 0.2,
+    "substrate_thickness_um": 200,
+    "piezo_thickness_um": 200,
+    "tip_mass_g": 10,
+    "diameter_mm": null
+  },
+  "excitation": {
+    "type": "vibration",
+    "frequency_Hz": 3.7,
+    "acceleration_g": 0.2,
+    "displacement_mm": null,
+    "motion_source": null
+  },
+  "load": {
+    "load_resistance_ohm": 200000
+  },
+  "output": {
+    "resonant_frequency_Hz": 3.7,
+    "output_power_W": 0.00052,
+    "open_circuit_voltage_V": 42.4,
+    "short_circuit_current_A": null,
+    "bandwidth_Hz": null
+  },
+  "evidence": {
+    "configuration": {
+      "quote": "the PB can be regarded as a cantilever piezoelectric energy harvester",
+      "section": "2.3. Model for Piezoelectric Beam",
+      "source_type": "section"
+    },
+    "proof_mass": {
+      "quote": "Each piezoelectric beam was made of a brass substrate... a 10 g iron mass",
+      "section": "3.1. Prototype and Experimental Setup",
+      "source_type": "section"
+    },
+    "geometry": {
+      "length_mm": {
+        "quote": "100 × 10 × 0.2 mm^3",
+        "section": "3.1. Prototype and Experimental Setup",
+        "source_type": "section"
+      },
+      "width_mm": {
+        "quote": "100 × 10 × 0.2 mm^3",
+        "section": "3.1. Prototype and Experimental Setup",
+        "source_type": "section"
+      },
+      "thickness_mm": {
+        "quote": "100 × 10 × 0.2 mm^3",
+        "section": "3.1. Prototype and Experimental Setup",
+        "source_type": "section"
+      },
+      "substrate_thickness_um": {
+        "quote": "100 × 10 × 0.2 mm^3",
+        "section": "3.1. Prototype and Experimental Setup",
+        "source_type": "section"
+      },
+      "piezo_thickness_um": {
+        "quote": "30 × 10 × 0.2 mm^3",
+        "section": "3.1. Prototype and Experimental Setup",
+        "source_type": "section"
+      },
+      "tip_mass_g": {
+        "quote": "a 10 g iron mass",
+        "section": "3.1. Prototype and Experimental Setup",
+        "source_type": "section"
+      },
+      "diameter_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      }
+    },
+    "excitation": {
+      "type": {
+        "quote": "harmonic acceleration",
+        "section": "3.2. Characterization Results",
+        "source_type": "section"
+      },
+      "frequency_Hz": {
+        "quote": "peaks all appear near the value of 3.7 Hz",
+        "section": "3.2. Characterization Results",
+        "source_type": "section"
+      },
+      "acceleration_g": {
+        "quote": "amplitude of 0.2 g",
+        "section": "3.2. Characterization Results",
+        "source_type": "section"
+      },
+      "displacement_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "motion_source": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      }
+    },
+    "load": {
+      "load_resistance_ohm": {
+        "quote": "optimal load resistance is measured as 200 kΩ",
+        "section": "3.2. Characterization Results",
+        "source_type": "section"
+      }
+    },
+    "output": {
+      "resonant_frequency_Hz": {
+        "quote": "peaks all appear near the value of 3.7 Hz",
+        "section": "3.2. Characterization Results",
+        "source_type": "section"
+      },
+      "output_power_W": {
+        "quote": "maximum power of 0.52 mW",
+        "section": "3.2. Characterization Results",
+        "source_type": "section"
+      },
+      "open_circuit_voltage_V": {
+        "quote": "maximum one of 42.4 V",
+        "section": "3.2. Characterization Results",
+        "source_type": "section"
+      },
+      "short_circuit_current_A": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "bandwidth_Hz": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      }
+    }
+  }
+}

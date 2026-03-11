@@ -1,0 +1,147 @@
+{
+  "metadata": {
+    "paper_id": "10_1063_1_4887481",
+    "doi": "10.1063/1.4887481",
+    "title": "Rotational piezoelectric wind energy harvesting using impact-induced resonance",
+    "year": 2014,
+    "journal": "Applied Physics Letters"
+  },
+  "configuration": "cantilever",
+  "proof_mass": false,
+  "geometry": {
+    "length_mm": 38,
+    "width_mm": 10,
+    "thickness_mm": 0.5,
+    "substrate_thickness_um": 500,
+    "piezo_thickness_um": 4000,
+    "tip_mass_g": null,
+    "diameter_mm": null
+  },
+  "excitation": {
+    "type": "wind_induced",
+    "frequency_Hz": null,
+    "acceleration_g": null,
+    "displacement_mm": null,
+    "motion_source": "wind"
+  },
+  "load": {
+    "load_resistance_ohm": 20000
+  },
+  "output": {
+    "resonant_frequency_Hz": null,
+    "output_power_W": 0.000613,
+    "open_circuit_voltage_V": null,
+    "short_circuit_current_A": null,
+    "bandwidth_Hz": null
+  },
+  "evidence": {
+    "configuration": {
+      "quote": "piezoelectric bimorph cantilever polygon",
+      "section": "Rotational piezoelectric wind energy harvesting using impact-induced resonance",
+      "source_type": "section"
+    },
+    "proof_mass": {
+      "quote": "Elastic balls are placed inside the polygon",
+      "section": "Rotational piezoelectric wind energy harvesting using impact-induced resonance",
+      "source_type": "section"
+    },
+    "geometry": {
+      "length_mm": {
+        "quote": "Cantilever length 38",
+        "section": "Rotational piezoelectric wind energy harvesting using impact-induced resonance",
+        "source_type": "table"
+      },
+      "width_mm": {
+        "quote": "Cantilever width 10",
+        "section": "Rotational piezoelectric wind energy harvesting using impact-induced resonance",
+        "source_type": "table"
+      },
+      "thickness_mm": {
+        "quote": "Cantilever thickness 0.5",
+        "section": "Rotational piezoelectric wind energy harvesting using impact-induced resonance",
+        "source_type": "table"
+      },
+      "substrate_thickness_um": {
+        "quote": "Cantilever thickness 0.5",
+        "section": "Rotational piezoelectric wind energy harvesting using impact-induced resonance",
+        "source_type": "table"
+      },
+      "piezo_thickness_um": {
+        "quote": "Piezoelectric ceramic thickness 4",
+        "section": "Rotational piezoelectric wind energy harvesting using impact-induced resonance",
+        "source_type": "table"
+      },
+      "tip_mass_g": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "diameter_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      }
+    },
+    "excitation": {
+      "type": {
+        "quote": "Rotational piezoelectric wind energy harvesting",
+        "section": "Rotational piezoelectric wind energy harvesting using impact-induced resonance",
+        "source_type": "title"
+      },
+      "frequency_Hz": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "acceleration_g": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "displacement_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "motion_source": {
+        "quote": "When wind rotates the device",
+        "section": "Rotational piezoelectric wind energy harvesting using impact-induced resonance",
+        "source_type": "section"
+      }
+    },
+    "load": {
+      "load_resistance_ohm": {
+        "quote": "across the 20 kOhm resistor",
+        "section": "Rotational piezoelectric wind energy harvesting using impact-induced resonance",
+        "source_type": "section"
+      }
+    },
+    "output": {
+      "resonant_frequency_Hz": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "output_power_W": {
+        "quote": "optimal DC output power was 613 uW",
+        "section": "Rotational piezoelectric wind energy harvesting using impact-induced resonance",
+        "source_type": "section"
+      },
+      "open_circuit_voltage_V": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "short_circuit_current_A": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "bandwidth_Hz": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      }
+    }
+  }
+}

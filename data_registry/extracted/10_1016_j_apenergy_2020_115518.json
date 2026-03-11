@@ -1,0 +1,147 @@
+{
+  "metadata": {
+    "paper_id": "10_1016_j_apenergy_2020_115518",
+    "doi": "10.1016/j.apenergy.2020.115518",
+    "title": "Strongly coupled piezoelectric cantilevers for broadband vibration energy harvesting",
+    "year": 2020,
+    "journal": "Applied Energy"
+  },
+  "configuration": "cantilever",
+  "proof_mass": true,
+  "geometry": {
+    "length_mm": 28.0,
+    "width_mm": 14.0,
+    "thickness_mm": 0.381,
+    "substrate_thickness_um": null,
+    "piezo_thickness_um": null,
+    "tip_mass_g": null,
+    "diameter_mm": null
+  },
+  "excitation": {
+    "type": "vibration",
+    "frequency_Hz": 10.0,
+    "acceleration_g": 4.0,
+    "displacement_mm": null,
+    "motion_source": "shaker"
+  },
+  "load": {
+    "load_resistance_ohm": 8200.0
+  },
+  "output": {
+    "resonant_frequency_Hz": 12.47,
+    "output_power_W": 0.000193,
+    "open_circuit_voltage_V": null,
+    "short_circuit_current_A": null,
+    "bandwidth_Hz": 4.0
+  },
+  "evidence": {
+    "configuration": {
+      "quote": "The host structure of the proposed bio-inspired bi-stable piezoelectric energy harvester (BBPEH) is tailored from a cantilever beam",
+      "section": "2. Bio-inspired design",
+      "source_type": "section"
+    },
+    "proof_mass": {
+      "quote": "The harvester consists of a piezoelectric macro fiber composite (MFC) transducer, a tip mass, and two sub-beams",
+      "section": "A B S T R A C T",
+      "source_type": "abstract"
+    },
+    "geometry": {
+      "length_mm": {
+        "quote": "The active length and width of the piezoelectric MFC are 28 mm and 14 mm",
+        "section": "3. Modeling and experimental tests",
+        "source_type": "section"
+      },
+      "width_mm": {
+        "quote": "The active length and width of the piezoelectric MFC are 28 mm and 14 mm",
+        "section": "3. Modeling and experimental tests",
+        "source_type": "section"
+      },
+      "thickness_mm": {
+        "quote": "The thickness of the beam is 0.381 mm",
+        "section": "3. Modeling and experimental tests",
+        "source_type": "section"
+      },
+      "substrate_thickness_um": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "piezo_thickness_um": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "tip_mass_g": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "diameter_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      }
+    },
+    "excitation": {
+      "type": {
+        "quote": "The dynamics of the proposed bio-inspired bi-stable piezoelectric energy harvester is investigated under sweeping frequency and harmonic excitations.",
+        "section": "A B S T R A C T",
+        "source_type": "abstract"
+      },
+      "frequency_Hz": {
+        "quote": "An average power output of 0.193 mW for a load resistance of 8.2 kΩ is harvested at the excitation frequency of 10 Hz and amplitude of 4.0 g.",
+        "section": "A B S T R A C T",
+        "source_type": "abstract"
+      },
+      "acceleration_g": {
+        "quote": "An average power output of 0.193 mW for a load resistance of 8.2 kΩ is harvested at the excitation frequency of 10 Hz and amplitude of 4.0 g.",
+        "section": "A B S T R A C T",
+        "source_type": "abstract"
+      },
+      "displacement_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "motion_source": {
+        "quote": "the harvester was fixed on a VT-600 shaker providing base excitations.",
+        "section": "3.3. Dynamics experimental setup",
+        "source_type": "section"
+      }
+    },
+    "load": {
+      "load_resistance_ohm": {
+        "quote": "An average power output of 0.193 mW for a load resistance of 8.2 kΩ is harvested at the excitation frequency of 10 Hz and amplitude of 4.0 g.",
+        "section": "A B S T R A C T",
+        "source_type": "abstract"
+      }
+    },
+    "output": {
+      "resonant_frequency_Hz": {
+        "quote": "The local vibration resonant frequency of the harvester was found to be ωn = 78.35 rad/s.",
+        "section": "3.3. Dynamics experimental setup",
+        "source_type": "section"
+      },
+      "output_power_W": {
+        "quote": "The maximum power output is around 0.193 mW at the excitation of 10 Hz and 4.0 g.",
+        "section": "4.3. Energy harvesting performance",
+        "source_type": "section"
+      },
+      "open_circuit_voltage_V": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "short_circuit_current_A": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "bandwidth_Hz": {
+        "quote": "The frequency bandwidth of the interwell vibration becomes wider as the excitation level increases to 3.0 g and 4.0 g, to respectively cover 10.0 - 13.0 Hz and 9.5 - 13.5 Hz.",
+        "section": "4.3. Energy harvesting performance",
+        "source_type": "section"
+      }
+    }
+  }
+}

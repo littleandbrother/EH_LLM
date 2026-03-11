@@ -1,0 +1,147 @@
+{
+  "metadata": {
+    "paper_id": "10_3390_en13010223",
+    "doi": "10.3390/en13010223",
+    "title": "Harvesting Energy from Planetary Gear Using Piezoelectric Material",
+    "year": 2020,
+    "journal": "Energies"
+  },
+  "configuration": "cantilever",
+  "proof_mass": true,
+  "geometry": {
+    "length_mm": 71,
+    "width_mm": 10.4,
+    "thickness_mm": 0.84,
+    "substrate_thickness_um": null,
+    "piezo_thickness_um": 250,
+    "tip_mass_g": null,
+    "diameter_mm": null
+  },
+  "excitation": {
+    "type": "rotation",
+    "frequency_Hz": 6.25,
+    "acceleration_g": 0.27,
+    "displacement_mm": 5,
+    "motion_source": "planetary gear"
+  },
+  "load": {
+    "load_resistance_ohm": 50000
+  },
+  "output": {
+    "resonant_frequency_Hz": null,
+    "output_power_W": 0.001513,
+    "open_circuit_voltage_V": 15.9,
+    "short_circuit_current_A": null,
+    "bandwidth_Hz": null
+  },
+  "evidence": {
+    "configuration": {
+      "quote": "piezoelectric cantilever",
+      "section": "1. Introduction",
+      "source_type": "section"
+    },
+    "proof_mass": {
+      "quote": "cylindrical tip is attached on the other end",
+      "section": "3.1. Fabrication of the Prototype",
+      "source_type": "section"
+    },
+    "geometry": {
+      "length_mm": {
+        "quote": "71 mm long",
+        "section": "3.1. Fabrication of the Prototype",
+        "source_type": "section"
+      },
+      "width_mm": {
+        "quote": "10.4 mm wide",
+        "section": "3.1. Fabrication of the Prototype",
+        "source_type": "section"
+      },
+      "thickness_mm": {
+        "quote": "0.84 mm thick",
+        "section": "3.1. Fabrication of the Prototype",
+        "source_type": "section"
+      },
+      "substrate_thickness_um": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "piezo_thickness_um": {
+        "quote": "thickness of 0.25 mm",
+        "section": "3.1. Fabrication of the Prototype",
+        "source_type": "section"
+      },
+      "tip_mass_g": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "diameter_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      }
+    },
+    "excitation": {
+      "type": {
+        "quote": "rotational piezoelectric (PZT) energy harvester",
+        "section": "Abstract",
+        "source_type": "abstract"
+      },
+      "frequency_Hz": {
+        "quote": "6.25 Hz",
+        "section": "4.1. Effect of Rotational Speed",
+        "source_type": "table"
+      },
+      "acceleration_g": {
+        "quote": "2.65",
+        "section": "4.1. Effect of Rotational Speed",
+        "source_type": "table"
+      },
+      "displacement_mm": {
+        "quote": "5 mm has been chosen as a distance displacement for maximum bending",
+        "section": "3.2. Experimental Setup and Procedures",
+        "source_type": "section"
+      },
+      "motion_source": {
+        "quote": "planetary gear",
+        "section": "Abstract",
+        "source_type": "abstract"
+      }
+    },
+    "load": {
+      "load_resistance_ohm": {
+        "quote": "50 kΩ",
+        "section": "4.1. Effect of Rotational Speed",
+        "source_type": "table"
+      }
+    },
+    "output": {
+      "resonant_frequency_Hz": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "output_power_W": {
+        "quote": "1.513",
+        "section": "4.1. Effect of Rotational Speed",
+        "source_type": "table"
+      },
+      "open_circuit_voltage_V": {
+        "quote": "15.9",
+        "section": "4.1. Effect of Rotational Speed",
+        "source_type": "table"
+      },
+      "short_circuit_current_A": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "bandwidth_Hz": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      }
+    }
+  }
+}

@@ -1,0 +1,147 @@
+{
+  "metadata": {
+    "paper_id": "10_1088_0964_1726_20_2_025015",
+    "doi": "10.1088/0964-1726/20/2/025015",
+    "title": "The realization and performance of vibration energy harvesting MEMS devices based on an epitaxial piezoelectric thin film",
+    "year": 2011,
+    "journal": "Smart Materials and Structures"
+  },
+  "configuration": "cantilever",
+  "proof_mass": true,
+  "geometry": {
+    "length_mm": 2.5,
+    "width_mm": 1.0,
+    "thickness_mm": 0.015,
+    "substrate_thickness_um": 15.0,
+    "piezo_thickness_um": 0.5,
+    "tip_mass_g": 0.000268,
+    "diameter_mm": null
+  },
+  "excitation": {
+    "type": "vibration",
+    "frequency_Hz": 2300,
+    "acceleration_g": null,
+    "displacement_mm": null,
+    "motion_source": null
+  },
+  "load": {
+    "load_resistance_ohm": 5600
+  },
+  "output": {
+    "resonant_frequency_Hz": 2300,
+    "output_power_W": 1.3e-05,
+    "open_circuit_voltage_V": 0.27,
+    "short_circuit_current_A": 4.8e-05,
+    "bandwidth_Hz": null
+  },
+  "evidence": {
+    "configuration": {
+      "quote": "Different cantilever structures, with and without a Si proof mass",
+      "section": "Abstract",
+      "source_type": "abstract"
+    },
+    "proof_mass": {
+      "quote": "with a Si proof mass",
+      "section": "Abstract",
+      "source_type": "abstract"
+    },
+    "geometry": {
+      "length_mm": {
+        "quote": "cantilever beam of 1 mm × 2.5 mm × 0.015 mm",
+        "section": "Abstract",
+        "source_type": "abstract"
+      },
+      "width_mm": {
+        "quote": "cantilever beam of 1 mm × 2.5 mm × 0.015 mm",
+        "section": "Abstract",
+        "source_type": "abstract"
+      },
+      "thickness_mm": {
+        "quote": "cantilever beam of 1 mm × 2.5 mm × 0.015 mm",
+        "section": "Abstract",
+        "source_type": "abstract"
+      },
+      "substrate_thickness_um": {
+        "quote": "cantilever beam of 1 mm × 2.5 mm × 0.015 mm",
+        "section": "Abstract",
+        "source_type": "abstract"
+      },
+      "piezo_thickness_um": {
+        "quote": "0.5 μm thick epitaxial PZT film",
+        "section": "Abstract",
+        "source_type": "abstract"
+      },
+      "tip_mass_g": {
+        "quote": "Si proof mass of 1 mm × 0.5 mm × 0.23 mm",
+        "section": "Abstract",
+        "source_type": "abstract"
+      },
+      "diameter_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      }
+    },
+    "excitation": {
+      "type": {
+        "quote": "vibration energy harvesting",
+        "section": "title",
+        "source_type": "title"
+      },
+      "frequency_Hz": {
+        "quote": "resonant frequency of 2.3 kHz",
+        "section": "Abstract",
+        "source_type": "abstract"
+      },
+      "acceleration_g": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "displacement_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "motion_source": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      }
+    },
+    "load": {
+      "load_resistance_ohm": {
+        "quote": "optimal resistive load of 5.6 kΩ",
+        "section": "Abstract",
+        "source_type": "abstract"
+      }
+    },
+    "output": {
+      "resonant_frequency_Hz": {
+        "quote": "resonant frequency of 2.3 kHz",
+        "section": "Abstract",
+        "source_type": "abstract"
+      },
+      "output_power_W": {
+        "quote": "13 μW g^-2",
+        "section": "Abstract",
+        "source_type": "abstract"
+      },
+      "open_circuit_voltage_V": {
+        "quote": "0.27 V g^-1",
+        "section": "Abstract",
+        "source_type": "abstract"
+      },
+      "short_circuit_current_A": {
+        "quote": "48 μA g^-1",
+        "section": "Abstract",
+        "source_type": "abstract"
+      },
+      "bandwidth_Hz": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      }
+    }
+  }
+}

@@ -6,23 +6,23 @@
     "openalex"
   ],
   "pdf_url": "",
-  "pdf_local_path": "",
+  "pdf_local_path": "data_registry/raw/10_1109_ted_2021_3072612.pdf",
   "processing": {
     "tool": "MinerU",
-    "version": "mineru, version 2.7.6",
-    "timestamp": "2026-02-23T11:37:59.362071+00:00",
-    "duration_s": 5.23,
-    "success": false,
+    "version": "python -m mineru.cli.client, version 2.7.6",
+    "timestamp": "2026-03-09T15:23:54.836298+00:00",
+    "duration_s": 57.58,
+    "success": true,
     "error": ""
   },
   "outputs": {
-    "content_md": "",
-    "layout_json": "",
-    "images_dir": "",
-    "normalized_json": ""
+    "content_md": "/root/EH-LLM-vehbench-exp/parsed_docs/10_1109_ted_2021_3072612_ey9pnl90/content.md",
+    "layout_json": "/root/EH-LLM-vehbench-exp/parsed_docs/10_1109_ted_2021_3072612_ey9pnl90/layout.json",
+    "images_dir": "/root/EH-LLM-vehbench-exp/parsed_docs/10_1109_ted_2021_3072612_ey9pnl90/10_1109_ted_2021_3072612/auto/images",
+    "normalized_json": "/root/EH-LLM-vehbench-exp/normalized_docs/10_1109_ted_2021_3072612.json"
   },
   "data_lineage": {
-    "papers_jsonl_hash": "4a47453bbd61bc380a3e1f6365b09006",
+    "papers_jsonl_hash": "9ae2d1defcd46ec8eb03ba0b864c1f60",
     "pipeline_step": "ingestion/mineru_runner.py"
   }
 }

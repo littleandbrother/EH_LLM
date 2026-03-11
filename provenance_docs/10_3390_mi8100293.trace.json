@@ -1,0 +1,28 @@
+{
+  "paper_id": "10_3390_mi8100293",
+  "doi": "10.3390/mi8100293",
+  "title": "Development of a Cantilever-Type Electrostatic Energy Harvester and Its Charging Characteristics on a Highway Viaduct",
+  "source_apis": [
+    "openalex"
+  ],
+  "pdf_url": "https://www.mdpi.com/2072-666X/8/10/293/pdf?version=1506607867",
+  "pdf_local_path": "data_registry/raw_stage04_paper_pdf_cleaned/10_3390_mi8100293.pdf",
+  "processing": {
+    "tool": "MinerU",
+    "version": "python -m mineru.cli.client, version 2.7.6",
+    "timestamp": "2026-03-10T09:29:35.946074+00:00",
+    "duration_s": 79.0,
+    "success": true,
+    "error": ""
+  },
+  "outputs": {
+    "content_md": "/root/EH-LLM-vehbench-exp/parsed_docs/10_3390_mi8100293_ncnljoq3/content.md",
+    "layout_json": "/root/EH-LLM-vehbench-exp/parsed_docs/10_3390_mi8100293_ncnljoq3/layout.json",
+    "images_dir": "/root/EH-LLM-vehbench-exp/parsed_docs/10_3390_mi8100293_ncnljoq3/10_3390_mi8100293/auto/images",
+    "normalized_json": "/root/EH-LLM-vehbench-exp/normalized_docs/10_3390_mi8100293.json"
+  },
+  "data_lineage": {
+    "papers_jsonl_hash": "657aca9ae89630d6c566ab3567d74729",
+    "pipeline_step": "ingestion/mineru_runner.py"
+  }
+}

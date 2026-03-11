@@ -1,0 +1,147 @@
+{
+  "metadata": {
+    "paper_id": "10_3390_s21144747",
+    "doi": "10.3390/s21144747",
+    "title": "Comparison of Metal-Based PZT and PMN–PT Energy Harvesters Fabricated by Aerosol Deposition Method",
+    "year": 2021,
+    "journal": "Sensors"
+  },
+  "configuration": "cantilever",
+  "proof_mass": true,
+  "geometry": {
+    "length_mm": 9,
+    "width_mm": 6,
+    "thickness_mm": 0.07,
+    "substrate_thickness_um": 60,
+    "piezo_thickness_um": 10,
+    "tip_mass_g": null,
+    "diameter_mm": null
+  },
+  "excitation": {
+    "type": "vibration",
+    "frequency_Hz": 98.0,
+    "acceleration_g": 0.5,
+    "displacement_mm": null,
+    "motion_source": null
+  },
+  "load": {
+    "load_resistance_ohm": 82000
+  },
+  "output": {
+    "resonant_frequency_Hz": 98.0,
+    "output_power_W": 9.04e-05,
+    "open_circuit_voltage_V": 10.8,
+    "short_circuit_current_A": null,
+    "bandwidth_Hz": null
+  },
+  "evidence": {
+    "configuration": {
+      "quote": "cantilever-type EH devices",
+      "section": "Abstract",
+      "source_type": "abstract"
+    },
+    "proof_mass": {
+      "quote": "bonding of the tungsten proof mass",
+      "section": "2.1. Fabrication Process",
+      "source_type": "section"
+    },
+    "geometry": {
+      "length_mm": {
+        "quote": "length of the cantilever were ... 9 mm",
+        "section": "2.1. Fabrication Process",
+        "source_type": "section"
+      },
+      "width_mm": {
+        "quote": "width ... of the cantilever were 6 ... mm",
+        "section": "2.1. Fabrication Process",
+        "source_type": "section"
+      },
+      "thickness_mm": {
+        "quote": "60 μm stainless-steel material was used as the substrate... approximately 10 μm thick PZT and PMN–PT films",
+        "section": "2.1. Fabrication Process",
+        "source_type": "section"
+      },
+      "substrate_thickness_um": {
+        "quote": "60 μm stainless-steel material was used as the substrate",
+        "section": "2.1. Fabrication Process",
+        "source_type": "section"
+      },
+      "piezo_thickness_um": {
+        "quote": "approximately 10 μm thick PZT and PMN–PT films",
+        "section": "2.1. Fabrication Process",
+        "source_type": "section"
+      },
+      "tip_mass_g": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "diameter_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      }
+    },
+    "excitation": {
+      "type": {
+        "quote": "continuous vibration source",
+        "section": "2.2. Experimental Setup",
+        "source_type": "section"
+      },
+      "frequency_Hz": {
+        "quote": "resonant frequency of ... 98.0 Hz",
+        "section": "3.4. Output Performance",
+        "source_type": "section"
+      },
+      "acceleration_g": {
+        "quote": "0.5 g acceleration level",
+        "section": "3.4. Output Performance",
+        "source_type": "section"
+      },
+      "displacement_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "motion_source": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      }
+    },
+    "load": {
+      "load_resistance_ohm": {
+        "quote": "Optimum impedance ... 82 kΩ",
+        "section": "3.4. Output Performance",
+        "source_type": "table"
+      }
+    },
+    "output": {
+      "resonant_frequency_Hz": {
+        "quote": "resonant frequency of ... 98.0 Hz",
+        "section": "3.4. Output Performance",
+        "source_type": "section"
+      },
+      "output_power_W": {
+        "quote": "maximum output power ... 90.4 μW",
+        "section": "3.4. Output Performance",
+        "source_type": "section"
+      },
+      "open_circuit_voltage_V": {
+        "quote": "maximum output voltage ... 10.8 Vp-p",
+        "section": "3.4. Output Performance",
+        "source_type": "section"
+      },
+      "short_circuit_current_A": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "bandwidth_Hz": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      }
+    }
+  }
+}

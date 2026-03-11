@@ -1,0 +1,28 @@
+{
+  "paper_id": "10_1016_j_sna_2018_10_043",
+  "doi": "10.1016/j.sna.2018.10.043",
+  "title": "Resonant frequency self-tunable piezoelectric cantilevers for energy harvesting and disturbing torque absorbing",
+  "source_apis": [
+    "semantic_scholar"
+  ],
+  "pdf_url": "",
+  "pdf_local_path": "data_registry/raw_stage04_paper_pdf_cleaned/10_1016_j_sna_2018_10_043.pdf",
+  "processing": {
+    "tool": "MinerU",
+    "version": "python -m mineru.cli.client, version 2.7.6",
+    "timestamp": "2026-03-10T09:35:33.408482+00:00",
+    "duration_s": 104.93,
+    "success": true,
+    "error": ""
+  },
+  "outputs": {
+    "content_md": "/root/EH-LLM-vehbench-exp/parsed_docs/10_1016_j_sna_2018_10_043_409eigi_/content.md",
+    "layout_json": "/root/EH-LLM-vehbench-exp/parsed_docs/10_1016_j_sna_2018_10_043_409eigi_/layout.json",
+    "images_dir": "/root/EH-LLM-vehbench-exp/parsed_docs/10_1016_j_sna_2018_10_043_409eigi_/10_1016_j_sna_2018_10_043/auto/images",
+    "normalized_json": "/root/EH-LLM-vehbench-exp/normalized_docs/10_1016_j_sna_2018_10_043.json"
+  },
+  "data_lineage": {
+    "papers_jsonl_hash": "31fe0b6c8c146a6c450bc271e500d271",
+    "pipeline_step": "ingestion/mineru_runner.py"
+  }
+}

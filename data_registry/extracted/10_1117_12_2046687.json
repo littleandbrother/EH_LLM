@@ -1,0 +1,147 @@
+{
+  "metadata": {
+    "paper_id": "10_1117_12_2046687",
+    "doi": "10.1117/12.2046687",
+    "title": "Recent progress on micro-piezoelectric energy harvesters fabricated with aerosol deposition method and the interfacing circuits",
+    "year": 2014,
+    "journal": "Proceedings of SPIE, the International Society for Optical Engineering/Proceedings of SPIE"
+  },
+  "configuration": "cantilever",
+  "proof_mass": true,
+  "geometry": {
+    "length_mm": 6.0,
+    "width_mm": 8.0,
+    "thickness_mm": 0.045,
+    "substrate_thickness_um": 30.0,
+    "piezo_thickness_um": 15.0,
+    "tip_mass_g": null,
+    "diameter_mm": null
+  },
+  "excitation": {
+    "type": "vibration",
+    "frequency_Hz": 104.4,
+    "acceleration_g": 1.5,
+    "displacement_mm": null,
+    "motion_source": null
+  },
+  "load": {
+    "load_resistance_ohm": 150000.0
+  },
+  "output": {
+    "resonant_frequency_Hz": 104.4,
+    "output_power_W": 0.0002416,
+    "open_circuit_voltage_V": null,
+    "short_circuit_current_A": null,
+    "bandwidth_Hz": null
+  },
+  "evidence": {
+    "configuration": {
+      "quote": "A cantilever beam structure in this study was designed to have the dimensions of 6000 x 8000 um^2.",
+      "section": "3.4 Piezoelectric energy harvesters fabricated on stainless-steel substrates",
+      "source_type": "section"
+    },
+    "proof_mass": {
+      "quote": "The device was composed of a 30 um stainless-steel substrate, a lower electrode, a 15 um PZT layer, an upper electrode, and a bonded tungsten proof mass.",
+      "section": "3.4 Piezoelectric energy harvesters fabricated on stainless-steel substrates",
+      "source_type": "section"
+    },
+    "geometry": {
+      "length_mm": {
+        "quote": "A cantilever beam structure in this study was designed to have the dimensions of 6000 x 8000 um^2.",
+        "section": "3.4 Piezoelectric energy harvesters fabricated on stainless-steel substrates",
+        "source_type": "section"
+      },
+      "width_mm": {
+        "quote": "A cantilever beam structure in this study was designed to have the dimensions of 6000 x 8000 um^2.",
+        "section": "3.4 Piezoelectric energy harvesters fabricated on stainless-steel substrates",
+        "source_type": "section"
+      },
+      "thickness_mm": {
+        "quote": "The device was composed of a 30 um stainless-steel substrate, a lower electrode, a 15 um PZT layer, an upper electrode, and a bonded tungsten proof mass.",
+        "section": "3.4 Piezoelectric energy harvesters fabricated on stainless-steel substrates",
+        "source_type": "section"
+      },
+      "substrate_thickness_um": {
+        "quote": "The device was composed of a 30 um stainless-steel substrate, a lower electrode, a 15 um PZT layer, an upper electrode, and a bonded tungsten proof mass.",
+        "section": "3.4 Piezoelectric energy harvesters fabricated on stainless-steel substrates",
+        "source_type": "section"
+      },
+      "piezo_thickness_um": {
+        "quote": "The device was composed of a 30 um stainless-steel substrate, a lower electrode, a 15 um PZT layer, an upper electrode, and a bonded tungsten proof mass.",
+        "section": "3.4 Piezoelectric energy harvesters fabricated on stainless-steel substrates",
+        "source_type": "section"
+      },
+      "tip_mass_g": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "diameter_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      }
+    },
+    "excitation": {
+      "type": {
+        "quote": "at a 1.5 g acceleration level",
+        "section": "3.4 Piezoelectric energy harvesters fabricated on stainless-steel substrates",
+        "source_type": "section"
+      },
+      "frequency_Hz": {
+        "quote": "at a resonant frequency of 104.4 Hz",
+        "section": "3.4 Piezoelectric energy harvesters fabricated on stainless-steel substrates",
+        "source_type": "section"
+      },
+      "acceleration_g": {
+        "quote": "at a 1.5 g acceleration level",
+        "section": "3.4 Piezoelectric energy harvesters fabricated on stainless-steel substrates",
+        "source_type": "section"
+      },
+      "displacement_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "motion_source": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      }
+    },
+    "load": {
+      "load_resistance_ohm": {
+        "quote": "while working in a vacuum under a 150 kOhm optimal load impedance",
+        "section": "3.4 Piezoelectric energy harvesters fabricated on stainless-steel substrates",
+        "source_type": "section"
+      }
+    },
+    "output": {
+      "resonant_frequency_Hz": {
+        "quote": "at a resonant frequency of 104.4 Hz",
+        "section": "3.4 Piezoelectric energy harvesters fabricated on stainless-steel substrates",
+        "source_type": "section"
+      },
+      "output_power_W": {
+        "quote": "it had a maximum output power of 241.60 uW",
+        "section": "3.4 Piezoelectric energy harvesters fabricated on stainless-steel substrates",
+        "source_type": "section"
+      },
+      "open_circuit_voltage_V": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "short_circuit_current_A": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "bandwidth_Hz": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      }
+    }
+  }
+}

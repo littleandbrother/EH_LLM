@@ -1,0 +1,101 @@
+{
+  "paper_id": "10_4028_www_scientific_net_amm_404_635",
+  "doi": "10.4028/www.scientific.net/amm.404.635",
+  "title": "Broadband Low-Frequency Vibration Energy Harvester with a Rolling Mass",
+  "year": 2013,
+  "venue": "Applied Mechanics and Materials",
+  "authors": [
+    "X. He",
+    "You Zhu",
+    "Yao-Qing Cheng",
+    "Jun Gao",
+    "Xue Feng He",
+    "Yao Cheng"
+  ],
+  "citation_count": 3,
+  "sections": [
+    {
+      "heading": "Broadband Low-Frequency Vibration Energy Harvester with A Rolling Mass",
+      "level": 1,
+      "text": "Xuefeng He1a,You Zhu1, Yaoqing Cheng², Jun Gao\n\n1Key Laboratory of Optoelectronic Technology and Systems of Education Ministry of China, Chongqing University, Chongqing 400044, China\n\nMicrosystem Research Center of Chongqing University, Chongqing 400044, China\n\nahexuefeng@cqu.edu.cn\n\nKeywords: Vibration energy harvesting, Impact, Broadband, Low-frequency, Piezoelectricity.\n\nAbstract. Richness of broadband low-frequency vibration energy in environemnts makes it significant to develop broadband low-frequency vibration energy harvesters. A vibration energy harvester composed of two symmetrical cantilevered piezoelectric bimorphs and a rolling mass in a guiding channel was proposed. A prototype of the vibration energy harvester with a rolling mass was assembled and tested. The base excitation caused the rolling mass to impact with two cantilevered bimorphs repeatedly and the impacts cause the bimorphs to vibrate dramatically. Experimental results show that maximum output power and corresponding excitation frequency increased with the amplitude of base acceleration. For the prototype, the maximum output power of a piezoelectric bimorph on a resistor with the resistance of $1 0 0 ~ \\mathrm { k } \\Omega$ was $6 0 2 ~ \\mu \\mathrm { W }$ under base acceleration with the amplitude of $1 . 5 \\ : \\mathrm { g }$ and frequency of $3 7 \\ : \\mathrm { H z }$ , and the half power bandwidth was about $1 3 . 5 \\%$ or $5 \\ : \\mathrm { H z }$ ."
+    },
+    {
+      "heading": "Introduction",
+      "level": 1,
+      "text": "Compared with traditional batteries, such advantages as long lives, maintenance-free and so on make small-scale or micro-scale energy harvesters, which convert ambient energy (such as solar/light energy, mechanical energy or thermal energy) into electrical energy, promising electrical sources of wireless sensor nodes, especially for those in remote or dangerous environments. Vibration energy harvesters (VEHs) received much attention in recent years due to the ubiquitous presence of ambient vibration energy [1-7]. VEHs based on piezoelectric [1-4], electromagnetic [5,6] and electrostatic [6,7] transduction mechanisms have been reported. Piezoelectric VEHs attracted most attention for the high power density, ease of miniaturization and etc.\n\nLow frequency and broad bandwidth vibration energy is rich in natural environments and corresponding harvesting methods have been intensively studied in recent years. For a resonant-based VEH, the output power is high only when its natural frequencies match the frequency of ambient vibration. And the output power decreases dramatically when the frequency of base excitation deviates from the natural frequencies of the harvester. The vibration spectrums in many environments are broadband [1,2], or even dynamically varying [8]. And many applications in such environments as civil infrastructures, human bodies, trees, buildings, cars and etc. need to harvest vibration eergy under $5 0 \\ \\mathrm { H z }$ [9]. But natural frequencies of the majority of reported harvesters are above $5 0 \\ \\mathrm { H z }$ [9]. Therefore, it is of significance to develop VEHs which can efficiently scavenge broadband vibration energy with the frequency below $5 0 ~ \\mathrm { H z }$ Impact is an effective mean to broaden the bandwidth of VEHs [10-15]. An impact-based electromagnetic VEH with the output power of $1 3 . 6 \\mu \\mathrm { W }$ under the harmonic acceleration excitation of $1 \\ \\mathrm { g }$ at $1 0 \\ : \\mathrm { H z }$ , which can operate at frequencies up to $6 5 \\ \\mathrm { H z }$ , has been reported [10]. By utilizing the impact between the MEMS harvesting element and the carrier base, the output power of the MEMS piezoelectric harvesting element was larger than $1 9 . 4 \\mathrm { n W }$ under the acceleration of $1 \\mathrm { g }$ with the frequency between $3 0 \\mathrm { H z }$ and $4 7 \\ : \\mathrm { H z }$ [11]. By utilizing the impact of a sliding mass on piezoelectric bending structures, an impacted-based piezoelectric VEH produced output power of $6 0 0 ~ \\mu \\mathrm { W }$ under the harmonic base excitation with the amplitude of $1 0 \\ \\mathrm { c m }$ at $1 0 \\ \\mathrm { H z }$ [13]. The operation mechanisms of the impact-based vibration energy harvesters have been theoretically analyzed [14,15].\n\nIn this paper, a broadband low-frequency piezoelectric VEH with a rolling mass was proposed. After the configuration and operational mechanism were introduced, a prototype was assembled and tested."
+    },
+    {
+      "heading": "Configuration and Operational Mechanism of Vibration Energy Harvester with a Rolling Mass",
+      "level": 1,
+      "text": "To harvesting ambient broadband low-frequency vibration energy, an impact-based vibration energy harvester was proposed. The harvester was schematically shown in Fig. 1. It is composed of two cantilevered piezoelectric composite beams, a fixture and a rolling mass. Two piezoelectric cantilevers were symmetrically fixed on two ends of the fixture. There is a cylinder guiding channel on the fixture between the free ends of two piezoelectric cantilevers and there is a rolling sphere mass in the guiding channel. To make the rolling body not completely roll out of the channel, the gaps between the ends of the channel and the piezoelectric cantilevers are much smaller than the diameter of the rolling mass.\n\n![](images/cece44933dda89615f5a7f42028fb06050cf3a02256fbf9d2c29419a95c5f39a.jpg)  \nFig. 1. Schematic of a vibration energy harvester with a rolling mass.\n\nUnder ambient vibration, the sphere mass rolls in the channel. After the rolling mass partly rolls out of the sliding slot and impacts with a piezoelectric cantilever, it wll be bound back into the channel to impact with the other piezoelectric cantilever. The impacts between the sphere mass and the cantilevers cause the cantilevers to vibrate and the piezoelectric layers in the cantilevers convert the vibration energy into electrical energy. This harvester is similar with that in Ref. [13] except that the sliding body is substituted by a rolling mass. Because the rolling mass is more prone to move than the sliding mass under base excitation, the performance of the harvester is improved."
+    },
+    {
+      "heading": "Prototype Assembly and Experimental Setup",
+      "level": 1,
+      "text": "A prototype was assembled to evaluate the output performance of VEH with a rolling mass. The photograph of the prototype was shown in Fig. 2. Two piezoelectric cantilevers were formed by fixing the fixed-ends of two piezoelectric bimorphs on two sides of a fixture with the length of 32 mm, width of $9 \\mathrm { m m }$ and height of $1 8 ~ \\mathrm { m m }$ . The length and diameter of the guiding channel of the fixture are $8 \\mathrm { m m }$ and $8 . 4 \\mathrm { m m }$ , respectively. There is a steel sphere with the diameter of $8 \\mathrm { m m }$ as the rolling mass. The gaps between the exits of channel and the piezoelectric cantilevers are about $1 \\mathrm { m m }$ . Two PZT-5H bimorphs of T215-A4-203X from Piezo Systems Inc. were used as the piezoelectric cantilevers. A brass layer with the thickness of $1 0 2 ~ { \\mu \\mathrm { m } }$ was sandwiched between two PZT-5H piezoelectric layers with the same thickness of $1 3 9 ~ { \\mu \\mathrm { m } }$ . The length, width and thickness of the bimorphs are $3 1 . 8 ~ \\mathrm { m m }$ $6 . 4 \\ \\mathrm { m m }$ and $0 . 3 8 \\ \\mathrm { m m }$ ,respectively. The two piezoelectric layers of the bimorphs are electrically connected in series.\n\nThe performance of the prototype was measured on an electromagnetic shaker. The experimental setup was shown in Fig. 3. The prototype was mounted on the shaker by making the guiding channel horizontal. A sinusoidal voltage signal from an oscillograph was enlarged by a power amplifier to drive the electromagnetic shaker. Acceleration of the shaker was monitored by an accelerometer. The voltage of the bimorphs was monitored by the oscillograph.\n\n![](images/2862d11454a7799068e507a53c22c368c64e7f5138c9997beb633cb6db752a25.jpg)  \nFig . Photograph of the prototype.\n\n![](images/3fe7622cf651a7c98bc754a2b31b1f21bf181a624972bd9ecdb410ed6eea1847.jpg)  \nFig. 3. Experimental setup."
+    },
+    {
+      "heading": "Experimental Results and Discussions",
+      "level": 1,
+      "text": "The performance of a cantilevered bimorph was firstly measured by using a prototype without a steel sphere. When the amplitude of the acceleration excitation was fixed as $0 . 5 \\ \\mathrm { g }$ (where $\\mathrm { g } { = } 9 . 8 \\mathrm { m } \\mathrm { s } ^ { - 2 }$ and the frequency increased from $5 0 \\ \\mathrm { H z }$ to $2 0 0 \\ : \\mathrm { H z }$ , the measured root-mean-square (RMS) open-circuit voltage of the left bimorph was shown Fig. 4(a). The first open-circuit natural frequency is about 251 $\\mathrm { H z }$ corresponding to the maximum RMS open-circuit voltage. The RMS voltage on a resistor with the resistance of $1 0 0 \\mathrm { k } \\Omega$ was recorded and used to calculate the output power on the resistor. The output power on the resistor was shown in Fig. 4(b). As the first natural frequency of the cantilevered bimorph is as high as $2 5 1 \\ \\mathrm { H z }$ , the harvesting efficiency of vibration energy below $5 0 \\mathrm { H z }$ is very low. For example, under base excitation of $0 . 5 \\ : \\mathrm { g }$ at $5 0 \\mathrm { H z }$ , the output power on $1 0 0 \\mathrm { k } \\Omega$ resistor was merely $3 2 \\mathrm { n W }$ .\n\n![](images/57ad4504a290d402485c351857f6c4113c77f2e48476a4d00260e77663dc564e.jpg)  \nFig. 4. Output performance of a bimorph under base excitation of $0 . 5 \\mathrm { g }$\n\nThe influence of excitation frequency on the electrical output of the harvester was experimentally analyzed. When the guiding channel was horizontal, the electrical outputs of two bimorphs were very close. Therefore, only the output of the left bimorph was measured in the following. By setting the acceleration amplitude as $0 . 5 \\mathrm { g } , 1 . 0 \\mathrm { g }$ and $1 . 5 \\mathrm { g } .$ the RMS voltages on the $1 0 0 \\ \\mathrm { k } \\Omega$ resistor of the left bimorph were measured when the excitation frequency increased from about $1 0 \\ : \\mathrm { H z }$ to about $4 0 \\ \\mathrm { H z }$ . The measured RMS voltage and corresponding output power were shown in Fig. (5). Under acceleration excitation of $0 . 5 \\ \\mathrm { g } , \\ 1 . 0 \\ \\mathrm { g }$ and $1 . 5 \\ \\mathrm { g }$ , the maximum output power and corresponding excitation frequency on the $1 0 0 \\mathrm { k } \\Omega$ resistor were $9 2 . 4 \\mu \\mathrm { W }$ at $2 6 . 7 \\mathrm { H z }$ . $2 2 6 \\mu \\mathrm { W }$ at $3 1 . 5 \\mathrm { H z }$ and $6 0 2 \\mu \\mathrm { W }$ at $3 7 \\ \\mathrm { H z }$ ,respectively. The maximum output power and corresponding excitation frequency increased with the base acceleration. Under base acceleration of $1 . 0 \\ { \\mathrm { g } } .$ the maximum output power was $2 2 6 \\mu \\mathrm { W }$ at $3 1 . 5 \\mathrm { H z }$ and the output power was $1 1 8 \\mu \\mathrm { W }$ at $2 6 \\mathrm { H z }$ , with the half power bandwidth of about $1 7 . 5 \\%$ or $5 . 5 \\ : \\mathrm { H z }$ When base acceleration is $1 . 5 \\mathrm { g }$ , the maximum output power was $6 0 2 \\mu \\mathrm { W }$ at $3 7 \\ \\mathrm { H z }$ and the output power was about $3 0 4 ~ \\mu \\mathrm { W }$ at $3 2 \\ \\mathrm { H z }$ ,with the half power bandwidth of about $1 3 . 5 \\%$ or $5 \\mathrm { H z }$ .\n\n![](images/da7dd8f20ef8f14a2368ca2d1ea24179ed8a9ea5a78933e9e6dcbb7b6a2bff51.jpg)  \nFig. 5. Voltage and Power under base excitation.\n\nUnder the base excitation with the amplitude of $1 . 5 \\ \\mathrm { g }$ and frequency of $3 7 \\ : \\mathrm { H z }$ , the time history of the open-circuit voltage of the right bimorph and that of the voltage of the left bimorph were shown in Fig. 6(a) and 6(b), respectively. The RMS open-circuit voltage of the right bimorph was $1 2 . 8 \\mathrm { ~ V ~ }$ and the voltage of the left bimorph on the $1 0 0 ~ \\mathrm { k } \\Omega$ resistor was about $7 . 7 6 \\mathrm { ~ V ~ }$ Each impact caused a bimorph to produce high output voltage, and then the voltage attenuated like a damping system before the next impact between this bimorph with the rolling mass occurred.\n\n![](images/8e994d1f0143e90b102c5ac2a4159630fd7ceaffe4907d272552750561d17ef3.jpg)  \nFig.6. Time history of voltage under $1 . 5 \\ \\mathrm { g }$ at $3 7 \\ : \\mathrm { H z }$ ."
+    },
+    {
+      "heading": "Summary",
+      "level": 1,
+      "text": "The high natural frequency and narrow bandwidth of common resonant-based VEHs limit the applications in many environments. An impacted-based VEH with a rolling mass, which can scavenge ambient broadband low-frequency vibration energy, was proposed. Base excitation caused the rolling mass to repeatedly impact with two cantilevered piezoelectric bimorphs. The impacts made the bimorphs vibrate dramatically and then the vibration attenuated like a damping system before the next impact occurred. With the increase of the amplitude of base acceleration excitation, the maximum output power and the frequency of base excitation corresponding to maximum output power increased. For a prototype of VEH with a rolling mass and two symmetrical piezoelectric bimorphs, the maximum output power of a bimorph on the $1 0 0 \\mathrm { k } \\Omega$ resistor was $6 0 2 \\mu \\mathrm { W }$ under base acceleration with the amplitude of $1 . 5 \\ \\mathrm { g }$ and frequency of $3 7 \\ : \\mathrm { H z }$ ,and the half power bandwidth was about $1 3 . 5 \\%$ or $5 \\mathrm { H z }$ ."
+    },
+    {
+      "heading": "Acknowledgments",
+      "level": 1,
+      "text": "This work was financially supported by the National Natural Science Foundation of China (No. 61076106) and the Cultivation Fund of the Key Scientific and Technical Innovation Project of Ministry of Education of China (No. 708072)."
+    },
+    {
+      "heading": "References",
+      "level": 1,
+      "text": "[1] S. Roundy, P. K. Wright and J. Rabaey: Comput. Commun. Vol. 26 (2003), p. 1131.   \n[2] L. M. Miller, E. Halvorsen, T. Dong and P. K. Wright: J. Micromech. Microeng. Vol. 21 (2011), 045029.   \n[3] H. B. Fang, J. Q. Liu, Z. Y. Xu, L. Dong, L. Wang, D. Chen, B. C. Cai and Y. Liu: Microelectron. J. Vol. 37 (2006), p.1280.   \n[4] S. P. Beeby, R. N. Torah, M. J. Tudor, P. Glynne-Jones, T. O'Donnell, C. R. Saha and S. Roy: J. Micromech. Microeng. Vol. 17 (2007), p. 1257.   \n[5] P. H. Wang, K. Tanaka, S. Sugiyama, X. H. Dai, X. L. Zhao and J. Q. Liu: Microsyst. Technol. Vol. 15 (2009), p. 941.   \n[6] D. Hoffmann, B. Folkmer and Y. Manoli: J. Micromech. Microeng. Vol. 19 (2009), 094001.   \n[7] Y. Suzuki, D. Miki, M. Edamoto and M. Honzumi: J. Micromech. Microeng. Vol. 20 (2010), 104002.   \n[8] S. Moss, A. Barry, I. Powlesland, S. Galea and G. P. Carman: Smart Mater. Struct.Vol. 20 (2011), 045013.   \n[9] K. Najafi, T. Galchev, E. E. Aktakka, R. L. Peterson and J. McCullagh, in: 16th International Conference on Solid-State Sensors, Actuators and Microsystems (Transducers), Beijing, China, 2011, p. 1845.   \n[10]T. Galchev, H. Kim and K. Najafi: J. Microelectromech. Syst. Vol. 20 (2011), p. 852.   \n[11]H. C. Liu, C. J. Tay, C. G. Quan, T. Kobayashi and C. Lee: J. Microelectromech. Syst. Vol. 20 (2011), p. 1131.   \n[12]L. Gu: Microelectron. J. Vol. 42 (2011), p. 277.   \n[13]M. Renaud, P. Fiorini, R. Van Schaijk and C.Van Hoof: Smart Mater. Struct. Vol. 18 (2009), 035001.   \n[14]K. H. Mak, S. McWilliam, A. A. Popov and C. H. J. Fox: J. Sound Vibr. Vol. 330 (2011), p. 6184.   \n[15]M. Umeda, K. Nakamura and S. Ueha: Jpn. J. Appl. Phys. Vol. 35 (1996), p. 3267.\n\nBroadband Low-Frequency Vibration Energy Harvester with a Rolling Mass 10.4028/www.scientific.net/AMM.404.635"
+    },
+    {
+      "heading": "DOI References",
+      "level": 1,
+      "text": "[1] S. Roundy, P. K. Wright and J. Rabaey: Comput. Commun. Vol. 26 (2003), p.1131.   \nhttp://dx.doi.org/10.1016/S0140-3664(02)00248-7   \n[] H. B. Fang, J. Q. Liu, Z. Y. Xu, L. Don, L. Wang, D.Chen, B. C.Cai and Y. Liu: Miceeo. J.Vol. 37 (2006), p.1280.   \nhttp://dx.doi.org/10.1016/j.mejo.2006.07.023   \n[4] S. P. Beeby, R. N. Torah, M. J. Tudor, P. Glynne-Jones, T. O'Donnell, C. R. Saha and S. Roy: J. Micromech. Microeng. Vol. 17 (2007), p.1257.   \nhttp://dx.doi.org/10.1088/0960-1317/17/7/007   \n[5] P. H. Wang, K. Tanaka, S. Sugiyama, X. H. Dai, X. L. Zhao and J. Q. Liu: Microsyst. Technol. Vol. 15 (2009), p.941.   \nhttp://dx.doi.org/10.1007/s00542-009-0827-0   \n[1] H. C. Liu, C. J. Tay, C. G. Quan, T. Kobayashi and C. Lee: J. Microelectromech. Syst. Vol. 20 (2011), p.1131.   \nhttp://dx.doi.org/10.1109/JMEMS.2011.2162488   \n[12] L. Gu: Microelectron. J. Vol. 42 (2011), p.277.   \nhttp://dx.doi.org/10.1016/j.mejo.2010.10.007   \n[14] K. H. Mak, S. McWilliam, A. A. Popov and C. H. J. Fox: J. Sound Vibr. Vol. 30 (2011), p.6184. http://dx.doi.org/10.1016/j.jsv.2011.07.008   \n[15] M. Umeda, K. Nakamura and S. Ueha: Jpn. J. Appl. Phys. Vol. 35 (1996), p.3267.   \nhttp://dx.doi.org/10.1143/JJAP.35.3267"
+    }
+  ],
+  "tables": [],
+  "figures": [
+    {
+      "page": -1,
+      "caption": "",
+      "path": "images/cece44933dda89615f5a7f42028fb06050cf3a02256fbf9d2c29419a95c5f39a.jpg"
+    },
+    {
+      "page": -1,
+      "caption": "",
+      "path": "images/2862d11454a7799068e507a53c22c368c64e7f5138c9997beb633cb6db752a25.jpg"
+    },
+    {
+      "page": -1,
+      "caption": "",
+      "path": "images/3fe7622cf651a7c98bc754a2b31b1f21bf181a624972bd9ecdb410ed6eea1847.jpg"
+    },
+    {
+      "page": -1,
+      "caption": "",
+      "path": "images/57ad4504a290d402485c351857f6c4113c77f2e48476a4d00260e77663dc564e.jpg"
+    },
+    {
+      "page": -1,
+      "caption": "",
+      "path": "images/da7dd8f20ef8f14a2368ca2d1ea24179ed8a9ea5a78933e9e6dcbb7b6a2bff51.jpg"
+    },
+    {
+      "page": -1,
+      "caption": "",
+      "path": "images/8e994d1f0143e90b102c5ac2a4159630fd7ceaffe4907d272552750561d17ef3.jpg"
+    }
+  ],
+  "metadata": {
+    "source": "both",
+    "pdf_url": "",
+    "parsed_at": "2026-03-10T09:41:02.007409+00:00"
+  }
+}

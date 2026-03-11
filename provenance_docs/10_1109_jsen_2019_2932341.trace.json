@@ -1,0 +1,28 @@
+{
+  "paper_id": "10_1109_jsen_2019_2932341",
+  "doi": "10.1109/jsen.2019.2932341",
+  "title": "Impact of Geometry on the Performance of Cantilever-Based Piezoelectric Vibration Energy Harvesters",
+  "source_apis": [
+    "both"
+  ],
+  "pdf_url": "",
+  "pdf_local_path": "data_registry/raw_stage04_paper_pdf_cleaned/10_1109_jsen_2019_2932341.pdf",
+  "processing": {
+    "tool": "MinerU",
+    "version": "python -m mineru.cli.client, version 2.7.6",
+    "timestamp": "2026-03-10T10:09:52.491281+00:00",
+    "duration_s": 143.26,
+    "success": true,
+    "error": ""
+  },
+  "outputs": {
+    "content_md": "/root/EH-LLM-vehbench-exp/parsed_docs/10_1109_jsen_2019_2932341_4tlv6kjg/content.md",
+    "layout_json": "/root/EH-LLM-vehbench-exp/parsed_docs/10_1109_jsen_2019_2932341_4tlv6kjg/layout.json",
+    "images_dir": "/root/EH-LLM-vehbench-exp/parsed_docs/10_1109_jsen_2019_2932341_4tlv6kjg/10_1109_jsen_2019_2932341/auto/images",
+    "normalized_json": "/root/EH-LLM-vehbench-exp/normalized_docs/10_1109_jsen_2019_2932341.json"
+  },
+  "data_lineage": {
+    "papers_jsonl_hash": "5f072f3de7264d6471730770a4f6ebb2",
+    "pipeline_step": "ingestion/mineru_runner.py"
+  }
+}

@@ -1,0 +1,147 @@
+{
+  "metadata": {
+    "paper_id": "10_1088_1742_6596_922_1_012009",
+    "doi": "10.1088/1742-6596/922/1/012009",
+    "title": "Non-resonant energy harvester with elastic constraints for low rotating frequencies",
+    "year": 2017,
+    "journal": null
+  },
+  "configuration": "other",
+  "proof_mass": true,
+  "geometry": {
+    "length_mm": 73,
+    "width_mm": 22.5,
+    "thickness_mm": 0.5,
+    "substrate_thickness_um": 500,
+    "piezo_thickness_um": 250,
+    "tip_mass_g": 42,
+    "diameter_mm": null
+  },
+  "excitation": {
+    "type": "rotation",
+    "frequency_Hz": 2.56,
+    "acceleration_g": null,
+    "displacement_mm": null,
+    "motion_source": null
+  },
+  "load": {
+    "load_resistance_ohm": 10000
+  },
+  "output": {
+    "resonant_frequency_Hz": 10.86,
+    "output_power_W": 0.000123,
+    "open_circuit_voltage_V": null,
+    "short_circuit_current_A": null,
+    "bandwidth_Hz": null
+  },
+  "evidence": {
+    "configuration": {
+      "quote": "two-beam structure connected by a mass-spring system supported by elastic constrains",
+      "section": "1. Introduction",
+      "source_type": "section"
+    },
+    "proof_mass": {
+      "quote": "heavy masses connected by a spring are placed in order to increase voltage generation",
+      "section": "Abstract",
+      "source_type": "abstract"
+    },
+    "geometry": {
+      "length_mm": {
+        "quote": "Beam #1 ... Length (mm) 73",
+        "section": "4. Experiments",
+        "source_type": "table"
+      },
+      "width_mm": {
+        "quote": "Beam #1 ... Width (mm) 22.5",
+        "section": "4. Experiments",
+        "source_type": "table"
+      },
+      "thickness_mm": {
+        "quote": "Beam #1 ... Thickness (mm) 0.5",
+        "section": "4. Experiments",
+        "source_type": "table"
+      },
+      "substrate_thickness_um": {
+        "quote": "Beam #1 ... Thickness (mm) 0.5",
+        "section": "4. Experiments",
+        "source_type": "table"
+      },
+      "piezo_thickness_um": {
+        "quote": "QP16N ... Thickness (mm) 0.25",
+        "section": "4. Experiments",
+        "source_type": "table"
+      },
+      "tip_mass_g": {
+        "quote": "M2 = 42 gr",
+        "section": "4. Experiments",
+        "source_type": "section"
+      },
+      "diameter_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      }
+    },
+    "excitation": {
+      "type": {
+        "quote": "capture energy from low frequency rotational vibration",
+        "section": "Abstract",
+        "source_type": "abstract"
+      },
+      "frequency_Hz": {
+        "quote": "maximum of 123 µW for a rotating frequency of 2.56 Hz",
+        "section": "6. Discussions",
+        "source_type": "section"
+      },
+      "acceleration_g": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "displacement_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "motion_source": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      }
+    },
+    "load": {
+      "load_resistance_ohm": {
+        "quote": "diminish the resistive load to R = 10 KΩ",
+        "section": "6. Discussions",
+        "source_type": "section"
+      }
+    },
+    "output": {
+      "resonant_frequency_Hz": {
+        "quote": "resonance frequency of the harvester was measured in 10.86 Hz",
+        "section": "6. Discussions",
+        "source_type": "section"
+      },
+      "output_power_W": {
+        "quote": "maximum of 123 µW",
+        "section": "6. Discussions",
+        "source_type": "section"
+      },
+      "open_circuit_voltage_V": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "short_circuit_current_A": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "bandwidth_Hz": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      }
+    }
+  }
+}

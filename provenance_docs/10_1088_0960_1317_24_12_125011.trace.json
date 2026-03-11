@@ -1,0 +1,28 @@
+{
+  "paper_id": "10_1088_0960_1317_24_12_125011",
+  "doi": "10.1088/0960-1317/24/12/125011",
+  "title": "Investigation of folded spring structures for vibration-based piezoelectric energy harvesting",
+  "source_apis": [
+    "openalex"
+  ],
+  "pdf_url": "",
+  "pdf_local_path": "data_registry/raw_stage04_paper_pdf_cleaned/10_1088_0960_1317_24_12_125011.pdf",
+  "processing": {
+    "tool": "MinerU",
+    "version": "python -m mineru.cli.client, version 2.7.6",
+    "timestamp": "2026-03-10T09:34:23.603821+00:00",
+    "duration_s": 136.33,
+    "success": true,
+    "error": ""
+  },
+  "outputs": {
+    "content_md": "/root/EH-LLM-vehbench-exp/parsed_docs/10_1088_0960_1317_24_12_125011_twgzmlnq/content.md",
+    "layout_json": "/root/EH-LLM-vehbench-exp/parsed_docs/10_1088_0960_1317_24_12_125011_twgzmlnq/layout.json",
+    "images_dir": "/root/EH-LLM-vehbench-exp/parsed_docs/10_1088_0960_1317_24_12_125011_twgzmlnq/10_1088_0960_1317_24_12_125011/auto/images",
+    "normalized_json": "/root/EH-LLM-vehbench-exp/normalized_docs/10_1088_0960_1317_24_12_125011.json"
+  },
+  "data_lineage": {
+    "papers_jsonl_hash": "34c02835649c1bf2c00e65d655fe3ff4",
+    "pipeline_step": "ingestion/mineru_runner.py"
+  }
+}

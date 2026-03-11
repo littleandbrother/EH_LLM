@@ -1,0 +1,28 @@
+{
+  "paper_id": "10_3390_s22082880",
+  "doi": "10.3390/s22082880",
+  "title": "Bi-Directional Piezoelectric Multi-Modal Energy Harvester Based on Saw-Tooth Cantilever Array",
+  "source_apis": [
+    "openalex"
+  ],
+  "pdf_url": "https://www.mdpi.com/1424-8220/22/8/2880/pdf?version=1649430575",
+  "pdf_local_path": "data_registry/raw_stage04_paper_pdf_cleaned/10_3390_s22082880.pdf",
+  "processing": {
+    "tool": "MinerU",
+    "version": "python -m mineru.cli.client, version 2.7.6",
+    "timestamp": "2026-03-10T09:39:05.637238+00:00",
+    "duration_s": 101.68,
+    "success": true,
+    "error": ""
+  },
+  "outputs": {
+    "content_md": "/root/EH-LLM-vehbench-exp/parsed_docs/10_3390_s22082880_c1kg1f7a/content.md",
+    "layout_json": "/root/EH-LLM-vehbench-exp/parsed_docs/10_3390_s22082880_c1kg1f7a/layout.json",
+    "images_dir": "/root/EH-LLM-vehbench-exp/parsed_docs/10_3390_s22082880_c1kg1f7a/10_3390_s22082880/auto/images",
+    "normalized_json": "/root/EH-LLM-vehbench-exp/normalized_docs/10_3390_s22082880.json"
+  },
+  "data_lineage": {
+    "papers_jsonl_hash": "615af014d89e2c1d3e2b75993c55b37d",
+    "pipeline_step": "ingestion/mineru_runner.py"
+  }
+}

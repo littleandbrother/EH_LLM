@@ -1,0 +1,28 @@
+{
+  "paper_id": "10_3390_mi12091090",
+  "doi": "10.3390/mi12091090",
+  "title": "Design, Manufacture and Test of Piezoelectric Cantilever-Beam Energy Harvesters with Hollow Structures",
+  "source_apis": [
+    "openalex"
+  ],
+  "pdf_url": "https://www.mdpi.com/2072-666X/12/9/1090/pdf",
+  "pdf_local_path": "data_registry/raw_stage04_paper_pdf_cleaned/10_3390_mi12091090.pdf",
+  "processing": {
+    "tool": "MinerU",
+    "version": "python -m mineru.cli.client, version 2.7.6",
+    "timestamp": "2026-03-10T09:55:18.584543+00:00",
+    "duration_s": 97.27,
+    "success": true,
+    "error": ""
+  },
+  "outputs": {
+    "content_md": "/root/EH-LLM-vehbench-exp/parsed_docs/10_3390_mi12091090_jlpc0edg/content.md",
+    "layout_json": "/root/EH-LLM-vehbench-exp/parsed_docs/10_3390_mi12091090_jlpc0edg/layout.json",
+    "images_dir": "/root/EH-LLM-vehbench-exp/parsed_docs/10_3390_mi12091090_jlpc0edg/10_3390_mi12091090/auto/images",
+    "normalized_json": "/root/EH-LLM-vehbench-exp/normalized_docs/10_3390_mi12091090.json"
+  },
+  "data_lineage": {
+    "papers_jsonl_hash": "4896fa92efb8ea0a305c780d29ef64fc",
+    "pipeline_step": "ingestion/mineru_runner.py"
+  }
+}

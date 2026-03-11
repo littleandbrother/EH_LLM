@@ -1,0 +1,28 @@
+{
+  "paper_id": "10_1016_j_ymssp_2019_02_003",
+  "doi": "10.1016/j.ymssp.2019.02.003",
+  "title": "Analytical modeling and validation of multi-mode piezoelectric energy harvester",
+  "source_apis": [
+    "both"
+  ],
+  "pdf_url": "",
+  "pdf_local_path": "data_registry/raw_stage04_paper_pdf_cleaned/10_1016_j_ymssp_2019_02_003.pdf",
+  "processing": {
+    "tool": "MinerU",
+    "version": "python -m mineru.cli.client, version 2.7.6",
+    "timestamp": "2026-03-10T10:19:02.969469+00:00",
+    "duration_s": 124.52,
+    "success": true,
+    "error": ""
+  },
+  "outputs": {
+    "content_md": "/root/EH-LLM-vehbench-exp/parsed_docs/10_1016_j_ymssp_2019_02_003_gktnqyqr/content.md",
+    "layout_json": "/root/EH-LLM-vehbench-exp/parsed_docs/10_1016_j_ymssp_2019_02_003_gktnqyqr/layout.json",
+    "images_dir": "/root/EH-LLM-vehbench-exp/parsed_docs/10_1016_j_ymssp_2019_02_003_gktnqyqr/10_1016_j_ymssp_2019_02_003/auto/images",
+    "normalized_json": "/root/EH-LLM-vehbench-exp/normalized_docs/10_1016_j_ymssp_2019_02_003.json"
+  },
+  "data_lineage": {
+    "papers_jsonl_hash": "eb15c62d78c0f3ed272f65c5445777e1",
+    "pipeline_step": "ingestion/mineru_runner.py"
+  }
+}

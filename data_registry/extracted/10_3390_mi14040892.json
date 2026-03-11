@@ -1,0 +1,147 @@
+{
+  "metadata": {
+    "paper_id": "10_3390_mi14040892",
+    "doi": "10.3390/mi14040892",
+    "title": "Simulation and Experimental Study of a Piezoelectric Stack Energy Harvester for Railway Track Vibrations",
+    "year": 2023,
+    "journal": "Micromachines"
+  },
+  "configuration": "stack",
+  "proof_mass": false,
+  "geometry": {
+    "length_mm": null,
+    "width_mm": null,
+    "thickness_mm": null,
+    "substrate_thickness_um": null,
+    "piezo_thickness_um": 2000,
+    "tip_mass_g": null,
+    "diameter_mm": 55
+  },
+  "excitation": {
+    "type": "vibration",
+    "frequency_Hz": 3,
+    "acceleration_g": null,
+    "displacement_mm": 2.1,
+    "motion_source": "MTS 370-10 universal fatigue test machine"
+  },
+  "load": {
+    "load_resistance_ohm": 700000
+  },
+  "output": {
+    "resonant_frequency_Hz": 243.68,
+    "output_power_W": 0.193,
+    "open_circuit_voltage_V": 260.14,
+    "short_circuit_current_A": null,
+    "bandwidth_Hz": null
+  },
+  "evidence": {
+    "configuration": {
+      "quote": "A new type of arch beam piezoelectric stack energy harvester for railway systems is studied in this paper.",
+      "section": "Abstract",
+      "source_type": "abstract"
+    },
+    "proof_mass": {
+      "quote": "The energy harvester system comprises the arch beam, support plate, preload bolt, rod, base, pressure disk, and piezoelectric stack",
+      "section": "2. Modeling Rail and Designing Energy Harvester",
+      "source_type": "section"
+    },
+    "geometry": {
+      "length_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "width_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "thickness_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "substrate_thickness_um": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "piezo_thickness_um": {
+        "quote": "the thickness of the piezoelectric plate is h = 2 mm",
+        "section": "2. Modeling Rail and Designing Energy Harvester",
+        "source_type": "section"
+      },
+      "tip_mass_g": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "diameter_mm": {
+        "quote": "the outer diameter is φD = 55 mm",
+        "section": "2. Modeling Rail and Designing Energy Harvester",
+        "source_type": "section"
+      }
+    },
+    "excitation": {
+      "type": {
+        "quote": "The vibration energy of the track structure is enormous",
+        "section": "Abstract",
+        "source_type": "abstract"
+      },
+      "frequency_Hz": {
+        "quote": "set frequency of f = 3 Hz",
+        "section": "3. Simulation and Experimental Discussion of Energy Harvester",
+        "source_type": "section"
+      },
+      "acceleration_g": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "displacement_mm": {
+        "quote": "set frequency of f = 3 Hz and a load of F = 21 kN... stiffness of the energy harvester is k_e = 10 MN/m",
+        "section": "3. Simulation and Experimental Discussion of Energy Harvester",
+        "source_type": "section"
+      },
+      "motion_source": {
+        "quote": "pressure test was carried out on a MTS 370-10 universal fatigue test machine",
+        "section": "3. Simulation and Experimental Discussion of Energy Harvester",
+        "source_type": "section"
+      }
+    },
+    "load": {
+      "load_resistance_ohm": {
+        "quote": "The optimal resistance of the energy harvester is about 700 kΩ",
+        "section": "3. Simulation and Experimental Discussion of Energy Harvester",
+        "source_type": "section"
+      }
+    },
+    "output": {
+      "resonant_frequency_Hz": {
+        "quote": "first order: 243.68 Hz",
+        "section": "3. Simulation and Experimental Discussion of Energy Harvester",
+        "source_type": "section"
+      },
+      "output_power_W": {
+        "quote": "The energy harvester has an output power of 193 mW",
+        "section": "Abstract",
+        "source_type": "abstract"
+      },
+      "open_circuit_voltage_V": {
+        "quote": "the open-circuit RMS voltage generated in the experiment reaches 260.14 V",
+        "section": "3. Simulation and Experimental Discussion of Energy Harvester",
+        "source_type": "section"
+      },
+      "short_circuit_current_A": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "bandwidth_Hz": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      }
+    }
+  }
+}

@@ -1,0 +1,147 @@
+{
+  "metadata": {
+    "paper_id": "10_1063_1_4919711",
+    "doi": "10.1063/1.4919711",
+    "title": "Low-frequency and wideband vibration energy harvester with flexible frame and interdigital structure",
+    "year": 2015,
+    "journal": "AIP Advances"
+  },
+  "configuration": "array",
+  "proof_mass": true,
+  "geometry": {
+    "length_mm": 60,
+    "width_mm": 8,
+    "thickness_mm": null,
+    "substrate_thickness_um": 500,
+    "piezo_thickness_um": 300,
+    "tip_mass_g": null,
+    "diameter_mm": null
+  },
+  "excitation": {
+    "type": "vibration",
+    "frequency_Hz": 10,
+    "acceleration_g": 1.0,
+    "displacement_mm": null,
+    "motion_source": "shaker"
+  },
+  "load": {
+    "load_resistance_ohm": 600000
+  },
+  "output": {
+    "resonant_frequency_Hz": 10,
+    "output_power_W": 0.0045,
+    "open_circuit_voltage_V": 65,
+    "short_circuit_current_A": null,
+    "bandwidth_Hz": 28
+  },
+  "evidence": {
+    "configuration": {
+      "quote": "interdigital-shaped oscillator consists of a rectangular flexible frame and series of cantilever beams",
+      "section": "Low-frequency and wideband vibration energy harvester with flexible frame and interdigital structure",
+      "source_type": "abstract"
+    },
+    "proof_mass": {
+      "quote": "Cantilever beam arrays were fabricated with the same PZT, copper cantilever and proof mass for sizes and materials",
+      "section": "A. Modeling",
+      "source_type": "section"
+    },
+    "geometry": {
+      "length_mm": {
+        "quote": "6×0.8×0.05",
+        "section": "TABLE I. Materials and parameters of the conventional energy harvester and the designed structures.",
+        "source_type": "table"
+      },
+      "width_mm": {
+        "quote": "6×0.8×0.05",
+        "section": "TABLE I. Materials and parameters of the conventional energy harvester and the designed structures.",
+        "source_type": "table"
+      },
+      "thickness_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "substrate_thickness_um": {
+        "quote": "6×0.8×0.05",
+        "section": "TABLE I. Materials and parameters of the conventional energy harvester and the designed structures.",
+        "source_type": "table"
+      },
+      "piezo_thickness_um": {
+        "quote": "5×0.8×0.03",
+        "section": "TABLE I. Materials and parameters of the conventional energy harvester and the designed structures.",
+        "source_type": "table"
+      },
+      "tip_mass_g": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "diameter_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      }
+    },
+    "excitation": {
+      "type": {
+        "quote": "harmonic input excitation",
+        "section": "A. Modeling",
+        "source_type": "section"
+      },
+      "frequency_Hz": {
+        "quote": "about 65V at 10 Hz",
+        "section": "B. Results and discussions",
+        "source_type": "section"
+      },
+      "acceleration_g": {
+        "quote": "acceleration of 1.0 g",
+        "section": "Low-frequency and wideband vibration energy harvester with flexible frame and interdigital structure",
+        "source_type": "abstract"
+      },
+      "displacement_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "motion_source": {
+        "quote": "shaker",
+        "section": "A. Modeling",
+        "source_type": "section"
+      }
+    },
+    "load": {
+      "load_resistance_ohm": {
+        "quote": "resistive load of 600 kΩ",
+        "section": "B. Results and discussions",
+        "source_type": "section"
+      }
+    },
+    "output": {
+      "resonant_frequency_Hz": {
+        "quote": "about 65V at 10 Hz",
+        "section": "B. Results and discussions",
+        "source_type": "section"
+      },
+      "output_power_W": {
+        "quote": "maximum output power 4.5 mW",
+        "section": "Low-frequency and wideband vibration energy harvester with flexible frame and interdigital structure",
+        "source_type": "abstract"
+      },
+      "open_circuit_voltage_V": {
+        "quote": "maximum open-circuit voltage of 65V",
+        "section": "Low-frequency and wideband vibration energy harvester with flexible frame and interdigital structure",
+        "source_type": "abstract"
+      },
+      "short_circuit_current_A": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "bandwidth_Hz": {
+        "quote": "bandwidth reach up to ... 28 Hz",
+        "section": "B. Simulation",
+        "source_type": "section"
+      }
+    }
+  }
+}

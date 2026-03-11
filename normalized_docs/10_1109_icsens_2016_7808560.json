@@ -1,0 +1,105 @@
+{
+  "paper_id": "10_1109_icsens_2016_7808560",
+  "doi": "10.1109/icsens.2016.7808560",
+  "title": "A piezoelectric based vibration energy harvester fabricated using screen printing technique",
+  "year": 2016,
+  "venue": "Italian National Conference on Sensors",
+  "authors": [
+    "Sepehr Emamian",
+    "Amer A. Chlaihawi",
+    "Binu B. Narakathu",
+    "Bradley J. Bazuin",
+    "Massood Z. Atashbar",
+    "S. Emamian",
+    "A. Chlaihawi",
+    "B. Narakathu",
+    "B. Bazuin",
+    "M. Atashbar"
+  ],
+  "citation_count": 20,
+  "sections": [
+    {
+      "heading": "A Piezoelectric Based Vibration Energy Harvester Fabricated Using Screen Printing Technique",
+      "level": 1,
+      "text": "Sepehr Emamian\\* , Amer A. Chlaihawi, Binu B. Narakathu, Bradley J. Bazuin, Massood Z. Atashbar Electrical and Computer Engineering Department Western Michigan University Kalamazoo, MI, USA \\* sepehr.emamian@wmich.edu\n\nAbstract—A d31 mode piezoelectric based vibration energy harvester (PVEH) has been successfully fabricated using screen printing technique for wireless micro sensor network applications. Polyvinylidene fluoride (PVDF), as a piezoelectric layer, was screen printed onto a glass substrate. The cured screen printed PVDF film was peeled off from the glass substrate and polarized by applying $\\bar { \\mathbf { 1 0 } } \\mathbf { k V }$ across its layer. The polarized PVDF layer was sandwiched between two Metglas conductive electrodes, to form a d31 mode unimorph cantilever beam structure. The fabricated PVEH device was mechanically excited at its first resonance frequency $( 5 4 \\ : \\mathrm { H z } )$ using base shaking experiments. The experimental results demonstrated that the developed energy harvester generated a maximum DC voltage of $\\mathbf { 1 . 3 5 \\ V }$ across a $\\mathbf { 1 0 \\ M \\Omega } $ load and a peak power output of $\\mathbf { 0 . 2 8 \\mu W }$ was delivered to a 1 M resistive load at 0.53 V DC for a sinusoidal vibration of $\\mathbf { 1 5 \\ : g }$ . The corresponding power density of the device was calculated to be $1 1 . 6 7 \\ : \\mu \\mathbf { W } / \\mathbf { c m } ^ { 3 }$ ."
+    },
+    {
+      "heading": "I. INTRODUCTION",
+      "level": 1,
+      "text": "Advancements in low power electronics and wireless systems have enabled ambient energy harvesting as an alternative approach to power-up miniaturized wireless micro sensor networks, thereby eliminating the need for electrochemical batteries [1]. With almost $1 2 0 { , } 0 0 0 \\mathrm { T W }$ of solar radiation received on the surface of the Earth, solar power has been considered as one of the main alternative sources for powering wireless sensor nodes [2]. However, capturing and converting this energy into cost efficient electrical power has been challenging. Moreover, this source of energy is not suitable for applications that are primarily indoor based or which requires the use of implantable medical devices.\n\nAmbient mechanical vibration has been considered as a potential source for powering wireless sensor networks. Various conversion mechanisms such as electromagnetic, electrostatic and piezoelectric for harvesting this form of energy have been demonstrated [3]. However, electromagnetic convertors are difficult to integrate due to the number of coil turns and are inefficient at generating strong damping forces in small geometries or at low frequencies. The electrostatic convertors require the use of separate voltage sources and mechanical stops. The piezoelectric convertors are known to overcome these limitations and have proven to produce a higher power output for a fixed device size [4]. Therefore the development of piezoelectric based vibration energy harvesters (PVEH) is important.\n\nPVEH devices are typically manufactured using conventional silicon based technology, which often requires expensive manufacturing equipment, cleanroom facilities and extreme processing conditions [5-7]. Also, most of these devices are fabricated on rigid substrates, which increases its resonance frequency. Since most of the available environmental vibrations occur at low frequencies (less than $2 0 0 \\mathrm { H z } )$ ), a proof mass is often included at the tip of the cantilever beam structure to reduce its resonance frequency. An alternative approach to overcome the drawbacks associated with this technology is to use continuous layer-on-layer deposition of electrically functional inks onto flexible substrate materials.\n\nPrinted electronic (PE) technologies have demonstrated the ability to produce flexible and mechanically stable devices using screen, inkjet, gravure and flexographic printing processes [8-11]. The main advantage of PE technology is that it is an additive process where functional materials are deposited selectively, thereby eliminating the need for masking and etching. The additive nature of this process results in less usage of material, faster fabrication process and, consequently, a more cost-efficient production. These techniques offer other advantages such as low manufacturing temperatures, higher mechanical flexibility and the development of lightweight products. The use of printing technologies thus overcomes some of the drawbacks associated with conventional silicon based technology.\n\nIn this work, screen printing has been used to fabricate a PVEH device. Polyvinylidene fluoride (PVDF) ink was employed for screen printing a piezoelectric functional layer which is sandwiched between flexible Metglas electrodes. The capability of the fabricated PVEH device has been experimentally demonstrated using a vibration test system."
+    },
+    {
+      "heading": "A. Materials",
+      "level": 1,
+      "text": "Plate glass from Corning and flexible Metglas (2605SA1) were used as the initial printing substrate and metallization layers, respectively. PVDF ink (SOLVENETM), known for its mechanical flexibility along with stable piezoelectric properties, was used for the piezoelectric layer."
+    },
+    {
+      "heading": "B. Design",
+      "level": 1,
+      "text": "There are two common piezoelectric modes $[ \\mathrm { d } _ { 3 1 }$ and ${ \\mathrm { d } } _ { 3 3 }$ ) which are used in piezoelectric devices and are distinguished based on the relative direction between the electric field and the input strain. In ${ \\mathrm { d } } _ { 3 1 }$ mode, the electric field is perpendicular to the input strain direction, whereas in the ${ \\mathrm { d } } _ { 3 3 }$ mode, they are in parallel. In this work, a ${ \\bf d } _ { 3 1 }$ mode cantilever beam structure was chosen for the geometric design. A schematic of the PVEH device is shown in Fig. 1. The device consists of a piezoelectric layer sandwiched between top and bottom electrodes forming an overlapping area of $3 \\times 3 ~ \\mathrm { c m } ^ { 2 }$ .\n\n![](images/7d09621653020511148d37af13ada14ef2fbcdb228a94ccbbb2e8671d58bba34.jpg)  \nFig. 1. Schematic of the PVEH device."
+    },
+    {
+      "heading": "C. Device Fabrication Process",
+      "level": 1,
+      "text": "A 325 stainless steel mesh count screen (MicroscreenTM) with $2 8 \\mu \\mathrm { m }$ wire diameter, $2 2 . 5 ^ { \\circ }$ angle and $1 2 . 7 \\mu \\mathrm { m }$ thick MS-22 emulsion was used. Initially, the glass substrate was cleaned using isopropanol alcohol (IPA). Then, three layers of PVDF ink were screen printed onto the glass substrate. After printing each layer, the PVDF film was cured for 90 minutes in a VWR 1320 temperature controlled oven at $1 3 0 ^ { \\circ } \\mathrm { C }$ . A Bruker vertical scanning interferometer microscope (CounterGT) was used to characterize the printed PVDF layer. The average thickness of the PVDF layer was measured to be $1 2 . 5 \\mu \\mathrm { m } ,$ as shown in Fig. 2. The fabricated PVDF film was then peeled off from the glass substrate.\n\n![](images/e9f96aca6f48d13d82345283be8491c015d855092336ebca02ee9be98e447657.jpg)  \nFig. 2. Profilometry scan of the cured screen printed PVDF on glass substrate.\n\nThe PVDF material obtains its piezoelectric characteristics when polarized by applying an electric field, typically between 60 to $2 0 0 \\mathrm { V / \\mu m }$ across its layer. Heating the PVDF layer during the poling process and cooling it down before removing the applied voltage can improve the alignment of the dipoles, in the material. An air gun was used to heat the peeled off PVDF film. The heated film was poled by applying $\\mathrm { 1 0 k V }$ for 1 hour. The polarized PVDF layer was then sandwiched between two pieces of Metglas using conductive tape. The fabricated PVEH device is shown in Fig. 3.\n\n![](images/f9758cfd0731a6662189bd1b6f76153a2736a7ec8994295611a8db26578604a8.jpg)  \nFig. 3. Fabricated PVEH device."
+    },
+    {
+      "heading": "D. Experimental Procedure",
+      "level": 1,
+      "text": "Fig. 4 shows the experimental setup used for testing the PVEH device. The PVEH device was mounted on a shaker (Vibration Test System, Model No. VG 100-8) using a custom-built clamp. The shaker is connected to a function generator through a power amplifier (Techron, Model No. 7705). An accelerometer (PCB 352C22; Piezotronics, Inc.), along with a data acquisition module (NI 9234; National Instruments Corp.), was used to measure its acceleration. The output of the PVEH is connected to a bridge rectifying circuit followed by a resistive load. The bridge rectifying circuit consists of four small signal Schottky diodes and a $1 \\mu \\mathrm { F }$ storage capacitor. A digital oscilloscope is used to monitor the output voltage of the PVEH and resistive load.\n\n![](images/aebf09847a999be4a5621edae34b35b223d585d5c3c1de722b71aef219d01daf.jpg)  \nFig. 4. Base shaking experiment setup."
+    },
+    {
+      "heading": "III. RESULTS AND DISCUSSION",
+      "level": 1,
+      "text": "In order to obtain the highest power output from a PVEH device, it should be excited at its first resonance frequency. Initially, the PVEH mounted base shaker was excited with a sinusoidal voltage of varying frequencies between $1 0 \\ : \\mathrm { H z }$ to $2 0 0 \\mathrm { H z }$ and the tip displacement was monitored. A first resonance frequency of $5 4 \\mathrm { H z }$ was obtained for the cantilever beam structure. Then, the base shaker was used to apply vibrations to the PVEH device at its first resonance frequency and its voltage output was measured. Fig. 5 shows the response of the PVEH device excited by a sinusoidal vibration of $1 5 \\mathrm { g }$ . It was observed that the fabricated PVEH device generated a peak-to-peak voltage output of ${ \\approx } 1 0 \\mathrm { V }$ . The non-ideal sinusoidal behavior of the generated voltage can be attributed to the nonideal bonding between the three layers of the PVEH device.\n\n![](images/ca7856290d7d9d6f57efa0ae4f2eeda0a4f848ee2bd4cbd602ac3c2097833b58.jpg)  \nFig. 5. Unrectified voltage response of the PVEH device for a sinusoidal vibration of $1 5 \\mathrm { g }$ at $5 4 \\mathrm { H z }$ .\n\nFinally, the PVEH device was connected to the bridge rectifying circuit with a resistive load across the storage capacitor. The shaker was again excited at $1 5 \\mathrm { g }$ and $5 4 \\mathrm { H z }$ while the load voltage was measured as a function of load resistance. Fig. 6 shows the load voltage and the power delivered to the load for different values of load resistance. It was observed that the load voltage increased with an increase in load resistance, up to $1 . 3 5 \\mathrm { V }$ at $1 0 \\mathrm { M } \\Omega$ . However, the power delivered to the load will not increasing indefinitely. A maximum power output of $0 . 2 8 \\mu \\mathrm { W }$ with a $0 . 5 3 \\mathrm { V }$ DC voltage was obtained for the $1 \\ : \\mathrm { M } \\Omega$ load, after which the electrical power decreased with an increase in load resistance. Thus, for the fabricated PVEH device, the power density was calculated to be $1 1 . 6 7 \\mu \\mathrm { W } / \\mathrm { c m } ^ { 3 }$ .\n\n![](images/0fd206d82b93a164f9c48b7c7134881d2cd32e007ea96c93d99e2dcc1faed5b4.jpg)  \nFig. 6. Load voltage and power delivered to the load versus load resistance.\n\nThe results obtained show the potential of the printed device to be used for powering wireless sensor nodes. However, there are some challenges that need to be addressed. In this work, conductive tape was used for bonding the peeled off PVDF film to the conductive electrodes. Direct printing of a conductive ink onto both sides of the peeled off PVDF film can increase the contact area between the piezoelectric film and the conductive electrodes, thereby increasing the amount of electric charges which can be collected during the vibrations. The PVEH device would thus be able to generate more power at lower accelerations. In addition, two layers of PVDF film could be used to form a bimorph cantilever structure, in which two separate piezoelectric films are bonded together, sometimes with a center shim in between them. In this configuration, as the cantilever beam bends, the top piezoelectric layer would be in tension while the bottom piezoelectric layer would be in compression or vice versa. Therefore, if each layer is poled in the same direction and electrodes are wired properly, the current produced by each layer will add, thereby increasing the amount of power output."
+    },
+    {
+      "heading": "IV. CONCLUSION",
+      "level": 1,
+      "text": "A ${ \\mathrm { d } } _ { 3 1 }$ mode PVEH device was successfully fabricated using screen printed PVDF ink. The use of additive printing process eliminated the need for high temperature and cleanroom based fabrication processes. Base shaking experiments were performed to examine the performance of the PVEH device. The first resonance frequency of the cantilever beam structure was experimentally measured as $5 4 \\ : \\mathrm { H z }$ . A maximum DC voltage of $1 . 3 5 \\mathrm { V }$ was generated across the load $( 1 0 \\mathbf { M } \\Omega )$ , and a continuous electrical power of $0 . 2 8 \\mu \\mathrm { W }$ was delivered to the $1 \\ : \\mathrm { M } \\Omega$ load from a sinusoidal vibration of $1 5 \\mathrm { g }$ . The corresponding power density was calculated to be $1 1 . 6 7 \\mathrm { ~ } \\mathrm { \\textmu W } / \\mathrm { c m } ^ { 3 }$ . Future work is in progress to maximize the collection of the generated electric charges by directly printing conductive electrodes on both sides of the PVDF layer. It is believed that this ${ \\mathrm { d } } _ { 3 1 }$ type, printed piezoelectric cantilever device has a significant potential for use in wireless micro sensor network applications. This device could be a cost efficient replacement for chemical batteries, thus eliminating the need for expensive maintenance or replacement."
+    },
+    {
+      "heading": "REFERENCES",
+      "level": 1,
+      "text": "[1] S.W. Arms, C.P. Townsend, D.L. Churchill, J.H. Galbreath, and S.W. Mundell, “Power management for energy harvesting wireless sensors,” Smart Mater. Struct., vol. 5763, pp. 267-275, 2005.   \n[2] N.J. Guilar, T.J. Kleeburg, A. Chen, D.R. Yankelevich and R. Amirtharajah, “Integrated solar energy harvesting and storage,” IEEE Trans. Very Large Scale Integr. Syst., vol. 17, pp. 627-637, 2009.   \n[3] P.D. Mitcheson, E.M. Yeatman, G.K. Rao, A.S. Holmes and T.C. Green,, “Energy harvesting from human and machine motion for wireless electronic devices,” Proc. IEEE, vol. 96, pp. 1457-1486, 2008.   \n[4] S. Roundy, P.K. Wright and J.M. Rabaey, “Energy scavenging for wireless sensor networks,” Norwell, 2003.   \n[5] H.B. Fang et al., “Fabrication and performance of MEMS-based piezoelectric power generator for vibration energy harvesting,” J. Microelectr, vol. 37, pp. 1280-1284, 2006.   \n[6] R. Elfrink et al., “Vibration energy harvesting with aluminum nitridebased piezoelectric devices,” J. Micromech. Microeng., vol. 19, pp. 094005, 2009.   \n[7] S. Saadon and O. Sidek, “A review of vibration-based MEMS piezoelectric energy harvesters,” Energy Convers. Manage., vol. 52, pp. 500-504, 2011.   \n[8] A. Pierre et al., “All-printed flexible organic transistors enabled by surface tension-guided blade coating,” Adv. Mater., vol. 26, pp. 5722-5727, 2014.   \n[9] J.B. Chang et al., “Printable polythiophene gas sensor array for low-cost electronic noses,” J. Appl. Phys., vol 100, pp. 014506, 2006.   \n[10] S. Emamian et al., “Fully printed and flexible piezoelectric based touch sensitive skin,” IEEE Sens. Conf., pp. 1-4, 2015.   \n[11] B.B. Narakathu et al., “Novel Fully Screen Printed Flexible Electrochemical Sensor for the Investigation of Electron Transfer between Thiol Functionalized Viologen and Gold Clusters”, Sens. Actuator B-Chem., vol. 176, pp. 768-774, 2012."
+    }
+  ],
+  "tables": [],
+  "figures": [
+    {
+      "page": -1,
+      "caption": "",
+      "path": "images/7d09621653020511148d37af13ada14ef2fbcdb228a94ccbbb2e8671d58bba34.jpg"
+    },
+    {
+      "page": -1,
+      "caption": "",
+      "path": "images/e9f96aca6f48d13d82345283be8491c015d855092336ebca02ee9be98e447657.jpg"
+    },
+    {
+      "page": -1,
+      "caption": "",
+      "path": "images/f9758cfd0731a6662189bd1b6f76153a2736a7ec8994295611a8db26578604a8.jpg"
+    },
+    {
+      "page": -1,
+      "caption": "",
+      "path": "images/aebf09847a999be4a5621edae34b35b223d585d5c3c1de722b71aef219d01daf.jpg"
+    },
+    {
+      "page": -1,
+      "caption": "",
+      "path": "images/ca7856290d7d9d6f57efa0ae4f2eeda0a4f848ee2bd4cbd602ac3c2097833b58.jpg"
+    },
+    {
+      "page": -1,
+      "caption": "",
+      "path": "images/0fd206d82b93a164f9c48b7c7134881d2cd32e007ea96c93d99e2dcc1faed5b4.jpg"
+    }
+  ],
+  "metadata": {
+    "source": "both",
+    "pdf_url": "",
+    "parsed_at": "2026-03-10T09:49:16.789500+00:00"
+  }
+}

@@ -1,0 +1,147 @@
+{
+  "metadata": {
+    "paper_id": "10_1016_j_aej_2020_11_024",
+    "doi": "10.1016/j.aej.2020.11.024",
+    "title": "An experimental validation of a new shape optimization technique for piezoelectric harvesting cantilever beams",
+    "year": 2020,
+    "journal": "Alexandria Engineering Journal"
+  },
+  "configuration": "cantilever",
+  "proof_mass": false,
+  "geometry": {
+    "length_mm": 116.11,
+    "width_mm": 12.349,
+    "thickness_mm": 1.0488,
+    "substrate_thickness_um": 748.8,
+    "piezo_thickness_um": 150.0,
+    "tip_mass_g": null,
+    "diameter_mm": null
+  },
+  "excitation": {
+    "type": "vibration",
+    "frequency_Hz": 58.55,
+    "acceleration_g": 1.2,
+    "displacement_mm": null,
+    "motion_source": "base excitation"
+  },
+  "load": {
+    "load_resistance_ohm": 500000
+  },
+  "output": {
+    "resonant_frequency_Hz": 58.55,
+    "output_power_W": 0.1832,
+    "open_circuit_voltage_V": null,
+    "short_circuit_current_A": null,
+    "bandwidth_Hz": null
+  },
+  "evidence": {
+    "configuration": {
+      "quote": "piezoelectric harvesting cantilever beams",
+      "section": "title",
+      "source_type": "title"
+    },
+    "proof_mass": {
+      "quote": "models used in the natural frequency study and in the optimization study are without tip mass",
+      "section": "2.3. Mathematical formulation",
+      "source_type": "section"
+    },
+    "geometry": {
+      "length_mm": {
+        "quote": "Cantilever Length (L) ... 116.11",
+        "section": "3.2.1. Geometric optimization using COMSOL optimization module",
+        "source_type": "table"
+      },
+      "width_mm": {
+        "quote": "Clamped width (w4) ... 12.349",
+        "section": "3.2.1. Geometric optimization using COMSOL optimization module",
+        "source_type": "table"
+      },
+      "thickness_mm": {
+        "quote": "Piezo thickness (hp) ... 0.15 ... Steel thickness (hs) ... 0.7488",
+        "section": "3.2.1. Geometric optimization using COMSOL optimization module",
+        "source_type": "table"
+      },
+      "substrate_thickness_um": {
+        "quote": "Steel thickness (hs) ... 0.7488",
+        "section": "3.2.1. Geometric optimization using COMSOL optimization module",
+        "source_type": "table"
+      },
+      "piezo_thickness_um": {
+        "quote": "Piezo thickness (hp) ... 0.15",
+        "section": "3.2.1. Geometric optimization using COMSOL optimization module",
+        "source_type": "table"
+      },
+      "tip_mass_g": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "diameter_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      }
+    },
+    "excitation": {
+      "type": {
+        "quote": "base excitation",
+        "section": "2.3. Mathematical formulation",
+        "source_type": "section"
+      },
+      "frequency_Hz": {
+        "quote": "at a frequency of 58.55 Hz",
+        "section": "3.2.3. Simulation process of the optimized harvester",
+        "source_type": "section"
+      },
+      "acceleration_g": {
+        "quote": "The base excitation was 1.2 of the gravitational acceleration (g)",
+        "section": "3.2.3. Simulation process of the optimized harvester",
+        "source_type": "section"
+      },
+      "displacement_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "motion_source": {
+        "quote": "base excitation",
+        "section": "2.3. Mathematical formulation",
+        "source_type": "section"
+      }
+    },
+    "load": {
+      "load_resistance_ohm": {
+        "quote": "the same resistance load (Rload := 500 kΩ)",
+        "section": "4.1.2. Experimental results",
+        "source_type": "section"
+      }
+    },
+    "output": {
+      "resonant_frequency_Hz": {
+        "quote": "at a frequency of 58.55 Hz",
+        "section": "3.2.3. Simulation process of the optimized harvester",
+        "source_type": "section"
+      },
+      "output_power_W": {
+        "quote": "The maximum power ... were 183.2 mW",
+        "section": "3.2.3. Simulation process of the optimized harvester",
+        "source_type": "section"
+      },
+      "open_circuit_voltage_V": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "short_circuit_current_A": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "bandwidth_Hz": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      }
+    }
+  }
+}

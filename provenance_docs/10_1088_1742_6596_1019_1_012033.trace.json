@@ -1,0 +1,28 @@
+{
+  "paper_id": "10_1088_1742_6596_1019_1_012033",
+  "doi": "10.1088/1742-6596/1019/1/012033",
+  "title": "An Optimization of Electrical Output Power for Piezoelectric Energy Harvester using Different Micro-Cantilever Beam Geometries",
+  "source_apis": [
+    "both"
+  ],
+  "pdf_url": "https://doi.org/10.1088/1742-6596/1019/1/012033",
+  "pdf_local_path": "data_registry/raw_stage04_paper_pdf_cleaned/10_1088_1742_6596_1019_1_012033.pdf",
+  "processing": {
+    "tool": "MinerU",
+    "version": "python -m mineru.cli.client, version 2.7.6",
+    "timestamp": "2026-03-10T10:11:20.326812+00:00",
+    "duration_s": 91.2,
+    "success": true,
+    "error": ""
+  },
+  "outputs": {
+    "content_md": "/root/EH-LLM-vehbench-exp/parsed_docs/10_1088_1742_6596_1019_1_012033_m3oe1a_h/content.md",
+    "layout_json": "/root/EH-LLM-vehbench-exp/parsed_docs/10_1088_1742_6596_1019_1_012033_m3oe1a_h/layout.json",
+    "images_dir": "/root/EH-LLM-vehbench-exp/parsed_docs/10_1088_1742_6596_1019_1_012033_m3oe1a_h/10_1088_1742_6596_1019_1_012033/auto/images",
+    "normalized_json": "/root/EH-LLM-vehbench-exp/normalized_docs/10_1088_1742_6596_1019_1_012033.json"
+  },
+  "data_lineage": {
+    "papers_jsonl_hash": "4ed8e8437f8959ebd3765c7904c9dab8",
+    "pipeline_step": "ingestion/mineru_runner.py"
+  }
+}

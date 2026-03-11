@@ -1,0 +1,83 @@
+{
+  "paper_id": "10_1088_1742_6596_1052_1_012072",
+  "doi": "10.1088/1742-6596/1052/1/012072",
+  "title": "Autoparametric Excitation and Self-powered SSHI for Power Enhancement in Piezoelectric Vibration Energy Harvester",
+  "year": 2018,
+  "venue": "Journal of Physics: Conference Series",
+  "authors": [
+    "H. Asanuma",
+    "T. Komatsuzaki",
+    "Y. Iwata"
+  ],
+  "citation_count": 2,
+  "sections": [
+    {
+      "heading": "Autoparametric Excitation and Self-powered SSHI for Power Enhancement in Piezoelectric Vibration Energy Harvester",
+      "level": 1,
+      "text": "To cite this article: H Asanuma et al 2018 J. Phys. : Conf. Ser. 1052 012072\n\nView the article online for updates and enhancements."
+    },
+    {
+      "heading": "You may also like",
+      "level": 1,
+      "text": "Electromechanical dynamics of Z-shaped mechatronic synchronized switch harvesting on inductor (SSHI) harvester Haruhiko Asanuma, Kazuhiro Sakamoto, Toshihiko Komatsuzaki et al.\n\nA comparative study of electrical interfacesfor tunable piezoelectric vibration energy harvesting   \nAdrien Morel, Alexis Brenes, David Gibus et al."
+    },
+    {
+      "heading": "Autoparametric Excitation and Self-powered SSHI for Power Enhancement in Piezoelectric Vibration Energy Harvester",
+      "level": 1,
+      "text": "H Asanuma, T Komatsuzaki, and Y Iwata\n\nFaculty of Mechanical Engineering, Kanazawa university, Kakuma-machi, Kanazawa 920-1192, Japan\n\nh-asanuma@se.kanazawa-u.ac.jp\n\nAbstract. We proposed an autoparametric excitation harvester employing a microfabricated leaf spring for the base beam and a synchronized switch harvesting on inductor (SSHI) interface. Our harvester achieved miniaturization, low threshold acceleration of the autoparametric excitation, and increase in output power, compared with the previous work. The base beam for amplifying the excitation was microfabricated from a stainless steel film, through the photolithography followed by the wet-chemical etching. To trigger the autoparametric excitation, the main and the base beams are designed such that the resonance frequency for the base beam becomes twice higher than that for the main beam. The resonance frequencies obtained in experiment for the main and the base beams were 26.6 and $5 3 . 1 \\ \\mathrm { H z }$ respectively. This study employed a self-powered parallel SSHI interface, which can increase the piezoelectric voltage and thus the output power, consuming only a small portion of the harvested energy. The harvester connected with the self-powered SSHI interface successfully displayed the autoparametric excitation at acceleration greater than $1 . 0 ~ \\mathrm { m } / \\mathrm { s } ^ { 2 }$ , and the output power showed $1 . 1 2 \\mathrm { m W }$ at the frequency of $5 3 . 1 \\ \\mathrm { H z }$ under the acceleration of $2 . 0 ~ \\mathrm { m } / \\mathrm { s } ^ { 2 }$ , which is 1.43-fold increase over the standard AC-DC interface."
+    },
+    {
+      "heading": "1. Introduction",
+      "level": 1,
+      "text": "To increase output power for piezoelectric vibration energy harvesters (p-VEHs) significantly, the use of autoparametric excitation is one promising way [1, 2]. Previous studies proposed a harvester structure in which the main beam for a p-VEH is mounted perpendicular to the base beam for amplifying base excitation [1]. However, the structure has a problem of increasing harvesters' volume, because the base beam horizontally extends and requires a large area for clamping the end of the base beam. In addition, the output power reported previously is not so high for the size and for the applied acceleration. Specifically, the output power remains blow $0 . 2 ~ \\mathrm { m W }$ at the applied acceleration of 19.6 $\\mathrm { m } / \\mathrm { s } ^ { 2 }$ [1]. To decrease the harvester's volume and lower the threshold acceleration, as well as to further increase the output power, we proposed a harvester employing a microfabricated leaf spring for the base beam and a nonlinear interface termed a synchronized switch harvesting on inductor (SSHI)."
+    },
+    {
+      "heading": "2. Harvester structure",
+      "level": 1,
+      "text": "Figure 1 shows a structure of the proposed harvester. The harvester consists of the main steel beam (AISI304, $4 1 { \\times } 2 0 { \\times } 0 . 3 ~ \\mathrm { m m } ^ { 3 }$ ), copper tip mass (19.9 gram), piezoelectric ceramics (Fuji Ceramics, C-6, $3 7 . 7 \\ \\mathrm { n F }$ ), copper base mass (78.9 gram), copper clamp brackets (51.8 gram), and base steel beam (AISI304, thickness $0 . 5 \\mathrm { m m }$ ). The piezoelectric ceramics, which form a parallel bimorph, were bonded manually at the end of the main beam. The base beam was microfabricated from the stainless steel film through the photolithography followed by the wet-chemical etching [3, 4]. As shown in figure 1(c), compared with the previous work [1], the proposed structure for the base beam can reduce the harvester's volume significantly. The main beam vibrates perpendicular to the direction of the applied acceleration, whereas the base beam does parallel to the direction of the applied acceleration. To trigger the autoparametric excitation, the main and the base beams are FEM designed such that the resonance frequency for the base beam becomes twice higher than that for the main beam. The resonance frequencies obtained in experiment for the main and the base beams are 26.6 and $5 3 . 1 \\ \\mathrm { H z }$ , respectively.\n\n![](images/058e7a3f65dbeb2fb3813cc5dbff843bb6f993d12aa08c9a8a7f2256f8656b65.jpg)  \nFigure 1. (a) Photograph, (b) schematic structure, and (c) photograph of base steel beam of the proposed autoparametric excitation harvester."
+    },
+    {
+      "heading": "3. Results and discussion",
+      "level": 1,
+      "text": "Figure 2 shows the output power $P _ { \\mathrm { o u t } }$ vs the resistive load $R _ { \\mathrm { L } }$ , the standard AC-DC interface, the selfpowered parallel SSHI interface, the typical transient response of the piezoelectric voltage $V _ { \\mathfrak { p } }$ and the tip displacement for the harvester connected with the self-powered parallel SSHI interface, respectively. $V _ { \\mathfrak { p } }$ is rectified through the full bridge diodes, and then the output DC voltage $V _ { \\mathrm { D C } }$ is obtained across the resistive load connected with the smoothing capacitor $C _ { \\mathrm { s } }$ . $C _ { \\mathrm { s } }$ is $1 0 ~ \\mu \\mathrm { F }$ , and $L$ , $R _ { \\mathrm { e d } } .$ , and $C _ { \\mathrm { e d } }$ used in the SSHI interface are $1 0 0 ~ \\mathrm { m H } .$ , $3 0 0 \\mathrm { k } \\Omega$ , and $2 . 2 \\mathrm { n F }$ , respectively. The output power is calculated from $V _ { \\mathrm { D C } } { } ^ { 2 } / R _ { \\mathrm { L } }$ . As shown in figure 2(c), the self-powered parallel SSHI interface consists of three parts: the envelope detector, the comparator, and the digital switch, and it is the same as the standard interface adding the highlighted part drawn in red. The self-powered parallel SSHI interface can enhance $V _ { \\mathfrak { p } }$ and thus the output power by the $L C _ { \\mathfrak { p } }$ electrical oscillation between the inductor and the piezoelectric capacitance, consuming only a small portion of the harvested energy. The brief explanation on the workflow of the self-powered parallel SSHI is as follows. When the voltage $| V _ { \\mathrm { C e d } } |$ across the envelope capacitor $| C _ { \\mathrm { e d } } |$ is less than $| V _ { \\mathfrak { p } } | _ { : }$ , the bipolar transistor $\\mathrm { T } _ { 1 }$ remains off and no switching action has occurred. After the displacement of the harvester reaches the maximum/minimum, $| V _ { \\mathfrak { p } } |$ starts to decrease and $| V _ { \\mathrm { C e d } } |$ is greater than $| V _ { \\mathfrak { p } } |$ . When the voltage difference of $| V _ { \\mathrm { C e d } } . . V _ { \\mathrm { p } } |$ exceeds the threshold voltage of $\\mathrm { T } _ { 1 }$ , $\\mathrm { T } _ { 1 }$ conducts. Subsequently, the bipolar transistor $\\mathrm { T } _ { 2 }$ in the digital switch turns on as well, and then the voltage inversion of $V _ { \\mathfrak { p } }$ caused by the $L C _ { \\mathfrak { p } }$ electrical oscillation starts. After the inversion, $\\mathrm { T } _ { 2 }$ and $\\mathrm { T } _ { 1 }$ returns to off immediately. The detailed workflow is reported in [5]. As shown in figure 2(a), the impedance matched resistive load for both interfaces is $1 5 0 ~ \\mathrm { k } \\Omega$ at the frequency of $5 3 . 1 \\ \\mathrm { H z }$ under the acceleration of $2 . 0 ~ \\mathrm { m } / \\mathrm { s } ^ { 2 }$ , and the maximum output power for the selfpowered SSHI interface showed $1 . 1 2 \\mathrm { \\ m W }$ , which is 1.43-fold increase over the standard AC-DC interface. As shown in figure 2(d) and (e), the piezoelectric voltage and the tip displacement for the proposed harvester grew gradually, and then in 10 seconds, they rapidly enhanced by the autoparametric excitation. Therefore, our designed harvester successfully displayed the autoparametric excitation, and achieved both miniaturization and high output power.\n\n![](images/f53e2d8b59b4f791f81ac5808d589ec957928613b4e19de83d221cb86f407ea7.jpg)  \nFigure 2. (a) Output power $P _ { \\mathrm { o u t } }$ vs resistive load $R _ { \\mathrm { L } } ,$ (b) standard AC-DC interface, (c) self-powered parallel SSHI interface, typical transient response of (d) piezoelectric voltage $V _ { \\mathfrak { p } }$ and (e) tip displacement for the harvester connected with the SSHI interface.\n\nFigure 3 shows the output power and the peak-peak tip displacement vs the applied acceleration for the self-powered parallel SSHI and the standard interfaces under the autoparametric excitation. To prevent the breakage of the piezoelectric ceramics when applying high acceleration, the output power was evaluated at the frequency in which the autoparametric excitation started to display. Thanks to a large weight of the base mass and of the clamp brackets, the vibrational energy effectively transferred from the base to the main beam, and thus our harvester succeeded in lowering the threshold acceleration of the autoparametric excitation to $1 . 0 ~ \\mathrm { m / s ^ { 2 } }$ . Furthermore, the harvester connected with the self-powered parallel SSHI interface showed 1.3-1.7 increase in output power over the standard interface, whereas the displacement showed the similar magnitude. Therefore, the proposed harvester achieved miniaturization, low threshold acceleration, and increase in output power, compared with the previous work.\n\n![](images/1137dbe44a78e7bc15b9812ab0b203f098eb19e3cdc49a69ec00245f9abb2a17.jpg)  \nFigure 3. (a) Output power $P _ { \\mathrm { o u t } }$ and (b) peak-peak tip displacement Disp. $\\mathsf { p } \\mathsf { - p }$ vs applied acceleration for the SSHI and the standard interfaces under the autoparametric excitation."
+    },
+    {
+      "heading": "4. Conclusion",
+      "level": 1,
+      "text": "To achieve miniaturization, low threshold acceleration, and increase in output power, we proposed an autoparametric excitation harvester employing a microfabricated leaf spring for the base beam and a self-powered parallel SSHI interface. The base beam was microfabricated from the stainless steel film, through the photolithography followed by the wet-chemical etching. To trigger the autoparametric excitation, the main and the base beams are designed such that the resonance frequency for the base beam becomes twice higher than that for the main beam, and the resonance frequencies obtained in experiment for the main and for the base beams were 26.6 and $5 3 . 1 \\mathrm { H z }$ , respectively. Thanks to a large weight of the base mass and of the clamp brackets, the vibrational energy effectively transferred from the base to the main beam, and thus our harvester succeeded in lowering the threshold acceleration of the autoparametric excitation to $1 . 0 ~ \\mathrm { m / s ^ { 2 } }$ . The output power for the harvester connected with the selfpowered SSHI interface showed $1 . 1 2 ~ \\mathrm { m W }$ at the frequency of $5 3 . 1 \\ \\mathrm { H z }$ under the acceleration of 2.0 $\\mathrm { { \\bar { m } } } / \\mathrm { { s } } ^ { 2 }$ , which is 1.43-fold increase over the standard AC-DC interface."
+    },
+    {
+      "heading": "Acknowledgements",
+      "level": 1,
+      "text": "We would like to thank the Japan Society for the Promotion of Science (JSPS). This work was supported by Grant-in-Aid for Young Scientists (B) (No. 16K18039)."
+    },
+    {
+      "heading": "References",
+      "level": 1,
+      "text": "[1] Yu Jia and A. A. Seshia, Sensors and Actuators A, 220 (2014), pp. 69-75   \n[2] Z. Yan and M. R. Hajj, Smart Mater. Struct., 24 (2015), 115012   \n[3] H. Asanuma et al., Journal of Micromechanics and Microengineering, 25 (2015), 104013   \n[4] H. Asanuma et al., AIP Advances, 6 (2016), 075206   \n[5] Pang S, Kan J and Li W 2015 Journal of Computational Information System 11 3203-3215"
+    }
+  ],
+  "tables": [],
+  "figures": [
+    {
+      "page": -1,
+      "caption": "",
+      "path": "images/058e7a3f65dbeb2fb3813cc5dbff843bb6f993d12aa08c9a8a7f2256f8656b65.jpg"
+    },
+    {
+      "page": -1,
+      "caption": "",
+      "path": "images/f53e2d8b59b4f791f81ac5808d589ec957928613b4e19de83d221cb86f407ea7.jpg"
+    },
+    {
+      "page": -1,
+      "caption": "",
+      "path": "images/1137dbe44a78e7bc15b9812ab0b203f098eb19e3cdc49a69ec00245f9abb2a17.jpg"
+    }
+  ],
+  "metadata": {
+    "source": "semantic_scholar",
+    "pdf_url": "https://iopscience.iop.org/article/10.1088/1742-6596/1052/1/012072/pdf",
+    "parsed_at": "2026-03-10T09:41:53.868489+00:00"
+  }
+}

@@ -3,26 +3,26 @@
   "doi": "10.7567/jjap.55.06gp14",
   "title": "Design of piezoelectric MEMS cantilever for low-frequency vibration energy harvester",
   "source_apis": [
-    "openalex"
+    "both"
   ],
   "pdf_url": "",
-  "pdf_local_path": "",
+  "pdf_local_path": "data_registry/raw/10_7567_jjap_55_06gp14.pdf",
   "processing": {
     "tool": "MinerU",
-    "version": "mineru, version 2.7.6",
-    "timestamp": "2026-02-23T11:39:05.695584+00:00",
-    "duration_s": 5.18,
-    "success": false,
+    "version": "python -m mineru.cli.client, version 2.7.6",
+    "timestamp": "2026-03-09T15:31:20.096055+00:00",
+    "duration_s": 59.07,
+    "success": true,
     "error": ""
   },
   "outputs": {
-    "content_md": "",
-    "layout_json": "",
-    "images_dir": "",
-    "normalized_json": ""
+    "content_md": "/root/EH-LLM-vehbench-exp/parsed_docs/10_7567_jjap_55_06gp14_3vjun73u/content.md",
+    "layout_json": "/root/EH-LLM-vehbench-exp/parsed_docs/10_7567_jjap_55_06gp14_3vjun73u/layout.json",
+    "images_dir": "/root/EH-LLM-vehbench-exp/parsed_docs/10_7567_jjap_55_06gp14_3vjun73u/10_7567_jjap_55_06gp14/auto/images",
+    "normalized_json": "/root/EH-LLM-vehbench-exp/normalized_docs/10_7567_jjap_55_06gp14.json"
   },
   "data_lineage": {
-    "papers_jsonl_hash": "380d06d7b0a62528dc72e3d1c1fc56ea",
+    "papers_jsonl_hash": "a85e0c3c7f46bedc06757d70602d1783",
     "pipeline_step": "ingestion/mineru_runner.py"
   }
 }

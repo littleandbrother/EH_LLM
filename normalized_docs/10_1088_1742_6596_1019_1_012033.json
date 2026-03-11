@@ -1,0 +1,130 @@
+{
+  "paper_id": "10_1088_1742_6596_1019_1_012033",
+  "doi": "10.1088/1742-6596/1019/1/012033",
+  "title": "An Optimization of Electrical Output Power for Piezoelectric Energy Harvester using Different Micro-Cantilever Beam Geometries",
+  "year": 2018,
+  "venue": "Journal of Physics: Conference Series",
+  "authors": [
+    "Afifah Shuhada Rosmi",
+    "Muzamir Isa",
+    "Baharuddin Ismail",
+    "Mohamad Nur Khairul Hafizi Rohani",
+    "Yufridin Wahab",
+    "A. S. Rosmi",
+    "M. Isa",
+    "B. Ismail",
+    "M. Rohani",
+    "Y. Wahab"
+  ],
+  "citation_count": 18,
+  "sections": [
+    {
+      "heading": "An Optimization of Electrical Output Power for Piezoelectric Energy Harvester using Different Micro-Cantilever Beam Geometries",
+      "level": 1,
+      "text": "To cite this article: A S Rosmi et al 2018 J. Phys. : Conf. Ser. 1019 01203\n\nView the article online for updates and enhancements."
+    },
+    {
+      "heading": "You may also like",
+      "level": 1,
+      "text": "Investigating the origin of  \nphotoplethysmography using a   \nmultiwavelength Monte Carlo model   \nSubhasri Chatterjee, Karthik Budidha and   \nPanayiotis A Kyriacou A comb filter based signal processingmethod to effectively reduce motion artifacts from photoplethysmographic signals   \nFulai Peng, Hongyun Liu and Weidong Wang Comparison of photoplethysmogram measured from wrist and finger and the effect of measurement location on pulse arrival time   \nSatu Rajala, Harri Lindholm and Tapio Taipalus"
+    },
+    {
+      "heading": "An Optimization of Electrical Output Power for Piezoelectric Energy Harvester using Different Micro-Cantilever Beam Geometries",
+      "level": 1,
+      "text": "A S Rosmi1, M Isa1, B Ismail1, M N K H Rohani1, Y Wahab2,\n\n1Centre of Excellence for Renewable Energy (CERE), School of Electrical System Engineering (SoESE), Universiti Malaysia Perlis, Malaysia.   \n2 Advanced Multi-Disciplinary MEMS-Based Integrated NCER Centre of Excellence   \n(AMBIENCE), School of Microelectronic Engineering (SoME), Universiti Malaysia Perlis, Malaysia.   \nE-mail: effa_kh@yahoo.com\n\nAbstract. A MEMS-based piezoelectric energy harvester is capable in producing the electrical output at certain level. The investigation on ability to successfully generating the electrical output power is highly recommended. Accordingly, an optimization on electrical output power based on micro-cantilever beam geometry is presented in this paper via simulation work using COMSOL Multiphysics software. Thus, four different geometries named as PPG 1, PPG 2, PPG 3 and PPG 4 are individually characterized. The simulation result shows the superior performances from PPG 2 which generating $3 9 3 \\ \\mathrm { \\ m V }$ of output voltage with $3 9 ~ \\mathrm { n A }$ output current, while the output power is $1 5 \\mathrm { \\ n W }$ at $1 0 \\ \\mathbf { M } \\Omega$ optimal load and $1 \\mathrm { g }$ vibration amplitude. The excitation frequency for PPG 2 is as low as $6 0 \\ \\mathrm { H z }$ . Therefore, the modification of micro-cantilever geometry is able to increase the production of electrical output power."
+    },
+    {
+      "heading": "1. Introduction",
+      "level": 1,
+      "text": "The present of alternative energy sources from the ambient such as wind, solar, thermal, radio frequency and mechanical vibration offering space to green source electrical power generation [1-3]. Harvesting the mechanical vibration using piezoelectric energy harvester is mostly reported by the previous researchers either in experimental or simulation studies [4-6]. The mechanical vibration is a good candidate for alternative energy because it is said as clean, always present and sustainable energy [7-9]. However, the direct electrical power produced by the piezoelectric harvester is stated as too low [10]. Thus, an enhancement of electrical output power for piezoelectric harvester is obviously required before connected to the power management circuitry. A selection of different piezoelectric material and operating modes are the most famous approach for the output optimization rather than microcantilever beam geometry modification technique which is less complicated. Thus, there are four different models named as PPG 1, PPG 2, PPG 3 and PPG 4 are designed and simulated. The Zinc Oxide $_ { ( Z \\mathrm { n O ) } }$ material is mainly used in this paper due to its high piezoelectric coupling, environmental friendly and flexibility in processing [11-14]."
+    },
+    {
+      "heading": "2. Piezoelectric Power Generator (PPG) 3D modelling",
+      "level": 1,
+      "text": "The micro-cantilever beam PPG sensor 3D model is designed using COMSOL Multiphysics software approach. Figure 1 gives a picture of major PPG sensor components in 3D model geometry including the piezoelectric material, bottom electrode, top electrode, proof mass, and supporting beam. There are four different geometries are proposed to investigate the mechanical to electrical performances in terms of electrical output power. The geometric shapes are rectangular with narrow proof mass (PPG 1), rectangular with big proof mass (PPG 2), trapezoidal (PPG 3) and wide-fixed trapezoidal (PPG 4) are designed.\n\nFigure 2 portrays the geometries with the corresponding 3D model using COMSOL Multiphysics software. The PPG sensor model is made up of Si as the supporting beam with a thin layer of ${ \\mathrm { Z n O } }$ deposited on top of the Si beam. A proof mass from Si material is attached at the beam free end to reduce the frequency resonance and easily match with the target vibration frequency for maximum electrical output power generation. The frequency target should be less than $2 0 0 ~ \\mathrm { H z }$ , the existence frequency in the ambient [10]. The proof mass is designed to have a dimension of $6 0 0 0 \\times 6 0 0 0 \\times 4 2 0$ $\\mu \\mathrm { m } ^ { \\hat { 3 } }$ except for the PPG 1 and PPG 4. The proof mass dimension for PPG 1 is $6 0 0 0 \\times 3 0 0 0 \\times 4 2 0 ~ \\mu \\mathrm { m } ^ { 3 }$ meanwhile for PPG 4 is $4 0 0 0 \\times 4 0 0 0 \\times 2 0 0 ^ { \\circ } { \\mu \\mathrm { m } } ^ { 3 }$ . The proof mass different value is purposely given for structural firmness control to avoid the beam from broken during operation. The length dimension of PPG sensor is varied in range of $1 0 0 0 \\ \\mu \\mathrm { m }$ to $5 5 0 0 ~ { \\mu \\mathrm { m } }$ . The thickness dimension for micro-cantilever beam PPG sensor based on previous experimental work to ensure the fabrication reliability which is $0 . 3 \\mu \\mathrm { m }$ for ${ \\mathrm { Z n O } }$ and $3 0 ~ { \\mu \\mathrm { m } }$ for Si [12]. The Body Load, $F _ { v }$ boundary is assigned to the whole structure as input for a reason the PPG sensor start to vibrate and simultaneously inducing a mechanical strain. The fixed end of the PPG sensor is terminated by a load resistance in the range of $1 0 ^ { 2 }$ up to $1 0 ^ { 1 0 }$ for demonstration in the real applications. Thus, the optimal value of load resistance could be found and also to investigate the effect of the resistive load value to the electrical output power. This is done by adding the electrical circuit interface. The Floating Potential boundary is applied for the ${ \\mathrm { Z n O } }$ layer upper face, while the Ground boundary for the lower face for the electrical behavior investigation. The model is meshed to a group of simpler finite element bricks before FEM analysis conducted.\n\n![](images/04a4de432f9f62cc669d3a4ff658aa06fa0b902de482cd14006d98d468fcaaef.jpg)  \nFigure 1. 3D model geometry.\n\n![](images/35e0540608467a534a3a7e2ce04c11a17ca054d059043759625b7b15a9e95309.jpg)  \nFigure 2. Micro-cantilever beam shapes: (a) PPG 1; (b) PPG 2; (c) PPG 3; (d) PPG4"
+    },
+    {
+      "heading": "3. Result and discussion",
+      "level": 1,
+      "text": "This section is divided into three section which are frequency resonance, resistive load, and electrical output result. The corresponding result for PPG 1, PPG 2, PPG 3 and PPG 4 are discussed in details."
+    },
+    {
+      "heading": "3.1 Frequency Resonance Result",
+      "level": 1,
+      "text": "The proposed PPG sensor is purposely designed with different micro-cantilever beam geometries in order to determine the lower frequency resonance. Furthermore, a modification to length dimension is made as the change to width dimension has no significant effect on frequency resonance [5]. There are ten samples of length dimension taken into consideration starting from $1 0 0 0 \\mu \\mathrm { m }$ to $5 5 0 0 ~ { \\mu \\mathrm { m } }$ with $5 0 0 \\mu \\mathrm { m }$ separation. Hence, Figure 3 depicts the influence of different length dimension to PPG sensor frequency resonance.\n\n![](images/1b28f883ef8b9efbdb692c1d7c966b9787360043744ec13e4990331ff15ab7e4.jpg)  \nFigure 3. The influence of length dimension against frequency resonance.\n\nFrom the plotted result, the frequency resonance for the PPG sensor designs are matched to the frequency target which is less than $2 0 0 ~ \\mathrm { H z }$ at the specific length dimension. Both PPG 2 and PPG 3 are discovered to achieve the match frequency at $1 5 0 0 ~ { \\mu \\mathrm { m } }$ , while the PPG 1 and PPG 4 at $2 0 0 0 ~ { \\mu \\mathrm { m } }$ and $3 5 0 0 ~ { \\mu \\mathrm { m } }$ respectively. The frequency resonance is revealed to decrease when the length dimension is increasing.\n\nThe PPG 2 tends able to operate at the lowest frequency resonance as low as $5 2 . 7 7 ~ \\mathrm { H z }$ at the longest length dimension compared to other designs. The PPG 3 offers second lower frequency resonance which is $5 4 . 7 0 ~ \\mathrm { H z }$ followed by PPG 1 with $7 4 . 5 9 ~ \\mathrm { H z }$ , while PPG 4 indicates the higher frequency resonance which is $1 2 0 . 1 7 ~ \\mathrm { H z }$ . Fortunately, the frequency resonance for all four proposed PPG sensor are less than $2 0 0 ~ \\mathrm { H z }$ . The main factor contributes to this condition is longer length dimension resulting lower beam stiffness. The beam stiffness is measured based on the induced stress at the beam fixed-end where the lower induced stress indicates the beam at lower stiffness. The lower stiffness allow the beam to swing easily when subjected to enough energy at resonance. Moreover, the low frequency resonance is easily reachable when the beam stiffness is low. As to strengthen these arguments, an analysis on length dimension against induced stress is made and the result clearly plotted in Figure 4. Thus, from the result, the lowest induced stress is obtained at the longest length dimension. Therefore, both results in Figures 3 and 4 prove the longer length dimension resulting a lower induced stress that offers lower frequency resonance.\n\n![](images/1c87cff136c47e31e764375c4627fd5b897da354e4976e4aa9fa462511ffbc8c.jpg)  \nFigure 4. The influence of length against induced stress.\n\nConsequently, a new excitation frequency is required as to avoid any failure due to PPG sensor reaching the maximum strength when vibrates exactly at the resonance. Table 1 is listing the obtained PPG sensor frequency resonance and the corresponding arbitrarily adjusted frequency.\n\nTable 1. The PPG sensor adjusted excitation frequency.   \n\n<table><tr><td>PPG sensor</td><td>Frequency resonance, Hz</td><td>Adjusted frequency, Hz</td></tr><tr><td>PPG 1</td><td>74.59</td><td>80</td></tr><tr><td>PPG 2</td><td>52.77</td><td>60</td></tr><tr><td>PPG 3</td><td>54.70</td><td>65</td></tr><tr><td>PPG 4</td><td>120.17</td><td>130</td></tr></table>"
+    },
+    {
+      "heading": "3.2 Resistive Load Result",
+      "level": 1,
+      "text": "An analysis on determining the optimal load resistance, $\\mathrm { R } _ { \\mathrm { L o a d } }$ is conducted in order to demonstrate the proposed PPG sensor to the real application. Based on the result plotted in Figure 5, PPG 2 precedes with $3 9 3 ~ \\mathrm { m V }$ followed by PPG 1 with $3 7 6 \\mathrm { m V }$ . Then, the output voltage produced by PPG 3 is $1 2 7 ~ \\mathrm { m V }$ , while $1 5 8 ~ \\mathrm { m V }$ from PPG 4. There is obviously seen the output voltage for each PPG sensor is remain constant starting from $1 0 \\mathbf { M } \\Omega$ .\n\n![](images/0a499a2533f1c7899066bc27c166f1ceca3ad4dd8d354d3160724cc7b947ff46.jpg)  \nFigure 5. The corresponding resistive load for each PPG sensor designs.\n\nThe Kirchhoff’s Voltage Law (KVL) is applied to describe the finding on output voltage remains constant starting from $1 0 \\ \\mathrm { M } \\Omega$ although the $\\mathrm { R } _ { \\mathrm { L o a d } }$ value is continue increased. The $\\mathrm { R } _ { \\mathrm { L o a d } }$ is parallel connected with PPG sensor. The KVL states that the total voltage in a closed loop is equal to zero as simply derived in Equations (1) and (2) based on the circuit in Figure 6.\n\n$$\n- V _ { i n } + \\ V _ { L o a d } = 0\n$$\n\nThus,\n\n$$\nV _ { i n } = \\ V _ { L o a d }\n$$\n\n![](images/a188f0ccc241e6de0af56cd311a3547d12453a36fd28a64e3839b9e5f8d88fbf.jpg)  \nFigure 6. The load resistance, $\\mathrm { R } _ { \\mathrm { L o a d } }$ connection.\n\nTherefore, based on Equation (2), the PPG sensor accumulated voltage from harvested vibration is revealed when the $\\mathrm { R } _ { \\mathrm { L o a d } }$ at the optimal value."
+    },
+    {
+      "heading": "3.3 Electrical output power result",
+      "level": 1,
+      "text": "Figures 7 and 8 depict the electrical output results due to vibration amplitude dependence at 10 MΩ, the optimal $\\mathrm { R } _ { \\mathrm { L o a d } }$ value. As clearly seen, the relationship between acceleration and produced electrical output is directly proportional.\n\n![](images/512780b37e531db395fc12641875c499dbeb583d32e2615950b4e494a170fa47.jpg)  \nFigure 7. The output voltage for each PPG sensor.\n\n![](images/b27443810fb6b74a35a234564f8413d6ce21d911f775c5826f6408666b5cdef6.jpg)  \nFigure 8. The output power for each PPG sensor.\n\nThe produced electrical output is increasing when the acceleration value is further increased. Hence, the obtained result at $_ { \\mathrm { ~ 1 ~ g ~ } }$ vibration amplitude is referred in order to describe the electrical output performance for each PPG sensor. $_ { 1 \\mathrm { ~ g ~ } }$ is equal to the acceleration from gravity which is $9 . 8 1 ~ \\mathrm { m } \\mathrm { \\hat { / s } } ^ { 2 }$ . Therefore, the PPG 1 is producing $3 7 6 ~ \\mathrm { m V }$ of output voltage, while $1 4 ~ \\mathrm { n W }$ for the corresponding output power. Then, PPG 2 produces $3 9 3 ~ \\mathrm { m V }$ of output voltage, while the output power is $1 5 \\mathrm { n W }$ . The next proposed PPG sensor namely as PPG 3 is able to generate $1 2 7 ~ \\mathrm { m V }$ , and $2 \\ \\mathrm { n W }$ of output voltage, and output power correspondingly. The fourth PPG sensor which is PPG 4 is successfully producing $1 5 8 \\mathrm { m v }$ of output voltage, while $2 \\mathrm { n W }$ for the output power."
+    },
+    {
+      "heading": "4. Conclusion",
+      "level": 1,
+      "text": "This research paper deals with electrical output power optimization by the simple and less complicated micro-cantilever beam modification. The main focus is to design the PPG sensor with lower vibration frequency to easily match with the target ambient vibration frequency. The different micro-cantilever beam geometry produced different performance outputs based on the obtained results. From the frequency resonance analysis, all the proposed PPG sensor tend able to operate at lower frequency which is less than $2 0 0 \\ : \\mathrm { H z }$ . From the finding, the proposed geometries are suitable to be used as ambient vibration harvester. However, the PPG 2 sensor gives a superior performances with producing the higher electrical output power at lowest frequency."
+    },
+    {
+      "heading": "5. References",
+      "level": 1,
+      "text": "[1] Bhatia D, Sharma H, Meena R S and Palkar V R 2016 A Novel Zno Piezoelectric MicrocantileverEnergy Scavenger : Fabrication And Characterization J. Sens. Bio-Sensing Res. 45-52 9 45–52   \n[2] Hassan H F, Hassan S I S and Rahim R A 2014 Acoustic Energy Harvesting Using Piezoelectric Generator for Low Frequency Sound Waves Energy Conversion Int. J. Eng. Technol. 5 4702–07   \n[3] Lallart M, Wu Y and Guyomar D 2012 Switching Delay Effects on Nonlinear Piezoelectric Energy Harvesting Techniques IEEE Trans. Ind. Electron. 59 464–72   \n[4] Lin H C, Wu P H, Lien I C and Shu Y C 2013 Analysis of An Array of Piezoelectric Energy Harvesters Connected in Series Smart Mater. Struct. 22 1–11   \n[5] Littrell R and Grosh K 2012 Modeling and Characterization of Cantilever-Based MEMS Piezoelectric Sensors and Actuators J. Microelectromechanical Syst. 21 406–13   \n[6] Liu H, Lee C, Kobayashi T, Jui C and Quan C 2012 Physical Piezoelectric MEMS-Based Wideband Energy Harvesting Systems using a Frequency-Up-Conversion Cantilever Stopper Sensors Actuators A. Phys. 186 242–48   \n[7] Nordin A N and Salleh H 2010 Simulation of a MEMS Piezoelectric Energy Harvester Symp. Des. Test Integr. Packag. MEMS/MOEMS 7–11   \n[8] Park J C, Park J Y and Lee Y 2010 Modeling and Characterization of Piezoelectric ${ \\bf d } _ { 3 3 }$ -Mode MEMS Energy Harvester J. Microelectromechanical Syst. 19 1215–22   \n[9] Park J, Lee S and Kwak B M 2012 Design Optimization of Piezoelectric Energy Harvester Subject to Tip Excitation J. Mech. Sci. Technol. 26 137–43   \n[10] Rahim R A, Hassan S I S, Malek F and Nordin J M 2013 Harmonics Suppression Single-fed Dual-Circularly Polarized Microstrip Patch Antenna for Future Wireless Power Transmission Int. J. Eng. Technol. 5 4423–30   \n[11] Rosmi A S, Saadon S, Hassan S I S and Wahab Y 2017 Preliminary Results on Shape Optimization of Ambient- Based Piezoelectric Energy Harvester AIP Conf. Proc. 1808 1–5   \n[12] Selvaraj S, Mano S, Sugumaran P, Meenaa J and Jayaraman P 2014 Multiphysics Modeling and Simulation of Nanoscale Cantilever Array Sensor for the Detection of HIV Antigens $J .$ . Nanosci. Nanotechnol. 2 15–18   \n[13] Wang Z. et al. 2013 Large Power Amplification of a Piezoelectric Energy Harvester Excited by Random Vibrations IEEE 26th Int. Conf. MicroElectroMechanical Syst. 106–09   \n[14] Yang S M, Lee T and Jeng C A 2009 Physical Development of a Thermoelectric Energy Harvester with Thermal Isolation Cavity by Standard CMOS Process Sensors Actuators A Phys. J. 153 244–50"
+    }
+  ],
+  "tables": [
+    {
+      "page": -1,
+      "content": ""
+    }
+  ],
+  "figures": [
+    {
+      "page": -1,
+      "caption": "",
+      "path": "images/04a4de432f9f62cc669d3a4ff658aa06fa0b902de482cd14006d98d468fcaaef.jpg"
+    },
+    {
+      "page": -1,
+      "caption": "",
+      "path": "images/35e0540608467a534a3a7e2ce04c11a17ca054d059043759625b7b15a9e95309.jpg"
+    },
+    {
+      "page": -1,
+      "caption": "",
+      "path": "images/1b28f883ef8b9efbdb692c1d7c966b9787360043744ec13e4990331ff15ab7e4.jpg"
+    },
+    {
+      "page": -1,
+      "caption": "",
+      "path": "images/1c87cff136c47e31e764375c4627fd5b897da354e4976e4aa9fa462511ffbc8c.jpg"
+    },
+    {
+      "page": -1,
+      "caption": "",
+      "path": "images/0a499a2533f1c7899066bc27c166f1ceca3ad4dd8d354d3160724cc7b947ff46.jpg"
+    },
+    {
+      "page": -1,
+      "caption": "",
+      "path": "images/a188f0ccc241e6de0af56cd311a3547d12453a36fd28a64e3839b9e5f8d88fbf.jpg"
+    },
+    {
+      "page": -1,
+      "caption": "",
+      "path": "images/512780b37e531db395fc12641875c499dbeb583d32e2615950b4e494a170fa47.jpg"
+    },
+    {
+      "page": -1,
+      "caption": "",
+      "path": "images/b27443810fb6b74a35a234564f8413d6ce21d911f775c5826f6408666b5cdef6.jpg"
+    }
+  ],
+  "metadata": {
+    "source": "both",
+    "pdf_url": "https://doi.org/10.1088/1742-6596/1019/1/012033",
+    "parsed_at": "2026-03-10T10:11:16.783422+00:00"
+  }
+}

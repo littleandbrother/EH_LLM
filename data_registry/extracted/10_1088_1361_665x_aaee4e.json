@@ -1,0 +1,147 @@
+{
+  "metadata": {
+    "paper_id": "10_1088_1361_665x_aaee4e",
+    "doi": "10.1088/1361-665x/aaee4e",
+    "title": "Soft magneto-sensitive elastomer and polyvinylidene fluoride polymer based nonlinear piezoelectric energy harvesting: design, modelling and experiment",
+    "year": 2018,
+    "journal": "Smart Materials and Structures"
+  },
+  "configuration": "cantilever",
+  "proof_mass": false,
+  "geometry": {
+    "length_mm": 46,
+    "width_mm": 15,
+    "thickness_mm": null,
+    "substrate_thickness_um": 3000,
+    "piezo_thickness_um": 100,
+    "tip_mass_g": null,
+    "diameter_mm": null
+  },
+  "excitation": {
+    "type": "vibration",
+    "frequency_Hz": null,
+    "acceleration_g": 0.3,
+    "displacement_mm": null,
+    "motion_source": "shaker"
+  },
+  "load": {
+    "load_resistance_ohm": 4700000
+  },
+  "output": {
+    "resonant_frequency_Hz": 13.94,
+    "output_power_W": 9.6e-08,
+    "open_circuit_voltage_V": null,
+    "short_circuit_current_A": null,
+    "bandwidth_Hz": 2.39
+  },
+  "evidence": {
+    "configuration": {
+      "quote": "SMSE/PVDF cantilever",
+      "section": "2.1. Design principle",
+      "source_type": "section"
+    },
+    "proof_mass": {
+      "quote": "Mass of SMSE/PVDF cantilever, m: 3.7 g (Prototype 1)",
+      "section": "Table 1",
+      "source_type": "table"
+    },
+    "geometry": {
+      "length_mm": {
+        "quote": "Length of SMSE/PVDFDF cantilever, l: 46 mm",
+        "section": "Table 1",
+        "source_type": "table"
+      },
+      "width_mm": {
+        "quote": "Width of SMSE/PVDF cantilever, b: 15 mm",
+        "section": "Table 1",
+        "source_type": "table"
+      },
+      "thickness_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "substrate_thickness_um": {
+        "quote": "In Prototype 1, the SMSE layer thickness is 3 mm",
+        "section": "2.2. Fabrication procedure",
+        "source_type": "section"
+      },
+      "piezo_thickness_um": {
+        "quote": "Thickness of PVDF layer, hp: 0.1 mm",
+        "section": "Table 1",
+        "source_type": "table"
+      },
+      "tip_mass_g": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "diameter_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      }
+    },
+    "excitation": {
+      "type": {
+        "quote": "vibrational energy harvester",
+        "section": "Abstract",
+        "source_type": "abstract"
+      },
+      "frequency_Hz": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "acceleration_g": {
+        "quote": "acceleration level of 0.3 g",
+        "section": "5.3. Power output",
+        "source_type": "section"
+      },
+      "displacement_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "motion_source": {
+        "quote": "shaker (APS113, APS Dynamics Corp.)",
+        "section": "4.1. Experiment setup",
+        "source_type": "section"
+      }
+    },
+    "load": {
+      "load_resistance_ohm": {
+        "quote": "load of 4.7 MΩ",
+        "section": "Abstract",
+        "source_type": "abstract"
+      }
+    },
+    "output": {
+      "resonant_frequency_Hz": {
+        "quote": "Linear damped natural frequency with PM (fa1): 13.94 Hz",
+        "section": "Table 2",
+        "source_type": "table"
+      },
+      "output_power_W": {
+        "quote": "average power of 0.096 μW",
+        "section": "Abstract",
+        "source_type": "abstract"
+      },
+      "open_circuit_voltage_V": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "short_circuit_current_A": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "bandwidth_Hz": {
+        "quote": "Difference between jumping frequencies are 2.39 and 4.34 Hz",
+        "section": "Abstract",
+        "source_type": "abstract"
+      }
+    }
+  }
+}

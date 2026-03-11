@@ -1,0 +1,28 @@
+{
+  "paper_id": "10_21595_jve_2020_21395",
+  "doi": "10.21595/jve.2020.21395",
+  "title": "Design of a self-tunable, variable-length pendulum for harvesting energy from rotational motion",
+  "source_apis": [
+    "openalex"
+  ],
+  "pdf_url": "https://www.jvejournals.com/article/21395/pdf",
+  "pdf_local_path": "data_registry/raw_stage04_paper_pdf_cleaned/10_21595_jve_2020_21395.pdf",
+  "processing": {
+    "tool": "MinerU",
+    "version": "python -m mineru.cli.client, version 2.7.6",
+    "timestamp": "2026-03-10T09:24:12.866602+00:00",
+    "duration_s": 107.49,
+    "success": true,
+    "error": ""
+  },
+  "outputs": {
+    "content_md": "/root/EH-LLM-vehbench-exp/parsed_docs/10_21595_jve_2020_21395_abz01svs/content.md",
+    "layout_json": "/root/EH-LLM-vehbench-exp/parsed_docs/10_21595_jve_2020_21395_abz01svs/layout.json",
+    "images_dir": "/root/EH-LLM-vehbench-exp/parsed_docs/10_21595_jve_2020_21395_abz01svs/10_21595_jve_2020_21395/auto/images",
+    "normalized_json": "/root/EH-LLM-vehbench-exp/normalized_docs/10_21595_jve_2020_21395.json"
+  },
+  "data_lineage": {
+    "papers_jsonl_hash": "a4cb6f70e78642ba310e109a72e8dfe7",
+    "pipeline_step": "ingestion/mineru_runner.py"
+  }
+}

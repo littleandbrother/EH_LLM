@@ -1,0 +1,197 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "vehbench_paper_grounded_task_seed_v1.json",
+  "title": "VEHBench Paper-Grounded Task Seed v1",
+  "description": "Seed record connecting a curated gold paper record to verifier-ready inputs and task blueprints.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "record_type",
+    "seed_id",
+    "source_record_id",
+    "source_paper_id",
+    "source_doi",
+    "mapping_status",
+    "task_family_candidates",
+    "verifier_mapping",
+    "task_blueprints"
+  ],
+  "$defs": {
+    "nullableNumber": {
+      "type": ["number", "null"]
+    },
+    "nullableString": {
+      "type": ["string", "null"]
+    },
+    "designParameterSet": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "beam_length_mm": { "$ref": "#/$defs/nullableNumber" },
+        "beam_width_mm": { "$ref": "#/$defs/nullableNumber" },
+        "substrate_thickness_um": { "$ref": "#/$defs/nullableNumber" },
+        "piezo_thickness_um": { "$ref": "#/$defs/nullableNumber" },
+        "tip_mass_g": { "$ref": "#/$defs/nullableNumber" },
+        "load_resistance_ohm": { "$ref": "#/$defs/nullableNumber" }
+      }
+    },
+    "boundedVariable": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["min", "max", "unit"],
+      "properties": {
+        "min": { "type": "number" },
+        "max": { "type": "number" },
+        "unit": { "type": "string" }
+      }
+    }
+  },
+  "properties": {
+    "schema_version": {
+      "const": "vehbench_paper_grounded_task_seed_v1"
+    },
+    "record_type": {
+      "const": "paper_grounded_task_seed"
+    },
+    "seed_id": {
+      "type": "string"
+    },
+    "source_record_id": {
+      "type": "string"
+    },
+    "source_paper_id": {
+      "type": "string"
+    },
+    "source_doi": {
+      "$ref": "#/$defs/nullableString"
+    },
+    "mapping_status": {
+      "type": "string",
+      "enum": ["ready", "partial"]
+    },
+    "task_family_candidates": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "enum": [
+          "frequency_matching",
+          "constrained_power_maximization",
+          "feasibility_repair"
+        ]
+      }
+    },
+    "verifier_mapping": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "design_parameters",
+        "excitation_settings",
+        "load_settings",
+        "material_parameters",
+        "observed_outputs",
+        "missing_for_verifier"
+      ],
+      "properties": {
+        "design_parameters": {
+          "$ref": "#/$defs/designParameterSet"
+        },
+        "excitation_settings": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "excitation_type": { "$ref": "#/$defs/nullableString" },
+            "frequency_hz": { "$ref": "#/$defs/nullableNumber" },
+            "acceleration_g": { "$ref": "#/$defs/nullableNumber" },
+            "base_displacement_mm": { "$ref": "#/$defs/nullableNumber" },
+            "motion_source": { "$ref": "#/$defs/nullableString" }
+          }
+        },
+        "load_settings": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "load_type": { "$ref": "#/$defs/nullableString" },
+            "load_resistance_ohm": { "$ref": "#/$defs/nullableNumber" }
+          }
+        },
+        "material_parameters": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "structure_class": { "$ref": "#/$defs/nullableString" },
+            "piezo_material": { "$ref": "#/$defs/nullableString" },
+            "substrate_material": { "$ref": "#/$defs/nullableString" }
+          }
+        },
+        "observed_outputs": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "resonant_frequency_hz": { "$ref": "#/$defs/nullableNumber" },
+            "load_power_w": { "$ref": "#/$defs/nullableNumber" },
+            "open_circuit_voltage_v": { "$ref": "#/$defs/nullableNumber" },
+            "short_circuit_current_a": { "$ref": "#/$defs/nullableNumber" },
+            "bandwidth_hz": { "$ref": "#/$defs/nullableNumber" }
+          }
+        },
+        "missing_for_verifier": {
+          "type": "array",
+          "items": { "type": "string" }
+        }
+      }
+    },
+    "task_blueprints": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "task_type",
+          "variable_bounds",
+          "fixed_conditions",
+          "hard_constraints",
+          "objective",
+          "budget_hint"
+        ],
+        "properties": {
+          "task_type": {
+            "type": "string",
+            "enum": [
+              "frequency_matching",
+              "constrained_power_maximization",
+              "feasibility_repair"
+            ]
+          },
+          "variable_bounds": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+              "beam_length_mm": { "$ref": "#/$defs/boundedVariable" },
+              "beam_width_mm": { "$ref": "#/$defs/boundedVariable" },
+              "substrate_thickness_um": { "$ref": "#/$defs/boundedVariable" },
+              "piezo_thickness_um": { "$ref": "#/$defs/boundedVariable" },
+              "tip_mass_g": { "$ref": "#/$defs/boundedVariable" },
+              "load_resistance_ohm": { "$ref": "#/$defs/boundedVariable" }
+            }
+          },
+          "fixed_conditions": {
+            "type": "object",
+            "additionalProperties": true
+          },
+          "hard_constraints": {
+            "type": "object",
+            "additionalProperties": true
+          },
+          "objective": {
+            "type": "object",
+            "additionalProperties": true
+          },
+          "budget_hint": {
+            "type": "integer"
+          }
+        }
+      }
+    }
+  }
+}

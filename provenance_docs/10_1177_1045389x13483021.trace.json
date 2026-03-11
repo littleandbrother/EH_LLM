@@ -1,0 +1,28 @@
+{
+  "paper_id": "10_1177_1045389x13483021",
+  "doi": "10.1177/1045389x13483021",
+  "title": "Increasing the power of piezoelectric energy harvesters by magnetic stiffening",
+  "source_apis": [
+    "both"
+  ],
+  "pdf_url": "",
+  "pdf_local_path": "data_registry/raw_stage04_paper_pdf_cleaned/10_1177_1045389x13483021.pdf",
+  "processing": {
+    "tool": "MinerU",
+    "version": "python -m mineru.cli.client, version 2.7.6",
+    "timestamp": "2026-03-10T10:24:44.229199+00:00",
+    "duration_s": 102.26,
+    "success": true,
+    "error": ""
+  },
+  "outputs": {
+    "content_md": "/root/EH-LLM-vehbench-exp/parsed_docs/10_1177_1045389x13483021__atcc49q/content.md",
+    "layout_json": "/root/EH-LLM-vehbench-exp/parsed_docs/10_1177_1045389x13483021__atcc49q/layout.json",
+    "images_dir": "/root/EH-LLM-vehbench-exp/parsed_docs/10_1177_1045389x13483021__atcc49q/10_1177_1045389x13483021/auto/images",
+    "normalized_json": "/root/EH-LLM-vehbench-exp/normalized_docs/10_1177_1045389x13483021.json"
+  },
+  "data_lineage": {
+    "papers_jsonl_hash": "668b2a0f64547ae7c1a37085f9c31d64",
+    "pipeline_step": "ingestion/mineru_runner.py"
+  }
+}

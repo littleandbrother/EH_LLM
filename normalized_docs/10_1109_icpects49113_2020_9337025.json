@@ -1,0 +1,119 @@
+{
+  "paper_id": "10_1109_icpects49113_2020_9337025",
+  "doi": "10.1109/icpects49113.2020.9337025",
+  "title": "Electrical Characteristics and the vibration performance of PVDF - Cu MEMS Piezoelectric Vibrational Energy Harvester",
+  "year": 2020,
+  "venue": "2020 International Conference on Power, Energy, Control and Transmission Systems (ICPECTS)",
+  "authors": [
+    "C. R. A. J. Chelliah",
+    "Cyril Robinson Azariah John Chelliah"
+  ],
+  "citation_count": 5,
+  "sections": [
+    {
+      "heading": "Electrical Characteristics and the vibration performance of PVDF – Cu MEMS Piezoelectric Vibrational Energy Harvester",
+      "level": 1,
+      "text": "Cyril Robinson Azariah John Chelliah Department of Nanotechnology, Institute of Electronics and Communication Engineering, Saveetha School of Engineering, Saveetha Institute of Medical and Technical Sciences, Chennai – 602105 cyrilrobinsonazariahj.sse@saveetha.com"
+    },
+    {
+      "heading": "ABSTRACT",
+      "level": 1,
+      "text": "For the past few decades, the researchers have keen interest in developing an energy harvester for low power devices. Several MEMS based piezoelectric architectures have been employed. In this work, the electrical energy to be harvested from mechanical vibrations made of polyvinylidene difluoride (PVDF) piezoelectric material of thickness $1 0 0 \\mu \\mathrm { m }$ , $2 0 0 ~ { \\mu \\mathrm { m } }$ and $3 0 0 ~ { \\mu \\mathrm { m } }$ on $2 0 0 ~ { \\mu \\mathrm { m } }$ thick copper $\\mathrm { ( C u ) }$ substrate. The structure was simulated under three different predetermined vibrations, using an online numerical simulation tool. By translating the vibration and voltage signals into dimensional variables, an empirical relationship was found in which the output power can be related to the vibration characteristics, the piezoelectric material properties, and the resistive load. The simulated results were recorded and tabulated. This PVDF piezoelectric cantilever-based MEMS energy harvester that operates under ambient excitation of natural frequency band of 191 to $2 4 1 \\ \\mathrm { \\ H z }$ , within a base acceleration of 2.9 to $4 . 7 \\mathrm { g }$ produces an average output power of $0 . 1 5 \\mathrm { u } - 1 . 6 5 \\mathrm { u }$ $[ \\mathrm { u W } ]$ and 0.3 volts at 1u farad load capacitance. These results are way promising to power up potential biodevices and low frequency applications.\n\nKeywords: PVDF, Cu, Piezoelectric, MEMS, Nanohub"
+    },
+    {
+      "heading": "INTRODUCTION",
+      "level": 1,
+      "text": "MEMS Piezoelectric Vibration Energy Harvesting (MPVEH) is an online cloud-associated numerical simulation tool designed to simulate the dynamic behaviour of the Piezoelectric Energy Harvesting MEMS.[1] This device is composed of a cantilevered beam of piezoelectric layers which includes both bimorphic and unimorphic) with a proof mass at the end as shown in Figure 1.\n\n![](images/2505f9766271c8a2952cb9c96cdd46ad3734265a548d5ccb2f8f128a560f54f7.jpg)  \nFigure 1 Schematic of Piezoelectric device\n\nThe developed tool allows the user to set up the beam's dimensions and materials, along with various conditions for 978-1-7281-1084-4/20/\\$31.00 ©2020 IEEE\n\nexcitation. These devices use the principle of direct piezoelectric effect to convert the energy of the vibrating surface to electrical current as shown in Figure 2.[2], [3] This is done by shaking a cantilevered beam that is coupled to a piezoelectric film. When the beam resonates, the piezoelectric material accumulates electrical charges and delivers them to the circuit. The first phase of the simulation is designing the beam geometry.\n\n![](images/c8dd40970811de6631a7ab293a533fa1494417f0e143b1d90f7059268c33a13c.jpg)  \nFigure 2 Block diagram of working of Piezoelectric device\n\nThe harvesting system as can be seen consists of a cantilevered beam with a mass attached to the end as shown in Figure 3. Now this tool is capable of Two forms of piezoelectric harvesters are simulated: Unimorph and Bimorph. The Unimorphic Beam is made of Just one piezoelectric layer and one metallic substratum layer; while the Bimorph is interconnected by two Piezoelectric layers with metallic substrates in sandwich-like configuration. Brings more lights This version does not support substrates or piezoelectric films (i.e., multimorphic). All dimensions (length, thickness, width, etc.) must be defined in the \"Geometry\" tab. If no substrate is to be simulated, it is possible to form $\" 0 \"$ because of its thickness. In small devices, the space occupied by the proof mass plays an important role; however, it is also possible to specify $\" 0 \"$ for its length, if the length of the test is equal to '0.' The \"point-mass\" approximation must be used. The distance between the beam and the floor does not have an important role to play in millimetre-sized devices; however, it may have a significant effect on the pressure force of the MEMS scale cantilevers.[4], [5]\n\n![](images/c6833888c7a2ee1b1ddbba0c69c4238c8bbd53dc2a579a815797cb638e806517.jpg)  \nFigure 3 Geometrical description of the piezoelectric device\n\nThe aim of this paper brings light on to simulate the harvested electrical power from mechanical vibrations using a piezoelectric cantilevered beam. Piezoelectric materials have been shown to be effective for vibration utilisation systems of small dimensions. This could enable low-consumption electronic devices to be powered by mechanical oscillations. Physical modelling of piezoelectric cantilevered beams has been addressed in various publications. In this work, this electromechanical model is incorporated into an online numerical simulation tool that helps design and characterise these devices and serves as an educational resource.[6]"
+    },
+    {
+      "heading": "METHODOLOGY",
+      "level": 1,
+      "text": "A system of ordinary differential equations is derived for modelling the piezoelectric beam's first oscillation mode (corrected lumped-parameter model). These equations are integrated using the 4th order Runge-Kutta algorithm that describes the instantaneous tip displacement and output voltage. The numerical method is implemented in Octave, and the Rappture Toolkit incorporates a GUI. After the dynamic equation has been resolved, the programme conducts a frequency analysis and calculates some relevant harvesting process statistics such as the specific power and resonance frequencies. Other features include simulating a full-wave rectifier circuit, testing the device with sources of measured vibrations, frequency sweeps, and impulse inputs.[7]\n\n![](images/2c373a61d65195cb89fadccdbe0a968d4e230a775c60a76a7392f5b4d13dc7ad.jpg)  \nFigure 4 Screenshots of the input of the simulation tool and frequency sweep parameters\n\nFirst, we choose the thickness of the piezoelectric as $1 0 0 \\mu \\mathrm { m }$ , $2 0 0 ~ { \\mu \\mathrm { m } }$ and $3 0 0 ~ { \\mu \\mathrm { m } }$ and the thickness of the substrate as 200 $\\mu \\mathrm { m }$ . The length of the device is $1 0 \\mathrm { m m }$ , the length of the proof mass is $0 . 1 \\mathrm { m m }$ and its width $5 \\mathrm { { m m } }$ as shown in Figure 4. The gap is $2 5 \\mathrm { m m }$ . In this work, there are 2 number of piezoelectric layers and its connection is series type. In the mechanical properties, the proof mass is considered as $1 ~ \\mathrm { m g }$ and end-mass density as $1 9 0 0 0 \\mathrm { k g } / \\mathrm { m } ^ { 3 }$ . PVDF is the piezoelectric material and copper substrate were chosen. The frequency sweep, random vibration, hammer hit and predetermined vibrations were enabled. The frequency range were swept from $1 0 0 \\mathrm { H z }$ to $1 0 \\mathrm { K H z }$ . The amplitude considered to be $1 \\mu \\mathrm { m }$ . The exponential decay constant is kept at zero. The final stage is the selection of some other required parameters in three groups: environmental conditions, circuit topology, and simulation length. Environmental conditions change surrounding air density and viscosity. This affects measuring aerodynamic drag, which becomes important at very small scales. The circuit topology supports two options: resistive load and full-wave rectifier. In both cases, a load and capacitance must be specified.\n\nIn this work, a full-wave rectifier is used to provide a threshold voltage for the diodes since they are best modelled within the design. Finally, simulation duration is suggested. This determines the simulation time as a reference frequency, which in most situations would be the normal beam frequency. Technically, the software takes an internal judgement that often relies on the form of input vibrations: if it is a frequency sweep, it is measured at the lowest frequency; but, if the lowest frequency is too low, it uses the natural frequency as a guide such that the simulation is not too long.[8], [9]"
+    },
+    {
+      "heading": "RESULTS AND DISCUSSION",
+      "level": 1,
+      "text": "Simulations were carried out to compare this tool 's predictions under different vibration measurements. The calculations for the resonance frequencies were determined. When a proof mass is added to the system, the output voltage is accurately estimated but shows deviation if there is no endmass. From the simulation, we obtained the following results. The simulation performed correctly with no convergence errors. The calculated simulation period is 0.01s and the simulation sampling frequency is $2 3 . 5 0 8 ~ \\mathrm { k H z }$ as shown in Table 1. The results were tabulated in Table 2 for the device tested under the predetermined vibration using small microwave oven, Table 3 for the vibration Laptop CD drive and Table 4 represent the The performance metrics obtained are the natural frequency as $1 1 7 5 . 4 ~ \\mathrm { H z }$ , open-circuit resonance of $1 1 7 6 . 1 \\mathrm { H z }$ , the average harvested power is $9 . 3 2 \\mathrm { e } { \\mathrm { - } } 0 6 ~ \\mu \\mathrm { W }$ , peak power of $1 . 7 2 \\mathrm { e } { \\cdot } 0 5 ~ \\mu \\mathrm { W } _ { ; }$ , estimated device volume of $0 . 0 2 1 \\ \\mathrm { c m } ^ { \\wedge } 3$ , the power density is $4 . 4 6 \\mathrm { e } { \\cdot } 0 7 \\ \\mathrm { m W } / \\mathrm { c m } \\wedge 3$ , the input RMS acceleration as $8 3 . 0 8 3 \\mathrm { g }$ RMS and a power-to-accelerated ratio of $1 . 3 4 9 9 \\mathrm { e } { \\cdot } 0 9 \\ \\mathrm { u W } / ( \\mathrm { g }$ RMS)2.\n\n![](images/1a5f6c492f8da08214d337ec16cd1921059a0dda376a0b7476439a54a0b62ca6.jpg)  \nFigure 5 Average harvested power\n\nTable 1: Performance metrics   \n\n<table><tr><td rowspan=1 colspan=1>Performance metrics:</td><td rowspan=1 colspan=1>LPiezo:100 um</td><td rowspan=1 colspan=1>LPiezo:200 um</td><td rowspan=1 colspan=1>LPiezo:300 um</td></tr><tr><td rowspan=1 colspan=1>Simulation performed correctly</td><td rowspan=1 colspan=1>no convergence errors</td><td rowspan=1 colspan=1>no convergence errors</td><td rowspan=1 colspan=1>no convergence errors</td></tr><tr><td rowspan=1 colspan=1>Simulation parameters: -</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>Calculated simulation period</td><td rowspan=1 colspan=1>0.01 [s]</td><td rowspan=1 colspan=1>0.01 [s]</td><td rowspan=1 colspan=1>0.01 [s]</td></tr><tr><td rowspan=1 colspan=1>Simulation sampling frequency</td><td rowspan=1 colspan=1>3.8296 [kHz]</td><td rowspan=1 colspan=1>4.184 [kHz]</td><td rowspan=1 colspan=1>4.8704 [kHz]</td></tr><tr><td rowspan=1 colspan=1>Natural frequency</td><td rowspan=1 colspan=1>191.48 [Hz]</td><td rowspan=1 colspan=1>209.2 [Hz]</td><td rowspan=1 colspan=1>243.52 [Hz]</td></tr><tr><td rowspan=1 colspan=1>Open-circuit resonance</td><td rowspan=1 colspan=1>191.59 [Hz]</td><td rowspan=1 colspan=1>209.51 [Hz]</td><td rowspan=1 colspan=1>244.07 [Hz]</td></tr><tr><td rowspan=1 colspan=1>--- Internal calculations: -</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>Mechanical model:</td><td rowspan=1 colspan=1>m_eq = 6.4247e-05 [kg]c_eq = 0.0030954 [1/s]c_air = 3.4619e-06 [1/s]k eq = 92.993 [N/m]</td><td rowspan=1 colspan=1>m_eq = 7.4837e-05 [kg]c_eq = 0.003939 [1/s]c_air = 3.6017e-06 [1/s]k eq = 129.3 [N/m]</td><td rowspan=1 colspan=1>m_eq = 8.5427e-05 [kg]c_eq = 0.0052343 [1/s]c_air = 3.8642e-06 [1/s]k eq = 200 [N/m]</td></tr><tr><td rowspan=1 colspan=1>Electromechanical coupling:</td><td rowspan=1 colspan=1>theta1 = 2.6957e-06 N/Vtheta2 = 40530 V/m</td><td rowspan=1 colspan=1>theta1 = 3.5942e-06 N/Vtheta2 = 1.0808e+05 V/m</td><td rowspan=1 colspan=1>theta1 = 4.4928e-06 N/Vtheta2 = 2.0265e+05 V/m</td></tr><tr><td rowspan=1 colspan=1>Circuital model:</td><td rowspan=1 colspan=1>C_piezo = 6.6405e-11 [F]C_load = 1e-06 [F]Vt = 0.3 [V]Lumped-parametercorrection factor: 1.5582</td><td rowspan=1 colspan=1>C_piezo = 3.3202e-11 [F]C_load = 1e-06 [F]Vt = 0.3 [V]Lumped-parameter  correctionfactor: 1.5593</td><td rowspan=1 colspan=1>C_piezo = 2.2135e-11 [F]C_load = 1e-06 [F]Vt = 0.3 [V]Lumped-parameter correctionfactor: 1.5601</td></tr></table>\n\nTable 2: Simulation Results - Predetermined vibration: Small microwave oven   \n\n<table><tr><td rowspan=1 colspan=1>Results Summary</td><td rowspan=1 colspan=1>Simulation 1 (Length:100um)</td><td rowspan=1 colspan=2>Simulation 2 (Length:200 um)</td><td rowspan=1 colspan=1>Simulation 3 (Length:300 um)</td></tr><tr><td rowspan=1 colspan=1>Average harvested power</td><td rowspan=1 colspan=1>2.2667e-07 [uW]</td><td rowspan=1 colspan=1>1.0172e-06 [uW]</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>1.6564e-06 [uW]</td></tr><tr><td rowspan=1 colspan=1>Peak power</td><td rowspan=1 colspan=1>8.1032e-07 [uW]</td><td rowspan=1 colspan=1>3.0853e-06 [uW]</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>4.9498e-06 [uW]</td></tr><tr><td rowspan=1 colspan=1>Estimated device volume</td><td rowspan=1 colspan=1>0.05573 [cm^3]</td><td rowspan=1 colspan=1>0.080987 [cm^3]</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>0.10453 [cm^3]</td></tr><tr><td rowspan=1 colspan=1>Power density</td><td rowspan=1 colspan=1>4.0673e-09 [mW/cm^3]</td><td rowspan=1 colspan=2>1.256e-08 [mW/cm^3]</td><td rowspan=1 colspan=1>1.5847e-08 [mW/cm^3]</td></tr><tr><td rowspan=1 colspan=1>Input RMS acceleration</td><td rowspan=1 colspan=1>2.8617 [g RMS]</td><td rowspan=1 colspan=2>3.2612 [g RMS]</td><td rowspan=1 colspan=1>4.6976 [g RMS]</td></tr><tr><td rowspan=1 colspan=1>Power-to-acceleration ratio</td><td rowspan=1 colspan=1>2.7678e-08[uW/(gRMS)^2]</td><td rowspan=1 colspan=2>9.5644e-08[uW/(g RMS)^2]</td><td rowspan=1 colspan=1>7.5061e-08[uW/(g RMS)^2]</td></tr></table>\n\nTable 3: Simulation Results - Predetermined vibration: Laptop CD drive   \n\n<table><tr><td rowspan=1 colspan=1>Results Summary</td><td rowspan=1 colspan=1>Simulation 1 (Length:100um)</td><td rowspan=1 colspan=1>Simulation 2 (Length:200 um)</td><td rowspan=1 colspan=1>Simulation 3 (Length:300 um)</td></tr><tr><td rowspan=1 colspan=1>Average harvested power</td><td rowspan=1 colspan=1>1.5176e-07 [uW]</td><td rowspan=1 colspan=1>6.2363e-07 [uW]</td><td rowspan=1 colspan=1>1.473e-06 [uW]</td></tr><tr><td rowspan=1 colspan=1>Peak power</td><td rowspan=1 colspan=1>8.1213e-07 [uW]</td><td rowspan=1 colspan=1>2.3695e-06 [uW]</td><td rowspan=1 colspan=1>5.2275e-06 [uW]</td></tr><tr><td rowspan=1 colspan=1>Estimated device volume</td><td rowspan=1 colspan=1>0.056386 [cm^3]</td><td rowspan=1 colspan=1>0.081272 [cm^3]</td><td rowspan=1 colspan=1>0.10448 [cm^3]</td></tr><tr><td rowspan=1 colspan=1>Power density</td><td rowspan=1 colspan=1>2.6914e-09 [mW/cm^3]</td><td rowspan=1 colspan=1>7.6733e-09 [mW/cm^3]</td><td rowspan=1 colspan=1>1.4099e-08 [mW/cm^3]</td></tr><tr><td rowspan=1 colspan=1>Input RMS acceleration</td><td rowspan=1 colspan=1>2.8719 [g RMS]</td><td rowspan=1 colspan=1>3.2523 [g RMS]</td><td rowspan=1 colspan=1>4.7089 [g RMS]</td></tr><tr><td rowspan=1 colspan=1>Power-to-acceleration ratio</td><td rowspan=1 colspan=1>1.8399e-08[uW/(gRMS)^2]</td><td rowspan=1 colspan=1>5.8956e-08[uW/(g RMS)^2]</td><td rowspan=1 colspan=1>6.643e-08[uW/(g RMS)^2]</td></tr></table>\n\nTable 4: Simulation Results - Predetermined vibration: No   \n\n<table><tr><td rowspan=1 colspan=1>Results Summary</td><td rowspan=1 colspan=2>Simulation 1 (Length:100um)</td><td rowspan=1 colspan=1>Simulation 2 (Length:200 um)</td><td rowspan=1 colspan=2>Simulation 3 (Length:300 um)</td></tr><tr><td rowspan=1 colspan=1>Average harvested power</td><td rowspan=1 colspan=1>1.5011e-07 [uW]</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>5.863e-07 [uW]</td><td rowspan=1 colspan=1>1.2196e-06 [uW]</td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>Peak power</td><td rowspan=1 colspan=1>9.3516e-07 [uW]</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>2.2187e-06 [uW]</td><td rowspan=1 colspan=1>3.7804e-06 [uW]</td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>Estimated device volume</td><td rowspan=1 colspan=1>0.057585 [cm^3]</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>0.080936 [cm^3]</td><td rowspan=1 colspan=2>0.10407 [cm^3]</td></tr><tr><td rowspan=1 colspan=1>Power density</td><td rowspan=1 colspan=2>2.6067e-09 [mW/cm^3]</td><td rowspan=1 colspan=1>7.244e-09 [mW/cm^3]</td><td rowspan=1 colspan=2>1.1719e-08 [mW/cm^3]</td></tr><tr><td rowspan=1 colspan=1>Input RMS acceleration</td><td rowspan=1 colspan=2>2.871 [g RMS]</td><td rowspan=1 colspan=1>3.2406 [g RMS]</td><td rowspan=1 colspan=2>4.7001 [g RMS]</td></tr><tr><td rowspan=1 colspan=1>Power-to-acceleration ratio</td><td rowspan=1 colspan=2>1.8211e-08[uW/(gRMS)^2]</td><td rowspan=1 colspan=1>5.5832e-08[uW/(g RMS)^2]</td><td rowspan=1 colspan=2>5.5209e-08[uW/(g RMS)^2]</td></tr></table>\n\nFrom the internal calculations, important results such as mechanical model, electromechanical coupling and circuital model parameters were also obtained. The average harvested power is higher in the $3 0 0 ~ { \\mu \\mathrm { m } }$ thickness piezoelectric device with predetermined vibration using small microwave oven and lowest for the no vibration $1 0 0 \\ \\mathrm { u m }$ thickness piezoelectric device. The average harvested power of all the 9 simulations are recorded in the plot shown in figure 5. The power versus time graph is plotted for all the 9 cases as shown in figure 6. The voltage versus time graph is plotted for all the 9 cases as shown in figure 7. The tip displacement versus time graph is plotted for all the 9 cases as shown in figure 8.\n\n![](images/fe2b49670699da8068dcb0e9ba5b2f19b8f53082859600bed561c5750d0da59d.jpg)  \nFigure 8: Tip displacement vs time"
+    },
+    {
+      "heading": "CONCLUSION",
+      "level": 1,
+      "text": "![](images/930a487c883ca8b605be873752f2d5a885d6bc23e149d5a8ad35660185fede96.jpg)  \nFigure 6 power vs time\n\nTo conclude, electrical energy is harvested from mechanical vibrations made of $1 0 0 \\mu \\mathrm { m }$ , $2 0 0 \\mu \\mathrm { m }$ and $3 0 0 \\mu \\mathrm { m }$ thick piezoelectric content of polyvinylidene difluoride (PVDF) on $2 0 0 \\mu \\mathrm { m }$ thick copper (Cu) substrates and successfully simulated using the MPVEH instrument. The optimum load is about 1uF, and its overall output power is about 1.5-15 pico W, which is very limited for practical use. It is completely a very good guide for MEMS designers to create a more intricate piezoelectric micro-power generator or the various perspectives for improving the power harvested for bio implants or bio compatible devices and for very low frequency applications."
+    },
+    {
+      "heading": "ACKNOWLEDGEMENT:",
+      "level": 1,
+      "text": "We sincerely thank the Institute of ECE, Saveetha School of Engineering, Chennai for the encouragement and support."
+    },
+    {
+      "heading": "REFERENCES",
+      "level": 1,
+      "text": "![](images/c87a8c1ee48fb3f7957f1e20808da055de77115f44b1b5f52d61227de1d9c991.jpg)  \nFigure 7: Voltage vs time\n\n[1] J. M. Monsalve, G. F. Giraldo, A. G. Avila, and G. Klimeck, “MEMS Piezoelectric Vibrational Energy Harvesting Lab,” Jun. 2014.   \n[2] D. Shen et al., “Micromachined PZT cantilever based on SOI structure for low frequency vibration energy harvesting,” Sensors Actuators, A Phys., vol. 154, no. 1, pp. 103–108, Aug. 2009.   \n[3] A. Toprak and O. Tigli, “MEMS Scale PVDF-TrFE-Based Piezoelectric Energy Harvesters,” J. Microelectromechanical Syst., vol. 24, no. 6, pp. 1989– 1997, Dec. 2015.   \n[4] T. Kobayashi, J. Tsaur, and R. Maeda, “Fabrication of optical micro scanner driven by PZT actuators,” Japanese J. Appl. Physics, Part 1 Regul. Pap. Short Notes Rev. Pap., vol. 44, no. 9 B, pp. 7078–7082, Sep. 2005.   \n[5] S. Kaushal, P. K. Dubey, G. Prabhudesai, and B. D. Pant, “Novel design for wideband piezoelectric vibrational energy harvester (P-VEH),” in 19th International Symposium on VLSI Design and Test, VDAT 2015 - Proceedings, 2015.   \n[6] M. Su and B. Kim, “Energy harvest-power MEMS devices for future sensor network society: Stochastic resonance meets TENG device,” in 2016 IEEE CPMT Symposium Japan, ICSJ 2016, 2016, pp. 71–73.   \n[7] “nanoHUB.org - Resources: MEMS Piezoelectric Vibrational Energy Harvesting Lab.” [Online]. Available: https://nanohub.org/resources/21133. [Accessed: 23-Sep-2020].   \n[8] H. Bin Fang et al., “Fabrication and performance of\n\nMEMS-based piezoelectric power generator for vibration energy harvesting,” Microelectronics $J .$ , vol. 37, no. 11, pp. 1280–1284, Nov. 2006. [9] A. Karami, P. Basset, and D. Galayko, “Electrostatic vibration energy harvester using an electret-charged mems transducer with an unstable auto-synchronous conditioning circuit,” in Journal of Physics: Conference Series, 2015, vol. 660, no. 1."
+    }
+  ],
+  "tables": [
+    {
+      "page": -1,
+      "content": ""
+    },
+    {
+      "page": -1,
+      "content": ""
+    },
+    {
+      "page": -1,
+      "content": ""
+    },
+    {
+      "page": -1,
+      "content": ""
+    }
+  ],
+  "figures": [
+    {
+      "page": -1,
+      "caption": "",
+      "path": "images/2505f9766271c8a2952cb9c96cdd46ad3734265a548d5ccb2f8f128a560f54f7.jpg"
+    },
+    {
+      "page": -1,
+      "caption": "",
+      "path": "images/c8dd40970811de6631a7ab293a533fa1494417f0e143b1d90f7059268c33a13c.jpg"
+    },
+    {
+      "page": -1,
+      "caption": "",
+      "path": "images/c6833888c7a2ee1b1ddbba0c69c4238c8bbd53dc2a579a815797cb638e806517.jpg"
+    },
+    {
+      "page": -1,
+      "caption": "",
+      "path": "images/2c373a61d65195cb89fadccdbe0a968d4e230a775c60a76a7392f5b4d13dc7ad.jpg"
+    },
+    {
+      "page": -1,
+      "caption": "",
+      "path": "images/1a5f6c492f8da08214d337ec16cd1921059a0dda376a0b7476439a54a0b62ca6.jpg"
+    },
+    {
+      "page": -1,
+      "caption": "",
+      "path": "images/fe2b49670699da8068dcb0e9ba5b2f19b8f53082859600bed561c5750d0da59d.jpg"
+    },
+    {
+      "page": -1,
+      "caption": "",
+      "path": "images/930a487c883ca8b605be873752f2d5a885d6bc23e149d5a8ad35660185fede96.jpg"
+    },
+    {
+      "page": -1,
+      "caption": "",
+      "path": "images/c87a8c1ee48fb3f7957f1e20808da055de77115f44b1b5f52d61227de1d9c991.jpg"
+    }
+  ],
+  "metadata": {
+    "source": "both",
+    "pdf_url": "",
+    "parsed_at": "2026-03-10T10:26:55.240849+00:00"
+  }
+}

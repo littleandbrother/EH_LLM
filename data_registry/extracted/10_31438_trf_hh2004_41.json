@@ -1,0 +1,147 @@
+{
+  "metadata": {
+    "paper_id": "10_31438_trf_hh2004_41",
+    "doi": "10.31438/trf.hh2004.41",
+    "title": "PIEZOELECTRIC MICRO POWER GENERATOR FOR ENERGY HARVESTING",
+    "year": 2004,
+    "journal": "2004 Solid-State, Actuators, and Microsystems Workshop Technical Digest"
+  },
+  "configuration": "cantilever",
+  "proof_mass": true,
+  "geometry": {
+    "length_mm": 0.26,
+    "width_mm": 0.17,
+    "thickness_mm": null,
+    "substrate_thickness_um": 0.4,
+    "piezo_thickness_um": 0.48,
+    "tip_mass_g": null,
+    "diameter_mm": null
+  },
+  "excitation": {
+    "type": "vibration",
+    "frequency_Hz": 13900,
+    "acceleration_g": null,
+    "displacement_mm": 0.014,
+    "motion_source": "piezoelectric shaker"
+  },
+  "load": {
+    "load_resistance_ohm": 5200000
+  },
+  "output": {
+    "resonant_frequency_Hz": 13900,
+    "output_power_W": 1.01e-06,
+    "open_circuit_voltage_V": null,
+    "short_circuit_current_A": null,
+    "bandwidth_Hz": null
+  },
+  "evidence": {
+    "configuration": {
+      "quote": "Our cantilever device was designed to have a flat structure with a proof mass added to the end.",
+      "section": "ABSTRACT",
+      "source_type": "abstract"
+    },
+    "proof_mass": {
+      "quote": "Our cantilever device was designed to have a flat structure with a proof mass added to the end.",
+      "section": "ABSTRACT",
+      "source_type": "abstract"
+    },
+    "geometry": {
+      "length_mm": {
+        "quote": "PMPG device of $170 \\mu m \\times 260 \\mu m$",
+        "section": "RESULTS AND DISCUSSION",
+        "source_type": "section"
+      },
+      "width_mm": {
+        "quote": "PMPG device of $170 \\mu m \\times 260 \\mu m$",
+        "section": "RESULTS AND DISCUSSION",
+        "source_type": "section"
+      },
+      "thickness_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "substrate_thickness_um": {
+        "quote": "0.05 \\mu m ZrO_2 / (0.1 \\mu m PECVD oxide / 0.4 \\mu m SiN_x)",
+        "section": "FABRICATION",
+        "source_type": "section"
+      },
+      "piezo_thickness_um": {
+        "quote": "create a PZT layer with $0.48 \\mu m$ thickness.",
+        "section": "FABRICATION",
+        "source_type": "section"
+      },
+      "tip_mass_g": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "diameter_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      }
+    },
+    "excitation": {
+      "type": {
+        "quote": "It is designed to resonate at specific vibrational frequencies from an ambient, vibrational energy source",
+        "section": "ABSTRACT",
+        "source_type": "abstract"
+      },
+      "frequency_Hz": {
+        "quote": "base displacement magnitude of $14 nm$ at a shaking frequency of $13.9 kHz$.",
+        "section": "RESULTS AND DISCUSSION",
+        "source_type": "section"
+      },
+      "acceleration_g": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "displacement_mm": {
+        "quote": "base displacement magnitude of $14 nm$",
+        "section": "RESULTS AND DISCUSSION",
+        "source_type": "section"
+      },
+      "motion_source": {
+        "quote": "piezoelectric shaker was then used to apply vibration directly to the PMPG",
+        "section": "RESULTS AND DISCUSSION",
+        "source_type": "section"
+      }
+    },
+    "load": {
+      "load_resistance_ohm": {
+        "quote": "There is a maximum point, $1.01 \\mu W$ for the $5.2 M\\Omega$ load",
+        "section": "RESULTS AND DISCUSSION",
+        "source_type": "section"
+      }
+    },
+    "output": {
+      "resonant_frequency_Hz": {
+        "quote": "The base-shaking experiments at the first resonant frequency (13.9 kHz)",
+        "section": "ABSTRACT",
+        "source_type": "abstract"
+      },
+      "output_power_W": {
+        "quote": "There is a maximum point, $1.01 \\mu W$ for the $5.2 M\\Omega$ load",
+        "section": "RESULTS AND DISCUSSION",
+        "source_type": "section"
+      },
+      "open_circuit_voltage_V": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "short_circuit_current_A": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "bandwidth_Hz": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      }
+    }
+  }
+}

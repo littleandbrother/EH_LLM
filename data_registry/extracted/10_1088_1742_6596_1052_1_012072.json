@@ -1,0 +1,147 @@
+{
+  "metadata": {
+    "paper_id": "10_1088_1742_6596_1052_1_012072",
+    "doi": "10.1088/1742-6596/1052/1/012072",
+    "title": "Autoparametric Excitation and Self-powered SSHI for Power Enhancement in Piezoelectric Vibration Energy Harvester",
+    "year": 2018,
+    "journal": "Journal of Physics: Conference Series"
+  },
+  "configuration": "cantilever",
+  "proof_mass": true,
+  "geometry": {
+    "length_mm": 41,
+    "width_mm": 20,
+    "thickness_mm": 0.3,
+    "substrate_thickness_um": 300,
+    "piezo_thickness_um": null,
+    "tip_mass_g": 19.9,
+    "diameter_mm": null
+  },
+  "excitation": {
+    "type": "vibration",
+    "frequency_Hz": 53.1,
+    "acceleration_g": 0.204,
+    "displacement_mm": null,
+    "motion_source": null
+  },
+  "load": {
+    "load_resistance_ohm": 150000
+  },
+  "output": {
+    "resonant_frequency_Hz": 53.1,
+    "output_power_W": 0.00112,
+    "open_circuit_voltage_V": null,
+    "short_circuit_current_A": null,
+    "bandwidth_Hz": null
+  },
+  "evidence": {
+    "configuration": {
+      "quote": "The harvester consists of the main steel beam (AISI304, 41 × 20 × 0.3 mm3), copper tip mass (19.9 gram)",
+      "section": "2. Harvester structure",
+      "source_type": "section"
+    },
+    "proof_mass": {
+      "quote": "copper tip mass (19.9 gram)",
+      "section": "2. Harvester structure",
+      "source_type": "section"
+    },
+    "geometry": {
+      "length_mm": {
+        "quote": "main steel beam (AISI304, 41 × 20 × 0.3 mm3)",
+        "section": "2. Harvester structure",
+        "source_type": "section"
+      },
+      "width_mm": {
+        "quote": "main steel beam (AISI304, 41 × 20 × 0.3 mm3)",
+        "section": "2. Harvester structure",
+        "source_type": "section"
+      },
+      "thickness_mm": {
+        "quote": "main steel beam (AISI304, 41 × 20 × 0.3 mm3)",
+        "section": "2. Harvester structure",
+        "source_type": "section"
+      },
+      "substrate_thickness_um": {
+        "quote": "main steel beam (AISI304, 41 × 20 × 0.3 mm3)",
+        "section": "2. Harvester structure",
+        "source_type": "section"
+      },
+      "piezo_thickness_um": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "tip_mass_g": {
+        "quote": "copper tip mass (19.9 gram)",
+        "section": "2. Harvester structure",
+        "source_type": "section"
+      },
+      "diameter_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      }
+    },
+    "excitation": {
+      "type": {
+        "quote": "autoparametric excitation",
+        "section": "Autoparametric Excitation and Self-powered SSHI for Power Enhancement in Piezoelectric Vibration Energy Harvester",
+        "source_type": "abstract"
+      },
+      "frequency_Hz": {
+        "quote": "frequency of 53.1 Hz",
+        "section": "3. Results and discussion",
+        "source_type": "section"
+      },
+      "acceleration_g": {
+        "quote": "acceleration of 2.0 m / s 2",
+        "section": "3. Results and discussion",
+        "source_type": "section"
+      },
+      "displacement_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "motion_source": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      }
+    },
+    "load": {
+      "load_resistance_ohm": {
+        "quote": "impedance matched resistive load for both interfaces is 150 k Ω",
+        "section": "3. Results and discussion",
+        "source_type": "section"
+      }
+    },
+    "output": {
+      "resonant_frequency_Hz": {
+        "quote": "frequency of 53.1 Hz",
+        "section": "3. Results and discussion",
+        "source_type": "section"
+      },
+      "output_power_W": {
+        "quote": "maximum output power for the selfpowered SSHI interface showed 1.12 mW",
+        "section": "3. Results and discussion",
+        "source_type": "section"
+      },
+      "open_circuit_voltage_V": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "short_circuit_current_A": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "bandwidth_Hz": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      }
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "paper_id": "10_7939_r3n29pf5c",
+  "doi": "10.7939/r3n29pf5c",
+  "title": "Investigation of Potential Platforms for Low Frequency MEMS-based Piezoelectric Energy Harvesting",
+  "source_apis": [
+    "openalex"
+  ],
+  "pdf_url": "https://doi.org/10.7939/r3n29pf5c",
+  "pdf_local_path": "data_registry/raw_stage04_paper_pdf_cleaned/10_7939_r3n29pf5c.pdf",
+  "processing": {
+    "tool": "MinerU",
+    "version": "python -m mineru.cli.client, version 2.7.6",
+    "timestamp": "2026-03-10T10:06:50.204607+00:00",
+    "duration_s": 237.35,
+    "success": true,
+    "error": ""
+  },
+  "outputs": {
+    "content_md": "/root/EH-LLM-vehbench-exp/parsed_docs/10_7939_r3n29pf5c_0yec5rh2/content.md",
+    "layout_json": "/root/EH-LLM-vehbench-exp/parsed_docs/10_7939_r3n29pf5c_0yec5rh2/layout.json",
+    "images_dir": "/root/EH-LLM-vehbench-exp/parsed_docs/10_7939_r3n29pf5c_0yec5rh2/10_7939_r3n29pf5c/auto/images",
+    "normalized_json": "/root/EH-LLM-vehbench-exp/normalized_docs/10_7939_r3n29pf5c.json"
+  },
+  "data_lineage": {
+    "papers_jsonl_hash": "710d5487d15e5db4bac6561114112e76",
+    "pipeline_step": "ingestion/mineru_runner.py"
+  }
+}

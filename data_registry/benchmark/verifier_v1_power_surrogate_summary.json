@@ -1,0 +1,32 @@
+{
+  "count": 52,
+  "best_candidate": "raw_physics_identity",
+  "recommended_runtime_mode": null,
+  "enable_runtime": false,
+  "candidates": {
+    "raw_physics_identity": {
+      "count": 52,
+      "mape_pct": 199.48638295021516,
+      "median_ape_pct": 99.99104906557525,
+      "median_abs_log10_ratio": 3.85973117829192
+    },
+    "global_log_bias": {
+      "count": 52,
+      "mape_pct": 861056.8100553962,
+      "median_ape_pct": 99.99985133730158,
+      "median_abs_log10_ratio": 2.104759119764287
+    },
+    "log_ridge_power": {
+      "count": 52,
+      "mape_pct": 62299.09926511319,
+      "median_ape_pct": 98.42722601724667,
+      "median_abs_log10_ratio": 1.2194821552143615
+    },
+    "log_ridge_vload": {
+      "count": 52,
+      "mape_pct": 62291.54549383974,
+      "median_ape_pct": 98.42740073576925,
+      "median_abs_log10_ratio": 1.2196107778480734
+    }
+  }
+}

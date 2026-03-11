@@ -1,0 +1,28 @@
+{
+  "paper_id": "10_1117_12_2181252",
+  "doi": "10.1117/12.2181252",
+  "title": "Nonlinear vibration analysis of the high-efficiency compressive-mode piezoelectric energy harvester",
+  "source_apis": [
+    "openalex"
+  ],
+  "pdf_url": "",
+  "pdf_local_path": "data_registry/raw_stage04_paper_pdf_cleaned/10_1117_12_2181252.pdf",
+  "processing": {
+    "tool": "MinerU",
+    "version": "python -m mineru.cli.client, version 2.7.6",
+    "timestamp": "2026-03-10T10:28:01.535961+00:00",
+    "duration_s": 69.26,
+    "success": true,
+    "error": ""
+  },
+  "outputs": {
+    "content_md": "/root/EH-LLM-vehbench-exp/parsed_docs/10_1117_12_2181252_m62lagjt/content.md",
+    "layout_json": "/root/EH-LLM-vehbench-exp/parsed_docs/10_1117_12_2181252_m62lagjt/layout.json",
+    "images_dir": "/root/EH-LLM-vehbench-exp/parsed_docs/10_1117_12_2181252_m62lagjt/10_1117_12_2181252/auto/images",
+    "normalized_json": "/root/EH-LLM-vehbench-exp/normalized_docs/10_1117_12_2181252.json"
+  },
+  "data_lineage": {
+    "papers_jsonl_hash": "6af4059fe080bf6ee62d543b6f6cfca6",
+    "pipeline_step": "ingestion/mineru_runner.py"
+  }
+}

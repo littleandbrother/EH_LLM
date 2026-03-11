@@ -1,0 +1,147 @@
+{
+  "metadata": {
+    "paper_id": "10_1049_mnl_2017_0128",
+    "doi": "10.1049/mnl.2017.0128",
+    "title": "Fabrication of piezoelectric vibration energy harvester using coatable PolyVinylidene DiFluoride and its characterisation",
+    "year": 2017,
+    "journal": "Micro & Nano Letters"
+  },
+  "configuration": "cantilever",
+  "proof_mass": true,
+  "geometry": {
+    "length_mm": 25,
+    "width_mm": 15,
+    "thickness_mm": null,
+    "substrate_thickness_um": 100,
+    "piezo_thickness_um": 30,
+    "tip_mass_g": 0.2,
+    "diameter_mm": null
+  },
+  "excitation": {
+    "type": "vibration",
+    "frequency_Hz": 55,
+    "acceleration_g": 1.733,
+    "displacement_mm": 6.0,
+    "motion_source": null
+  },
+  "load": {
+    "load_resistance_ohm": 2100000
+  },
+  "output": {
+    "resonant_frequency_Hz": 55,
+    "output_power_W": 4.3e-06,
+    "open_circuit_voltage_V": null,
+    "short_circuit_current_A": null,
+    "bandwidth_Hz": null
+  },
+  "evidence": {
+    "configuration": {
+      "quote": "One end of the plate was clamped by a fixture to form a cantilever",
+      "section": "Fabrication of piezoelectric vibration energy harvester using coatable PolyVinylidene DiFluoride and its characterisation",
+      "source_type": "section"
+    },
+    "proof_mass": {
+      "quote": "proof mass (m = 0.2 g) was attached to the free end of cantilever",
+      "section": "Fabrication of piezoelectric vibration energy harvester using coatable PolyVinylidene DiFluoride and its characterisation",
+      "source_type": "section"
+    },
+    "geometry": {
+      "length_mm": {
+        "quote": "Effective length of clamped antilever was 25 mm",
+        "section": "4. Fabrication of cantilever-type VEHs",
+        "source_type": "section"
+      },
+      "width_mm": {
+        "quote": "Cantilever width 15mm",
+        "section": "4. Fabrication of cantilever-type VEHs",
+        "source_type": "table"
+      },
+      "thickness_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "substrate_thickness_um": {
+        "quote": "Phosphor bronze thickness 100 μm",
+        "section": "4. Fabrication of cantilever-type VEHs",
+        "source_type": "table"
+      },
+      "piezo_thickness_um": {
+        "quote": "PVDF thickness sample1 30 μm",
+        "section": "4. Fabrication of cantilever-type VEHs",
+        "source_type": "table"
+      },
+      "tip_mass_g": {
+        "quote": "proof mass (m = 0.2 g)",
+        "section": "Fabrication of piezoelectric vibration energy harvester using coatable PolyVinylidene DiFluoride and its characterisation",
+        "source_type": "section"
+      },
+      "diameter_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      }
+    },
+    "excitation": {
+      "type": {
+        "quote": "vibration test",
+        "section": "4. Fabrication of cantilever-type VEHs",
+        "source_type": "section"
+      },
+      "frequency_Hz": {
+        "quote": "resonant frequency (= 55 Hz)",
+        "section": "Fabrication of piezoelectric vibration energy harvester using coatable PolyVinylidene DiFluoride and its characterisation",
+        "source_type": "section"
+      },
+      "acceleration_g": {
+        "quote": "acceleration was set to 17 m/s^2",
+        "section": "Fabrication of piezoelectric vibration energy harvester using coatable PolyVinylidene DiFluoride and its characterisation",
+        "source_type": "section"
+      },
+      "displacement_mm": {
+        "quote": "half amplitude of the free end of cantilever was ~ 6 mm",
+        "section": "4. Fabrication of cantilever-type VEHs",
+        "source_type": "section"
+      },
+      "motion_source": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      }
+    },
+    "load": {
+      "load_resistance_ohm": {
+        "quote": "Maximum output of 4.3 μW was achieved at R = 2.1 MΩ",
+        "section": "4. Fabrication of cantilever-type VEHs",
+        "source_type": "section"
+      }
+    },
+    "output": {
+      "resonant_frequency_Hz": {
+        "quote": "resonant frequency (= 55 Hz)",
+        "section": "Fabrication of piezoelectric vibration energy harvester using coatable PolyVinylidene DiFluoride and its characterisation",
+        "source_type": "section"
+      },
+      "output_power_W": {
+        "quote": "Maximum output of 4.3 μW was achieved at R = 2.1 MΩ",
+        "section": "4. Fabrication of cantilever-type VEHs",
+        "source_type": "section"
+      },
+      "open_circuit_voltage_V": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "short_circuit_current_A": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "bandwidth_Hz": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      }
+    }
+  }
+}

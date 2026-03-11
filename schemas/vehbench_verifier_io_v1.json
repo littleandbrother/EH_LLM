@@ -142,6 +142,9 @@
             },
             "base_displacement_mm": {
               "$ref": "#/$defs/nullableNumber"
+            },
+            "motion_source": {
+              "$ref": "#/$defs/nullableString"
             }
           }
         },

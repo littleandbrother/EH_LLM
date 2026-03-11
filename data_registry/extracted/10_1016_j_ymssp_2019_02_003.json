@@ -1,0 +1,147 @@
+{
+  "metadata": {
+    "paper_id": "10_1016_j_ymssp_2019_02_003",
+    "doi": "10.1016/j.ymssp.2019.02.003",
+    "title": "Analytical modeling and validation of multi-mode piezoelectric energy harvester",
+    "year": 2019,
+    "journal": "Mechanical Systems and Signal Processing"
+  },
+  "configuration": "cantilever",
+  "proof_mass": true,
+  "geometry": {
+    "length_mm": null,
+    "width_mm": null,
+    "thickness_mm": 1.0,
+    "substrate_thickness_um": 1000.0,
+    "piezo_thickness_um": 300.0,
+    "tip_mass_g": null,
+    "diameter_mm": null
+  },
+  "excitation": {
+    "type": "vibration",
+    "frequency_Hz": 15.45,
+    "acceleration_g": 0.2,
+    "displacement_mm": null,
+    "motion_source": "base harmonic excitation"
+  },
+  "load": {
+    "load_resistance_ohm": null
+  },
+  "output": {
+    "resonant_frequency_Hz": 15.45,
+    "output_power_W": 0.00186956,
+    "open_circuit_voltage_V": 42.3,
+    "short_circuit_current_A": null,
+    "bandwidth_Hz": null
+  },
+  "evidence": {
+    "configuration": {
+      "quote": "The proposed MPEH comprises of a main cantilevered beam bonded with a patch of piezoelectric layer and attached with multiple branches with tip masses at their free ends.",
+      "section": "abstract",
+      "source_type": "abstract"
+    },
+    "proof_mass": {
+      "quote": "The proposed MPEH comprises of a main cantilevered beam bonded with a patch of piezoelectric layer and attached with multiple branches with tip masses at their free ends.",
+      "section": "abstract",
+      "source_type": "abstract"
+    },
+    "geometry": {
+      "length_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "width_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "thickness_mm": {
+        "quote": "The thickness of main beam and branched beams is 1 mm and 0.41 mm, respectively.",
+        "section": "3.1. Validation case 1: MPEH with three branches",
+        "source_type": "section"
+      },
+      "substrate_thickness_um": {
+        "quote": "The thickness of main beam and branched beams is 1 mm and 0.41 mm, respectively.",
+        "section": "3.1. Validation case 1: MPEH with three branches",
+        "source_type": "section"
+      },
+      "piezo_thickness_um": {
+        "quote": "A patch of MFC (2814-P2, 28x14x0.3 mm^3,)",
+        "section": "3.1. Validation case 1: MPEH with three branches",
+        "source_type": "section"
+      },
+      "tip_mass_g": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "diameter_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      }
+    },
+    "excitation": {
+      "type": {
+        "quote": "A fabricated MPEH with three branches is tested under base harmonic excitation.",
+        "section": "3.1. Validation case 1: MPEH with three branches",
+        "source_type": "section"
+      },
+      "frequency_Hz": {
+        "quote": "15.45",
+        "section": "3.1. Validation case 1: MPEH with three branches",
+        "source_type": "table"
+      },
+      "acceleration_g": {
+        "quote": "0.2",
+        "section": "3.1. Validation case 1: MPEH with three branches",
+        "source_type": "table"
+      },
+      "displacement_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "motion_source": {
+        "quote": "base harmonic excitation",
+        "section": "3.1. Validation case 1: MPEH with three branches",
+        "source_type": "section"
+      }
+    },
+    "load": {
+      "load_resistance_ohm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      }
+    },
+    "output": {
+      "resonant_frequency_Hz": {
+        "quote": "15.45",
+        "section": "3.1. Validation case 1: MPEH with three branches",
+        "source_type": "table"
+      },
+      "output_power_W": {
+        "quote": "Present ... 0.2 ... 46,739",
+        "section": "3.1. Validation case 1: MPEH with three branches",
+        "source_type": "table"
+      },
+      "open_circuit_voltage_V": {
+        "quote": "42.3",
+        "section": "3.1. Validation case 1: MPEH with three branches",
+        "source_type": "table"
+      },
+      "short_circuit_current_A": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "bandwidth_Hz": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      }
+    }
+  }
+}

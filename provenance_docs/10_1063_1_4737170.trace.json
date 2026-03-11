@@ -1,0 +1,28 @@
+{
+  "paper_id": "10_1063_1_4737170",
+  "doi": "10.1063/1.4737170",
+  "title": "Cantilever driving low frequency piezoelectric energy harvester using single crystal material 0.71Pb(Mg1/3Nb2/3)O3-0.29PbTiO3",
+  "source_apis": [
+    "both"
+  ],
+  "pdf_url": "",
+  "pdf_local_path": "data_registry/raw_stage04_paper_pdf_cleaned/10_1063_1_4737170.pdf",
+  "processing": {
+    "tool": "MinerU",
+    "version": "python -m mineru.cli.client, version 2.7.6",
+    "timestamp": "2026-03-10T09:45:20.257855+00:00",
+    "duration_s": 77.15,
+    "success": true,
+    "error": ""
+  },
+  "outputs": {
+    "content_md": "/root/EH-LLM-vehbench-exp/parsed_docs/10_1063_1_4737170_kz3_c95t/content.md",
+    "layout_json": "/root/EH-LLM-vehbench-exp/parsed_docs/10_1063_1_4737170_kz3_c95t/layout.json",
+    "images_dir": "/root/EH-LLM-vehbench-exp/parsed_docs/10_1063_1_4737170_kz3_c95t/10_1063_1_4737170/auto/images",
+    "normalized_json": "/root/EH-LLM-vehbench-exp/normalized_docs/10_1063_1_4737170.json"
+  },
+  "data_lineage": {
+    "papers_jsonl_hash": "89089607679b18c81b728c4b1e091778",
+    "pipeline_step": "ingestion/mineru_runner.py"
+  }
+}

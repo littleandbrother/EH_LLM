@@ -1,0 +1,258 @@
+{
+  "status": "invalid",
+  "doc_path": "/Users/depengsu/Desktop/paper_story_agnet/EH-LLM-vehbench-exp/normalized_docs/10_1109_isaf_2015_7172670.json",
+  "doc_metadata": {
+    "paper_id": "10_1109_isaf_2015_7172670",
+    "doi": "10.1109/isaf.2015.7172670",
+    "title": "Piezoelectric free-standing thick-film structures for material characterization and energy harvesting applications",
+    "year": 2015,
+    "journal": "2015 Joint IEEE International Symposium on the Applications of Ferroelectric (ISAF), International Symposium on Integrated Functionalities (ISIF), and Piezoelectric Force Microscopy Workshop (PFM)"
+  },
+  "errors": [
+    "output has no populated metric"
+  ],
+  "warnings": [],
+  "record": {
+    "metadata": {
+      "paper_id": "10_1109_isaf_2015_7172670",
+      "doi": "10.1109/isaf.2015.7172670",
+      "title": "Piezoelectric free-standing thick-film structures for material characterization and energy harvesting applications",
+      "year": 2015,
+      "journal": "2015 Joint IEEE International Symposium on the Applications of Ferroelectric (ISAF), International Symposium on Integrated Functionalities (ISIF), and Piezoelectric Force Microscopy Workshop (PFM)"
+    },
+    "configuration": "cantilever",
+    "proof_mass": null,
+    "geometry": {
+      "length_mm": 15,
+      "width_mm": 3,
+      "thickness_mm": null,
+      "substrate_thickness_um": null,
+      "piezo_thickness_um": 90,
+      "tip_mass_g": null,
+      "diameter_mm": null
+    },
+    "excitation": {
+      "type": "vibration",
+      "frequency_Hz": null,
+      "acceleration_g": 1.5,
+      "displacement_mm": null,
+      "motion_source": "electromagnetic shaker"
+    },
+    "load": {
+      "load_resistance_ohm": 220000
+    },
+    "output": {
+      "resonant_frequency_Hz": null,
+      "output_power_W": null,
+      "open_circuit_voltage_V": null,
+      "short_circuit_current_A": null,
+      "bandwidth_Hz": null
+    },
+    "evidence": {
+      "configuration": {
+        "quote": "multi-layer cantilevers",
+        "section": "Piezoelectric Free-Standing Thick-Film Structures for Material Characterization and Energy Harvesting Applications",
+        "source_type": "abstract"
+      },
+      "proof_mass": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "geometry": {
+        "length_mm": {
+          "quote": "3 x 15 mm^2",
+          "section": "II. EXPERIMENTAL",
+          "source_type": "section"
+        },
+        "width_mm": {
+          "quote": "3 x 15 mm^2",
+          "section": "II. EXPERIMENTAL",
+          "source_type": "section"
+        },
+        "thickness_mm": {
+          "quote": null,
+          "section": null,
+          "source_type": null
+        },
+        "substrate_thickness_um": {
+          "quote": null,
+          "section": null,
+          "source_type": null
+        },
+        "piezo_thickness_um": {
+          "quote": "Flat ceramic films of approximately 90 um thick (PZT)",
+          "section": "B. Properties of Single-layer Thick-films",
+          "source_type": "section"
+        },
+        "tip_mass_g": {
+          "quote": null,
+          "section": null,
+          "source_type": null
+        },
+        "diameter_mm": {
+          "quote": null,
+          "section": null,
+          "source_type": null
+        }
+      },
+      "excitation": {
+        "type": {
+          "quote": "vibrational energy harvesting",
+          "section": "Piezoelectric Free-Standing Thick-Film Structures for Material Characterization and Energy Harvesting Applications",
+          "source_type": "abstract"
+        },
+        "frequency_Hz": {
+          "quote": null,
+          "section": null,
+          "source_type": null
+        },
+        "acceleration_g": {
+          "quote": "1.5 g",
+          "section": "C. Vibration Tests of Cantilevers",
+          "source_type": "section"
+        },
+        "displacement_mm": {
+          "quote": null,
+          "section": null,
+          "source_type": null
+        },
+        "motion_source": {
+          "quote": "electromagnetic shaker",
+          "section": "II. EXPERIMENTAL",
+          "source_type": "section"
+        }
+      },
+      "load": {
+        "load_resistance_ohm": {
+          "quote": "resistive load of 220 kOhm",
+          "section": "C. Vibration Tests of Cantilevers",
+          "source_type": "section"
+        }
+      },
+      "output": {
+        "resonant_frequency_Hz": {
+          "quote": null,
+          "section": null,
+          "source_type": null
+        },
+        "output_power_W": {
+          "quote": null,
+          "section": null,
+          "source_type": null
+        },
+        "open_circuit_voltage_V": {
+          "quote": null,
+          "section": null,
+          "source_type": null
+        },
+        "short_circuit_current_A": {
+          "quote": null,
+          "section": null,
+          "source_type": null
+        },
+        "bandwidth_Hz": {
+          "quote": null,
+          "section": null,
+          "source_type": null
+        }
+      }
+    }
+  },
+  "llm_result": {
+    "ok": true,
+    "data": {
+      "configuration": "cantilever",
+      "proof_mass": null,
+      "geometry": {
+        "length_mm": 15,
+        "width_mm": 3,
+        "thickness_mm": null,
+        "substrate_thickness_um": null,
+        "piezo_thickness_um": 90,
+        "tip_mass_g": null,
+        "diameter_mm": null
+      },
+      "excitation": {
+        "type": "vibration",
+        "frequency_Hz": null,
+        "acceleration_g": 1.5,
+        "displacement_mm": null,
+        "motion_source": "electromagnetic shaker"
+      },
+      "load": {
+        "load_resistance_ohm": 220000
+      },
+      "output": {
+        "resonant_frequency_Hz": null,
+        "output_power_W": null,
+        "open_circuit_voltage_V": null,
+        "short_circuit_current_A": null,
+        "bandwidth_Hz": null
+      },
+      "evidence": {
+        "configuration": {
+          "quote": "multi-layer cantilevers",
+          "section": "Piezoelectric Free-Standing Thick-Film Structures for Material Characterization and Energy Harvesting Applications",
+          "source_type": "abstract"
+        },
+        "proof_mass": null,
+        "geometry": {
+          "length_mm": {
+            "quote": "3 x 15 mm^2",
+            "section": "II. EXPERIMENTAL",
+            "source_type": "section"
+          },
+          "width_mm": {
+            "quote": "3 x 15 mm^2",
+            "section": "II. EXPERIMENTAL",
+            "source_type": "section"
+          },
+          "thickness_mm": null,
+          "substrate_thickness_um": null,
+          "piezo_thickness_um": {
+            "quote": "Flat ceramic films of approximately 90 um thick (PZT)",
+            "section": "B. Properties of Single-layer Thick-films",
+            "source_type": "section"
+          },
+          "tip_mass_g": null,
+          "diameter_mm": null
+        },
+        "excitation": {
+          "type": {
+            "quote": "vibrational energy harvesting",
+            "section": "Piezoelectric Free-Standing Thick-Film Structures for Material Characterization and Energy Harvesting Applications",
+            "source_type": "abstract"
+          },
+          "frequency_Hz": null,
+          "acceleration_g": {
+            "quote": "1.5 g",
+            "section": "C. Vibration Tests of Cantilevers",
+            "source_type": "section"
+          },
+          "displacement_mm": null,
+          "motion_source": {
+            "quote": "electromagnetic shaker",
+            "section": "II. EXPERIMENTAL",
+            "source_type": "section"
+          }
+        },
+        "load": {
+          "load_resistance_ohm": {
+            "quote": "resistive load of 220 kOhm",
+            "section": "C. Vibration Tests of Cantilevers",
+            "source_type": "section"
+          }
+        },
+        "output": {
+          "resonant_frequency_Hz": null,
+          "output_power_W": null,
+          "open_circuit_voltage_V": null,
+          "short_circuit_current_A": null,
+          "bandwidth_Hz": null
+        }
+      }
+    },
+    "raw_output": "{\n  \"configuration\": \"cantilever\",\n  \"proof_mass\": null,\n  \"geometry\": {\n    \"length_mm\": 15,\n    \"width_mm\": 3,\n    \"thickness_mm\": null,\n    \"substrate_thickness_um\": null,\n    \"piezo_thickness_um\": 90,\n    \"tip_mass_g\": null,\n    \"diameter_mm\": null\n  },\n  \"excitation\": {\n    \"type\": \"vibration\",\n    \"frequency_Hz\": null,\n    \"acceleration_g\": 1.5,\n    \"displacement_mm\": null,\n    \"motion_source\": \"electromagnetic shaker\"\n  },\n  \"load\": {\n    \"load_resistance_ohm\": 220000\n  },\n  \"output\": {\n    \"resonant_frequency_Hz\": null,\n    \"output_power_W\": null,\n    \"open_circuit_voltage_V\": null,\n    \"short_circuit_current_A\": null,\n    \"bandwidth_Hz\": null\n  },\n  \"evidence\": {\n    \"configuration\": {\n      \"quote\": \"multi-layer cantilevers\",\n      \"section\": \"Piezoelectric Free-Standing Thick-Film Structures for Material Characterization and Energy Harvesting Applications\",\n      \"source_type\": \"abstract\"\n    },\n    \"proof_mass\": null,\n    \"geometry\": {\n      \"length_mm\": {\n        \"quote\": \"3 x 15 mm^2\",\n        \"section\": \"II. EXPERIMENTAL\",\n        \"source_type\": \"section\"\n      },\n      \"width_mm\": {\n        \"quote\": \"3 x 15 mm^2\",\n        \"section\": \"II. EXPERIMENTAL\",\n        \"source_type\": \"section\"\n      },\n      \"thickness_mm\": null,\n      \"substrate_thickness_um\": null,\n      \"piezo_thickness_um\": {\n        \"quote\": \"Flat ceramic films of approximately 90 um thick (PZT)\",\n        \"section\": \"B. Properties of Single-layer Thick-films\",\n        \"source_type\": \"section\"\n      },\n      \"tip_mass_g\": null,\n      \"diameter_mm\": null\n    },\n    \"excitation\": {\n      \"type\": {\n        \"quote\": \"vibrational energy harvesting\",\n        \"section\": \"Piezoelectric Free-Standing Thick-Film Structures for Material Characterization and Energy Harvesting Applications\",\n        \"source_type\": \"abstract\"\n      },\n      \"frequency_Hz\": null,\n      \"acceleration_g\": {\n        \"quote\": \"1.5 g\",\n        \"section\": \"C. Vibration Tests of Cantilevers\",\n        \"source_type\": \"section\"\n      },\n      \"displacement_mm\": null,\n      \"motion_source\": {\n        \"quote\": \"electromagnetic shaker\",\n        \"section\": \"II. EXPERIMENTAL\",\n        \"source_type\": \"section\"\n      }\n    },\n    \"load\": {\n      \"load_resistance_ohm\": {\n        \"quote\": \"resistive load of 220 kOhm\",\n        \"section\": \"C. Vibration Tests of Cantilevers\",\n        \"source_type\": \"section\"\n      }\n    },\n    \"output\": {\n      \"resonant_frequency_Hz\": null,\n      \"output_power_W\": null,\n      \"open_circuit_voltage_V\": null,\n      \"short_circuit_current_A\": null,\n      \"bandwidth_Hz\": null\n    }\n  }\n}"
+  }
+}

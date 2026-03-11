@@ -1,0 +1,147 @@
+{
+  "metadata": {
+    "paper_id": "10_3390_s23115257",
+    "doi": "10.3390/s23115257",
+    "title": "Linear Segmented Arc-Shaped Piezoelectric Branch Beam Energy Harvester for Ultra-Low Frequency Vibrations",
+    "year": 2023,
+    "journal": "Italian National Conference on Sensors"
+  },
+  "configuration": "cantilever",
+  "proof_mass": true,
+  "geometry": {
+    "length_mm": 120,
+    "width_mm": 20,
+    "thickness_mm": 0.6,
+    "substrate_thickness_um": 600,
+    "piezo_thickness_um": 350,
+    "tip_mass_g": 4,
+    "diameter_mm": null
+  },
+  "excitation": {
+    "type": "vibration",
+    "frequency_Hz": 1.5,
+    "acceleration_g": 0.5,
+    "displacement_mm": null,
+    "motion_source": "mechanical shaker"
+  },
+  "load": {
+    "load_resistance_ohm": 1000000
+  },
+  "output": {
+    "resonant_frequency_Hz": 1.5,
+    "output_power_W": 0.000427,
+    "open_circuit_voltage_V": 34,
+    "short_circuit_current_A": null,
+    "bandwidth_Hz": null
+  },
+  "evidence": {
+    "configuration": {
+      "quote": "This study proposed a novel beam design by combining arc-shaped cantilever beam sections with two branch beam sections",
+      "section": "2. Design of Arc-Shaped Branch Beam Harvester",
+      "source_type": "section"
+    },
+    "proof_mass": {
+      "quote": "four steel proof masses weighing 4 g were attached at the free end of the two branch beams",
+      "section": "4. Experimental Study",
+      "source_type": "section"
+    },
+    "geometry": {
+      "length_mm": {
+        "quote": "The desired configuration of the ASBBH with ultra-low, closer natural frequencies was achieved with a 120 mm arc length",
+        "section": "3.1. Geometrical Optimisation of the ASBBH—Parametric Study",
+        "source_type": "section"
+      },
+      "width_mm": {
+        "quote": "the curved beam width was fixed as 20 mm",
+        "section": "3.1. Geometrical Optimisation of the ASBBH—Parametric Study",
+        "source_type": "section"
+      },
+      "thickness_mm": {
+        "quote": "beam thickness was fixed at 0.6 mm throughout the harvester",
+        "section": "3.1. Geometrical Optimisation of the ASBBH—Parametric Study",
+        "source_type": "section"
+      },
+      "substrate_thickness_um": {
+        "quote": "beam thickness was fixed at 0.6 mm throughout the harvester",
+        "section": "3.1. Geometrical Optimisation of the ASBBH—Parametric Study",
+        "source_type": "section"
+      },
+      "piezo_thickness_um": {
+        "quote": "A 28 mm x 14 mm x 0.350 mm sized macro fibre composite (MFC—M2814-P2) patch",
+        "section": "2. Design of Arc-Shaped Branch Beam Harvester",
+        "source_type": "section"
+      },
+      "tip_mass_g": {
+        "quote": "four steel proof masses weighing 4 g were attached at the free end of the two branch beams",
+        "section": "4. Experimental Study",
+        "source_type": "section"
+      },
+      "diameter_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      }
+    },
+    "excitation": {
+      "type": {
+        "quote": "excited by a mechanical shaker",
+        "section": "4. Experimental Study",
+        "source_type": "section"
+      },
+      "frequency_Hz": {
+        "quote": "ASBBH (Experimental Study)\t1.50",
+        "section": "Table 5. Table of natural frequencies obtained in FEA study and experimental study.",
+        "source_type": "table"
+      },
+      "acceleration_g": {
+        "quote": "average output power of 427 uW at its first resonance frequency under 0.5 g acceleration",
+        "section": "Abstract",
+        "source_type": "abstract"
+      },
+      "displacement_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "motion_source": {
+        "quote": "excited by a mechanical shaker",
+        "section": "4. Experimental Study",
+        "source_type": "section"
+      }
+    },
+    "load": {
+      "load_resistance_ohm": {
+        "quote": "1 MΩ of load resistance was assumed",
+        "section": "4.1. Stage 1: Shaker Test",
+        "source_type": "section"
+      }
+    },
+    "output": {
+      "resonant_frequency_Hz": {
+        "quote": "ASBBH (Experimental Study)\t1.50",
+        "section": "Table 5. Table of natural frequencies obtained in FEA study and experimental study.",
+        "source_type": "table"
+      },
+      "output_power_W": {
+        "quote": "average output power of 427 uW",
+        "section": "Abstract",
+        "source_type": "abstract"
+      },
+      "open_circuit_voltage_V": {
+        "quote": "peak voltage output of 34 V was acquired for the first natural frequency",
+        "section": "5.1.4. Voltage Generation at Different Natural Frequencies of ASBBH",
+        "source_type": "section"
+      },
+      "short_circuit_current_A": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "bandwidth_Hz": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      }
+    }
+  }
+}

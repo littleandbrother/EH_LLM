@@ -1,0 +1,147 @@
+{
+  "metadata": {
+    "paper_id": "10_1115_smasis2018_8022",
+    "doi": "10.1115/smasis2018-8022",
+    "title": "The Reliability Testing and Fatigue Behavior Study of Micro Piezoelectric Energy Harvester",
+    "year": 2018,
+    "journal": "Volume 2: Mechanics and Behavior of Active Materials; Structural Health Monitoring; Bioinspired Smart Materials and Systems; Energy Harvesting; Emerging Technologies"
+  },
+  "configuration": "cantilever",
+  "proof_mass": true,
+  "geometry": {
+    "length_mm": null,
+    "width_mm": null,
+    "thickness_mm": null,
+    "substrate_thickness_um": 60,
+    "piezo_thickness_um": 10,
+    "tip_mass_g": null,
+    "diameter_mm": null
+  },
+  "excitation": {
+    "type": "vibration",
+    "frequency_Hz": 120,
+    "acceleration_g": 0.5,
+    "displacement_mm": null,
+    "motion_source": "direct drive AC motors"
+  },
+  "load": {
+    "load_resistance_ohm": 100000
+  },
+  "output": {
+    "resonant_frequency_Hz": 120,
+    "output_power_W": 0.0001078,
+    "open_circuit_voltage_V": 12.06,
+    "short_circuit_current_A": null,
+    "bandwidth_Hz": null
+  },
+  "evidence": {
+    "configuration": {
+      "quote": "The cantilever beam-shaped PEH was then fabricated",
+      "section": "ABSTRACT",
+      "source_type": "abstract"
+    },
+    "proof_mass": {
+      "quote": "and a proof mass was attached to tune its resonant frequency",
+      "section": "ABSTRACT",
+      "source_type": "abstract"
+    },
+    "geometry": {
+      "length_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "width_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "thickness_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "substrate_thickness_um": {
+        "quote": "A 301 stainless steel foil of a thickness 60 um was chosen as the substrate material",
+        "section": "FABRICATION PROCESS",
+        "source_type": "section"
+      },
+      "piezo_thickness_um": {
+        "quote": "A PZT piezoelectric active layer with a thickness of about 10 um was deposited",
+        "section": "ABSTRACT",
+        "source_type": "abstract"
+      },
+      "tip_mass_g": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "diameter_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      }
+    },
+    "excitation": {
+      "type": {
+        "quote": "for harvesting mechanical vibrations",
+        "section": "ABSTRACT",
+        "source_type": "abstract"
+      },
+      "frequency_Hz": {
+        "quote": "tune its resonant frequency to around 120 Hz",
+        "section": "ABSTRACT",
+        "source_type": "abstract"
+      },
+      "acceleration_g": {
+        "quote": "excited under 0.5 g acceleration level",
+        "section": "ABSTRACT",
+        "source_type": "abstract"
+      },
+      "displacement_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "motion_source": {
+        "quote": "from direct drive AC motors",
+        "section": "ABSTRACT",
+        "source_type": "abstract"
+      }
+    },
+    "load": {
+      "load_resistance_ohm": {
+        "quote": "optimal load 100 k Ohm",
+        "section": "RESULTS AND DISCUSSION",
+        "source_type": "section"
+      }
+    },
+    "output": {
+      "resonant_frequency_Hz": {
+        "quote": "tune its resonant frequency to around 120 Hz",
+        "section": "ABSTRACT",
+        "source_type": "abstract"
+      },
+      "output_power_W": {
+        "quote": "output power of 107.8 uW",
+        "section": "ABSTRACT",
+        "source_type": "abstract"
+      },
+      "open_circuit_voltage_V": {
+        "quote": "The maximum output voltage is 12.06 Vp-p",
+        "section": "RESULTS AND DISCUSSION",
+        "source_type": "section"
+      },
+      "short_circuit_current_A": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "bandwidth_Hz": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      }
+    }
+  }
+}

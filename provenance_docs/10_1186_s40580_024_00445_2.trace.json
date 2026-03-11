@@ -1,0 +1,28 @@
+{
+  "paper_id": "10_1186_s40580_024_00445_2",
+  "doi": "10.1186/s40580-024-00445-2",
+  "title": "Simultaneous low-frequency vibration isolation and energy harvesting via attachable metamaterials",
+  "source_apis": [
+    "openalex"
+  ],
+  "pdf_url": "https://link.springer.com/content/pdf/10.1186/s40580-024-00445-2.pdf",
+  "pdf_local_path": "data_registry/raw_stage04_paper_pdf_cleaned/10_1186_s40580_024_00445_2.pdf",
+  "processing": {
+    "tool": "MinerU",
+    "version": "python -m mineru.cli.client, version 2.7.6",
+    "timestamp": "2026-03-10T10:10:23.748208+00:00",
+    "duration_s": 108.32,
+    "success": true,
+    "error": ""
+  },
+  "outputs": {
+    "content_md": "/root/EH-LLM-vehbench-exp/parsed_docs/10_1186_s40580_024_00445_2_j9fswvfb/content.md",
+    "layout_json": "/root/EH-LLM-vehbench-exp/parsed_docs/10_1186_s40580_024_00445_2_j9fswvfb/layout.json",
+    "images_dir": "/root/EH-LLM-vehbench-exp/parsed_docs/10_1186_s40580_024_00445_2_j9fswvfb/10_1186_s40580_024_00445_2/auto/images",
+    "normalized_json": "/root/EH-LLM-vehbench-exp/normalized_docs/10_1186_s40580_024_00445_2.json"
+  },
+  "data_lineage": {
+    "papers_jsonl_hash": "5ae6803b69a7f35e4cf11c2aee01d3f2",
+    "pipeline_step": "ingestion/mineru_runner.py"
+  }
+}

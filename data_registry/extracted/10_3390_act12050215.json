@@ -1,0 +1,147 @@
+{
+  "metadata": {
+    "paper_id": "10_3390_act12050215",
+    "doi": "10.3390/act12050215",
+    "title": "Ferroelectret Polypropylene Foam-Based Piezoelectric Energy Harvester for Different Seismic Mass Conditions",
+    "year": 2023,
+    "journal": "Actuators"
+  },
+  "configuration": "other",
+  "proof_mass": true,
+  "geometry": {
+    "length_mm": 10,
+    "width_mm": 10,
+    "thickness_mm": 0.07,
+    "substrate_thickness_um": null,
+    "piezo_thickness_um": 70,
+    "tip_mass_g": 150,
+    "diameter_mm": null
+  },
+  "excitation": {
+    "type": "vibration",
+    "frequency_Hz": 150,
+    "acceleration_g": 0.4,
+    "displacement_mm": null,
+    "motion_source": "electrodynamic shaker"
+  },
+  "load": {
+    "load_resistance_ohm": 300000
+  },
+  "output": {
+    "resonant_frequency_Hz": 150,
+    "output_power_W": 0.0001097,
+    "open_circuit_voltage_V": null,
+    "short_circuit_current_A": null,
+    "bandwidth_Hz": null
+  },
+  "evidence": {
+    "configuration": {
+      "quote": "The Top and bottom electrodes coated with aluminium are added to the structure so that the test sample can be sandwiched between them",
+      "section": "Experiment Setup",
+      "source_type": "section"
+    },
+    "proof_mass": {
+      "quote": "Seismic masses are used in the d33 mode of piezoelectric energy generation experiments... in our case we use a metal seismic mass of a minimum of 50 g and a maximum of 150 g",
+      "section": "Experiment Setup",
+      "source_type": "section"
+    },
+    "geometry": {
+      "length_mm": {
+        "quote": "cut into testing samples of size 10 mm x 10 mm",
+        "section": "Experiment Setup",
+        "source_type": "section"
+      },
+      "width_mm": {
+        "quote": "cut into testing samples of size 10 mm x 10 mm",
+        "section": "Experiment Setup",
+        "source_type": "section"
+      },
+      "thickness_mm": {
+        "quote": "thickness of 70 μm",
+        "section": "Experiment Setup",
+        "source_type": "section"
+      },
+      "substrate_thickness_um": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "piezo_thickness_um": {
+        "quote": "thickness of 70 μm",
+        "section": "Experiment Setup",
+        "source_type": "section"
+      },
+      "tip_mass_g": {
+        "quote": "for a 150 – g weight power generated is 110 μW",
+        "section": "Result of Frequency Response",
+        "source_type": "section"
+      },
+      "diameter_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      }
+    },
+    "excitation": {
+      "type": {
+        "quote": "vibration-based energy harvester",
+        "section": "Abstract",
+        "source_type": "abstract"
+      },
+      "frequency_Hz": {
+        "quote": "Resonant frequency for 50 g, 100 g, and 150 g is 180 Hz, 170 Hz, and 150 Hz respectively",
+        "section": "Discussion",
+        "source_type": "section"
+      },
+      "acceleration_g": {
+        "quote": "Acceleration applied is 0.4 g in all cases",
+        "section": "Result of Frequency Response",
+        "source_type": "section"
+      },
+      "displacement_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "motion_source": {
+        "quote": "An electrodynamic shaker (MESSELEKTRONIK) is used to excite the sample",
+        "section": "Experiment Setup",
+        "source_type": "section"
+      }
+    },
+    "load": {
+      "load_resistance_ohm": {
+        "quote": "load resistance is 300 KΩ",
+        "section": "Result of Frequency Response",
+        "source_type": "section"
+      }
+    },
+    "output": {
+      "resonant_frequency_Hz": {
+        "quote": "150 | 0.4 | 150 | 5.7 | 109.7 | 39.1",
+        "section": "Discussion",
+        "source_type": "table"
+      },
+      "output_power_W": {
+        "quote": "150 | 0.4 | 150 | 5.7 | 109.7 | 39.1",
+        "section": "Discussion",
+        "source_type": "table"
+      },
+      "open_circuit_voltage_V": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "short_circuit_current_A": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "bandwidth_Hz": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      }
+    }
+  }
+}

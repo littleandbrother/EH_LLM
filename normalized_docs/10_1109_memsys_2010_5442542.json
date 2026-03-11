@@ -1,0 +1,123 @@
+{
+  "paper_id": "10_1109_memsys_2010_5442542",
+  "doi": "10.1109/memsys.2010.5442542",
+  "title": "High efficiency energy harvester of transferred epitaxial PZT films on stainless steel sheets",
+  "year": 2010,
+  "venue": "IEEE/LEOS International Conference on Optical MEMS",
+  "authors": [
+    "Isaku Kanno",
+    "K. Morimoto",
+    "Ryuji Yokokawa",
+    "K. Wasa",
+    "Hidetoshi Kotera",
+    "N. Yamauchi",
+    "Junya Ogawa",
+    "Toshiya Matsushima",
+    "K. Aizawa",
+    "I. Kanno",
+    "R. Yokokawa",
+    "H. Kotera",
+    "J. Ogawa",
+    "T. Matsushima"
+  ],
+  "citation_count": 10,
+  "sections": [
+    {
+      "heading": "High Efficiency Energy Harvester of Transferred Epitaxial PZT Films on Stainless Steel Sheets",
+      "level": 1,
+      "text": "I. Kanno′, K. Morimoto', R. Yokokawa', K. Wasa', H. Kotera', N. Yamauchi², J. Ogawa2, T. Matsushima², and K. Aizawa2 1Department of Micro Engineering, Kyoto University, Japan 2Panasonic Electric Works, Ltd., Japan"
+    },
+    {
+      "heading": "ABSTRACT",
+      "level": 1,
+      "text": "In this study, we fabricated high-efficiency piezoelectric energy harvesters composed of $c$ -axis oriented PZT thin films. The PZT film was epitaxially grown on a $\\mathrm { P t / M g O }$ substrate and successively transferred on to a stainless steel sheet so as to prepare the unimorph cantilevers. Although the harvester had a simple cantilever structure without seismic mass, the resonant frequency could be reduced to $1 2 6 ~ \\mathrm { H z }$ due to the thin thickness of stainless sheet of $5 0 ~  { \\mu \\mathrm { m } }$ When we applied the acceleration of $5 \\mathrm { ~ m } / \\mathrm { s } ^ { 2 }$ on the harvester, it could generate large electric power of $5 . 3 ~ \\mu \\mathrm { W }$ at the resonant frequency. Transferred epitaxial PZT films on the metal sheets are effective not only to enhance the output power, but also to reduce the resonant frequency to around environmental vibration using the simple cantilevers."
+    },
+    {
+      "heading": "1. INTRODUCTION",
+      "level": 1,
+      "text": "Energy harvesters have been attracted attention as distributed power generators for micro-devices instead of conventional electrochemical batteries. In order to convert mechanical vibration to electric power, electrostatic, electromagnetic and piezoelectric harvesting systems have been proposed [1]. Among above systems, piezoelectric energy harvesters are advantageous to the practical energy source in portable products or wireless devices, since piezoelectric harvesters have the simplest structure and can deliver relatively large output power due to the high energy conversion efficiency [2]. In order to increase the power efficiency in a limited space of a microdevice, it has been strongly required to use piezoelectric thin films. Recently, MEMS energy harvesters composed of piezoelectric thin films have been studied to reduce the volume of harvesters [4]. However, it is still difficult to satisfy both a low resonance near an environmental frequency and high power density for the energy harvesters of piezoelectric thin films on Si substrates. Furthermore, seismic mass is usually equipped on the cantilevers for the reduction of resonant frequency, however it might induce degradation of toughness of the harvesters under intense vibration.\n\n![](images/a9414102e0d0506b876d46c66276dd83c22db37fbf84a03d206632e2b6f0ff90.jpg)  \nFigure 1. Fabrication process of piezoelectric energy harvester. The PZT thin films grown on Pt/MgO were transferred to stainless steel sheets.\n\nIn this study, we propose simple piezoelectric energy harvesters composed of transferred epitaxial PZT films on metal sheets. In this configuration, we could achieve not only significant reduction of a resonant frequency without seismic mass, but also enhance the toughness of the harvester against severe vibration. In addition, high electromechanical coupling factor of the epitaxial PZT films would be favorable to increase the output power in the limited space of microdevices. In this paper, we report the fabrication of piezoelectric energy harvesters composed of $c$ -axis oriented epitaxial PZT films and characterize output power of them.\n\n![](images/9ba14b3a253b549926f9308a2294c0a5e0d158b9ab208276ba38092e2e1eaf9d.jpg)  \nFigure 2. Schematic structure and photograph of the piezoelectric energy harvester. One end of the beam was clamped and the simple cantilever without seismic mass was prepared as a piezoelectric harvester. Top and bottom electrodes were connected with the load resistance and output voltage was measured."
+    },
+    {
+      "heading": "2. FABRICATION PROCESS",
+      "level": 1,
+      "text": "The piezoelectric energy harvesters were fabricated by transferring epitaxial PZT films from the deposition substrates to stainless steel sheets. The schematic process flow is shown in Figure 1. The fabrication starts with the deposition of the PZT films The PZT films were epitaxially grown on $\\mathrm { P t }$ -coated $( 0 0 1 ) \\mathrm { M g O }$ single crystal substrates by rf-magnetron sputtering. The detailed sputtering condition is described in the previous reports [6]. The thickness of the PZT films was $2 . 8 ~ \\mu \\mathrm { m }$ Successively Cr surface electrode was deposited over the PZT films and then they were bonded to $5 0 ~ { \\mu \\mathrm { m } }$ -thick stainless steel sheet with epoxy resin of about $3 \\mu \\mathrm { m }$ Next the whole $\\mathrm { M g O }$ substrate was etched out using $\\mathrm { H } _ { 3 } \\mathrm { P O } _ { 4 }$ solution until the Pt electrode was exposed, and finally the epitaxial PZT films were completely transferred from $\\mathrm { M g O }$ to stainless steel. The dimension of the resulting energy harvester is listed in Table 1. One end of the beam was clamped and unimorph cantilever composed of the epitaxial PZT and stainless steel was accomplished as shown in Figure 2."
+    },
+    {
+      "heading": "3. CHARACTERISTICS OF PZT FILMS",
+      "level": 1,
+      "text": "Crystal structure of the PZT thin films were examined by $\\mathbf { X }$ -ray diffraction (XRD) measurements. Figure 3 shows the XRD patterns of the PZT thin films on $\\mathrm { P t / M g O }$ substrates. The strong diffractions corresponding to $c$ axis of PZT were clearly observed without the peaks from other orientations or phases. 4-cirle XRD measurements were also conducted for the PZT films on $\\mathrm { P t / M g O }$ and we confirmed epitaxial growth of the PZT thin films.\n\nThe electric properties of the PZT films were measured before and after transfer of the PZT films from the $\\mathrm { M g O }$ substrate. The relative dielectric constants of as-deposited and transferred PZT films were 181 and 166, respectively, indicating the PZT films maintained the dielectric properties after the transfer to the stainless steel. Slight reduction of the relative dielectric constant is attributed to the compressive stress of the epoxy during the evaporation of solvent.\n\nTable 1 Dimension of device   \n\n<table><tr><td>PZT composition</td><td>Zr/Ti=52/48</td></tr><tr><td>PZT thickness</td><td>2.8 μm</td></tr><tr><td>Stainless steel thickness</td><td>50μm</td></tr><tr><td>Cantilever length</td><td>20 mm</td></tr><tr><td>Cantilever width</td><td>5mm</td></tr><tr><td>Electrode length</td><td>17 mm</td></tr><tr><td>Electrode width</td><td>3.5 mm</td></tr></table>\n\n![](images/ed53cd08d8541bb8e2c6ef00f8423535e171361221b08b8d5674a2f54a0137f0.jpg)  \nFigure 3. XRD pattern of the PZT film grown on the Pt/MgO substrate. Strong diffraction peaks from c axis of PZT were clearly observed.\n\nTransverse piezoelectric characteristics of the PZT films were evaluated by measurements of the actuator properties of the unimorph cantilevers. We applied negative unipolar sinusoidal voltage between $\\mathrm { P t }$ and $\\mathrm { C r }$ electrodes of the harvester and the displacement were measured at the point of $6 \\ \\mathrm { m m }$ from the clamped end by a laser Doppler vibrometer. Figure 4 shows the displacement as a function of the applied voltage. The displacement increased proportionally with the voltage. Furthermore, because of the thin thickness of the stainless steel, large displacement of $2 0 ~ { \\mu \\mathrm { m } }$ could be obtained at $2 0 \\ \\mathrm { V } .$ Transverse piezoelectric properties ${ e _ { 3 1 } } ^ { * } \\left( = \\boldsymbol { d } _ { 3 1 } / s _ { 1 1 } \\right)$ was calculated to be $- 4 . 5 ~ \\mathrm { C / m } ^ { 2 }$ ,which is almost same as the PZT films before transfer [7]. If the elastic compliance $s _ { 1 1 }$ of $c$ -axis oriented epitaxial PZT film ws $1 0 . 8 { \\times } 1 0 ^ { - 1 2 } \\ \\mathrm { ~ m } ^ { 2 } / \\mathrm { N }$ as reported in the previous study [6], the transverse piezoelectric coefficient $d _ { 3 1 }$ and electromechanical coupling coefficient $k _ { 3 1 }$ were estimated to be $- 4 8 . 6 \\times 1 0 ^ { - 1 2 }$ C/N and 0.385, respectively. Although the transverse piezoelectric coefficient $d _ { 3 1 }$ of the PZT films was smaller than that of bulk PZT $( d _ { 3 1 } = \\ - \\ 9 3 . 5 { \\times } 1 0 ^ { - 1 2 }$ C/N) [8], electromechanical coupling coefficient $k _ { 3 1 }$ was higher than that of bulk PZT $( k _ { 3 1 } { = } 0 . 3 1 3 )$ due to low relative dielectric constant of epitaxial PZT films. This result suggests that the $c$ -axis oriented epitaxial PZT films are suitable materials to generate large electric power in microdevices.\n\n![](images/d05d8d253e9d9355fe21fb236fe25ddc38c74210f80fd6479bdfc1bea04447b5.jpg)  \nFigure 4. Tip displacement of the unimorph cantilevers as a function of applied voltage.\n\n![](images/785cf6fddc707b6b9ddef6afd02f802b311fb7208fe4e34f8b1bea13ef5081ad.jpg)  \nFigure 5. Tip displacement and generated voltage of the harvester as a function of frequency under the acceleration of $5 m / s ^ { 2 }$ . Clear resonance was observed at $I 2 6 ~ H z$ , and large output voltage of $2 . 6 ~ V$ was generated between the load resistance of 1MΩ."
+    },
+    {
+      "heading": "4. OUTPUT POWER",
+      "level": 1,
+      "text": "The unimorph cantilever of the transferred epitaxial PZT films on the stainless steel was mounted on a vibrator and the output voltage $V$ between load resistance $R$ was measured. The energy harvester was vibrated under constant acceleration of $5 \\mathrm { m } / \\mathrm { s } ^ { 2 }$ which was measured by an acceleration pickup The tip displacement of the cantilever was simultaneously measured by a laser Doppler vibrometer to monitor vibration condition during the power generation. Figure 5 shows the tip displacement and generated voltage between the load resistance of $1 \\ : \\mathrm { M } \\Omega$ as a function of the frequency. We could observe clear resonance at $1 2 6 ~ \\mathrm { H z }$ where displacement and large output voltage of $2 . 6 \\mathrm { ~ V ~ }$ was obtained.\n\nNext, we examined output voltage and power as a function of load resistance. The load resistance was changed from $1 0 0 \\Omega$ to $1 \\ \\mathrm { M } \\Omega$ and the output power was determined as $P { = } V ^ { 2 } / 2 R$ The measurement was performed at the resonant frequency under the acceleration of $5 \\ \\mathrm { m } / \\mathrm { s } ^ { 2 }$ ,and the output voltage and power were shown in Figure 6. The generated voltage increased abruptly to 2V at $1 0 0 ~ \\mathrm { k } \\Omega$ , and after that it gradually reached $2 . 6 \\mathrm { V }$ at $1 \\ \\mathrm { M } \\Omega$ On the other hand, the curve of the output power peaks at around $5 0 ~ \\mathrm { k } \\Omega$ and maximum output power reaches $5 . 3 \\mu \\mathrm { W } .$ .\n\n![](images/a5499ff7594abcbea49a70df6d608e41624eb0d735079c6abb5c38ff52037c95.jpg)  \nFigure 6. Output power and generated voltage as a function of load resistance. Voltage increases with load resistance, while the output voltage peaks at $5 0$ kΩ.\n\nTable 2 Parameters of the equivalent circuit   \n\n<table><tr><td>Effective mass</td><td>m=7.6×10-6 kg</td></tr><tr><td>Resonant frequency</td><td>ω0 =126 Hz</td></tr><tr><td>Capacitance</td><td>C=27 nF</td></tr><tr><td>GEMC</td><td>K2=0.01</td></tr><tr><td>Mechanical quality factor</td><td>Q=140</td></tr></table>\n\n![](images/aad0bf2aca856e267c32b784705b06b6da8a688fef039d3b97edb345453b826f.jpg)  \nFigure 7. Experimental and calculation values of output power as a function of load resistance. Although maximum power and optimal resistance are slightly different from each other, output power of energy harvester almost obeys the theoretical equation of the equivalent circuit.\n\nThe output power of the unimorph energy harvester was analyzed using the equivalent circuit model of piezoelectric unimoprh harvester reported by Renoud, et al. [9]. According to their model, output power of the piezoelectric unimoprh harvester is expressed by the following equation,\n\n$$\n\\begin{array} { c } { { \\displaystyle P = \\frac { m a ^ { 2 } } { 2 \\omega _ { 0 } } \\frac { K ^ { 2 } \\psi \\Omega ^ { 6 } } { [ \\big ( \\Omega ^ { 2 } - 1 \\big ) ^ { 2 } + \\psi ^ { 2 } \\Omega ^ { 2 } \\left( \\Omega ^ { 2 } - 1 - K ^ { 2 } \\right) ^ { 2 } } } } \\\\ { { + \\big ( \\Omega ^ { 2 } / Q ^ { 2 } \\big ) \\big ( 1 + \\psi ^ { 2 } \\Omega ^ { 2 } + 2 K ^ { 2 } \\psi Q \\big ) ] } } \\end{array}\n$$\n\nwhere $m , \\ a , \\ \\omega _ { 0 }$ are effective mass of the bender, acceleration, and resonant angular frequency, respectively, and the definition of $\\psi$ and $\\varOmega$ are as follows,\n\n$$\n\\begin{array} { c } { { \\varPsi = \\omega _ { 0 } R C } } \\\\ { { \\varOmega = \\omega / \\omega _ { 0 } } } \\end{array}\n$$\n\nwhere $C$ and $\\omega$ are the capacitance of the harvester and the angular frequency of vibration. $K$ and $\\boldsymbol { Q }$ are the generalized electromechanical coupling factor (GEMC) and the mechanical quality factor of the piezoelectric cantilever, which could be obtained from the output voltage at the resonance [9]. GEMC was obtained from the shift of resonant frequency between open and short-circuit conditions,\n\n$$\nK ^ { 2 } = \\frac { \\Gamma } { k C } = \\frac { \\omega _ { 1 } ^ { 2 } - \\omega _ { 0 } ^ { 2 } } { \\omega _ { 0 } ^ { 2 } }\n$$\n\nwhere $\\Gamma , k ,$ and $\\omega _ { 1 }$ are piezoelectric conversion factor, spring constant of the cantilever, and open-circuit resonant angular frequency. The resonant angular frequencies of $\\omega _ { 1 }$ and $\\omega _ { 0 }$ were obtained by the measurements of output voltage at the load resistance of 1 MΩ and $1 0 0 \\Omega$ respectively.\n\nThe parameters of equation (1) are listed in\n\n![](images/81ed16b925019b662fe471844caf3435f9cba8d663536975843edbc93035e5ca.jpg)  \nFigure 8. Output power and resonant frequency as a function of acceleration. Experimental output power is smaller than calculated values in the higher acceleration than $3 0 m / s ^ { 2 }$ due to the air resistance against vibration.\n\nTable 2, and the calculated curve of the output power was plotted in Figure 7. In the simulation curve, maximum output power reaches $3 . 6 ~ \\mu \\mathrm { W }$ at $3 0 ~ \\mathrm { k } \\Omega$ The calculated curves of output power and optimal load resistance are lower than the experimental ones, probably because of the errors of the parameters obtained by the measurements. However, the dependence on the load resistance is almost consistent with the theoretical equation, and the generation of electric power of the energy harvester with the transferred PZT thin films could be estimated by the theoretical equation of piezoelectric unimorph harvesters.\n\nThe dependence on acceleration was measured and the results were shown in Figure 8. Solid line on circles represents experimental output power and dotted line is a calculated curve derived from equation (1), respectively. The output power increases with the acceleration, and finally reaches $2 4 4 ~ \\mu \\mathrm { W }$ at $5 0 \\mathrm { ~ m } / \\mathrm { s } ^ { 2 }$ . It should be noted that the transferred PZT thin film on the stainless sheet was so tough as to generate stable electric power without serious damage under intense acceleration of $5 0 ~ \\mathrm { m / s ^ { 2 } }$ . The thin metal base of piezoelectric energy harvesters is very effective not only to reduce the resonance, but also to enhance toughness of piezoelectric harvester.\n\nOn the other hand, the output power is lower than the calculated values at the higher acceleration more than $3 0 ~ \\mathrm { \\ m / s } ^ { 2 }$ In addition, the resonant frequency decreases with the acceleration. The decrease of the resonant frequency is attributed to the air resistance, and it also hampers the bending motion of the cantilever. This may cause the reduction of the output power under intense acceleration range.\n\nIn this study, we could generate large output power by means of the simple unimorph cantilever of the transferred PZT thin films on the stainless steel sheets. The structure of the energy harvester is so simple that it is easy to optimize the design according to the applications, and advantageous to enhance the power generation even in the limited space of the practical microdevices."
+    },
+    {
+      "heading": "5. CONCLUSIONS",
+      "level": 1,
+      "text": "We fabricated piezoelectric energy harvesters composed of $c$ -axis oriented PZT thin films. The PZT film was epitaxially grown on the $\\mathrm { P t / M g O }$ substrates and successively transferred to stainless steels so as to prepare the unimorph cantilevers. When we applied the acceleration of $5 \\ \\mathrm { m } / \\mathrm { s } ^ { 2 }$ on the unimorph energy harvester, we could successfully obtain large electric power of $5 . 3 ~ \\mu \\mathrm { W }$ at a low resonant frequency of $1 2 6 ~ \\mathrm { H z }$ even without seismic mass. Transferred epitaxial PZT films on to the metal sheets is very effective not only to enhance the generated power, but also to reduce the resonant frequency to around environmental vibration using the simple cantilever."
+    },
+    {
+      "heading": "REFERENCES",
+      "level": 1,
+      "text": "[1] S. P. Beeby, M. J. Tudor and N. M. White, \"Energy harvesting vibration sources for Microsystems applications,\" Meas. Sci. Technol vol.17, pp.R175-R195, 2006   \n[2] S. Roundy, P. K. Wright and J. Rabaey, \"A study of low level vibrations as a powere source for wireless sensor nodes.\" Computer Communications. vol.26, pp.1131-1144, 2003   \n[3] K. A. Cook-Chennault, N. Thambi and A. M. Sastry, \"Powering MEMS portable devices—a review of non-regenerative and regenerative power supply systems with special emphasis on piezoelectric energy harvesting systems,\" Smart Mater. Struct. vol.17, p.043001, 2008   \n[4] R. Elfrink, T. M. Kamel, M. Goedbloed, S. Matova, D. Hohlfeld, Y. van Andel and R. van Schaijk, \"Vibration energy harvesting with aluminum nitrid-based piezoelectric devices,\" J. Micromech. Microeng., vol.19, p.094005, 2009   \n[5] D. Shen, J.-H. Park, J. H. Noh, S.-Y. Choe, S.-H Kim, H. C. Wikle III and D.-J. Kim, Micromachined PZT cantilever based on SOI structure for low frequency vibration energy harvesting,\" Sens. Actuators A, vol.154, pp.103-108, 2009   \n[6] I. Kanno, S. Fujii, T. Kamada and R. Takayama, Pizoelectric properties of c-axis oriented $\\mathrm { P b } ( Z \\mathrm { r } , \\mathrm { T i } ) \\mathrm { O } _ { 3 }$ thin films.\" Appl. Phys. Lett, vol.70, pp.1378-1380, 1997   \n[7] I. Kanno, H. Kotera and K. Wasa, \"Measurement of transverse piezoelectric properties of PZT thin films,\" Sens. Actuators A vol.107, pp.68-74, 2003   \n[8] D. A. Berlincourt, C. Cmolik and H. Jaffe, \"Piezoelectric properties of polycrystalline lead titanate zirconate compositions,\" Proc. IRE, vol.48, pp.220-229, 1960   \n[9] M. Renaud, K. Karakaya, T. Sterken, P. Fiorini, C. Van Hoff and R. Puers, \"Fabrication, modeling and characterization of MEMS piezoelectric vibration harvesters,\" Sens. Actuators A, vol.145-146, pp.380-386, 2008"
+    }
+  ],
+  "tables": [
+    {
+      "page": -1,
+      "content": ""
+    },
+    {
+      "page": -1,
+      "content": ""
+    }
+  ],
+  "figures": [
+    {
+      "page": -1,
+      "caption": "",
+      "path": "images/a9414102e0d0506b876d46c66276dd83c22db37fbf84a03d206632e2b6f0ff90.jpg"
+    },
+    {
+      "page": -1,
+      "caption": "",
+      "path": "images/9ba14b3a253b549926f9308a2294c0a5e0d158b9ab208276ba38092e2e1eaf9d.jpg"
+    },
+    {
+      "page": -1,
+      "caption": "",
+      "path": "images/ed53cd08d8541bb8e2c6ef00f8423535e171361221b08b8d5674a2f54a0137f0.jpg"
+    },
+    {
+      "page": -1,
+      "caption": "",
+      "path": "images/d05d8d253e9d9355fe21fb236fe25ddc38c74210f80fd6479bdfc1bea04447b5.jpg"
+    },
+    {
+      "page": -1,
+      "caption": "",
+      "path": "images/785cf6fddc707b6b9ddef6afd02f802b311fb7208fe4e34f8b1bea13ef5081ad.jpg"
+    },
+    {
+      "page": -1,
+      "caption": "",
+      "path": "images/a5499ff7594abcbea49a70df6d608e41624eb0d735079c6abb5c38ff52037c95.jpg"
+    },
+    {
+      "page": -1,
+      "caption": "",
+      "path": "images/aad0bf2aca856e267c32b784705b06b6da8a688fef039d3b97edb345453b826f.jpg"
+    },
+    {
+      "page": -1,
+      "caption": "",
+      "path": "images/81ed16b925019b662fe471844caf3435f9cba8d663536975843edbc93035e5ca.jpg"
+    }
+  ],
+  "metadata": {
+    "source": "both",
+    "pdf_url": "",
+    "parsed_at": "2026-03-10T09:57:00.483355+00:00"
+  }
+}

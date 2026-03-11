@@ -1,0 +1,147 @@
+{
+  "metadata": {
+    "paper_id": "10_1177_1045389x211014950",
+    "doi": "10.1177/1045389x211014950",
+    "title": "Hybrid vibration energy harvesting based on piezoelectric polyline beams with electret coupling",
+    "year": 2021,
+    "journal": "Journal of Intelligent Materials Systems and Structures"
+  },
+  "configuration": "cantilever",
+  "proof_mass": true,
+  "geometry": {
+    "length_mm": 90,
+    "width_mm": 15,
+    "thickness_mm": 0.7,
+    "substrate_thickness_um": 700,
+    "piezo_thickness_um": 400,
+    "tip_mass_g": 16,
+    "diameter_mm": null
+  },
+  "excitation": {
+    "type": "vibration",
+    "frequency_Hz": 6.97,
+    "acceleration_g": 0.48,
+    "displacement_mm": null,
+    "motion_source": "shaker"
+  },
+  "load": {
+    "load_resistance_ohm": 600000
+  },
+  "output": {
+    "resonant_frequency_Hz": 6.97,
+    "output_power_W": 0.0003147,
+    "open_circuit_voltage_V": 57.4,
+    "short_circuit_current_A": null,
+    "bandwidth_Hz": 2.2
+  },
+  "evidence": {
+    "configuration": {
+      "quote": "two piezoelectric polyline beams... inverted beams are the primary parts... MFC is bonded to the root of each inverted beam",
+      "section": "2.1",
+      "source_type": "section"
+    },
+    "proof_mass": {
+      "quote": "Tip mass (kg) 0.016, 0.031, 0.023, 0.043",
+      "section": "2.1",
+      "source_type": "table"
+    },
+    "geometry": {
+      "length_mm": {
+        "quote": "Inverted beam size (mm^3) 15 × 0.7 × 90",
+        "section": "2.1",
+        "source_type": "table"
+      },
+      "width_mm": {
+        "quote": "Inverted beam size (mm^3) 15 × 0.7 × 90",
+        "section": "2.1",
+        "source_type": "table"
+      },
+      "thickness_mm": {
+        "quote": "Inverted beam size (mm^3) 15 × 0.7 × 90",
+        "section": "2.1",
+        "source_type": "table"
+      },
+      "substrate_thickness_um": {
+        "quote": "Inverted beam size (mm^3) 15 × 0.7 × 90",
+        "section": "2.1",
+        "source_type": "table"
+      },
+      "piezo_thickness_um": {
+        "quote": "MFC size (mm^2) 10 × 0.4 × 28",
+        "section": "2.1",
+        "source_type": "table"
+      },
+      "tip_mass_g": {
+        "quote": "Tip mass (kg) 0.016, 0.031, 0.023, 0.043",
+        "section": "2.1",
+        "source_type": "table"
+      },
+      "diameter_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      }
+    },
+    "excitation": {
+      "type": {
+        "quote": "base excitations",
+        "section": "Abstract",
+        "source_type": "abstract"
+      },
+      "frequency_Hz": {
+        "quote": "f1 = 6.97 Hz",
+        "section": "3. Model verification and numerical simulations",
+        "source_type": "section"
+      },
+      "acceleration_g": {
+        "quote": "az = 0.48 g",
+        "section": "4. Validation experiments",
+        "source_type": "section"
+      },
+      "displacement_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "motion_source": {
+        "quote": "shaker",
+        "section": "4. Validation experiments",
+        "source_type": "section"
+      }
+    },
+    "load": {
+      "load_resistance_ohm": {
+        "quote": "optimal resistance is Rp = 600 kOhm",
+        "section": "4. Validation experiments",
+        "source_type": "section"
+      }
+    },
+    "output": {
+      "resonant_frequency_Hz": {
+        "quote": "f1 = 6.97 Hz",
+        "section": "3. Model verification and numerical simulations",
+        "source_type": "section"
+      },
+      "output_power_W": {
+        "quote": "PB I: 314.7",
+        "section": "4. Validation experiments",
+        "source_type": "table"
+      },
+      "open_circuit_voltage_V": {
+        "quote": "maximum voltage obtained is 57.4 V",
+        "section": "4. Validation experiments",
+        "source_type": "section"
+      },
+      "short_circuit_current_A": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "bandwidth_Hz": {
+        "quote": "working frequency band of the proposed harvester is from 5.9 to 8.1 Hz",
+        "section": "3. Model verification and numerical simulations",
+        "source_type": "section"
+      }
+    }
+  }
+}

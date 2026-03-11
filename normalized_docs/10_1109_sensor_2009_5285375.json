@@ -1,0 +1,122 @@
+{
+  "paper_id": "10_1109_sensor_2009_5285375",
+  "doi": "10.1109/sensor.2009.5285375",
+  "title": "High performance piezoelectric MEMS energy harvester based on D33 mode of PZT thin film on buffer-layer with PBTIO3 inter-layer",
+  "year": 2009,
+  "venue": "TRANSDUCERS 2009 - 2009 International Solid-State Sensors, Actuators and Microsystems Conference",
+  "authors": [
+    "J.C. Park",
+    "D. H. Lee",
+    "J. Park",
+    "Y. S. Chang",
+    "Y. P. Lee",
+    "J. Y. Park",
+    "Yoon‐Seok Chang"
+  ],
+  "citation_count": 25,
+  "sections": [
+    {
+      "heading": "HIGH PERFORMANCE PIEZOELECTRIC MEMS ENERGY HARVESTER BASED ON D33 MODE OF PZT THIN FILM ON BUFFER-LAYER WITH PBTIO3 INTER-LAYER",
+      "level": 1,
+      "text": "J.C. Park1 , D. H. Lee1 , J. Y. Park1\\*, Y. S. Chang2 , and Y. P. Lee2 1 Micro/Nano Devices and Packaging Lab., Kwangwoon University, Seoul, Republic of Korea 2 Korea Institute of Science and Technology, Seoul, Republic of Korea"
+    },
+    {
+      "heading": "ABSTRACT",
+      "level": 1,
+      "text": "In this paper, a MEMS energy harvester was investigated to scavenge power from ambient vibration source. It was designed to convert low level vibration to electrical power via the piezoelectric effect. The proposed energy harvester was fabricated by patterning Pt electrodes into inter-digital geometry on top of the sol–gel-spin coated $\\mathrm { P b } ( \\mathrm { Z r } , \\mathrm { T i } ) { \\mathrm { O } } _ { 3 }$ thin film for ${ \\bf d } _ { 3 3 }$ mode on silicon cantilever with proof mass. In order to obtain well grown PZT thin film, PbTiO3 seed-layer was newly applied as an inter-layer between PZT and $Z \\mathrm { r } \\mathrm { O } _ { 2 }$ layer. The fabricated energy harvester generated $1 . 1 \\mathrm { u W }$ of electrical power to 2.2MΩ of load with $4 . 4 \\mathrm { V _ { p e a k } }$ -to-peak from a vibration of $0 . 3 9 \\mathrm { g }$ acceleration at it resonant frequency of $5 2 8 \\mathrm { H z }$ . The corresponding power density was $\\mathsf { \\bar { 2 } . 8 m } \\mathrm { \\dot { W } \\cdot c m ^ { - 3 } \\cdot g ^ { - 1 } }$ ."
+    },
+    {
+      "heading": "KEYWORDS",
+      "level": 1,
+      "text": "energy harvester, piezoelectric effect, ambient vibration, micromachining, PZT, PbTiO3"
+    },
+    {
+      "heading": "INTRODUCTION",
+      "level": 1,
+      "text": "As the increase of demands for high technology devices, the chemical batteries have been met some limitations such as life span and replacement. These limitations could result in considerable problems and costs for hazardous and harsh environment and autonomous systems. On the other hand, the development of low-power IC has advanced to have power consumption of tens to hundreds micro-watts. The micro-power harvesting from ambient energy could be a considerable solution for tiny wireless sensor devices, implanted biomedical sensors, and etc due to its potentially infinite life time [1-8].\n\nThe most potential source is solar energy because the solar cell has the highest output power density. However, it is not adequate for the insufficient light source, such as indoor and area with no light. Power can be also scavenged from electromagnetic fields, vibrations, thermal gradients, and etc. Among them, the vibration energy is a great potential method for micro-power energy harvesting because it has a relatively higher power density than the others, an infinite life time, none physical connection to the outside of system and reliability from harsh environments [1].\n\nThere are three types of transduction method including electrostatic, electromagnetic and piezoelectric for ambient vibration energy harvester. Piezoelectric transducers have been received much attention because it has simple configuration and high conversion efficiency. Bulk-prototype piezoelectric energy harvesters were developed with various structures and transduction mode. The reported scavenged power form vibration was ranged from tens micro to milli-watts [2]. To address size and volume issues, a few groups reported micro-machined piezoelectric vibration energy harvesters [3-8]. In the micro-machined energy harvester with ${ \\bf d } _ { 3 1 }$ mode operation, the output voltage was limited due to its film thickness. The ${ \\bf d } _ { 3 3 }$ piezoelectric mode was effective to generate larger output voltage than the ${ \\bf d } _ { 3 1 }$ mode. Thus, most of micro-machined energy harvesters were designed with the ${ \\bf d } _ { 3 3 }$ piezoelectric mode operation. In addition, its piezoelectric constant was much higher than the ${ \\bf d } _ { 3 1 }$ mode, which was resulting in enhancing the output power [3-4]. These micro-machined energy harvesters need high frequency of vibration to generate the power. However, the reported environmental vibration exhibit lower frequency and amplitude level [1].\n\nIn this paper, bulk micromachined energy harvester was investigated to scavenge low vibration. The proposed energy harvesting device was designed with multi-layered cantilever structure with Si proof mass for ambient low level vibration (hundreds of hertz and low acceleration under $0 . 5 \\mathrm { g } )$ . In order to improve the output voltage, ${ \\bf d } _ { 3 3 }$ mode of piezoelectric effect was applied by patterning $\\mathrm { P t }$ electrodes into inter-digital shape. Furthermore, ${ \\mathrm { P b T i O } } _ { 3 }$ seed-layer was newly applied to improve crystalline of PZT thin film as inter-layer between PZT and $\\mathrm { Z r O 2 }$ diffusion barrier.\n\n![](images/551ac39627f59771a3e902bce30bb72dfbb18dc3365a4b3ef64ce55f1d7be9ee.jpg)  \nFigure 1: Schematic diagram of piezoelectric MEMS energy harvester.\n\n![](images/88ff24e778cff74bffd36238ee684c02b28de98455837cdf87c0383ebe7ad1d3.jpg)  \nFigure 2: Fabrication sequences: seed layer/PZT/electrode deposition (a), electrode patterning $( b )$ , PZT etching (c), Si beam patterning (d), proof mass patterning (e), and release via buried oxide etching $\\mathcal { O }$ ."
+    },
+    {
+      "heading": "DESIGN AND FABRICATION",
+      "level": 1,
+      "text": "Fig.1 presents MEMS energy harvesting cantilever devices with Si proof mass for low frequency vibration. It consists of $8 0 0 \\times 1 0 0 0 \\mathrm { u m } ^ { 2 }$ cantilever structure with $1 0 \\mathrm { { u m } }$ thickness, which is composed of supporting silicon membrane, piezoelectric layer, and inter-digital Pt electrodes. The proof mass, which is made of silicon with volume of $1 0 0 0 { \\times } 1 0 0 0 { \\times } 5 0 0 \\mathrm { u m } ^ { 3 }$ , is built at free end of cantilever to adjust resonant frequency and reduce spring constant. This cantilever structure is designed to generate strain on PZT thin film and electrodes are configured for ${ \\mathrm { d } } _ { 3 3 }$ mode. This configuration has an advance in forward bias of rectifying diodes because the generated open circuit voltage $\\mathrm { ( V _ { 3 i } ) }$ is strongly affected by gap of electrodes $\\left( \\mathrm { L } _ { \\mathrm { i } } \\right)$ and piezoelectric coefficient $\\left( \\mathbf { g } _ { 3 \\mathrm { i } } \\right)$ [3].\n\n$$\n\\nu _ { _ { 3 i } } = \\sigma _ { _ { x x } } g _ { 3 i } L _ { i }\n$$\n\nwhere, $\\sigma _ { \\mathrm { x x } }$ is stress in x direction.\n\nFor ${ \\bf d } _ { 3 3 }$ mode of piezoelectric vibration energy harvester, development of piezoelectric thin film deposition techniques on insulating layer is most important key. Because the formations of perovskite phase in PZT thin film is strongly affected the piezoelectric characteristic. In order to improve crystalline and ferroelectric properties, ${ \\mathrm { P b T i O } } _ { 3 }$ seed layer applied between PZT thin film and Pt bottom electrode for FRAM application [9, 10]. Because, this ${ \\mathrm { P b T i O } } _ { 3 }$ seed-layer helps the transformation of perovskite phase in PZT thin film with less activation energy of nucleation.\n\n![](images/b86002112896ddf75577c35d5d12c720afc2903f58351c1e23d2f970821554ea.jpg)  \nFigure 3: Photomicrograph of fabricated piezoelectric MEMS energy harvester.\n\n![](images/9e51c40709897248da06eee99a5300fa6df0261f8d77f348a6e4aadbb83f2ae1.jpg)  \nFigure 4: SEM image (a) and measured polarization curve (b) of fabricated PZT thin film.\n\nThis harvesting device was made by using SOI wafer with $1 0 \\mathrm { { u m } }$ device layer and buried silicon oxide. Firstly, $Z \\mathrm { r } \\mathrm { O } _ { 2 }$ electric diffusion barrier was deposited and ${ \\mathrm { P b T i O } } _ { 3 }$ seed-layer was newly applied as an inter-layer between the $Z \\mathrm { r } \\mathrm { O } _ { 2 }$ and PZT thin film. 1um of PZT thin film was deposited with $\\mathrm { Z r / T i }$ ratio of 52/48. These thin films were processed by using sol-gel method. Pt layer was sputtered to form inter-digital electrodes with 5um of width and spacing. The Pt and PZT layer were patterned by inductively coupled plasma (ICP) dry etching technique. Si cantilever beam and proof mass were defined by front and back side silicon Deep RIE etching. Finally, the cantilever energy harvesting device was released with etching of the buried oxide. Figs. 2 and 3 show fabrication steps and photomicrograph of the fabricated energy harvester, respectively."
+    },
+    {
+      "heading": "EXPERIMENTAL RESULTS",
+      "level": 1,
+      "text": "The experiment of fabricated energy harvester was carried with polling process. Firstly, the polarization characteristic of PZT thin film was measured by Trek® RT-66A measurement system. Fig. 4 shows cross sectional view and P-E hysteresis loop of the fabricated PZT film on the ${ \\mathrm { P b T i O } } _ { 3 }$ seed layer. The fabricated PZT film has remnant polarization of $4 \\mathrm { u } \\dot { \\mathrm { C } } / \\mathrm { c m } ^ { 2 }$ and the coercive field of $6 0 \\mathrm { k V / c m }$ .\n\nFor accurately characterizing the fabricated MEMS energy harvester, the resonant frequency was firstly founded by measuring the displacement of proof mass from excited frequency. This experiment was carried by using AVID laser Doppler vibrometer (LDV) system with 15V AC voltage source. As shown in Fig. 5, its resonant frequency $\\left( \\omega _ { 0 } \\right)$ was $5 2 8 \\mathrm { H z }$ with displacement of $2 9 . 5 \\mathrm { u m }$ .\n\nThe next step of experiment was performed with vibration exciter, LDV system and ultra high impedance voltmeter. The fabricated device was connected to impedance voltmeter and fixed acceleration calculated by applying frequency $\\left( \\omega _ { 0 } \\right)$ and displacement of base was applied. The load impedance $( Z _ { \\mathrm { o p t } } )$ for maximum power transfer was an approximately 2.2MΩ with 2.4V at $0 . 2 \\mathrm { g }$ of vibration as shown in Fig.6. Since the measured capacitance $\\displaystyle ( \\mathrm { C _ { P } } )$ of energy harvester was approximately $\\bar { 1 } 3 8 \\mathrm { p F }$ at $5 2 8 \\mathrm { H z }$ by HP4194A, it was almost well matched with impedance of energy harvester as express version of [7].\n\n$$\nZ _ { o p t } \\cong \\frac { 1 } { \\omega _ { 0 } C _ { P } }\n$$\n\nFigs. 7 and 8 show its performance characteristics at various vibration and accelerations with fixed load impedance. As shown in these results, the maximum power was generated to the optimum load at its resonant frequency and the developed energy harvester generated $1 . 1 \\mathrm { u W }$ of electrical power from low acceleration of $0 . 3 9 \\mathrm { g }$ . The corresponding power density was $2 . 8 \\mathrm { m W } { \\cdot } \\mathrm { c m } { - } 3 { \\cdot } \\mathrm { g } { - } 1$ .\n\nTable I shows comparison of this work with previously reported ones. Although the output power was proportional to the operating frequency $\\left( \\omega _ { 0 } \\right)$ , we achieved great reduction of resonant frequency without loss of power density."
+    },
+    {
+      "heading": "CONCLUSIONS",
+      "level": 1,
+      "text": "This paper presented piezoelectric MEMS energy harvester which was targeted to scavenge low-level ambient vibration energy. It was optimally designed with multi-layered cantilever structure with Si proof mass for adjusting resonant frequency and reducing spring constant. In order to achieve large output voltage, the inter-digital shaped electrodes were applied for ${ \\bf d } _ { 3 3 }$ mode and to help the formations of PZT thin film on $Z \\mathrm { r } \\mathrm { O } _ { 2 }$ electric diffusion barrier to have the perovskite phase, ${ \\mathrm { P b T i O } } _ { 3 }$ seed-layer was also applied. In spite of low operating frequency, fabricated energy harvesting device showed excellent performance characteristics.\n\n![](images/ad6ad2eadd53d2513f6ce9074b919edc240dd91279d95ae0d46e04806501c536.jpg)  \nFigure 5: Measured displacement by using $L D V$ system (AVID) at excited $l 5 V _ { p e a k - t o - p e a k }$ sinusoidal signals.\n\n![](images/7e7c87270e00fb3bcb8693aaab16349f001601483e44ae2189821c2902e6c696.jpg)  \nFigure 6: Measured output voltages and powers at various loads, vibration of $0 . 2 g ,$ , and resonant frequency of 528Hz by using vibration exciter with power amplifier and ultra high impedance voltmeter.\n\nIn near future, we will investigate and analyze the electromechanical modeling of the fabricated energy harvester and improve the output power at lower level vibration."
+    },
+    {
+      "heading": "ACKNOWLEDGMENTS",
+      "level": 1,
+      "text": "This work supported by Creativeness Development Research Program supported by Korea Institute of Science and Technology. The authors are grateful to MiNDaP group members for their technical supports.\n\nTable I: Comparison of this work with previously reported MEMS piezoelectric energy harvesting devices   \n\n<table><tr><td rowspan=1 colspan=1>Ref.</td><td rowspan=1 colspan=1>Device</td><td rowspan=1 colspan=1>Area(mm^2)</td><td rowspan=1 colspan=1>Power(uW)</td><td rowspan=1 colspan=1>Acceleration(g)</td><td rowspan=1 colspan=1>Frequency(Hz)</td><td rowspan=1 colspan=1>Power density(uWcmg)</td></tr><tr><td rowspan=1 colspan=1>[3]</td><td rowspan=1 colspan=1>d33 PZT</td><td rowspan=1 colspan=1>0.0442</td><td rowspan=1 colspan=1>1.01</td><td rowspan=1 colspan=1>13.2a</td><td rowspan=1 colspan=1>13900</td><td rowspan=1 colspan=1>171</td></tr><tr><td rowspan=1 colspan=1>[5]</td><td rowspan=1 colspan=1>d31 PZT</td><td rowspan=1 colspan=1>2.65 a</td><td rowspan=1 colspan=1>2.16</td><td rowspan=1 colspan=1>1</td><td rowspan=1 colspan=1>608</td><td rowspan=1 colspan=1>81a</td></tr><tr><td rowspan=1 colspan=1>[6]</td><td rowspan=1 colspan=1>d31 AIN</td><td rowspan=1 colspan=1>0.96a</td><td rowspan=1 colspan=1>2</td><td rowspan=1 colspan=1>4.0</td><td rowspan=1 colspan=1>1368</td><td rowspan=1 colspan=1>52a</td></tr><tr><td rowspan=1 colspan=1>[7]</td><td rowspan=1 colspan=1>d31 PZT</td><td rowspan=1 colspan=1>7.5 </td><td rowspan=1 colspan=1>40</td><td rowspan=1 colspan=1>1.9a</td><td rowspan=1 colspan=1>1800</td><td rowspan=1 colspan=1>280a</td></tr><tr><td rowspan=1 colspan=1>[8]</td><td rowspan=1 colspan=1>d31 PZT</td><td rowspan=1 colspan=1>2.65 a</td><td rowspan=1 colspan=1>2.15</td><td rowspan=1 colspan=1>2.0</td><td rowspan=1 colspan=1>462.5</td><td rowspan=1 colspan=1>40</td></tr><tr><td rowspan=1 colspan=1>this</td><td rowspan=1 colspan=1>d33 PZT</td><td rowspan=1 colspan=1>1.8</td><td rowspan=1 colspan=1>1.1</td><td rowspan=1 colspan=1>0.39</td><td rowspan=1 colspan=1>528</td><td rowspan=1 colspan=1>156</td></tr></table>\n\na Estimated from data in references\n\n![](images/b531d1730aded140d9bbefb3d1d1cd948d6b60af3fab11313a1c3327d903559d.jpg)  \nFigure 7: Measured output voltages and powers at various excited frequencies, vibration of $\\ 0 . 2 g ,$ , and load of $2 . 2 M \\Omega$ .\n\n![](images/931b3629849d31ac690c916943c398a54066a5d2ea2ec79c6641b7559a02950e.jpg)  \nFigure 8: Measured output voltages and powers at various accelerations, vibration of $\\ 0 . 2 g$ , and resonant frequency of $5 2 8 H z$ ."
+    },
+    {
+      "heading": "REFERENCES",
+      "level": 1,
+      "text": "[1] S. Roundy, P. K. Wright, and J. Rabaey, \"A Study of Low Level Vibrations as A Power Source for Wireless Sensor Nodes”, Computer Communications, vol. 26, pp. 1131–1144, 2003.   \n[2] S. R. Anton, and H. A. Sodano, \"A Review of Power Harvesting Using Piezoelectric Materials (2003–2006)\", Smart Materials & Structures, vol. 16, pp. R1-R21, 2007.   \n[3] Y.B. Jeon et al., “MEMS Power Generator with Transverse Mode Thin Film PZT”, Sensors Actuators $A$ vol. 122, pp. 16–22, 2005.   \n[4] M. Marzencki, B. Charlot, S. Basrour, M. Colin, and L. Valbin, “Design and Fabrication of Piezoelectric Micro Power Generators for Autonomous Microsystems,” in Symp. on Design Testing Integration and Packaging of MEMS/MOEMS, Montreux, 2005, pp. 299-302.   \n[5] H.-B. Fang, J.-Q. Liu, Z.-Y. Xu, L. Dong, L. Wang, D. Chen, B.-C. Chai, and Y. Liu, Fabrication and Performance of MEMS-based Piezoelectric Power Generator for Vibration Energy Harvester,” Microelectron. J., vol. 37, pp. 1280-1284, 2006   \n[6] M. Marzencki, Y. Ammar, and S. Basrour, “Integrated Power Harvesting System Including a MEMS Generator and A Power Management Circuit,” in Proc. Int. Conf. on Solid-State Sensors, Actuators and Microsystems, Lyon, 2007, pp. 887-890.   \n[7] M. Renaud, T. Sterken, A. Schmitz, P. Fiorini, C. Van Hoof, and R. Puers, “Piezoelectric Harvesters and MEMS Technology: Fabrication, Modeling and Measurements,” in Proc. Int. Conf. on Solid-State Sensors, Actuators and Microsystems, Lyon, 2007, pp. 891-894.   \n[8] D. Shen, J.-H. Park, J. Ajitsaria, S.-Y. Choe, H. C. Wikle III, and D.-J. Kim, “The Design, Fabrication and Evaluation of A MEMS PZT Cantilever with An Integrated Si Proof Mass for Vibration Energy Harvesting,” J. Micromech. Microeng., vol. 18, pp. 1-7, 2008   \n[9] S.-H. Kim, C.-E. Kim, and Y.-J. Oh, Influence of $\\mathrm { { A l } } _ { 2 } \\mathrm { { O } } _ { 3 }$ Diffusion Barrier and ${ \\mathrm { P b T i O } } _ { 3 }$ Seed layer on Microstructural and Ferroelectric Characteristics of PZT Thin Films by Sol-gel Spin Coating Method,” Thin Solid Films, vol. 305, pp. 321-326. 1997.   \n[10] M. Shimizu, M. Okaniwa, H. Fujisawa, and H. Niu, “Ferroelectric Properties of $\\mathrm { P b } ( \\mathrm { Z r } , \\mathrm { T i } ) { \\mathrm { O } } _ { 3 }$ Thin Films Prepared by Low-temperature MOCVD Using ${ \\mathrm { P b T i O } } _ { 3 }$ Seeds,” J. Eur. Ceram. Soc., vol.24, pp. 1625-1628, 2004."
+    },
+    {
+      "heading": "CONTACT",
+      "level": 1,
+      "text": "\\* Jae Yeong Park, tel: +82-2-940-5113; jaepark@kw.ac.kr"
+    }
+  ],
+  "tables": [
+    {
+      "page": -1,
+      "content": ""
+    }
+  ],
+  "figures": [
+    {
+      "page": -1,
+      "caption": "",
+      "path": "images/551ac39627f59771a3e902bce30bb72dfbb18dc3365a4b3ef64ce55f1d7be9ee.jpg"
+    },
+    {
+      "page": -1,
+      "caption": "",
+      "path": "images/88ff24e778cff74bffd36238ee684c02b28de98455837cdf87c0383ebe7ad1d3.jpg"
+    },
+    {
+      "page": -1,
+      "caption": "",
+      "path": "images/b86002112896ddf75577c35d5d12c720afc2903f58351c1e23d2f970821554ea.jpg"
+    },
+    {
+      "page": -1,
+      "caption": "",
+      "path": "images/9e51c40709897248da06eee99a5300fa6df0261f8d77f348a6e4aadbb83f2ae1.jpg"
+    },
+    {
+      "page": -1,
+      "caption": "",
+      "path": "images/ad6ad2eadd53d2513f6ce9074b919edc240dd91279d95ae0d46e04806501c536.jpg"
+    },
+    {
+      "page": -1,
+      "caption": "",
+      "path": "images/7e7c87270e00fb3bcb8693aaab16349f001601483e44ae2189821c2902e6c696.jpg"
+    },
+    {
+      "page": -1,
+      "caption": "",
+      "path": "images/b531d1730aded140d9bbefb3d1d1cd948d6b60af3fab11313a1c3327d903559d.jpg"
+    },
+    {
+      "page": -1,
+      "caption": "",
+      "path": "images/931b3629849d31ac690c916943c398a54066a5d2ea2ec79c6641b7559a02950e.jpg"
+    }
+  ],
+  "metadata": {
+    "source": "both",
+    "pdf_url": "",
+    "parsed_at": "2026-03-10T09:48:15.144450+00:00"
+  }
+}

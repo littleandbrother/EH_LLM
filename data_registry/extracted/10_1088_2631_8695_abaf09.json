@@ -1,0 +1,147 @@
+{
+  "metadata": {
+    "paper_id": "10_1088_2631_8695_abaf09",
+    "doi": "10.1088/2631-8695/abaf09",
+    "title": "Long-term power degradation testing of piezoelectric vibration energy harvesters for low-frequency applications",
+    "year": 2020,
+    "journal": "Engineering Research Express"
+  },
+  "configuration": "cantilever",
+  "proof_mass": true,
+  "geometry": {
+    "length_mm": 47,
+    "width_mm": 26,
+    "thickness_mm": 0.69,
+    "substrate_thickness_um": null,
+    "piezo_thickness_um": 690,
+    "tip_mass_g": null,
+    "diameter_mm": null
+  },
+  "excitation": {
+    "type": "vibration",
+    "frequency_Hz": 40,
+    "acceleration_g": 1,
+    "displacement_mm": null,
+    "motion_source": null
+  },
+  "load": {
+    "load_resistance_ohm": 11000
+  },
+  "output": {
+    "resonant_frequency_Hz": 40,
+    "output_power_W": 0.012,
+    "open_circuit_voltage_V": null,
+    "short_circuit_current_A": null,
+    "bandwidth_Hz": null
+  },
+  "evidence": {
+    "configuration": {
+      "quote": "unimorph cantilevers",
+      "section": "Abstract",
+      "source_type": "abstract"
+    },
+    "proof_mass": {
+      "quote": "Metallic tip masses with the required weight were firmly attached",
+      "section": "2.1. Harvesting materials and configurations",
+      "source_type": "section"
+    },
+    "geometry": {
+      "length_mm": {
+        "quote": "47",
+        "section": "2.3. Testing conditions",
+        "source_type": "table"
+      },
+      "width_mm": {
+        "quote": "26",
+        "section": "2.3. Testing conditions",
+        "source_type": "table"
+      },
+      "thickness_mm": {
+        "quote": "0.69",
+        "section": "2.3. Testing conditions",
+        "source_type": "table"
+      },
+      "substrate_thickness_um": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "piezo_thickness_um": {
+        "quote": "0.69",
+        "section": "2.3. Testing conditions",
+        "source_type": "table"
+      },
+      "tip_mass_g": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "diameter_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      }
+    },
+    "excitation": {
+      "type": {
+        "quote": "single-frequency excitation",
+        "section": "Abstract",
+        "source_type": "abstract"
+      },
+      "frequency_Hz": {
+        "quote": "40",
+        "section": "2.3. Testing conditions",
+        "source_type": "table"
+      },
+      "acceleration_g": {
+        "quote": "constant at 1g",
+        "section": "2.3. Testing conditions",
+        "source_type": "section"
+      },
+      "displacement_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "motion_source": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      }
+    },
+    "load": {
+      "load_resistance_ohm": {
+        "quote": "11",
+        "section": "2.3. Testing conditions",
+        "source_type": "table"
+      }
+    },
+    "output": {
+      "resonant_frequency_Hz": {
+        "quote": "40",
+        "section": "2.3. Testing conditions",
+        "source_type": "table"
+      },
+      "output_power_W": {
+        "quote": "12",
+        "section": "3.1. Power degradation",
+        "source_type": "table"
+      },
+      "open_circuit_voltage_V": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "short_circuit_current_A": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "bandwidth_Hz": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      }
+    }
+  }
+}

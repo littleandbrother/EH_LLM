@@ -1,0 +1,147 @@
+{
+  "metadata": {
+    "paper_id": "10_1186_s40486_017_0054_x",
+    "doi": "10.1186/s40486-017-0054-x",
+    "title": "Micro-fabricated flexible PZT cantilever using d33 mode for energy harvesting",
+    "year": 2017,
+    "journal": "Micro and Nano Systems Letters"
+  },
+  "configuration": "cantilever",
+  "proof_mass": true,
+  "geometry": {
+    "length_mm": 2.0,
+    "width_mm": 3.0,
+    "thickness_mm": null,
+    "substrate_thickness_um": 18.0,
+    "piezo_thickness_um": 1.0,
+    "tip_mass_g": null,
+    "diameter_mm": null
+  },
+  "excitation": {
+    "type": "vibration",
+    "frequency_Hz": 97.8,
+    "acceleration_g": 0.51,
+    "displacement_mm": null,
+    "motion_source": "ambient vibration"
+  },
+  "load": {
+    "load_resistance_ohm": 6600000.0
+  },
+  "output": {
+    "resonant_frequency_Hz": 97.8,
+    "output_power_W": 1.17e-07,
+    "open_circuit_voltage_V": null,
+    "short_circuit_current_A": null,
+    "bandwidth_Hz": null
+  },
+  "evidence": {
+    "configuration": {
+      "quote": "flexible and curled PZT cantilever",
+      "section": "Abstract",
+      "source_type": "abstract"
+    },
+    "proof_mass": {
+      "quote": "proof mass located at the free end",
+      "section": "Background",
+      "source_type": "section"
+    },
+    "geometry": {
+      "length_mm": {
+        "quote": "length of 2000 μm",
+        "section": "Design and fabrication",
+        "source_type": "section"
+      },
+      "width_mm": {
+        "quote": "width of 3000 μm",
+        "section": "Design and fabrication",
+        "source_type": "section"
+      },
+      "thickness_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "substrate_thickness_um": {
+        "quote": "18 μm film of photo-definable polyimide",
+        "section": "Design and fabrication",
+        "source_type": "section"
+      },
+      "piezo_thickness_um": {
+        "quote": "Pb(Zr0.52Ti0.48)O3 thin films with thicknesses of 0.2 and 1 μm",
+        "section": "Design and fabrication",
+        "source_type": "section"
+      },
+      "tip_mass_g": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "diameter_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      }
+    },
+    "excitation": {
+      "type": {
+        "quote": "vibration based energy harvesting",
+        "section": "Abstract",
+        "source_type": "abstract"
+      },
+      "frequency_Hz": {
+        "quote": "resonant frequency of 97.8 Hz",
+        "section": "Abstract",
+        "source_type": "abstract"
+      },
+      "acceleration_g": {
+        "quote": "acceleration of 5 m/s^2",
+        "section": "Abstract",
+        "source_type": "abstract"
+      },
+      "displacement_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "motion_source": {
+        "quote": "ambient vibration",
+        "section": "Background",
+        "source_type": "section"
+      }
+    },
+    "load": {
+      "load_resistance_ohm": {
+        "quote": "optimal resistive load of 6.6 MΩ",
+        "section": "Abstract",
+        "source_type": "abstract"
+      }
+    },
+    "output": {
+      "resonant_frequency_Hz": {
+        "quote": "resonant frequency of 97.8 Hz",
+        "section": "Abstract",
+        "source_type": "abstract"
+      },
+      "output_power_W": {
+        "quote": "output power of 117 nW",
+        "section": "Abstract",
+        "source_type": "abstract"
+      },
+      "open_circuit_voltage_V": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "short_circuit_current_A": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "bandwidth_Hz": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      }
+    }
+  }
+}

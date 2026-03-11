@@ -1,0 +1,28 @@
+{
+  "paper_id": "10_1016_j_sna_2019_06_034",
+  "doi": "10.1016/j.sna.2019.06.034",
+  "title": "A packaged piezoelectric vibration energy harvester with high power and broadband characteristics",
+  "source_apis": [
+    "both"
+  ],
+  "pdf_url": "",
+  "pdf_local_path": "data_registry/raw_stage04_paper_pdf_cleaned/10_1016_j_sna_2019_06_034.pdf",
+  "processing": {
+    "tool": "MinerU",
+    "version": "python -m mineru.cli.client, version 2.7.6",
+    "timestamp": "2026-03-10T09:29:51.420246+00:00",
+    "duration_s": 87.88,
+    "success": true,
+    "error": ""
+  },
+  "outputs": {
+    "content_md": "/root/EH-LLM-vehbench-exp/parsed_docs/10_1016_j_sna_2019_06_034_xvknb6jw/content.md",
+    "layout_json": "/root/EH-LLM-vehbench-exp/parsed_docs/10_1016_j_sna_2019_06_034_xvknb6jw/layout.json",
+    "images_dir": "/root/EH-LLM-vehbench-exp/parsed_docs/10_1016_j_sna_2019_06_034_xvknb6jw/10_1016_j_sna_2019_06_034/auto/images",
+    "normalized_json": "/root/EH-LLM-vehbench-exp/normalized_docs/10_1016_j_sna_2019_06_034.json"
+  },
+  "data_lineage": {
+    "papers_jsonl_hash": "e8e040bd575f6d861b2d50723ead283c",
+    "pipeline_step": "ingestion/mineru_runner.py"
+  }
+}

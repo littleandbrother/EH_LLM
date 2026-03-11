@@ -1,0 +1,28 @@
+{
+  "paper_id": "10_3390_en10050646",
+  "doi": "10.3390/en10050646",
+  "title": "Energy Harvesting Based on a Novel Piezoelectric 0.7PbZn0.3Ti0.7O3-0.3Na2TiO3 Nanogenerator",
+  "source_apis": [
+    "openalex"
+  ],
+  "pdf_url": "https://www.mdpi.com/1996-1073/10/5/646/pdf?version=1494417648",
+  "pdf_local_path": "data_registry/raw_stage04_paper_pdf_cleaned/10_3390_en10050646.pdf",
+  "processing": {
+    "tool": "MinerU",
+    "version": "python -m mineru.cli.client, version 2.7.6",
+    "timestamp": "2026-03-10T09:38:03.386512+00:00",
+    "duration_s": 101.32,
+    "success": true,
+    "error": ""
+  },
+  "outputs": {
+    "content_md": "/root/EH-LLM-vehbench-exp/parsed_docs/10_3390_en10050646_xli6738k/content.md",
+    "layout_json": "/root/EH-LLM-vehbench-exp/parsed_docs/10_3390_en10050646_xli6738k/layout.json",
+    "images_dir": "/root/EH-LLM-vehbench-exp/parsed_docs/10_3390_en10050646_xli6738k/10_3390_en10050646/auto/images",
+    "normalized_json": "/root/EH-LLM-vehbench-exp/normalized_docs/10_3390_en10050646.json"
+  },
+  "data_lineage": {
+    "papers_jsonl_hash": "83b908687ae0a2270b4b07924f39b059",
+    "pipeline_step": "ingestion/mineru_runner.py"
+  }
+}

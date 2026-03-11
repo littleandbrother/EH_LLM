@@ -1,0 +1,28 @@
+{
+  "paper_id": "10_1088_2631_8695_abaf09",
+  "doi": "10.1088/2631-8695/abaf09",
+  "title": "Long-term power degradation testing of piezoelectric vibration energy harvesters for low-frequency applications",
+  "source_apis": [
+    "both"
+  ],
+  "pdf_url": "https://iopscience.iop.org/article/10.1088/2631-8695/abaf09/pdf",
+  "pdf_local_path": "data_registry/raw_stage04_paper_pdf_cleaned/10_1088_2631_8695_abaf09.pdf",
+  "processing": {
+    "tool": "MinerU",
+    "version": "python -m mineru.cli.client, version 2.7.6",
+    "timestamp": "2026-03-10T10:11:28.873521+00:00",
+    "duration_s": 92.22,
+    "success": true,
+    "error": ""
+  },
+  "outputs": {
+    "content_md": "/root/EH-LLM-vehbench-exp/parsed_docs/10_1088_2631_8695_abaf09_ji14sm2h/content.md",
+    "layout_json": "/root/EH-LLM-vehbench-exp/parsed_docs/10_1088_2631_8695_abaf09_ji14sm2h/layout.json",
+    "images_dir": "/root/EH-LLM-vehbench-exp/parsed_docs/10_1088_2631_8695_abaf09_ji14sm2h/10_1088_2631_8695_abaf09/auto/images",
+    "normalized_json": "/root/EH-LLM-vehbench-exp/normalized_docs/10_1088_2631_8695_abaf09.json"
+  },
+  "data_lineage": {
+    "papers_jsonl_hash": "3224f303f37b0771dbc745483fbeed97",
+    "pipeline_step": "ingestion/mineru_runner.py"
+  }
+}

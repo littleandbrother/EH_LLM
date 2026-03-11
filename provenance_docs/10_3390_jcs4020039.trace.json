@@ -1,0 +1,28 @@
+{
+  "paper_id": "10_3390_jcs4020039",
+  "doi": "10.3390/jcs4020039",
+  "title": "A Novel Design and Performance Results of An Electrically Tunable Piezoelectric Vibration Energy Harvester (TPVEH)",
+  "source_apis": [
+    "openalex"
+  ],
+  "pdf_url": "https://www.mdpi.com/2504-477X/4/2/39/pdf?version=1587970045",
+  "pdf_local_path": "data_registry/raw_stage04_paper_pdf_cleaned/10_3390_jcs4020039.pdf",
+  "processing": {
+    "tool": "MinerU",
+    "version": "python -m mineru.cli.client, version 2.7.6",
+    "timestamp": "2026-03-10T09:24:01.239572+00:00",
+    "duration_s": 96.5,
+    "success": true,
+    "error": ""
+  },
+  "outputs": {
+    "content_md": "/root/EH-LLM-vehbench-exp/parsed_docs/10_3390_jcs4020039_u1cw4f_l/content.md",
+    "layout_json": "/root/EH-LLM-vehbench-exp/parsed_docs/10_3390_jcs4020039_u1cw4f_l/layout.json",
+    "images_dir": "/root/EH-LLM-vehbench-exp/parsed_docs/10_3390_jcs4020039_u1cw4f_l/10_3390_jcs4020039/auto/images",
+    "normalized_json": "/root/EH-LLM-vehbench-exp/normalized_docs/10_3390_jcs4020039.json"
+  },
+  "data_lineage": {
+    "papers_jsonl_hash": "d436c8d853d6761eccc670dbeaecaba0",
+    "pipeline_step": "ingestion/mineru_runner.py"
+  }
+}

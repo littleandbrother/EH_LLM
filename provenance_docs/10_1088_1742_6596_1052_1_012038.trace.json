@@ -1,0 +1,28 @@
+{
+  "paper_id": "10_1088_1742_6596_1052_1_012038",
+  "doi": "10.1088/1742-6596/1052/1/012038",
+  "title": "A High Performance Piezoelectric Micro Energy Harvester Based on Stainless Steel Substrates",
+  "source_apis": [
+    "both"
+  ],
+  "pdf_url": "https://iopscience.iop.org/article/10.1088/1742-6596/1052/1/012038/pdf",
+  "pdf_local_path": "data_registry/raw_stage04_paper_pdf_cleaned/10_1088_1742_6596_1052_1_012038.pdf",
+  "processing": {
+    "tool": "MinerU",
+    "version": "python -m mineru.cli.client, version 2.7.6",
+    "timestamp": "2026-03-10T10:00:19.802104+00:00",
+    "duration_s": 67.07,
+    "success": true,
+    "error": ""
+  },
+  "outputs": {
+    "content_md": "/root/EH-LLM-vehbench-exp/parsed_docs/10_1088_1742_6596_1052_1_012038_1i11irae/content.md",
+    "layout_json": "/root/EH-LLM-vehbench-exp/parsed_docs/10_1088_1742_6596_1052_1_012038_1i11irae/layout.json",
+    "images_dir": "/root/EH-LLM-vehbench-exp/parsed_docs/10_1088_1742_6596_1052_1_012038_1i11irae/10_1088_1742_6596_1052_1_012038/auto/images",
+    "normalized_json": "/root/EH-LLM-vehbench-exp/normalized_docs/10_1088_1742_6596_1052_1_012038.json"
+  },
+  "data_lineage": {
+    "papers_jsonl_hash": "a4bc518219aa614e782e6bc578b094ac",
+    "pipeline_step": "ingestion/mineru_runner.py"
+  }
+}

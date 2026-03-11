@@ -1,0 +1,147 @@
+{
+  "metadata": {
+    "paper_id": "10_1088_1742_6596_1052_1_012038",
+    "doi": "10.1088/1742-6596/1052/1/012038",
+    "title": "A High Performance Piezoelectric Micro Energy Harvester Based on Stainless Steel Substrates",
+    "year": 2018,
+    "journal": "Journal of Physics: Conference Series"
+  },
+  "configuration": "cantilever",
+  "proof_mass": true,
+  "geometry": {
+    "length_mm": 8,
+    "width_mm": 6,
+    "thickness_mm": 0.08,
+    "substrate_thickness_um": 60,
+    "piezo_thickness_um": 10,
+    "tip_mass_g": null,
+    "diameter_mm": null
+  },
+  "excitation": {
+    "type": "vibration",
+    "frequency_Hz": 126.1,
+    "acceleration_g": 0.5,
+    "displacement_mm": null,
+    "motion_source": "shaker"
+  },
+  "load": {
+    "load_resistance_ohm": 150000
+  },
+  "output": {
+    "resonant_frequency_Hz": 126.1,
+    "output_power_W": 0.000304,
+    "open_circuit_voltage_V": 34.6,
+    "short_circuit_current_A": null,
+    "bandwidth_Hz": null
+  },
+  "evidence": {
+    "configuration": {
+      "quote": "simple unimorph or bimorph cantilever structure",
+      "section": "Abstract",
+      "source_type": "abstract"
+    },
+    "proof_mass": {
+      "quote": "glued tungsten proof mass",
+      "section": "Abstract",
+      "source_type": "abstract"
+    },
+    "geometry": {
+      "length_mm": {
+        "quote": "6 mm x 8 mm",
+        "section": "3. Device Fabrication",
+        "source_type": "section"
+      },
+      "width_mm": {
+        "quote": "6 mm x 8 mm",
+        "section": "3. Device Fabrication",
+        "source_type": "section"
+      },
+      "thickness_mm": {
+        "quote": "total thickness of the bimorph PMEH is about 80 μm",
+        "section": "3. Device Fabrication",
+        "source_type": "section"
+      },
+      "substrate_thickness_um": {
+        "quote": "60 μm stainless steel substrates",
+        "section": "1. Introduction",
+        "source_type": "section"
+      },
+      "piezo_thickness_um": {
+        "quote": "10 μm thick on both sides for bimorph PMEH",
+        "section": "Abstract",
+        "source_type": "abstract"
+      },
+      "tip_mass_g": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "diameter_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      }
+    },
+    "excitation": {
+      "type": {
+        "quote": "acceleration vibration level",
+        "section": "Abstract",
+        "source_type": "abstract"
+      },
+      "frequency_Hz": {
+        "quote": "resonant frequencies of forward sweep and reverse sweep are both 126.1 Hz",
+        "section": "5.2. Bimorph piezoelectric micro energy harvester",
+        "source_type": "section"
+      },
+      "acceleration_g": {
+        "quote": "0.5 g acceleration level",
+        "section": "5.2. Bimorph piezoelectric micro energy harvester",
+        "source_type": "section"
+      },
+      "displacement_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "motion_source": {
+        "quote": "mounted on the shaker",
+        "section": "4. Experimental Setup",
+        "source_type": "section"
+      }
+    },
+    "load": {
+      "load_resistance_ohm": {
+        "quote": "150 kΩ optimal load",
+        "section": "5.2. Bimorph piezoelectric micro energy harvester",
+        "source_type": "section"
+      }
+    },
+    "output": {
+      "resonant_frequency_Hz": {
+        "quote": "resonant frequencies of forward sweep and reverse sweep are both 126.1 Hz",
+        "section": "5.2. Bimorph piezoelectric micro energy harvester",
+        "source_type": "section"
+      },
+      "output_power_W": {
+        "quote": "peak value of 304 μW",
+        "section": "5.2. Bimorph piezoelectric micro energy harvester",
+        "source_type": "section"
+      },
+      "open_circuit_voltage_V": {
+        "quote": "peak voltage is 34.6 Vp-p",
+        "section": "5.2. Bimorph piezoelectric micro energy harvester",
+        "source_type": "section"
+      },
+      "short_circuit_current_A": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "bandwidth_Hz": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      }
+    }
+  }
+}

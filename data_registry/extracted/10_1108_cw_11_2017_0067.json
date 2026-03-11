@@ -1,0 +1,147 @@
+{
+  "metadata": {
+    "paper_id": "10_1108_cw_11_2017_0067",
+    "doi": "10.1108/cw-11-2017-0067",
+    "title": "Design and analysis of cantilever based piezoelectric vibration energy harvester",
+    "year": 2018,
+    "journal": "Circuit World"
+  },
+  "configuration": "cantilever",
+  "proof_mass": true,
+  "geometry": {
+    "length_mm": 145.9,
+    "width_mm": 41.7,
+    "thickness_mm": 1.5,
+    "substrate_thickness_um": 1000,
+    "piezo_thickness_um": 500,
+    "tip_mass_g": null,
+    "diameter_mm": null
+  },
+  "excitation": {
+    "type": "vibration",
+    "frequency_Hz": 23,
+    "acceleration_g": null,
+    "displacement_mm": null,
+    "motion_source": "Sinusoidal tip excitation"
+  },
+  "load": {
+    "load_resistance_ohm": 330000
+  },
+  "output": {
+    "resonant_frequency_Hz": 23,
+    "output_power_W": 0.0007708,
+    "open_circuit_voltage_V": 66.13,
+    "short_circuit_current_A": null,
+    "bandwidth_Hz": null
+  },
+  "evidence": {
+    "configuration": {
+      "quote": "The proposed PVEH is constructed using a cantilever beam",
+      "section": "2. Energy harvester description",
+      "source_type": "section"
+    },
+    "proof_mass": {
+      "quote": "a permanent magnet is placed at the tip of the aluminum cantilever",
+      "section": "4.2.2 Experimental setup",
+      "source_type": "section"
+    },
+    "geometry": {
+      "length_mm": {
+        "quote": "Length (trapezoid) 145.9",
+        "section": "Table II. Dimensions of cantilever",
+        "source_type": "table"
+      },
+      "width_mm": {
+        "quote": "Width of wide end (trapezoid) 41.7",
+        "section": "Table II. Dimensions of cantilever",
+        "source_type": "table"
+      },
+      "thickness_mm": {
+        "quote": "Thickness 1",
+        "section": "Table II. Dimensions of cantilever",
+        "source_type": "table"
+      },
+      "substrate_thickness_um": {
+        "quote": "Thickness 1",
+        "section": "Table II. Dimensions of cantilever",
+        "source_type": "table"
+      },
+      "piezo_thickness_um": {
+        "quote": "Thickness 0.5",
+        "section": "Table II. Dimensions of cantilever",
+        "source_type": "table"
+      },
+      "tip_mass_g": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "diameter_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      }
+    },
+    "excitation": {
+      "type": {
+        "quote": "Piezoelectric, Vibration",
+        "section": "Abstract",
+        "source_type": "abstract"
+      },
+      "frequency_Hz": {
+        "quote": "Trapezoid... Resonant frequency (Hz)... Experimental value 23",
+        "section": "Table V. Performance comparison",
+        "source_type": "table"
+      },
+      "acceleration_g": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "displacement_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "motion_source": {
+        "quote": "Excitation type Sinusoidal tip excitation",
+        "section": "Table IV. Input parameters for experimentation",
+        "source_type": "table"
+      }
+    },
+    "load": {
+      "load_resistance_ohm": {
+        "quote": "The trapezoidal cantilever generates 770.8 uW for 330 kOhm",
+        "section": "4.3 Experimental results",
+        "source_type": "section"
+      }
+    },
+    "output": {
+      "resonant_frequency_Hz": {
+        "quote": "Trapezoid... Resonant frequency (Hz)... Experimental value 23",
+        "section": "Table V. Performance comparison",
+        "source_type": "table"
+      },
+      "output_power_W": {
+        "quote": "The trapezoidal cantilever generates 770.8 uW",
+        "section": "4.3 Experimental results",
+        "source_type": "section"
+      },
+      "open_circuit_voltage_V": {
+        "quote": "Trapezoid... Potential (V)... Experimental value 66.13",
+        "section": "Table V. Performance comparison",
+        "source_type": "table"
+      },
+      "short_circuit_current_A": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "bandwidth_Hz": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      }
+    }
+  }
+}

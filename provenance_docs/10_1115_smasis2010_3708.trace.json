@@ -1,0 +1,28 @@
+{
+  "paper_id": "10_1115_smasis2010_3708",
+  "doi": "10.1115/smasis2010-3708",
+  "title": "An Experimental Performance Evaluation of DC Power Generation and Power Loss in Full-Bridge Rectifier of Cantilever Type of Piezoelectric Vibration Energy Harvester",
+  "source_apis": [
+    "both"
+  ],
+  "pdf_url": "",
+  "pdf_local_path": "data_registry/raw_stage04_paper_pdf_cleaned/10_1115_smasis2010_3708.pdf",
+  "processing": {
+    "tool": "MinerU",
+    "version": "python -m mineru.cli.client, version 2.7.6",
+    "timestamp": "2026-03-10T09:41:36.458121+00:00",
+    "duration_s": 81.35,
+    "success": true,
+    "error": ""
+  },
+  "outputs": {
+    "content_md": "/root/EH-LLM-vehbench-exp/parsed_docs/10_1115_smasis2010_3708_dvdy1nm3/content.md",
+    "layout_json": "/root/EH-LLM-vehbench-exp/parsed_docs/10_1115_smasis2010_3708_dvdy1nm3/layout.json",
+    "images_dir": "/root/EH-LLM-vehbench-exp/parsed_docs/10_1115_smasis2010_3708_dvdy1nm3/10_1115_smasis2010_3708/auto/images",
+    "normalized_json": "/root/EH-LLM-vehbench-exp/normalized_docs/10_1115_smasis2010_3708.json"
+  },
+  "data_lineage": {
+    "papers_jsonl_hash": "cf528588c797e59d89cad8b7bd5efbf3",
+    "pipeline_step": "ingestion/mineru_runner.py"
+  }
+}

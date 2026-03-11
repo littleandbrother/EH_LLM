@@ -1,0 +1,28 @@
+{
+  "paper_id": "10_1166_jnn_2019_15888",
+  "doi": "10.1166/jnn.2019.15888",
+  "title": "A Low Frequency Vibration Energy Harvester Using ZnO Nanowires on Elastic Interdigitated Electrodes.",
+  "source_apis": [
+    "semantic_scholar"
+  ],
+  "pdf_url": "",
+  "pdf_local_path": "data_registry/raw_stage04_paper_pdf_cleaned/10_1166_jnn_2019_15888.pdf",
+  "processing": {
+    "tool": "MinerU",
+    "version": "python -m mineru.cli.client, version 2.7.6",
+    "timestamp": "2026-03-10T09:42:11.198785+00:00",
+    "duration_s": 62.02,
+    "success": true,
+    "error": ""
+  },
+  "outputs": {
+    "content_md": "/root/EH-LLM-vehbench-exp/parsed_docs/10_1166_jnn_2019_15888_zu62h_hj/content.md",
+    "layout_json": "/root/EH-LLM-vehbench-exp/parsed_docs/10_1166_jnn_2019_15888_zu62h_hj/layout.json",
+    "images_dir": "/root/EH-LLM-vehbench-exp/parsed_docs/10_1166_jnn_2019_15888_zu62h_hj/10_1166_jnn_2019_15888/auto/images",
+    "normalized_json": "/root/EH-LLM-vehbench-exp/normalized_docs/10_1166_jnn_2019_15888.json"
+  },
+  "data_lineage": {
+    "papers_jsonl_hash": "6955e2b330f1e46218dd73b6faeabe00",
+    "pipeline_step": "ingestion/mineru_runner.py"
+  }
+}

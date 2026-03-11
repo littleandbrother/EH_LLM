@@ -1,0 +1,147 @@
+{
+  "metadata": {
+    "paper_id": "10_1155_2018_5037187",
+    "doi": "10.1155/2018/5037187",
+    "title": "Multifrequency Piezoelectric Energy Harvester Based on Polygon‐Shaped Cantilever Array",
+    "year": 2018,
+    "journal": "Shock and Vibration"
+  },
+  "configuration": "cantilever",
+  "proof_mass": true,
+  "geometry": {
+    "length_mm": 23,
+    "width_mm": null,
+    "thickness_mm": null,
+    "substrate_thickness_um": null,
+    "piezo_thickness_um": null,
+    "tip_mass_g": 27.7,
+    "diameter_mm": null
+  },
+  "excitation": {
+    "type": "vibration",
+    "frequency_Hz": 25.926,
+    "acceleration_g": 0.0484,
+    "displacement_mm": null,
+    "motion_source": "electromagnetic shaker Thermotron DSX-4000"
+  },
+  "load": {
+    "load_resistance_ohm": null
+  },
+  "output": {
+    "resonant_frequency_Hz": 25.926,
+    "output_power_W": 6.524e-05,
+    "open_circuit_voltage_V": 10.61,
+    "short_circuit_current_A": null,
+    "bandwidth_Hz": null
+  },
+  "evidence": {
+    "configuration": {
+      "quote": "Design of polygon-shaped cantilever array consists of eight piezoelectric cantilevers",
+      "section": "2. Design of Polygon-Shaped Energy Harvester",
+      "source_type": "section"
+    },
+    "proof_mass": {
+      "quote": "The polygon-shaped energy harvester has seven seismic masses placed at every corner of the harvester's body.",
+      "section": "2. Design of Polygon-Shaped Energy Harvester",
+      "source_type": "section"
+    },
+    "geometry": {
+      "length_mm": {
+        "quote": "l1 23",
+        "section": "3. Numerical Investigation of the Polygon-Shaped Energy Harvester",
+        "source_type": "table"
+      },
+      "width_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "thickness_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "substrate_thickness_um": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "piezo_thickness_um": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "tip_mass_g": {
+        "quote": "m1 4.6",
+        "section": "3. Numerical Investigation of the Polygon-Shaped Energy Harvester",
+        "source_type": "table"
+      },
+      "diameter_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      }
+    },
+    "excitation": {
+      "type": {
+        "quote": "Excitation of the energy harvester was performed by electromagnetic shaker",
+        "section": "4. Experimental Investigation of Multifrequency Energy Harvester",
+        "source_type": "section"
+      },
+      "frequency_Hz": {
+        "quote": "25.926 Hz",
+        "section": "4. Experimental Investigation of Multifrequency Energy Harvester",
+        "source_type": "figure_caption"
+      },
+      "acceleration_g": {
+        "quote": "Base acceleration of the harvester was set to 0.475 m/s^2",
+        "section": "4. Experimental Investigation of Multifrequency Energy Harvester",
+        "source_type": "section"
+      },
+      "displacement_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "motion_source": {
+        "quote": "electromagnetic shaker Thermotron DSX-4000",
+        "section": "4. Experimental Investigation of Multifrequency Energy Harvester",
+        "source_type": "section"
+      }
+    },
+    "load": {
+      "load_resistance_ohm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      }
+    },
+    "output": {
+      "resonant_frequency_Hz": {
+        "quote": "25.926 Hz",
+        "section": "4. Experimental Investigation of Multifrequency Energy Harvester",
+        "source_type": "figure_caption"
+      },
+      "output_power_W": {
+        "quote": "maximum output power of the proposed harvester is 65.24 μW",
+        "section": "4. Experimental Investigation of Multifrequency Energy Harvester",
+        "source_type": "section"
+      },
+      "open_circuit_voltage_V": {
+        "quote": "The highest output voltage was 10.61 V",
+        "section": "4. Experimental Investigation of Multifrequency Energy Harvester",
+        "source_type": "section"
+      },
+      "short_circuit_current_A": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "bandwidth_Hz": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      }
+    }
+  }
+}

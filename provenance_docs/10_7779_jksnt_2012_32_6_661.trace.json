@@ -1,0 +1,28 @@
+{
+  "paper_id": "10_7779_jksnt_2012_32_6_661",
+  "doi": "10.7779/jksnt.2012.32.6.661",
+  "title": "Design of a Bimorph Piezoelectric Energy Harvester for Railway Monitoring",
+  "source_apis": [
+    "openalex"
+  ],
+  "pdf_url": "http://koreascience.or.kr:80/article/JAKO201205759629254.pdf",
+  "pdf_local_path": "data_registry/raw_stage04_paper_pdf_cleaned/10_7779_jksnt_2012_32_6_661.pdf",
+  "processing": {
+    "tool": "MinerU",
+    "version": "python -m mineru.cli.client, version 2.7.6",
+    "timestamp": "2026-03-10T09:53:37.458309+00:00",
+    "duration_s": 73.94,
+    "success": true,
+    "error": ""
+  },
+  "outputs": {
+    "content_md": "/root/EH-LLM-vehbench-exp/parsed_docs/10_7779_jksnt_2012_32_6_661_zctr6a63/content.md",
+    "layout_json": "/root/EH-LLM-vehbench-exp/parsed_docs/10_7779_jksnt_2012_32_6_661_zctr6a63/layout.json",
+    "images_dir": "/root/EH-LLM-vehbench-exp/parsed_docs/10_7779_jksnt_2012_32_6_661_zctr6a63/10_7779_jksnt_2012_32_6_661/auto/images",
+    "normalized_json": "/root/EH-LLM-vehbench-exp/normalized_docs/10_7779_jksnt_2012_32_6_661.json"
+  },
+  "data_lineage": {
+    "papers_jsonl_hash": "a8611675dcc67170a72ddf145ae48d1e",
+    "pipeline_step": "ingestion/mineru_runner.py"
+  }
+}

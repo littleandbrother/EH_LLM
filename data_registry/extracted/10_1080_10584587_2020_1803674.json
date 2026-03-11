@@ -1,0 +1,147 @@
+{
+  "metadata": {
+    "paper_id": "10_1080_10584587_2020_1803674",
+    "doi": "10.1080/10584587.2020.1803674",
+    "title": "Characterization and Optimization of Piezoelectric Bimorph Cantilever Structure for Ambient Vibration-Based Energy Harvesting Application",
+    "year": 2020,
+    "journal": null
+  },
+  "configuration": "cantilever",
+  "proof_mass": true,
+  "geometry": {
+    "length_mm": 21.0,
+    "width_mm": 4.0,
+    "thickness_mm": null,
+    "substrate_thickness_um": 40.0,
+    "piezo_thickness_um": 60.0,
+    "tip_mass_g": null,
+    "diameter_mm": null
+  },
+  "excitation": {
+    "type": "vibration",
+    "frequency_Hz": 90.954,
+    "acceleration_g": 1.0,
+    "displacement_mm": null,
+    "motion_source": null
+  },
+  "load": {
+    "load_resistance_ohm": 4000000.0
+  },
+  "output": {
+    "resonant_frequency_Hz": 90.954,
+    "output_power_W": 0.00131,
+    "open_circuit_voltage_V": null,
+    "short_circuit_current_A": null,
+    "bandwidth_Hz": null
+  },
+  "evidence": {
+    "configuration": {
+      "quote": "Characterization and Optimization of Piezoelectric Bimorph Cantilever Structure",
+      "section": "title",
+      "source_type": "title"
+    },
+    "proof_mass": {
+      "quote": "addition of proof mass to increase the strain",
+      "section": "1. Introduction",
+      "source_type": "section"
+    },
+    "geometry": {
+      "length_mm": {
+        "quote": "length of the beam as 21 mm",
+        "section": "6. Conclusion",
+        "source_type": "section"
+      },
+      "width_mm": {
+        "quote": "Width of device 4",
+        "section": "3. Optimization of Cantilever Structure for Capturing Ambient Vibrations",
+        "source_type": "table"
+      },
+      "thickness_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "substrate_thickness_um": {
+        "quote": "0.04 mm for the substrate layer",
+        "section": "6. Conclusion",
+        "source_type": "section"
+      },
+      "piezo_thickness_um": {
+        "quote": "0.06 mm for piezoelectric layer",
+        "section": "6. Conclusion",
+        "source_type": "section"
+      },
+      "tip_mass_g": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "diameter_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      }
+    },
+    "excitation": {
+      "type": {
+        "quote": "Ambient Vibration-Based Energy Harvesting Application",
+        "section": "title",
+        "source_type": "title"
+      },
+      "frequency_Hz": {
+        "quote": "90.954",
+        "section": "4.2. Electrical Damping",
+        "source_type": "table"
+      },
+      "acceleration_g": {
+        "quote": "1",
+        "section": "4.2. Electrical Damping",
+        "source_type": "table"
+      },
+      "displacement_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "motion_source": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      }
+    },
+    "load": {
+      "load_resistance_ohm": {
+        "quote": "4 x 10^6",
+        "section": "4.2. Electrical Damping",
+        "source_type": "table"
+      }
+    },
+    "output": {
+      "resonant_frequency_Hz": {
+        "quote": "90.954",
+        "section": "4.2. Electrical Damping",
+        "source_type": "table"
+      },
+      "output_power_W": {
+        "quote": "1.31 mW",
+        "section": "ABSTRACT",
+        "source_type": "abstract"
+      },
+      "open_circuit_voltage_V": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "short_circuit_current_A": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "bandwidth_Hz": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      }
+    }
+  }
+}

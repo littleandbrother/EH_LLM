@@ -1,0 +1,147 @@
+{
+  "metadata": {
+    "paper_id": "10_1002_adfm_201801327",
+    "doi": "10.1002/adfm.201801327",
+    "title": "Strongly (001) Oriented Bimorph PZT Film on Metal Foils Grown by <i>rf</i>‐Sputtering for Wrist‐Worn Piezoelectric Energy Harvesters",
+    "year": 2018,
+    "journal": "Advanced Functional Materials"
+  },
+  "configuration": "cantilever",
+  "proof_mass": true,
+  "geometry": {
+    "length_mm": null,
+    "width_mm": null,
+    "thickness_mm": null,
+    "substrate_thickness_um": 50,
+    "piezo_thickness_um": 5.4,
+    "tip_mass_g": null,
+    "diameter_mm": null
+  },
+  "excitation": {
+    "type": "vibration",
+    "frequency_Hz": 250,
+    "acceleration_g": 0.15,
+    "displacement_mm": null,
+    "motion_source": null
+  },
+  "load": {
+    "load_resistance_ohm": 17000
+  },
+  "output": {
+    "resonant_frequency_Hz": 250,
+    "output_power_W": 0.0012,
+    "open_circuit_voltage_V": 6.6,
+    "short_circuit_current_A": null,
+    "bandwidth_Hz": null
+  },
+  "evidence": {
+    "configuration": {
+      "quote": "six trapezoidal cantilever beams",
+      "section": "2.2. Characterization of Wrist-Worn Piezoelectric Energy Harvesters",
+      "source_type": "section"
+    },
+    "proof_mass": {
+      "quote": "Without a proof mass (the neodymium magnet)",
+      "section": "2.2. Characterization of Wrist-Worn Piezoelectric Energy Harvesters",
+      "source_type": "section"
+    },
+    "geometry": {
+      "length_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "width_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "thickness_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "substrate_thickness_um": {
+        "quote": "Ni foils were 50 μm in thickness",
+        "section": "2.1. Characterization of Bimorph PZT Films on Ni Foil",
+        "source_type": "section"
+      },
+      "piezo_thickness_um": {
+        "quote": "5.4 μm thick bimorph PZT layers",
+        "section": "2.1. Characterization of Bimorph PZT Films on Ni Foil",
+        "source_type": "section"
+      },
+      "tip_mass_g": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "diameter_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      }
+    },
+    "excitation": {
+      "type": {
+        "quote": "shaken at 0.15 G excitation",
+        "section": "2.2. Characterization of Wrist-Worn Piezoelectric Energy Harvesters",
+        "source_type": "section"
+      },
+      "frequency_Hz": {
+        "quote": "resonance frequency (250 Hz)",
+        "section": "2.2. Characterization of Wrist-Worn Piezoelectric Energy Harvesters",
+        "source_type": "section"
+      },
+      "acceleration_g": {
+        "quote": "0.15 G excitation",
+        "section": "2.2. Characterization of Wrist-Worn Piezoelectric Energy Harvesters",
+        "source_type": "section"
+      },
+      "displacement_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "motion_source": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      }
+    },
+    "load": {
+      "load_resistance_ohm": {
+        "quote": "load resistance of 17 kΩ",
+        "section": "2.2. Characterization of Wrist-Worn Piezoelectric Energy Harvesters",
+        "source_type": "section"
+      }
+    },
+    "output": {
+      "resonant_frequency_Hz": {
+        "quote": "resonance frequency (250 Hz)",
+        "section": "2.2. Characterization of Wrist-Worn Piezoelectric Energy Harvesters",
+        "source_type": "section"
+      },
+      "output_power_W": {
+        "quote": "For six beams, this enables 1.2 mW",
+        "section": "2.2. Characterization of Wrist-Worn Piezoelectric Energy Harvesters",
+        "source_type": "section"
+      },
+      "open_circuit_voltage_V": {
+        "quote": "open circuit voltage (blue line) is up to 6.6 V_pk-pk",
+        "section": "2.2. Characterization of Wrist-Worn Piezoelectric Energy Harvesters",
+        "source_type": "section"
+      },
+      "short_circuit_current_A": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "bandwidth_Hz": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      }
+    }
+  }
+}

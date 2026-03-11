@@ -1,0 +1,147 @@
+{
+  "metadata": {
+    "paper_id": "10_4313_jkem_2011_24_5_416",
+    "doi": "10.4313/jkem.2011.24.5.416",
+    "title": "A Study on Energy Harvester with Cantilever Structure Using PZT Piezoelectric Material",
+    "year": 2011,
+    "journal": "Journal of the Korean Institute of Electrical and Electronic Material Engineers"
+  },
+  "configuration": "cantilever",
+  "proof_mass": false,
+  "geometry": {
+    "length_mm": 7,
+    "width_mm": 3,
+    "thickness_mm": 0.03,
+    "substrate_thickness_um": 2,
+    "piezo_thickness_um": 30,
+    "tip_mass_g": null,
+    "diameter_mm": null
+  },
+  "excitation": {
+    "type": "vibration",
+    "frequency_Hz": 900,
+    "acceleration_g": 1,
+    "displacement_mm": null,
+    "motion_source": "shaker"
+  },
+  "load": {
+    "load_resistance_ohm": null
+  },
+  "output": {
+    "resonant_frequency_Hz": 900,
+    "output_power_W": 3.7e-05,
+    "open_circuit_voltage_V": null,
+    "short_circuit_current_A": null,
+    "bandwidth_Hz": null
+  },
+  "evidence": {
+    "configuration": {
+      "quote": "vibration-driven MEMS lead zirconate titanate (PZT) cantilever device",
+      "section": "Abstract",
+      "source_type": "abstract"
+    },
+    "proof_mass": {
+      "quote": "The PZT cantilever based energy harvester with the dimension of 7 mm x 3 mm x 0.03 mm is fabricated",
+      "section": "Abstract",
+      "source_type": "abstract"
+    },
+    "geometry": {
+      "length_mm": {
+        "quote": "7 mm",
+        "section": "Abstract",
+        "source_type": "abstract"
+      },
+      "width_mm": {
+        "quote": "3 mm",
+        "section": "Abstract",
+        "source_type": "abstract"
+      },
+      "thickness_mm": {
+        "quote": "0.03 mm",
+        "section": "Abstract",
+        "source_type": "abstract"
+      },
+      "substrate_thickness_um": {
+        "quote": "2 um",
+        "section": "2.3 제작공정",
+        "source_type": "section"
+      },
+      "piezo_thickness_um": {
+        "quote": "30um 두께의 PZT",
+        "section": "2.3 제작공정",
+        "source_type": "section"
+      },
+      "tip_mass_g": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "diameter_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      }
+    },
+    "excitation": {
+      "type": {
+        "quote": "vibration-driven",
+        "section": "Abstract",
+        "source_type": "abstract"
+      },
+      "frequency_Hz": {
+        "quote": "900 Hz",
+        "section": "Abstract",
+        "source_type": "abstract"
+      },
+      "acceleration_g": {
+        "quote": "1 g acceleration",
+        "section": "Abstract",
+        "source_type": "abstract"
+      },
+      "displacement_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "motion_source": {
+        "quote": "가진기를 통해",
+        "section": "3.1 가진기를 이용한 에너지 하베스팅",
+        "source_type": "section"
+      }
+    },
+    "load": {
+      "load_resistance_ohm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      }
+    },
+    "output": {
+      "resonant_frequency_Hz": {
+        "quote": "900 Hz",
+        "section": "Abstract",
+        "source_type": "abstract"
+      },
+      "output_power_W": {
+        "quote": "37 uW output power",
+        "section": "Abstract",
+        "source_type": "abstract"
+      },
+      "open_circuit_voltage_V": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "short_circuit_current_A": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "bandwidth_Hz": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      }
+    }
+  }
+}

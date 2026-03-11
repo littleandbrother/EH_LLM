@@ -1,0 +1,28 @@
+{
+  "paper_id": "10_1117_12_2219228",
+  "doi": "10.1117/12.2219228",
+  "title": "Fatigue study and improve reliability of cantilever type micro piezoelectric energy harvesters reinforced with flexible adhesive conductive tape",
+  "source_apis": [
+    "both"
+  ],
+  "pdf_url": "",
+  "pdf_local_path": "data_registry/raw_stage04_paper_pdf_cleaned/10_1117_12_2219228.pdf",
+  "processing": {
+    "tool": "MinerU",
+    "version": "python -m mineru.cli.client, version 2.7.6",
+    "timestamp": "2026-03-10T10:29:48.885810+00:00",
+    "duration_s": 77.05,
+    "success": true,
+    "error": ""
+  },
+  "outputs": {
+    "content_md": "/root/EH-LLM-vehbench-exp/parsed_docs/10_1117_12_2219228_zr9o65gl/content.md",
+    "layout_json": "/root/EH-LLM-vehbench-exp/parsed_docs/10_1117_12_2219228_zr9o65gl/layout.json",
+    "images_dir": "/root/EH-LLM-vehbench-exp/parsed_docs/10_1117_12_2219228_zr9o65gl/10_1117_12_2219228/auto/images",
+    "normalized_json": "/root/EH-LLM-vehbench-exp/normalized_docs/10_1117_12_2219228.json"
+  },
+  "data_lineage": {
+    "papers_jsonl_hash": "ef17a2680f7e0a636538ac63b0fa223f",
+    "pipeline_step": "ingestion/mineru_runner.py"
+  }
+}

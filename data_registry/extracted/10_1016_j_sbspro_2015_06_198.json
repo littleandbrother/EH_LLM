@@ -1,0 +1,147 @@
+{
+  "metadata": {
+    "paper_id": "10_1016_j_sbspro_2015_06_198",
+    "doi": "10.1016/j.sbspro.2015.06.198",
+    "title": "Micro-Electro-Mechanical System (MEMS)-Based Piezoelectric Energy Harvester for Ambient Vibrations",
+    "year": 2015,
+    "journal": "Procedia - Social and Behavioral Sciences"
+  },
+  "configuration": "array",
+  "proof_mass": true,
+  "geometry": {
+    "length_mm": 2.45,
+    "width_mm": 0.45,
+    "thickness_mm": 0.0112,
+    "substrate_thickness_um": 10,
+    "piezo_thickness_um": null,
+    "tip_mass_g": null,
+    "diameter_mm": null
+  },
+  "excitation": {
+    "type": "vibration",
+    "frequency_Hz": 68.5,
+    "acceleration_g": 1.3,
+    "displacement_mm": 6.2,
+    "motion_source": "ambient vibrations"
+  },
+  "load": {
+    "load_resistance_ohm": 20100
+  },
+  "output": {
+    "resonant_frequency_Hz": 68.5,
+    "output_power_W": 6.8e-06,
+    "open_circuit_voltage_V": null,
+    "short_circuit_current_A": null,
+    "bandwidth_Hz": 3
+  },
+  "evidence": {
+    "configuration": {
+      "quote": "arrayed cantilever-based MEMS energy harvester",
+      "section": "Abstract",
+      "source_type": "abstract"
+    },
+    "proof_mass": {
+      "quote": "Proof mass | 1500 | 780 | 480",
+      "section": "3.1. Materials declaration of single cantilever",
+      "source_type": "table"
+    },
+    "geometry": {
+      "length_mm": {
+        "quote": "Beam | 2450 | 450 | 11.2",
+        "section": "3.1. Materials declaration of single cantilever",
+        "source_type": "table"
+      },
+      "width_mm": {
+        "quote": "Beam | 2450 | 450 | 11.2",
+        "section": "3.1. Materials declaration of single cantilever",
+        "source_type": "table"
+      },
+      "thickness_mm": {
+        "quote": "Beam | 2450 | 450 | 11.2",
+        "section": "3.1. Materials declaration of single cantilever",
+        "source_type": "table"
+      },
+      "substrate_thickness_um": {
+        "quote": "thicknesses of beam silicon layer... 10 um",
+        "section": "3.2. Process Implementation",
+        "source_type": "section"
+      },
+      "piezo_thickness_um": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "tip_mass_g": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "diameter_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      }
+    },
+    "excitation": {
+      "type": {
+        "quote": "ambient vibration excitation",
+        "section": "Abstract",
+        "source_type": "abstract"
+      },
+      "frequency_Hz": {
+        "quote": "frequency band of 67 to 70 Hz",
+        "section": "Abstract",
+        "source_type": "abstract"
+      },
+      "acceleration_g": {
+        "quote": "base acceleration of 0.2 to 1.3 g",
+        "section": "Abstract",
+        "source_type": "abstract"
+      },
+      "displacement_mm": {
+        "quote": "displacement swing between 4200 um to 6200 um",
+        "section": "4.1. Direct harmonic analysis",
+        "source_type": "section"
+      },
+      "motion_source": {
+        "quote": "ambient vibrations",
+        "section": "Abstract",
+        "source_type": "abstract"
+      }
+    },
+    "load": {
+      "load_resistance_ohm": {
+        "quote": "20.1 k-ohms load",
+        "section": "Abstract",
+        "source_type": "abstract"
+      }
+    },
+    "output": {
+      "resonant_frequency_Hz": {
+        "quote": "frequency band of 67 to 70 Hz",
+        "section": "Abstract",
+        "source_type": "abstract"
+      },
+      "output_power_W": {
+        "quote": "output power of 6.8 uW",
+        "section": "Abstract",
+        "source_type": "abstract"
+      },
+      "open_circuit_voltage_V": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "short_circuit_current_A": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "bandwidth_Hz": {
+        "quote": "frequency band of 67 to 70 Hz",
+        "section": "Abstract",
+        "source_type": "abstract"
+      }
+    }
+  }
+}

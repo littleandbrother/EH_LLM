@@ -1,0 +1,28 @@
+{
+  "paper_id": "10_1016_j_enconman_2021_113980",
+  "doi": "10.1016/j.enconman.2021.113980",
+  "title": "Development of a novel non-contact piezoelectric wind energy harvester excited by vortex-induced vibration",
+  "source_apis": [
+    "both"
+  ],
+  "pdf_url": "",
+  "pdf_local_path": "data_registry/raw_stage04_paper_pdf_cleaned/10_1016_j_enconman_2021_113980.pdf",
+  "processing": {
+    "tool": "MinerU",
+    "version": "python -m mineru.cli.client, version 2.7.6",
+    "timestamp": "2026-03-10T09:26:18.684698+00:00",
+    "duration_s": 121.52,
+    "success": true,
+    "error": ""
+  },
+  "outputs": {
+    "content_md": "/root/EH-LLM-vehbench-exp/parsed_docs/10_1016_j_enconman_2021_113980_3w6f02ud/content.md",
+    "layout_json": "/root/EH-LLM-vehbench-exp/parsed_docs/10_1016_j_enconman_2021_113980_3w6f02ud/layout.json",
+    "images_dir": "/root/EH-LLM-vehbench-exp/parsed_docs/10_1016_j_enconman_2021_113980_3w6f02ud/10_1016_j_enconman_2021_113980/auto/images",
+    "normalized_json": "/root/EH-LLM-vehbench-exp/normalized_docs/10_1016_j_enconman_2021_113980.json"
+  },
+  "data_lineage": {
+    "papers_jsonl_hash": "ab044f14dbccf888c19e7974b2b4f09a",
+    "pipeline_step": "ingestion/mineru_runner.py"
+  }
+}

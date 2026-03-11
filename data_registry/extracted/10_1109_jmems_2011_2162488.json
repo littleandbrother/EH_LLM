@@ -1,0 +1,147 @@
+{
+  "metadata": {
+    "paper_id": "10_1109_jmems_2011_2162488",
+    "doi": "10.1109/jmems.2011.2162488",
+    "title": "Piezoelectric MEMS Energy Harvester for Low-Frequency Vibrations With Wideband Operation Range and Steadily Increased Output Power",
+    "year": 2011,
+    "journal": "Journal of Microelectromechanical Systems"
+  },
+  "configuration": "cantilever",
+  "proof_mass": true,
+  "geometry": {
+    "length_mm": 3,
+    "width_mm": 5,
+    "thickness_mm": 0.005,
+    "substrate_thickness_um": 5,
+    "piezo_thickness_um": 3,
+    "tip_mass_g": null,
+    "diameter_mm": null
+  },
+  "excitation": {
+    "type": "vibration",
+    "frequency_Hz": 36,
+    "acceleration_g": 1.0,
+    "displacement_mm": null,
+    "motion_source": null
+  },
+  "load": {
+    "load_resistance_ohm": 330000
+  },
+  "output": {
+    "resonant_frequency_Hz": 36,
+    "output_power_W": 5.13e-08,
+    "open_circuit_voltage_V": null,
+    "short_circuit_current_A": null,
+    "bandwidth_Hz": 17
+  },
+  "evidence": {
+    "configuration": {
+      "quote": "piezoelectric energy harvesting cantilever",
+      "section": "Piezoelectric MEMS Energy Harvester for Low-Frequency Vibrations With Wideband Operation Range and Steadily Increased Output Power",
+      "source_type": "abstract"
+    },
+    "proof_mass": {
+      "quote": "silicon proof mass",
+      "section": "Piezoelectric MEMS Energy Harvester for Low-Frequency Vibrations With Wideband Operation Range and Steadily Increased Output Power",
+      "source_type": "abstract"
+    },
+    "geometry": {
+      "length_mm": {
+        "quote": "silicon supporting beam 3 mm long",
+        "section": "A. Design and Configuration",
+        "source_type": "section"
+      },
+      "width_mm": {
+        "quote": "5 mm wide",
+        "section": "A. Design and Configuration",
+        "source_type": "section"
+      },
+      "thickness_mm": {
+        "quote": "5 um thick",
+        "section": "A. Design and Configuration",
+        "source_type": "section"
+      },
+      "substrate_thickness_um": {
+        "quote": "Si structural layer of 5 um",
+        "section": "C. Fabrication Process and Assembly",
+        "source_type": "section"
+      },
+      "piezo_thickness_um": {
+        "quote": "3 um thick (100)-oriented PZT thin film layer",
+        "section": "C. Fabrication Process and Assembly",
+        "source_type": "section"
+      },
+      "tip_mass_g": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "diameter_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      }
+    },
+    "excitation": {
+      "type": {
+        "quote": "Vibrations",
+        "section": "Piezoelectric MEMS Energy Harvester for Low-Frequency Vibrations With Wideband Operation Range and Steadily Increased Output Power",
+        "source_type": "title"
+      },
+      "frequency_Hz": {
+        "quote": "resonant frequency of 36 Hz",
+        "section": "Piezoelectric MEMS Energy Harvester for Low-Frequency Vibrations With Wideband Operation Range and Steadily Increased Output Power",
+        "source_type": "abstract"
+      },
+      "acceleration_g": {
+        "quote": "input acceleration of 1.0 g",
+        "section": "Piezoelectric MEMS Energy Harvester for Low-Frequency Vibrations With Wideband Operation Range and Steadily Increased Output Power",
+        "source_type": "abstract"
+      },
+      "displacement_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "motion_source": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      }
+    },
+    "load": {
+      "load_resistance_ohm": {
+        "quote": "load resistance of 330 K Ohm",
+        "section": "V. EVALUATION AND DISCUSSION OF POWER GENERATION",
+        "source_type": "section"
+      }
+    },
+    "output": {
+      "resonant_frequency_Hz": {
+        "quote": "resonant frequency of 36 Hz",
+        "section": "Piezoelectric MEMS Energy Harvester for Low-Frequency Vibrations With Wideband Operation Range and Steadily Increased Output Power",
+        "source_type": "abstract"
+      },
+      "output_power_W": {
+        "quote": "output power increases gradually from 19.4 nW to 51.3 nW",
+        "section": "V. EVALUATION AND DISCUSSION OF POWER GENERATION",
+        "source_type": "section"
+      },
+      "open_circuit_voltage_V": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "short_circuit_current_A": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "bandwidth_Hz": {
+        "quote": "bandwidth widened to 17 Hz",
+        "section": "Piezoelectric MEMS Energy Harvester for Low-Frequency Vibrations With Wideband Operation Range and Steadily Increased Output Power",
+        "source_type": "abstract"
+      }
+    }
+  }
+}

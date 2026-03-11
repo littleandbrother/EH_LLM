@@ -1,0 +1,28 @@
+{
+  "paper_id": "10_1117_12_885861",
+  "doi": "10.1117/12.885861",
+  "title": "Modeling and analysis of a micromachined piezoelectric energy harvester stimulated by ambient random vibrations",
+  "source_apis": [
+    "both"
+  ],
+  "pdf_url": "",
+  "pdf_local_path": "data_registry/raw_stage04_paper_pdf_cleaned/10_1117_12_885861.pdf",
+  "processing": {
+    "tool": "MinerU",
+    "version": "python -m mineru.cli.client, version 2.7.6",
+    "timestamp": "2026-03-10T10:27:36.902037+00:00",
+    "duration_s": 73.91,
+    "success": true,
+    "error": ""
+  },
+  "outputs": {
+    "content_md": "/root/EH-LLM-vehbench-exp/parsed_docs/10_1117_12_885861_ncju_uar/content.md",
+    "layout_json": "/root/EH-LLM-vehbench-exp/parsed_docs/10_1117_12_885861_ncju_uar/layout.json",
+    "images_dir": "/root/EH-LLM-vehbench-exp/parsed_docs/10_1117_12_885861_ncju_uar/10_1117_12_885861/auto/images",
+    "normalized_json": "/root/EH-LLM-vehbench-exp/normalized_docs/10_1117_12_885861.json"
+  },
+  "data_lineage": {
+    "papers_jsonl_hash": "532261618647f89fb8a54580ade61b8f",
+    "pipeline_step": "ingestion/mineru_runner.py"
+  }
+}

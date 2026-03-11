@@ -1,0 +1,28 @@
+{
+  "paper_id": "10_1049_iet_cta_2011_0173",
+  "doi": "10.1049/iet-cta.2011.0173",
+  "title": "Efficient energy scavengers by flexible robot arm with non-uniform cross-section",
+  "source_apis": [
+    "both"
+  ],
+  "pdf_url": "http://hdl.handle.net/11376/1467",
+  "pdf_local_path": "data_registry/raw_stage04_paper_pdf_cleaned/10_1049_iet_cta_2011_0173.pdf",
+  "processing": {
+    "tool": "MinerU",
+    "version": "python -m mineru.cli.client, version 2.7.6",
+    "timestamp": "2026-03-10T10:27:05.961838+00:00",
+    "duration_s": 108.78,
+    "success": true,
+    "error": ""
+  },
+  "outputs": {
+    "content_md": "/root/EH-LLM-vehbench-exp/parsed_docs/10_1049_iet_cta_2011_0173_pefq3p_s/content.md",
+    "layout_json": "/root/EH-LLM-vehbench-exp/parsed_docs/10_1049_iet_cta_2011_0173_pefq3p_s/layout.json",
+    "images_dir": "/root/EH-LLM-vehbench-exp/parsed_docs/10_1049_iet_cta_2011_0173_pefq3p_s/10_1049_iet_cta_2011_0173/auto/images",
+    "normalized_json": "/root/EH-LLM-vehbench-exp/normalized_docs/10_1049_iet_cta_2011_0173.json"
+  },
+  "data_lineage": {
+    "papers_jsonl_hash": "bf92aefe0bcae25e7a5f58284236d6c1",
+    "pipeline_step": "ingestion/mineru_runner.py"
+  }
+}

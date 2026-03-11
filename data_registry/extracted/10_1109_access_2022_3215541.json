@@ -1,0 +1,147 @@
+{
+  "metadata": {
+    "paper_id": "10_1109_access_2022_3215541",
+    "doi": "10.1109/access.2022.3215541",
+    "title": "Contact and Non-Contact Dual-Piezoelectric Energy Harvesting System Driven by Cantilever Vibration",
+    "year": 2022,
+    "journal": "IEEE Access"
+  },
+  "configuration": "cantilever",
+  "proof_mass": true,
+  "geometry": {
+    "length_mm": 200,
+    "width_mm": 25,
+    "thickness_mm": 0.5,
+    "substrate_thickness_um": 500,
+    "piezo_thickness_um": 100,
+    "tip_mass_g": 16.3,
+    "diameter_mm": null
+  },
+  "excitation": {
+    "type": "vibration",
+    "frequency_Hz": 8.5,
+    "acceleration_g": 1.0,
+    "displacement_mm": null,
+    "motion_source": "vibration exciter"
+  },
+  "load": {
+    "load_resistance_ohm": 70000
+  },
+  "output": {
+    "resonant_frequency_Hz": 8.5,
+    "output_power_W": 0.01012,
+    "open_circuit_voltage_V": 43.67,
+    "short_circuit_current_A": null,
+    "bandwidth_Hz": null
+  },
+  "evidence": {
+    "configuration": {
+      "quote": "a dual-piezoelectric energy harvesting system with contact and non-contact characteristics was driven by a cantilever beam",
+      "section": "ABSTRACT",
+      "source_type": "abstract"
+    },
+    "proof_mass": {
+      "quote": "Proof mass ... Total mass (g) 16.3",
+      "section": "TABLE 1",
+      "source_type": "table"
+    },
+    "geometry": {
+      "length_mm": {
+        "quote": "200×25×0.5",
+        "section": "TABLE 1",
+        "source_type": "table"
+      },
+      "width_mm": {
+        "quote": "200×25×0.5",
+        "section": "TABLE 1",
+        "source_type": "table"
+      },
+      "thickness_mm": {
+        "quote": "200×25×0.5",
+        "section": "TABLE 1",
+        "source_type": "table"
+      },
+      "substrate_thickness_um": {
+        "quote": "200×25×0.5",
+        "section": "TABLE 1",
+        "source_type": "table"
+      },
+      "piezo_thickness_um": {
+        "quote": "72.4×25×0.1",
+        "section": "TABLE 1",
+        "source_type": "table"
+      },
+      "tip_mass_g": {
+        "quote": "Total mass (g) 16.3",
+        "section": "TABLE 1",
+        "source_type": "table"
+      },
+      "diameter_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      }
+    },
+    "excitation": {
+      "type": {
+        "quote": "driven by a cantilever-beam vibration",
+        "section": "ABSTRACT",
+        "source_type": "abstract"
+      },
+      "frequency_Hz": {
+        "quote": "frequency of 8.5 Hz",
+        "section": "IV. CONCLUSION",
+        "source_type": "section"
+      },
+      "acceleration_g": {
+        "quote": "under a gravitational acceleration of 1g",
+        "section": "ABSTRACT",
+        "source_type": "abstract"
+      },
+      "displacement_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "motion_source": {
+        "quote": "vibration exciter (TV51120-M)",
+        "section": "III. RESULTS AND DISCUSSION",
+        "source_type": "section"
+      }
+    },
+    "load": {
+      "load_resistance_ohm": {
+        "quote": "optimal load resistances were 70 and 30 kOhm",
+        "section": "III. RESULTS AND DISCUSSION",
+        "source_type": "section"
+      }
+    },
+    "output": {
+      "resonant_frequency_Hz": {
+        "quote": "frequency of 8.5 Hz",
+        "section": "IV. CONCLUSION",
+        "source_type": "section"
+      },
+      "output_power_W": {
+        "quote": "The peak power reached 10.12 mW under a gravitational acceleration of 1g",
+        "section": "ABSTRACT",
+        "source_type": "abstract"
+      },
+      "open_circuit_voltage_V": {
+        "quote": "The peak voltage of the main piezoelectric plate was 43.67 V",
+        "section": "III. RESULTS AND DISCUSSION",
+        "source_type": "section"
+      },
+      "short_circuit_current_A": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "bandwidth_Hz": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      }
+    }
+  }
+}

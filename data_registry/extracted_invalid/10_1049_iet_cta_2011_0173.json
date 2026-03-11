@@ -1,0 +1,249 @@
+{
+  "status": "invalid",
+  "doc_path": "/Users/depengsu/Desktop/paper_story_agnet/EH-LLM-vehbench-exp/normalized_docs/10_1049_iet_cta_2011_0173.json",
+  "doc_metadata": {
+    "paper_id": "10_1049_iet_cta_2011_0173",
+    "doi": "10.1049/iet-cta.2011.0173",
+    "title": "Efficient energy scavengers by flexible robot arm with non-uniform cross-section",
+    "year": 2012,
+    "journal": "IET Control Theory and Applications"
+  },
+  "errors": [
+    "output has no populated metric"
+  ],
+  "warnings": [
+    "excitation has no numeric condition"
+  ],
+  "record": {
+    "metadata": {
+      "paper_id": "10_1049_iet_cta_2011_0173",
+      "doi": "10.1049/iet-cta.2011.0173",
+      "title": "Efficient energy scavengers by flexible robot arm with non-uniform cross-section",
+      "year": 2012,
+      "journal": "IET Control Theory and Applications"
+    },
+    "configuration": "other",
+    "proof_mass": true,
+    "geometry": {
+      "length_mm": 100.0,
+      "width_mm": 65.4,
+      "thickness_mm": 3.175,
+      "substrate_thickness_um": 3175.0,
+      "piezo_thickness_um": null,
+      "tip_mass_g": 800.0,
+      "diameter_mm": null
+    },
+    "excitation": {
+      "type": "vibration",
+      "frequency_Hz": null,
+      "acceleration_g": null,
+      "displacement_mm": null,
+      "motion_source": "adjustable electronic shaker"
+    },
+    "load": {
+      "load_resistance_ohm": null
+    },
+    "output": {
+      "resonant_frequency_Hz": null,
+      "output_power_W": null,
+      "open_circuit_voltage_V": null,
+      "short_circuit_current_A": null,
+      "bandwidth_Hz": null
+    },
+    "evidence": {
+      "configuration": {
+        "quote": "we consider the motion of a two-link flexible arm with non-uniform cross-section",
+        "section": "Abstract",
+        "source_type": "abstract"
+      },
+      "proof_mass": {
+        "quote": "tip mass, kg mt1 = 0.800, mt2 = 0.0204",
+        "section": "4 Simulation results",
+        "source_type": "table"
+      },
+      "geometry": {
+        "length_mm": {
+          "quote": "length of links /1 = 0.1 m, l2 = 0.024 m",
+          "section": "4 Simulation results",
+          "source_type": "table"
+        },
+        "width_mm": {
+          "quote": "maximum height for tapering at the root of the link b = 0.0654 m",
+          "section": "4 Simulation results",
+          "source_type": "table"
+        },
+        "thickness_mm": {
+          "quote": "thickness of links, m 1 = 0.003175, C2 = 0.00238",
+          "section": "4 Simulation results",
+          "source_type": "table"
+        },
+        "substrate_thickness_um": {
+          "quote": "thickness of links, m 1 = 0.003175, C2 = 0.00238",
+          "section": "4 Simulation results",
+          "source_type": "table"
+        },
+        "piezo_thickness_um": {
+          "quote": null,
+          "section": null,
+          "source_type": null
+        },
+        "tip_mass_g": {
+          "quote": "tip mass, kg mt1 = 0.800, mt2 = 0.0204",
+          "section": "4 Simulation results",
+          "source_type": "table"
+        },
+        "diameter_mm": {
+          "quote": null,
+          "section": null,
+          "source_type": null
+        }
+      },
+      "excitation": {
+        "type": {
+          "quote": "external base acceleration which represents ambient vibration",
+          "section": "3 Energy scavenger design",
+          "source_type": "section"
+        },
+        "frequency_Hz": {
+          "quote": null,
+          "section": null,
+          "source_type": null
+        },
+        "acceleration_g": {
+          "quote": null,
+          "section": null,
+          "source_type": null
+        },
+        "displacement_mm": {
+          "quote": null,
+          "section": null,
+          "source_type": null
+        },
+        "motion_source": {
+          "quote": "Ambient vibration is provided with adjustable electronic shaker",
+          "section": "5 Experimental results",
+          "source_type": "section"
+        }
+      },
+      "load": {
+        "load_resistance_ohm": {
+          "quote": null,
+          "section": null,
+          "source_type": null
+        }
+      },
+      "output": {
+        "resonant_frequency_Hz": {
+          "quote": null,
+          "section": null,
+          "source_type": null
+        },
+        "output_power_W": {
+          "quote": null,
+          "section": null,
+          "source_type": null
+        },
+        "open_circuit_voltage_V": {
+          "quote": null,
+          "section": null,
+          "source_type": null
+        },
+        "short_circuit_current_A": {
+          "quote": null,
+          "section": null,
+          "source_type": null
+        },
+        "bandwidth_Hz": {
+          "quote": null,
+          "section": null,
+          "source_type": null
+        }
+      }
+    }
+  },
+  "llm_result": {
+    "ok": true,
+    "data": {
+      "configuration": "other",
+      "proof_mass": true,
+      "geometry": {
+        "length_mm": 100.0,
+        "width_mm": 65.4,
+        "thickness_mm": 3.175,
+        "substrate_thickness_um": 3175.0,
+        "pie piezo_thickness_um": null,
+        "tip_mass_g": 800.0,
+        "diameter_mm": null
+      },
+      "excitation": {
+        "type": "vibration",
+        "frequency_Hz": null,
+        "acceleration_g": null,
+        "displacement_mm": null,
+        "motion_source": "adjustable electronic shaker"
+      },
+      "load": {
+        "load_resistance_ohm": null
+      },
+      "output": {
+        "resonant_frequency_Hz": null,
+        "output_power_W": null,
+        "open_circuit_voltage_V": null,
+        "short_circuit_current_A": null,
+        "bandwidth_Hz": null
+      },
+      "evidence": {
+        "configuration": {
+          "quote": "we consider the motion of a two-link flexible arm with non-uniform cross-section",
+          "section": "Abstract",
+          "source_type": "abstract"
+        },
+        "proof_mass": {
+          "quote": "tip mass, kg mt1 = 0.800, mt2 = 0.0204",
+          "section": "4 Simulation results",
+          "source_type": "table"
+        },
+        "geometry": {
+          "length_mm": {
+            "quote": "length of links /1 = 0.1 m, l2 = 0.024 m",
+            "section": "4 Simulation results",
+            "source_type": "table"
+          },
+          "width_mm": {
+            "quote": "maximum height for tapering at the root of the link b = 0.0654 m",
+            "section": "4 Simulation results",
+            "source_type": "table"
+          },
+          "thickness_mm": {
+            "quote": "thickness of links, m 1 = 0.003175, C2 = 0.00238",
+            "section": "4 Simulation results",
+            "source_type": "table"
+          },
+          "substrate_thickness_um": {
+            "quote": "thickness of links, m 1 = 0.003175, C2 = 0.00238",
+            "section": "4 Simulation results",
+            "source_type": "table"
+          },
+          "tip_mass_g": {
+            "quote": "tip mass, kg mt1 = 0.800, mt2 = 0.0204",
+            "section": "4 Simulation results",
+            "source_type": "table"
+          }
+        },
+        "excitation": {
+          "type": {
+            "quote": "external base acceleration which represents ambient vibration",
+            "section": "3 Energy scavenger design",
+            "source_type": "section"
+          },
+          "motion_source": {
+            "quote": "Ambient vibration is provided with adjustable electronic shaker",
+            "section": "5 Experimental results",
+            "source_type": "section"
+          }
+        }
+      }
+    },
+    "raw_output": "```json\n{\n  \"configuration\": \"other\",\n  \"proof_mass\": true,\n  \"geometry\": {\n    \"length_mm\": 100.0,\n    \"width_mm\": 65.4,\n    \"thickness_mm\": 3.175,\n    \"substrate_thickness_um\": 3175.0,\n    \"pie piezo_thickness_um\": null,\n    \"tip_mass_g\": 800.0,\n    \"diameter_mm\": null\n  },\n    \"excitation\": {\n    \"type\": \"vibration\",\n    \"frequency_Hz\": null,\n    \"acceleration_g\": null,\n    \"displacement_mm\": null,\n    \"motion_source\": \"adjustable electronic shaker\"\n  },\n  \"load\": {\n    \"load_resistance_ohm\": null\n  },\n  \"output\": {\n    \"resonant_frequency_Hz\": null,\n    \"output_power_W\": null,\n    \"open_circuit_voltage_V\": null,\n    \"short_circuit_current_A\": null,\n    \"bandwidth_Hz\": null\n  },\n  \"evidence\": {\n    \"configuration\": {\n      \"quote\": \"we consider the motion of a two-link flexible arm with non-uniform cross-section\",\n      \"section\": \"Abstract\",\n      \"source_type\": \"abstract\"\n    },\n    \"proof_mass\": {\n      \"quote\": \"tip mass, kg mt1 = 0.800, mt2 = 0.0204\",\n      \"section\": \"4 Simulation results\",\n      \"source_type\": \"table\"\n    },\n    \"geometry\": {\n      \"length_mm\": {\n        \"quote\": \"length of links /1 = 0.1 m, l2 = 0.024 m\",\n        \"section\": \"4 Simulation results\",\n        \"source_type\": \"table\"\n      },\n      \"width_mm\": {\n        \"quote\": \"maximum height for tapering at the root of the link b = 0.0654 m\",\n        \"section\": \"4 Simulation results\",\n        \"source_type\": \"table\"\n      },\n      \"thickness_mm\": {\n        \"quote\": \"thickness of links, m 1 = 0.003175, C2 = 0.00238\",\n        \"section\": \"4 Simulation results\",\n        \"source_type\": \"table\"\n      },\n      \"substrate_thickness_um\": {\n        \"quote\": \"thickness of links, m 1 = 0.003175, C2 = 0.00238\",\n        \"section\": \"4 Simulation results\",\n        \"source_type\": \"table\"\n      },\n      \"tip_mass_g\": {\n        \"quote\": \"tip mass, kg mt1 = 0.800, mt2 = 0.0204\",\n        \"section\": \"4 Simulation results\",\n        \"source_type\": \"table\"\n      }\n    },\n    \"excitation\": {\n      \"type\": {\n        \"quote\": \"external base acceleration which represents ambient vibration\",\n        \"section\": \"3 Energy scavenger design\",\n        \"source_type\": \"section\"\n      },\n      \"motion_source\": {\n        \"quote\": \"Ambient vibration is provided with adjustable electronic shaker\",\n        \"section\": \"5 Experimental results\",\n        \"source_type\": \"section\"\n      }\n    }\n  }\n}\n```"
+  }
+}

@@ -1,0 +1,147 @@
+{
+  "metadata": {
+    "paper_id": "10_1109_issbes_2015_7435914",
+    "doi": "10.1109/issbes.2015.7435914",
+    "title": "From ambient vibrations to green energy source: MEMS piezoelectric energy harvester for low frequency application",
+    "year": 2015,
+    "journal": "2015 IEEE Student Symposium in Biomedical Engineering & Sciences (ISSBES)"
+  },
+  "configuration": "array",
+  "proof_mass": true,
+  "geometry": {
+    "length_mm": 2.45,
+    "width_mm": 0.45,
+    "thickness_mm": 0.0112,
+    "substrate_thickness_um": 10.0,
+    "piezo_thickness_um": null,
+    "tip_mass_g": null,
+    "diameter_mm": null
+  },
+  "excitation": {
+    "type": "vibration",
+    "frequency_Hz": 68.5,
+    "acceleration_g": 1.3,
+    "displacement_mm": 6.0,
+    "motion_source": "ambient vibrations"
+  },
+  "load": {
+    "load_resistance_ohm": 20100.0
+  },
+  "output": {
+    "resonant_frequency_Hz": 68.5,
+    "output_power_W": 6.8e-06,
+    "open_circuit_voltage_V": null,
+    "short_circuit_current_A": null,
+    "bandwidth_Hz": 3.0
+  },
+  "evidence": {
+    "configuration": {
+      "quote": "arrayed cantilever-based MEMS energy harvester",
+      "section": "From Ambient Vibrations To Green Energy Source: MEMS Piezoelectric Energy Harvester for Low Frequency Application",
+      "source_type": "abstract"
+    },
+    "proof_mass": {
+      "quote": "Proof Mass 1500 780 450",
+      "section": "A. Materials Declaration Using Coventorware Approach",
+      "source_type": "table"
+    },
+    "geometry": {
+      "length_mm": {
+        "quote": "Beam 2450 450 11.2",
+        "section": "A. Materials Declaration Using Coventorware Approach",
+        "source_type": "table"
+      },
+      "width_mm": {
+        "quote": "Beam 2450 450 11.2",
+        "section": "A. Materials Declaration Using Coventorware Approach",
+        "source_type": "table"
+      },
+      "thickness_mm": {
+        "quote": "Beam 2450 450 11.2",
+        "section": "A. Materials Declaration Using Coventorware Approach",
+        "source_type": "table"
+      },
+      "substrate_thickness_um": {
+        "quote": "thicknesses of beam silicon layer ... to be 10 um",
+        "section": "B. Fabrication Process Implimentation",
+        "source_type": "section"
+      },
+      "piezo_thickness_um": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "tip_mass_g": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "diameter_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      }
+    },
+    "excitation": {
+      "type": {
+        "quote": "ambient vibration excitation",
+        "section": "From Ambient Vibrations To Green Energy Source: MEMS Piezoelectric Energy Harvester for Low Frequency Application",
+        "source_type": "abstract"
+      },
+      "frequency_Hz": {
+        "quote": "frequency band of 67 to 70 Hz",
+        "section": "From Ambient Vibrations To Green Energy Source: MEMS Piezoelectric Energy Harvester for Low Frequency Application",
+        "source_type": "abstract"
+      },
+      "acceleration_g": {
+        "quote": "base acceleration of 0.2 to 1.3 g",
+        "section": "From Ambient Vibrations To Green Energy Source: MEMS Piezoelectric Energy Harvester for Low Frequency Application",
+        "source_type": "abstract"
+      },
+      "displacement_mm": {
+        "quote": "Displacement of the designed broadband harvester is around 6000 micron",
+        "section": "A. Harmonic Analysis",
+        "source_type": "section"
+      },
+      "motion_source": {
+        "quote": "ambient vibrations",
+        "section": "From Ambient Vibrations To Green Energy Source: MEMS Piezoelectric Energy Harvester for Low Frequency Application",
+        "source_type": "abstract"
+      }
+    },
+    "load": {
+      "load_resistance_ohm": {
+        "quote": "20.1 k-ohms load",
+        "section": "From Ambient Vibrations To Green Energy Source: MEMS Piezoelectric Energy Harvester for Low Frequency Application",
+        "source_type": "abstract"
+      }
+    },
+    "output": {
+      "resonant_frequency_Hz": {
+        "quote": "frequency band of 67 to 70 Hz",
+        "section": "From Ambient Vibrations To Green Energy Source: MEMS Piezoelectric Energy Harvester for Low Frequency Application",
+        "source_type": "abstract"
+      },
+      "output_power_W": {
+        "quote": "output power of 6.8 uw",
+        "section": "From Ambient Vibrations To Green Energy Source: MEMS Piezoelectric Energy Harvester for Low Frequency Application",
+        "source_type": "abstract"
+      },
+      "open_circuit_voltage_V": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "short_circuit_current_A": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "bandwidth_Hz": {
+        "quote": "frequency band of 67 to 70 Hz",
+        "section": "From Ambient Vibrations To Green Energy Source: MEMS Piezoelectric Energy Harvester for Low Frequency Application",
+        "source_type": "abstract"
+      }
+    }
+  }
+}

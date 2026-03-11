@@ -1,0 +1,28 @@
+{
+  "paper_id": "10_3233_jae_140068",
+  "doi": "10.3233/jae-140068",
+  "title": "An infrasonic vibration energy harvester using pendulum impact",
+  "source_apis": [
+    "both"
+  ],
+  "pdf_url": "",
+  "pdf_local_path": "data_registry/raw_stage04_paper_pdf_cleaned/10_3233_jae_140068.pdf",
+  "processing": {
+    "tool": "MinerU",
+    "version": "python -m mineru.cli.client, version 2.7.6",
+    "timestamp": "2026-03-10T10:00:32.299765+00:00",
+    "duration_s": 70.18,
+    "success": true,
+    "error": ""
+  },
+  "outputs": {
+    "content_md": "/root/EH-LLM-vehbench-exp/parsed_docs/10_3233_jae_140068_qcwajr4u/content.md",
+    "layout_json": "/root/EH-LLM-vehbench-exp/parsed_docs/10_3233_jae_140068_qcwajr4u/layout.json",
+    "images_dir": "/root/EH-LLM-vehbench-exp/parsed_docs/10_3233_jae_140068_qcwajr4u/10_3233_jae_140068/auto/images",
+    "normalized_json": "/root/EH-LLM-vehbench-exp/normalized_docs/10_3233_jae_140068.json"
+  },
+  "data_lineage": {
+    "papers_jsonl_hash": "d8588b47f34d2138b1586e87370010d9",
+    "pipeline_step": "ingestion/mineru_runner.py"
+  }
+}

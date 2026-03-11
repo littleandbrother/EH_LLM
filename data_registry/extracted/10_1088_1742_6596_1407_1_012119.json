@@ -1,0 +1,147 @@
+{
+  "metadata": {
+    "paper_id": "10_1088_1742_6596_1407_1_012119",
+    "doi": "10.1088/1742-6596/1407/1/012119",
+    "title": "An Umbrella-Shaped Topology for Broadband MEMS Piezoelectric Vibration Energy Harvesting",
+    "year": 2019,
+    "journal": "Journal of Physics Conference Series"
+  },
+  "configuration": "other",
+  "proof_mass": true,
+  "geometry": {
+    "length_mm": 11,
+    "width_mm": 11,
+    "thickness_mm": null,
+    "substrate_thickness_um": 10,
+    "piezo_thickness_um": 0.5,
+    "tip_mass_g": null,
+    "diameter_mm": 6.5
+  },
+  "excitation": {
+    "type": "vibration",
+    "frequency_Hz": 1798.4,
+    "acceleration_g": 0.56,
+    "displacement_mm": null,
+    "motion_source": "mechanical shaker"
+  },
+  "load": {
+    "load_resistance_ohm": 70000
+  },
+  "output": {
+    "resonant_frequency_Hz": 1798.4,
+    "output_power_W": 0.000173,
+    "open_circuit_voltage_V": null,
+    "short_circuit_current_A": null,
+    "bandwidth_Hz": null
+  },
+  "evidence": {
+    "configuration": {
+      "quote": "umbrella-shaped topology",
+      "section": "Abstract",
+      "source_type": "abstract"
+    },
+    "proof_mass": {
+      "quote": "enclosed by a ring of proof mass",
+      "section": "Abstract",
+      "source_type": "abstract"
+    },
+    "geometry": {
+      "length_mm": {
+        "quote": "die itself is a square of 11 mm",
+        "section": "2. Design and device",
+        "source_type": "section"
+      },
+      "width_mm": {
+        "quote": "die itself is a square of 11 mm",
+        "section": "2. Design and device",
+        "source_type": "section"
+      },
+      "thickness_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "substrate_thickness_um": {
+        "quote": "10 μm doped Si process",
+        "section": "Abstract",
+        "source_type": "abstract"
+      },
+      "piezo_thickness_um": {
+        "quote": "0.5 μm AlN",
+        "section": "Abstract",
+        "source_type": "abstract"
+      },
+      "tip_mass_g": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "diameter_mm": {
+        "quote": "membrane had a radius of 3.25 mm",
+        "section": "2. Design and device",
+        "source_type": "section"
+      }
+    },
+    "excitation": {
+      "type": {
+        "quote": "MEMS vibration energy harvesting",
+        "section": "An Umbrella-Shaped Topology for Broadband MEMS Piezoelectric Vibration Energy Harvesting",
+        "source_type": "title"
+      },
+      "frequency_Hz": {
+        "quote": "1798.4 Hz",
+        "section": "3. Results",
+        "source_type": "section"
+      },
+      "acceleration_g": {
+        "quote": "0.56 g",
+        "section": "3. Results",
+        "source_type": "section"
+      },
+      "displacement_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "motion_source": {
+        "quote": "mechanical shaker",
+        "section": "3. Results",
+        "source_type": "section"
+      }
+    },
+    "load": {
+      "load_resistance_ohm": {
+        "quote": "in vacuum is 70 kΩ",
+        "section": "3. Results",
+        "source_type": "section"
+      }
+    },
+    "output": {
+      "resonant_frequency_Hz": {
+        "quote": "1798.4 Hz",
+        "section": "3. Results",
+        "source_type": "section"
+      },
+      "output_power_W": {
+        "quote": "173 μW",
+        "section": "3. Results",
+        "source_type": "section"
+      },
+      "open_circuit_voltage_V": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "short_circuit_current_A": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "bandwidth_Hz": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      }
+    }
+  }
+}

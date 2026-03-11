@@ -1,0 +1,147 @@
+{
+  "metadata": {
+    "paper_id": "10_3390_jcs4020039",
+    "doi": "10.3390/jcs4020039",
+    "title": "A Novel Design and Performance Results of An Electrically Tunable Piezoelectric Vibration Energy Harvester (TPVEH)",
+    "year": 2020,
+    "journal": "Journal of Composites Science"
+  },
+  "configuration": "cantilever",
+  "proof_mass": false,
+  "geometry": {
+    "length_mm": 225,
+    "width_mm": 35,
+    "thickness_mm": 0.64,
+    "substrate_thickness_um": 640,
+    "piezo_thickness_um": null,
+    "tip_mass_g": null,
+    "diameter_mm": null
+  },
+  "excitation": {
+    "type": "vibration",
+    "frequency_Hz": 5.9,
+    "acceleration_g": null,
+    "displacement_mm": null,
+    "motion_source": "electrodynamic exciter"
+  },
+  "load": {
+    "load_resistance_ohm": 1000
+  },
+  "output": {
+    "resonant_frequency_Hz": 5.9,
+    "output_power_W": 5.203e-05,
+    "open_circuit_voltage_V": null,
+    "short_circuit_current_A": null,
+    "bandwidth_Hz": 1.6
+  },
+  "evidence": {
+    "configuration": {
+      "quote": "One such type of harvester is designed using piezoelectric materials and using a cantilever type set-up.",
+      "section": "Abstract",
+      "source_type": "abstract"
+    },
+    "proof_mass": {
+      "quote": "The novel TPVEH consists of a cantilever beam on which MFC is bonded in the unimorph configuration, and an IPMC actuator integrated into the system.",
+      "section": "2.1. Materials Utilized and Design Concept of the Device",
+      "source_type": "section"
+    },
+    "geometry": {
+      "length_mm": {
+        "quote": "aluminum cantilever beam that consists of two sections, the 0.64 mm thick root section of 15 cm × 3.5 cm and the 0.37 mm thick extension of 10.5 cm × 2 cm, with an overlap of 3 cm.",
+        "section": "2.1. Materials Utilized and Design Concept of the Device",
+        "source_type": "section"
+      },
+      "width_mm": {
+        "quote": "aluminum cantilever beam that consists of two sections, the 0.64 mm thick root section of 15 cm × 3.5 cm and the 0.37 mm thick extension of 10.5 cm × 2 cm, with an overlap of 3 cm.",
+        "section": "2.1. Materials Utilized and Design Concept of the Device",
+        "source_type": "section"
+      },
+      "thickness_mm": {
+        "quote": "aluminum cantilever beam that consists of two sections, the 0.64 mm thick root section of 15 cm × 3.5 cm and the 0.37 mm thick extension of 10.5 cm × 2 cm, with an overlap of 3 cm.",
+        "section": "2.1. Materials Utilized and Design Concept of the Device",
+        "source_type": "section"
+      },
+      "substrate_thickness_um": {
+        "quote": "aluminum cantilever beam that consists of two sections, the 0.64 mm thick root section of 15 cm × 3.5 cm and the 0.37 mm thick extension of 10.5 cm × 2 cm, with an overlap of 3 cm.",
+        "section": "2.1. Materials Utilized and Design Concept of the Device",
+        "source_type": "section"
+      },
+      "piezo_thickness_um": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "tip_mass_g": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "diameter_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      }
+    },
+    "excitation": {
+      "type": {
+        "quote": "utilize the ambient vibration",
+        "section": "Abstract",
+        "source_type": "abstract"
+      },
+      "frequency_Hz": {
+        "quote": "frequency shift from 5.9 Hz to 8 Hz",
+        "section": "Abstract",
+        "source_type": "abstract"
+      },
+      "acceleration_g": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "displacement_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "motion_source": {
+        "quote": "The cantilever was subjected to vibration at point C using an electrodynamic exciter.",
+        "section": "2.1. Materials Utilized and Design Concept of the Device",
+        "source_type": "section"
+      }
+    },
+    "load": {
+      "load_resistance_ohm": {
+        "quote": "incorporating a load resistor of 1 K Ohm",
+        "section": "2.3. Conduction of Experiments",
+        "source_type": "section"
+      }
+    },
+    "output": {
+      "resonant_frequency_Hz": {
+        "quote": "frequency shift from 5.9 Hz to 8 Hz",
+        "section": "Abstract",
+        "source_type": "abstract"
+      },
+      "output_power_W": {
+        "quote": "Typical power output from the harvester is 52.03 µW",
+        "section": "Abstract",
+        "source_type": "abstract"
+      },
+      "open_circuit_voltage_V": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "short_circuit_current_A": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "bandwidth_Hz": {
+        "quote": "power output is maintained at the high value throughout a range of input frequencies spanning through 8.3 to 9.9 Hz.",
+        "section": "3.2. Results and Analysis: Configuration 2",
+        "source_type": "section"
+      }
+    }
+  }
+}

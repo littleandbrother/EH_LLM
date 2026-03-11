@@ -1,0 +1,147 @@
+{
+  "metadata": {
+    "paper_id": "10_5539_jmsr_v6n4p5",
+    "doi": "10.5539/jmsr.v6n4p5",
+    "title": "Modeling, Simulation and Optimization of Piezoelectric Bimorph Transducer for Broadband Vibration Energy Harvesting",
+    "year": 2017,
+    "journal": "Journal of Materials Science Research"
+  },
+  "configuration": "cantilever",
+  "proof_mass": null,
+  "geometry": {
+    "length_mm": 60,
+    "width_mm": 2,
+    "thickness_mm": 0.2,
+    "substrate_thickness_um": null,
+    "piezo_thickness_um": null,
+    "tip_mass_g": null,
+    "diameter_mm": null
+  },
+  "excitation": {
+    "type": "vibration",
+    "frequency_Hz": 53.4,
+    "acceleration_g": null,
+    "displacement_mm": null,
+    "motion_source": "surrounding environment"
+  },
+  "load": {
+    "load_resistance_ohm": 3000000
+  },
+  "output": {
+    "resonant_frequency_Hz": 53.4,
+    "output_power_W": 0.00173,
+    "open_circuit_voltage_V": null,
+    "short_circuit_current_A": null,
+    "bandwidth_Hz": null
+  },
+  "evidence": {
+    "configuration": {
+      "quote": "series bimorph configuration",
+      "section": "Abstract",
+      "source_type": "abstract"
+    },
+    "proof_mass": {
+      "quote": null,
+      "section": null,
+      "source_type": null
+    },
+    "geometry": {
+      "length_mm": {
+        "quote": "When the length is 60 mm",
+        "section": "5. Results and Discussion",
+        "source_type": "section"
+      },
+      "width_mm": {
+        "quote": "width is 2 mm",
+        "section": "5. Results and Discussion",
+        "source_type": "section"
+      },
+      "thickness_mm": {
+        "quote": "thickness is 0.2 mm",
+        "section": "5. Results and Discussion",
+        "source_type": "section"
+      },
+      "substrate_thickness_um": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "piezo_thickness_um": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "tip_mass_g": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "diameter_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      }
+    },
+    "excitation": {
+      "type": {
+        "quote": "vibration based energy generation",
+        "section": "Abstract",
+        "source_type": "abstract"
+      },
+      "frequency_Hz": {
+        "quote": "53.4 Hz",
+        "section": "Abstract",
+        "source_type": "abstract"
+      },
+      "acceleration_g": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "displacement_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "motion_source": {
+        "quote": "scavenge low frequency mechanical vibration from the surrounding environment",
+        "section": "2. Theoretical Analysis",
+        "source_type": "section"
+      }
+    },
+    "load": {
+      "load_resistance_ohm": {
+        "quote": "across a 3MΩ load",
+        "section": "Abstract",
+        "source_type": "abstract"
+      }
+    },
+    "output": {
+      "resonant_frequency_Hz": {
+        "quote": "53.4 Hz",
+        "section": "Abstract",
+        "source_type": "abstract"
+      },
+      "output_power_W": {
+        "quote": "1.73 mW",
+        "section": "Abstract",
+        "source_type": "abstract"
+      },
+      "open_circuit_voltage_V": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "short_circuit_current_A": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "bandwidth_Hz": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      }
+    }
+  }
+}

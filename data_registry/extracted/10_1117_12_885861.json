@@ -1,0 +1,147 @@
+{
+  "metadata": {
+    "paper_id": "10_1117_12_885861",
+    "doi": "10.1117/12.885861",
+    "title": "Modeling and analysis of a micromachined piezoelectric energy harvester stimulated by ambient random vibrations",
+    "year": 2011,
+    "journal": "Proceedings of SPIE, the International Society for Optical Engineering/Proceedings of SPIE"
+  },
+  "configuration": "cantilever",
+  "proof_mass": true,
+  "geometry": {
+    "length_mm": 1.31,
+    "width_mm": 3.0,
+    "thickness_mm": 0.045,
+    "substrate_thickness_um": null,
+    "piezo_thickness_um": 1.0,
+    "tip_mass_g": null,
+    "diameter_mm": null
+  },
+  "excitation": {
+    "type": "vibration",
+    "frequency_Hz": 1050.0,
+    "acceleration_g": 0.2,
+    "displacement_mm": null,
+    "motion_source": null
+  },
+  "load": {
+    "load_resistance_ohm": null
+  },
+  "output": {
+    "resonant_frequency_Hz": 1050.0,
+    "output_power_W": 0.0001,
+    "open_circuit_voltage_V": null,
+    "short_circuit_current_A": null,
+    "bandwidth_Hz": null
+  },
+  "evidence": {
+    "configuration": {
+      "quote": "Vibrating beam",
+      "section": "2. Device Design and Structures",
+      "source_type": "figure_caption"
+    },
+    "proof_mass": {
+      "quote": "mass of the proof-mass",
+      "section": "3. Electromechanical Modeling of the Device",
+      "source_type": "section"
+    },
+    "geometry": {
+      "length_mm": {
+        "quote": "Beam Length (mm) ... 1.31",
+        "section": "4. Results",
+        "source_type": "table"
+      },
+      "width_mm": {
+        "quote": "Beam Width (mm) ... 3.0",
+        "section": "4. Results",
+        "source_type": "table"
+      },
+      "thickness_mm": {
+        "quote": "Beam Thickness (μm) ... 45 ± 5",
+        "section": "4. Results",
+        "source_type": "table"
+      },
+      "substrate_thickness_um": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "piezo_thickness_um": {
+        "quote": "A thin film of AlN of $1 \\mu \\mathrm { m }$ thickness is used",
+        "section": "4. Results",
+        "source_type": "section"
+      },
+      "tip_mass_g": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "diameter_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      }
+    },
+    "excitation": {
+      "type": {
+        "quote": "ambient random vibrations",
+        "section": "Modeling and Analysis of a Micromachined Piezoelectric Energy Harvester Stimulated by Ambient Random Vibrations",
+        "source_type": "title"
+      },
+      "frequency_Hz": {
+        "quote": "Experimental Resonant Frequency(Hz) ... 1050",
+        "section": "4. Results",
+        "source_type": "table"
+      },
+      "acceleration_g": {
+        "quote": "Results at $0 . 2 \\mathrm { g } \\mathrm { m } / \\mathrm { s } ^ { { 2 } }$",
+        "section": "4. Results",
+        "source_type": "table"
+      },
+      "displacement_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "motion_source": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      }
+    },
+    "load": {
+      "load_resistance_ohm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      }
+    },
+    "output": {
+      "resonant_frequency_Hz": {
+        "quote": "Experimental Resonant Frequency(Hz) ... 1050",
+        "section": "4. Results",
+        "source_type": "table"
+      },
+      "output_power_W": {
+        "quote": "generate electrical power up to $1 0 0 \\mu \\mathrm { W }$",
+        "section": "Abstract",
+        "source_type": "abstract"
+      },
+      "open_circuit_voltage_V": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "short_circuit_current_A": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "bandwidth_Hz": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      }
+    }
+  }
+}

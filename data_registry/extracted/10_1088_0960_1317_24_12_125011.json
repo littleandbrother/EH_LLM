@@ -1,0 +1,147 @@
+{
+  "metadata": {
+    "paper_id": "10_1088_0960_1317_24_12_125011",
+    "doi": "10.1088/0960-1317/24/12/125011",
+    "title": "Investigation of folded spring structures for vibration-based piezoelectric energy harvesting",
+    "year": 2014,
+    "journal": "Journal of Micromechanics and Microengineering"
+  },
+  "configuration": "other",
+  "proof_mass": true,
+  "geometry": {
+    "length_mm": null,
+    "width_mm": null,
+    "thickness_mm": null,
+    "substrate_thickness_um": null,
+    "piezo_thickness_um": 0.24,
+    "tip_mass_g": null,
+    "diameter_mm": null
+  },
+  "excitation": {
+    "type": "vibration",
+    "frequency_Hz": 226.3,
+    "acceleration_g": null,
+    "displacement_mm": null,
+    "motion_source": null
+  },
+  "load": {
+    "load_resistance_ohm": null
+  },
+  "output": {
+    "resonant_frequency_Hz": 226.3,
+    "output_power_W": 6.905e-07,
+    "open_circuit_voltage_V": null,
+    "short_circuit_current_A": null,
+    "bandwidth_Hz": null
+  },
+  "evidence": {
+    "configuration": {
+      "quote": "fixed-fixed folded spring",
+      "section": "Abstract",
+      "source_type": "abstract"
+    },
+    "proof_mass": {
+      "quote": "hole was punched in the PCB for each proof mass",
+      "section": "4.2. Packaging of the energy harvesters",
+      "source_type": "section"
+    },
+    "geometry": {
+      "length_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "width_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "thickness_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "substrate_thickness_um": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "piezo_thickness_um": {
+        "quote": "PZT layer thickness of $0 . 2 4 \\mu \\mathrm { m }$",
+        "section": "Abstract",
+        "source_type": "abstract"
+      },
+      "tip_mass_g": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "diameter_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      }
+    },
+    "excitation": {
+      "type": {
+        "quote": "harvest energy from low frequency vibration",
+        "section": "Abstract",
+        "source_type": "abstract"
+      },
+      "frequency_Hz": {
+        "quote": "maximum power output achieved by the folded spring harvesters was $6 9 0 . 5 \\mathrm { n W }$ at $2 2 6 . 3 \\mathrm { H z }$",
+        "section": "Abstract",
+        "source_type": "abstract"
+      },
+      "acceleration_g": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "displacement_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "motion_source": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      }
+    },
+    "load": {
+      "load_resistance_ohm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      }
+    },
+    "output": {
+      "resonant_frequency_Hz": {
+        "quote": "maximum power output achieved by the folded spring harvesters was $6 9 0 . 5 \\mathrm { n W }$ at $2 2 6 . 3 \\mathrm { H z }$",
+        "section": "Abstract",
+        "source_type": "abstract"
+      },
+      "output_power_W": {
+        "quote": "maximum power output achieved by the folded spring harvesters was $6 9 0 . 5 \\mathrm { n W }$",
+        "section": "Abstract",
+        "source_type": "abstract"
+      },
+      "open_circuit_voltage_V": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "short_circuit_current_A": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "bandwidth_Hz": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      }
+    }
+  }
+}

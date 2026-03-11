@@ -1,0 +1,147 @@
+{
+  "metadata": {
+    "paper_id": "10_1002_admi_202300634",
+    "doi": "10.1002/admi.202300634",
+    "title": "Compositional Modification of Epitaxial Pb(Zr,Ti)O3 Thin Films for High‐Performance Piezoelectric Energy Harvesters",
+    "year": 2023,
+    "journal": "Advanced Materials Interfaces"
+  },
+  "configuration": "cantilever",
+  "proof_mass": true,
+  "geometry": {
+    "length_mm": 14,
+    "width_mm": 2,
+    "thickness_mm": 0.7275,
+    "substrate_thickness_um": 725,
+    "piezo_thickness_um": 2.5,
+    "tip_mass_g": 0.96,
+    "diameter_mm": null
+  },
+  "excitation": {
+    "type": "vibration",
+    "frequency_Hz": 427,
+    "acceleration_g": 0.306,
+    "displacement_mm": null,
+    "motion_source": "shaker"
+  },
+  "load": {
+    "load_resistance_ohm": 10000
+  },
+  "output": {
+    "resonant_frequency_Hz": 427,
+    "output_power_W": 1.45e-05,
+    "open_circuit_voltage_V": null,
+    "short_circuit_current_A": null,
+    "bandwidth_Hz": null
+  },
+  "evidence": {
+    "configuration": {
+      "quote": "unimorph cantilever method",
+      "section": "Compositional Modification of Epitaxial Pb(Zr,Ti)O3 Thin Films for High‐Performance Piezoelectric Energy Harvesters",
+      "source_type": "abstract"
+    },
+    "proof_mass": {
+      "quote": "A 0.96 g tungsten block as a proof mass was attached to the tip",
+      "section": "4. Experimental Section",
+      "source_type": "section"
+    },
+    "geometry": {
+      "length_mm": {
+        "quote": "The length and the width of the cantilevers were aimed as ≈ 14 and 2 mm respectively.",
+        "section": "4. Experimental Section",
+        "source_type": "section"
+      },
+      "width_mm": {
+        "quote": "The length and the width of the cantilevers were aimed as ≈ 14 and 2 mm respectively.",
+        "section": "4. Experimental Section",
+        "source_type": "section"
+      },
+      "thickness_mm": {
+        "quote": "Si substrate (725 µm)... Epitaxial PZT thin films with a thickness range of 2-3 µm",
+        "section": "4. Experimental Section",
+        "source_type": "section"
+      },
+      "substrate_thickness_um": {
+        "quote": "Si substrate (725 µm)",
+        "section": "4. Experimental Section",
+        "source_type": "section"
+      },
+      "piezo_thickness_um": {
+        "quote": "Epitaxial PZT thin films with a thickness range of 2-3 µm",
+        "section": "4. Experimental Section",
+        "source_type": "section"
+      },
+      "tip_mass_g": {
+        "quote": "A 0.96 g tungsten block as a proof mass was attached to the tip",
+        "section": "4. Experimental Section",
+        "source_type": "section"
+      },
+      "diameter_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      }
+    },
+    "excitation": {
+      "type": {
+        "quote": "vibrational acceleration",
+        "section": "2.2. Electrical Properties of Epitaxial PZT/Si",
+        "source_type": "section"
+      },
+      "frequency_Hz": {
+        "quote": "f_r decreased from 427 to 421 Hz",
+        "section": "2.3. Output Performance of PEH and its Relationship with Direct FOM",
+        "source_type": "section"
+      },
+      "acceleration_g": {
+        "quote": "acceleration was 3 m s^-2",
+        "section": "2.3. Output Performance of PEH and its Relationship with Direct FOM",
+        "source_type": "section"
+      },
+      "displacement_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "motion_source": {
+        "quote": "vibrated by a shaker",
+        "section": "4. Experimental Section",
+        "source_type": "section"
+      }
+    },
+    "load": {
+      "load_resistance_ohm": {
+        "quote": "R_L of 10 kΩ",
+        "section": "2.3. Output Performance of PEH and its Relationship with Direct FOM",
+        "source_type": "section"
+      }
+    },
+    "output": {
+      "resonant_frequency_Hz": {
+        "quote": "f_r decreased from 427 to 421 Hz",
+        "section": "2.3. Output Performance of PEH and its Relationship with Direct FOM",
+        "source_type": "section"
+      },
+      "output_power_W": {
+        "quote": "P_out of 14.5 µW",
+        "section": "2.3. Output Performance of PEH and its Relationship with Direct FOM",
+        "source_type": "section"
+      },
+      "open_circuit_voltage_V": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "short_circuit_current_A": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "bandwidth_Hz": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      }
+    }
+  }
+}

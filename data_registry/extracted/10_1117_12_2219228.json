@@ -1,0 +1,147 @@
+{
+  "metadata": {
+    "paper_id": "10_1117_12_2219228",
+    "doi": "10.1117/12.2219228",
+    "title": "Fatigue study and improve reliability of cantilever type micro piezoelectric energy harvesters reinforced with flexible adhesive conductive tape",
+    "year": 2016,
+    "journal": "Proceedings of SPIE, the International Society for Optical Engineering/Proceedings of SPIE"
+  },
+  "configuration": "cantilever",
+  "proof_mass": true,
+  "geometry": {
+    "length_mm": 8,
+    "width_mm": 6,
+    "thickness_mm": null,
+    "substrate_thickness_um": 60,
+    "piezo_thickness_um": 15,
+    "tip_mass_g": null,
+    "diameter_mm": null
+  },
+  "excitation": {
+    "type": "vibration",
+    "frequency_Hz": 110,
+    "acceleration_g": 0.5,
+    "displacement_mm": null,
+    "motion_source": "vibration speaker"
+  },
+  "load": {
+    "load_resistance_ohm": null
+  },
+  "output": {
+    "resonant_frequency_Hz": 110,
+    "output_power_W": 2.5e-05,
+    "open_circuit_voltage_V": null,
+    "short_circuit_current_A": null,
+    "bandwidth_Hz": 1.5
+  },
+  "evidence": {
+    "configuration": {
+      "quote": "The cantilever structure was designed",
+      "section": "2.1 Micro piezoelectric energy harvester fabrication",
+      "source_type": "section"
+    },
+    "proof_mass": {
+      "quote": "tungsten proof mass was mounted on the end-side of active beam",
+      "section": "2.1 Micro piezoelectric energy harvester fabrication",
+      "source_type": "section"
+    },
+    "geometry": {
+      "length_mm": {
+        "quote": "Whole active beam area was 6 mm x 8 mm",
+        "section": "2.1 Micro piezoelectric energy harvester fabrication",
+        "source_type": "section"
+      },
+      "width_mm": {
+        "quote": "Whole active beam area was 6 mm x 8 mm",
+        "section": "2.1 Micro piezoelectric energy harvester fabrication",
+        "source_type": "section"
+      },
+      "thickness_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "substrate_thickness_um": {
+        "quote": "substrate thickness of 60 um",
+        "section": "2.1 Micro piezoelectric energy harvester fabrication",
+        "source_type": "section"
+      },
+      "piezo_thickness_um": {
+        "quote": "PZT layer with thickness 15 um",
+        "section": "2.1 Micro piezoelectric energy harvester fabrication",
+        "source_type": "section"
+      },
+      "tip_mass_g": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "diameter_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      }
+    },
+    "excitation": {
+      "type": {
+        "quote": "acceleration vibration levels",
+        "section": "ABSTRACT",
+        "source_type": "abstract"
+      },
+      "frequency_Hz": {
+        "quote": "around 110 Hz",
+        "section": "2.2 Experiment setup",
+        "source_type": "section"
+      },
+      "acceleration_g": {
+        "quote": "25 uW at 0.5 g",
+        "section": "2.1 Micro piezoelectric energy harvester fabrication",
+        "source_type": "section"
+      },
+      "displacement_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "motion_source": {
+        "quote": "vibration speaker",
+        "section": "2.2 Experiment setup",
+        "source_type": "section"
+      }
+    },
+    "load": {
+      "load_resistance_ohm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      }
+    },
+    "output": {
+      "resonant_frequency_Hz": {
+        "quote": "around 110 Hz",
+        "section": "2.2 Experiment setup",
+        "source_type": "section"
+      },
+      "output_power_W": {
+        "quote": "25 uW at 0.5 g",
+        "section": "2.1 Micro piezoelectric energy harvester fabrication",
+        "source_type": "section"
+      },
+      "open_circuit_voltage_V": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "short_circuit_current_A": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "bandwidth_Hz": {
+        "quote": "frequency bandwidth increased from 1.5 Hz",
+        "section": "ABSTRACT",
+        "source_type": "abstract"
+      }
+    }
+  }
+}

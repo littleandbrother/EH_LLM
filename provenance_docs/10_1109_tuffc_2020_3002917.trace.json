@@ -1,0 +1,28 @@
+{
+  "paper_id": "10_1109_tuffc_2020_3002917",
+  "doi": "10.1109/tuffc.2020.3002917",
+  "title": "Axe-Head-Shaped Piezoelectric Energy Harvesters Designed for Base and Tip Excitation-Based Energy Scavenging",
+  "source_apis": [
+    "both"
+  ],
+  "pdf_url": "",
+  "pdf_local_path": "data_registry/raw_stage04_paper_pdf_cleaned/10_1109_tuffc_2020_3002917.pdf",
+  "processing": {
+    "tool": "MinerU",
+    "version": "python -m mineru.cli.client, version 2.7.6",
+    "timestamp": "2026-03-10T10:03:29.914404+00:00",
+    "duration_s": 101.13,
+    "success": true,
+    "error": ""
+  },
+  "outputs": {
+    "content_md": "/root/EH-LLM-vehbench-exp/parsed_docs/10_1109_tuffc_2020_3002917_69evmrjh/content.md",
+    "layout_json": "/root/EH-LLM-vehbench-exp/parsed_docs/10_1109_tuffc_2020_3002917_69evmrjh/layout.json",
+    "images_dir": "/root/EH-LLM-vehbench-exp/parsed_docs/10_1109_tuffc_2020_3002917_69evmrjh/10_1109_tuffc_2020_3002917/auto/images",
+    "normalized_json": "/root/EH-LLM-vehbench-exp/normalized_docs/10_1109_tuffc_2020_3002917.json"
+  },
+  "data_lineage": {
+    "papers_jsonl_hash": "83a8a392eebeb288bcb27c6f0d3bef35",
+    "pipeline_step": "ingestion/mineru_runner.py"
+  }
+}

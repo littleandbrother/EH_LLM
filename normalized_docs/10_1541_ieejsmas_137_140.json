@@ -1,0 +1,173 @@
+{
+  "paper_id": "10_1541_ieejsmas_137_140",
+  "doi": "10.1541/ieejsmas.137.140",
+  "title": "Micro-Watt Order Power Generation by Miniaturized Energy Harvester using Coatable PVDF Piezoelectric Thin Film",
+  "year": 2017,
+  "venue": "IEEJ Transactions on Sensors and Micromachines",
+  "authors": [
+    "Hiroki Takise",
+    "Yanpeng Chen",
+    "Tomokazu Takahashi",
+    "Masato Suzuki",
+    "Seiji Aoyagi"
+  ],
+  "citation_count": 3,
+  "sections": [
+    {
+      "heading": "塗布法により製膜可能な PVDF圧電膜を用いた小型振動発電デバイスによる $\\mu \\mathrm { W }$ オーダー $\\oslash$ 発電",
+      "level": 1,
+      "text": "非会員 瀧瀬 宏樹＊a) 非会員 陳 延鵬＊ 正 員 高橋 智一＊正 員 鈴木 昌人＊ 正 員 青柳 誠司＊"
+    },
+    {
+      "heading": "Micro-Watt Order Power Generation by Miniaturized Energy Harvester using Coatable PVDF Piezoelectric Thin Film",
+      "level": 1,
+      "text": "Hiroki Takise＊a), Non-member, Yanpeng Chen＊, Non-member, Tomokazu Takahashi＊, Member, Masato Suzuki＊, Member, Seiji Aoyagi＊, Member\n\n（2016 年 8 月 9 日受付，2016 年 9 月 13 日再受付）\n\nThis paper describes the fabrication and characterization of a vibration energy harvester (VEH) using polyvinylidene fluoride (PVDF) film which is solution based piezoelectric polymer. The PVDF film with thickness of $3 0 ~ { \\mu \\mathrm { m } }$ was coated on phosphor bronze cantilever (thickness: $1 0 0 \\mu \\mathrm { m }$ , length: $2 5 ~ \\mathrm { m m }$ , width: $1 5 \\mathrm { m m }$ ), and was polarized by applying electrical field. Then, Al thin film was deposited on the PVDF film as an upper electrode. When the fabricated VEH was vibrated by a vibration test system with the resonant frequency of $5 5 \\ : \\mathrm { H z }$ and acceleration of $1 7 \\mathrm { m } / \\mathrm { s } ^ { 2 }$ , maximum output power of $4 . 3 \\mu \\mathrm { W }$ was obtained.\n\nキーワード：圧電，PVDF，エナジーハーベステ $1 : 1 5$ ，振動発電，高分子溶液Keywords $:$ Piezoelectric, PVDF, Energy harvesting, Vibration power generation, Polymer solution"
+    },
+    {
+      "heading": "1. 緒 言",
+      "level": 1,
+      "text": "近年，周囲の環境に存在する低密度なエネルギーを電気エネルギーに変換して利用するエナジーハーベスティング技術が注目されている(1)(2)。エナジーハーベスティングが利用するエネルギー源としては太陽光，風力，熱エネルギー，振動エネルギーなどが挙げられる。この中でも，太陽電池が使用できない環境下，例えば車両や建築物内部，橋脚や高架道路の裏などでは，周囲に存在する振動から電気を取り出す振動型エナジーハーベスタ（Vibration Energy Harvester，VEH）の開発が進められている。VEH の主な発電方式としては，電磁誘導型，圧電型，静電型が挙げられる。これらの中で材料自身の歪により発電する圧電型のVEHは，他の発電方式より電気機械変換効率が高く，かつ構造が単純であるため小型化に適している(3)。圧電型 VEH の構造としては，金属または単結晶シリコン製の平面ばねの表面に圧電性の薄膜を堆積し，更にその先端に錘を付与したものが多くみられる(4)～(11)。このような機構においては，ばね構造の設計を工夫することで低周波数か $\\backsim$ 低加速度の振動でも発電可能であることも利点として挙げられる。\n\n従来研究としては，I. Kanno らが金属製のカンチレバー上に高い圧電特性を有するチタン酸ジルコン酸鉛（PZT）を形成した圧電型 VEH を作製している(6)～(10)。これらの報告によると，振動周波数が数百 $\\mathrm { H z }$ において $1 { \\sim } 1 7 \\mu \\mathrm { W } \\mathrm { ~ } \\mathcal { O } \\mathrm { ~ }$ 発電量が得られている。しかし，PZT は高い圧電性を有する一方で，人体に有害な鉛を含んでいること，および脆性材料であることから大きな歪が加えられた際に素子が破壊される危険性があることが実用上の問題となっている。\n\nそこで，我々は圧電性高分子材料であるポリフッ化ビニリデン（PVDF）を用いた圧電型 VEH を開発した。PVDF は高分子材料であるために大変形にも耐えることができる。また，有機溶媒に溶解させることで，塗布法により薄膜を形成することが可能である。塗布法により PVDF を製膜することのメリットは，MEMS プロセスとの整合性が高くなり，小型の発電デバイスの作製が容易になる点である。A.Toprak らは，単結晶シリコン製のカンチレバーと，その上に塗布した PVDF 薄膜を組み合わせた小型 VEH を作製，そ$\\oslash$ 特性を評価している(11)。ただし，この VEHの固有振動数は $1 0 7 4 \\mathrm { H z }$ であり，塗布型 PVDF 薄膜を利用し， $x > 1 0 0 \\mathrm { H z }$ 以下の低周波数に適した VEH については報告がない。\n\n本研究は低周波数の振動で発電するVEHを塗布法により製膜した PVDF を用いて作製することを目的として実施した。まず，塗布法により製膜した PVDF 膜 $\\textcircled{7}$ 圧電性を検証した。次に，ばね性の高いリン青銅を用いてカンチレバーを作製し，その上に塗布法により PVDF を製膜することでVEHを作製，その発電特性を評価した。結果， $\\mu \\mathrm { W }$ オーダーの発電量が得られた $\\oslash$ で本紙にて報告する。"
+    },
+    {
+      "heading": "2. 実 験",
+      "level": 1,
+      "text": "$\\langle 2 \\cdot 1 \\rangle$ PVDF 膜の作製 MEMS プロセスにおける代表的な塗布技術としてスピンコート法が挙げられる。しかし，本研究で使用する PVDF 溶液をスピンコート法により基板に塗布した場合，膜厚は ${ 5 \\sim } 1 0 \\ \\mu \\mathrm { m } \\ \\mathcal { O } \\mathcal { D }$ 範囲でしか制御できないことが確認された。本研究における PVDF 膜の厚さ$\\oslash$ 目標値が $3 0 { \\sim } 4 0 ~ \\mu \\mathrm { m }$ であ $\\textless$ たため，スピンコート法によって目的の厚さ $\\oslash$ PVDF を製膜することができなかった。\n\nそこで，本研究では PVDF 膜 $\\oslash$ 製膜方法としてバーコーティング法を採用した。バーコーティング法とは，バーコーターと呼ばれる専用の棒を用いて，溶液を引き伸ばして塗布する方法である。本手法の概略図を図1に示す。バーコーターの側面には，しばしば膜厚の均一化を目的とした溝が形成されている。本手法では，塗布時にスペーサーを用いてバーをスライドさせる高さを調節することで，広範囲に膜厚を制御可能である。また，塗布時間がスピンコート法と比較して短いことも利点として挙げられる。\n\nメチルエチルケトン（MEK）に $= 2 4 \\mathrm { w } \\% \\textcircled { \\mathcal { O } }$ 濃度で PVDF を溶解させたものを用いて塗布を実施した。使用したバーコーター（オールグッド社製，型番 $0 6 5 { - } 2 { - } 4 0 \\mu \\mathrm { m }$ ） $\\oslash$ 寸法は直径 $9 \\mathrm { m m }$ ，有効長さ $3 2 0 \\mathrm { m m }$ であ $\\boldsymbol { \\nabla }$ ，深さ $4 0 \\mu \\mathrm { m } \\emptyset$ 溝が形成されている。塗布工程においては，まず PVDF 溶液を基板上に滴下し，そ $\\oslash$ 後バーコーターにより溶液を基板全面に引き伸ばした。 $\\subset O$ とき，スペーサーを用いて基板とバーコーター $\\oslash$ 間隔を調整した。その後，ホットプレートを用いて基板を $9 0 \\mathrm { { } ^ { \\circ } C }$ ，10 分加熱し，溶媒を蒸発させた。得られた PVDF 膜 $\\oslash$ 厚さを測定した結果，PVDF膜厚はスペーサー$\\oslash$ 高さに対して直線的に増加すること，スペーサーを用いない場合は約 $5 \\mu \\mathrm { m }$ になることが分かった。また，スペーサーの枚数を増加させることにより最大で $5 0 ~ { \\mu \\mathrm { m } }$ まで膜厚を制御可能であることが確認された。ただし，膜厚が $3 0 ~ { \\mu \\mathrm { m } }$ より厚い場合は，膜厚 $\\oslash$ 面内均一性が低下し，うねりが発生する場合がみられた。そこで，以降の実験においては，すべての PVDF 膜の厚さを安定して製膜可能な範囲で最も厚い $3 0 \\mu \\mathrm { m }$ とした。\n\n![](images/b3c44f72dc7983346f0bd975ea3be431067d412b2b33e0e222f380b82d563be6.jpg)  \nFig. 1. Schematic illustration of bar coating method."
+    },
+    {
+      "heading": "〈2･2〉 コロナ分極と PVDF 膜の圧電定数の測定",
+      "level": 1,
+      "text": "製膜した PVDF 膜が圧電性を有しているかどうかを検証するために，そ $\\oslash$ 圧電定数 $d _ { 3 3 }$ を測定した。まず，幅 $3 0 \\mathrm { m m }$ ，長さ $4 0 \\ : \\mathrm { m m } \\ : \\mathcal { O } \\mathcal { O }$ 低抵抗シリコン基板（抵抗率 $0 . 0 2 \\Omega \\cdot \\mathrm { c m }$ 以下）上に，前節で述べたバーコーティング法を用いて厚さ $3 0 ~ { \\mu \\mathrm { m } }$ $\\oslash$ PVDF膜を形成した。次に，PVDF膜 $\\oslash$ 一端を剥離，切断し，露出した低抵抗 $\\therefore y = y$ 基板に導線を接続した。結果，導線接続処理後 $\\oslash$ PVDF 膜 $\\oslash$ 面積は $3 0 \\ \\mathrm { m m } \\times 3 0 \\ \\mathrm { m m }$ とな $\\textless$ た。\n\n試料作製後，PVDF膜を電界印加により分極させた。研究初期においては，PVDF膜上に電極を形成し，電極と基板の間に直接直流電圧を印加していたが，電極端部において放電現象が発生し，電界を印加できないという問題が頻発した。そこで，上部電極を形成せず，コロナ放電を利用してPVDF 膜表面に電荷を注入することで電界を印加した。この手法をコロナ分極法と呼称する。図 2 にコロナ分極の装置系の概略図を示す。コロナ分極の条件は，ニードル電極がPVDF膜の中央部に位置するようにし，電源からの印加電圧を $- 1 0 . 0 \\mathrm { k V }$ ，ニードル電極と試料間 $\\oslash$ 距離を $2 0 \\mathrm { m m }$ ，電圧印加時間を10 分間とした。コロナ分極法を利用した場合，放電に伴う問題も発生しなか $\\cdot \\supset$ たため，以降の実験ではすべてコロナ放電法を用いて分極処理を行った。なお，本研究では膜の延伸による PVDF 分子鎖 $\\oslash$ 配向制御等，分極を促進させるための処理は行っていない。\n\nコロナ分極後，PVDF 膜 $\\oslash$ 圧電定数 $d _ { 3 3 }$ をピエゾメーターシステム（PIEZOTEST 社）を用いて測定した。コロナ分極法において， $= - 1 \\dot { 1 } 0$ 電極直下である PVDF 膜中央部が最も電荷が打ち込まれやす $\\bigtriangleup$ ，中央から離れていくにつれて打ち込まれる電荷量が減少する。すなわち PVDF 膜に生じる内部電界は場所によって異なり，ニードル電極直下から離れるほど分極処理されない可能性がある。そこで，一回のコロナ分極で PVDF 膜 $\\oslash$ 分極処理可能な範囲を検証するため， $3 0 \\ : \\mathrm { m m } \\times 3 0 \\ : \\mathrm { m m } \\ : \\mathcal { O }$ PVDF 膜 $\\oslash$ 中央，すなわちコロナ放電におけるニードル電極 $\\oslash$ 真下を起点として，前後左右$\\ l 1 \\subset 3 \\ \\mathrm { m m } \\ O$ 間隔でピエゾメーターのプローブを移動させながら，各点における $d _ { 3 3 }$ を測定した。試料上の測定点の分布を図 3 (a) に示す。図上 $\\textcircled { 1 } \\textcircled { 1 } \\sim \\textcircled { 9 }$ ， $\\mathbf { A } { \\sim } \\mathrm { H } \\mathbf { \\Gamma } \\mathcal { O }$ 計 17 か所が測定個所である。測定結果を図3 (b) および表1 に示す。表1 より， $d _ { 3 3 } \\mathcal { O }$ 値は最も大きい点で $- 1 1 . 2 \\mathrm { p C } / \\mathrm { N }$ が得られた。ただし，図 3 (b) は $d _ { 3 3 } \\textcircled { \\mathcal { O } }$ 値が $- 8 \\ \\mathrm { p C / N }$ より大きい値であれば分極できているとして，各測定点で $\\oslash$ 分極成否を示したものである。 $\\subset O$ 結果よ $\\boldsymbol { \\nabla }$ ，一度 $\\oslash$ コロナ分極によって圧電性を付与可能な範囲はニードル電極直下を中心とした直径約$1 5 \\mathrm { m m } \\mathcal { O } )$ 円内であ $\\boldsymbol { \\nabla }$ ，そ $\\oslash$ 範囲外には十分な圧電性を付与\n\n![](images/7ec1a7c1bc6716e34b80061ab0a0ea3e196af71e925f4329bd68ff1c3bdaa0cf.jpg)  \nFig. 2. Schematic illustration of corona polarization.\n\n![](images/2f0fc15c345eae9a25efe75943f51c574e9ed4ec32980db179b93ac6cd716ba9.jpg)  \nFig. 3. (a) Measurement point of piezoelectric constant $d _ { 3 3 }$ (b) Result of success or failure of the corona polarization.\n\nTable 1. Measured piezoelectric constant $d _ { 3 3 }$ of the PVDF film after corona polarization.   \n\n<table><tr><td> 33 [pC/N]</td><td> 33 [pC/N]</td></tr><tr><td>① -9.93</td><td>A -5.59</td></tr><tr><td>2 -8.86</td><td>B -7.72</td></tr><tr><td>3 -10.7</td><td>C -8.01</td></tr><tr><td>④ -9.81</td><td>D -9.46</td></tr><tr><td>5 -6.89</td><td>E -10.6</td></tr><tr><td>6 -10.0</td><td>F -11.2</td></tr><tr><td>7 -8.85</td><td>G -11.1</td></tr><tr><td>8 -3.40</td><td>H -8.02</td></tr><tr><td>9 -3.43</td><td></td></tr></table>\n\nできないことが分かった。\n\n〈2･3〉 カンチレバー型デバイスの作製 厚さ $0 . 1 \\mathrm { m m }$ $\\oslash$ リン青銅製の薄板を切断してカンチレバー（長さ $3 5 \\mathrm { m m }$ ，幅 $1 5 \\mathrm { m m }$ ）を作製し，そ $\\oslash$ 上にバーコーティング法により厚さ $3 0 \\mu \\mathrm { m } \\emptyset$ PVDF 膜を形成，カンチレバー裏面に導線を接続した後にコロナ分極法により圧電性を付与した。ここで，PVDF $\\oslash$ 製膜条件，およびコロナ分極条件は前節と同一とした。ただし，一度のコロナ分極では，PVDF膜 $\\oslash$ 全面を分極することができないため， $5 \\mathrm { { m m } }$ ずつニードル電極の位置をずらしながら，合計 6 回コロナ分極を実施した。各分極処理におけるニードル電極 $\\oslash$ 位置を図 4 に示す。PVDF膜 $\\oslash$ 圧電定数を測定した結果，分極により膜全面において圧電性が確認された。測定された $d _ { 3 3 } \\mathcal { O }$ 平均値は，分極前は$- 0 . 8 7 \\mathrm { p C } / \\mathrm { N }$ であったものが，分極処理後には $- 8 . 4 4 \\mathrm { ~ p C } / \\mathrm { ~ N ~ } \\mathcal { E }$ なった。分極処理された PVDF 膜の一般的な圧電定数は $^ { - 1 0 }$ ${ \\sim } 2 0 \\mathrm { p C / N }$ であるといわれていることから(12)，このPVDF膜は十分に分極されているといえる。\n\n分極処理後，PVDF 膜上に DC スパッタ法により Al 電極（長さ $3 0 \\mathrm { m m }$ ，幅 $1 0 \\mathrm { m m }$ ，厚さ $0 . 3 \\mathrm { m m }$ ）を堆積させた。 $\\subset \\mathcal { O }$ Al 電極に導線を接続した後，カンチレバー $\\oslash$ 一端を治具で固定，その反対の端である自由端に試験質量（ $\\mathrm { \\Sigma } _ { m } = 0 . 2 \\mathrm { \\bf g } .$ ）を付与することによりVEHデバイスとした。治具固定後のカンチレバーおよびその上 $\\oslash$ Al 電極の有効長さはそれぞれ$2 5 ~ \\mathrm { m m }$ ， $2 2 \\mathrm { m m }$ とした。作製したVEHデバイスの概略図および写真を図 5 に，各寸法を表 2 にそれぞれ示す。\n\nまた，作製したVEHデバイスの静電容量をLCRメーター（Agilent Technology 社製，E4980A）を用いて測定した。使用したLCRメーターの測定可能周波数は $1 ~ \\mathrm { k H z } \\sim 2 ~ \\mathrm { M H z }$ であるので，その範囲内で周波数を変化させて静電容量を測定した。測定結果を図6に示す。周波数 $1 \\mathrm { k H z }$ において，デバイスの静電容量は $1 . 6 \\mathrm { n F }$ であった。また， $\\subset \\mathcal { O }$ 静電容量から算出された PVDF $\\oslash$ 比誘電率はおよそ 16 であった。これまでに報告されている周波数 $1 \\mathrm { k H z }$ で測定されたPVDF $\\oslash$ 比誘電率が 13 であることから(13)，上記の測定値は妥当なものであると考察される。\n\n〈2･4〉 振動発電実験と結果 作製したVEHデバイスを用いて振動発電実験を行った。この実験系の概略図および発電部の写真を図7 に示す。デバイスの治具を振動シミュレーションシステム（型番：PET-05，IMV 社製）に固定し，治具ごとカンチレバーを加振した。また，リン青銅基板とAl電極 $\\oslash$ 間に負荷抵抗として $1 0 0 \\mathrm { k } \\Omega { \\mathcal { O } } )$ 抵抗と0 MΩから9 MΩ$\\oslash$ 範囲で抵抗値を調整可能な可変抵抗を直列に接続し，加振時に $1 0 0 \\mathrm { k } \\Omega { \\mathcal { O } }$ 抵抗に発生する電圧をオシロスコープで測定した。発電量 $P$ は加振時に負荷抵抗に発生する電圧値Vと負荷抵抗値 $R$ から $P { = } V ^ { 2 } / R \\mathcal { O }$ 式により計算される。ただし，$R$ は直列に接続された $2 \\supset { \\mathcal { O } }$ 抵抗 $\\oslash$ 合成抵抗であり， $V$ もこれら $\\oslash$ 抵抗に発生する電圧値の合計であることに注意が必要である。\n\n![](images/4f4404ae260d40e0f4098e5d0e2933737a5add8cfe1dae8a5176af2c33208050.jpg)  \nFig. 4. Schematic illustration of point applied corona polarization.\n\n![](images/728b4d1e04a2b4844106f797a99ea19475b3a88c408285c7ad7f37cc5c32d047.jpg)  \nFig. 5. (a) Schematic illustration and (b) photograph of the VEH of PVDF thin film on phosphor bronze cantilever.\n\nTable 2. Dimension of device.   \n\n<table><tr><td>PVDF thickness</td><td>30 μm</td></tr><tr><td>Phosphor bronze thickness</td><td>100 μm</td></tr><tr><td>Cantilever length</td><td>25 mm</td></tr><tr><td>Cantilever width</td><td>15mm</td></tr><tr><td>Electrode length</td><td>22 mm</td></tr><tr><td>Electrode width</td><td>10 mm</td></tr></table>\n\n![](images/87b467d315cf44ae543bc6006af1d19a1720b361dec0c0645486ad4cce6404e2.jpg)  \nFig. 6. Capacitance of the VEH device.\n\n![](images/f1684e8b7147485a3b807f51549473b087c51b656c705ed482d4ac8c0337ea15.jpg)  \nFig. 7. (a) Schematic illustration and (b) photograph of experimental setup for verifying power generation for free vibration.\n\nこの実験系を用いて VEH デバイスを加振し，その出力を測定した。ここで，振動周波数はVEHデバイス共振周波数である $5 5 \\mathrm { H z }$ ，印加加速度は $1 7 \\mathrm { m } / \\mathrm { s } ^ { 2 }$ とした。負荷抵抗の電力整合を評価するため，負荷抵抗 $\\oslash$ 値を 0.1 MΩ から 9.1 MΩまで 1 MΩ 間隔で変化させ，出力 $\\oslash$ 変化を測定した。\n\nまた，同時に高速度カメラ（nac 社製，Memrecam fx-k5）を用いてカンチレバーデバイスの振動 $\\oslash$ 様子を撮影した。この加振条件におけるカンチレバーの自由端における片振幅は $6 \\mathrm { m m }$ であった。\n\n図 9 に負荷抵抗値と加振時のデバイスの発電量の関係を示す。負荷抵抗値が 2.1 MΩ $\\oslash$ ときに最大発電量 $4 . 3 ~ \\mu \\mathrm { W }$ が得られた。この発電量とこれまでに報告されているカンチレバーを用いた圧電型 VEH $\\oslash$ 発電量を比較したものを表 3に示す。I. Kanno $\\dot { 5 } \\textcircled { \\cdot }$ 報告においては，PZT 薄膜を用いた圧電型 VEH $\\oslash$ 発電量は $1 { \\sim } 1 7 ~ \\mu \\mathrm { W }$ である(6)～(10) 。ただし，これらの報告においては，VEH に印加した振動 $\\oslash$ 周波数は$1 0 8 \\mathrm { H z } { \\sim } 8 9 0 \\mathrm { H z }$ であ $\\boldsymbol { \\nabla }$ ，本実験における振動周波数 $5 5 \\mathrm { H z }$ より高か $\\backsim$ た。VEH $\\oslash$ 理論的な発電量は振動周波数の二乗に比例することから，本研究で作製した圧電型VEHは上述のPZTを用いたVEHと比較しても同等の発電効率を有していると言える。\n\nTable 3. Comparison of the VEHs performance.   \n\n<table><tr><td></td><td>Piezoelectric material</td><td>Effective volume [mm³]</td><td>Frequency [Hz]</td><td>Acceralation [m/s2]</td><td>[μW]</td><td>Out put power Power density [μW/mm3]</td></tr><tr><td>I. Kanno[8]</td><td>PZT</td><td>0.2</td><td>344</td><td>25</td><td>2.5</td><td>12.5</td></tr><tr><td>Z.Cao [15]</td><td>AIN</td><td>1.7</td><td>69</td><td>15.7</td><td>8.7</td><td>5.18</td></tr><tr><td>Q.Wang [16]</td><td>PZT</td><td>4.3</td><td>89</td><td>9.8</td><td>15.4</td><td>3.62</td></tr><tr><td>This study</td><td>PVDF</td><td>6.6</td><td>55</td><td>17</td><td>4.3</td><td>0.65</td></tr></table>\n\n![](images/8b1901fdd5f43d0db3422d4665215064a84053b97a5dbb777a00fcd1c0b1c40d.jpg)  \nFig. 8. Image of the vibration of the VEH. This image was taken by a high-speed camera.\n\n![](images/75648663fbdd7ab94077fa68d1a09013b08170a805c77368b3f9308f6009a549.jpg)  \nFig. 9. Output power vs. load resistance at free oscillation at $1 7 \\mathrm { m } / \\mathrm { s } ^ { 2 }$ , $5 5 \\mathrm { H z }$ .\n\nPVDF $\\oslash$ 圧電定数 $d _ { 3 1 }$ は PZT $\\oslash$ $d _ { 3 1 }$ と比較して一桁小さ$\\boldsymbol { \\mathsf { V } } ^ { \\setminus ( 1 4 ) }$ 。それにも関わらず高い発電効率が得られたのは，高分子材料である PVDF は大変形が可能であり，結果としてVEH $\\oslash$ 振幅を大きくとることが可能であることが主な理由と考察される。ただし，本研究 $\\oslash$ 振動条件である $5 5 \\ : \\mathrm { H z }$ ，17$\\mathrm { m } / \\mathrm { s } ^ { 2 }$ は，実用を想定した場合は大きすぎる従って，現状より低周波数，低加速度の振動により発電可能なVEHを開発することが今後の課題として挙げられる。また，PVDF $\\oslash$ 分極条件には改善の余地があるため，この最適化も今後の課題として挙げられる。"
+    },
+    {
+      "heading": "3. 結 言",
+      "level": 1,
+      "text": "低抵抗シリコン基板上にバーコーティング法によりPVDF膜を製膜し，この PVDF 膜をコロナ分極処理することにより圧電性を獲得可能であることを確認した。また，リン青銅製 $\\oslash$ カンチレバー上に PVDF 膜を形成，分極処理 $\\oslash$ 後にAl電極を形成することで，長さ $2 5 \\mathrm { m m }$ ，幅 $1 5 \\ : \\mathrm { m m } \\ : \\mathcal { O } \\ : \\mathrm { { } }$ カンチレバー状 $\\oslash$ 圧電型VEHを作製した。分極処理後 $\\oslash$ PVDF 膜$\\oslash$ 圧電定数 $d _ { 3 3 }$ は $- 8 . 4 4 \\mathrm { p C } / \\mathrm { N }$ であった。このVEHを周波数$5 5 \\ : \\mathrm { H z }$ ，加速度 $1 7 \\mathrm { m } / \\mathrm { s } ^ { 2 }$ で振動させ，接続した負荷抵抗に出力された電圧から発電量を評価した結果，抵抗値が $2 . 1 \\mathrm { M } \\Omega \\mathrm { ~ } \\mathcal { O }$ ときに最大発電量 $4 . 3 \\mu \\mathrm { W }$ が得られた。\n\nこの発電効率は，圧電定数が PVDF より高 $\\vee ^ { \\cdot \\cdot }$ PZT を用いた圧電型 VEH と同等である。圧電定数が比較的低い PVDFを用いてPZTを用いたVEHと同等の発電効率が得られたのは，PVDF が大変形可能な高分子圧電材料であり，VHE の振幅を大きくすることが出来たことが原因であると考察される。今後の研究においては，リン青銅基板および PVDF膜 $\\oslash$ 膜厚の最適化，分極条件の最適化による PVDF 膜の圧電定数向上，および低周波数・低加速度で発電可能な VEH$\\oslash$ 開発を目標とする。また，マイクロマシンの技術を利用したデバイスの作製も今後の目標としたい。"
+    },
+    {
+      "heading": "謝 辞",
+      "level": 1,
+      "text": "本研究は文部科学省私立大学戦略的研究基盤形成支援事業より研究課題「3次元ナノ・マイクロ構造の創成とバイオミメティクス・医療 $\\frown { \\mathcal { O } }$ 応用」（平成27 年～平成31年）として支援を受けた。"
+    },
+    {
+      "heading": "文 献",
+      "level": 1,
+      "text": "(1) S. P. Beeby, M. J. Tudor, and N. M. White $\\boldsymbol { : }$ “Energy harvesting vibration sources for microsystems applications”, Meas. Sci. Technol., Vol.17, pp.175-195 (2006)   \n(2) K. Matsumoto, K. Saruwatari, and Y. Suzuki $:$ “Vibration- powered Battery-less Sensor Node Using MEMS Electret Generator”, in Digest Tech. Power MEMS ’11, pp.134-137 (2011)   \n(3) S. Hosokawa, M. Hara, H. Oguchi, and H. Kuwano $:$ “Vibration based Energy Harvester Employing ZnO Film on the Stainless Steel Substrate”, IEEJ Trans. SM, Vol.133, No.4, pp.126-127 (2013)   \n(4) J.Q. Liu, et al. $:$ “A MEMS-based piezoelectric power generator array for vibration energy harvesting”, Microelectronics Journal, Vol.39, pp.802-806 (2008)   \n(5) S. Roundy and P. K. Wrightee $:$ “A piezoelectric vibration based generator for wireless electronics”, Smart Mater. Struct., Vol.13, pp.1131-1142 (2004)   \n(6) Y. Tsujiura, K. Adachi, and I. Kanno $:$ “Piezoelectric MEMS energy harvesters of PZT thin films on stainless steel cantilevers”, Power MEMS ’12, pp.500-503 (2012)   \n(7) I. Kanno, K. Morimoto, K. Wasa, and H. Kotera $:$ “Energy harvester of c-axis oriented epitaxial PZT films on stainless steel sheets”, IEEJ SM, pp.594-597 (2009)   \n(8) I. Kanno, K. Sagawa, R. Oka, H. Kotera, J. Ogawa, N. Yamauchi, K. Aizawa, and T. Matsushima $\\boldsymbol { : }$ “Piezoelectric energy harvesters of PZT films deposited on titanium cantilevers”, Power MEMS ’10, pp.379-382 (2010)   \n(9) I. Kanno, H. Kotera, K. Shibata, and T. Mishima $:$ “Characterization of vibration energy harvesters composed of piezoelectric thin films”, The Japan Society of Mechanical Engineers Micro-Nano Science &Technology Division, pp.26-27 (2011)   \n(10) Y. Tsujiura, E. Suwa, F. Kurokawa, H. Hida, and I. Kanno $:$ “Reliability of vibration energy harvesters of metal-based PZT thin films”, Power MEMS ’14, p.557 (2014)   \n(11) A. Toprak and O. Tigli : “MEMS Scale PVDF-TrFE-Based Piezoelectric Energy Harvesters”, Journal of microelectromechanical systems, Vol.24, No.6 (2015)   \n(12) T. Furukawa, T. Goho, M. Date, T. Takamatsu, and E. Fukada : “Piezoelectricity of Corona-Poled Poly (vinylidene fluoride)”, Kobunshi Ronbunshu, Vol.36, No.10, pp.685-688 (1979)   \n(13) Y. Sasaki, et al. : “Correlation Between Different Crystal Structures and Physical Properties of PVDF Films Fabricated by Solvent Casting from a Single Solvent”, Kobunshi Ronbunshu, Vol.70, pp.489-495 (2013)   \n(14) T. Tanaka, S. Murakami, M. Uno, and K. Yamashita $:$ “Development of MEMS Ultrasonic Sensor Using P(VDF/TrFE) thin Films”, IEEJ Trans. SM, Vol.135, No.5, pp.145-151 (2015)   \n(15) Z. Cao, J. Zhang, and H. Kuwano : “Design and characterization of miniature piezoelectric generators with low resonant frequency”, Sensors and Actuators A, Vol.179, pp.178-184 (2012)   \n(16) Q. Wang, Z. P. Cao, and H. Kuwano : “Metal-based piezoelectric energy harvesters by direct deposition of PZT thick films on stainless steel”, in Micro & Nano Letters, Vol.7, No.12, pp.1158-1161"
+    },
+    {
+      "heading": "瀧 瀬 宏 樹",
+      "level": 1,
+      "text": "（非会員） 関西大学システム理工学部機械工学科に在学中。MEMS技術を用いた圧電型振動発電デバイスの研究に従事。\n\n![](images/182494d9be66b87689e7dd32f8923a4c958df62ccf7b915cc1bd70e289c5f36a.jpg)"
+    },
+    {
+      "heading": "陳 延 鵬",
+      "level": 1,
+      "text": "![](images/48bc3ccdd67a7920117d9d498ed8860d1fbfcd897565a853a32bb387fecfa609.jpg)\n\n（非会員） 2013年 6 月青島農業大学（中国）卒業。2014年 6 月京都西山短期大学日本語別科修了。2015年 3 月大阪大学大学院工学研究科機械工学専攻研究生修了。現在，関西大学大学院理工学研究科博士前期課程在学中で，MEMS技術を用いた圧電型振動発電デバイスの研究に従事。"
+    },
+    {
+      "heading": "高 橋 智 一",
+      "level": 1,
+      "text": "![](images/dcfd4af1022f1f0224503040bd07c9b48bc865bf818ebde74ec405ed4a018fdd.jpg)\n\n（正員） 2005 年 3 月東北大学工学部機械電子工学科卒業。2007年3月同大学大学院博士課程前期修了。2007年4月日本学術振興会特別研究員。2010年3月東北大学大学院博士課程後期修了。2010 年 4 月関西大学システム理工学部助教。2015 年 4 月より同准教授，現在に至る。MEMS技術を用いたマイクロ燃料電池・マイクロリアクタの研究開発に従事。IEEE，日本機械\n\n学会会員。"
+    },
+    {
+      "heading": "鈴 木 昌 人",
+      "level": 1,
+      "text": "（正員） 1979 年 6 月 7 日生。2002 年 3 月広島大学第 2 類（電気系）卒業。2004 年 3 月同大学大学院先端物質科学研究科博士課程前期修了。2007 年 3 月同大学大学院博士課程後期修了。2007 年 4 月広島大学ナノデバイス・システム研究センター博士研究員。2008年 4 月より関西大学システム理工学部機械工学科助教。2013年 4 月より同准教授，現在に至る。博士（工学）。\n\n![](images/e4161979c3d80cb50c69c244bac30aa43a90b8d14da590aef24052be66aed804.jpg)\n\nマイクロマシン技術を用いたマイクロセンサ，アクチュエータ，フルイディクス等の研究に従事。IEEE，日本機械学会，応用物理学会，精密工学会会員。"
+    },
+    {
+      "heading": "青 柳 誠 司",
+      "level": 1,
+      "text": "（正員） 1962年 6 月 14日生。1986 年 3月東京大学工学部精密機械工学科卒業。1988 年 3月同大学大学院修士課程修了。1988年 4 月金沢大学工学部機械システム工学科助手。1995 年 11 月同助教授。1996年 4 月関西大学工学部管理工学科助教授，2003 年 4 月同教授。2010 年 4 月より同大学システム理工学部機械学科教授，現在に至る。博士（工学）。ロボット用センサ・ア\n\n![](images/9007ef187efeebafa1613f3fac8de5310c6afabb6989f2b9893c185bd5e1121e.jpg)\n\nクチュエータ，ロボット制御，マイクロマシン等の研究に従事。  \nIEEE，精密工学会，日本機械学会，日本ロボット学会等の会員。"
+    }
+  ],
+  "tables": [
+    {
+      "page": -1,
+      "content": ""
+    },
+    {
+      "page": -1,
+      "content": ""
+    },
+    {
+      "page": -1,
+      "content": ""
+    }
+  ],
+  "figures": [
+    {
+      "page": -1,
+      "caption": "",
+      "path": "images/b3c44f72dc7983346f0bd975ea3be431067d412b2b33e0e222f380b82d563be6.jpg"
+    },
+    {
+      "page": -1,
+      "caption": "",
+      "path": "images/7ec1a7c1bc6716e34b80061ab0a0ea3e196af71e925f4329bd68ff1c3bdaa0cf.jpg"
+    },
+    {
+      "page": -1,
+      "caption": "",
+      "path": "images/2f0fc15c345eae9a25efe75943f51c574e9ed4ec32980db179b93ac6cd716ba9.jpg"
+    },
+    {
+      "page": -1,
+      "caption": "",
+      "path": "images/4f4404ae260d40e0f4098e5d0e2933737a5add8cfe1dae8a5176af2c33208050.jpg"
+    },
+    {
+      "page": -1,
+      "caption": "",
+      "path": "images/728b4d1e04a2b4844106f797a99ea19475b3a88c408285c7ad7f37cc5c32d047.jpg"
+    },
+    {
+      "page": -1,
+      "caption": "",
+      "path": "images/87b467d315cf44ae543bc6006af1d19a1720b361dec0c0645486ad4cce6404e2.jpg"
+    },
+    {
+      "page": -1,
+      "caption": "",
+      "path": "images/f1684e8b7147485a3b807f51549473b087c51b656c705ed482d4ac8c0337ea15.jpg"
+    },
+    {
+      "page": -1,
+      "caption": "",
+      "path": "images/8b1901fdd5f43d0db3422d4665215064a84053b97a5dbb777a00fcd1c0b1c40d.jpg"
+    },
+    {
+      "page": -1,
+      "caption": "",
+      "path": "images/75648663fbdd7ab94077fa68d1a09013b08170a805c77368b3f9308f6009a549.jpg"
+    },
+    {
+      "page": -1,
+      "caption": "",
+      "path": "images/182494d9be66b87689e7dd32f8923a4c958df62ccf7b915cc1bd70e289c5f36a.jpg"
+    },
+    {
+      "page": -1,
+      "caption": "",
+      "path": "images/48bc3ccdd67a7920117d9d498ed8860d1fbfcd897565a853a32bb387fecfa609.jpg"
+    },
+    {
+      "page": -1,
+      "caption": "",
+      "path": "images/dcfd4af1022f1f0224503040bd07c9b48bc865bf818ebde74ec405ed4a018fdd.jpg"
+    },
+    {
+      "page": -1,
+      "caption": "",
+      "path": "images/e4161979c3d80cb50c69c244bac30aa43a90b8d14da590aef24052be66aed804.jpg"
+    },
+    {
+      "page": -1,
+      "caption": "",
+      "path": "images/9007ef187efeebafa1613f3fac8de5310c6afabb6989f2b9893c185bd5e1121e.jpg"
+    }
+  ],
+  "metadata": {
+    "source": "openalex",
+    "pdf_url": "",
+    "parsed_at": "2026-03-10T10:17:10.382939+00:00"
+  }
+}

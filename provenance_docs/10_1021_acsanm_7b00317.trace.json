@@ -1,0 +1,28 @@
+{
+  "paper_id": "10_1021_acsanm_7b00317",
+  "doi": "10.1021/acsanm.7b00317",
+  "title": "Hierarchical PbZr<sub><i>x</i></sub>Ti<sub>1–<i>x</i></sub>O<sub>3</sub> Nanowires for Vibrational Energy Harvesting",
+  "source_apis": [
+    "both"
+  ],
+  "pdf_url": "",
+  "pdf_local_path": "data_registry/raw_stage04_paper_pdf_cleaned/10_1021_acsanm_7b00317.pdf",
+  "processing": {
+    "tool": "MinerU",
+    "version": "python -m mineru.cli.client, version 2.7.6",
+    "timestamp": "2026-03-10T09:39:56.012160+00:00",
+    "duration_s": 91.96,
+    "success": true,
+    "error": ""
+  },
+  "outputs": {
+    "content_md": "/root/EH-LLM-vehbench-exp/parsed_docs/10_1021_acsanm_7b00317_rtsy9mux/content.md",
+    "layout_json": "/root/EH-LLM-vehbench-exp/parsed_docs/10_1021_acsanm_7b00317_rtsy9mux/layout.json",
+    "images_dir": "/root/EH-LLM-vehbench-exp/parsed_docs/10_1021_acsanm_7b00317_rtsy9mux/10_1021_acsanm_7b00317/auto/images",
+    "normalized_json": "/root/EH-LLM-vehbench-exp/normalized_docs/10_1021_acsanm_7b00317.json"
+  },
+  "data_lineage": {
+    "papers_jsonl_hash": "51b658ab32d1f1c1c649418c5151cab2",
+    "pipeline_step": "ingestion/mineru_runner.py"
+  }
+}

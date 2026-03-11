@@ -1,0 +1,147 @@
+{
+  "metadata": {
+    "paper_id": "10_1088_0964_1726_22_9_095019",
+    "doi": "10.1088/0964-1726/22/9/095019",
+    "title": "Piezoelectric energy harvesting from traffic-induced bridge vibrations",
+    "year": 2013,
+    "journal": "Smart Materials and Structures"
+  },
+  "configuration": "cantilever",
+  "proof_mass": true,
+  "geometry": {
+    "length_mm": 220,
+    "width_mm": 40,
+    "thickness_mm": 0.8,
+    "substrate_thickness_um": 800,
+    "piezo_thickness_um": 3000,
+    "tip_mass_g": 12,
+    "diameter_mm": null
+  },
+  "excitation": {
+    "type": "vibration",
+    "frequency_Hz": 14.4,
+    "acceleration_g": 0.031,
+    "displacement_mm": null,
+    "motion_source": null
+  },
+  "load": {
+    "load_resistance_ohm": 100000
+  },
+  "output": {
+    "resonant_frequency_Hz": 14.4,
+    "output_power_W": 3e-05,
+    "open_circuit_voltage_V": null,
+    "short_circuit_current_A": null,
+    "bandwidth_Hz": 0.8
+  },
+  "evidence": {
+    "configuration": {
+      "quote": "The piezoelectric harvester that was devised is of the cantilever type.",
+      "section": "3.1",
+      "source_type": "section"
+    },
+    "proof_mass": {
+      "quote": "An additional 12 g concentrated mass was placed on the steel surface",
+      "section": "3.1",
+      "source_type": "section"
+    },
+    "geometry": {
+      "length_mm": {
+        "quote": "40 x 220 x 0.8 mm^3 steel plate",
+        "section": "3.1",
+        "source_type": "section"
+      },
+      "width_mm": {
+        "quote": "40 x 220 x 0.8 mm^3 steel plate",
+        "section": "3.1",
+        "source_type": "section"
+      },
+      "thickness_mm": {
+        "quote": "40 x 220 x 0.8 mm^3 steel plate",
+        "section": "3.1",
+        "source_type": "section"
+      },
+      "substrate_thickness_um": {
+        "quote": "40 x 220 x 0.8 mm^3 steel plate",
+        "section": "3.1",
+        "source_type": "section"
+      },
+      "piezo_thickness_um": {
+        "quote": "h =3 mm",
+        "section": "4.1",
+        "source_type": "section"
+      },
+      "tip_mass_g": {
+        "quote": "An additional 12 g concentrated mass was placed on the steel surface",
+        "section": "3.1",
+        "source_type": "section"
+      },
+      "diameter_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      }
+    },
+    "excitation": {
+      "type": {
+        "quote": "energy harvesting of traffic-induced vibrations",
+        "section": "Abstract",
+        "source_type": "abstract"
+      },
+      "frequency_Hz": {
+        "quote": "resonant frequency close to 14.4 Hz",
+        "section": "3.2",
+        "source_type": "section"
+      },
+      "acceleration_g": {
+        "quote": "root mean square value of the measured acceleration ... was 0.3 m.s^-2",
+        "section": "2.2",
+        "source_type": "section"
+      },
+      "displacement_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "motion_source": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      }
+    },
+    "load": {
+      "load_resistance_ohm": {
+        "quote": "pure resistive load R = 100 kOhm",
+        "section": "3.2",
+        "source_type": "section"
+      }
+    },
+    "output": {
+      "resonant_frequency_Hz": {
+        "quote": "resonant frequency close to 14.4 Hz",
+        "section": "3.2",
+        "source_type": "section"
+      },
+      "output_power_W": {
+        "quote": "mean power of the order of 0.03 mW",
+        "section": "Abstract",
+        "source_type": "abstract"
+      },
+      "open_circuit_voltage_V": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "short_circuit_current_A": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "bandwidth_Hz": {
+        "quote": "half-power bandwidth is about 0.8 Hz for traffic-induced excitations",
+        "section": "3.3",
+        "source_type": "section"
+      }
+    }
+  }
+}

@@ -1,0 +1,147 @@
+{
+  "metadata": {
+    "paper_id": "10_1016_j_heliyon_2017_e00377",
+    "doi": "10.1016/j.heliyon.2017.e00377",
+    "title": "Design optimization of PVDF-based piezoelectric energy harvesters",
+    "year": 2017,
+    "journal": "Heliyon"
+  },
+  "configuration": "cantilever",
+  "proof_mass": true,
+  "geometry": {
+    "length_mm": 20,
+    "width_mm": 6.3,
+    "thickness_mm": 0.1,
+    "substrate_thickness_um": null,
+    "piezo_thickness_um": 100,
+    "tip_mass_g": 0.936,
+    "diameter_mm": null
+  },
+  "excitation": {
+    "type": "vibration",
+    "frequency_Hz": 34.4,
+    "acceleration_g": 0.5,
+    "displacement_mm": null,
+    "motion_source": "vibration source"
+  },
+  "load": {
+    "load_resistance_ohm": 6810000
+  },
+  "output": {
+    "resonant_frequency_Hz": 34.4,
+    "output_power_W": 0.0001128,
+    "open_circuit_voltage_V": null,
+    "short_circuit_current_A": null,
+    "bandwidth_Hz": 3.5
+  },
+  "evidence": {
+    "configuration": {
+      "quote": "PVDF-based cantilevertype energy harvesters",
+      "section": "Abstract",
+      "source_type": "abstract"
+    },
+    "proof_mass": {
+      "quote": "steel load mass adhered to the free end of the beam",
+      "section": "2.1. Device configuration",
+      "source_type": "section"
+    },
+    "geometry": {
+      "length_mm": {
+        "quote": "Dimension of the PVDF film (mm, two layers) W: 6.3 × 20 × 0.1",
+        "section": "2.3. Example of an optimized configuration",
+        "source_type": "table"
+      },
+      "width_mm": {
+        "quote": "Dimension of the PVDF film (mm, two layers) W: 6.3 × 20 × 0.1",
+        "section": "2.3. Example of an optimized configuration",
+        "source_type": "table"
+      },
+      "thickness_mm": {
+        "quote": "Dimension of the PVDF film (mm, two layers) W: 6.3 × 20 × 0.1",
+        "section": "2.3. Example of an optimized configuration",
+        "source_type": "table"
+      },
+      "substrate_thickness_um": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "piezo_thickness_um": {
+        "quote": "Dimension of the PVDF film (mm, two layers) W: 6.3 × 20 × 0.1",
+        "section": "2.3. Example of an optimized configuration",
+        "source_type": "table"
+      },
+      "tip_mass_g": {
+        "quote": "Dimension of the seismic mass (mm, one block) L × Wm × hm: 2 x 20 × 3",
+        "section": "2.3. Example of an optimized configuration",
+        "source_type": "table"
+      },
+      "diameter_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      }
+    },
+    "excitation": {
+      "type": {
+        "quote": "vibration source",
+        "section": "Abstract",
+        "source_type": "abstract"
+      },
+      "frequency_Hz": {
+        "quote": "resonant frequency of the fabricated device is measured to be 34.4 Hz",
+        "section": "3.2. Experimental results and discussions",
+        "source_type": "section"
+      },
+      "acceleration_g": {
+        "quote": "under 0.5 g excitation acceleration",
+        "section": "3.2. Experimental results and discussions",
+        "source_type": "section"
+      },
+      "displacement_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "motion_source": {
+        "quote": "vibration source",
+        "section": "Abstract",
+        "source_type": "abstract"
+      }
+    },
+    "load": {
+      "load_resistance_ohm": {
+        "quote": "optimum resistive load Ropt of 6.81 MΩ",
+        "section": "3.2. Experimental results and discussions",
+        "source_type": "section"
+      }
+    },
+    "output": {
+      "resonant_frequency_Hz": {
+        "quote": "resonant frequency of the fabricated device is measured to be 34.4 Hz",
+        "section": "3.2. Experimental results and discussions",
+        "source_type": "section"
+      },
+      "output_power_W": {
+        "quote": "peak power value of 112.8 μW",
+        "section": "3.2. Experimental results and discussions",
+        "source_type": "section"
+      },
+      "open_circuit_voltage_V": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "short_circuit_current_A": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "bandwidth_Hz": {
+        "quote": "full width at half maximum (FWHM) is about 3.5 Hz",
+        "section": "3.2. Experimental results and discussions",
+        "source_type": "section"
+      }
+    }
+  }
+}

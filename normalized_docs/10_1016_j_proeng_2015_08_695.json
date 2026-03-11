@@ -1,0 +1,119 @@
+{
+  "paper_id": "10_1016_j_proeng_2015_08_695",
+  "doi": "10.1016/j.proeng.2015.08.695",
+  "title": "Fabrication, Simulation and Characterisation of MEMS Piezoelectric Vibration Energy Harvester for Low Frequency",
+  "year": 2015,
+  "venue": "Procedia Engineering",
+  "authors": [
+    "Anurekha Sharma",
+    "Oskar Z. Olszewski",
+    "José Ignacio Izpura Torres",
+    "A. Mathewson",
+    "Ruth Houlihan"
+  ],
+  "citation_count": 25,
+  "sections": [
+    {
+      "heading": "Fabrication, Simulation and Characterisation of MEMS Piezoelectric Vibration Energy Harvester for Low Frequency",
+      "level": 1,
+      "text": "A. Sharmaa,b, \\* , O.Z. Olszewskia , J. Torresa , A. Mathewsona , R. Houlihana\n\na Tyndall National Institute, University College Cork, Ireland b Department of Electronic Science, Kurukshetra University, Kurukshetra, India"
+    },
+    {
+      "heading": "Abstract",
+      "level": 1,
+      "text": "A MEMS vibration energy harvester using an Aluminium Nitride (AlN) piezoelectric layer was designed, fabricated and characterized. The harvester was fabricated on an SOI wafer with a $3 0 \\mu \\mathrm { m }$ device silicon layer which serves as the structural beam on which a $0 . 5 \\mu \\mathrm { m }$ AlN layer is sandwiched between the top and bottom electrodes. The handle silicon serves as the proof mass. The harvester has a measured resonant frequency of around $1 1 4 \\mathrm { H z }$ and an average output power of $5 4 \\mathrm { n W }$ was measured at optimal load and a low level of acceleration (24 mili-g). A 3D finite element model of the harvester was created in COMSOL Multiphysics and the obtained results are in close agreement with the measured data.\n\n$\\odot 2 0 1 5$ 5 The Authors. Published by Elsevier Ltd.  The Authors. Published by Elsevier Ltd. This is an open access article under the CC BY-NC-ND license Peer-review under responsibility of the organ(http://creativecommons.org/licenses/by-nc-nd/4.0/).\n\nPeer-review under responsibility of the organizing committee of EUROSENSORS 2015\n\nKeywords: MEMS; Energy Harvesting; Vibrations; Piezoelectric; Aluminium Nitride"
+    },
+    {
+      "heading": "1. Introduction",
+      "level": 1,
+      "text": "The lifetime of sensor nodes within the Wireless Sensor Network (WSN) is limited by the energy available from the batteries. Moreover, due to gradual degradation of batteries performance, the sensor nodes must be maintained by the service engineer, which further decreases the usability of the WSN systems. One of the most important developments that can potentially improve sensor networks is energy harvesting from ambient sources, such as light, temperature or mechanical vibration. The preferred method of energy harvesting strongly depends on the application field but one of the most commonly investigated is the vibration based method. Most of the useful ambient vibration sources are low frequency vibrations lying below $1 2 5 \\mathrm { H z }$ and with less than 1g amplitude [1-3]. The energy from these sources can be harvested by piezoelectric transduction mechanism using materials like lead zirconate titanate (PZT), polyvinylidene fluoride (PVDF), zinc oxide $( Z \\mathrm { n O } )$ and aluminium nitride (AlN). Due to CMOS compatibility and relatively good piezoelectric properties, AlN is becoming widely investigated by academia and industry for CMOS-MEMS based piezoelectric vibration energy harvesters [3]. A number of researchers have reported AlN energy harvesters operating at a range of frequencies. Elfrink et. al [4] reported a AlN energy harvester operating at $5 7 2 \\ : \\mathrm { H z }$ and capable of maximum power output of $6 0 \\mu \\mathrm { W }$ at 2g. The structure was a rectangular beam with the width of proof mass equal to that of the beam. Bertacchini et. al. [5] reported a power generation of $0 . 4 \\mathrm { p W }$ at $2 \\mathrm { g }$ vibration amplitude at a resonant frequency of $1 . 5 \\mathrm { k H z }$ from a non-planar cantilever. Yen et. al.[6] reported a output power of $4 . 9 \\mathrm { n W }$ at an vibration amplitude of $0 . 2 5 \\mathrm { g }$ and $2 . 5 6 \\mathrm { ~ k H z }$ from a corrugated cantilever. This paper reports the results from the CMOS-MEMS vibration energy harvester using AlN as the active material and with a targeted resonance frequency of $1 2 5 \\mathrm { H z }$ . An average power of $5 4 ~ \\mathrm { n W }$ was measured from devices with a resonant frequency of around $1 1 4 \\mathrm { H z }$ for a low level of acceleration, $2 4 \\mathrm { m i l l i - g }$ , and of $2 0 0 ~ \\mathrm { n W }$ for 170 milli-g. Measured results match well with the results obtained from 3D finite element (FE) models.\n\n<table><tr><td colspan=\"2\">Nomenclature</td></tr><tr><td>fres</td><td>Resonance frequency</td></tr><tr><td>Ymax</td><td>Maximum admittance in Siemens</td></tr><tr><td>Ymin</td><td>Maximum admittance in Siemens</td></tr><tr><td>A</td><td>Amplitude of the vibration acceleration m/sec2</td></tr><tr><td>P</td><td>Output power from the harvester in W</td></tr><tr><td>21</td><td>Electromechanical coupling coefficient</td></tr><tr><td>Qm</td><td>Mechanical Quality factor</td></tr><tr><td>Qe</td><td>Electrical Quality Factor</td></tr><tr><td>∆f</td><td>Half power bandwidth</td></tr><tr><td>m</td><td>Tip mass in Kg</td></tr><tr><td>ω</td><td>Vibrational frequency in radians</td></tr><tr><td>ζe</td><td>Electrical damping ratio</td></tr><tr><td>ζmm</td><td>Mechanical damping ratio</td></tr><tr><td>ζ</td><td>Total damping ratio= ζe+ ζm</td></tr><tr><td>31</td><td>Transverse piezoelectric coefficient in pC/N</td></tr></table>"
+    },
+    {
+      "heading": "2. Theory",
+      "level": 1,
+      "text": "A piezoelectric energy harvester can be represented with a second order spring mass damper system, for which the maximum power output, $P _ { i }$ , for a given acceleration magnitude of input vibrations, $A$ , is given by [1]\n\n$$\n| P | = \\frac { m \\zeta _ { e } A ^ { 2 } } { 4 \\zeta _ { t } ^ { 2 } \\omega }\n$$\n\nThe maximum power attainable from a harvester depends on the mechanical and electrical damping ratios which, for the piezoelectric beam vibrating in 31 mode, depend on the electromechanical coupling coefficient $k _ { 3 1 } ^ { 2 }$ . The mechanical and electrical damping ratios can be determined from their respective quality factors $\\zeta = 1 / 2 Q$ ). The Q-factors are determined from electrical impedance measurements and Equations (2) and (3), where the coupling coefficient, $k _ { 3 1 } ^ { 2 }$ , is determined based on the open and short circuit resonance frequency according to $k _ { 3 1 } ^ { 2 } =$ $( ~ \\omega _ { o c } ^ { 2 } - \\omega _ { s c } ^ { 2 } ) / ~ \\omega _ { o c } ^ { 2 }$ .\n\n$$\n\\begin{array} { r } { Q _ { m } = \\frac { 1 } { k _ { 3 1 } ^ { 2 } } \\sqrt { \\frac { | Y _ { m a x } | } { | Y _ { m i n } | } } } \\end{array}\n$$\n\n$$\n\\begin{array} { r } { Q _ { e } = \\frac { \\sqrt { 1 - k _ { 3 1 } ^ { 2 } } } { k _ { 3 1 } ^ { 2 } } \\sqrt { \\frac { | Y _ { m a x } | } { | Y _ { m i n } | } } } \\end{array}\n$$"
+    },
+    {
+      "heading": "3. Fabrication",
+      "level": 1,
+      "text": "The harvester was fabricated on an SOI wafer with a $3 0 ~ { \\mu \\mathrm { m } }$ thickdevice silicon layer which serves as the structural beam on which a $0 . 5 \\mu \\mathrm { m }$ thick AlN layer of was sandwiched between the bottom titanium and top aluminium electrode. The $5 3 5 \\mu \\mathrm { m }$ thick handle silicon serves as the proof mass as shown in fig. 1. The dimensions of the beam are $2 \\ : \\mathrm { m m } \\propto 0 . 7 5 \\ : \\mathrm { m m }$ and the mass are $5 . 1 \\ \\mathrm { m m } \\times 2 . 3 \\ \\mathrm { m m }$ , as shown in Fig. 2\n\n![](images/9ccc8d6fe811e4d2622bff20904ecc856dcb59c4c1b0150d74624e1a7a055389.jpg)  \nFig. 1. Schematic view of the Vibration Harvester\n\n![](images/a2856811507562501ee44eecbc95114c2adba990839131643008cc331cf5b81e.jpg)  \nFig. 2. Top view of the fabricated device"
+    },
+    {
+      "heading": "4. Characterisation",
+      "level": 1,
+      "text": "Measurements were carried out to find the resonant frequency of the harvesters using a Polytec 400 Microsystem Analyser. Three similar devices, from three different die on the wafer, and referred to here as D1, D2 and D3, were measured. An acoustic speaker served as the excitation source. Fig. 3 shows the frequency response of the devices. The measured resonance is approximately $10 \\%$ lower than expected and this is attributed to the fact that the device silicon thickness was lower than that specified by the supplier. A device layer thickness of $3 0 \\mu \\mathrm { m } \\pm 1 \\mu \\mathrm { m }$ was specified; whereas SEM analysis suggested that the thickness is closer to $2 6 \\mu \\mathrm { m }$ to $2 7 \\mu \\mathrm { m }$ . Simulations suggest that these lower values are more accurate. For the purposes of the finite element modelling, the silicon beam thickness was modified for each of the reported cantilevers, to achieve a match between the measured and simulated resonance frequencies.\n\nThe measured piezoelectric coefficient, electromechanical coupling coefficient, Q factor and damping factor are given in Table 1. The piezoelectric coefficient, $d _ { 3 I , }$ was determined based on tip deflection measurements of a $9 \\mathrm { m m }$ long cantilever beam with no mass and according to the analysis for a multimorph beam described by DeVoe [8]. Electrical characterization of the device was done by using an Agilent 4980A LCR meter. An rms voltage of $5 0 0 \\mathrm { m V }$ was applied across the electrodes to obtain the conductance (G) and suseptance (B) values. Admittance (Y) plots were generated from these readings and were used to obtain the electromechanical coupling coefficient. Eq. 2 and Eq. 3 were used to determine mechanical and electrical quality factors.\n\nTable 1. Device Characteristics   \n\n<table><tr><td>31 [pC/N]</td><td>1</td><td>Qe</td><td>Qm</td><td>ζe</td><td>$ζm$</td><td>ζi</td></tr><tr><td>1.36</td><td>0.0181</td><td>56.9</td><td>57.7</td><td>0.0087</td><td>0.0086</td><td>0.0173</td></tr></table>\n\n![](images/b4234bd32f6495767112f7feac75716531c7f6cd54380fe16102eafd5ba70866.jpg)  \nFig. 3. Resonance frequency of the three cantilevers measured using laser dopper vibrometry.\n\n![](images/9b487150b3e9b43cc88e76d97f9c24dca71285b51907878abcaf655a80bee692.jpg)  \nFig. 4. A plot of displacement versus applied voltage.\n\nUsing the parameters in Table 1 and the default material properties in the COMSOL material library, 3D finite FEM simulations were carried out. Fig. 4 shows the comparison between the measured and simulated results for the operation of the device as an actuator i.e. an a.c. voltage is applied across the electrodes and the resulting displacement is measured. Excellent agreement between the measured and the modelled data is achieved which suggests that the piezoelectric coefficient and mechanical damping ratio used in the model are accurate.\n\n![](images/bb2db5e0e79f3b042996703eda9efb4019c60d19964c7137f2701925bb76b2eb.jpg)  \nFig. 5(a) Power output at applied acc. of 20 mili-g; (b) Output voltage at applied acc. of 20 mili-g\n\nFig. 5a and 5b compare the output power and output voltage respectively of the measured and simulated data for D2 for an input acceleration of 20 milli-g. Here the agreement is less good. This may be for several reasons, the most likely of which is that in the model the acceleration is applied directly to the proof mass whereas in reality, the acceleration is applied to a PCB onto which the harvester die is mounted. Discrepancies between results may also result because the model doesn’t take into the account the effect of residual stress in the piezoelectric layer and because damping is considered to be constant for all applied accelerations, however, damping has been shown to increase with increasing input acceleration [4].\n\nIn Fig. 6, the measured and simulated displacement of the devices for different values of applied acceleration is compared. As a vibration source with high acceleration levels cannot be used in conjunction with the Polytec, the applied acceleration here is low. Reasonably good agreement can be seen between measured and simulated data although the discrepancy increases with the applied input signal magnitude. Fig. 7Fig. shows the measured and calculated power output (using Equation [1]) for the harvester at different values of applied accelerations. Here again the discrepancy between the measured and the modelled result increases with increasing input acceleration. This is most likely because the total damping losses increase with applied acceleration and this is not accounted for in the model.\n\n![](images/3529d350a50e58e5a9218d6ac93d4cc0da32ad3a162a822068f53b6db0ed9bbb.jpg)  \nFig. 6. Displacement versus acceleration for low level input.\n\n![](images/9be646cdb2ac681852703a948d481ceb0dc4e95d38fe56ea64602e50cec4c7bb.jpg)  \nFig. 7. Linear relation between power and $A ^ { 2 }$"
+    },
+    {
+      "heading": "5. Discussion",
+      "level": 1,
+      "text": "Excellent agreement between the simulated and the measured data has been achieved for the case of electrical stimulation and mechanical measurement of the harvester. This indicates that the piezoelectric coefficient and the mechanical damping ratio determined from experiment and used in the model are accurate. Agreement between simulation and measurement is less good for the case of mechanical simulation and electrical measurement, which suggests that all the mechanical losses are not accounted for in the model."
+    },
+    {
+      "heading": "6. Conclusions",
+      "level": 1,
+      "text": "Aluminium nitride MEMS energy harvester for low frequency applications has been fabricated and characterised. Electrical and mechanical damping losses are accounted for in the finite element simulations. The harvester is capable of operation from $2 0 \\ \\mathrm { m i l i - g }$ to $_ { 0 . 2 \\mathrm { ~ g ~ } }$ . An energy density of $3 . 0 4 ~ \\mu \\mathrm { W } / \\mathrm { c m } ^ { 3 } / \\mathrm { g } ^ { 2 }$ and voltage output of $1 . 3 \\mathrm { ~ V ~ }$ for an unpackaged device is achieved at an applied acceleration of $0 . 1 7 \\mathrm { g }$ ."
+    },
+    {
+      "heading": "Acknowledgements",
+      "level": 1,
+      "text": "This work has been supported by the FP7 Cooperation Program. The authors would like to acknowledge the support of Central Fabrication Facility in Tyndall. One of the Authors, Anurekha Sharma acknowledges the funding received from Schlumberger Foundation, Faculty for the Future Fellowship program."
+    },
+    {
+      "heading": "References",
+      "level": 1,
+      "text": "[1] S. Roundy, P. K. Wright, J. Rabaey: A study of low level vibrations as a power source for wireless sensor nodes. Comp Comms, 26,(2003) 1131 - 1144.\n\n[2] H. Li, C. Tian, and Z. D. Deng (2014): Energy harvesting from low frequency applications using piezoelectric materials. Appl. Phys. Rev. 1, (2014) 041301-20.   \n[3] M. F. B. Ab Rahman, K S Leong (2011): Investigation of useful ambient vibration sources for the application of energy harvesting. IEEE Student Conference on Research and Development, Malaysia, 19-20 Dec, 2011   \n[4] S. Zhengguo., L. Dongling, W. Zhiyu and Z. Xingqiang: The fabrication of vibration energy harvester arrays based on AlN piezoelectric film. J. Semicond. 34(11), (2013), 1-4.   \n[5] R Elfrink, T M Kamel, M Goedbloed, S Matova, D Hohlfeld, Y. van Andel and R. van Schaijk: Vibration energy harvesting with aluminum nitride-based piezoelectric devices, J. Micromech. Microeng. 19 (2009) pp 1-8   \n[6] A. Bertacchini et. al . AlN-Based MEMS Devices for Vibrational Energy Harvesting Applications, Proceedings of the European Solid-State Device Research Conference (ESSDERC), 2011   \n[7] T.-T. Yen, T. Hirasawa, P. K. Wright, A.P. Pisano and L. Lin: Corrugated aluminum nitride energy harvesters for high energy conversion effectiveness. J. Micromech. Microeng. 21(2011) 1-9   \n[8] R. Andoscaa, T. G. McDonald, V. Genova: Experimental and theoretical studies on MEMS piezoelectric vibrational energy harvesters with mass loading. Sensors and Actuators A 178,(2012) 76– 87   \n[9] D.L. DeVoe, A.P. Pisano: Modeling and Optimal Design of Piezoelectric Cantilever Microactuators, Journal of Microelectromechanical Systems 6(3), (1997) 266–270   \n[10] H. B. Miller, Handbook for the analysis of piezoelectric transducers, Naval Underwater Systems Center, 1978"
+    }
+  ],
+  "tables": [
+    {
+      "page": -1,
+      "content": ""
+    },
+    {
+      "page": -1,
+      "content": ""
+    }
+  ],
+  "figures": [
+    {
+      "page": -1,
+      "caption": "",
+      "path": "images/9ccc8d6fe811e4d2622bff20904ecc856dcb59c4c1b0150d74624e1a7a055389.jpg"
+    },
+    {
+      "page": -1,
+      "caption": "",
+      "path": "images/a2856811507562501ee44eecbc95114c2adba990839131643008cc331cf5b81e.jpg"
+    },
+    {
+      "page": -1,
+      "caption": "",
+      "path": "images/b4234bd32f6495767112f7feac75716531c7f6cd54380fe16102eafd5ba70866.jpg"
+    },
+    {
+      "page": -1,
+      "caption": "",
+      "path": "images/9b487150b3e9b43cc88e76d97f9c24dca71285b51907878abcaf655a80bee692.jpg"
+    },
+    {
+      "page": -1,
+      "caption": "",
+      "path": "images/bb2db5e0e79f3b042996703eda9efb4019c60d19964c7137f2701925bb76b2eb.jpg"
+    },
+    {
+      "page": -1,
+      "caption": "",
+      "path": "images/3529d350a50e58e5a9218d6ac93d4cc0da32ad3a162a822068f53b6db0ed9bbb.jpg"
+    },
+    {
+      "page": -1,
+      "caption": "",
+      "path": "images/9be646cdb2ac681852703a948d481ceb0dc4e95d38fe56ea64602e50cec4c7bb.jpg"
+    }
+  ],
+  "metadata": {
+    "source": "openalex",
+    "pdf_url": "https://doi.org/10.1016/j.proeng.2015.08.695",
+    "parsed_at": "2026-03-10T09:30:57.562401+00:00"
+  }
+}

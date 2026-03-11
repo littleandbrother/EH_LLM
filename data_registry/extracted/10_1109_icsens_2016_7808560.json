@@ -1,0 +1,147 @@
+{
+  "metadata": {
+    "paper_id": "10_1109_icsens_2016_7808560",
+    "doi": "10.1109/icsens.2016.7808560",
+    "title": "A piezoelectric based vibration energy harvester fabricated using screen printing technique",
+    "year": 2016,
+    "journal": "Italian National Conference on Sensors"
+  },
+  "configuration": "cantilever",
+  "proof_mass": null,
+  "geometry": {
+    "length_mm": 30,
+    "width_mm": 30,
+    "thickness_mm": null,
+    "substrate_thickness_um": null,
+    "piezo_thickness_um": 12.5,
+    "tip_mass_g": null,
+    "diameter_mm": null
+  },
+  "excitation": {
+    "type": "vibration",
+    "frequency_Hz": 54,
+    "acceleration_g": 15,
+    "displacement_mm": null,
+    "motion_source": "base shaking experiments"
+  },
+  "load": {
+    "load_resistance_ohm": 1000000
+  },
+  "output": {
+    "resonant_frequency_Hz": 54,
+    "output_power_W": 2.8e-07,
+    "open_circuit_voltage_V": null,
+    "short_circuit_current_A": null,
+    "bandwidth_Hz": null
+  },
+  "evidence": {
+    "configuration": {
+      "quote": "d31 mode unimorph cantilever beam structure",
+      "section": "Abstract",
+      "source_type": "abstract"
+    },
+    "proof_mass": {
+      "quote": null,
+      "section": null,
+      "source_type": null
+    },
+    "geometry": {
+      "length_mm": {
+        "quote": "overlapping area of 3 x 3 cm^2",
+        "section": "B. Design",
+        "source_type": "section"
+      },
+      "width_mm": {
+        "quote": "overlapping area of 3 x 3 cm^2",
+        "section": "B. Design",
+        "source_type": "section"
+      },
+      "thickness_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "substrate_thickness_um": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "piezo_thickness_um": {
+        "quote": "average thickness of the PVDF layer was measured to be 12.5 um",
+        "section": "C. Device Fabrication Process",
+        "source_type": "section"
+      },
+      "tip_mass_g": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "diameter_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      }
+    },
+    "excitation": {
+      "type": {
+        "quote": "mechanically excited at its first resonance frequency (54 Hz) using base shaking experiments",
+        "section": "Abstract",
+        "source_type": "abstract"
+      },
+      "frequency_Hz": {
+        "quote": "first resonance frequency (54 Hz)",
+        "section": "Abstract",
+        "source_type": "abstract"
+      },
+      "acceleration_g": {
+        "quote": "sinusoidal vibration of 15 g",
+        "section": "Abstract",
+        "source_type": "abstract"
+      },
+      "displacement_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "motion_source": {
+        "quote": "base shaking experiments",
+        "section": "Abstract",
+        "source_type": "abstract"
+      }
+    },
+    "load": {
+      "load_resistance_ohm": {
+        "quote": "peak power output of 0.28 uW was delivered to a 1 M resistive load",
+        "section": "Abstract",
+        "source_type": "abstract"
+      }
+    },
+    "output": {
+      "resonant_frequency_Hz": {
+        "quote": "first resonance frequency (54 Hz)",
+        "section": "Abstract",
+        "source_type": "abstract"
+      },
+      "output_power_W": {
+        "quote": "peak power output of 0.28 uW",
+        "section": "Abstract",
+        "source_type": "abstract"
+      },
+      "open_circuit_voltage_V": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "short_circuit_current_A": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "bandwidth_Hz": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      }
+    }
+  }
+}

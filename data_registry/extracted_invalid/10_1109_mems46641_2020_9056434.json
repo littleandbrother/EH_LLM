@@ -1,0 +1,231 @@
+{
+  "status": "invalid",
+  "doc_path": "/Users/depengsu/Desktop/paper_story_agnet/EH-LLM-vehbench-exp/normalized_docs/10_1109_mems46641_2020_9056434.json",
+  "doc_metadata": {
+    "paper_id": "10_1109_mems46641_2020_9056434",
+    "doi": "10.1109/mems46641.2020.9056434",
+    "title": "A MEMS Piezoelectric Vibration Energy Harvester Based on Trapezoidal Cantilever Beam Array",
+    "year": 2020,
+    "journal": "IEEE/LEOS International Conference on Optical MEMS"
+  },
+  "errors": [
+    "configuration missing",
+    "excitation.type missing",
+    "output has no populated metric"
+  ],
+  "warnings": [
+    "excitation has no numeric condition",
+    "geometry has no populated dimensions"
+  ],
+  "record": {
+    "metadata": {
+      "paper_id": "10_1109_mems46641_2020_9056434",
+      "doi": "10.1109/mems46641.2020.9056434",
+      "title": "A MEMS Piezoelectric Vibration Energy Harvester Based on Trapezoidal Cantilever Beam Array",
+      "year": 2020,
+      "journal": "IEEE/LEOS International Conference on Optical MEMS"
+    },
+    "configuration": null,
+    "proof_mass": null,
+    "geometry": {
+      "length_mm": null,
+      "width_mm": null,
+      "thickness_mm": null,
+      "substrate_thickness_um": null,
+      "piezo_thickness_um": null,
+      "tip_mass_g": null,
+      "diameter_mm": null
+    },
+    "excitation": {
+      "type": null,
+      "frequency_Hz": null,
+      "acceleration_g": null,
+      "displacement_mm": null,
+      "motion_source": null
+    },
+    "load": {
+      "load_resistance_ohm": null
+    },
+    "output": {
+      "resonant_frequency_Hz": null,
+      "output_power_W": null,
+      "open_circuit_voltage_V": null,
+      "short_circuit_current_A": null,
+      "bandwidth_Hz": null
+    },
+    "evidence": {
+      "configuration": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "proof_mass": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "geometry": {
+        "length_mm": {
+          "quote": null,
+          "section": null,
+          "source_type": null
+        },
+        "width_mm": {
+          "quote": null,
+          "section": null,
+          "source_type": null
+        },
+        "thickness_mm": {
+          "quote": null,
+          "section": null,
+          "source_type": null
+        },
+        "substrate_thickness_um": {
+          "quote": null,
+          "section": null,
+          "source_type": null
+        },
+        "piezo_thickness_um": {
+          "quote": null,
+          "section": null,
+          "source_type": null
+        },
+        "tip_mass_g": {
+          "quote": null,
+          "section": null,
+          "source_type": null
+        },
+        "diameter_mm": {
+          "quote": null,
+          "section": null,
+          "source_type": null
+        }
+      },
+      "excitation": {
+        "type": {
+          "quote": null,
+          "section": null,
+          "source_type": null
+        },
+        "frequency_Hz": {
+          "quote": null,
+          "section": null,
+          "source_type": null
+        },
+        "acceleration_g": {
+          "quote": null,
+          "section": null,
+          "source_type": null
+        },
+        "displacement_mm": {
+          "quote": null,
+          "section": null,
+          "source_type": null
+        },
+        "motion_source": {
+          "quote": null,
+          "section": null,
+          "source_type": null
+        }
+      },
+      "load": {
+        "load_resistance_ohm": {
+          "quote": null,
+          "section": null,
+          "source_type": null
+        }
+      },
+      "output": {
+        "resonant_frequency_Hz": {
+          "quote": null,
+          "section": null,
+          "source_type": null
+        },
+        "output_power_W": {
+          "quote": null,
+          "section": null,
+          "source_type": null
+        },
+        "open_circuit_voltage_V": {
+          "quote": null,
+          "section": null,
+          "source_type": null
+        },
+        "short_circuit_current_A": {
+          "quote": null,
+          "section": null,
+          "source_type": null
+        },
+        "bandwidth_Hz": {
+          "quote": null,
+          "section": null,
+          "source_type": null
+        }
+      }
+    }
+  },
+  "llm_result": {
+    "ok": true,
+    "data": {
+      "configuration": null,
+      "proof_mass": null,
+      "geometry": {
+        "length_mm": null,
+        "width_mm": null,
+        "thickness_mm": null,
+        "substrate_thickness_um": null,
+        "piezo_thickness_um": null,
+        "tip_mass_g": null,
+        "diameter_mm": null
+      },
+      "excitation": {
+        "type": null,
+        "frequency_Hz": null,
+        "acceleration_g": null,
+        "displacement_mm": null,
+        "motion_source": null
+      },
+      "load": {
+        "load_resistance_ohm": null
+      },
+      "output": {
+        "resonant_frequency_Hz": null,
+        "output_power_W": null,
+        "open_circuit_voltage_V": null,
+        "short_circuit_current_A": null,
+        "bandwidth_Hz": null
+      },
+      "evidence": {
+        "configuration": null,
+        "proof_mass": null,
+        "geometry": {
+          "length_mm": null,
+          "width_mm": null,
+          "thickness_mm": null,
+          "substrate_thickness_um": null,
+          "piezo_thickness_um": null,
+          "tip_mass_g": null,
+          "diameter_mm": null
+        },
+        "excitation": {
+          "type": null,
+          "frequency_Hz": null,
+          "acceleration_g": null,
+          "displacement_mm": null,
+          "motion_source": null
+        },
+        "load": {
+          "load_resistance_ohm": null
+        },
+        "output": {
+          "resonant_frequency_Hz": null,
+          "output_power_W": null,
+          "open_circuit_voltage_V": null,
+          "short_circuit_current_A": null,
+          "bandwidth_Hz": null
+        }
+      }
+    },
+    "raw_output": "{\n  \"configuration\": null,\n  \"proof_mass\": null,\n  \"geometry\": {\n    \"length_mm\": null,\n    \"width_mm\": null,\n    \"thickness_mm\": null,\n    \"substrate_thickness_um\": null,\n    \"piezo_thickness_um\": null,\n    \"tip_mass_g\": null,\n    \"diameter_mm\": null\n  },\n  \"excitation\": {\n    \"type\": null,\n    \"frequency_Hz\": null,\n    \"acceleration_g\": null,\n    \"displacement_mm\": null,\n    \"motion_source\": null\n  },\n  \"load\": {\n    \"load_resistance_ohm\": null\n  },\n  \"output\": {\n    \"resonant_frequency_Hz\": null,\n    \"output_power_W\": null,\n    \"open_circuit_voltage_V\": null,\n    \"short_circuit_current_A\": null,\n    \"bandwidth_Hz\": null\n  },\n  \"evidence\": {\n    \"configuration\": null,\n    \"proof_mass\": null,\n    \"geometry\": {\n      \"length_mm\": null,\n      \"width_mm\": null,\n      \"thickness_mm\": null,\n      \"substrate_thickness_um\": null,\n      \"piezo_thickness_um\": null,\n      \"tip_mass_g\": null,\n      \"diameter_mm\": null\n    },\n    \"excitation\": {\n      \"type\": null,\n      \"frequency_Hz\": null,\n      \"acceleration_g\": null,\n      \"displacement_mm\": null,\n      \"motion_source\": null\n    },\n    \"load\": {\n      \"load_resistance_ohm\": null\n    },\n    \"output\": {\n      \"resonant_frequency_Hz\": null,\n      \"output_power_W\": null,\n      \"open_circuit_voltage_V\": null,\n      \"short_circuit_current_A\": null,\n      \"bandwidth_Hz\": null\n    }\n  }\n}"
+  }
+}

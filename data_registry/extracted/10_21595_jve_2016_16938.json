@@ -1,0 +1,147 @@
+{
+  "metadata": {
+    "paper_id": "10_21595_jve_2016_16938",
+    "doi": "10.21595/jve.2016.16938",
+    "title": "A rail-borne piezoelectric transducer for energy harvesting of railway vibration",
+    "year": 2016,
+    "journal": "Journal of Vibroengineering"
+  },
+  "configuration": "cantilever",
+  "proof_mass": true,
+  "geometry": {
+    "length_mm": 80,
+    "width_mm": 30,
+    "thickness_mm": 0.6,
+    "substrate_thickness_um": 300,
+    "piezo_thickness_um": 300,
+    "tip_mass_g": 60,
+    "diameter_mm": null
+  },
+  "excitation": {
+    "type": "vibration",
+    "frequency_Hz": 7,
+    "acceleration_g": 5,
+    "displacement_mm": 0.2,
+    "motion_source": "railway vibration"
+  },
+  "load": {
+    "load_resistance_ohm": 100000
+  },
+  "output": {
+    "resonant_frequency_Hz": 23,
+    "output_power_W": 0.00488,
+    "open_circuit_voltage_V": 24.4,
+    "short_circuit_current_A": null,
+    "bandwidth_Hz": null
+  },
+  "evidence": {
+    "configuration": {
+      "quote": "The energy harvester analyzed in this model consists of a piezoelectric PZT film clamped at one end to the rail with a tip mass mounted on its other end.",
+      "section": "Abstract",
+      "source_type": "abstract"
+    },
+    "proof_mass": {
+      "quote": "Weight of mass block (g): 60",
+      "section": "3.4. Geometric parameters of transducer",
+      "source_type": "table"
+    },
+    "geometry": {
+      "length_mm": {
+        "quote": "Device dimension: Length 80 mm",
+        "section": "3.4. Geometric parameters of transducer",
+        "source_type": "table"
+      },
+      "width_mm": {
+        "quote": "Width of beam (mm): 30",
+        "section": "3.4. Geometric parameters of transducer",
+        "source_type": "table"
+      },
+      "thickness_mm": {
+        "quote": "Thickness of piezoelectric layer (mm): 0.3; Thickness of copper electrode (mm): 0.3",
+        "section": "3.4. Geometric parameters of transducer",
+        "source_type": "table"
+      },
+      "substrate_thickness_um": {
+        "quote": "Thickness of copper electrode (mm): 0.3",
+        "section": "3.4. Geometric parameters of transducer",
+        "source_type": "table"
+      },
+      "piezo_thickness_um": {
+        "quote": "Thickness of piezoelectric layer (mm): 0.3",
+        "section": "3.4. Geometric parameters of transducer",
+        "source_type": "table"
+      },
+      "tip_mass_g": {
+        "quote": "Weight of mass block (g): 60",
+        "section": "3.4. Geometric parameters of transducer",
+        "source_type": "table"
+      },
+      "diameter_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      }
+    },
+    "excitation": {
+      "type": {
+        "quote": "railway vibration",
+        "section": "Abstract",
+        "source_type": "abstract"
+      },
+      "frequency_Hz": {
+        "quote": "frequency of 7 Hz",
+        "section": "4.2. Results discussion",
+        "source_type": "section"
+      },
+      "acceleration_g": {
+        "quote": "rail acceleration was 5 g",
+        "section": "4.2. Results discussion",
+        "source_type": "section"
+      },
+      "displacement_mm": {
+        "quote": "magnitude of rail displacement equaled to 0.2 mm for 7 Hz",
+        "section": "4.2. Results discussion",
+        "source_type": "section"
+      },
+      "motion_source": {
+        "quote": "railway vibration",
+        "section": "Abstract",
+        "source_type": "abstract"
+      }
+    },
+    "load": {
+      "load_resistance_ohm": {
+        "quote": "load impedance of 100 kOhm",
+        "section": "Abstract",
+        "source_type": "abstract"
+      }
+    },
+    "output": {
+      "resonant_frequency_Hz": {
+        "quote": "resonance frequency of 23 Hz",
+        "section": "Abstract",
+        "source_type": "abstract"
+      },
+      "output_power_W": {
+        "quote": "tested power reached 4.88 mW",
+        "section": "4.2. Results discussion",
+        "source_type": "section"
+      },
+      "open_circuit_voltage_V": {
+        "quote": "open circuit peak-peak voltage reaches 24.4 V",
+        "section": "Abstract",
+        "source_type": "abstract"
+      },
+      "short_circuit_current_A": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "bandwidth_Hz": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      }
+    }
+  }
+}

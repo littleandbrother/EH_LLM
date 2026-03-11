@@ -3,26 +3,26 @@
   "doi": "10.1049/el.2012.1419",
   "title": "Piezoelectric MEMS low-level vibration energy harvester with PMN-PT single crystal cantilever",
   "source_apis": [
-    "openalex"
+    "both"
   ],
   "pdf_url": "",
-  "pdf_local_path": "",
+  "pdf_local_path": "data_registry/raw/10_1049_el_2012_1419.pdf",
   "processing": {
     "tool": "MinerU",
-    "version": "mineru, version 2.7.6",
-    "timestamp": "2026-02-23T11:40:19.499726+00:00",
-    "duration_s": 5.11,
-    "success": false,
+    "version": "python -m mineru.cli.client, version 2.7.6",
+    "timestamp": "2026-03-09T15:25:41.287485+00:00",
+    "duration_s": 42.98,
+    "success": true,
     "error": ""
   },
   "outputs": {
-    "content_md": "",
-    "layout_json": "",
-    "images_dir": "",
-    "normalized_json": ""
+    "content_md": "/root/EH-LLM-vehbench-exp/parsed_docs/10_1049_el_2012_1419_pe27c7t0/content.md",
+    "layout_json": "/root/EH-LLM-vehbench-exp/parsed_docs/10_1049_el_2012_1419_pe27c7t0/layout.json",
+    "images_dir": "/root/EH-LLM-vehbench-exp/parsed_docs/10_1049_el_2012_1419_pe27c7t0/10_1049_el_2012_1419/auto/images",
+    "normalized_json": "/root/EH-LLM-vehbench-exp/normalized_docs/10_1049_el_2012_1419.json"
   },
   "data_lineage": {
-    "papers_jsonl_hash": "00b14f1d77372381e04e0b389c615853",
+    "papers_jsonl_hash": "57afa742c72907028abbfb0529a97d5c",
     "pipeline_step": "ingestion/mineru_runner.py"
   }
 }

@@ -1,0 +1,147 @@
+{
+  "metadata": {
+    "paper_id": "10_1016_j_sna_2018_10_043",
+    "doi": "10.1016/j.sna.2018.10.043",
+    "title": "Resonant frequency self-tunable piezoelectric cantilevers for energy harvesting and disturbing torque absorbing",
+    "year": 2019,
+    "journal": "Sensors and Actuators A: Physical"
+  },
+  "configuration": "cantilever",
+  "proof_mass": true,
+  "geometry": {
+    "length_mm": 4.0,
+    "width_mm": null,
+    "thickness_mm": null,
+    "substrate_thickness_um": null,
+    "piezo_thickness_um": null,
+    "tip_mass_g": null,
+    "diameter_mm": null
+  },
+  "excitation": {
+    "type": "rotation",
+    "frequency_Hz": 20.0,
+    "acceleration_g": null,
+    "displacement_mm": null,
+    "motion_source": "rotating wheel"
+  },
+  "load": {
+    "load_resistance_ohm": 600000.0
+  },
+  "output": {
+    "resonant_frequency_Hz": 20.0,
+    "output_power_W": 8.2e-05,
+    "open_circuit_voltage_V": null,
+    "short_circuit_current_A": null,
+    "bandwidth_Hz": null
+  },
+  "evidence": {
+    "configuration": {
+      "quote": "Resonant Frequency Self-tunable Piezoelectric Cantilevers",
+      "section": "Accepted Manuscript",
+      "source_type": "title"
+    },
+    "proof_mass": {
+      "quote": "weighted trapezoidal cantilever",
+      "section": "Abstract",
+      "source_type": "abstract"
+    },
+    "geometry": {
+      "length_mm": {
+        "quote": "length of the piezoelectric cantilever is 4 mm",
+        "section": "6. Experimental Results",
+        "source_type": "section"
+      },
+      "width_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "thickness_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "substrate_thickness_um": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "piezo_thickness_um": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "tip_mass_g": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "diameter_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      }
+    },
+    "excitation": {
+      "type": {
+        "quote": "rotating environments",
+        "section": "Abstract",
+        "source_type": "abstract"
+      },
+      "frequency_Hz": {
+        "quote": "peaks appeared at 240 and 1200 rpm",
+        "section": "6. Experimental Results",
+        "source_type": "section"
+      },
+      "acceleration_g": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "displacement_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "motion_source": {
+        "quote": "rotating wheel",
+        "section": "Abstract",
+        "source_type": "abstract"
+      }
+    },
+    "load": {
+      "load_resistance_ohm": {
+        "quote": "connected with an external resistance of 600 kΩ",
+        "section": "6. Experimental Results",
+        "source_type": "section"
+      }
+    },
+    "output": {
+      "resonant_frequency_Hz": {
+        "quote": "peaks appeared at 240 and 1200 rpm",
+        "section": "6. Experimental Results",
+        "source_type": "section"
+      },
+      "output_power_W": {
+        "quote": "average output power ... was approximately 82 μW",
+        "section": "6. Experimental Results",
+        "source_type": "section"
+      },
+      "open_circuit_voltage_V": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "short_circuit_current_A": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "bandwidth_Hz": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      }
+    }
+  }
+}

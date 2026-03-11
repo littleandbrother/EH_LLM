@@ -3,26 +3,26 @@
   "doi": "10.3390/en15197271",
   "title": "Automatic Resonance Tuning Technique for an Ultra-Broadband Piezoelectric Energy Harvester",
   "source_apis": [
-    "openalex"
+    "both"
   ],
   "pdf_url": "https://www.mdpi.com/1996-1073/15/19/7271/pdf?version=1665297117",
-  "pdf_local_path": "",
+  "pdf_local_path": "data_registry/raw/10_3390_en15197271.pdf",
   "processing": {
     "tool": "MinerU",
-    "version": "mineru, version 2.7.6",
-    "timestamp": "2026-02-23T11:38:13.387054+00:00",
-    "duration_s": 5.07,
-    "success": false,
+    "version": "python -m mineru.cli.client, version 2.7.6",
+    "timestamp": "2026-03-09T15:33:59.006137+00:00",
+    "duration_s": 79.74,
+    "success": true,
     "error": ""
   },
   "outputs": {
-    "content_md": "",
-    "layout_json": "",
-    "images_dir": "",
-    "normalized_json": ""
+    "content_md": "/root/EH-LLM-vehbench-exp/parsed_docs/10_3390_en15197271_99laya9g/content.md",
+    "layout_json": "/root/EH-LLM-vehbench-exp/parsed_docs/10_3390_en15197271_99laya9g/layout.json",
+    "images_dir": "/root/EH-LLM-vehbench-exp/parsed_docs/10_3390_en15197271_99laya9g/10_3390_en15197271/auto/images",
+    "normalized_json": "/root/EH-LLM-vehbench-exp/normalized_docs/10_3390_en15197271.json"
   },
   "data_lineage": {
-    "papers_jsonl_hash": "beaff6a8d569dc084e9d4f860277352f",
+    "papers_jsonl_hash": "b24924f0419e4883e338f17c4dc88477",
     "pipeline_step": "ingestion/mineru_runner.py"
   }
 }

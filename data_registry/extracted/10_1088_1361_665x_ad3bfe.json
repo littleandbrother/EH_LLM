@@ -1,0 +1,147 @@
+{
+  "metadata": {
+    "paper_id": "10_1088_1361_665x_ad3bfe",
+    "doi": "10.1088/1361-665x/ad3bfe",
+    "title": "Numerical and experimental investigation of an auxetic piezoelectric energy harvester with frequency self-tuning capability",
+    "year": 2024,
+    "journal": "Smart Materials and Structures"
+  },
+  "configuration": "other",
+  "proof_mass": true,
+  "geometry": {
+    "length_mm": 171,
+    "width_mm": 22,
+    "thickness_mm": 0.8,
+    "substrate_thickness_um": 470,
+    "piezo_thickness_um": 28,
+    "tip_mass_g": null,
+    "diameter_mm": null
+  },
+  "excitation": {
+    "type": "vibration",
+    "frequency_Hz": 30,
+    "acceleration_g": 0.3,
+    "displacement_mm": null,
+    "motion_source": "shaker"
+  },
+  "load": {
+    "load_resistance_ohm": 320000
+  },
+  "output": {
+    "resonant_frequency_Hz": 30,
+    "output_power_W": 1.878e-05,
+    "open_circuit_voltage_V": 3.37,
+    "short_circuit_current_A": null,
+    "bandwidth_Hz": null
+  },
+  "evidence": {
+    "configuration": {
+      "quote": "doubly clamped piezoelectric beam",
+      "section": "Abstract",
+      "source_type": "abstract"
+    },
+    "proof_mass": {
+      "quote": "sliding proof mass",
+      "section": "Abstract",
+      "source_type": "abstract"
+    },
+    "geometry": {
+      "length_mm": {
+        "quote": "171 mm",
+        "section": "2.1. Energy harvester design and fabrication",
+        "source_type": "section"
+      },
+      "width_mm": {
+        "quote": "22 mm",
+        "section": "2.1. Energy harvester design and fabrication",
+        "source_type": "section"
+      },
+      "thickness_mm": {
+        "quote": "0.8 mm",
+        "section": "2.1. Energy harvester design and fabrication",
+        "source_type": "section"
+      },
+      "substrate_thickness_um": {
+        "quote": "0.47",
+        "section": "3.1. FEM",
+        "source_type": "table"
+      },
+      "piezo_thickness_um": {
+        "quote": "28 um",
+        "section": "2.1. Energy harvester design and fabrication",
+        "source_type": "section"
+      },
+      "tip_mass_g": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "diameter_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      }
+    },
+    "excitation": {
+      "type": {
+        "quote": "harvest broadband and random vibrations",
+        "section": "Abstract",
+        "source_type": "abstract"
+      },
+      "frequency_Hz": {
+        "quote": "maximum RMS output voltage of 3.37 V at a frequency of 30 Hz",
+        "section": "4.3. Passive frequency self-tuning energy harvesting",
+        "source_type": "section"
+      },
+      "acceleration_g": {
+        "quote": "excitation acceleration of 0.3 g",
+        "section": "Abstract",
+        "source_type": "abstract"
+      },
+      "displacement_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "motion_source": {
+        "quote": "vibration shaker",
+        "section": "3.2. Experimental setup",
+        "source_type": "section"
+      }
+    },
+    "load": {
+      "load_resistance_ohm": {
+        "quote": "load resistance of 320 kOhm",
+        "section": "4.4. Power output",
+        "source_type": "section"
+      }
+    },
+    "output": {
+      "resonant_frequency_Hz": {
+        "quote": "maximum RMS output voltage of 3.37 V at a frequency of 30 Hz",
+        "section": "4.3. Passive frequency self-tuning energy harvesting",
+        "source_type": "section"
+      },
+      "output_power_W": {
+        "quote": "maximum root mean square output power of AEH reaching 18.78 uW",
+        "section": "Abstract",
+        "source_type": "abstract"
+      },
+      "open_circuit_voltage_V": {
+        "quote": "maximum RMS output voltage of 3.37 V",
+        "section": "4.3. Passive frequency self-tuning energy harvesting",
+        "source_type": "section"
+      },
+      "short_circuit_current_A": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "bandwidth_Hz": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      }
+    }
+  }
+}

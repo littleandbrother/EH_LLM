@@ -1,0 +1,28 @@
+{
+  "paper_id": "10_1155_2021_4204440",
+  "doi": "10.1155/2021/4204440",
+  "title": "Segmented Cantilever and Array Configurations for Wider Frequency Band and Higher Power Generation in Piezoelectric Vibration Energy Harvester",
+  "source_apis": [
+    "both"
+  ],
+  "pdf_url": "https://downloads.hindawi.com/journals/wcmc/2021/4204440.pdf",
+  "pdf_local_path": "data_registry/raw_stage04_paper_pdf_cleaned/10_1155_2021_4204440.pdf",
+  "processing": {
+    "tool": "MinerU",
+    "version": "python -m mineru.cli.client, version 2.7.6",
+    "timestamp": "2026-03-10T09:58:51.141837+00:00",
+    "duration_s": 99.86,
+    "success": true,
+    "error": ""
+  },
+  "outputs": {
+    "content_md": "/root/EH-LLM-vehbench-exp/parsed_docs/10_1155_2021_4204440_b9q4xefg/content.md",
+    "layout_json": "/root/EH-LLM-vehbench-exp/parsed_docs/10_1155_2021_4204440_b9q4xefg/layout.json",
+    "images_dir": "/root/EH-LLM-vehbench-exp/parsed_docs/10_1155_2021_4204440_b9q4xefg/10_1155_2021_4204440/auto/images",
+    "normalized_json": "/root/EH-LLM-vehbench-exp/normalized_docs/10_1155_2021_4204440.json"
+  },
+  "data_lineage": {
+    "papers_jsonl_hash": "ef7452389413d679748c5548ecef4235",
+    "pipeline_step": "ingestion/mineru_runner.py"
+  }
+}

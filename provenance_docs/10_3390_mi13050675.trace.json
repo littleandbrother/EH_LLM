@@ -3,26 +3,26 @@
   "doi": "10.3390/mi13050675",
   "title": "Design and Optimization of Piezoelectric Cantilever Beam Vibration Energy Harvester",
   "source_apis": [
-    "openalex"
+    "both"
   ],
   "pdf_url": "https://www.mdpi.com/2072-666X/13/5/675/pdf?version=1650972889",
-  "pdf_local_path": "",
+  "pdf_local_path": "data_registry/raw/10_3390_mi13050675.pdf",
   "processing": {
     "tool": "MinerU",
-    "version": "mineru, version 2.7.6",
-    "timestamp": "2026-02-23T11:37:27.710647+00:00",
-    "duration_s": 5.06,
-    "success": false,
+    "version": "python -m mineru.cli.client, version 2.7.6",
+    "timestamp": "2026-03-09T15:21:51.190640+00:00",
+    "duration_s": 74.56,
+    "success": true,
     "error": ""
   },
   "outputs": {
-    "content_md": "",
-    "layout_json": "",
-    "images_dir": "",
-    "normalized_json": ""
+    "content_md": "/root/EH-LLM-vehbench-exp/parsed_docs/10_3390_mi13050675_svx3xnd1/content.md",
+    "layout_json": "/root/EH-LLM-vehbench-exp/parsed_docs/10_3390_mi13050675_svx3xnd1/layout.json",
+    "images_dir": "/root/EH-LLM-vehbench-exp/parsed_docs/10_3390_mi13050675_svx3xnd1/10_3390_mi13050675/auto/images",
+    "normalized_json": "/root/EH-LLM-vehbench-exp/normalized_docs/10_3390_mi13050675.json"
   },
   "data_lineage": {
-    "papers_jsonl_hash": "1fcea31b4b0551d77da55860e08bdcbe",
+    "papers_jsonl_hash": "80e93075a44cfb9c40f4a2a7511dd7f2",
     "pipeline_step": "ingestion/mineru_runner.py"
   }
 }

@@ -1,0 +1,28 @@
+{
+  "paper_id": "10_1117_12_2009621",
+  "doi": "10.1117/12.2009621",
+  "title": "A multiaxial piezoelectric energy harvester",
+  "source_apis": [
+    "both"
+  ],
+  "pdf_url": "",
+  "pdf_local_path": "data_registry/raw_stage04_paper_pdf_cleaned/10_1117_12_2009621.pdf",
+  "processing": {
+    "tool": "MinerU",
+    "version": "python -m mineru.cli.client, version 2.7.6",
+    "timestamp": "2026-03-10T10:29:24.625467+00:00",
+    "duration_s": 79.5,
+    "success": true,
+    "error": ""
+  },
+  "outputs": {
+    "content_md": "/root/EH-LLM-vehbench-exp/parsed_docs/10_1117_12_2009621_xab0dy32/content.md",
+    "layout_json": "/root/EH-LLM-vehbench-exp/parsed_docs/10_1117_12_2009621_xab0dy32/layout.json",
+    "images_dir": "/root/EH-LLM-vehbench-exp/parsed_docs/10_1117_12_2009621_xab0dy32/10_1117_12_2009621/auto/images",
+    "normalized_json": "/root/EH-LLM-vehbench-exp/normalized_docs/10_1117_12_2009621.json"
+  },
+  "data_lineage": {
+    "papers_jsonl_hash": "8fcec8cee23280935bcf451d1f9abb0e",
+    "pipeline_step": "ingestion/mineru_runner.py"
+  }
+}

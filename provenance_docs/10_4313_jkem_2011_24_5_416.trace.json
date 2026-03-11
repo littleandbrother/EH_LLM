@@ -1,0 +1,28 @@
+{
+  "paper_id": "10_4313_jkem_2011_24_5_416",
+  "doi": "10.4313/jkem.2011.24.5.416",
+  "title": "A Study on Energy Harvester with Cantilever Structure Using PZT Piezoelectric Material",
+  "source_apis": [
+    "both"
+  ],
+  "pdf_url": "http://koreascience.or.kr:80/article/JAKO201115952330174.pdf",
+  "pdf_local_path": "data_registry/raw_stage04_paper_pdf_cleaned/10_4313_jkem_2011_24_5_416.pdf",
+  "processing": {
+    "tool": "MinerU",
+    "version": "python -m mineru.cli.client, version 2.7.6",
+    "timestamp": "2026-03-10T10:16:34.751549+00:00",
+    "duration_s": 99.07,
+    "success": true,
+    "error": ""
+  },
+  "outputs": {
+    "content_md": "/root/EH-LLM-vehbench-exp/parsed_docs/10_4313_jkem_2011_24_5_416_gq162klz/content.md",
+    "layout_json": "/root/EH-LLM-vehbench-exp/parsed_docs/10_4313_jkem_2011_24_5_416_gq162klz/layout.json",
+    "images_dir": "/root/EH-LLM-vehbench-exp/parsed_docs/10_4313_jkem_2011_24_5_416_gq162klz/10_4313_jkem_2011_24_5_416/auto/images",
+    "normalized_json": "/root/EH-LLM-vehbench-exp/normalized_docs/10_4313_jkem_2011_24_5_416.json"
+  },
+  "data_lineage": {
+    "papers_jsonl_hash": "9e4dbd3372e3ebf80d922b2c2bc1e285",
+    "pipeline_step": "ingestion/mineru_runner.py"
+  }
+}

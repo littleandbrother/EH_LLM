@@ -1,0 +1,28 @@
+{
+  "paper_id": "10_1038_srep38798",
+  "doi": "10.1038/srep38798",
+  "title": "A piezoelectric micro generator worked at low frequency and high acceleration based on PZT and phosphor bronze bonding",
+  "source_apis": [
+    "both"
+  ],
+  "pdf_url": "https://www.nature.com/articles/srep38798.pdf",
+  "pdf_local_path": "data_registry/raw_stage04_paper_pdf_cleaned/10_1038_srep38798.pdf",
+  "processing": {
+    "tool": "MinerU",
+    "version": "python -m mineru.cli.client, version 2.7.6",
+    "timestamp": "2026-03-10T09:27:35.154296+00:00",
+    "duration_s": 71.95,
+    "success": true,
+    "error": ""
+  },
+  "outputs": {
+    "content_md": "/root/EH-LLM-vehbench-exp/parsed_docs/10_1038_srep38798_f5fuzwnm/content.md",
+    "layout_json": "/root/EH-LLM-vehbench-exp/parsed_docs/10_1038_srep38798_f5fuzwnm/layout.json",
+    "images_dir": "/root/EH-LLM-vehbench-exp/parsed_docs/10_1038_srep38798_f5fuzwnm/10_1038_srep38798/auto/images",
+    "normalized_json": "/root/EH-LLM-vehbench-exp/normalized_docs/10_1038_srep38798.json"
+  },
+  "data_lineage": {
+    "papers_jsonl_hash": "30419cde3f6252e04a889e13e345acc7",
+    "pipeline_step": "ingestion/mineru_runner.py"
+  }
+}

@@ -1,0 +1,147 @@
+{
+  "metadata": {
+    "paper_id": "10_1109_ted_2021_3072612",
+    "doi": "10.1109/ted.2021.3072612",
+    "title": "Design and Performance of ScAlN/AlN Trapezoidal Cantilever-Based MEMS Piezoelectric Energy Harvesters",
+    "year": 2021,
+    "journal": "IEEE Transactions on Electron Devices"
+  },
+  "configuration": "cantilever",
+  "proof_mass": true,
+  "geometry": {
+    "length_mm": 8.02,
+    "width_mm": 8.0,
+    "thickness_mm": 0.05,
+    "substrate_thickness_um": 50.0,
+    "piezo_thickness_um": 1200.0,
+    "tip_mass_g": null,
+    "diameter_mm": null
+  },
+  "excitation": {
+    "type": "vibration",
+    "frequency_Hz": 330.25,
+    "acceleration_g": 1.0,
+    "displacement_mm": null,
+    "motion_source": "exciter"
+  },
+  "load": {
+    "load_resistance_ohm": 80000.0
+  },
+  "output": {
+    "resonant_frequency_Hz": 330.25,
+    "output_power_W": 7.247e-05,
+    "open_circuit_voltage_V": null,
+    "short_circuit_current_A": null,
+    "bandwidth_Hz": 3.2
+  },
+  "evidence": {
+    "configuration": {
+      "quote": "trapezoid with corners (TWCs) cantilever",
+      "section": "II. ENERGY HARVESTER DESIGN",
+      "source_type": "section"
+    },
+    "proof_mass": {
+      "quote": "ended with an attached mass",
+      "section": "III. FABRICATION AND MEASUREMENT",
+      "source_type": "section"
+    },
+    "geometry": {
+      "length_mm": {
+        "quote": "8.02×8×0.551",
+        "section": "TABLE II CHARACTERISTICS AND EXPERIMENTAL RESULTS",
+        "source_type": "table"
+      },
+      "width_mm": {
+        "quote": "8.02×8×0.551",
+        "section": "TABLE II CHARACTERISTICS AND EXPERIMENTAL RESULTS",
+        "source_type": "table"
+      },
+      "thickness_mm": {
+        "quote": "cantilever beam thickness of 50 μm",
+        "section": "II. ENERGY HARVESTER DESIGN",
+        "source_type": "section"
+      },
+      "substrate_thickness_um": {
+        "quote": "Si substrate (50 μm)",
+        "section": "III. FABRICATION AND MEASUREMENT",
+        "source_type": "section"
+      },
+      "piezo_thickness_um": {
+        "quote": "Composite piezoelectric layer (AlN/ScAlN/AlN, 1200 nm)",
+        "section": "III. FABRICATION AND MEASUREMENT",
+        "source_type": "section"
+      },
+      "tip_mass_g": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "diameter_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      }
+    },
+    "excitation": {
+      "type": {
+        "quote": "sinusoidal vibration",
+        "section": "III. FABRICATION AND MEASUREMENT",
+        "source_type": "section"
+      },
+      "frequency_Hz": {
+        "quote": "330.25",
+        "section": "TABLE II CHARACTERISTICS AND EXPERIMENTAL RESULTS",
+        "source_type": "table"
+      },
+      "acceleration_g": {
+        "quote": "acceleration level of 1 g",
+        "section": "II. ENERGY HARVESTER DESIGN",
+        "source_type": "section"
+      },
+      "displacement_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "motion_source": {
+        "quote": "exciter (B&K 4808)",
+        "section": "III. FABRICATION AND MEASUREMENT",
+        "source_type": "section"
+      }
+    },
+    "load": {
+      "load_resistance_ohm": {
+        "quote": "80",
+        "section": "TABLE II CHARACTERISTICS AND EXPERIMENTAL RESULTS",
+        "source_type": "table"
+      }
+    },
+    "output": {
+      "resonant_frequency_Hz": {
+        "quote": "330.25",
+        "section": "TABLE II CHARACTERISTICS AND EXPERIMENTAL RESULTS",
+        "source_type": "table"
+      },
+      "output_power_W": {
+        "quote": "72.47",
+        "section": "TABLE II CHARACTERISTICS AND EXPERIMENTAL RESULTS",
+        "source_type": "table"
+      },
+      "open_circuit_voltage_V": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "short_circuit_current_A": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "bandwidth_Hz": {
+        "quote": "wider bandwidth (-3 dB) of 3.2 Hz",
+        "section": "IV. EXPERIMENTAL RESULTS AND DISCUSSION",
+        "source_type": "section"
+      }
+    }
+  }
+}

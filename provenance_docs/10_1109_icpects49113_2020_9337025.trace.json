@@ -1,0 +1,28 @@
+{
+  "paper_id": "10_1109_icpects49113_2020_9337025",
+  "doi": "10.1109/icpects49113.2020.9337025",
+  "title": "Electrical Characteristics and the vibration performance of PVDF - Cu MEMS Piezoelectric Vibrational Energy Harvester",
+  "source_apis": [
+    "both"
+  ],
+  "pdf_url": "",
+  "pdf_local_path": "data_registry/raw_stage04_paper_pdf_cleaned/10_1109_icpects49113_2020_9337025.pdf",
+  "processing": {
+    "tool": "MinerU",
+    "version": "python -m mineru.cli.client, version 2.7.6",
+    "timestamp": "2026-03-10T10:26:58.793133+00:00",
+    "duration_s": 89.39,
+    "success": true,
+    "error": ""
+  },
+  "outputs": {
+    "content_md": "/root/EH-LLM-vehbench-exp/parsed_docs/10_1109_icpects49113_2020_9337025_f5df7htb/content.md",
+    "layout_json": "/root/EH-LLM-vehbench-exp/parsed_docs/10_1109_icpects49113_2020_9337025_f5df7htb/layout.json",
+    "images_dir": "/root/EH-LLM-vehbench-exp/parsed_docs/10_1109_icpects49113_2020_9337025_f5df7htb/10_1109_icpects49113_2020_9337025/auto/images",
+    "normalized_json": "/root/EH-LLM-vehbench-exp/normalized_docs/10_1109_icpects49113_2020_9337025.json"
+  },
+  "data_lineage": {
+    "papers_jsonl_hash": "118c10007faa96e9575c0cfc50249ff6",
+    "pipeline_step": "ingestion/mineru_runner.py"
+  }
+}

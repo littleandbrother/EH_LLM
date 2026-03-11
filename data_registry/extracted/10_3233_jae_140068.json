@@ -1,0 +1,147 @@
+{
+  "metadata": {
+    "paper_id": "10_3233_jae_140068",
+    "doi": "10.3233/jae-140068",
+    "title": "An infrasonic vibration energy harvester using pendulum impact",
+    "year": 2015,
+    "journal": "International Journal of Applied Electromagnetics and Mechanics"
+  },
+  "configuration": "cantilever",
+  "proof_mass": false,
+  "geometry": {
+    "length_mm": 100,
+    "width_mm": 10,
+    "thickness_mm": 0.7,
+    "substrate_thickness_um": 500,
+    "piezo_thickness_um": 200,
+    "tip_mass_g": null,
+    "diameter_mm": null
+  },
+  "excitation": {
+    "type": "vibration",
+    "frequency_Hz": 5,
+    "acceleration_g": 0.1,
+    "displacement_mm": null,
+    "motion_source": "ambient vibration"
+  },
+  "load": {
+    "load_resistance_ohm": 410000
+  },
+  "output": {
+    "resonant_frequency_Hz": 52.5,
+    "output_power_W": null,
+    "open_circuit_voltage_V": null,
+    "short_circuit_current_A": null,
+    "bandwidth_Hz": 6
+  },
+  "evidence": {
+    "configuration": {
+      "quote": "low-frequency pendulum impacts a cantilever beam type energy harvester",
+      "section": "Abstract",
+      "source_type": "abstract"
+    },
+    "proof_mass": {
+      "quote": "The piezoelectric plate ... is bonded at the root of the substrate",
+      "section": "2. Structure and principle",
+      "source_type": "section"
+    },
+    "geometry": {
+      "length_mm": {
+        "quote": "100 × 10 × 0.5",
+        "section": "Table 1",
+        "source_type": "table"
+      },
+      "width_mm": {
+        "quote": "100 × 10 × 0.5",
+        "section": "Table 1",
+        "source_type": "table"
+      },
+      "thickness_mm": {
+        "quote": "100 × 10 × 0.5 ... 10 × 10 × 0.2",
+        "section": "Table 1",
+        "source_type": "table"
+      },
+      "substrate_thickness_um": {
+        "quote": "100 × 10 × 0.5",
+        "section": "Table 1",
+        "source_type": "table"
+      },
+      "piezo_thickness_um": {
+        "quote": "10 × 10 × 0.2",
+        "section": "Table 1",
+        "source_type": "table"
+      },
+      "tip_mass_g": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "diameter_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      }
+    },
+    "excitation": {
+      "type": {
+        "quote": "infrasonic vibration energy harvesting device",
+        "section": "Abstract",
+        "source_type": "abstract"
+      },
+      "frequency_Hz": {
+        "quote": "5 Hz frequency",
+        "section": "4. Experiments and discussion",
+        "source_type": "section"
+      },
+      "acceleration_g": {
+        "quote": "0.1 g excitation acceleration",
+        "section": "Abstract",
+        "source_type": "abstract"
+      },
+      "displacement_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "motion_source": {
+        "quote": "ambient vibration",
+        "section": "Abstract",
+        "source_type": "abstract"
+      }
+    },
+    "load": {
+      "load_resistance_ohm": {
+        "quote": "410 kOhm",
+        "section": "3. Finite element analysis with the coupling of multiple physical processes",
+        "source_type": "section"
+      }
+    },
+    "output": {
+      "resonant_frequency_Hz": {
+        "quote": "Measured frequency of the decaying vibration in the cantilever is about 52.5 Hz",
+        "section": "4. Experiments and discussion",
+        "source_type": "section"
+      },
+      "output_power_W": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "open_circuit_voltage_V": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "short_circuit_current_A": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "bandwidth_Hz": {
+        "quote": "frequency range of 2 ~ 8 Hz",
+        "section": "Abstract",
+        "source_type": "abstract"
+      }
+    }
+  }
+}

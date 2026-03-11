@@ -1,0 +1,147 @@
+{
+  "metadata": {
+    "paper_id": "10_1177_16878132241248999",
+    "doi": "10.1177/16878132241248999",
+    "title": "Design and test of liquid sloshing piezoelectric energy harvester",
+    "year": 2024,
+    "journal": "Advances in Mechanical Engineering"
+  },
+  "configuration": "cantilever",
+  "proof_mass": true,
+  "geometry": {
+    "length_mm": 250,
+    "width_mm": 30,
+    "thickness_mm": 1,
+    "substrate_thickness_um": 1000,
+    "piezo_thickness_um": null,
+    "tip_mass_g": null,
+    "diameter_mm": null
+  },
+  "excitation": {
+    "type": "vibration",
+    "frequency_Hz": 13.2,
+    "acceleration_g": 0.5,
+    "displacement_mm": null,
+    "motion_source": "vibration table"
+  },
+  "load": {
+    "load_resistance_ohm": 600000
+  },
+  "output": {
+    "resonant_frequency_Hz": 13.2,
+    "output_power_W": 0.000178,
+    "open_circuit_voltage_V": null,
+    "short_circuit_current_A": null,
+    "bandwidth_Hz": null
+  },
+  "evidence": {
+    "configuration": {
+      "quote": "The liquid slosh-type piezoelectric harvester consists of an aluminum cantilever beam",
+      "section": "Design of a liquid sloshing piezoelectric energy harvester",
+      "source_type": "section"
+    },
+    "proof_mass": {
+      "quote": "The free end of the cantilever beam is connected to a cylindrical container",
+      "section": "Design of a liquid sloshing piezoelectric energy harvester",
+      "source_type": "section"
+    },
+    "geometry": {
+      "length_mm": {
+        "quote": "The size of the aluminum alloy cantilever beam is 250 x 30 x 1 mm^3",
+        "section": "Design of a liquid sloshing piezoelectric energy harvester",
+        "source_type": "section"
+      },
+      "width_mm": {
+        "quote": "The size of the aluminum alloy cantilever beam is 250 x 30 x 1 mm^3",
+        "section": "Design of a liquid sloshing piezoelectric energy harvester",
+        "source_type": "section"
+      },
+      "thickness_mm": {
+        "quote": "The size of the aluminum alloy cantilever beam is 250 x 30 x 1 mm^3",
+        "section": "Design of a liquid sloshing piezoelectric energy harvester",
+        "source_type": "section"
+      },
+      "substrate_thickness_um": {
+        "quote": "The size of the aluminum alloy cantilever beam is 250 x 30 x 1 mm^3",
+        "section": "Design of a liquid sloshing piezoelectric energy harvester",
+        "source_type": "section"
+      },
+      "piezo_thickness_um": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "tip_mass_g": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "diameter_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      }
+    },
+    "excitation": {
+      "type": {
+        "quote": "building a vibration experiment platform",
+        "section": "Abstract",
+        "source_type": "abstract"
+      },
+      "frequency_Hz": {
+        "quote": "13.2 Hz",
+        "section": "Frequency characteristics",
+        "source_type": "section"
+      },
+      "acceleration_g": {
+        "quote": "excitation acceleration (0.5g)",
+        "section": "Frequency characteristics",
+        "source_type": "section"
+      },
+      "displacement_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "motion_source": {
+        "quote": "vibration table",
+        "section": "Building the vibration experiment platform",
+        "source_type": "section"
+      }
+    },
+    "load": {
+      "load_resistance_ohm": {
+        "quote": "best-matched impedance is 600 kOhm",
+        "section": "Impedance characteristic",
+        "source_type": "section"
+      }
+    },
+    "output": {
+      "resonant_frequency_Hz": {
+        "quote": "13.2 Hz",
+        "section": "Frequency characteristics",
+        "source_type": "section"
+      },
+      "output_power_W": {
+        "quote": "maximum output power... is 0.178 mW",
+        "section": "Impedance characteristic",
+        "source_type": "section"
+      },
+      "open_circuit_voltage_V": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "short_circuit_current_A": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "bandwidth_Hz": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      }
+    }
+  }
+}

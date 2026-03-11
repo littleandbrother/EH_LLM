@@ -1,0 +1,147 @@
+{
+  "metadata": {
+    "paper_id": "10_3390_mi12091090",
+    "doi": "10.3390/mi12091090",
+    "title": "Design, Manufacture and Test of Piezoelectric Cantilever-Beam Energy Harvesters with Hollow Structures",
+    "year": 2021,
+    "journal": "Micromachines"
+  },
+  "configuration": "cantilever",
+  "proof_mass": true,
+  "geometry": {
+    "length_mm": null,
+    "width_mm": null,
+    "thickness_mm": null,
+    "substrate_thickness_um": null,
+    "piezo_thickness_um": null,
+    "tip_mass_g": null,
+    "diameter_mm": null
+  },
+  "excitation": {
+    "type": "vibration",
+    "frequency_Hz": 56.3,
+    "acceleration_g": 0.5,
+    "displacement_mm": null,
+    "motion_source": "vibrating table"
+  },
+  "load": {
+    "load_resistance_ohm": 114000
+  },
+  "output": {
+    "resonant_frequency_Hz": 56.3,
+    "output_power_W": 0.0003168,
+    "open_circuit_voltage_V": 17,
+    "short_circuit_current_A": null,
+    "bandwidth_Hz": null
+  },
+  "evidence": {
+    "configuration": {
+      "quote": "cantilever-beam based PEHs",
+      "section": "1. Introduction",
+      "source_type": "section"
+    },
+    "proof_mass": {
+      "quote": "proof mass is glued to the top",
+      "section": "2. Design and Simulation",
+      "source_type": "section"
+    },
+    "geometry": {
+      "length_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "width_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "thickness_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "substrate_thickness_um": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "piezo_thickness_um": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "tip_mass_g": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "diameter_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      }
+    },
+    "excitation": {
+      "type": {
+        "quote": "vibration energy harvesting",
+        "section": "Design, Manufacture and Test of Piezoelectric Cantilever-Beam Energy Harvesters with Hollow Structures",
+        "source_type": "abstract"
+      },
+      "frequency_Hz": {
+        "quote": "resonance frequency ... 56.3 Hz",
+        "section": "Design, Manufacture and Test of Piezoelectric Cantilever-Beam Energy Harvesters with Hollow Structures",
+        "source_type": "abstract"
+      },
+      "acceleration_g": {
+        "quote": "acceleration ... 0.5 g",
+        "section": "Design, Manufacture and Test of Piezoelectric Cantilever-Beam Energy Harvesters with Hollow Structures",
+        "source_type": "abstract"
+      },
+      "displacement_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "motion_source": {
+        "quote": "vibrating table",
+        "section": "3. Fabrication and Test Results of PEH",
+        "source_type": "section"
+      }
+    },
+    "load": {
+      "load_resistance_ohm": {
+        "quote": "matched load resistance ... 114 kΩ",
+        "section": "Design, Manufacture and Test of Piezoelectric Cantilever-Beam Energy Harvesters with Hollow Structures",
+        "source_type": "abstract"
+      }
+    },
+    "output": {
+      "resonant_frequency_Hz": {
+        "quote": "resonance frequency ... 56.3 Hz",
+        "section": "Design, Manufacture and Test of Piezoelectric Cantilever-Beam Energy Harvesters with Hollow Structures",
+        "source_type": "abstract"
+      },
+      "output_power_W": {
+        "quote": "power density was 2.52 mW/cm³",
+        "section": "Design, Manufacture and Test of Piezoelectric Cantilever-Beam Energy Harvesters with Hollow Structures",
+        "source_type": "abstract"
+      },
+      "open_circuit_voltage_V": {
+        "quote": "peak voltage was 17 V",
+        "section": "Design, Manufacture and Test of Piezoelectric Cantilever-Beam Energy Harvesters with Hollow Structures",
+        "source_type": "abstract"
+      },
+      "short_circuit_current_A": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "bandwidth_Hz": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      }
+    }
+  }
+}

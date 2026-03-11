@@ -1,0 +1,147 @@
+{
+  "metadata": {
+    "paper_id": "10_3390_mi16121314",
+    "doi": "10.3390/mi16121314",
+    "title": "Piezoelectric Energy Harvester with Zigzag Root Section for Self-Powered Transformer Monitoring",
+    "year": 2025,
+    "journal": "Micromachines"
+  },
+  "configuration": "cantilever",
+  "proof_mass": true,
+  "geometry": {
+    "length_mm": 36,
+    "width_mm": 20,
+    "thickness_mm": null,
+    "substrate_thickness_um": 1000,
+    "piezo_thickness_um": 200,
+    "tip_mass_g": null,
+    "diameter_mm": null
+  },
+  "excitation": {
+    "type": "vibration",
+    "frequency_Hz": 100,
+    "acceleration_g": 1.5,
+    "displacement_mm": null,
+    "motion_source": "transformer"
+  },
+  "load": {
+    "load_resistance_ohm": 200000
+  },
+  "output": {
+    "resonant_frequency_Hz": 100,
+    "output_power_W": 0.01354,
+    "open_circuit_voltage_V": 142,
+    "short_circuit_current_A": null,
+    "bandwidth_Hz": null
+  },
+  "evidence": {
+    "configuration": {
+      "quote": "piezoelectric cantilever beam",
+      "section": "Abstract",
+      "source_type": "abstract"
+    },
+    "proof_mass": {
+      "quote": "proof mass is placed at the end of the horizontal cantilever section",
+      "section": "2.1. System Configuration",
+      "source_type": "section"
+    },
+    "geometry": {
+      "length_mm": {
+        "quote": "Case 3 ... 36 mm",
+        "section": "3. Case Studies",
+        "source_type": "table"
+      },
+      "width_mm": {
+        "quote": "38x20x1 mm^3",
+        "section": "4.1. Experimental Setup",
+        "source_type": "section"
+      },
+      "thickness_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "substrate_thickness_um": {
+        "quote": "38x20x1 mm^3",
+        "section": "4.1. Experimental Setup",
+        "source_type": "section"
+      },
+      "piezo_thickness_um": {
+        "quote": "30x20x0.2 mm^3",
+        "section": "4.1. Experimental Setup",
+        "source_type": "section"
+      },
+      "tip_mass_g": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "diameter_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      }
+    },
+    "excitation": {
+      "type": {
+        "quote": "vibration energy harvester",
+        "section": "Abstract",
+        "source_type": "abstract"
+      },
+      "frequency_Hz": {
+        "quote": "resonant frequency ... to 100 Hz",
+        "section": "Abstract",
+        "source_type": "abstract"
+      },
+      "acceleration_g": {
+        "quote": "13.54 mW ... under 1.5 g excitation",
+        "section": "5. Conclusions",
+        "source_type": "section"
+      },
+      "displacement_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "motion_source": {
+        "quote": "transformer",
+        "section": "Abstract",
+        "source_type": "abstract"
+      }
+    },
+    "load": {
+      "load_resistance_ohm": {
+        "quote": "best loads are 200 kOhm",
+        "section": "4.2. Output Performance",
+        "source_type": "section"
+      }
+    },
+    "output": {
+      "resonant_frequency_Hz": {
+        "quote": "resonant frequency ... to 100 Hz",
+        "section": "Abstract",
+        "source_type": "abstract"
+      },
+      "output_power_W": {
+        "quote": "output 13.54 mW of power",
+        "section": "Abstract",
+        "source_type": "abstract"
+      },
+      "open_circuit_voltage_V": {
+        "quote": "outputs 142 V under 2.98 g excitation",
+        "section": "4.2. Output Performance",
+        "source_type": "section"
+      },
+      "short_circuit_current_A": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "bandwidth_Hz": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      }
+    }
+  }
+}

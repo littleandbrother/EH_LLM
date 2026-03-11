@@ -1,0 +1,28 @@
+{
+  "paper_id": "10_4028_www_scientific_net_amm_404_635",
+  "doi": "10.4028/www.scientific.net/amm.404.635",
+  "title": "Broadband Low-Frequency Vibration Energy Harvester with a Rolling Mass",
+  "source_apis": [
+    "both"
+  ],
+  "pdf_url": "",
+  "pdf_local_path": "data_registry/raw_stage04_paper_pdf_cleaned/10_4028_www_scientific_net_amm_404_635.pdf",
+  "processing": {
+    "tool": "MinerU",
+    "version": "python -m mineru.cli.client, version 2.7.6",
+    "timestamp": "2026-03-10T09:41:05.464290+00:00",
+    "duration_s": 66.65,
+    "success": true,
+    "error": ""
+  },
+  "outputs": {
+    "content_md": "/root/EH-LLM-vehbench-exp/parsed_docs/10_4028_www_scientific_net_amm_404_635_be3t_ngj/content.md",
+    "layout_json": "/root/EH-LLM-vehbench-exp/parsed_docs/10_4028_www_scientific_net_amm_404_635_be3t_ngj/layout.json",
+    "images_dir": "/root/EH-LLM-vehbench-exp/parsed_docs/10_4028_www_scientific_net_amm_404_635_be3t_ngj/10_4028_www_scientific_net_amm_404_635/auto/images",
+    "normalized_json": "/root/EH-LLM-vehbench-exp/normalized_docs/10_4028_www_scientific_net_amm_404_635.json"
+  },
+  "data_lineage": {
+    "papers_jsonl_hash": "1bd6952eab6b4c8371ab2d07fb3a1a60",
+    "pipeline_step": "ingestion/mineru_runner.py"
+  }
+}

@@ -1,0 +1,147 @@
+{
+  "metadata": {
+    "paper_id": "10_1016_j_sna_2019_06_034",
+    "doi": "10.1016/j.sna.2019.06.034",
+    "title": "A packaged piezoelectric vibration energy harvester with high power and broadband characteristics",
+    "year": 2019,
+    "journal": "Sensors and Actuators A: Physical"
+  },
+  "configuration": "cantilever",
+  "proof_mass": true,
+  "geometry": {
+    "length_mm": 14,
+    "width_mm": 10,
+    "thickness_mm": 0.5,
+    "substrate_thickness_um": 100,
+    "piezo_thickness_um": 200,
+    "tip_mass_g": null,
+    "diameter_mm": null
+  },
+  "excitation": {
+    "type": "vibration",
+    "frequency_Hz": 160,
+    "acceleration_g": 1,
+    "displacement_mm": null,
+    "motion_source": null
+  },
+  "load": {
+    "load_resistance_ohm": 47000
+  },
+  "output": {
+    "resonant_frequency_Hz": 160,
+    "output_power_W": 0.00249,
+    "open_circuit_voltage_V": 28.4,
+    "short_circuit_current_A": null,
+    "bandwidth_Hz": 22
+  },
+  "evidence": {
+    "configuration": {
+      "quote": "piezoelectric cantilever",
+      "section": "Abstract",
+      "source_type": "abstract"
+    },
+    "proof_mass": {
+      "quote": "double L-shaped tungsten proof mass block",
+      "section": "Abstract",
+      "source_type": "abstract"
+    },
+    "geometry": {
+      "length_mm": {
+        "quote": "Cantilever length 14 mm",
+        "section": "2. Design concept",
+        "source_type": "table"
+      },
+      "width_mm": {
+        "quote": "Cantilever width 10 mm",
+        "section": "2. Design concept",
+        "source_type": "table"
+      },
+      "thickness_mm": {
+        "quote": "actual total thickness of PZT composite piezoelectric bimorph is 500 um",
+        "section": "3. Prototype fabrication and packaging",
+        "source_type": "section"
+      },
+      "substrate_thickness_um": {
+        "quote": "Substrate layer thickness 0.1 mm",
+        "section": "2. Design concept",
+        "source_type": "table"
+      },
+      "piezo_thickness_um": {
+        "quote": "Piezoelectric layer thickness 0.2 mm",
+        "section": "2. Design concept concept",
+        "source_type": "table"
+      },
+      "tip_mass_g": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "diameter_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      }
+    },
+    "excitation": {
+      "type": {
+        "quote": "piezoelectric vibration energy harvester",
+        "section": "Abstract",
+        "source_type": "abstract"
+      },
+      "frequency_Hz": {
+        "quote": "resonates under the excitation of 1g at 160 Hz",
+        "section": "Abstract",
+        "source_type": "abstract"
+      },
+      "acceleration_g": {
+        "quote": "excitation of 1g",
+        "section": "Abstract",
+        "source_type": "abstract"
+      },
+      "displacement_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "motion_source": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      }
+    },
+    "load": {
+      "load_resistance_ohm": {
+        "quote": "optimum resistance load of 47 kOhm",
+        "section": "Abstract",
+        "source_type": "abstract"
+      }
+    },
+    "output": {
+      "resonant_frequency_Hz": {
+        "quote": "resonant frequency of PVEH is fs = 160 Hz",
+        "section": "4. Experimental results",
+        "source_type": "section"
+      },
+      "output_power_W": {
+        "quote": "maximum output power is 2.49 mW",
+        "section": "Abstract",
+        "source_type": "abstract"
+      },
+      "open_circuit_voltage_V": {
+        "quote": "peak voltage is Vp = 28.4 V",
+        "section": "4. Experimental results",
+        "source_type": "section"
+      },
+      "short_circuit_current_A": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "bandwidth_Hz": {
+        "quote": "half-power bandwidth is 22 Hz",
+        "section": "Abstract",
+        "source_type": "abstract"
+      }
+    }
+  }
+}

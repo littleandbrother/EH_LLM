@@ -3,26 +3,26 @@
   "doi": "10.3938/jkps.76.251",
   "title": "Propeller-based Underwater Piezoelectric Energy Harvesting System for an Autonomous IoT Sensor System",
   "source_apis": [
-    "semantic_scholar"
+    "both"
   ],
   "pdf_url": "",
-  "pdf_local_path": "",
+  "pdf_local_path": "data_registry/raw/10_3938_jkps_76_251.pdf",
   "processing": {
     "tool": "MinerU",
-    "version": "mineru, version 2.7.6",
-    "timestamp": "2026-02-23T11:39:27.080469+00:00",
-    "duration_s": 5.15,
-    "success": false,
+    "version": "python -m mineru.cli.client, version 2.7.6",
+    "timestamp": "2026-03-09T15:14:26.478284+00:00",
+    "duration_s": 55.27,
+    "success": true,
     "error": ""
   },
   "outputs": {
-    "content_md": "",
-    "layout_json": "",
-    "images_dir": "",
-    "normalized_json": ""
+    "content_md": "/root/EH-LLM-vehbench-exp/parsed_docs/10_3938_jkps_76_251_4h8k2mys/content.md",
+    "layout_json": "/root/EH-LLM-vehbench-exp/parsed_docs/10_3938_jkps_76_251_4h8k2mys/layout.json",
+    "images_dir": "/root/EH-LLM-vehbench-exp/parsed_docs/10_3938_jkps_76_251_4h8k2mys/10_3938_jkps_76_251/auto/images",
+    "normalized_json": "/root/EH-LLM-vehbench-exp/normalized_docs/10_3938_jkps_76_251.json"
   },
   "data_lineage": {
-    "papers_jsonl_hash": "81f411c28ca5e4446c06f31c483b9abc",
+    "papers_jsonl_hash": "9807be9d39986b5844dcbba9e1b97659",
     "pipeline_step": "ingestion/mineru_runner.py"
   }
 }

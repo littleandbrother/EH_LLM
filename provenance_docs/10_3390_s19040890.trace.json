@@ -1,0 +1,28 @@
+{
+  "paper_id": "10_3390_s19040890",
+  "doi": "10.3390/s19040890",
+  "title": "Electrostatic MEMS Vibration Energy Harvesters inside of Tire Treads",
+  "source_apis": [
+    "openalex"
+  ],
+  "pdf_url": "https://www.mdpi.com/1424-8220/19/4/890/pdf?version=1550718360",
+  "pdf_local_path": "data_registry/raw_stage04_paper_pdf_cleaned/10_3390_s19040890.pdf",
+  "processing": {
+    "tool": "MinerU",
+    "version": "python -m mineru.cli.client, version 2.7.6",
+    "timestamp": "2026-03-10T10:06:12.679501+00:00",
+    "duration_s": 80.67,
+    "success": true,
+    "error": ""
+  },
+  "outputs": {
+    "content_md": "/root/EH-LLM-vehbench-exp/parsed_docs/10_3390_s19040890_55_9obw4/content.md",
+    "layout_json": "/root/EH-LLM-vehbench-exp/parsed_docs/10_3390_s19040890_55_9obw4/layout.json",
+    "images_dir": "/root/EH-LLM-vehbench-exp/parsed_docs/10_3390_s19040890_55_9obw4/10_3390_s19040890/auto/images",
+    "normalized_json": "/root/EH-LLM-vehbench-exp/normalized_docs/10_3390_s19040890.json"
+  },
+  "data_lineage": {
+    "papers_jsonl_hash": "9597199e1b4b2b7645c4f1fb177fdb73",
+    "pipeline_step": "ingestion/mineru_runner.py"
+  }
+}

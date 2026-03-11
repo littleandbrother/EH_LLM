@@ -1,0 +1,166 @@
+{
+  "paper_id": "10_1117_12_2009621",
+  "doi": "10.1117/12.2009621",
+  "title": "A multiaxial piezoelectric energy harvester",
+  "year": 2013,
+  "venue": "Proceedings of SPIE, the International Society for Optical Engineering/Proceedings of SPIE",
+  "authors": [
+    "H. D. Mousselmal",
+    "P. Cottinet",
+    "L. Quiquerez",
+    "B. Remaki",
+    "L. Petit",
+    "P.‐J. Cottinet"
+  ],
+  "citation_count": 3,
+  "sections": [
+    {
+      "heading": "A multiaxial piezoelectric energy harvester",
+      "level": 1,
+      "text": "H.D. Mousselmal (a,b) \\*, P.J. Cottinet (a), L. Quiquerez (b), B. Remaki(b), and L. Petit(a)\n\n(a) Laboratoire de Génie Electrique et de Ferroélectricité (LGEF), INSA de Lyon, Université de Lyon, 8 Rue de la physique F-69621, Villeurbanne, France   \n(b) Institut des Nanotechnologies de Lyon (INL)-UMR5270 CNRS, INSA de Lyon, Université de Lyon, 7 Avenue Jean Capelle Villeurbanne F-69621, France"
+    },
+    {
+      "heading": "Abstract.",
+      "level": 1,
+      "text": "Anoa min assl ehrvee basntvebucul yTx  al p body movements or vehicles vibrations.\n\nI shas beeysori uthe s hetotay vi bu cal gl  ft.This pe pret he c nd hedections su ula piezoelectric energy harvester.\n\nparameter for the modes tuning because the resonant frequency of the $1 ^ { \\mathrm { s t } }$ exploited flexural mode directly depends on the mass whereas the resonance frequency of the $2 ^ { \\mathrm { n d } }$ flexural mode depends on its moment of inertia.\n\nipproach.\n\nKeyword:Vibration energy harvesting, piezoelectric conversion finite elements simulation smarts strucures."
+    },
+    {
+      "heading": "1. INTRODUCTION",
+      "level": 1,
+      "text": "usin resonant electrmechanical converters [3-6 .The mst common converter is based on a cantilever composite pabThev e xtonm maximize  theratvran vecor ishoonal  the bm plaAy h ex deteriorated dramatically the harvested energy quantity.\n\nI . Th pa a is necessary as function of the size of the structure in order to maximize energy transfer."
+    },
+    {
+      "heading": "2. BASIC PRINCIPALE AND DESIGN CONSEDERATION",
+      "level": 1,
+      "text": "T , 8]. A seismic mass $M$ is connected by 4 elastic beams to a rigid base. The beams are here considered as end-clamped (figure 1a) in the local coordinate system (7, 8, 9) linked to the rigid base. The ${ \\bf d } _ { 3 1 }$ piezoelements bonded on each beam are supposed to be design for a high electromechanical coupling in flexural modes.\n\nAny external excitation (vibrations, shock, etc.) can be characterized by an aceleration vector $\\vec { a }$ applied to the rigid base and can be decomposed in 3 acceleration components $( a _ { m I } , a _ { m 2 }$ and $a _ { m 3 }$ )on the mass $M$ .\n\nIf the mass acceleration is along the 1-axis $( a _ { m l } )$ , the structure is solicited on a hybrid flexuraltorsional mode (mode 1-figure hi con xi hape bam nd  rs hap bem  nd   e symmetry, an acceleration vector component along the 2-axis $( a _ { m 2 } )$ obligatory induces a degenerate mode 2 with a 90 degrees 3-figure 1b) is solicited by a component $a _ { m 3 }$ excitation.\n\n![](images/ce36d1a7dbd43a7a810344ed47040d00533cfbd5096cce0089db06e289389fe8.jpg)  \n$\\boldsymbol { l } .$ direction (b) and in 3- direction (c)\n\nWhen the harvester is subjected to an arbitrary acceleration vector, its decomposition in the 3 components $\\cdot a _ { m I }$ , $a _ { m 2 }$ and $a _ { m 3 }$ s output energy. Considering a perfect decoupling of the 3 vibration modes, the total harvested energy $\\mathrm { E }$ can be decomposed in 3 components $\\mathrm { E _ { i } }$ corresponding to an acceleration solicitation in the $i$ -direction :"
+    },
+    {
+      "heading": "Downloaded From: http://proceedings.spiedigitallibrary.org/on 05/14/2015 Terms of Use: http:/spiedl.orgterms",
+      "level": 1,
+      "text": "$$\nE = \\sqrt { E _ { 1 } ^ { 2 } + E _ { 2 } ^ { 2 } + E _ { 3 } ^ { 2 } }\n$$"
+    },
+    {
+      "heading": "Downloaded From: http://proceedings.spiedigitallibrary.org/on 05/14/2015 Terms of Use: http:/spiedl.orgterms",
+      "level": 1,
+      "text": "If the i-rank mode is solicited near to its resonant frequency, we can write [3]:\n\n$$\nE _ { i = 1 , 2 , 3 } = \\zeta _ { i } Q _ { i } k _ { i } ^ { 2 } a _ { i } ^ { 2 }\n$$\n\nWhere:\n\n$\\zeta _ { i }$ is an intrinsic parameter of the $i$ mode depending on geometric and mechanic characteristic of the structure.   \n$Q _ { i }$ is the quality factor   \n$k _ { i }$ is the dynamic coupling coefficient\n\nThis clearly indicates that the harvested energy $E$ is maximal if the 3 modes are tuned and if each mode is separately limit to modes 1 and 2 study.\n\nA T h h ot  h .\n\n![](images/dcec0b0e120937622d51589610839cf7e9933a0eff9cad23766246aeeae9de18.jpg)  \nFigure 2. Theoretical evolutions of the main design parameters obtain by FEM analisys."
+    },
+    {
+      "heading": "3. FINITE ELEMENT DESIGN OF THE VALIDATION PROTOTYP",
+      "level": 1,
+      "text": "scns ra bemenu cs s whohaveheabeTw pe patce po vily pomi he be.The m pysi proe geometry of these patches are summarized in Table1-2."
+    },
+    {
+      "heading": "Downloaded From: http://proceedings.spiedigitallibrary.org/on 05/14/2015 Terms of Use: http:/spiedl.orgterms",
+      "level": 1,
+      "text": "Table1-2: Characteristics of the beam   \n\n<table><tr><td>Flexibilities SE SE SE xx xy xz yy</td><td>10.66, -4.52, -3.34, 13.25 (10-12Pa-1)</td></tr><tr><td>piezoelectric coefficient d xy</td><td>-108pC.N-1</td></tr><tr><td>E Permittivity at constant strain</td><td>5.50nF.m-1</td></tr><tr><td>Permittivity at constant stress EεT</td><td>10.17nF.m-1</td></tr><tr><td>Density</td><td>8.1</td></tr><tr><td>Lp</td><td>8 mm</td></tr><tr><td>ep</td><td>0 to 100 μm</td></tr><tr><td>X</td><td>0 to 6</td></tr><tr><td colspan=\"2\">Table 1-1: Characteristics of piezoelectric elements (P 189)</td></tr><tr><td>Young&#x27;s modulus Y</td><td></td></tr><tr><td>Poisson&#x27;s ratio v</td><td>220 Gpa 0.37</td></tr><tr><td>Density</td><td>7.8</td></tr><tr><td>LM</td><td>4 mm</td></tr><tr><td>L</td><td>33 mm</td></tr><tr><td>E</td><td>0.1 mm</td></tr></table>\n\nThe finite element simulations were carried out using the ANSYS $\\textsuperscript { \\textregistered }$ . By modal simulation the resonance frequencies will be calculated when the piezoelectric element is in open circuit $( f _ { o c } )$ and in short circuit ${ \\left( \\ _ { f _ { s c } } \\right) }$ The coupling coefficient $\\mathbf { k }$ is deduced directly by the expression below [10, 11]:\n\n$$\nk ^ { 2 } = 1 - \\frac { f _ { s c } ^ { 2 } } { f _ { o c } ^ { 2 } }\n$$\n\nA elements and their position in the beam using 2D ANSYS modal simulation (Figure 3).\n\nmeshed with elements PLANE223, where the degrees of freedom are the displacements in the $\\mathbf { X }$ and y and the electrical potential. PLANE180 elements where the degrees of freedom are the displacements along $\\mathbf { X }$ and y is used for brass.\n\n![](images/4eeb8faffe746f7eea2c79cf210c6a29621540e134e547b5cf76acf446dd1752.jpg)  \nFigure3. Basic structure for bidirectional harvester"
+    },
+    {
+      "heading": "Downloaded From: http://proceedings.spiedigitallibrary.org/on 05/14/2015 Terms of Use: http:/spiedl.orgterms",
+      "level": 1,
+      "text": "![](images/a917666cfc3d409cfdf967fb2454b3e88a8bd0dc13c25acb185f010b9fe5ba04.jpg)  \no talval e  tiehe plec $\\mathrm { e _ { p } }$ and thei positions x.   \nFigure4. Evolution of coupling coefficient: a) First mode b) Second mode\n\nT elements $\\mathrm { e _ { p } }$ between $6 0 ~ { \\mu \\mathrm { m } }$ and $8 0 ~  { \\mu \\mathrm { m } }$ Concerning the position of the piezoelectric elements, there are two optimal: at the embedding $\\mathbf { \\check { x } } = 0 \\mathbf { m } \\mathbf { m }$ ) and in the seismic mass $\\mathrm { \\Delta } \\mathrm { \\ddot { x } = 6 m m }$ )."
+    },
+    {
+      "heading": "4.1. The test bench and material",
+      "level": 1,
+      "text": "T angular $\\alpha \\beta$ degrees of freedom which permits to impose an arbitrary direction acceleration induced by the shaker.\n\n![](images/1f458912162e20df35750a0a81fb47b74cfbe4705bc6f20371f770de7a85a101.jpg)  \nFigure. Prototype mounted on the set-up frame (with 2 angularαdegrees of freedom) connected to the haker"
+    },
+    {
+      "heading": "Downloaded From: http://proceedings.spiedigitallibrary.org/on 05/14/2015 Terms of Use: http:/spiedl.orgterms",
+      "level": 1,
+      "text": "Our structure is symmetrical in the plane (o, x, y), the second mode can be excited either the x or $\\mathbf { y }$ beam, therefore we simplify our study a system in both directions ox, oz and a single angle α.\n\nof a brass plate with a thickness of $1 0 0 \\mu \\mathrm { m }$ on which deposited a layer of piezoelectric thickness of $1 0 0 \\mu \\mathrm { m }$ , the coupling $\\grave { \\mathbf { a } }$ $( { \\bf e _ { p } } =$ $1 0 0 \\mu \\mathrm { m }$ and $\\mathrm { x } = 6 \\mathrm { m m }$ ."
+    },
+    {
+      "heading": "4.2. Results and discussion",
+      "level": 1,
+      "text": "T $\\mathbf { m } _ { 1 }$ and a fixed mass $\\mathbf { m } _ { 2 }$ , as shown in Figure 6.\n\n![](images/9757dacd86230703a8f117081618384bc0acf72649135c20b0df8f5d2c632747.jpg)  \nFigure6. Structure set-up in 2D\n\nThe variation of the mass is provided by $m _ { I }$ and the moment of inertia $I ( h )$ by $\\mathbf { Z }$ position of $m _ { I }$ ( h), as:\n\n$$\nm = m _ { 1 } + m _ { 2 }\n$$\n\n$$\nI ( h ) = I _ { \\scriptscriptstyle 1 } + I _ { \\scriptscriptstyle 2 } = m _ { \\scriptscriptstyle 1 } h ^ { \\scriptscriptstyle 2 } + \\frac { 1 } { 3 } m _ { \\scriptscriptstyle 2 } L ^ { \\scriptscriptstyle 3 }\n$$\n\nTh  nah same voltage and the second mode when excited by opposite voltage."
+    },
+    {
+      "heading": "Downloaded From: http://proceedings.spiedigitallbrary.org/on 05/14/2015 Terms of Use: http:/spiedl.orgterms",
+      "level": 1,
+      "text": "![](images/85d9a00aff0fc15d564da3de261ec5a23be168cd6d75a9ff0d8e74d8774adf92.jpg)  \nFigure7: a) impedance analysis set-up. b) First and second frequency resonance evolution\n\nAs in the sulaton, the varan f the sismi mass paramers m, I)aws us to math the to modes Fiure h T"
+    },
+    {
+      "heading": "4.3 Harvesting voltage set-up",
+      "level": 1,
+      "text": "exrmntalvetgt us eel  ebegurThe me am as ely a in patch piezoelectric is measured in form voltage by input gain-phase analyzer as function as frequency.\n\n![](images/a91e3ffd79a0e541c11aa74cc57960c66fd48aaafc32b383facf09f70eb5930c.jpg)  \nFigure8. Harvesting voltage set-up"
+    },
+    {
+      "heading": "Downloaded From: http://proceedings.spiedigitallibrary.org/on 05/14/2015 Terms of Use: http:/spiedl.orgterms",
+      "level": 1,
+      "text": "For symmetry reasons of structure along the ${ \\cal Z }$ axis, the solicitations are symmetrical to the axis z, measurment of the harvested voltage has been realized for angle variation between $0 ^ { \\circ }$ and $9 0 ^ { \\circ }$ Figure 9 show the value of the voltage function of the frequency obtain for five different angle.\n\n![](images/1dbc65a2b95ce863c4d35a9235dcc437c5420ee4a6f221fd9b0b11f1ef4bda77.jpg)  \nFigure9. Curves of the harvested voltages as function of angle $\\mathbf { a } .$ a) separate modes b) matched modes\n\nIn separate modes the maximum voltage in first resonance is only for $\\alpha = 9 0 { } ^ { \\circ }$ and the second resonance maximum is only for ${ \\mathfrak { a } } = 0 { } ^ { \\circ }$ ,ioher posin heharvstvoltag  degrdeHowever when modes aremate themaxiu olan all positions of $\\mathfrak { a }$ .\n\nEnergetically, the power provided by a piezoelectric element capacitance $\\textrm { C }$ is defined by [12]:\n\n$$\nE = \\frac { 1 } { 2 } C V ^ { 2 }\n$$\n\nWith ${ \\mathrm { C } } { = } 1 2 . 5 ~ { \\mathrm { n F } }$ in each patch.\n\nThe energy harvesting for different angle $\\mathfrak { a }$ value is deducted directly from the measured voltage as show in Figure 10.\n\n![](images/0c5df7500bc2a81f80968e009472416e3dffa57feb0107f19d3e341bd9b4a23c.jpg)  \nFigure10. Bidirectional energy harvested in matched modes and in separate modes at each pike resonance"
+    },
+    {
+      "heading": "5. CONCLUSION",
+      "level": 1,
+      "text": "Bau alThee s  u n he et equn whi cahiv by v is perfectly adapted for this kind of systems."
+    },
+    {
+      "heading": "6. REFERENCES",
+      "level": 1,
+      "text": "[1] S.R. Platt S. Farrator, H. Haider, \"On Low-Frequcy Electric Power Generatio with PZT Ceramic\" IEEEASME Transactions on Mechatronics, 10, pp. 240-252, April 2005   \n[2] J.Ariso Sar, \"e Savei r Mobile n Wirle lecoic\",  ervasiv pu 1,pp. 18-27. 2005   \n[3] .She   su ec e  o    e . of Electric Engineering and Computer Science, Massachusetts Institute of Technology, April 1998   \n[4] Avan  ehvet si  ro piucers le , p.1 2007   \n[5] Guyomar, A.Badel, E. Lefeuvre C.Richard,\"Toward Energy Harvestig Using Active Materials nd Conversion Improvement by Nonlinear Processing\", IEEE Trans. UFFC, 52, pp. 584-595, April 2005   \n[6] M. Lalart, L. aruio, L.Peti, C.Richar .Gyoar, \"oub ncroi Swi Harveti H): Ne Energy Harvesting Scheme for Efficient Energy Extraction\" IEEE Trans. UFFC, 55, pp. 2119-2130, Oct 2008   \n[7] N. S. Shenck, J. A. Paradiso, \"Energy Scavenging With Shoe-Mounted Piezoelectrics\", IEEE MICRO, May-June, pp.30-42, 2001   \n[8] R.P.van Kampen, R.F. Wolffenbuttel,\" Modeling the mechanical behavior of bulk-micromachined silicon accelerometers\", Sens. Actuators A, 64 (2), 1998, 137150   \n[9] Kuz P.Enokosson, GStemme,\" Highky ensitiv triaxial silicon acceleromeer wit integrated ZT ti film detectors\", Sens. Actuators A, 92, 2001, 156-160   \n[ . Ki, \"Low PowerEnergy Harvestig With Piezoelecti Generators,\" in Mechanical ngineeri: Universy Pittsburgh, 2002.   \n..H.. . \"  u Me in zocramic Laminated Shells,\" presente  Interatonal Mechanical Eginer Congress, Washion, DC, USA, 2003.   \n.,.Ma .Ma.  .u e vibration such as human motion\", Journal of Micromechanics and Microengineering 19 (2009) 15."
+    }
+  ],
+  "tables": [
+    {
+      "page": -1,
+      "content": ""
+    }
+  ],
+  "figures": [
+    {
+      "page": -1,
+      "caption": "",
+      "path": "images/ce36d1a7dbd43a7a810344ed47040d00533cfbd5096cce0089db06e289389fe8.jpg"
+    },
+    {
+      "page": -1,
+      "caption": "",
+      "path": "images/dcec0b0e120937622d51589610839cf7e9933a0eff9cad23766246aeeae9de18.jpg"
+    },
+    {
+      "page": -1,
+      "caption": "",
+      "path": "images/4eeb8faffe746f7eea2c79cf210c6a29621540e134e547b5cf76acf446dd1752.jpg"
+    },
+    {
+      "page": -1,
+      "caption": "",
+      "path": "images/a917666cfc3d409cfdf967fb2454b3e88a8bd0dc13c25acb185f010b9fe5ba04.jpg"
+    },
+    {
+      "page": -1,
+      "caption": "",
+      "path": "images/1f458912162e20df35750a0a81fb47b74cfbe4705bc6f20371f770de7a85a101.jpg"
+    },
+    {
+      "page": -1,
+      "caption": "",
+      "path": "images/9757dacd86230703a8f117081618384bc0acf72649135c20b0df8f5d2c632747.jpg"
+    },
+    {
+      "page": -1,
+      "caption": "",
+      "path": "images/85d9a00aff0fc15d564da3de261ec5a23be168cd6d75a9ff0d8e74d8774adf92.jpg"
+    },
+    {
+      "page": -1,
+      "caption": "",
+      "path": "images/a91e3ffd79a0e541c11aa74cc57960c66fd48aaafc32b383facf09f70eb5930c.jpg"
+    },
+    {
+      "page": -1,
+      "caption": "",
+      "path": "images/1dbc65a2b95ce863c4d35a9235dcc437c5420ee4a6f221fd9b0b11f1ef4bda77.jpg"
+    },
+    {
+      "page": -1,
+      "caption": "",
+      "path": "images/0c5df7500bc2a81f80968e009472416e3dffa57feb0107f19d3e341bd9b4a23c.jpg"
+    }
+  ],
+  "metadata": {
+    "source": "both",
+    "pdf_url": "",
+    "parsed_at": "2026-03-10T10:29:21.040543+00:00"
+  }
+}

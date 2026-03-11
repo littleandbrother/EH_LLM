@@ -1,0 +1,28 @@
+{
+  "paper_id": "10_1088_0964_1726_22_9_095019",
+  "doi": "10.1088/0964-1726/22/9/095019",
+  "title": "Piezoelectric energy harvesting from traffic-induced bridge vibrations",
+  "source_apis": [
+    "openalex"
+  ],
+  "pdf_url": "",
+  "pdf_local_path": "data_registry/raw_stage04_paper_pdf_cleaned/10_1088_0964_1726_22_9_095019.pdf",
+  "processing": {
+    "tool": "MinerU",
+    "version": "python -m mineru.cli.client, version 2.7.6",
+    "timestamp": "2026-03-10T09:43:40.705671+00:00",
+    "duration_s": 99.39,
+    "success": true,
+    "error": ""
+  },
+  "outputs": {
+    "content_md": "/root/EH-LLM-vehbench-exp/parsed_docs/10_1088_0964_1726_22_9_095019_gto0t7lt/content.md",
+    "layout_json": "/root/EH-LLM-vehbench-exp/parsed_docs/10_1088_0964_1726_22_9_095019_gto0t7lt/layout.json",
+    "images_dir": "/root/EH-LLM-vehbench-exp/parsed_docs/10_1088_0964_1726_22_9_095019_gto0t7lt/10_1088_0964_1726_22_9_095019/auto/images",
+    "normalized_json": "/root/EH-LLM-vehbench-exp/normalized_docs/10_1088_0964_1726_22_9_095019.json"
+  },
+  "data_lineage": {
+    "papers_jsonl_hash": "c58128e701d1bff4219d74d72a7d68b8",
+    "pipeline_step": "ingestion/mineru_runner.py"
+  }
+}

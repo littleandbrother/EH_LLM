@@ -1,0 +1,147 @@
+{
+  "metadata": {
+    "paper_id": "10_1002_aelm_202300348",
+    "doi": "10.1002/aelm.202300348",
+    "title": "Bioinspired PVDF Piezoelectric Generator for Harvesting Multi‐Frequency Sound Energy",
+    "year": 2023,
+    "journal": "Advanced Electronic Materials"
+  },
+  "configuration": "diaphragm",
+  "proof_mass": true,
+  "geometry": {
+    "length_mm": null,
+    "width_mm": null,
+    "thickness_mm": null,
+    "substrate_thickness_um": null,
+    "piezo_thickness_um": 100,
+    "tip_mass_g": 0.005,
+    "diameter_mm": 82.1
+  },
+  "excitation": {
+    "type": "vibration",
+    "frequency_Hz": 200,
+    "acceleration_g": null,
+    "displacement_mm": null,
+    "motion_source": "loudspeaker"
+  },
+  "load": {
+    "load_resistance_ohm": 170000
+  },
+  "output": {
+    "resonant_frequency_Hz": 200,
+    "output_power_W": 8.45e-06,
+    "open_circuit_voltage_V": 4,
+    "short_circuit_current_A": null,
+    "bandwidth_Hz": 33.7
+  },
+  "evidence": {
+    "configuration": {
+      "quote": "circular diaphragm structure",
+      "section": "2.1. Biomimetic Piezoelectric Type AEHs",
+      "source_type": "section"
+    },
+    "proof_mass": {
+      "quote": "load in the center of the backside",
+      "section": "2.1. Biomimetic Piezoelectric Type AEHs",
+      "source_type": "section"
+    },
+    "geometry": {
+      "length_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "width_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "thickness_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "substrate_thickness_um": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "piezo_thickness_um": {
+        "quote": "100 ± 5 μm-thick PVDF thick film",
+        "section": "5. Experimental Section",
+        "source_type": "section"
+      },
+      "tip_mass_g": {
+        "quote": "the load: 0.005 g",
+        "section": "2.4. Acoustoelectric Conversion and Application",
+        "source_type": "section"
+      },
+      "diameter_mm": {
+        "quote": "PVDF diameter: 82.1 mm",
+        "section": "2.4. Acoustoelectric Conversion and Application",
+        "source_type": "section"
+      }
+    },
+    "excitation": {
+      "type": {
+        "quote": "sound wave",
+        "section": "Bioinspired PVDF Piezoelectric Generator for Harvesting Multi-Frequency Sound Energy",
+        "source_type": "abstract"
+      },
+      "frequency_Hz": {
+        "quote": "at 200 Hz",
+        "section": "Bioinspired PVDF Piezoelectric Generator for Harvesting Multi-Frequency Sound Energy",
+        "source_type": "abstract"
+      },
+      "acceleration_g": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "displacement_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "motion_source": {
+        "quote": "commercial speaker",
+        "section": "5. Experimental Section",
+        "source_type": "section"
+      }
+    },
+    "load": {
+      "load_resistance_ohm": {
+        "quote": "external load resistance of 0.17 MΩ",
+        "section": "2.4. Acoustoelectric Conversion and Application",
+        "source_type": "section"
+      }
+    },
+    "output": {
+      "resonant_frequency_Hz": {
+        "quote": "resonant frequency of 200 Hz",
+        "section": "2.4. Acoustoelectric Conversion and Application",
+        "source_type": "section"
+      },
+      "output_power_W": {
+        "quote": "output power of 8.45 μW",
+        "section": "Bioinspired PVDF Piezoelectric Generator for Harvesting Multi-Frequency Sound Energy",
+        "source_type": "abstract"
+      },
+      "open_circuit_voltage_V": {
+        "quote": "Response Voltage 4 V",
+        "section": "Table 1",
+        "source_type": "table"
+      },
+      "short_circuit_current_A": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "bandwidth_Hz": {
+        "quote": "bandwidth of 17.2%",
+        "section": "2.3. Structural Parameters of AEH",
+        "source_type": "section"
+      }
+    }
+  }
+}

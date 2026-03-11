@@ -1,0 +1,147 @@
+{
+  "metadata": {
+    "paper_id": "10_1080_14686996_2018_1508985",
+    "doi": "10.1080/14686996.2018.1508985",
+    "title": "Bimorph piezoelectric vibration energy harvester with flexible 3D meshed-core structure for low frequency vibration",
+    "year": 2018,
+    "journal": "Science and Technology of Advanced Materials"
+  },
+  "configuration": "cantilever",
+  "proof_mass": true,
+  "geometry": {
+    "length_mm": 21,
+    "width_mm": 10,
+    "thickness_mm": 0.28,
+    "substrate_thickness_um": 200,
+    "piezo_thickness_um": 40,
+    "tip_mass_g": 1.0,
+    "diameter_mm": null
+  },
+  "excitation": {
+    "type": "vibration",
+    "frequency_Hz": 18.7,
+    "acceleration_g": 0.2,
+    "displacement_mm": null,
+    "motion_source": null
+  },
+  "load": {
+    "load_resistance_ohm": 17000000
+  },
+  "output": {
+    "resonant_frequency_Hz": 18.7,
+    "output_power_W": 2.46e-05,
+    "open_circuit_voltage_V": null,
+    "short_circuit_current_A": null,
+    "bandwidth_Hz": null
+  },
+  "evidence": {
+    "configuration": {
+      "quote": "bimorph-type cantilever",
+      "section": "Configuration and structure",
+      "source_type": "section"
+    },
+    "proof_mass": {
+      "quote": "Proof mass 1.0 g",
+      "section": "FEM structural analysis",
+      "source_type": "table"
+    },
+    "geometry": {
+      "length_mm": {
+        "quote": "Length 21 mm",
+        "section": "FEM structural analysis",
+        "source_type": "table"
+      },
+      "width_mm": {
+        "quote": "Width 10 mm",
+        "section": "FEM structural analysis",
+        "source_type": "table"
+      },
+      "thickness_mm": {
+        "quote": "280 μm",
+        "section": "FEM structural analysis",
+        "source_type": "section"
+      },
+      "substrate_thickness_um": {
+        "quote": "Thickness: te 200 μm",
+        "section": "FEM structural analysis",
+        "source_type": "table"
+      },
+      "piezo_thickness_um": {
+        "quote": "Thickness: tp 40 μm",
+        "section": "FEM structural analysis",
+        "source_type": "table"
+      },
+      "tip_mass_g": {
+        "quote": "Proof mass 1.0 g",
+        "section": "FEM structural analysis",
+        "source_type": "table"
+      },
+      "diameter_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      }
+    },
+    "excitation": {
+      "type": {
+        "quote": "vibration tests",
+        "section": "Evaluation of PVEH",
+        "source_type": "section"
+      },
+      "frequency_Hz": {
+        "quote": "resonance frequency is 18.7 Hz",
+        "section": "Results and discussion",
+        "source_type": "section"
+      },
+      "acceleration_g": {
+        "quote": "0.2 G acceleration",
+        "section": "Results and discussion",
+        "source_type": "section"
+      },
+      "displacement_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "motion_source": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      }
+    },
+    "load": {
+      "load_resistance_ohm": {
+        "quote": "optimum load resistance is 17 MΩ",
+        "section": "Results and discussion",
+        "source_type": "section"
+      }
+    },
+    "output": {
+      "resonant_frequency_Hz": {
+        "quote": "resonance frequency is 18.7 Hz",
+        "section": "Results and discussion",
+        "source_type": "section"
+      },
+      "output_power_W": {
+        "quote": "maximum output power is 24.6 μW",
+        "section": "Results and discussion",
+        "source_type": "section"
+      },
+      "open_circuit_voltage_V": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "short_circuit_current_A": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "bandwidth_Hz": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      }
+    }
+  }
+}

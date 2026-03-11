@@ -1,0 +1,28 @@
+{
+  "paper_id": "10_3390_mi10100639",
+  "doi": "10.3390/mi10100639",
+  "title": "A Low-Frequency MEMS Piezoelectric Energy Harvesting System Based on Frequency Up-Conversion Mechanism",
+  "source_apis": [
+    "openalex"
+  ],
+  "pdf_url": "https://www.mdpi.com/2072-666X/10/10/639/pdf?version=1569315478",
+  "pdf_local_path": "data_registry/raw_stage04_paper_pdf_cleaned/10_3390_mi10100639.pdf",
+  "processing": {
+    "tool": "MinerU",
+    "version": "python -m mineru.cli.client, version 2.7.6",
+    "timestamp": "2026-03-10T09:45:07.566930+00:00",
+    "duration_s": 83.16,
+    "success": true,
+    "error": ""
+  },
+  "outputs": {
+    "content_md": "/root/EH-LLM-vehbench-exp/parsed_docs/10_3390_mi10100639_dysp60yv/content.md",
+    "layout_json": "/root/EH-LLM-vehbench-exp/parsed_docs/10_3390_mi10100639_dysp60yv/layout.json",
+    "images_dir": "/root/EH-LLM-vehbench-exp/parsed_docs/10_3390_mi10100639_dysp60yv/10_3390_mi10100639/auto/images",
+    "normalized_json": "/root/EH-LLM-vehbench-exp/normalized_docs/10_3390_mi10100639.json"
+  },
+  "data_lineage": {
+    "papers_jsonl_hash": "41cb9421c645db63035e87e524c67f99",
+    "pipeline_step": "ingestion/mineru_runner.py"
+  }
+}

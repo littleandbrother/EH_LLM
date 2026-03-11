@@ -1,0 +1,147 @@
+{
+  "metadata": {
+    "paper_id": "10_3390_en10050646",
+    "doi": "10.3390/en10050646",
+    "title": "Energy Harvesting Based on a Novel Piezoelectric 0.7PbZn0.3Ti0.7O3-0.3Na2TiO3 Nanogenerator",
+    "year": 2017,
+    "journal": "Energies"
+  },
+  "configuration": "cantilever",
+  "proof_mass": null,
+  "geometry": {
+    "length_mm": 20,
+    "width_mm": 15,
+    "thickness_mm": 1,
+    "substrate_thickness_um": null,
+    "piezo_thickness_um": null,
+    "tip_mass_g": null,
+    "diameter_mm": null
+  },
+  "excitation": {
+    "type": "vibration",
+    "frequency_Hz": 30,
+    "acceleration_g": 0.04077,
+    "displacement_mm": null,
+    "motion_source": null
+  },
+  "load": {
+    "load_resistance_ohm": 196200
+  },
+  "output": {
+    "resonant_frequency_Hz": 30,
+    "output_power_W": 3e-05,
+    "open_circuit_voltage_V": 5.27,
+    "short_circuit_current_A": 1.33e-05,
+    "bandwidth_Hz": null
+  },
+  "evidence": {
+    "configuration": {
+      "quote": "The performance of the device was studied experimentally over a cantilever test rig",
+      "section": "Abstract",
+      "source_type": "abstract"
+    },
+    "proof_mass": {
+      "quote": null,
+      "section": null,
+      "source_type": null
+    },
+    "geometry": {
+      "length_mm": {
+        "quote": "size of ( 20 × 15 × 1 mm 3 )",
+        "section": "Abstract",
+        "source_type": "abstract"
+      },
+      "width_mm": {
+        "quote": "size of ( 20 × 15 × 1 mm 3 )",
+        "section": "Abstract",
+        "source_type": "abstract"
+      },
+      "thickness_mm": {
+        "quote": "size of ( 20 × 15 × 1 mm 3 )",
+        "section": "Abstract",
+        "source_type": "abstract"
+      },
+      "substrate_thickness_um": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "piezo_thickness_um": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "tip_mass_g": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "diameter_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      }
+    },
+    "excitation": {
+      "type": {
+        "quote": "The performance of the device was studied experimentally over a cantilever test rig",
+        "section": "Abstract",
+        "source_type": "abstract"
+      },
+      "frequency_Hz": {
+        "quote": "excited by a motor operated at 30 Hz",
+        "section": "Abstract",
+        "source_type": "abstract"
+      },
+      "acceleration_g": {
+        "quote": "vibrating cantilever ( 0.4 m s ^ { - 2 } )",
+        "section": "Abstract",
+        "source_type": "abstract"
+      },
+      "displacement_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "motion_source": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      }
+    },
+    "load": {
+      "load_resistance_ohm": {
+        "quote": "optimal power of the PZnT-NT was verified at the load resistance of 196.2 kΩ",
+        "section": "5. Results and Discussion",
+        "source_type": "section"
+      }
+    },
+    "output": {
+      "resonant_frequency_Hz": {
+        "quote": "excitation frequency of 30 Hz",
+        "section": "5. Results and Discussion",
+        "source_type": "section"
+      },
+      "output_power_W": {
+        "quote": "optimal power of the PZnT-NT was verified ... as 0.03 mW",
+        "section": "5. Results and Discussion",
+        "source_type": "section"
+      },
+      "open_circuit_voltage_V": {
+        "quote": "PZnT-NT ... generate the highest voltages of 5.27 V",
+        "section": "5. Results and Discussion",
+        "source_type": "section"
+      },
+      "short_circuit_current_A": {
+        "quote": "maximum DC current ... recorded for the PZnT-NT ... 0.0133 mA",
+        "section": "5. Results and Discussion",
+        "source_type": "section"
+      },
+      "bandwidth_Hz": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      }
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "paper_id": "10_1088_0960_1317_23_12_125009",
+  "doi": "10.1088/0960-1317/23/12/125009",
+  "title": "A micromachined low-frequency piezoelectric harvester for vibration and wind energy scavenging",
+  "source_apis": [
+    "openalex"
+  ],
+  "pdf_url": "",
+  "pdf_local_path": "data_registry/raw_stage04_paper_pdf_cleaned/10_1088_0960_1317_23_12_125009.pdf",
+  "processing": {
+    "tool": "MinerU",
+    "version": "python -m mineru.cli.client, version 2.7.6",
+    "timestamp": "2026-03-10T09:30:06.108814+00:00",
+    "duration_s": 96.32,
+    "success": true,
+    "error": ""
+  },
+  "outputs": {
+    "content_md": "/root/EH-LLM-vehbench-exp/parsed_docs/10_1088_0960_1317_23_12_125009_ae27zbb_/content.md",
+    "layout_json": "/root/EH-LLM-vehbench-exp/parsed_docs/10_1088_0960_1317_23_12_125009_ae27zbb_/layout.json",
+    "images_dir": "/root/EH-LLM-vehbench-exp/parsed_docs/10_1088_0960_1317_23_12_125009_ae27zbb_/10_1088_0960_1317_23_12_125009/auto/images",
+    "normalized_json": "/root/EH-LLM-vehbench-exp/normalized_docs/10_1088_0960_1317_23_12_125009.json"
+  },
+  "data_lineage": {
+    "papers_jsonl_hash": "e9530a19ee7d508111ca8031a36689a9",
+    "pipeline_step": "ingestion/mineru_runner.py"
+  }
+}

@@ -1,0 +1,147 @@
+{
+  "metadata": {
+    "paper_id": "10_1063_1_4737170",
+    "doi": "10.1063/1.4737170",
+    "title": "Cantilever driving low frequency piezoelectric energy harvester using single crystal material 0.71Pb(Mg1/3Nb2/3)O3-0.29PbTiO3",
+    "year": 2012,
+    "journal": "Applied Physics Letters"
+  },
+  "configuration": "cantilever",
+  "proof_mass": true,
+  "geometry": {
+    "length_mm": 35,
+    "width_mm": 5,
+    "thickness_mm": 0.5,
+    "substrate_thickness_um": null,
+    "piezo_thickness_um": 1000,
+    "tip_mass_g": 4.2,
+    "diameter_mm": null
+  },
+  "excitation": {
+    "type": "vibration",
+    "frequency_Hz": 102,
+    "acceleration_g": 3.2,
+    "displacement_mm": null,
+    "motion_source": null
+  },
+  "load": {
+    "load_resistance_ohm": 251000
+  },
+  "output": {
+    "resonant_frequency_Hz": 102,
+    "output_power_W": 0.0037,
+    "open_circuit_voltage_V": 38,
+    "short_circuit_current_A": null,
+    "bandwidth_Hz": null
+  },
+  "evidence": {
+    "configuration": {
+      "quote": "Cantilever configuration consisting of a piezoelectric beam and a proof mass is a reasonable choice to lower resonance frequency for piezoelectric energy harvesters.",
+      "section": "Cantilever driving low frequency piezoelectric energy harvester using single crystal material 0.71Pb(Mg1/3Nb2/3)O3-0.29PbTiO3",
+      "source_type": "section"
+    },
+    "proof_mass": {
+      "quote": "with a proof mass of 4.2 g",
+      "section": "Cantilever driving low frequency piezoelectric energy harvester using single crystal material 0.71Pb(Mg1/3Nb2/3)O3-0.29PbTiO3",
+      "source_type": "abstract"
+    },
+    "geometry": {
+      "length_mm": {
+        "quote": "dimensions of 35 mm length, 5 mm width, and 0.5 mm thickness.",
+        "section": "Cantilever driving low frequency piezoelectric energy harvester using single crystal material 0.71Pb(Mg1/3Nb2/3)O3-0.29PbTiO3",
+        "source_type": "section"
+      },
+      "width_mm": {
+        "quote": "dimensions of 35 mm length, 5 mm width, and 0.5 mm thickness.",
+        "section": "Cantilever driving low frequency piezoelectric energy harvester using single crystal material 0.71Pb(Mg1/3Nb2/3)O3-0.29PbTiO3",
+        "source_type": "section"
+      },
+      "thickness_mm": {
+        "quote": "dimensions of 35 mm length, 5 mm width, and 0.5 mm thickness.",
+        "section": "Cantilever driving low frequency piezoelectric energy harvester using single crystal material 0.71Pb(Mg1/3Nb2/3)O3-0.29PbTiO3",
+        "source_type": "section"
+      },
+      "substrate_thickness_um": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "piezo_thickness_um": {
+        "quote": "dimensions of 25 mm length, 5 mm width, and 1 mm thickness.",
+        "section": "Cantilever driving low frequency piezoelectric energy harvester using single crystal material 0.71Pb(Mg1/3Nb2/3)O3-0.29PbTiO3",
+        "source_type": "section"
+      },
+      "tip_mass_g": {
+        "quote": "with a proof mass of 4.2 g",
+        "section": "Cantilever driving low frequency piezoelectric energy harvester using single crystal material 0.71Pb(Mg1/3Nb2/3)O3-0.29PbTiO3",
+        "source_type": "abstract"
+      },
+      "diameter_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      }
+    },
+    "excitation": {
+      "type": {
+        "quote": "mechanical vibration is applied on the base of the device",
+        "section": "Cantilever driving low frequency piezoelectric energy harvester using single crystal material 0.71Pb(Mg1/3Nb2/3)O3-0.29PbTiO3",
+        "source_type": "section"
+      },
+      "frequency_Hz": {
+        "quote": "at 102 Hz",
+        "section": "Cantilever driving low frequency piezoelectric energy harvester using single crystal material 0.71Pb(Mg1/3Nb2/3)O3-0.29PbTiO3",
+        "source_type": "abstract"
+      },
+      "acceleration_g": {
+        "quote": "Under an acceleration of 3.2 g",
+        "section": "Cantilever driving low frequency piezoelectric energy harvester using single crystal material 0.71Pb(Mg1/3Nb2/3)O3-0.29PbTiO3",
+        "source_type": "abstract"
+      },
+      "displacement_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "motion_source": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      }
+    },
+    "load": {
+      "load_resistance_ohm": {
+        "quote": "matching load resistance of 251 kΩ",
+        "section": "Cantilever driving low frequency piezoelectric energy harvester using single crystal material 0.71Pb(Mg1/3Nb2/3)O3-0.29PbTiO3",
+        "source_type": "section"
+      }
+    },
+    "output": {
+      "resonant_frequency_Hz": {
+        "quote": "at 102 Hz",
+        "section": "Cantilever driving low frequency piezoelectric energy harvester using single crystal material 0.71Pb(Mg1/3Nb2/3)O3-0.29PbTiO3",
+        "source_type": "abstract"
+      },
+      "output_power_W": {
+        "quote": "maximum power of 3.7 mW",
+        "section": "Cantilever driving low frequency piezoelectric energy harvester using single crystal material 0.71Pb(Mg1/3Nb2/3)O3-0.29PbTiO3",
+        "source_type": "abstract"
+      },
+      "open_circuit_voltage_V": {
+        "quote": "peak voltage of 38 V",
+        "section": "Cantilever driving low frequency piezoelectric energy harvester using single crystal material 0.71Pb(Mg1/3Nb2/3)O3-0.29PbTiO3",
+        "source_type": "abstract"
+      },
+      "short_circuit_current_A": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "bandwidth_Hz": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      }
+    }
+  }
+}

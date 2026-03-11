@@ -1,0 +1,159 @@
+{
+  "paper_id": "10_1117_12_2219228",
+  "doi": "10.1117/12.2219228",
+  "title": "Fatigue study and improve reliability of cantilever type micro piezoelectric energy harvesters reinforced with flexible adhesive conductive tape",
+  "year": 2016,
+  "venue": "Proceedings of SPIE, the International Society for Optical Engineering/Proceedings of SPIE",
+  "authors": [
+    "T. K. Lin",
+    "Y. Hsieh",
+    "C. T. Chen",
+    "J. Chen",
+    "W. Wu",
+    "T.K. Lin",
+    "Yao‐Ching Hsieh",
+    "Jiann‐Jong Chen",
+    "Wen-Jong Wu"
+  ],
+  "citation_count": 2,
+  "sections": [
+    {
+      "heading": "Fatigue study and improve reliability of cantilever type micro piezoelectric energy harvesters reinforced with flexible adhesive conductive tape",
+      "level": 1,
+      "text": "T.K. Lin1, Y.C. Hsieh1, C.T. Chen1, J.J. Chen1, W.J. Wu\\*1 1Dept. of Engineering Science and Ocean Engineering, National Taiwan University, Taipei, Taiwan \\*wjwu@ntu.edu.tw"
+    },
+    {
+      "heading": "ABSTRACT",
+      "level": 1,
+      "text": "Cnlever ype pzlecnegyhar H) widely dopte hedesat nergyhar b   h   o exc\n\nPreviously, we focused on the output performance of PEH. At PowerMEMS 2014 [1], we presented a high perormance PEH based on PZT thin ls fabricated wit a homemade PZT depositon equipment  stainless eel uahaa e  a meanilbehavorcludiheeqeybnwin o-neariy the plectiea.\n\nThe  d   a     a q $1 2 0 \\mathrm { H z }$ at $0 . 5 \\mathrm { g }$ $0 . 6 \\mathrm { g }$ , and $0 . 7 \\mathrm { g }$ acceleration vibration levels. The electrodes of the PEH device were cracked after 13 million cycles under $0 . 5 \\mathrm { g }$ and 1 million cycles under $0 . 6 \\mathrm { g }$ The PEH has significant output power decreasing after the electrode is cracked and b   e $0 . 7 \\mathrm { g }$ vran.or ev r wcivheive ape  uu wout extended to more than 1.5 million cycles under $0 . 7 \\mathrm { g }$ vibration. The other interesting finding in this study is with the added damping after adhering the conductive tape, the frequency bandwidth increased from $1 . 5 \\mathrm { H z }$ to $4 \\mathrm { H z }$ under $0 . 5 \\mathrm { g }$ vibration level while the resonance frequency increased from $1 0 5 \\mathrm { H z }$ to $1 2 8 \\mathrm { H z }$ Moreover, the reinforced devices have much better flexible conductive adhesive tape reinforced PEH will all be detailed in this paper.\n\nKeywords: energy harvester, piezoelectric, cantilever type, fatigue, failure mode, electrode reinforce"
+    },
+    {
+      "heading": "1. INTRODUCTION",
+      "level": 1,
+      "text": "\"InThi T a oh heext huT power wireles module seems to be one f the key parts of IoT system [2]. Thanks or development of low power cstor )  n   he l n. I fopol t.se    w supply.\n\nOu r u avenha  whic s e oel powmn ar [4].\n\nIn ths pape we testd thecntlevr yp  wi dfent eans r perd  exam heely, lork peubou pa  n roi down electrode with the flexible conductive adhesive tape could regress to origin."
+    },
+    {
+      "heading": "2.1 Micro piezoelectric energy harvester fabrication",
+      "level": 1,
+      "text": "The cntleverruue was desned to work  {3-1} moe hereoreit used to and bott eecrode  ve h ak used by field applications [5].\n\nWhole active beam area was $6 \\mathrm { { m m } \\times 8 \\mathrm { { m m } } }$ with substrate thickness of $6 0 \\mu \\mathrm { m }$ as shown in Figure 1. The PZT layer with thickness $1 5 \\mu \\mathrm { m }$ was patterned by photoresist, directly deposited on the top side of substrate with aerosol deposition method. The top side $\\mathrm { P t }$ Ti electrode with thickness $2 0 0 \\mathrm { n m }$ was deposited by e-beam evaporation. Used wet etching process to lift off the device, then annealed in oven for around $6 5 0 ^ { \\circ } \\mathrm { C }$ in order to improve the piezoelectric layer performance. The poling voltage was at $1 5 \\mathrm { V / \\mu m }$ with DC power supply. Finally, atungsten proof mass was mounted on the end-side o active beam to tune the resonance frequency to satisy the ambient available vibration. Our energy harvester with unimorph had output power about $2 0 0 \\mu \\mathrm { w }$ at $1 . 5 \\mathrm { g }$ and $2 5 \\mu \\mathrm { w }$ at $0 . 5 \\mathrm { g }$ under resonance frequency [6].\n\n![](images/1b99d6c7054e18aab943165fa849c044757a5b66cfdd7eaac886c5a7997f05f7.jpg)  \nFigure 1. Schematic diagram of micro piezoelectric energy harvester."
+    },
+    {
+      "heading": "2.2 Experiment setup",
+      "level": 1,
+      "text": "Figure  shows the conceptual setupf the experiment. The PEH was campedon a bakelite holder attaching on vibration speaker. Use two probes contacted with the top $\\mathrm { P t }$ -Ti electrode and stainless steel to measure the output signal. The Tektronix 1202B-EDU oscilloscope was used to exam the electrical output waveorm and peak to peakvoltage $( \\mathrm { V } _ { \\mathrm { P - P } } )$ tserve heatguefailemodes. Fr ceratin masueent, w us Brül & j 381 cha accele m. We measured the displacement of end side of cantilever by Keyence LK-HD500 laser displacement sensor. Until the mechanical crack happened, we used confocal microscope to observe the crack depth and size.\n\nThe experiment was tested under $0 . 5 \\mathrm { g }$ . $0 . 6 \\mathrm { g }$ and $0 . 7 \\mathrm { g }$ $\\left( \\omega _ { \\mathrm { n } } \\right)$ , or available greatest work frequency $( \\omega _ { \\mathrm { w } } )$ with steady vibration of cantilever for around $1 1 0 \\mathrm { H z }$ .\n\nSample 1 continuously worked for 14 million cycles at $0 . 5 \\mathrm { g }$ Without any detectable failure, we then tested the experiment at 0.6g. After fatigue happened, we slightly adjusted the clamping position, tested device at $0 . 7 \\mathrm { g }$ When the awncue xuivevko electrodes zone to repair cracked electrode. Compared to the mode before failure by output $\\mathrm { V } _ { \\mathrm { P - P } }$ , active beam end-point displacement (D), and also tested the life time.\n\nSampl  worked withflexibe conductiveadhesive ape stuck on both si electrodes initially.And we repea . Both samples are shown in figure 3.\n\n![](images/043b1742961f3cefc52151afceedd388e1684a51621a6dc3d95db595c5dfb5c7.jpg)  \non, whole device mounted on vibrating speaker, (e) oscilloscope to measure the output signal from PEH.\n\n![](images/991e7c6feba7b9e7ea65d0daca7a3e5d974868d9585fba8db5daf16cf4352714.jpg)  \nFigure 3. (a) sample 1, (b) sample 2 with adhered flexible conductive adhesive tape initially."
+    },
+    {
+      "heading": "3.1 Sample 1 destructive tests",
+      "level": 1,
+      "text": "Figure 4(a), 4(b) and 4(c) show the sample 1's output $\\mathrm { V } _ { \\mathrm { P - P } }$ , D, and ω versus million cycles. We can convert the no of cycles into time consumed with,\n\n$$\n\\begin{array} { r } { \\mathrm { N o . o f } \\mathrm { C y c l e s } = \\mathrm { F r e q u e n c y } \\left( \\mathrm { H z } \\right) \\times 6 0 \\left( \\frac { s } { m i n } \\right) \\times \\mathrm { w o r k t i m e } \\left( \\mathrm { m i n } \\right) . } \\end{array}\n$$\n\nWhen sample 1 tested under $0 . 5 \\mathrm { g }$ acceleration, the output $\\mathrm { V } _ { \\mathrm { P - P } }$ and $\\mathrm { D }$ slightly decreased after 2 million cycles (or about 5 hour) while $\\Theta _ { \\mathrm { W } }$ doesn't have any obviously change, and D also hold almost constantly within the 2 million cycle test. The structure and output performance of sample 1 have ignorable failure which can observe from the $0 . 5 \\mathrm { g }$ test. When sample 1 tested under $0 . 6 \\mathrm { g }$ $\\mathrm { V _ { P - P } } .$ ,D, and $\\Theta _ { \\mathrm { W } }$ keeps decreasing with time, which indicates small cracks are developed in the PZT layer and the number of cracks keep increasing with time. The output $\\mathrm { V } _ { \\mathrm { P - P } }$ continuously decreases even though $\\omega _ { \\mathrm { w } }$ does not change. After million cycles, the output $\\mathrm { V } _ { \\mathrm { P - P } }$ reduced significantly and the output voltage waveform distorted as wh  ak    W device and tested with $0 . 7 \\mathrm { g }$ The $\\mathrm { V } _ { \\mathrm { P - P } }$ in the beginning of $0 . 7 \\mathrm { g }$ test is lower than the voltage after million cycles test in $0 . 6 \\mathrm { g }$ . hu u  y torn the surface electrode in the clamping position and caused open-circuit.\n\n![](images/f347bd405fcd1f5f69bfa97607c11d5c1ee763742fe168157932eeac59f2f32e.jpg)  \nFigure 4. sample 1: (a)output peak-to-peak voltage(V), (b) displacement (mm), (c) resonance frequency $\\left( \\mathrm { H z } \\right)$ , (d) crack on electrode.\n\n![](images/268f5b1c5181fefc8408e225fcf49a3e940b2a2ceded6424eac03e0fa04549e1.jpg)  \nFigure 5. sample 1 output voltage waveform after fatigue failure occurred."
+    },
+    {
+      "heading": "3.2 Sample 1 reworked with conducting tape",
+      "level": 1,
+      "text": "Figure 6shows thelexible conductiveadhesive tape stuckon whole to electrode and botto substrate. We cn obviously see the device return to work by $\\mathrm { V } _ { \\mathrm { P - P } }$ measurable again and the output waveform back to normal sinusoidal in figure 4(a). Though $\\mathrm { V } _ { \\mathrm { P - P } }$ decreased by half at $0 . 5 \\mathrm { g }$ and $0 . 6 \\mathrm { g }$ compared to the test in 3.1, it can sustain greater acceleration $\\left( 0 . 6 \\mathrm { g } \\right)$ without significant performance degradation compared to no tape stuck on. After more than 2 million cycles, $\\Theta _ { \\mathrm { W } }$ does not change and D also holds constantly after 1 million cycles at $0 . 5 \\mathrm { g }$ . $\\mathrm { V } _ { \\mathrm { P - P } }$ decreased slowly when it tested at $0 . 6 \\mathrm { g }$ and $0 . 7 \\mathrm { g }$ But the tape cannot stick on, cause the device failed again after 0.5 million cycles in the $0 . 7 \\mathrm { g }$ test.\n\n![](images/ddb6e55397b5a65c2e56167c16f1c4ce2119507d7acbf87398af3a1d2e6afc65.jpg)  \nFigure 6. sample 1 repaired with flexible conductive adhesive tape on both side of electrodes.\n\n![](images/51c00441ac0c847829d07817544eed27d1c806c5fa22964912079ebac7bd2b8f.jpg)\n\n![](images/6c1cd75b780f9d8ae3c0458faf78b7859e36da2597aca805d3b803b20ae50dd3.jpg)  \nfrequency $\\left( \\mathrm { H z } \\right)$ , (d) crack on electrode."
+    },
+    {
+      "heading": "3.3 Sample 2 with protected conductive tape cover the whole surface",
+      "level": 1,
+      "text": "Sample 2 which was fabricated in the same batch as sample 1 was protected with flexible conductive adhesive as shown in Figure 8. When sample 2 tested at $0 . 5 \\mathrm { g }$ $\\mathrm { V } _ { \\mathrm { P - P } }$ and $\\omega _ { \\mathrm { w } }$ are both stable after millions of cycle tests shown as hiFur lative aari opeWe e .nc  il cc aca hetale pe times longer. From Figure 9(c) we can see $\\Theta _ { \\mathrm { W } }$ decreased with time after million cycle tests, which should due to the clamping mechanism is not rigid enough and the ective beam length changed with time aftercontinuously hier acceleration tests. Sample 2 protected with conductive tape shows stable $\\mathrm { V } _ { \\mathrm { P - P } }$ and D even under $0 . 7 \\mathrm { g }$ test for 2 million cycles.\n\n![](images/37bcf4c7e9eeeb95416e800e0c3bd2a37e52ca11b1e83f334b65548db2027c0e.jpg)  \nFigure 8. sample 2 with protected conductive tape cover the whole surface\n\n![](images/a42e782850d35cdbf8c61453fc6b42d24dd1cdbeb444f07525cbaa244b42d2be.jpg)"
+    },
+    {
+      "heading": "ohtrUstr",
+      "level": 1,
+      "text": "![](images/a1b664b4dbeb315127c78830aec23913e9e1335ae4463b767d4314149019c691.jpg)  \n(mm), (c) resonance frequency $\\left( \\mathrm { H z } \\right)$ ."
+    },
+    {
+      "heading": "3.4 Non-linear reduction with adhesive tape protection",
+      "level": 1,
+      "text": "In weak damping system, nonlinear resonance occur with behavior that is impossible in harmonic system, such oov n uphar eancAlh heonli nc hemaxiu pli folo wi several dawbacks. Because utput power s proportional virational mplitude, nonlinear reoe foove e ongy pac   elily [].  hentvra exc he , device setup. Then it can gently return to resonance frequency which has the best output performance. The supharan reulmu larutu powerha raiom e an o  u phenomena leads to narrow bandwidth compare to normal linear system. Third, the simulation platorms cannot dmahraTheeunthatpe expectancy of device.\n\nTl  n\n\n$$\n\\ddot { x } + c \\dot { x } + \\omega _ { 0 } ^ { 2 } x \\pm \\alpha x ^ { 3 } = F c o s ( \\omega t + \\phi )\n$$\n\n, which can further rewritten as\n\n$$\n\\ddot { x } + c \\dot { x } + \\omega _ { 0 } ^ { 2 } x \\pm \\alpha x ^ { 3 } = A _ { 1 } c o s \\omega t - A _ { 2 } s i n \\phi\n$$\n\n, where $F = \\sqrt { ( A _ { 1 } ^ { 2 } + A _ { 2 } ^ { 2 } ) }$ $\\begin{array} { r } { \\phi = t a n ( \\frac { A _ { 1 } } { A _ { 2 } } ) } \\end{array}$ .\n\nWith further derivation, we can estimate the proportion by comparing with initial structure amplitude F.\n\n$$\n\\begin{array} { r } { \\frac { F } { D } = \\frac { 1 } { \\sqrt { \\left( 1 - S ^ { 2 } + \\frac { 3 } { 4 } \\alpha A ^ { 2 } \\right) ^ { 2 } + ( 2 \\xi ) ^ { 2 } } } } \\end{array}\n$$\n\n,where D is actuation amplitude, $s = \\omega _ { / \\omega _ { 0 } } , \\alpha$ is structure coefficient, $\\xi$ is damping ratio.\n\nAs a hard structure, $\\alpha > 0$ , the response curves are shown as Figure 10, which shows larger damping ratio reduce the non-linear foldover phenomenon though the peak amplitude also decreased. When the energy harvester is proexidiheivapemrat cenuu pe while the non-linear foldover phenomenon also being reduced [8].\n\n![](images/50a8d20103bbf5805f2dbe53717d16ed2768d3ab581b7556d5fa3cc90ffe0751.jpg)  \nur ar u  i a\n\nFigure 11(a) shows the frequency response of the energy harvester device tested at $0 . 5 \\mathrm { g }$ and $0 . 7 \\mathrm { g }$ Which is coincide with the hard structure case we just derived, especially at $0 . 7 \\mathrm { g }$ the superharmonic foldover phenomena occur usly [9]. Howeve, heonlnearodover henmeareducewhe protece with xibleconductiv heive tape, as shown in figure 11(b). The $\\mathrm { V } _ { \\mathrm { P - P } }$ declines to $6 5 \\%$ but the available bandwidth extended for more than 2 times. The din ampig rat by sticki cnducivetapecntbutes  weaken olinear ratin wih he reduce the peak output voltage and tip displacement, while with much longer lifetime.\n\n![](images/ba7f8e745883f06bbae6ba6732cd387fa28d258b8da6b46869532784b317c740.jpg)  \ntape on."
+    },
+    {
+      "heading": "4. CONCLUSION",
+      "level": 1,
+      "text": "I The examinations show our device can sustain up to $0 . 5 \\mathrm { g }$ acceleration. The device can remain in a stable output with continuously working condition for more than 10 million cycles (3 days). When the PEH tested at $0 . 6 \\mathrm { g }$ , the fatigue failure m suouh hou cu being developed in the PZT layer. When the device further tested at $0 . 7 \\mathrm { g }$ , the small cracks growing with time and in the end torn the surface electrode and caused open-circuit.\n\nWhen prove exincivhesivpe anrantever y u r whi ulp ce xiuivhepe euork about half output voltage compared with the original condition."
+    },
+    {
+      "heading": "5. ACKNOWLEDGEMENTS",
+      "level": 1,
+      "text": "This work was supportn part yhe Minisry ScienceandTechnolgy, NatnalTaiwanUniversiy, a Inte Corporation under Grants MOST 101-2628-E-002-011-MY3, 103-2120-M-002-007, NTU-ICRP-104R7501, and NTU-ICRP-104R7501-1."
+    },
+    {
+      "heading": "6. REFERENCES",
+      "level": 1,
+      "text": "[1] W.J. Wu et al 2014 J.Phys.:Conf. Ser. 557 012027   \n[Az .er MaThe I Thsur\". etvo,1, . 27872805, Oct. 2010.   \n[3] Edgecombe.,\"Discovering Activities toRecognize and Track in a Smart Environment\" IEEE Trans. Knowledge & Data Eng., vol. 23, no. 4, pp.P. Rashidi, D.J. Cook, L.B. Holder, and M. Schmiter-527-539, Apr. 2011.   \n[4] Che, JJ  al. \"Sel-powewirees tpetusor wit piezelectieeryharvesterriath metal-MEMS process.\" Nano/Micro Engineered and Molecular Systems (NEMS), 2015 IEEE 10th International Conference on. IEEE, 2015.   \n[5 .C.Li n.J. Wu, \"at  PZT MES e r asi d as-u utilizing an aerosol deposition method\", J. Micromech. Microeng. 23 125028 (2013).   \n[6] S.C. Lin andW.J. Wu, \"Piezelectricmico energy harvesters base n staines-steel substrate\", Smar Mater. Struct. 22 405016 (2013).   \n[. G. W.Tve, S. Nguyen, and. Halvorsn, \"Nonir Behavio   Elecostanery Harv n Wide- and Narrowband Excitation,\" Journal of Microelectromechanical Systems, vol. 19, pp. 305-316, 2010.   \n[8] Rao, Singiresu S., and Fook Fah Yap., [Mechanical vibrations 5th Ch.13], Addison-Wesley, New York, 1-16 (2010).   \n[9] H. Cho, B. Jeong, M. F. Yu, A. F. Vakaks, D. M. McFarland, and L. A. Bergman, \"Nonlinear hardening and softening resonances in micromechanical cantilever-nanotube systems originated from nanoscale geometric nonlinearities,\" International Journal of Solids and Structures, vol. 49, pp. 2059-2065, 2012."
+    }
+  ],
+  "tables": [],
+  "figures": [
+    {
+      "page": -1,
+      "caption": "",
+      "path": "images/1b99d6c7054e18aab943165fa849c044757a5b66cfdd7eaac886c5a7997f05f7.jpg"
+    },
+    {
+      "page": -1,
+      "caption": "",
+      "path": "images/043b1742961f3cefc52151afceedd388e1684a51621a6dc3d95db595c5dfb5c7.jpg"
+    },
+    {
+      "page": -1,
+      "caption": "",
+      "path": "images/991e7c6feba7b9e7ea65d0daca7a3e5d974868d9585fba8db5daf16cf4352714.jpg"
+    },
+    {
+      "page": -1,
+      "caption": "",
+      "path": "images/f347bd405fcd1f5f69bfa97607c11d5c1ee763742fe168157932eeac59f2f32e.jpg"
+    },
+    {
+      "page": -1,
+      "caption": "",
+      "path": "images/268f5b1c5181fefc8408e225fcf49a3e940b2a2ceded6424eac03e0fa04549e1.jpg"
+    },
+    {
+      "page": -1,
+      "caption": "",
+      "path": "images/ddb6e55397b5a65c2e56167c16f1c4ce2119507d7acbf87398af3a1d2e6afc65.jpg"
+    },
+    {
+      "page": -1,
+      "caption": "",
+      "path": "images/51c00441ac0c847829d07817544eed27d1c806c5fa22964912079ebac7bd2b8f.jpg"
+    },
+    {
+      "page": -1,
+      "caption": "",
+      "path": "images/6c1cd75b780f9d8ae3c0458faf78b7859e36da2597aca805d3b803b20ae50dd3.jpg"
+    },
+    {
+      "page": -1,
+      "caption": "",
+      "path": "images/37bcf4c7e9eeeb95416e800e0c3bd2a37e52ca11b1e83f334b65548db2027c0e.jpg"
+    },
+    {
+      "page": -1,
+      "caption": "",
+      "path": "images/a42e782850d35cdbf8c61453fc6b42d24dd1cdbeb444f07525cbaa244b42d2be.jpg"
+    },
+    {
+      "page": -1,
+      "caption": "",
+      "path": "images/a1b664b4dbeb315127c78830aec23913e9e1335ae4463b767d4314149019c691.jpg"
+    },
+    {
+      "page": -1,
+      "caption": "",
+      "path": "images/50a8d20103bbf5805f2dbe53717d16ed2768d3ab581b7556d5fa3cc90ffe0751.jpg"
+    },
+    {
+      "page": -1,
+      "caption": "",
+      "path": "images/ba7f8e745883f06bbae6ba6732cd387fa28d258b8da6b46869532784b317c740.jpg"
+    }
+  ],
+  "metadata": {
+    "source": "both",
+    "pdf_url": "",
+    "parsed_at": "2026-03-10T10:29:45.274477+00:00"
+  }
+}

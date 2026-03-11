@@ -1,0 +1,111 @@
+{
+  "paper_id": "10_1109_ultsym_2009_5441676",
+  "doi": "10.1109/ultsym.2009.5441676",
+  "title": "Free-standing thick-film piezoelectric multimorph cantilevers for energy harvesting",
+  "year": 2009,
+  "venue": "2009 IEEE International Ultrasonics Symposium",
+  "authors": [
+    "Swee Leong Kok",
+    "N. White",
+    "N. Harris",
+    "Kok Swee Leong",
+    "N.M. White",
+    "Nick Harris"
+  ],
+  "citation_count": 13,
+  "sections": [
+    {
+      "heading": "Free-Standing Thick-Film Piezoelectric Multimorph Cantilevers for energy harvesting",
+      "level": 1,
+      "text": "Swee L. Kok, Neil M. White and Nick R. Harris School of Electronics and Computer Science, University of Southampton, Southampton SO17 1BJ, UK Email: {slk05r, nmw, nrh}@ecs.soton.ac.uk\n\nAbstract—Piezoelectric materials provide one approach for converting mechanical to electrical energy and can therefore be used to harvest energy from ambient vibration sources. Typically, piezoelectric materials are fabricated onto thin substrates, such as aluminum and stainless steel. These serve as mechanical support platforms to function as a cantilever beam structure. The platforms, however, are non-electro-active and they do not contribute directly to the electrical power output. The aim of this paper is to describe a novel multimorph cantilever structure in a free-standing form. Multimorphs consist of three laminar sections of lead zirconate titanate (PZT) of equal thickness $4 0 \\mu \\mathrm { m }$ and length $1 8 \\ \\mathrm { m m }$ were polarized in two modes; series and parallel. An optimum output power of $4 2 \\ \\mu \\mathbf { W }$ was measured when the series polarized sample was excited at its resonant frequency of ${ \\bf 4 0 0 ~ H z }$ .\n\nIndex Terms—Energy harvester, free-standing structure, multimorph, thick-film piezoceramics"
+    },
+    {
+      "heading": "I. INTRODUCTION",
+      "level": 1,
+      "text": "PIEZOELECTRICS [1] are attractive materials for fabricating vibration energy harvesters due to their relatively high output power density, when compared to alternative techniques such as electromagnetic [2] and electrostatic [3] energy conversion mechanisms.\n\nTypically, piezoelectric materials are deposited onto inert substrates and clamped at one to form a cantilever structure to operate in a bending mode whereby the piezoelectric materials are stressed and hence generate electrical chargess as a result of $d _ { 3 3 }$ piezoelectric effect.\n\nAluminum [4], stainless steel [5] and silicon [6] are sometimes used as the substrate incorporated with piezoelectric materials to form an electro-active cantilever. The substrates, however, do not contribute directly to the electrical energy conversion, and merely act as a mechanical supporting platform, which can be excluded to form a freestanding multimorph structure, which only consists of piezoelectric materials and electrodes.\n\nA free-standing multimorph structure offers a few advantages; one of which is the capability of integration with silicon technology. Structures such as multi-cantilevers, tapered cantilevers and other complex structures can be fabricated in a monolithic manner by using screen-printing techniques.\n\nThe chosen enabling technology for fabricating freestanding structures is similar to that used in the silicon micromachining technique and involves the use of a sacrificial layer [7]. In our study, the thick-film free-standing structure is released from the substrate as a result of burning off the carbon sacrificial layer on which the electrodes and piezoelectric materials were deposited.\n\nThe materials used to fabricate the composite piezoceramic cantilever are lead zirconate titanate (PZT), carbon, silver/palladium and an alumina substrate. The PZT pastes, for screen printing was formulated in-house with a mixture as described by Torah et al [8]. The carbon pastes formulated were similar to those describe by Birol et al [9], while the $\\mathrm { A g / P d }$ pastes were commercial systems obtained from ESL Inc [www.electroscience.com].\n\nThe free-standing multimorph structure is an extension of a previous study and the details of the fabrication process can be found in [10]. The main difference is that the PZT paste was printed and dried repeatedly for three cycles in order to achieve a thickness of $4 0 \\ \\mu \\mathrm { m } .$ , before a layer of $\\mathbf { A g / P d }$ of thickness $1 2 \\mu \\mathrm { m }$ was printed on top of the dried PZT. The process was repeated to produce three laminar sections of PZT, separated by $\\mathbf { A g / P d }$ electrodes to form a composite multimorph structure as shown in Fig.1.\n\nAll three sections of the laminar PZT were then polarized at the same time using a DC voltage source of $2 2 0 \\ \\mathrm { V }$ (which is equivalent to an electric field strength of $5 . 5 \\ \\mathrm { M V / m } )$ at 200 $^ \\circ C$ . Two polarization modes were investigated; series and parallel.\n\nA shaker was used to excite the multimorph samples at their resonant frequency, using a constant acceleration level of 50 $\\mathrm { m } / \\mathrm { s } ^ { 2 }$ . The electrical output from the samples was obtained by connecting their terminals in different configurations to identify the optimum method."
+    },
+    {
+      "heading": "II. MULTIMORPH DESIGN",
+      "level": 1,
+      "text": "A multimorph structure, with one end rigidly clamped is shown in Fig. 1. When the structure resonates, an alternating voltage is produced as a consequence of piezoelectric $d _ { 3 I }$ effect. At a point where the cantilever bends downward, tensile forces are induced on the upper piezoelectric element, thus generating a voltage of the same polarity as the poling voltage; whereas the compressive forces on the lower piezoelectric element generate a voltage of opposite polarity to that of the poling voltage.\n\n$$\nn _ { E } = \\frac { E _ { e } } { E _ { p } }\n$$\n\n![](images/2ce1e99c4597df543e888bd0be57ea2507cd614da77a983e553b97b0ea45cf4d.jpg)  \nFig. 1. Schematic diagram of a multimorph structure.\n\nThe output voltage of a piezoelectric cantilever can be estimated with the model developed by Roundy et al [11],\n\n$$\nV = \\frac { 3 } { 4 } \\frac { j E _ { r } d _ { 3 1 } h _ { p } d A _ { i n } } { \\varepsilon l _ { b } ^ { 2 } \\left\\{ \\zeta _ { r } \\omega _ { r } ^ { 2 } - j \\left[ \\frac { \\omega _ { r } ^ { 2 } { k _ { 3 1 } } ^ { 2 } } { 2 } + \\frac { \\zeta _ { r } \\omega _ { r } } { R C _ { p } } \\right] \\right\\} }\n$$\n\nwhere $A _ { i n }$ is the base input acceleration, $\\varepsilon$ is dielectric constant of the piezoelectric material, $\\zeta _ { T }$ is the total damping ratio (the sum of electrical and mechanical damping ratio), $C _ { p }$ is the capacitance of the piezoelectric material and $E _ { T }$ is the elastic modulus of the composite structure.\n\nOne of the controllable factors that can be improved the output voltage is by increasing the distance between the PZT layer and the neutral axis of the multimorph structure, $d .$ The $d$ distance for a composite multimorph can be written as,\n\n$$\nd = \\frac { 1 } { 2 } h _ { p 3 } - \\frac { \\left( h _ { p 2 } ^ { 2 } + h _ { p 1 } ^ { 2 } - h _ { p 3 } ^ { 2 } \\right) + 2 \\left( h _ { p 2 } h _ { p 1 } + h _ { p 1 } h _ { e 2 } - h _ { p 3 } h _ { e 3 } \\right) + n _ { E } H _ { E } } { 2 \\left\\{ \\left( h _ { p 2 } + h _ { p 1 } + h _ { p 3 } \\right) + n _ { E } \\left( h _ { e 1 } + h _ { e 2 } + h _ { e 3 } + h _ { e 4 } \\right) \\right\\} }\n$$\n\nwhere $h _ { p l } , \\ h _ { p 2 } , \\ h _ { p 3 }$ are the thicknesses of lower, middle and upper sections of the PZT respectively. $h _ { e l } , h _ { e 2 } , h _ { e 3 } , h _ { e 4 }$ are the thicknesses from the lowest to the top most of the electrode layers respectively, while $H _ { E }$ is a parameter related to the elastic modular ratio, $n _ { E } ,$ , which is given by,\n\n$$\nH _ { E } = ( h _ { e 1 } ^ { 2 } + h _ { e 2 } ^ { 2 } - h _ { e 3 } ^ { 2 } - h _ { e 4 } ^ { 2 } ) + 2 \\big ( h _ { p 2 } h _ { e 1 } + h _ { p 2 } h _ { e 2 } + h _ { p 1 } h _ { e 1 } + h _ { e 1 } h _ { e 2 } - h _ { e 3 } h _ { e 4 } - h _ { p 3 } h _ { e 4 } \\big )\n$$\n\nand the elastic modular ratio was obtained from transformedsection method [12],"
+    },
+    {
+      "heading": "III. EXPERIMENT SETUP",
+      "level": 1,
+      "text": "Fabricated samples (Fig.2) of the dimensions shown in Table I were used to investigate the electrical output performance. The samples were polarized in series and parallel modes. In the series polarized sample, both the upper and lower PZT sections were polarized in the same direction toward the center section, creates an electrically neutral condition at the centre section, as shown in Fig. 3(a).\n\nIn the parallel polarized sample, the upper section and lower section of the PZT were polarized in an opposite direction, where one facing into and the other facing out from the center section which creates an opposite polarized centre section as shown in Fig. 3(b).\n\n![](images/2e60aedfd5b49a4498e727afb19c5556c0375b635122d242d50283570579eb10.jpg)  \nFig. 2. (a) Fabricated samples and (b) Samples connected to terminals ready for polarization.\n\n![](images/3f7c743205e03571b39a7810000172106395b47821a360ac727714d00f0c3450.jpg)  \nFig. 3. Polarization in a (a) series and (b) parallel mode. The number beside each layer denotes the fabrication sequence of electrode layers.\n\nThe samples were tested on a shaker table (Fig. 4) operated at sinusoidal vibration over a range of different frequencies around the resonant frequency of the beam. The acceleration level was maintained at a constant level by using a feedback system. The accelerometer in the shaker measures the actual value of the frequency and acceleration level and is feedback into a control processor. A processed signal is generated, and it is amplified to drive the shaker to a desired acceleration level at a given frequency. The electrical output from the device is driven into a programmable resistance load and subsequently converted to a digital signal and is measured with National Instrument Sequence Test Program.\n\nTABLE I FABRICATED SAMPLE DIMENSIONS   \n\n<table><tr><td>Dimension</td><td>Value (mm)</td></tr><tr><td>PZT Length</td><td>18</td></tr><tr><td>Electrode Length</td><td>17.5</td></tr><tr><td>PZT Width</td><td>9</td></tr><tr><td>Electrode Width</td><td>8.5</td></tr><tr><td>PZT Thickness</td><td>0.04</td></tr><tr><td>Electrode Thickness</td><td>0.012</td></tr></table>\n\n![](images/b620e14752cd6fbea3de3c27d5c511f4a33b653a2a222d6d2a9b8ceb082eb8ef.jpg)  \nFig. 4. A free-standing multimorph sample mounted on a shaker\n\nThe electrical output from both the series and parallel polarized samples was obtained by connecting the electrode terminals in a configuration that resembles series, parallel and a combination between these two connections. For example, a connection between electrode number 1 and 2 is denoted as 1;2. A connection to make electrode number 2 and 4 as terminal positive (shorting 2 and 4) and electrode number 1 and 3 (shorting 1 and 3) as terminal negative denotes as $2 { + } 4$ ; $1 + 3$ . The “;” denotes a separation between two terminals."
+    },
+    {
+      "heading": "IV. EXPERIMENTAL RESULTS AND DISCUSSION",
+      "level": 1,
+      "text": "A series polarised sample with a configuration of 1;4 (short $2 { + } 3 )$ ) produces an electrical output voltage of $1 . 3 ~ \\mathrm { V }$ at load resistance of $3 8 \\mathrm { k } \\Omega$ , which is the sum of the voltage produced by the upper and lower PZT layer of $0 . 6 \\mathrm { ~ V ~ }$ (at $1 9 . 5 \\ \\mathrm { k } \\Omega$ ) and $0 . 7 4 \\mathrm { V }$ (at $1 9 \\mathrm { k } \\Omega$ ) respectively, which is equivalent to a series connection of two resistive components of PZT. The output power of upper and lower PZT are around $2 2 \\mu \\mathrm { W }$ and $3 0 ~ \\mu \\mathrm { W }$ respectively and the parallel configuration produced an output power of about $4 2 \\mu \\mathrm { W }$ , as shown in Fig. 5.\n\nIn the ideal case, the upper and lower PZT layer produce an equal electrical output. In practice, however, the thickness of each layer of the film is not uniform because of fabrication tolerances and therefore the centroid of the PZT is not precisely coincident with the neutral axis. This creates a discrepancy of electrical output as discussed above.\n\nFig. 5 also shows that, when electrode 2 and 4 were connected as one terminal and, 1 and 2 as another terminal $\\left( 2 { + } 4 ; ~ 1 { + } 3 \\right)$ , then a lower output power was generated at a lower optimum resistive load. This configuration is equivalent to a parallel connection of two resistive components of PZT.\n\n![](images/60e0d653b75606ae40411a23bd8a49070858429ad8f58f32d2804e4f5afd20c7.jpg)  \nFig. 5. Output power as a function of resistive load for a series polarized sample.\n\n![](images/6f38b4ea4950e5adcee719c911b17e1422f54744160c607b97a009e47bf7770d.jpg)  \nFig. 6. Output current-voltage for a series polarized sample.\n\nFig. 6 shows an output current-voltage relationship of the terminal connected configurations. Series configuration (1;4 short $2 { + } 3$ ) produces the highest output voltage at a lower output current, while a parallel configuration produces the highest output current at a lower output voltage. A series configuration function as a voltage source for applications requiring a higher output voltage and it is preferable to switch to a parallel configuration for applications require a higher output current.\n\nA parallel polarised sample, however, generates a lower output power from its “series” connected configuration (2;4 short $1 + 3$ and 1;3 short $2 { + } 4$ ) compared to the series polarised sample, as shown in Fig. 7. This is because the “series” configuration is actually equivalent to a combination of series and parallel configurations.\n\nThe maximum output voltage generated by a parallel polarised sample is lower than that generated from a series polarised sample as shown in Fig. 8. This shows that, a series polarized sample is suitable to be used as energy harvester, while a parallel polarized sample is suitable to be used as an actuator, which would produce a same deflection of cantilever with a lower input voltage from the converse piezoelectric effect.\n\n![](images/e40074678b66cf18b4895a7fb289e141f6ced9463a0c566c9b9d6e4f6bec6c32.jpg)  \nFig. 7. Output power as a function of resistive load for a parallel polarized sample."
+    },
+    {
+      "heading": "ACKNOWLEDGMENT",
+      "level": 1,
+      "text": "The PhD scholarship from Universiti Teknikal Malaysia Melaka is gratefully acknowledged."
+    },
+    {
+      "heading": "REFERENCES",
+      "level": 1,
+      "text": "![](images/9156057a1b41373e6e03660b24a30fff0209544e165e54abbce3882c745721e6.jpg)  \nFig. 8. Output current-voltage for a parallel polarized sample.\n\n[1] N.M. White, P. Glynne-Jones, and S.P. Beeby, “A novel thick-film piezoelectric micro-generator,” Smart Mater. Struct, vol. 10, pp. 850- 852, 2001.   \n[2] S.P. Beeby, R.N. Torah, M.J. Torah, P. Gynne-Jones, T. O’Donnell, C.R. Saha, et al, “A micro electromagnetic generator for vibration energy harvesting,” Journal of Micromechanics and Microengineering, vol. 17(7), pp. 1257-65, 2007.   \n[3] P.D. Mitcheson, P. Miao, B.H. Stark, E.M. Yeatman, A.S. Holmes, and T.C. Green, “MEMS electrostatic micropower generator for low frequency operation,” Sensor and Actuators A: Physical, vol. 115(2-3), pp. 523-9, 2004.   \n[4] H.A. Sodano, D.J. Inman, and G. Park, “Comparison of piezoelectric energy harvesting devices for recharging batteries,” Journal of Materials Science: Materials in Electronics, vol. 16, pp. 799-807, 2005.   \n[5] S. Roundy, P.K. Wright, and J. Rabaey, “A study of low level vibrations as a power source for wireless sensor nodes,” Computer communications, vol. 26, pp. 1131-44, 2003.   \n[6] Y.B. Jeon, R. Sood, J. Jeong, and S.G. Kim, “MEMS power generator with transverse mode thin film PZT,” Sensor and Actuators A, vol. 122, pp. 16-22, 2005.   \n[7] F. Yalcinkaya, and E.T. Powner, “Intelligent structures,” Sensor Review, vol. 16, pp. 32-7, 1996.   \n[8] R. Torah, S.P. Beeby, N.M. White, “An improved thick-film piezoelectric material by powder blending and enhanced processing parameters,” IEEE Trans. Ultrason. Ferroelectri. Freq. Control, vol. 52(1), pp. 10-6, 2005.   \n[9] H. Birol, T. Maeder, and P. Ryser, “Application of graphite-based sacrificial layers for fabrication of LTCC (low temperature co-fired ceramic) membranes and micro-channels,” Journal of Micromechanics and Microengineering, vol. 17(1), pp. 50-60, 2007.   \n[10] S.L. Kok, N.M. White, and N.R. Harris, “Free-standing thick-film piezoelectric device,” Electronics Letters, vol. 44(4), pp. 280-1, 2008.   \n[11] S. Roundy, and P.K. Wright, “A piezoelectric vibration based generator for wireless electronics,” Smart Materials and Structures, IOP, vol. 12, pp. 1131-42, 2004.   \n[12] J.M. Gere, Mechanics of Materials, 5th ed., Pacific Grove, CA: Brooks/Cole, 2001, ch. 6."
+    },
+    {
+      "heading": "V. CONCLUSION",
+      "level": 1,
+      "text": "The distance between the centroid of PZT to the neutral axis is one of the important factors in determining the electrical output for a free-standing cantilever structure. A free-standing multimorph structure offers two significant advantages over conventional piezoelectric cantilevers; one of which is its flexibility in fabrication and integration with microelectronic systems and the other one is the flexibility in switching between current and voltage source for energy harvesting applications. As expected from the experiment, a series polarized sample is suitable for use as an energy harvester, while a parallel polarized sample is preferred for actuator applications."
+    }
+  ],
+  "tables": [
+    {
+      "page": -1,
+      "content": ""
+    }
+  ],
+  "figures": [
+    {
+      "page": -1,
+      "caption": "",
+      "path": "images/2ce1e99c4597df543e888bd0be57ea2507cd614da77a983e553b97b0ea45cf4d.jpg"
+    },
+    {
+      "page": -1,
+      "caption": "",
+      "path": "images/2e60aedfd5b49a4498e727afb19c5556c0375b635122d242d50283570579eb10.jpg"
+    },
+    {
+      "page": -1,
+      "caption": "",
+      "path": "images/3f7c743205e03571b39a7810000172106395b47821a360ac727714d00f0c3450.jpg"
+    },
+    {
+      "page": -1,
+      "caption": "",
+      "path": "images/b620e14752cd6fbea3de3c27d5c511f4a33b653a2a222d6d2a9b8ceb082eb8ef.jpg"
+    },
+    {
+      "page": -1,
+      "caption": "",
+      "path": "images/60e0d653b75606ae40411a23bd8a49070858429ad8f58f32d2804e4f5afd20c7.jpg"
+    },
+    {
+      "page": -1,
+      "caption": "",
+      "path": "images/6f38b4ea4950e5adcee719c911b17e1422f54744160c607b97a009e47bf7770d.jpg"
+    },
+    {
+      "page": -1,
+      "caption": "",
+      "path": "images/e40074678b66cf18b4895a7fb289e141f6ced9463a0c566c9b9d6e4f6bec6c32.jpg"
+    },
+    {
+      "page": -1,
+      "caption": "",
+      "path": "images/9156057a1b41373e6e03660b24a30fff0209544e165e54abbce3882c745721e6.jpg"
+    }
+  ],
+  "metadata": {
+    "source": "both",
+    "pdf_url": "https://eprints.soton.ac.uk/267652/1/%25281107%2529_Free-standing_thick-film_piezoelectric_multimorph_cantilevers_for_energy_harvesting.pdf",
+    "parsed_at": "2026-03-10T10:12:25.571053+00:00"
+  }
+}

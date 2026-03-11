@@ -1,0 +1,147 @@
+{
+  "metadata": {
+    "paper_id": "10_1063_1_4862876",
+    "doi": "10.1063/1.4862876",
+    "title": "Energy harvesting from ambient low-frequency magnetic field using magneto-mechano-electric composite cantilever",
+    "year": 2014,
+    "journal": "Applied Physics Letters"
+  },
+  "configuration": "cantilever",
+  "proof_mass": true,
+  "geometry": {
+    "length_mm": 35,
+    "width_mm": 7,
+    "thickness_mm": 1.06,
+    "substrate_thickness_um": 60,
+    "piezo_thickness_um": 500,
+    "tip_mass_g": 7.4,
+    "diameter_mm": null
+  },
+  "excitation": {
+    "type": "other",
+    "frequency_Hz": 98.9,
+    "acceleration_g": null,
+    "displacement_mm": null,
+    "motion_source": "ambient AC magnetic field"
+  },
+  "load": {
+    "load_resistance_ohm": 100000
+  },
+  "output": {
+    "resonant_frequency_Hz": 98.9,
+    "output_power_W": 1.46e-05,
+    "open_circuit_voltage_V": 3.585,
+    "short_circuit_current_A": null,
+    "bandwidth_Hz": null
+  },
+  "evidence": {
+    "configuration": {
+      "quote": "The MME composite cantilever is made of a piezoelectric bimorph with NdFeB magnets attached at its tip.",
+      "section": "Energy harvesting from ambient low-frequency magnetic field using magneto-mechano-electric composite cantilever",
+      "source_type": "section"
+    },
+    "proof_mass": {
+      "quote": "NdFeB magnets attached at its tip",
+      "section": "Energy harvesting from ambient low-frequency magnetic field using magneto-mechano-electric composite cantilever",
+      "source_type": "section"
+    },
+    "geometry": {
+      "length_mm": {
+        "quote": "35 mm (length)",
+        "section": "Energy harvesting from ambient low-frequency magnetic field using magneto-mechano-electric composite cantilever",
+        "source_type": "section"
+      },
+      "width_mm": {
+        "quote": "7 mm (width)",
+        "section": "Energy harvesting from ambient low-frequency magnetic field using magneto-mechano-electric composite cantilever",
+        "source_type": "section"
+      },
+      "thickness_mm": {
+        "quote": "brass sheet (60 um in thickness) sandwiched by a pair of identical piezoelectric twin plates... 0.5 mm (thickness)",
+        "section": "Energy harvesting from ambient low-frequency magnetic field using magneto-mechano-electric composite cantilever",
+        "source_type": "section"
+      },
+      "substrate_thickness_um": {
+        "quote": "brass sheet (60 um in thickness)",
+        "section": "Energy harvesting from ambient low-frequency magnetic field using magneto-mechano-electric composite cantilever",
+        "source_type": "section"
+      },
+      "piezo_thickness_um": {
+        "quote": "0.5 mm (thickness)",
+        "section": "Energy harvesting from ambient low-frequency magnetic field using magneto-mechano-electric composite cantilever",
+        "source_type": "section"
+      },
+      "tip_mass_g": {
+        "quote": "Two commercially supplied NdFeB magnets (the volume Vm = 0.5 cm^3 for each, the mass density rho_m = 7.4 g/cm^3)",
+        "section": "Energy harvesting from ambient low-frequency magnetic field using magneto-mechano-electric composite cantilever",
+        "source_type": "section"
+      },
+      "diameter_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      }
+    },
+    "excitation": {
+      "type": {
+        "quote": "ambient AC magnetic field",
+        "section": "Energy harvesting from ambient low-frequency magnetic field using magneto-mechano-electric composite cantilever",
+        "source_type": "section"
+      },
+      "frequency_Hz": {
+        "quote": "f_r^oc = 98.9 Hz",
+        "section": "Energy harvesting from ambient low-frequency magnetic field using magneto-mechano-electric composite cantilever",
+        "source_type": "section"
+      },
+      "acceleration_g": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "displacement_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "motion_source": {
+        "quote": "ambient AC magnetic field H_ac",
+        "section": "Energy harvesting from ambient low-frequency magnetic field using magneto-mechano-electric composite cantilever",
+        "source_type": "section"
+      }
+    },
+    "load": {
+      "load_resistance_ohm": {
+        "quote": "14.6 uW for 100 kOhm at f_r^oc",
+        "section": "Energy harvesting from ambient low-frequency magnetic field using magneto-mechano-electric composite cantilever",
+        "source_type": "section"
+      }
+    },
+    "output": {
+      "resonant_frequency_Hz": {
+        "quote": "f_r^oc = 98.9 Hz",
+        "section": "Energy harvesting from ambient low-frequency magnetic field using magneto-mechano-electric composite cantilever",
+        "source_type": "section"
+      },
+      "output_power_W": {
+        "quote": "14.6 uW for 100 kOhm at f_r^oc",
+        "section": "Energy harvesting from ambient low-frequency magnetic field using magneto-mechano-electric composite cantilever",
+        "source_type": "section"
+      },
+      "open_circuit_voltage_V": {
+        "quote": "experimentally measured value of 3.585 V",
+        "section": "Energy harvesting from ambient low-frequency magnetic field using magneto-mechano-electric composite cantilever",
+        "source_type": "section"
+      },
+      "short_circuit_current_A": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "bandwidth_Hz": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      }
+    }
+  }
+}

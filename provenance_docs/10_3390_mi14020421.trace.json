@@ -6,23 +6,23 @@
     "openalex"
   ],
   "pdf_url": "https://www.mdpi.com/2072-666X/14/2/421/pdf?version=1676365356",
-  "pdf_local_path": "",
+  "pdf_local_path": "data_registry/raw/10_3390_mi14020421.pdf",
   "processing": {
     "tool": "MinerU",
-    "version": "mineru, version 2.7.6",
-    "timestamp": "2026-02-23T11:40:47.395946+00:00",
-    "duration_s": 5.04,
-    "success": false,
+    "version": "python -m mineru.cli.client, version 2.7.6",
+    "timestamp": "2026-03-09T15:26:56.179621+00:00",
+    "duration_s": 71.56,
+    "success": true,
     "error": ""
   },
   "outputs": {
-    "content_md": "",
-    "layout_json": "",
-    "images_dir": "",
-    "normalized_json": ""
+    "content_md": "/root/EH-LLM-vehbench-exp/parsed_docs/10_3390_mi14020421_g5at7ip2/content.md",
+    "layout_json": "/root/EH-LLM-vehbench-exp/parsed_docs/10_3390_mi14020421_g5at7ip2/layout.json",
+    "images_dir": "/root/EH-LLM-vehbench-exp/parsed_docs/10_3390_mi14020421_g5at7ip2/10_3390_mi14020421/auto/images",
+    "normalized_json": "/root/EH-LLM-vehbench-exp/normalized_docs/10_3390_mi14020421.json"
   },
   "data_lineage": {
-    "papers_jsonl_hash": "2a7fb1e061496b6bcf2f0dfbc7dfe46c",
+    "papers_jsonl_hash": "aff109a1e99d585fbd5ed4ce2b3ac454",
     "pipeline_step": "ingestion/mineru_runner.py"
   }
 }

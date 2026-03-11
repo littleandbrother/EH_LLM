@@ -1,0 +1,28 @@
+{
+  "paper_id": "10_3390_proceedings1040588",
+  "doi": "10.3390/proceedings1040588",
+  "title": "Development of a Compact, Low-Frequency Vibration, Piezoelectric MEMS Energy Harvester",
+  "source_apis": [
+    "semantic_scholar"
+  ],
+  "pdf_url": "https://www.mdpi.com/2504-3900/1/4/588/pdf?version=1504512645",
+  "pdf_local_path": "data_registry/raw_stage04_paper_pdf_cleaned/10_3390_proceedings1040588.pdf",
+  "processing": {
+    "tool": "MinerU",
+    "version": "python -m mineru.cli.client, version 2.7.6",
+    "timestamp": "2026-03-10T10:24:55.197077+00:00",
+    "duration_s": 76.87,
+    "success": true,
+    "error": ""
+  },
+  "outputs": {
+    "content_md": "/root/EH-LLM-vehbench-exp/parsed_docs/10_3390_proceedings1040588_rfp2fbxt/content.md",
+    "layout_json": "/root/EH-LLM-vehbench-exp/parsed_docs/10_3390_proceedings1040588_rfp2fbxt/layout.json",
+    "images_dir": "/root/EH-LLM-vehbench-exp/parsed_docs/10_3390_proceedings1040588_rfp2fbxt/10_3390_proceedings1040588/auto/images",
+    "normalized_json": "/root/EH-LLM-vehbench-exp/normalized_docs/10_3390_proceedings1040588.json"
+  },
+  "data_lineage": {
+    "papers_jsonl_hash": "e2d449246c1c994201c6a0b12d30547a",
+    "pipeline_step": "ingestion/mineru_runner.py"
+  }
+}

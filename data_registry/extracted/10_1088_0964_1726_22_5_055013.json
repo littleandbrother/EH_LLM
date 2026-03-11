@@ -1,0 +1,147 @@
+{
+  "metadata": {
+    "paper_id": "10_1088_0964_1726_22_5_055013",
+    "doi": "10.1088/0964-1726/22/5/055013",
+    "title": "Low frequency acoustic energy harvesting using PZT piezoelectric plates in a straight tube resonator",
+    "year": 2013,
+    "journal": "Smart Materials and Structures"
+  },
+  "configuration": "cantilever",
+  "proof_mass": false,
+  "geometry": {
+    "length_mm": 40,
+    "width_mm": 20,
+    "thickness_mm": 1.18,
+    "substrate_thickness_um": 220,
+    "piezo_thickness_um": 480,
+    "tip_mass_g": null,
+    "diameter_mm": null
+  },
+  "excitation": {
+    "type": "other",
+    "frequency_Hz": 199,
+    "acceleration_g": null,
+    "displacement_mm": null,
+    "motion_source": "acoustic"
+  },
+  "load": {
+    "load_resistance_ohm": 4600
+  },
+  "output": {
+    "resonant_frequency_Hz": 199,
+    "output_power_W": 0.012697,
+    "open_circuit_voltage_V": null,
+    "short_circuit_current_A": null,
+    "bandwidth_Hz": null
+  },
+  "evidence": {
+    "configuration": {
+      "quote": "piezoelectric cantilever plates",
+      "section": "Abstract",
+      "source_type": "abstract"
+    },
+    "proof_mass": {
+      "quote": "parallel bimorph PZT piezoelectric cantilever plates",
+      "section": "3. Experiments",
+      "source_type": "section"
+    },
+    "geometry": {
+      "length_mm": {
+        "quote": "Length l 4 cm",
+        "section": "Table 1",
+        "source_type": "table"
+      },
+      "width_mm": {
+        "quote": "Width b 2 cm",
+        "section": "Table 1",
+        "source_type": "table"
+      },
+      "thickness_mm": {
+        "quote": "PZT-5X layer Thickness 0.48 mm ... Carbon fiber Thickness tc 0.22 mm",
+        "section": "Table 1",
+        "source_type": "table"
+      },
+      "substrate_thickness_um": {
+        "quote": "Carbon fiber Thickness tc 0.22 mm",
+        "section": "Table 1",
+        "source_type": "table"
+      },
+      "piezo_thickness_um": {
+        "quote": "PZT-5X layer Thickness 0.48 mm",
+        "section": "Table 1",
+        "source_type": "table"
+      },
+      "tip_mass_g": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "diameter_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      }
+    },
+    "excitation": {
+      "type": {
+        "quote": "acoustic energy harvesting",
+        "section": "Abstract",
+        "source_type": "abstract"
+      },
+      "frequency_Hz": {
+        "quote": "first eigenmode frequency ... are measured as 199 Hz",
+        "section": "6. Conclusion",
+        "source_type": "section"
+      },
+      "acceleration_g": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "displacement_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "motion_source": {
+        "quote": "incident sound",
+        "section": "Abstract",
+        "source_type": "abstract"
+      }
+    },
+    "load": {
+      "load_resistance_ohm": {
+        "quote": "optimized resistance of $R_{opt} = 4.6 k\\Omega$",
+        "section": "5.2. Energy harvesting using a single PZT piezoelectric plate",
+        "source_type": "section"
+      }
+    },
+    "output": {
+      "resonant_frequency_Hz": {
+        "quote": "first eigenmode frequency ... are measured as 199 Hz",
+        "section": "6. Conclusion",
+        "source_type": "section"
+      },
+      "output_power_W": {
+        "quote": "power of 12.697 mW",
+        "section": "Abstract",
+        "source_type": "abstract"
+      },
+      "open_circuit_voltage_V": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "short_circuit_current_A": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "bandwidth_Hz": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      }
+    }
+  }
+}

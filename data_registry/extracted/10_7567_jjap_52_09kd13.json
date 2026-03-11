@@ -1,0 +1,147 @@
+{
+  "metadata": {
+    "paper_id": "10_7567_jjap_52_09kd13",
+    "doi": "10.7567/jjap.52.09kd13",
+    "title": "Lead-Free Piezoelectric MEMS Energy Harvesters of (K,Na)NbO<sub>3</sub>Thin Films on Stainless Steel Cantilevers",
+    "year": 2013,
+    "journal": "Japanese Journal of Applied Physics"
+  },
+  "configuration": "cantilever",
+  "proof_mass": true,
+  "geometry": {
+    "length_mm": 7.5,
+    "width_mm": 5.0,
+    "thickness_mm": 0.03,
+    "substrate_thickness_um": 30.0,
+    "piezo_thickness_um": 2.2,
+    "tip_mass_g": 0.025,
+    "diameter_mm": null
+  },
+  "excitation": {
+    "type": "vibration",
+    "frequency_Hz": 393.0,
+    "acceleration_g": 1.02,
+    "displacement_mm": null,
+    "motion_source": "vibration exciter"
+  },
+  "load": {
+    "load_resistance_ohm": 5000.0
+  },
+  "output": {
+    "resonant_frequency_Hz": 393.0,
+    "output_power_W": 1.6e-06,
+    "open_circuit_voltage_V": 0.423,
+    "short_circuit_current_A": null,
+    "bandwidth_Hz": 4.323
+  },
+  "evidence": {
+    "configuration": {
+      "quote": "stainless steel cantilevers",
+      "section": "Lead-Free Piezoelectric MEMS Energy Harvesters of $( \\mathsf { K } , \\mathsf { N a } ) \\mathsf { N b } 0 _ { 3 }$ Thin Films on Stainless Steel Cantilevers",
+      "source_type": "abstract"
+    },
+    "proof_mass": {
+      "quote": "weight of tip mass: 25 mg",
+      "section": "Lead-Free Piezoelectric MEMS Energy Harvesters of $( \\mathsf { K } , \\mathsf { N a } ) \\mathsf { N b } 0 _ { 3 }$ Thin Films on Stainless Steel Cantilevers",
+      "source_type": "abstract"
+    },
+    "geometry": {
+      "length_mm": {
+        "quote": "length: 7.5 mm",
+        "section": "Lead-Free Piezoelectric MEMS Energy Harvesters of $( \\mathsf { K } , \\mathsf { N a } ) \\mathsf { N b } 0 _ { 3 }$ Thin Films on Stainless Steel Cantilevers",
+        "source_type": "abstract"
+      },
+      "width_mm": {
+        "quote": "width: 5.0 mm",
+        "section": "Lead-Free Piezoelectric MEMS Energy Harvesters of $( \\mathsf { K } , \\mathsf { N a } ) \\mathsf { N b } 0 _ { 3 }$ Thin Films on Stainless Steel Cantilevers",
+        "source_type": "abstract"
+      },
+      "thickness_mm": {
+        "quote": "30-μm-thick cantilevers",
+        "section": "2. Device Fabrication",
+        "source_type": "section"
+      },
+      "substrate_thickness_um": {
+        "quote": "30-μm-thick cantilevers",
+        "section": "2. Device Fabrication",
+        "source_type": "section"
+      },
+      "piezo_thickness_um": {
+        "quote": "The thickness of the KNN films was 2.2 μm",
+        "section": "2. Device Fabrication",
+        "source_type": "section"
+      },
+      "tip_mass_g": {
+        "quote": "weight of tip mass: 25 mg",
+        "section": "Lead-Free Piezoelectric MEMS Energy Harvesters of $( \\mathsf { K } , \\mathsf { N a } ) \\mathsf { N b } 0 _ { 3 }$ Thin Films on Stainless Steel Cantilevers",
+        "source_type": "abstract"
+      },
+      "diameter_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      }
+    },
+    "excitation": {
+      "type": {
+        "quote": "under vibration",
+        "section": "Lead-Free Piezoelectric MEMS Energy Harvesters of $( \\mathsf { K } , \\mathsf { N a } ) \\mathsf { N b } 0 _ { 3 }$ Thin Films on Stainless Steel Cantilevers",
+        "source_type": "abstract"
+      },
+      "frequency_Hz": {
+        "quote": "393 Hz",
+        "section": "Lead-Free Piezoelectric MEMS Energy Harvesters of $( \\mathsf { K } , \\mathsf { N a } ) \\mathsf { N b } 0 _ { 3 }$ Thin Films on Stainless Steel Cantilevers",
+        "source_type": "abstract"
+      },
+      "acceleration_g": {
+        "quote": "10 m/s^2",
+        "section": "Lead-Free Piezoelectric MEMS Energy Harvesters of $( \\mathsf { K } , \\mathsf { N a } ) \\mathsf { N b } 0 _ { 3 }$ Thin Films on Stainless Steel Cantilevers",
+        "source_type": "abstract"
+      },
+      "displacement_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "motion_source": {
+        "quote": "vibration exciter",
+        "section": "4. Power Generation Performance",
+        "source_type": "section"
+      }
+    },
+    "load": {
+      "load_resistance_ohm": {
+        "quote": "optimum load resistance of 5 kΩ",
+        "section": "4. Power Generation Performance",
+        "source_type": "section"
+      }
+    },
+    "output": {
+      "resonant_frequency_Hz": {
+        "quote": "resonant frequency of 393 Hz",
+        "section": "4. Power Generation Performance",
+        "source_type": "section"
+      },
+      "output_power_W": {
+        "quote": "average output power ... reached 1.6 μW",
+        "section": "4. Power Generation Performance",
+        "source_type": "section"
+      },
+      "open_circuit_voltage_V": {
+        "quote": "Peak output voltage (mVp-p): 423",
+        "section": "4. Power Generation Performance",
+        "source_type": "table"
+      },
+      "short_circuit_current_A": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "bandwidth_Hz": {
+        "quote": "BW at 10 m/s^2 was calculated to be 1.1 x 10^-2",
+        "section": "4. Power Generation Performance",
+        "source_type": "section"
+      }
+    }
+  }
+}

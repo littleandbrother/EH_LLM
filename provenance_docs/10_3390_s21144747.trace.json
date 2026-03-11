@@ -1,0 +1,28 @@
+{
+  "paper_id": "10_3390_s21144747",
+  "doi": "10.3390/s21144747",
+  "title": "Comparison of Metal-Based PZT and PMN–PT Energy Harvesters Fabricated by Aerosol Deposition Method",
+  "source_apis": [
+    "openalex"
+  ],
+  "pdf_url": "https://www.mdpi.com/1424-8220/21/14/4747/pdf?version=1626082471",
+  "pdf_local_path": "data_registry/raw_stage04_paper_pdf_cleaned/10_3390_s21144747.pdf",
+  "processing": {
+    "tool": "MinerU",
+    "version": "python -m mineru.cli.client, version 2.7.6",
+    "timestamp": "2026-03-10T10:22:54.824071+00:00",
+    "duration_s": 89.22,
+    "success": true,
+    "error": ""
+  },
+  "outputs": {
+    "content_md": "/root/EH-LLM-vehbench-exp/parsed_docs/10_3390_s21144747_tnhbaydf/content.md",
+    "layout_json": "/root/EH-LLM-vehbench-exp/parsed_docs/10_3390_s21144747_tnhbaydf/layout.json",
+    "images_dir": "/root/EH-LLM-vehbench-exp/parsed_docs/10_3390_s21144747_tnhbaydf/10_3390_s21144747/auto/images",
+    "normalized_json": "/root/EH-LLM-vehbench-exp/normalized_docs/10_3390_s21144747.json"
+  },
+  "data_lineage": {
+    "papers_jsonl_hash": "5d324a6834ee8ac17db358d66b0dceee",
+    "pipeline_step": "ingestion/mineru_runner.py"
+  }
+}

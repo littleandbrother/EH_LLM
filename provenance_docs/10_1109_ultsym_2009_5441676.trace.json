@@ -1,0 +1,28 @@
+{
+  "paper_id": "10_1109_ultsym_2009_5441676",
+  "doi": "10.1109/ultsym.2009.5441676",
+  "title": "Free-standing thick-film piezoelectric multimorph cantilevers for energy harvesting",
+  "source_apis": [
+    "both"
+  ],
+  "pdf_url": "https://eprints.soton.ac.uk/267652/1/%25281107%2529_Free-standing_thick-film_piezoelectric_multimorph_cantilevers_for_energy_harvesting.pdf",
+  "pdf_local_path": "data_registry/raw_stage04_paper_pdf_cleaned/10_1109_ultsym_2009_5441676.pdf",
+  "processing": {
+    "tool": "MinerU",
+    "version": "python -m mineru.cli.client, version 2.7.6",
+    "timestamp": "2026-03-10T10:12:29.577968+00:00",
+    "duration_s": 65.24,
+    "success": true,
+    "error": ""
+  },
+  "outputs": {
+    "content_md": "/root/EH-LLM-vehbench-exp/parsed_docs/10_1109_ultsym_2009_5441676_r6y0tph4/content.md",
+    "layout_json": "/root/EH-LLM-vehbench-exp/parsed_docs/10_1109_ultsym_2009_5441676_r6y0tph4/layout.json",
+    "images_dir": "/root/EH-LLM-vehbench-exp/parsed_docs/10_1109_ultsym_2009_5441676_r6y0tph4/10_1109_ultsym_2009_5441676/auto/images",
+    "normalized_json": "/root/EH-LLM-vehbench-exp/normalized_docs/10_1109_ultsym_2009_5441676.json"
+  },
+  "data_lineage": {
+    "papers_jsonl_hash": "f12b10da27ac518d6721604643b412f8",
+    "pipeline_step": "ingestion/mineru_runner.py"
+  }
+}

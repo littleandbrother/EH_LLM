@@ -1,0 +1,28 @@
+{
+  "paper_id": "10_3390_s22197449",
+  "doi": "10.3390/s22197449",
+  "title": "Piezoelectric Energy Harvesting from Rotational Motion to Power Industrial Maintenance Sensors",
+  "source_apis": [
+    "openalex"
+  ],
+  "pdf_url": "https://www.mdpi.com/1424-8220/22/19/7449/pdf?version=1665196051",
+  "pdf_local_path": "data_registry/raw_stage04_paper_pdf_cleaned/10_3390_s22197449.pdf",
+  "processing": {
+    "tool": "MinerU",
+    "version": "python -m mineru.cli.client, version 2.7.6",
+    "timestamp": "2026-03-10T10:14:50.654944+00:00",
+    "duration_s": 77.86,
+    "success": true,
+    "error": ""
+  },
+  "outputs": {
+    "content_md": "/root/EH-LLM-vehbench-exp/parsed_docs/10_3390_s22197449_nrzacsai/content.md",
+    "layout_json": "/root/EH-LLM-vehbench-exp/parsed_docs/10_3390_s22197449_nrzacsai/layout.json",
+    "images_dir": "/root/EH-LLM-vehbench-exp/parsed_docs/10_3390_s22197449_nrzacsai/10_3390_s22197449/auto/images",
+    "normalized_json": "/root/EH-LLM-vehbench-exp/normalized_docs/10_3390_s22197449.json"
+  },
+  "data_lineage": {
+    "papers_jsonl_hash": "998fa9d0a6f98d6e1a2947c159084c9f",
+    "pipeline_step": "ingestion/mineru_runner.py"
+  }
+}

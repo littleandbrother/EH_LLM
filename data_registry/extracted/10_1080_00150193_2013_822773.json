@@ -1,0 +1,147 @@
+{
+  "metadata": {
+    "paper_id": "10_1080_00150193_2013_822773",
+    "doi": "10.1080/00150193.2013.822773",
+    "title": "Design of a New Piezoelectric Energy Harvester Based on Secondary Impact",
+    "year": 2013,
+    "journal": "Ferroelectrics"
+  },
+  "configuration": "cantilever",
+  "proof_mass": null,
+  "geometry": {
+    "length_mm": null,
+    "width_mm": null,
+    "thickness_mm": null,
+    "substrate_thickness_um": null,
+    "piezo_thickness_um": null,
+    "tip_mass_g": null,
+    "diameter_mm": null
+  },
+  "excitation": {
+    "type": "impact",
+    "frequency_Hz": 60,
+    "acceleration_g": null,
+    "displacement_mm": 11,
+    "motion_source": "motor-driven stick"
+  },
+  "load": {
+    "load_resistance_ohm": 1000
+  },
+  "output": {
+    "resonant_frequency_Hz": 60,
+    "output_power_W": 0.124,
+    "open_circuit_voltage_V": 32.52,
+    "short_circuit_current_A": null,
+    "bandwidth_Hz": null
+  },
+  "evidence": {
+    "configuration": {
+      "quote": "cantilever beam made of a piezoelectric material",
+      "section": "Design of a New Piezoelectric Energy Harvester Based on Secondary Impact",
+      "source_type": "abstract"
+    },
+    "proof_mass": {
+      "quote": null,
+      "section": null,
+      "source_type": null
+    },
+    "geometry": {
+      "length_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "width_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "thickness_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "substrate_thickness_um": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "piezo_thickness_um": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "tip_mass_g": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "diameter_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      }
+    },
+    "excitation": {
+      "type": {
+        "quote": "secondary impact type piezoelectric energy harvester",
+        "section": "Design of a New Piezoelectric Energy Harvester Based on Secondary Impact",
+        "source_type": "abstract"
+      },
+      "frequency_Hz": {
+        "quote": "Optimized response of secondary-impact-type piezoelectric energy harvester was obtained at a frequency of 60 Hz",
+        "section": "Design of a New Piezoelectric Energy Harvester Based on Secondary Impact",
+        "source_type": "abstract"
+      },
+      "acceleration_g": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "displacement_mm": {
+        "quote": "maximum displacement experienced by the hitting type harvester and the secondary impact type harvester were 15.5 mm and 11 mm , respectively",
+        "section": "A. Comparison of Free Vibration and Secondary Impact in the Open-Circuit",
+        "source_type": "section"
+      },
+      "motion_source": {
+        "quote": "motor-driven stick",
+        "section": "A. Comparison of Free Vibration and Secondary Impact in the Open-Circuit",
+        "source_type": "section"
+      }
+    },
+    "load": {
+      "load_resistance_ohm": {
+        "quote": "low resistive load of 1 kΩ",
+        "section": "Design of a New Piezoelectric Energy Harvester Based on Secondary Impact",
+        "source_type": "abstract"
+      }
+    },
+    "output": {
+      "resonant_frequency_Hz": {
+        "quote": "Optimized response of secondary-impact-type piezoelectric energy harvester was obtained at a frequency of 60 Hz",
+        "section": "Design of a New Piezoelectric Energy Harvester Based on Secondary Impact",
+        "source_type": "abstract"
+      },
+      "output_power_W": {
+        "quote": "generated output power was measured as 124 mW",
+        "section": "Design of a New Piezoelectric Energy Harvester Based on Secondary Impact",
+        "source_type": "abstract"
+      },
+      "open_circuit_voltage_V": {
+        "quote": "measured value of 32.52 V_RMS in the secondary impact type harvester",
+        "section": "A. Comparison of Free Vibration and Secondary Impact in the Open-Circuit",
+        "source_type": "section"
+      },
+      "short_circuit_current_A": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "bandwidth_Hz": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      }
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "paper_id": "10_3390_en13010223",
+  "doi": "10.3390/en13010223",
+  "title": "Harvesting Energy from Planetary Gear Using Piezoelectric Material",
+  "source_apis": [
+    "openalex"
+  ],
+  "pdf_url": "https://www.mdpi.com/1996-1073/13/1/223/pdf?version=1578466310",
+  "pdf_local_path": "data_registry/raw_stage04_paper_pdf_cleaned/10_3390_en13010223.pdf",
+  "processing": {
+    "tool": "MinerU",
+    "version": "python -m mineru.cli.client, version 2.7.6",
+    "timestamp": "2026-03-10T09:34:37.191994+00:00",
+    "duration_s": 124.18,
+    "success": true,
+    "error": ""
+  },
+  "outputs": {
+    "content_md": "/root/EH-LLM-vehbench-exp/parsed_docs/10_3390_en13010223_7cq_gzky/content.md",
+    "layout_json": "/root/EH-LLM-vehbench-exp/parsed_docs/10_3390_en13010223_7cq_gzky/layout.json",
+    "images_dir": "/root/EH-LLM-vehbench-exp/parsed_docs/10_3390_en13010223_7cq_gzky/10_3390_en13010223/auto/images",
+    "normalized_json": "/root/EH-LLM-vehbench-exp/normalized_docs/10_3390_en13010223.json"
+  },
+  "data_lineage": {
+    "papers_jsonl_hash": "91d5c9a60b0119e6ec23deda064d55d8",
+    "pipeline_step": "ingestion/mineru_runner.py"
+  }
+}

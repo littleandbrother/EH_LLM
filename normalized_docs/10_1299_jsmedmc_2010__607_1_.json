@@ -1,0 +1,149 @@
+{
+  "paper_id": "10_1299_jsmedmc_2010__607_1_",
+  "doi": "10.1299/jsmedmc.2010._607-1_",
+  "title": "607 Power Generation Performance Evaluation of Vibration Energy Harvester with Piezocomposite and Power Loss Evaluation of a Full-Bridge Rectifier",
+  "year": 2010,
+  "venue": "The Proceedings of the Dynamics & Design Conference",
+  "authors": [
+    "Kazuhiko Adachi",
+    "Tohru Tanaka"
+  ],
+  "citation_count": 2,
+  "sections": [
+    {
+      "heading": "Power Generation Performance Evaluation of Vibration Energy Harvester with Piezocomposite and Power Loss Evaluation of a Full-Bridge Rectifier",
+      "level": 1,
+      "text": "E F)E‡(IHI#F)\n\nKazuhiko ADACHI, Kobe University Graduate School of Engineering, 1-1 Rokkodai-cho, Nada-ku, Kobe 657-8501, JAPAN   \nTohru TANAKA, IHI, 1 Shin-Nakahara-cho, Isogo-ku, Yokohama 235-8501, JAPAN (Kobe University Graduate School of Engineering)\n\nR eng arveser the piezelecic bmor cantilevr type s proposedorvratn condion mo ap iyeharvenMaio Ih ony po  u  pow l-i ce enegy harvester is experimentally evaluated The maximum DCoutput power throug 287.6 Kilo-Ohm resistor which ttta je u of $) . 7 1 ( \\mathrm { m m } / \\mathrm { s } \\ \\mathrm { r m s } )$ at the resonant frequency of the harvester. The impedance matching between MFC actuators and the i  T power loss in full-bridge rectifier reached 13.7 microwatt.\n\nKey Words: Macro-Fiber Composite, Piezo-Generator, Rotating Machinery, Vibration Condition Monitoring, Vibration Energy Harvesting."
+    },
+    {
+      "heading": "A1.",
+      "level": 1,
+      "text": "THISTH=UH\\$ECTO3.--#E\n\nISO# 33 33"
+    },
+    {
+      "heading": "A2.#T",
+      "level": 1,
+      "text": "ISO10816-1 $1 5 \\mathrm { k W }$ UTOO $V  , \\mu \\oslash$ $0 . 7 1 ~ \\mathrm { m m / s }$ (RMSnA\\$ LTLZTSEL,EEEE 3\n\nLOTTERL + # L,EEOH#O#-## EU FigA1Fig.A2 OMEOE,TL \\$LTπ\\$\n\n1#-\n\n2# ,EEUE HITLE EE\n\n![](images/17a541532cd791f053339d5a82e7972a1d03e6ff893a8138106084ed49a9b9ad.jpg)  \nFig.Al Power generation performance of the vibration power generator with respect to electrical resistance.\n\n![](images/356aa6c2bf8be28bfbb60d246af0d35d3dca409e84aced2de339226f93f71a0a.jpg)  \nFig.A2 Power loss at rectifier."
+    },
+    {
+      "heading": "1.",
+      "level": 1,
+      "text": "IS (1= E\\$\\$ EIETO - - . Vibration Energy Harvesting (2)-(5).\n\n#IOE#EFL #51 $\\textsf { D } \\mathcal { O }$ EHE EELLEEEI - $\\oslash$ \\$ $\\mathcal { O }$ $2 6 . 2 5 \\ \\mathrm { \\ H z }$ T\\$ $0 . 7 1 ~ \\mathrm { \\ m m / s }$ RMS12T $8 9 \\mu \\mathrm { W }$ $\\mathcal { O }$ E --# #####- ,E\n\nISO# TTE 31#\n\n![](images/a52800af2b3870243a58022c4a4d99ce8259e1eeda0d57e5246d68e26645e7be.jpg)  \nFig.1 Power generation performance of piezoelectric vibration energy harvester compared with regulation by ISO10816-1.\n\nTable 1 Summary of piezoelectric vibration energy harvesters.   \n\n<table><tr><td>Investigator</td><td>Power (μW)</td><td>Frequency (Hz)</td><td>Velocity RMS (mm/s)</td></tr><tr><td>P. Glynne-Jones(8)</td><td>2.1</td><td>80.1</td><td>320.28</td></tr><tr><td>T. H. Ng(9)</td><td>16.3</td><td>100.0</td><td>81.82</td></tr><tr><td>S. Roundy(10)</td><td>335</td><td>60.0</td><td>4.22</td></tr><tr><td>Micro Strain Co.(11)</td><td>2,700</td><td>57.0</td><td>2.52</td></tr><tr><td>Co.(12)</td><td>3,500</td><td>50.0</td><td>9.98</td></tr><tr><td>Mide Technology</td><td>30,000</td><td>50.0</td><td>56.15</td></tr><tr><td>E. Lefeuvre(13)</td><td>12,300</td><td>60.0</td><td>533.14</td></tr><tr><td>H. J. Song(14)</td><td>19,000</td><td>60.0</td><td>3.68</td></tr></table>\n\n3"
+    },
+    {
+      "heading": "- Z(8)-(14).Fig.1 UTable 1 $( 8 ) \\sim ( 1 4 )$ THRENT ()14 $\\oslash$ IS010816-115 $\\mathrm { k W }$ UFO $\\hbar : 1 . 8 \\mathrm { m m } / \\mathrm { s }$ (RMS )(Zone B $\\mathcal { O }$ ERE \\$IS013373-115)- 3 $V  \\pi : 2 . 2 5 \\ \\mathrm { m m } / \\mathrm { s }$ (RMS )(Zone B $\\oslash$ EBEE 1.25 (Fg..L,EE Z $\\oslash$ $\\oslash$ ELT\\$",
+      "level": 1,
+      "text": "$\\supset \\mathfrak { h }$ # $\\oslash$ $\\mathcal { O }$ E3 # IS010816-1 $1 5 \\ \\mathrm { k W }$ UTOOE $0 . 7 1 \\ \\mathrm { m m / s }$ MSnA LTLZVVTEL,EE #"
+    },
+    {
+      "heading": "3. ETRMAT#EO#E",
+      "level": 1,
+      "text": "Fig.2#E TableE H51 $p \\ 0 )$ d31 (16)(Smart Material ±, Macro-Fiber Composite (MFC), M-2814P2) I k. H#51 $p \\phi$ L.E#H# #-\\* $2 6 \\ \\mathrm { H z }$ 35 ELTL.OEOET 3\\$-,4 $6 0 ~ \\mathrm { H z } ~ \\mathcal { O } )$ ELCELK.\n\n![](images/eef34eaf5cc6bbf722c59c925d5ae178a53b1ec54fda642572d55c7b6db6b618.jpg)  \nFig.2 Cantilever type of vibration energy harvester using piezocomposite bimorph.\n\nTable 2 Specification of vibration energy harvester.   \n\n<table><tr><td colspan=\"2\">Mechanical properties of cantilever 153.76 x 10-3 [kg]</td></tr><tr><td colspan=\"2\">Mass m Resonant frequency fd 26.250 [Hz]</td></tr><tr><td colspan=\"2\">(1st bending, open-circuit condition)</td></tr><tr><td colspan=\"2\">Length of cantilever beam ls</td></tr><tr><td>Thickness of cantilever beam ts</td><td>49.25 x 10-3 [m] 0.80 x 10-3[m]</td></tr><tr><td>Piezocomposite</td><td>28.00 x 10-3 [m]</td></tr><tr><td>Length lp</td><td>0.15 x 10-3 [m]</td></tr><tr><td>Thickness tp Width wp</td><td>14.00 x 10-3 [m] 30.34 x 10° [Pa]</td></tr></table>\n\n\\* measured in series configuration at the resonant frequency of $2 6 . 2 5 0 \\ : \\mathrm { H z }$ ."
+    },
+    {
+      "heading": "4.#",
+      "level": 1,
+      "text": "$4 \\cdot 1$ EE ,F.EMIC TE $^ { 9 , 8 0 0 \\mathrm { ~ N ~ } }$ E), $6 5 6 . 6 \\mathrm { ~ m } / \\mathrm { s } 2$ (), $5 \\ \\mathrm { H z } \\sim 2 { , } 5 0 0$ Hz-\\$ (PCBA353B15. $\\oslash$ ##FFT (ONO SOI , CF-5210. $\\mathcal { O }$ F. E X,LCR - (HIOKI E, LCR HiTESTER 3522) TEL. $\\oslash$ ZU $R _ { L }$ $R _ { D C }$ (Fig.4 $\\mathcal { O }$ -X1F-(FLUKE80SereV.# $\\mathcal { O }$ TEt $\\mathcal { O }$ -X $R _ { \\nu 1 } = 2 ~ \\mathrm { M } \\Omega$ , E $R _ { i 1 } = 2 ~ \\mathrm { m } \\Omega$ , EE $R _ { \\nu 2 } = 1 0 \\mathrm { M } \\Omega$ , $R _ { i 2 } = 1 0 2 \\Omega$ $\\neg$ . (Vishay Intertechnology, Inc., ${ \\bf W } 0 2 { \\bf G } ^ { ( 1 8 ) } ,$ F $C = 1 0 ~ \\mu \\mathrm { F }$   \nFig.5( $\\mho$ Fig.5(b)(L -U F-Fig.5(Fig.5( E-MIKUSU, PMM18-2.5DUFig.4 ADCMT Digital Multimeter 7352E -1-F3E ULF.6TU \\$\\ra\\$ $k O D$ LT(TUL,A- $\\mathrm { F } \\mathcal { O }$   \n##\n\n$$\ni _ { f } = A _ { \\scriptscriptstyle 1 } \\exp ( B _ { \\scriptscriptstyle 1 } \\cdot \\nu _ { f } )\n$$\n\n(1) $i _ { f }$ 11 $\\mathcal { O }$ $\\nu _ { f }$   \n\\$\\ra}\\$ $\\llcorner$ $\\mathcal { O }$ 1 $\\scriptstyle A _ { 1 }$ U $B _ { 1 } \\phi )$ Fig.6 $\\ j \\textcircled { \\scriptsize { 1 } }$\n\n![](images/09e690f33e8f11ad7091623037b65c8acc16d23dd1addfcb6f9df1c44cf08938.jpg)  \nFig.3 Vibration power generator on the test bed of electrodynamic shaker for experimentally power generation evaluation.\n\n![](images/c7d91967733b4d9d5c1f1f5844287174734b9e54709a2a6cf5d067b053edb1bc.jpg)  \nFig.4 Rectifier circuit including the input impedance of instruments.\n\n![](images/0242d8e62c8df170563adbc272ce2ed99ec644089fc40f0357619abf7f2659ba.jpg)  \nFig.5 Voltage-current characteristics of rectifier (per diode).\n\n- $R _ { r }$ b $1 / A _ { 2 } = 9 . 9 9 ~ \\mathrm { M } \\Omega$ 11   \n$R _ { L }$ L   \n#E $R _ { D C } O )$ Table # $\\boldsymbol { \\mathcal { O } }$ —5] $R _ { L }$ # $P _ { A \\mathrm { C } }$   \nUEE $P _ { D C }$ $R _ { D C }$ TIH# $\\overline { { P } } _ { D C }$ , $R _ { D C }$   \n$\\mathcal { O }$ B## $\\overline { { P } } _ { \\cdot \\mathrm { i } \\mathrm { c } }$ zhh   \n  \n$4 \\cdot 2$ $\\mathcal { O }$ #U"
+    },
+    {
+      "heading": "$R _ { L }$ $R _ { D C } O )$ $\\mathcal { O }$ $\\oslash$ ILECE",
+      "level": 1,
+      "text": "$\\oslash$ H#51 $9 ~ \\mathcal { O }$ # $2 6 . 1 3 \\ : \\mathrm { H z }$ T   \n$R _ { L }$ T#UE   \n.Fig.7 $\\mathcal { O }$ # $R _ { L } ^ { } O D$ 1   \nLT, $R _ { D C }$ #"
+    },
+    {
+      "heading": "$\\overline { { P } } _ { \\mathcal { A C } }$ UE",
+      "level": 3,
+      "text": "$\\overline { { P } } _ { D C } \\mathcal { O } )$ $R _ { L } = 1 1 0 . 8 \\mathrm { k } \\Omega$ \\   \nE $R _ { D C } = 1 0 9 . 7 ~ \\mathrm { k } \\Omega ;$ U $2 6 . 1 3 ~ \\mathrm { H z } ~ \\mathcal { O } \\geq \\underline { { \\Sigma } }$ $\\overline { { P } } _ { A C } ^ { } \\ = 1 5 1 . 8 \\mu \\mathrm { W }$ $n$ ,   \n$R _ { L } = 2 8 7 . 6 \\mathrm { k } \\Omega$ (   \n$R _ { D C } = 2 8 7 . 6 ~ \\mathrm { k } \\Omega )$ ## $2 6 . 1 3 ~ \\mathrm { H z } ~ \\mathcal { O }$   \n$\\overline { { P } } _ { D C } \\ = 1 0 9 . 5 \\mu \\mathrm { W }$ $\\mathfrak { h }$ , E   \n. $R _ { D C }$ $\\oslash$ $\\oslash$ $^ { ( 1 9 ) } \\not \\ni \\vec { \\mathbf { \\Sigma } }$ LEEE   \n$\\mathcal { O }$ $\\mathcal { O }$   \nL.Fig.8 $\\overline { { P } } _ { A C }$ UEE $\\overline { { P } } _ { D C } \\mathcal { O }$   \n$\\overline { { P } } _ { D C } / \\overline { { P } } _ { A C }$ $R _ { L } = 3 4 0 . 8 ~ \\mathrm { k } \\Omega$ ( $R _ { D C } = 3 4 0 . 8 \\mathrm { ~ k } \\Omega )$ U# $2 6 . 1 3 \\ : \\mathrm { H z }$   \n$9 9 . 4 ~ \\%$\n\n$\\oslash$ $R _ { L } ^ { } O )$ , $R _ { D C }$ TH# $\\overline { { P } } _ { \\mathcal { A } C }$ UEE $\\overrightharpoon { P } _ { D C } O )$ Fig.9 $R _ { L } = 1 1 0 . 8 \\mathrm { k } \\Omega$ $R _ { D C } = 1 0 9 . 7 \\mathrm { k } \\Omega )$ $2 6 . 1 \\ \\mathrm { H z }$ IT, $\\overline { { P } } _ { \\scriptscriptstyle \\mathrm { \\it d C } } = 1 5 5 . 8 ~ \\mu \\mathrm { W }$ t}\\$ $\\mathfrak { h }$ , $R _ { L } = 1 5 1 . 9 \\mathrm { ~ k } \\Omega$ $R _ { D C } = 1 4 9 . 7 \\ \\mathrm { k } \\Omega ;$ $2 6 . 1 \\ \\mathrm { H z }$ icT, $\\overline { { P } } _ { D C } \\ = 1 0 1 . 2 \\mu \\mathrm { W } \\ .$ .E $R _ { D C }$ E $\\oslash$ $\\mathcal { O }$ $\\oslash$ H#51 $\\natural \\varnothing )$ #- $\\oslash$ .Fig.7.\n\n$_ 4 \\cdot 3$ $\\oslash$ F $i _ { f }$ (1 $\\mathrm { \\nabla } \\vec { \\Gamma } \\mathcal { O }$ EF $\\nu _ { f }$ $\\oslash$ $( P _ { f } = I _ { f } \\ \\times \\ V _ { f }$ ) 11,1 $\\boldsymbol { \\mathcal { O } }$ $I _ { f }$ (2U≠ $V _ { f }$ (rt (3)53.\n\n$$\nI _ { f } = \\sqrt { \\frac { 1 } { T } \\int _ { 0 } ^ { ^ { \\prime } } { i _ { f } } ^ { 2 } d t }\n$$\n\n$$\nV _ { f } = \\sqrt { \\frac { 1 } { T } \\int _ { } ^ { f } { \\nu _ { f } } ^ { 2 } d t }\n$$\n\n$\\mathcal { O }$ $\\begin{array} { r } { \\left( P _ { r } = I _ { r } \\ \\times \\ V _ { r } \\right. } \\end{array}$ ) , E\n\n![](images/d1e3f6e92c69208d8d9475f099fffc4c10b9747ceda818b0418357f30c55099c.jpg)  \nFig.6 Approximate equations of forward characteristic (per diode).\n\nTable 3 Load resistances.   \n\n<table><tr><td>(1) RDC:</td><td>12.9 x 10³ [Ω 12.9 x 10^³3 [Ω]</td></tr><tr><td>RDC: 109.7 x 10³3 [Ω]</td><td>R_L 110.8 x 103 [Ω]</td></tr><tr><td>3) DC: 129.7 x 10³ [Ω]</td><td>RL: 131.3 x 10³ [Ω]</td></tr><tr><td>C: 149.7 x 10^³3 [Ω</td><td>RL: 151.9 x 103 [Ω]</td></tr><tr><td>(5) R: 1297 x 10³ [Ω : 1</td><td>1490 x 103 [Ω}</td></tr></table>\n\n![](images/e53a55b1df8059650a3975429fe676cb4270c002d72f15afd8215f01087c721f.jpg)  \nFig.7 Power generation performance of the vibration power generator with respect to electrical resistance.\n\n![](images/6a5f982b251cae157d41dcced35cc72a364fc35b2a9b851c42188a0ef2ecc963.jpg)  \nFig.8 Power conversion efficiency of the vibration power generator with respect to electrical resistance.\n\n7 $\\oslash$ $^ { ( 1 9 ) } \\ell \\zeta$ $\\mathcal { O }$ $I _ { r }$ (t(4)) $\\mho$ AE $V _ { r }$ ((5)5+3.\n\nTable 4 Experimental results of power generation performance and power loss of diode rectifier.   \n\n<table><tr><td rowspan=\"2\">Load resistance RC</td><td rowspan=\"2\">Measured AC power PAC</td><td rowspan=\"2\">Measured DC power PDC</td><td rowspan=\"2\">Conversion efficiency P DC / PAC</td><td rowspan=\"2\">Measured power loss P.c - PC</td><td colspan=\"4\">Calculated power loss</td></tr><tr><td>Forward loss diode)</td><td>(per</td><td>Reverse loss (per diode) P</td><td>Total power loss</td></tr><tr><td>109.7 [kΩ]</td><td>151.8 [μW]</td><td>96.2 [μW]</td><td>63.4 [%]</td><td>55.61 [μW]</td><td></td><td>15.97 [μW]</td><td>1.20 [μW]</td><td>34.34 [μW]</td></tr><tr><td>287.6 [kΩ2]</td><td>123.2 [μW]</td><td>109.5 [μW]</td><td>88.8 [%]</td><td>13.75 [μW]</td><td>8.29 [μW]</td><td></td><td>2.59 [μW]</td><td>21.76 [μW]</td></tr><tr><td>340.8 [kΩ]</td><td>109.0 [μW]</td><td>108.3 [μW]</td><td>99.4 [%]</td><td>0.67 [μW]</td><td>6.86 [μW]</td><td></td><td>2.82 [μW]</td><td>19.35 [μW]</td></tr></table>\n\n![](images/c869dbd8fe6301146eb059f240fe8d761e33c865cc8ec0fbfb7191d8cd5ae2f9.jpg)  \nFig.9 Power generation performance of the vibration power generator to excitation frequency.\n\n$$\nI _ { r } = \\sqrt { \\frac { 1 } { T } \\int _ { 0 } ^ { r } { i _ { r } } ^ { 2 } d t }\n$$\n\n$$\nV _ { r } = \\sqrt { \\frac { 1 } { T } \\int _ { } ^ { r } { \\nu _ { r } } ^ { 2 } d t }\n$$\n\n1 3 $\\mathcal { O }$ $\\mathcal { O }$ $\\mathcal { O }$ -3 $\\mathcal { O }$ # $\\mathcal { O }$\n\nFig.10 T, Fig.7 TLT $\\overrightarrow { P } _ { \\cdot \\cdot \\downarrow \\zeta }$ E PDL $\\operatorname { F } \\phi$ Tabl4, $\\boldsymbol { \\mathcal { O } } )$ $R _ { D C }$ U $\\mathcal { O }$ # $\\overline { { P } } _ { \\mathcal { A C } }$ , $\\overline { { P } } _ { D C }$ , $\\overline { { P } } _ { D C } / \\overline { { P } } _ { \\mathrm { - } \\mathrm { i } C } \\}$ , $\\overline { { P } } _ { D C } - \\overline { { P } } _ { \\mathrm { \\it d C } } ,$ LF $\\mathcal { O }$ $\\mathcal { O }$ $\\oslash$ # 3HE\n\n![](images/6c3515c43d459a872dd3300002c60d7112a8bd019c17ac70daf1eea20187da98.jpg)  \nFig.10 Power loss at rectifier."
+    },
+    {
+      "heading": "5.",
+      "level": 1,
+      "text": "I EOML, ALEEEOH# O#TEEE #LTOOEITE -- 3\n\n1 2# EU\n\nE LTELEETEO HETET #\n\n#\n\n(1) ISO 10816-1:1995, Mechanical Vibration - Evaluation of Machine Vibration by Measurements on Non-rotating Parts - Part 1: General Guidelines, (1995).   \n(2) \"Energy Regeneration Energy Harvesting ,\"  #, No.09-56, (2009), pp.96- 101.   \n(3) G.Park, et al., \"Energy Harvesting for Structural Health Monitoring Sensor Networks,\" Los Alamos National Laboratory Report, LA-14314-MS (2007), pp. 40-58.   \n(4) J.P.Thomas, et al., \"Energy Scavenging for Small-scale Unmanned Systems,\" Journal for Power Sources, Vol. 159, No. 2 (2006), pp. 1494-1509.   \n(5) S.P.Beeby, et al., \"Energy Harvesting Vibration Sources for Microsystems Applications,\" Measurement Science and Technology, Vol. 17, No. 12 (2006), pp. R175-R195.   \n(6) \" ,\"  C, 76(761), (2010), pp.28-35.   \n(7) K.Adachi and T.Tanaka, \"A Preliminary Study of Piezoelectric Vibration Energy Harvester for Vibration Condition Monitoring Applications of Rotating Machinery,\" Proceeding of ASME 2008 Conference on Smart Materials, Adaptive Structures and Intelligent Systems, No. SMASIS2008-483 (2008-10).   \n(8) P.Glynne-Jones, et al., \"Towards a Piezoelectric Vibration Powered Microgenerator,\" IEE Proceedings - Science, Measurement and Technology, Vol. 148, No. 2 (2001), pp. 68-72.   \n(9) $\\mathrm { T . H . N g }$ and W.H.Liao, \"Sensitivity Analysis and Energy Harvesting for A Self-powered Piezoelectric Sensor,\" Journal of Intelligent Material Systems and Structures, Vol. 16, No. 10 (2005), pp.785-797.   \n(10) S.Roundy, et al., \"Energy Scavenging for Wireless Sensor Network with a Special Focus on Vibrations,\" Kluwer Academic Publishers, (2004), pp. 87-114.   \n(11) S.W.Arms, et al., \"Power Management for Energy Harvesting Wireless Sensors,\" Smart Structures and Materials 2005: Smart Electronics, MEMS, BioMEMS, and Nanotechnology, Varadan, V.K., Editor, Proc. of SPIE 5763, (2005), pp. 267-257.   \n(12) Mide Technology Co., \"Volture PEH25w Vibration Energy Harvesters.\" (online), available from <http://www.mide. com/products/volture/volture_catalog.php>, (accessed 2010-6-8).   \n(13) E.Lefeuvre, et al., \"Piezoelectric Energy Harvesting Device Optimization by Synchronous Electric Charge Extraction,\" Journal of Intelligent Material Systems and Structures, Vol. 16, No. 10 (2005), pp. 865-876.   \n(14) H.J.Song, et al., \"Energy Harvesting Utilizing Single Crystal PMN-PT Material,\" Proceeding of ASME 2008 Conference on Smart Materials, Adaptive Structures and Intelligent Systems, No. SMASIS2008-523 (2008-10).   \n(15) ISO 13373-1:2001, Condition Monitoring and Diagnostics of Machines - Vibration Condition Monitoring - Part 1: General Procedures, (2001).   \n(16) W.K.Wilkie, et al., \"Low-cost Piezocomposite Actuator for Structural Control Applications,\" Smart Structures and Materials 2000: Industrial and Commercial Applications of Smart Structures Technologies, Jacobs, J.H., Editor, Proc. of SPIE 3991, (2000), pp.323-334.   \n(17) Smart Material Co., \"Macro-Fiber Composite.\" (online), available from <http://www.smart-material $\\mathtt { c o m } / >$ , (accessed 2010-6-8).   \n(18) Vishay Intertechnology, Inc., \"W005G thru W10G Datasheet.\" (online), available from $<$ http://www.vishay. com/docs/88769/woo5g.pdf >, (accessed 2010-6-8).   \n(19)3,(1993), pp.47-48, 93-96,"
+    }
+  ],
+  "tables": [
+    {
+      "page": -1,
+      "content": ""
+    },
+    {
+      "page": -1,
+      "content": ""
+    },
+    {
+      "page": -1,
+      "content": ""
+    },
+    {
+      "page": -1,
+      "content": ""
+    }
+  ],
+  "figures": [
+    {
+      "page": -1,
+      "caption": "",
+      "path": "images/17a541532cd791f053339d5a82e7972a1d03e6ff893a8138106084ed49a9b9ad.jpg"
+    },
+    {
+      "page": -1,
+      "caption": "",
+      "path": "images/356aa6c2bf8be28bfbb60d246af0d35d3dca409e84aced2de339226f93f71a0a.jpg"
+    },
+    {
+      "page": -1,
+      "caption": "",
+      "path": "images/a52800af2b3870243a58022c4a4d99ce8259e1eeda0d57e5246d68e26645e7be.jpg"
+    },
+    {
+      "page": -1,
+      "caption": "",
+      "path": "images/eef34eaf5cc6bbf722c59c925d5ae178a53b1ec54fda642572d55c7b6db6b618.jpg"
+    },
+    {
+      "page": -1,
+      "caption": "",
+      "path": "images/09e690f33e8f11ad7091623037b65c8acc16d23dd1addfcb6f9df1c44cf08938.jpg"
+    },
+    {
+      "page": -1,
+      "caption": "",
+      "path": "images/c7d91967733b4d9d5c1f1f5844287174734b9e54709a2a6cf5d067b053edb1bc.jpg"
+    },
+    {
+      "page": -1,
+      "caption": "",
+      "path": "images/0242d8e62c8df170563adbc272ce2ed99ec644089fc40f0357619abf7f2659ba.jpg"
+    },
+    {
+      "page": -1,
+      "caption": "",
+      "path": "images/d1e3f6e92c69208d8d9475f099fffc4c10b9747ceda818b0418357f30c55099c.jpg"
+    },
+    {
+      "page": -1,
+      "caption": "",
+      "path": "images/e53a55b1df8059650a3975429fe676cb4270c002d72f15afd8215f01087c721f.jpg"
+    },
+    {
+      "page": -1,
+      "caption": "",
+      "path": "images/6a5f982b251cae157d41dcced35cc72a364fc35b2a9b851c42188a0ef2ecc963.jpg"
+    },
+    {
+      "page": -1,
+      "caption": "",
+      "path": "images/c869dbd8fe6301146eb059f240fe8d761e33c865cc8ec0fbfb7191d8cd5ae2f9.jpg"
+    },
+    {
+      "page": -1,
+      "caption": "",
+      "path": "images/6c3515c43d459a872dd3300002c60d7112a8bd019c17ac70daf1eea20187da98.jpg"
+    }
+  ],
+  "metadata": {
+    "source": "openalex",
+    "pdf_url": "",
+    "parsed_at": "2026-03-10T09:41:23.085263+00:00"
+  }
+}

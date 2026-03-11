@@ -1,0 +1,147 @@
+{
+  "metadata": {
+    "paper_id": "10_1115_smasis2010_3708",
+    "doi": "10.1115/smasis2010-3708",
+    "title": "An Experimental Performance Evaluation of DC Power Generation and Power Loss in Full-Bridge Rectifier of Cantilever Type of Piezoelectric Vibration Energy Harvester",
+    "year": 2010,
+    "journal": null
+  },
+  "configuration": "cantilever",
+  "proof_mass": true,
+  "geometry": {
+    "length_mm": 49.25,
+    "width_mm": 14.0,
+    "thickness_mm": 0.8,
+    "substrate_thickness_um": 800,
+    "piezo_thickness_um": 150,
+    "tip_mass_g": null,
+    "diameter_mm": null
+  },
+  "excitation": {
+    "type": "vibration",
+    "frequency_Hz": 26.13,
+    "acceleration_g": null,
+    "displacement_mm": null,
+    "motion_source": "electrodynamic shaker"
+  },
+  "load": {
+    "load_resistance_ohm": 287600
+  },
+  "output": {
+    "resonant_frequency_Hz": 26.13,
+    "output_power_W": 0.0001095,
+    "open_circuit_voltage_V": null,
+    "short_circuit_current_A": null,
+    "bandwidth_Hz": null
+  },
+  "evidence": {
+    "configuration": {
+      "quote": "cantilever type of vibration energy harvester",
+      "section": "ABSTRACT",
+      "source_type": "abstract"
+    },
+    "proof_mass": {
+      "quote": "tuned about 26.3 (Hz) by using tip mass",
+      "section": "Experimental Setup",
+      "source_type": "section"
+    },
+    "geometry": {
+      "length_mm": {
+        "quote": "Length of cantilever ls 49.25 x 10-3 (m)",
+        "section": "Experimental Setup",
+        "source_type": "table"
+      },
+      "width_mm": {
+        "quote": "Width Wp 14.00 x 10-3 (m)",
+        "section": "Experimental Setup",
+        "source_type": "table"
+      },
+      "thickness_mm": {
+        "quote": "Thickness of cantilever ts 0.80 x 10-3 (m)",
+        "section": "Experimental Setup",
+        "source_type": "table"
+      },
+      "substrate_thickness_um": {
+        "quote": "middle substrate was a steel plate of 0.8 (mm) thickness",
+        "section": "Experimental Setup",
+        "source_type": "section"
+      },
+      "piezo_thickness_um": {
+        "quote": "Thickness tp 0.15 x 10-3 (m)",
+        "section": "Experimental Setup",
+        "source_type": "table"
+      },
+      "tip_mass_g": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "diameter_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      }
+    },
+    "excitation": {
+      "type": {
+        "quote": "excited by using the electrodynamic shaker",
+        "section": "Experimental Measurement and Evaluation",
+        "source_type": "section"
+      },
+      "frequency_Hz": {
+        "quote": "at the excitation frequency 26.13 (Hz)",
+        "section": "DC Power Generation Evaluation",
+        "source_type": "section"
+      },
+      "acceleration_g": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "displacement_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "motion_source": {
+        "quote": "electrodynamic shaker",
+        "section": "Experimental Measurement and Evaluation",
+        "source_type": "section"
+      }
+    },
+    "load": {
+      "load_resistance_ohm": {
+        "quote": "electrical resistive load R_DC = 287.6 (kΩ)",
+        "section": "DC Power Generation Evaluation",
+        "source_type": "section"
+      }
+    },
+    "output": {
+      "resonant_frequency_Hz": {
+        "quote": "at the excitation frequency 26.13 (Hz)",
+        "section": "DC Power Generation Evaluation",
+        "source_type": "section"
+      },
+      "output_power_W": {
+        "quote": "maximum effective DC power was 109.5 (μW)",
+        "section": "DC Power Generation Evaluation",
+        "source_type": "section"
+      },
+      "open_circuit_voltage_V": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "short_circuit_current_A": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "bandwidth_Hz": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      }
+    }
+  }
+}

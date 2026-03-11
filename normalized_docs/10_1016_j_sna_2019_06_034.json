@@ -1,0 +1,237 @@
+{
+  "paper_id": "10_1016_j_sna_2019_06_034",
+  "doi": "10.1016/j.sna.2019.06.034",
+  "title": "A packaged piezoelectric vibration energy harvester with high power and broadband characteristics",
+  "year": 2019,
+  "venue": "Sensors and Actuators A: Physical",
+  "authors": [
+    "Lu Wang",
+    "Jianjun Ding",
+    "Zhuangde Jiang",
+    "Guoxi Luo",
+    "Libo Zhao",
+    "Dejiang Lu",
+    "Xiao Yang",
+    "Ryutaro Maeda",
+    "D. Lu",
+    "M. Ryutaro"
+  ],
+  "citation_count": 36,
+  "sections": [
+    {
+      "heading": "Accepted Manuscript",
+      "level": 1,
+      "text": "Title: A Packaged Piezoelectric Vibration Energy Harvester with High Power and Broadband Characteristics\n\nAuthors: Lu Wang, Jianjun Ding, Zhuangde Jiang, Guoxi Luo, Libo Zhao, Dejiang Lu, Xiao Yang, Maeda Ryutaro\n\nPII: S0924-4247(19)30096-2   \nDOI: https://doi.org/10.1016/j.sna.2019.06.034   \nReference: SNA 11454\n\nTo appear in: Sensors and Actuators A\n\nReceived date: 17 January 2019   \nRevised date: 7 May 2019   \nAccepted date: 16 June 2019\n\nPlease cite this article as: Wang L, Ding J, Jiang Z, Luo G, Zhao L, Lu D, Yang X, Ryutaro M, A Packaged Piezoelectric Vibration Energy Harvester with High Power and Broadband Characteristics, Sensors and amp; Actuators: A. Physical (2019), https://doi.org/10.1016/j.sna.2019.06.034\n\nThis is a PDF file of an unedited manuscript that has been accepted for publication. As a service to our customers we are providing this early version of the manuscript. The manuscript will undergo copyediting, typesetting, and review of the resulting proof before it is published in its final form. Please note that during the production process errors may be discovered which could affect the content, and all legal disclaimers that apply to the journal pertain."
+    },
+    {
+      "heading": "A Packaged Piezoelectric Vibration Energy Harvester with High Power and Broadband Characteristics",
+      "level": 1,
+      "text": "Lu Wang1,2 a), Jianjun Ding1,2 b), Zhuangde Jiang1,2 c), Guoxi Luo1,2 d), Libo Zhao1,2 e), Dejiang $\\mathbf { L } \\mathbf { u } ^ { 1 , 2 ^ { \\mathsf { f } } }$ ), Xiao Yang2, g), Maeda Ryutaro1,2 h)\n\nReceived xxxxxx   \nAccepted for publication xxxxxx   \nPublished xxxxxx"
+    },
+    {
+      "heading": "1. New packaged micro PVEH",
+      "level": 1,
+      "text": "![](images/b0312eeb67256bacd6db32224bfb03376cd19c775dc879509ea2ee5a6ed9b1af.jpg)"
+    },
+    {
+      "heading": "Highlights",
+      "level": 1,
+      "text": "New packaged micro piezoelectric vibration energy harvester (PVEH) structure.   \nFlexible clamping of piezoelectric cantilever, which decreases the resonance frequency, reduces the stress and broadens the effective frequency range.   \nHigh electrical power of $2 . 4 9 \\mathsf { m W }$ in experiments."
+    },
+    {
+      "heading": "Abstract",
+      "level": 1,
+      "text": "This paper presents the new design and fabricating process of a packaged micro piezoelectric vibration energy harvester (PVEH). Structures are designed and parameters are optimized through finite element modelling and analysis. The double L-shaped tungsten proof mass block and thick copper-based PZT bimorph are proposed to ensure the harvester with high electrical power. Polymethyl methacrylate (PMMA) packaging and epoxy resin bonding supply the flexible clamping of piezoelectric cantilever, which decreases the resonant frequency, increase average PZT stress, reduces the maximum PZT stress and broadens the effective frequency range. Bulk PZT bonding is used in PVEH prototype fabrication. Experimental results show that the packaged PVEH resonates under the excitation of $\\mathrm { ~ 1 ~ g ~ } ( 9 . 8 \\mathrm { ~ m ~ s } ^ { - 2 } )$ at $1 6 0 \\ \\mathrm { H z }$ . It has an optimum resistance load of $4 7 \\mathrm { k } \\Omega$ . More importantly, its maximum output power is $2 . 4 9 \\ \\mathrm { m W }$ in experiments, and the half-power bandwidth is $2 2 \\ \\mathrm { H z }$ . After package, it has a high volume power density of $0 . 6 4 \\mathrm { \\ m W / c m ^ { 3 } g ^ { 2 } }$ with the volume of $3 . 9 \\ \\mathrm { c m } ^ { 3 }$ $( 2 \\ \\mathrm { c m } \\ \\times 1 . 5 \\ \\mathrm { c m } \\ \\times 1 . 3 \\ \\mathrm { c m } )$ . Connected with energy harvesting circuit, PVEH can light up a light emitting diode (LED) under broadband vibration frequency. The proposed PVEH with broadband output power in $\\mathrm { m W }$ level is promised to power up some microelectronic devices for application.\n\nKeywords: Energy harvesting, PZT bimorph, flexible clamping, vibration, broadband (Some figures may appear in colour only in the online journal)"
+    },
+    {
+      "heading": "1. Introduction",
+      "level": 1,
+      "text": "As the rapid development of Internet of Things (IoTs) and wireless sensor technology, it is urgent to solve the problem of micro-energy supply for widely distributed micro-electronic devices. Vibration energy harvesting has been demonstrated as a promising solution to this problem, since low-frequency vibrations are widely existing in practical engineering and ambient environment [1, 2]. Piezoelectric vibration energy harvesters (PVEHs) have the advantages of small size, high electromechanical conversion efficiency, which can be easily fabricated and installed in the host structures [3, 4]. Classical PVEHs with the piezoelectric cantilever and proof mass, have the maximum piezoelectric power output at their resonant frequency based on d31 transverse mode of $\\mathrm { P b } Z \\mathrm { r _ { x } T i _ { 1 - x } O _ { 3 } }$ (PZT) material.\n\nEstimation formula of peak electric power in resonance can be describe as $P = k _ { 3 1 } ^ { 2 } M A ^ { 2 } Q ^ { 2 } / \\omega _ { 1 }$ [5] for the PVEHs. Here $k _ { 3 1 } ^ { 2 }$ is the transverse electromechanical coupling coefficient; $M$ is equivalent mass; $A$ is acceleration amplitude; $Q$ is quality factor; $\\omega _ { 1 }$ is first order resonant frequency. Obviously, the power generation can be improved by increasing the proof mass and utilizing piezoelectric material with higher electromechanical coupling coefficient. In addition, package volume of PVEH should be reduced to improve volume power density. Meanwhile, micro PVEH is more suitable for power supply of micro devices. Therefore, micro electromechanical systems (MEMS)-PVEHs have been presented [6, 7]. However, most of them only have output power under $\\mathrm { m W }$ level [8, 9].\n\nThe traditional rectangular proof mass used in the MEMS-PVEH has low space utilization and Si has low density [10]. In the previous research, a PVEH with L-shaped mass block bonded on a piezoelectric cantilever was proposed [11]. This design increased its volume power density by enlarging the length of mass block in a limited space. Its resonant frequency was also reduced by decreasing the bonding length of proof mass block.\n\nIt is well known that PZT is a typical piezoelectric material with higher electromechanical coupling coefficient $k _ { 3 1 } ^ { 2 }$ than those of ${ \\mathrm { Z n O } }$ [12], AlN [13] and Polyvinylidene Fluoride (PVDF) [14]. There are many techniques to fabricate PZT layer for MEMS-PVEH devices, including magnetron sputtering [15], sol-gel spin coating [16], screen printing [17] and bulk PZT bonding [18]. The thickness of PZT thin film prepared by magnetron sputtering and sol-gel spin coating is general lower than $5 \\mu \\mathrm { m }$ . PZT layer fabricated by screen printing technology is relatively coarse and has many defects. Powder sintered PZT sheet has good compactness and orientation. Metal eutectic bonding [6] or epoxy resin bonding [18] can be used to bond PZT sheet on the substrate. Metal eutectic bonding is suitable for wafer-level bonding with high cost. Epoxy resin bonding is easy to operate with lower cost.\n\nThe magnitude of base acceleration is usually determined by the ambient environment, usually between $0 . 2 ~ \\mathrm { g }$ and $2 \\ \\mathrm { g }$ Moreover, ambient vibration energy generally has characteristics of low frequency (less than $2 0 0 \\mathrm { H z } ,$ ) and broadband [2, 4, 5]. Many PVEHs employ magneto-induced nonlinearity to broaden their frequency bands [19-21], but there are some errors between the theoretical and experimental results [22-25]. For the real application, it is important but difficult to fabricate and package their micro-structures. Therefore, some other ways should be applied to broaden frequency bands of micro PVEHs.\n\nFor PVEH，high quality factor $Q$ can increase its peak power generation, but low $Q$ can increase its bandwidth in energy harvesting. $Q$ is generally determined by mechanical damping and electrical damping [4, 5]. Therefore, increasing mechanical damping and reducing $Q$ have become a compromise choice to increase the effective bandwidth. At present, some packaging structures of MEMS-PVEH have been proposed, such as glass packaging [13], ceramics packaging [26], and printed circuit board (PCB) packaging [27]. When bonding and packaging of the PVEH structure, the fixed end of its piezoelectric cantilever is often considered as a rigid clamping. In this design, the elastic moduli of bonding material such as epoxy and packaging base material such as polymethyl methacrylate (PMMA) are relatively low. Therefore, the fixed end of piezoelectric cantilever is a flexible clamping, which will reduce the resonant frequency of the packaged PVEH. This can be explained by a 2 degree-of-freedoms (DOFs) PVEH model [28]. It is evolved from 1DOF PVEH added a flexible component between cantilever and rigid base. The numerical results show that the PVEH with 2DOF has a lower resonant frequency and wider working frequency range than the PVEH with 1DOF.\n\nBesides the analysis of structural design parameters, the flexible clamping and rigid clamping are compared by COMSOL finite element analysis (FEA). Taking elastic modulus and damping loss factor as variables, their effects on resonant frequency, maximum stress, open circuit voltage and frequency bandwidth of the PVEH are analyzed. The processing technology of packaged micro PVEH is given, and its output performance is tested."
+    },
+    {
+      "heading": "2. Design concept",
+      "level": 1,
+      "text": "As shown in figure 1, the designed PVEH consists of a copper-based PZT bimorph, double L-shaped tungsten proof mass block and double lead electrodes. The high density tungsten mass block guarantees the high mechanical power, and the double L mass block structure guarantees the effective length of piezoelectric cantilever. Large mass and sufficient effective length ensure low resonant frequency of PVEH. The copper base of PZT bimorph ensures the toughness of piezoelectric cantilever. The PZT sheet ensures the high electromechanical coupling coefficient.\n\n![](images/1c167a2bacf82b299e2ad145b95290146536e166967d3da9b65fe673e988e924.jpg)  \nFigure 1. Schematic of designed PVEH.\n\nSchematic of packaged PVEH is shown in figure 2, which is a space-saving design. PMMA is used in both upper and lower packaging structures and bottom cover plates. The upper cover plate uses PCB, which integrates energy harvesting component of LTC3588-1. All these structures are bonded with epoxy resin, especially at the root of PZT cantilever to obtain a flexible clamping.\n\n![](images/638078ffa237d6690ce01302e28f091b202c1a6813811c3bf5c7410d4ab88eb9.jpg)  \nFigure 2. Schematic of Packaged PVEH.\n\nThe detail design parameters of packaged PVEH are shown in table 1. In order to optimize the structure and performance of PVEH, the electromechanical coupling analysis for PVEH can be carried out by theoretical or FEA method. FEA method is more suitable for the complex structure of presented PVEH. Then, COMSOL Multiphasic FEA is used to explain the design parameters, due to its excellent capability in electromechanical coupling analysis.\n\nTable 1. Design parameters of packaged PVEH   \n\n<table><tr><td>Symbol</td><td>Parameters</td><td>Value</td></tr><tr><td>lc</td><td>Cantilever length</td><td>14 mm</td></tr><tr><td>Wc</td><td>Cantilever width</td><td>10 mm</td></tr><tr><td>tp</td><td>Piezoelectric layer thickness</td><td>0.2 mm</td></tr><tr><td>ts</td><td>Substrate layer thickness</td><td>0.1 mm</td></tr><tr><td>t bm</td><td>Big mass thickness</td><td>2 mm</td></tr><tr><td>tsm</td><td>Small mass thickness</td><td>0.5 mm</td></tr><tr><td>lbm</td><td>Big mass length</td><td>12 mm</td></tr><tr><td>lsm</td><td>Small mass length</td><td>5 mm</td></tr><tr><td>lel</td><td>Electrode length 1</td><td>2 mm</td></tr><tr><td>le2</td><td>Electrode length 2</td><td>4 mm</td></tr><tr><td>lp</td><td>PCB length</td><td>20 mm</td></tr><tr><td>W</td><td>PCB width</td><td>14 mm</td></tr><tr><td>tpcb</td><td>PCB thickness</td><td>1.5 mm</td></tr><tr><td>lpm1</td><td>PMMA frame 1 length</td><td>18 mm</td></tr><tr><td>lpm2</td><td>PMMA frame 2 length</td><td>20 mm</td></tr><tr><td>Wpm</td><td>PMMA frame width</td><td>15mm</td></tr><tr><td>tpm</td><td>PMMA frame thickness</td><td>5 mm</td></tr><tr><td>tbpm</td><td>Bottom PMMA thickness</td><td>1 mm</td></tr><tr><td>tb</td><td>Bonding layer thickness</td><td>0.1 mm</td></tr></table>\n\n2D model of PVEH for COMSOL FEA is shown in figure 3. The first eigenfrequency, maximum stress, and open circuit voltage of PVEH are simulated by variable-controlling approach for the optimization of structural parameters.\n\n![](images/6dda321c58bbdb39a0f2d3a8e40f47b8c01f7b73582fdd34fc9e02f365ad1f46.jpg)  \nFigure 3. 2D model of PVEH for COMSOL FEA.\n\nIn order to ensure the effective length of piezoelectric cantilever, the bonding length between the proof mass and the bimorph needs to be controlled. In this study, double L-shaped mass blocks are used to control the bonding length based on the small mass block. As shown in figure 4, PVEH with double L-shaped proof mass has a lower first eigenfrequency than that with double rectangular proof mass.\n\n![](images/acd1a3496b2d4ccac061a1b8138b6dbb10c4bc8e008b6ba492ae227e79dd59c0.jpg)  \nFigure 4. First eigenfrequency as a function of small mass length.\n\nThe output power is a key parameter in evaluating PVEHs. Because the electrode length is same for the PVEH with double L-shaped proof mass and PVEH with double rectangular proof mass. They have same piezoelectric capacitor and optimal load resistance. So, the comparison of voltage in open circuit is fine to replace for comparison of output power. Here load resistance of 1MΩ represent open-circuit state.\n\nThe simulation results of open-circuit voltage frequency response curve in figure 5 indicate PVEH with double L-shaped mass at small mass length of $5 \\ \\mathrm { m m }$ has lower resonant frequency and higher voltage. That means it will have a good performance of power output at low frequency vibration energy harvesting.\n\nAlthough the proof mass is heavier, PVEH with double rectangular proof mass at small mass length of $1 2 \\mathrm { m m }$ has higher resonant frequency and lower voltage. Because too much bonding length decrease the effective length of piezoelectric cantilever.\n\n![](images/dde843a6380522b988e40a057a10e5f57a7446ea5440016549729af89355c50d.jpg)  \nFigure 5. Frequency response versus open-circuit voltage output of PVEH at different small mass length.\n\nThe bimorph is composed of copper layer and double PZT layer. The total thickness $( T )$ of bimorph is kept at $5 0 0 ~ { \\mu \\mathrm { m } }$ . The thickness $\\left( t _ { p } \\right)$ of PZT layer is analysed in three kinds. The thickness ratio of double PZT layer to bimorph is $2 t _ { p } / T .$ . The simulation results of voltage frequency response function under different thickness ratios are shown in figure 6. The PVEH with larger thickness of double PZT layer has larger voltage output and lower resonant frequency, due to the lower elastic modulus and higher electromechanical coupling coefficient of PZT.\n\n![](images/6310cda8a9339449f21ba3a53a907b9fabfab1c1abe24d164b511a3cee8d95d3.jpg)  \nFigure 6. Frequency response versus voltage output of PVEH at different PZT layer thickness.\n\nThe flexible clamping and rigid clamping are compared by changing the elastic modulus of bonding layer. As shown in figure 7, the first eigenfrequency of PVEH has a dramatically decrease due to the flexible clamping with low elastic modulus of bonding layer $E _ { e }$ . This is beneficial to harvest low-frequency energy.\n\n![](images/60fc84f951dfebbbb0100399712cb5773f0ffa86b1b974604272168ff6ac0d70.jpg)  \nFigure 7. First eigenfrequency as a function of elastic modulus of bonding layer.\n\nTable 2 gives the comparison of different clamping style simulation results. Three typical elastic modulus of bonding layer $E _ { e }$ of $1 0 \\ \\mathrm { M P a }$ , $1 0 0 \\ \\mathrm { M P a }$ and $1 0 0 0 \\ \\mathrm { M P a }$ are selected on behalf of flexible clamping normal clamping and rigid clamping, respectively. The simulation results of their open-circuit resonant frequency $f _ { o c }$ , open-circuit resonant voltage $V _ { o c }$ , open-circuit resonant maximum PZT stress $\\sigma _ { \\mathrm { m a x } }$ , open-circuit resonant average PZT stress $\\sigma _ { \\mathrm { a v e } }$ and piezoelectric utilization efficiency under the vibration of $1 \\ \\mathrm { g }$ acceleration, are shown in table 2, respectively. Here, the piezoelectric utilization efficiency is defined as $n _ { p } = \\sigma _ { a v e } / \\sigma _ { m a x }$ . This reflects the influence of mode shape on the utilization ratio of piezoelectric materials.\n\nTable 2. Comparison of different clamping style simulation results   \n\n<table><tr><td>Clamping style</td><td>flexible clamping</td><td>normal clamping</td><td>rigid clamping</td></tr><tr><td>Ee [MPa]</td><td>10</td><td>100</td><td>1000</td></tr><tr><td>foc [Hz]</td><td>120.7</td><td>167.7</td><td>178.5</td></tr><tr><td>Vc [V]</td><td>15.91</td><td>15.28</td><td>14.75</td></tr><tr><td>ave [MPa]</td><td>9.386</td><td>8.955</td><td>8.630</td></tr><tr><td>ma [MPa]</td><td>36.82</td><td>36.97</td><td>37.82</td></tr><tr><td>np</td><td>0.255</td><td>0.242</td><td>0.228</td></tr></table>\n\nAs shown in table 2, PZT layers in the proposed PVEH with the flexible clamping have relatively higher average stress which induce higher open-circuit peak voltage. They also have lower maximum stress which ensure more security to against fracture. This is mainly because flexible clamping improve the piezoelectric utilization efficiency by giving a uniformly mode shape of cantilever.\n\nThe yield strength is $8 0 \\ \\mathrm { M P a }$ for the PZT material. That means acceleration only under $2 \\ \\mathrm { g }$ is allowed by the maximum PZT stress limitation. In that case, proof mass will not impose on a cantilever due to a relative small deflection of cantilever, as shown in figure 8.\n\n![](images/fbe87abf007db20c202b20791198fb452a1c9979968fbddc3c3ef03230547ec1.jpg)  \nFigure 8. Vibration deflection and stress cloud under $2 \\mathrm { g }$ acceleration at resonant frequency of $1 6 7 . 7 \\mathrm { H z }$ .\n\nHowever, compared with rigid clamping, the flexible clamping will increase the damping loss factor of PVEH. The curves about frequency response and voltage output of PVEH with different structure damping loss factor are shown in figure 9. Despite the peak voltage declines, the half power bandwidth of PVEH is increased along with the structure damping loss factor $( n \\_ s )$ .\n\n![](images/3797631e725d1bfd3d1d8596aa48ee8cb011f6933c6e3e107d68f9f0e95fb627.jpg)  \nFigure 9. Frequency response versus voltage output at different structure damping loss factor."
+    },
+    {
+      "heading": "3. Prototype fabrication and packaging",
+      "level": 1,
+      "text": "The preparation process of piezoelectric bimorph is based on bonding the sandwich copper substrate and double PZT-5H sheets with epoxy resin. The PZT-5H sheet is prepared by powder sintering process. As shown in figure 10, the actual total thickness of PZT composite piezoelectric bimorph is $5 0 0 ~ { \\mu \\mathrm { m } }$ . The thickness of one PZT-5H sheet is $2 0 0 ~ { \\mu \\mathrm { m } }$ , and $\\mathbf { A } \\mathbf { g }$ is evaporated with the thickness of $5 ~ { \\mu \\mathrm { m } }$ on its upper and lower surfaces. The polarization directions of double PZT sheets are opposite, and the thickness of $\\mathrm { C u }$ layer as a middle substrate is $5 0 ~ { \\mu \\mathrm { m } }$ . The type of epoxy resin is E44, which should be cured at about $7 0 ~ ^ { \\circ } \\mathrm { C }$ and its shear strength after curing is about $1 0 \\ \\mathrm { M P a }$ . The bonded epoxy resin is about $1 5 ~ { \\mu \\mathrm { m } }$ thick and has conductivity due to its thin thickness. Conductive silver glue is abandon to use because its adhesion force is small, and easy to cause short circuit between upper and lower electrodes.\n\n![](images/9b3e65d277c47b11a6959dbeb5bcec291379ed1e905ba9c566e46bbedaca41c3.jpg)  \nFigure 10. (a) Schematic diagram of bimorph section (b) electron microscopy picture of bimorph in section view.\n\nThe components for packaging PVEH are shown in figure 11. Two L-shaped tungsten blocks are machined by wire cutting. Two L-shaped silver tape electrodes is cutting by knife, Two PMMA frames and one bottom PMMA are fabricated by laser cutting technology. Top PCB is printed with energy harvesting circuit. These parts are assembled with epoxy resin adhesive of ergo5800. The bonding layers between bimorph and frames consist of sliver tape electrodes and epoxy resin, which make the flexible clamping.\n\n![](images/a705ea2cb014c73c681ebb981cd66dff23d56d655d4cfdf8b123941bacd94f86.jpg)  \nFigure 11. Components for packaging PVEH.\n\nBonding is a common method for clamping of piezoelectric cantilever. For metal eutectic bonding [6], it is usually considered as rigid clamping. However, epoxy resin bonding [18] is more suitable for flexible bonding because of its low elastic modulus and strong versatility. It is really difficult to control and measure the modulus of elasticity of bonding layer for actual structure fabrication. Current research can only achieve flexible clamping qualitatively. Adding flexible layer in epoxy resin bonding layer is an effective way to reduce elastic modulus. The thickness and elastic modulus of flexible layer can be changed to control the flexible clamping. In this study, a flexible adhesive layer of sliver tape electrodes was added to achieve flexible clamping. In the future, more materials and methods for flexible clamping can be studied, and quantitative flexible clamping control and measurement can be achieved.\n\nThe packaged PVEH and it with top PCB are shown in figure 12. The volume of packaged PVEH is $3 . 9 \\mathrm { c m } ^ { 3 }$ $2 \\mathrm { c m } { \\times } 1 . 5$ $\\mathsf { c m } { \\times } 1 . 3 \\mathsf { c m } )$ ) .\n\n![](images/655ac26ddeb758014c30e1ace41a42e7c560d13b9e066eb613bd5b3e81d8351e.jpg)  \nFigure 12. (a) Packaged PVEH, (b) Packaged PVEH with top PCB."
+    },
+    {
+      "heading": "4. Experimental results",
+      "level": 1,
+      "text": "The resonant frequency and piezoelectric electrical power output of the PVEH prototypes are mainly tested in the experiments. Experimental platform of PVEH is shown in figure 13. The frequency and amplitude of external vibration are controlled by a signal generator controller JDS6600. A power amplifier SA-PA010 provides the excitation signal to an exciter E-JZK-2, and its feedback signal is measured by an acceleration sensor CXL10GP3. Load resistance of PVEH is adjusted by a series of standard resistors, the output voltage from PVEH is monitored by a virtual oscilloscope hantkek 6074BC. Finally, the experiment data are processed by a personal computer.\n\n![](images/f19a2917b756ba33756bc89a4a645718d1c1330a0642538521b733e4dcee47d4.jpg)  \nFigure 13. Experimental platform of PVEH.\n\nThe resonant frequency of PVEH is measured by sweeping frequency excitation in the range of $1 0 0 { - } 2 0 0 \\ \\mathrm { H z }$ . The PVEH is connected to the oscilloscope with the equivalent resistance load of $1 \\ : \\mathrm { M } \\Omega$ , and the output voltage of PVEH can be considered as an open-circuit voltage. The peak value of output voltage is corresponding to the resonant frequency of PVEH. Ten amplitudes of excitation acceleration are adopted from $0 . 1 \\ \\mathrm { g }$ to $1 \\ \\mathrm { g }$ with the internal of $0 . 1 \\ \\mathrm { g }$ in this study. As shown in figure 14, the resonant frequency of PVEH slightly decreases with the increase of acceleration amplitude. This is mainly because of the electric field effect on nonlinear change of Young’s modulus of PZT [29].\n\n![](images/e778eadb2da96a8d3560c96e5369cd5d604f74a1632fa6c1afa33efb637dee24.jpg)  \nFigure 14. Resonant frequency under the influence of acceleration amplitude.\n\nThe peak voltage of PVEH under the influence of acceleration amplitude is shown in figure 15, where it increases linearly with the increase of acceleration amplitude. This is consistent with the theory results [1].\n\n![](images/77ef1b9a997c6ded7fdc721db07e8eff9604838a0fc50c456efe1f144bb893af.jpg)  \nFigure 15. Peak voltage under the influence of acceleration amplitude.\n\nThe open-circuit voltage frequency response curve of PVEH under the excitation acceleration with the amplitude of C $_ { 1 \\mathrm { ~ g ~ } }$ is shown in figure 16. The resonant frequency of PVEH is $f _ { s } = 1 6 0 \\mathrm { H z }$ , and the corresponding peak voltage is $V _ { P } = 2 8 . 4 \\ : \\mathrm { V }$ . Using $0 . 7 0 7 V _ { P } = 2 0 . 1 V$ as voltage reference, the half power points are $f _ { 1 } = 1 4 9 \\mathrm { H z } ,$ $f _ { 2 } = 1 7 1 \\ \\mathrm { H z }$ .Then, the half power bandwidth is $\\Delta f = f _ { 1 } - f _ { 2 } = 2 2 \\ : \\mathrm { H z }$ , and the quality factor of PVEH is $Q = f _ { s } / \\varDelta f = 7 . 3$ . It is a little Q value, so the PVEH has large electrical damping and large structural damping. Large electrical damping is caused by large electromechanicalU coupling of thick PZT bimorph. The epoxy bonding causes the flexible clamping of piezoelectric cantilever, so most of structural damping comes from anchoring damping.\n\n![](images/b1075c7a1bc13c146abb6e99ce851fbc35a8c7cd7ae21245492898e35cdd9815.jpg)  \nFigure 16. Open-circuit voltage frequency response curve under 1g.\n\nUnder the acceleration excitation with the amplitude of $1 \\mathrm { g }$ and with the resonant frequency of $1 6 0 \\mathrm { H z }$ , the load resistance of PVEH is adjusted discretely. The voltage and power curves under the influence of load resistance are obtained as shown in C figure 17. The peak electric power of PVEH is $2 . 4 9 \\mathrm { m W }$ at the load resistance of $4 7 \\ \\mathrm { k } \\Omega$ . The corresponding output voltage is $1 5 . 3 \\mathrm { ~ V ~ }$ , which is about half of the open-circuit voltage. This is consistent with the maximum power point theory of the circuit, C that is, when the internal and external impedances match, the output power reaches the maximum, and the load voltage is half of the open-circuit voltage [1]. A\n\n![](images/3a8cbc60ff8447a8cd64ffdcc2ea2839193e34c1b036ce160494f67a287a26ec.jpg)  \nFigure 17. Voltage & power curves under the influence of load resistance\n\nPerformance comparison of various PVEHs is shown in table 3. All of them are made of bulk PZT blocks. Compared with other PVEHs, although the occupied area is similar, the weight of active device of PVEH in this work is ten times, and thckness of PZT layer is ten times. Consistent with other studies, active device of PVEH is consist of piezoelectric cantilever and proof mass, the unpackaged (UP) PVEH volume is defined as the volume of piezoelectric cantilever and proof mass, and the packaged (P) PVEH volume is defined as the volume of packaged structures. \"UP\" means unpackaged (UP) PVEH and \"P\" means packaged (P) PVEH in Table 3. In this work, the unpackaged PVEH volume is $8 8 0 ~ \\mathrm { m m } ^ { 3 }$ ( $1 6 \\ \\mathrm { m m } { \\times } 1 0 \\ \\mathrm { m m } { \\times } 5 . 5 \\ \\mathrm { m m } ,$ ) and the packaged PVEH volume is $3 9 0 0 \\mathrm { m m } ^ { 3 }$ ( $2 0 \\mathrm { m m } { \\times } 1 5 \\mathrm { m m } { \\times } 1 3 \\mathrm { m m }$ ). This PVEH has a thicker PZT bimorph and double L proof mass blocks, which also guarantees the PVEH possessing high power generation. The output power of proposed PVEH wtith the value of $2 . 4 9 \\mathrm { m W }$ is 10 times higher than those of other PVEHs. In the future work, the packaged volume should be reduced to achieve high volume power density. In addition, the half power bandwidth of our PVEH is higher than those of other PVEHs because of its flexible clamping. In addition, piezoelectric cantilever and base are flexible bonding by epoxy in this work, which has larger damping rate and lower $Q$ . Therefore, tt has the advantages of low stress, low resonant frequency and wide effective bandwith.\n\nTable 3. Performance comparison of various PVEHs   \n\n<table><tr><td>References</td><td>[6]</td><td>[8]</td><td>[18]</td><td>This work</td></tr><tr><td>Piezoelectric</td><td>Thinned bulk</td><td>Thinned bulk</td><td>Thinned bulk</td><td>bulk</td></tr><tr><td>material</td><td>PZT-5A</td><td>PZT-5H</td><td>PZT</td><td>PZT-5H</td></tr><tr><td>Thickness of PZT layer (μm)</td><td>20</td><td>20</td><td>57</td><td>200</td></tr><tr><td>Area of PVEH (mm×mm)</td><td>10×7</td><td>15×10.8</td><td>12×6</td><td>16×10</td></tr><tr><td>Proof mass</td><td>W</td><td>Ni &amp; Si</td><td>W&amp; Si</td><td>W</td></tr><tr><td>Weight of active device (mg)</td><td>328</td><td>196</td><td>665</td><td>5630</td></tr><tr><td>Input vibration (g)</td><td>1.5</td><td>1</td><td>3</td><td>1</td></tr><tr><td>frequency (Hz)</td><td>154</td><td>96</td><td>101</td><td>160</td></tr><tr><td>Power output (μW)</td><td>205</td><td>82.4</td><td>321</td><td>2490</td></tr><tr><td>Volume (mm³)</td><td>17.96</td><td>47.82</td><td>37.3</td><td>880 (UP)</td></tr><tr><td></td><td>(UP)</td><td>(UP)</td><td>(UP)</td><td>3900 (P)</td></tr><tr><td>Power density (mW/cm3/g2)</td><td>5.073</td><td>1.72</td><td>0.956</td><td>2.83 (UP)</td></tr><tr><td></td><td>(UP)</td><td>(UP)</td><td>(UP)</td><td>0.64 (P)</td></tr><tr><td>Power / Area (mW/cm²/g2)</td><td>130.2</td><td>50.9</td><td>49.5</td><td>1556.3</td></tr><tr><td>Bandwidth (Hz)</td><td>14.1</td><td>8.7</td><td>7</td><td>22</td></tr></table>\n\nThe energy harvesting circuit uses Linear LTC3588-1 chip to realize rectification and voltage stabilization. The energy storage capacitor $C _ { s }$ is set to empty and the output $V _ { o u t }$ is set to $3 . 6 \\mathrm { ~ V ~ }$ , as shown in figure 18. After the PVEH connects the energy harvesting circuit, the $V _ { o u t }$ interface can light up a LED in a wide effective frequency range of $1 4 9 ~ \\mathrm { H z } \\mathrm { - } 1 7 1 ~ \\mathrm { H z }$ at excitation of $1 \\mathrm { \\textrm { g } }$ with power output more than $1 . 2 5 \\ \\mathrm { m W }$ , as shown in figure 19.\n\n![](images/2883a38103abd7292166b9945763f4b0d5d1524748db2d5dc99256a19206bf41.jpg)  \nFigure 18. Energy harvesting circuit with LTC3588-1.\n\n![](images/62adf70d5a93039ef488efd81c5ce44c785237652dacf9e49bedeed50e835608.jpg)  \nFigure 19. Packaged PVEH lighting up a red LED under the vibration with a wide frequency range."
+    },
+    {
+      "heading": "5. Conclusion",
+      "level": 1,
+      "text": "The fabricated micro PVEH experimentally produces a maximum output power of $2 . 4 9 \\mathrm { \\ m W }$ at $_ { \\mathrm { ~ 1 ~ g ~ } }$ base excitation with an optimal resistance load of $4 7 \\mathrm { k } \\Omega$ . The resonant frequency is $1 6 0 \\mathrm { H z }$ and half power bandwidth is $2 2 \\ \\mathrm { H z }$ . Its output power is 10 times higher than previously published one, because the double L-shaped tungsten proof mass blocks and thick copper-based PZT bimorph ensure its high electrical power. The flexible clamping of piezoelectric cantilever ensures the low maximum stress, high average stress, low resonant frequency and wide effective bandwith. The proposed PVEH with circuit can light up a LED in a wide frequency range. Broadband output power in $\\mathrm { m W }$ level is promised to power up some microelectronic devices such as wireless sensors."
+    },
+    {
+      "heading": "Acknowledgements",
+      "level": 1,
+      "text": "This work was supported in part by the National Key Research & Development (R&D) Program of China (Grant No. 2016YFB1200100), the National Natural Science Foundation of China (Grant Nos. 51875449, 51890884, 51421004, 91748207, 51705409), the Key Research and Development Project of Shaanxi Province (2018ZDXM-GM-103, 2018ZDCXL-GY-02-02), the 973 Program (Grant No. 2015CB057402), the Fundamental Research Funds for the Central Universities (Grant No. xjj2017165), and the 111 Program (Grant No. B12016)."
+    },
+    {
+      "heading": "References",
+      "level": 1,
+      "text": "[1] Priya S, Inman D J 2009 Energy Harvesting Technologies. (Springer US)   \n[2] Yang Z, Zhou S, Zu J and Inman DJ 2018 High-Performance Piezoelectric Energy Harvesters and Their Applications Joule. 2 642- 697   \n[3] Fang H B, Xu Z Y, Xu Z Y, et al. 2006 Fabrication and performance of MEMS-based piezoelectric power generator for vibration energy harvesting J. Microelec. 37 1280-1284   \n[4] Erturk A, Inman DJ. Piezoelectric Energy Harvesting. 2011 (Chichester: Wiley UK).   \n[5] Roundy S, Wright P K , Rabaey J 2003 A study of low level vibrations as a power source for wireless sensor nodes Compu Commu. 26 1131-1144   \n[6] E.E. Aktakka, R.L. Peterson, K. Najafi 2011 Thinned-PZT on SOI process and design optimization for piezoelectric inertial energy harvesting, Conf. on Proc. Int. Solid-State Sens. Actuators Microsyst. (Transducers) pp 1649–1652   \n[7] Song, H.C., Kumar, P., Maurya, D., Kang, M.G., Reynolds, W.T., Jeong, D.Y., Kang, C.Y. and Priya, S., 2017. Ultra-low resonant piezoelectric MEMS energy harvester with high power density. J. Microelectromechanical Systems 26 1226-1234   \n[8] Janphuang P, Lockhart R, Uffer N, et al 2014 Vibrational piezoelectric energy harvesters based on thinned bulk PZT sheets fabricated at the wafer level Sensors & Actuators A Physical 210 1-9   \n[9] Priya, S., Song, H.C., Zhou, Y, et al 2017. A review on piezoelectric energy harvesting: materials, methods, and circuits. Energy Harvesting and Systems 4 3-39.   \n[10] Andosca R , Mcdonald T G , Genova V , et al 2012 Experimental and theoretical studies on MEMS piezoelectric vibrational energy harvesters with mass loading Sensors and Actuators: A Physical 178 76-87.   \n[11] Lu Wang, et al 2018 A Piezoelectric Cantilever with Novel Large Mass for Harvesting Energy from Low Frequency Vibrations AIP Advances 8 115205   \n[12] Nabar B P , Zeynep ÇelikButler, Butler D P 2014 Piezoelectric ZnO nanorod carpet as a NEMS vibrational energy harvester Nano Energy 10 71-82.   \n[13] Elfrink R , Matova S , Nooijer C D , et al 2012 Shock induced energy harvesting with a MEMS harvester for automotive applications Conf. on Electron Devices Meeting. IEEE   \n[14] Toprak A , Tigli O 2015 MEMS Scale PVDF-TrFE-Based Piezoelectric Energy Harvesters J. Microelectromechanical Systems 24 1989- 1997   \n[15] Muralt P, Marzencki M, Belgacem B, et al 2009 Vibration Energy Harvesting with PZT Micro Device Procedia Chemistry 1 1191-1194.T   \n[16] Shen D, Park J H, Noh J H, et al 2009 Micromachined PZT cantilever based on SOI structure for low frequency vibration energy harvesting Sensors & Actuators A Physical 154 103-108   \n[17] Xu R, Lei A, Christiansen T L, et al 2012 Screen printed PZT/PZT thick film bimorph MEMS cantilever device for vibration energy harvesting Sensors & Actuators A Physical 188 383-388   \n[18] Tang G , Yang B , Hou C , et al 2016 A piezoelectric micro generator worked at low frequency and high acceleration based on PZT and phosphor bronze bonding Scientific Reports 6 38798   \n[19] Zhou, S., Cao, J., Erturk, A., & Lin, J 2013 Enhanced broadband piezoelectric energy harvesting using rotatable magnets. Appl. Phys. Lett. 102 173901   \n[20] Silva, T.M., Clementino, M.A., De Marqui Jr, C. and Erturk, A., 2018. An experimentally validated piezoelectric nonlinear energy sink for wideband vibration attenuation. J. Sound Vib. 437 68-78   \n[21] Wang, G.Q. and Liao, W.H., 2017. A bistable piezoelectric oscillator with an elastic magnifier for energy harvesting enhancement J. Intell. Mater. Syst. Struct. 28 392-407   \n[22] Sebald, G., Kuwano, H., Guyomar, D. and Ducharne, B 2011 Experimental Duffing oscillator for broadband piezoelectric energy U harvesting. Smart Mater. Struct. 20 102001.   \n[23] Zhou, S. and Zuo, L 2018 Nonlinear dynamic analysis of asymmetric tristable energy harvesters for enhanced energy harvestingN Communications in Nonlinear Science and Numerical Simulation 61 271-284   \n[24] Leadenham, S. and Erturk, A., 2014. M-shaped asymmetric nonlinear oscillator for broadband vibration energy harvesting: Harmonic balance analysis and experimental validation. J. Sound Vib. 333 6209-6223A   \n[25] Huang, D., Zhou, S., & Litak, G 2019 Theoretical analysis of multi-stable energy harvesters with high-order stiffness terms Communications in Nonlinear Science and Numerical Simulation 69 270-286   \n[26] Liu H , Lee C , Kobayashi T , et al 2012 piezoelectric mems-based wideband energy harvesting systems using a frequency-up-conversion M cantilever stopper Sensors & Actuators A Physical 186 242-248   \n[27] Tang G , Liu J Q , Yang B , et al. Fabrication and analysis of high-performance piezoelectric MEMS generators Journal of Micromechanics and Microengineering, 2012, 22(6):065017.   \n[28] Tang L, Yang Y 2012 A multiple-degree-of-freedom piezoelectric energy harvesting model J. Intell. Mater. Syst. Struct. 23 1631-1647D   \n[29] Yao L Q , Zhang J G , Lu L , et al 2004 Nonlinear Dynamic Characteristics of Piezoelectric Bending Actuators Under Strong Applied Electric Field J. Microelectromechanical Systems 13 645-652 E\n\nBiographies\n\n![](images/23cef9c3619f35d080aa531c53479c5ef7fed7fbbf1a1bf7c1e5943edfc82683.jpg)\n\nLu Wang received the B.S. degree in Mechanical Engineering and Automation from Xi’an Jiaotong University in July 2013, and the M.S. degree in Weapon System and Application Engineering from China Ship Research and Development Academy in March 2016. And now he is pursuing the Ph.D in Xi’an Jiaotong University. His research interests include energy harvesting, MEMS sensors and actuator, and structural vibration.\n\n![](images/6b732706db63bc38ed7d65035a00151119779f3f723e8a828effdd22c2bd35ce.jpg)\n\nZhuangde Jiang, Ph.D, professor of Xi’an Jiaotong University, academician of Chinese Academy of Engineering. He is currently the director of Institute of S Precision Engineering (IPE). He is also the vice director of Chinese Society of Micro-Nano Technology (CSMNT) and the executive director of Chinese Mechanical Engineering Society (CMES). He involves in research areas including Micro-Nano fabrication technology, Micro Electro-Mechanical System (MEMS) and sensor technology, ultra-precision machining technology and equipment, photoelectric testing technology and instrumentation, etc.\n\n![](images/bb0f6fd2873e6dd8cd4237365642898fb98191a28d449a1d0c3c4135f2bf1084.jpg)\n\nGuoxi Luo received the PhD degree in Instrument Science and Technology in 2016 from Chongqing University, Chongqing, China. He is currently working as an assistant professor in Xi'an Jiaotong University. His research interests include micro and nanofabrication technology, nano energy harvesting technology, andD electrochemistry.\n\n![](images/a2a6191c8e3b95341913dc9c29e297da8e42521f7782f911d01a3801512a89c1.jpg)\n\nLibo Zhao was born in Yantai, China, in 1978. He received M.S. degree in Instrument Science and Technology in 2003 and Ph.D. degree in Instrument Science and Technology in 2007, both from Xi’an Jiaotong University, Xi’an, China. He is currently working as an associate T professor in Xi’an Jiaotong University.\n\nHis research interests include micro and nanofabrication technology, MEMS sensor technology and precision machining technology.P\n\n![](images/0b8f5dcb58d54146d59b3e7798a01d3768b88e73e2ff2332959f86931ed09175.jpg)\n\nDejiang Lu is currently working as a lecturer in Xi’an Jiaotong University.. His main research areas are microsystem design, detection and microelectronic A processing technology.\n\n![](images/05f37bd5925106527e12bae3ae7efdee88207d0f716060226a20c0455c5be823.jpg)\n\nRyutaro Maeda has joined to Mechanical Engineering Laboratory, Agency of Advanced Industrial Science and Technology (AIST) in Tsukuba in 1980, after finishing Master course in Graduate School of Tokyo University. He is founder of UMEMSME (Research Centre of Ubiquitous MEMS and Micro Engineering) in AIST, and has been Director from 2010 to 2014 and served as Leader of several National Projects, including Ā Green Sensor Networkā , JST CREST program, etc. He is also a Professor at Xi’an Jiaotong University since 2018. His current research interest includes application of wireless networked sensing for energy and safety management, and published more than 300 papers in MEMS and related fields."
+    }
+  ],
+  "tables": [
+    {
+      "page": -1,
+      "content": ""
+    },
+    {
+      "page": -1,
+      "content": ""
+    },
+    {
+      "page": -1,
+      "content": ""
+    },
+    {
+      "page": -1,
+      "content": ""
+    }
+  ],
+  "figures": [
+    {
+      "page": -1,
+      "caption": "",
+      "path": "images/b0312eeb67256bacd6db32224bfb03376cd19c775dc879509ea2ee5a6ed9b1af.jpg"
+    },
+    {
+      "page": -1,
+      "caption": "",
+      "path": "images/1c167a2bacf82b299e2ad145b95290146536e166967d3da9b65fe673e988e924.jpg"
+    },
+    {
+      "page": -1,
+      "caption": "",
+      "path": "images/638078ffa237d6690ce01302e28f091b202c1a6813811c3bf5c7410d4ab88eb9.jpg"
+    },
+    {
+      "page": -1,
+      "caption": "",
+      "path": "images/6dda321c58bbdb39a0f2d3a8e40f47b8c01f7b73582fdd34fc9e02f365ad1f46.jpg"
+    },
+    {
+      "page": -1,
+      "caption": "",
+      "path": "images/acd1a3496b2d4ccac061a1b8138b6dbb10c4bc8e008b6ba492ae227e79dd59c0.jpg"
+    },
+    {
+      "page": -1,
+      "caption": "",
+      "path": "images/dde843a6380522b988e40a057a10e5f57a7446ea5440016549729af89355c50d.jpg"
+    },
+    {
+      "page": -1,
+      "caption": "",
+      "path": "images/6310cda8a9339449f21ba3a53a907b9fabfab1c1abe24d164b511a3cee8d95d3.jpg"
+    },
+    {
+      "page": -1,
+      "caption": "",
+      "path": "images/60fc84f951dfebbbb0100399712cb5773f0ffa86b1b974604272168ff6ac0d70.jpg"
+    },
+    {
+      "page": -1,
+      "caption": "",
+      "path": "images/fbe87abf007db20c202b20791198fb452a1c9979968fbddc3c3ef03230547ec1.jpg"
+    },
+    {
+      "page": -1,
+      "caption": "",
+      "path": "images/3797631e725d1bfd3d1d8596aa48ee8cb011f6933c6e3e107d68f9f0e95fb627.jpg"
+    },
+    {
+      "page": -1,
+      "caption": "",
+      "path": "images/9b3e65d277c47b11a6959dbeb5bcec291379ed1e905ba9c566e46bbedaca41c3.jpg"
+    },
+    {
+      "page": -1,
+      "caption": "",
+      "path": "images/a705ea2cb014c73c681ebb981cd66dff23d56d655d4cfdf8b123941bacd94f86.jpg"
+    },
+    {
+      "page": -1,
+      "caption": "",
+      "path": "images/655ac26ddeb758014c30e1ace41a42e7c560d13b9e066eb613bd5b3e81d8351e.jpg"
+    },
+    {
+      "page": -1,
+      "caption": "",
+      "path": "images/f19a2917b756ba33756bc89a4a645718d1c1330a0642538521b733e4dcee47d4.jpg"
+    },
+    {
+      "page": -1,
+      "caption": "",
+      "path": "images/e778eadb2da96a8d3560c96e5369cd5d604f74a1632fa6c1afa33efb637dee24.jpg"
+    },
+    {
+      "page": -1,
+      "caption": "",
+      "path": "images/77ef1b9a997c6ded7fdc721db07e8eff9604838a0fc50c456efe1f144bb893af.jpg"
+    },
+    {
+      "page": -1,
+      "caption": "",
+      "path": "images/b1075c7a1bc13c146abb6e99ce851fbc35a8c7cd7ae21245492898e35cdd9815.jpg"
+    },
+    {
+      "page": -1,
+      "caption": "",
+      "path": "images/3a8cbc60ff8447a8cd64ffdcc2ea2839193e34c1b036ce160494f67a287a26ec.jpg"
+    },
+    {
+      "page": -1,
+      "caption": "",
+      "path": "images/2883a38103abd7292166b9945763f4b0d5d1524748db2d5dc99256a19206bf41.jpg"
+    },
+    {
+      "page": -1,
+      "caption": "",
+      "path": "images/62adf70d5a93039ef488efd81c5ce44c785237652dacf9e49bedeed50e835608.jpg"
+    },
+    {
+      "page": -1,
+      "caption": "",
+      "path": "images/23cef9c3619f35d080aa531c53479c5ef7fed7fbbf1a1bf7c1e5943edfc82683.jpg"
+    },
+    {
+      "page": -1,
+      "caption": "",
+      "path": "images/6b732706db63bc38ed7d65035a00151119779f3f723e8a828effdd22c2bd35ce.jpg"
+    },
+    {
+      "page": -1,
+      "caption": "",
+      "path": "images/bb0f6fd2873e6dd8cd4237365642898fb98191a28d449a1d0c3c4135f2bf1084.jpg"
+    },
+    {
+      "page": -1,
+      "caption": "",
+      "path": "images/a2a6191c8e3b95341913dc9c29e297da8e42521f7782f911d01a3801512a89c1.jpg"
+    },
+    {
+      "page": -1,
+      "caption": "",
+      "path": "images/0b8f5dcb58d54146d59b3e7798a01d3768b88e73e2ff2332959f86931ed09175.jpg"
+    },
+    {
+      "page": -1,
+      "caption": "",
+      "path": "images/05f37bd5925106527e12bae3ae7efdee88207d0f716060226a20c0455c5be823.jpg"
+    }
+  ],
+  "metadata": {
+    "source": "both",
+    "pdf_url": "",
+    "parsed_at": "2026-03-10T09:29:47.782445+00:00"
+  }
+}

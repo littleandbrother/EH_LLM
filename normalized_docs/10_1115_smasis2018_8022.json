@@ -1,0 +1,112 @@
+{
+  "paper_id": "10_1115_smasis2018_8022",
+  "doi": "10.1115/smasis2018-8022",
+  "title": "The Reliability Testing and Fatigue Behavior Study of Micro Piezoelectric Energy Harvester",
+  "year": 2018,
+  "venue": "Volume 2: Mechanics and Behavior of Active Materials; Structural Health Monitoring; Bioinspired Smart Materials and Systems; Energy Harvesting; Emerging Technologies",
+  "authors": [
+    "Y. Yang",
+    "Y. Fu",
+    "C. T. Chen",
+    "S. C. Lin",
+    "J. Shieh",
+    "M. Veidt",
+    "W. Wu"
+  ],
+  "citation_count": 2,
+  "sections": [
+    {
+      "heading": "THE RELIABILITY TESTING AND FATIGUE BEHAVIOR STUDY OF MICRO PIEZOELECTRIC ENERGY HARVESTER",
+      "level": 1,
+      "text": "Y.H. Yang1 , Y.H. Fu1 , C.T. Chen1 , S. C. Lin2 , Jay Shieh3,4, Martin Veidt4 and W.J. Wu1\\*\n\n1 Department of Engineering Science and Ocean Engineering, National Taiwan University, Taipei, Taiwan 2Nano-Electro-Mechanical-Systems Research Center, National Taiwan University, Taipei, Taiwan 3Department of Materials Science and Engineering, National Taiwan University, Taipei, Taiwan 4School of Mechanical and Mining Engineering, University of Queensland, Brisbane, Australia"
+    },
+    {
+      "heading": "ABSTRACT",
+      "level": 1,
+      "text": "In this paper, a high performance micro piezoelectric energy harvester (PEH) fabricated on stainless substrates is presented. A PZT piezoelectric active layer with a thickness of about $1 0 ~ { \\mu \\mathrm { m } }$ was deposited on a stainless steel substrate by the aerosol deposition method. The cantilever beam-shaped PEH was then fabricated by metal-MEMS processing of the PZT/stainless steel composite structure. The size of the cantilever PEH transducer developed was about $1 ~ \\mathrm { c m } ^ { 2 }$ and a proof mass was attached to tune its resonant frequency to around 120 $\\mathrm { H z }$ for harvesting mechanical vibrations from direct drive AC motors. The PEH transducer showed an output voltage and an output power of $8 . 9 \\mathrm { \\ V _ { p - p } }$ and $1 0 7 . 8 ~ \\mu \\mathrm { W }$ , respectively, when connected with optimal load and excited under $0 . 5 \\ \\mathrm { g }$ acceleration level. In order to realize the fatigue behavior and reliability of the PEH in field applications, the PEH transducer was driven at its own resonant frequency and tested under $1 . 0 \\ \\mathrm { g }$ acceleration level for millions of cycles and the vibration modes were measured with a laser scanning vibrometer. The PEH transducer had an operating lifetime of about 1.8 million cycles at $_ { 1 . 0 \\mathrm { ~ g ~ } }$ cyclic loading based on the shift of its resonant frequencies and the decrease in electrical output. The experimental results show the resonant frequencies of the first, second and third modes were all shifted to lower frequencies with increasing operation cycle number due to the development of microcracks in the ceramic PZT active layer. However, the same PEH transducer could survive millions of cycles (in the high millions) at $0 . 5 \\ \\mathrm { g }$ cyclic loading without any significant changes in the resonant frequencies and electrical output. The results confirm the operating limits of the PEH transducer and suggest further protection and reinforcement are required for the transducer to operate at high acceleration loadings."
+    },
+    {
+      "heading": "INTRODUCTION",
+      "level": 1,
+      "text": "With the rapid development of the internet of things (IoT), smart devices in our daily life drastically increase in the coming decade [1]. In order to avoid frequent battery changing or charging or to supply power to devices on rotating or hard to reach locations, self-powered systems with embedded energy harvesters to scavenge energy from the ambient environment become a viable solution [2-4]. PZT (lead zirconate titanate) is the most widely used piezoelectric ceramic materials due to its high reliability and high power densities and are therefore the best candidate active materials for vibration energy harvesting [5]. Lin et al [6] fabricated piezoelectric energy harvester using PZT as active layer deposited on Si and stainless steel substrates by aerosol deposition method and compared the output performance of these two different substrates. They found out that the PEH with stainless steel substrate has greater output performance due to the advantages of greater ductility and long life cycles. Kuo et al [7] presented an energy harvester with piezoelectric PZT layers successfully powered a wireless temperature sensor transmitting sensor readings to a smpartphone. Although the PZT materials and using stainless steel as substrate have the above-mentioned advantages, the major issue in their real-world applications is the fatigue failure under repeated cyclic loading. Many studies have shown that the fatigue damage of the piezoelectric materials lead to a significant reduction of the electrical output performance of PEH [8-10]. In order to realize and analyze the fatigue behavior and lifetime of PEH, fatigue tests were conducted by operating the PEH for more than 1 million cycles under $0 . 5 \\ \\mathrm { g }$ and $1 . 0 \\ \\mathrm { g }$ acceleration levels, and laser scanning vibrometry was used to record the tip displacement of PEH and monitor the evolution of the resonant frequency of PEH with increasing loading cycles."
+    },
+    {
+      "heading": "FABRICATION PROCESS",
+      "level": 1,
+      "text": "The fabrication process flow is shown in Figure 1. A 301 stainless steel foil of a thickness $6 0 \\mu \\mathrm { m }$ was chosen as the substrate material due to its high mechanical strength and flexibility. The stainless-steel substrate was pre-cleaned by acid solutions to remove any metallic oxides and organic residues. After the pre-cleaning process, a $1 0 \\ \\mathrm { u m }$ thick PZT layer was deposited on the substrate by the aerosol deposition method and $2 0 / 2 0 0 \\mathrm { n m }$ Pt/Ti layers were then deposited as the top electrode on the PZT layer by E-beam evaporation. The cantilever beam-shaped was then defined and etched by aqua regia. Finally, the cantilever-type PEH devices would go through the annealing and poling processes to crystallize the PZT layer and induce the piezoelectric characteristics. A tungsten proof mass was then attached to the tip of the cantilever beam with epoxy resin to tune the resonant frequency of PEH to around $1 2 0 \\ : \\mathrm { H z }$ .\n\n![](images/99e4d28c8db88772567a932c7272016564dd0588418ebfb8b51997866d7126ca.jpg)  \nFigure 1. The fabrication process flow of the PEH transducer."
+    },
+    {
+      "heading": "EXPERIMENTAL SETUP",
+      "level": 1,
+      "text": "The schematic diagram of the experimental setup for measuring the electrical output performance and fatigue lifetime of PEH is shown in Figure 2. The cantilever PEH device was mounted on a shaker driven by a function generator through a power amplifier to simulate ambient vibration sources with different frequencies and amplitudes. The end of the PEH cantilever was fixed by a bakelite clamping fixture mounted on the shaker to induce a fixed-end condition. The clamping fixture had pinholes enabling access to the top and bottom electrodes of the PEH. This allowed electrical output measurements of the PEH using metal pins. An accelerometer (Type 4381, B&K) was fixed on the shaker with the PEH to measure the excitation acceleration level, which was set at RMS values of $0 . 1 \\mathrm { - } 1 . 0 \\mathrm { ~ g ~ }$ for this study. A laser scanning vibrometer (MSA-500, Polytech) was adopted to detect the displacements and velocities of the different locations of the PEH cantilever beam.\n\n![](images/d4704a2490a36da926e0779e69c9a433b53a0b3de42a97c5ef55e6fd9e18d85d.jpg)  \nFigure 2. Schematic diagram of the experimental setup."
+    },
+    {
+      "heading": "RESULTS AND DISCUSSION",
+      "level": 1,
+      "text": "In order to discuss the electrical output performance of PEH, Figure 3 shows the frequency response of PEH excited at $0 . 5 \\ \\mathrm { g }$ acceleration level under an open circuit condition. The maximum output voltage is $1 2 . 0 6 \\mathrm { V _ { p - p } }$ and the result shows a hardening type non-linear behavior under a large excitation. Figure 4 shows the relationship between the output voltage and output power at different resistive loads of PEH at $0 . 5 \\mathrm { g }$ acceleration level. When excited at $0 . 5 \\mathrm { g }$ acceleration level, the maximum output voltage and power with the optimal load $1 0 0 \\mathrm { k } \\Omega$ is $8 . 9 \\mathrm { V _ { p - p } }$ and $1 0 7 . 8 ~ \\mu \\mathrm { W }$ , respectively.\n\nFigure 5 shows the tip displacements and velocities of the PEH transducer at $0 . 1 5 \\mathrm { g }$ acceleration level and placed at two different angles relative to the gravity vector: $0 ^ { \\circ }$ -turned and $9 0 ^ { \\circ }$ -turned, representing when the tip displacement/velocity vector was parallel and perpendicular to the gravity vector, respectively. It is evident from Figure 5 that the actuation shaker was able to produce steady mechanical excitations, which was critical to the fatigue study of PEH. Under a sinusoidal excitation, the tip of the PEH cantilever also vibrated sinusoidally and maximum tip displacement corresponded to zero tip velocity. Comparing the results of the $0 ^ { \\circ }$ -turned and $9 0 ^ { \\circ }$ -turned configurations, the $9 0 ^ { \\circ }$ -turned PEH slightly outperformed the $0 ^ { \\circ }$ -turned PEH in terms of the maximum tip displacement produced at a low acceleration level. This implies that the electromechanical energy conversion of the cantilever-type PEH devices influenced by gravity.\n\nFigure 6 shows the fatigue behavior of the PEH transducer in terms of the shifts of the resonant modes during cyclic mechanical loading at $_ { 1 . 0 \\mathrm { ~ g ~ } }$ . In order to realize the fatigue behavior, the PEH was driven at its own resonant frequency and tested at $1 . 0 \\ \\mathrm { \\ g }$ for millions of cycles. The PEH had an operating lifetime of about 1.8 million cycles at $1 . 0 \\ \\mathrm { g }$ cyclic loading based on the shift of its resonant frequencies. The experimental results show the resonant frequencies of the first, second and third modes were all shifted to lower frequencies with increasing operation cycle number due to the development of microcracks in the ceramic PZT active layer. However, the same PEH device could survive millions of cycles (in the high millions) at $0 . 5 \\mathrm { \\textrm { g } }$ cyclic loading without any significant changes in the resonant frequencies.\n\nSince the shift of the resonant frequencies of the modes at $0 . 5 \\ \\mathrm { g }$ was not obvious, in order verify the reliability of the PEH transducer, the electrical outputs of the PEH during cyclic mechanical loadings at $0 . 3 \\mathrm { g } , 0 . 5 \\mathrm { g }$ and $0 . 7 \\mathrm { g }$ were measured for $^ { 2 4 \\mathrm { ~ h ~ } }$ (i.e., $> 1 0$ million cycles) and the results are shown in Figure. 7. In order to have a fair comparison of different acceleration levels, the PEH samples used in each test were brand new. The open circuit voltages of the PEH excited at 0.3 to $0 . 7 \\ \\mathrm { g }$ for $^ { 2 4 \\mathrm { ~ h ~ } }$ were recorded and shown in Figure 7. The PEH driven at $0 . 3 \\mathrm { g }$ acceleration level shows a very stable voltage output until the end of the 24h testing. However, the PEH driven at $0 . 5 \\mathrm { g }$ shows a slight decrease in voltage output with increasing operation cycles during the test. As the excitation level increased to $0 . 7 \\ { \\mathrm { g } } ,$ a significant voltage drop from 16.4 to $1 0 . 8 \\mathrm { V _ { p - p } }$ in the first $^ { 2 \\mathrm { ~ h ~ } }$ was observed. Then, the voltage output of the PEH decreased slightly during the last $^ { 2 2 \\mathrm { ~ h ~ } }$ at $0 . 7 \\ \\mathrm { \\ g }$ acceleration level. It is believed that cracking within the PZT film lowered the voltage output of the PEH transducer when operating at high-stress levels beyond the fracture strength of the PZT film.\n\n![](images/5c8e34c7d9eaf464047942a0635bf57285ee36bb8d518d2f3c2590a86df66fc3.jpg)  \nFigure 3. The frequency response of the PEH excited at 0.5 g.\n\n![](images/67daa33c752dbbbfc5add38d34154b3a6668357c6f5916c39f95dd26567626df.jpg)  \nFigure 4. The output voltage and power versus different loads of the PEH excited at the resonant frequency at $0 . 5 \\ \\mathrm { g }$ .\n\n![](images/8551f588a13eb0e3dfa16ebcf36fe9a01d0438ccdd2d36e02a3e82050983f98c.jpg)\n\n![](images/bcfa9fa3dc96686cf6b141026a11346a77ca036c32e0b56879f9ea47e5ae9b26.jpg)  \nFigure 5. (a) $0 ^ { \\circ }$ -turned cantilever tip displacement and velocity, and (b) $9 0 ^ { \\circ }$ -turned cantilever tip displacement and velocity of the PEH excited at the resonant frequency at $0 . 1 5 \\ \\mathrm { g }$ .\n\n![](images/0d0342ee0654c3b33c069cef1b2a521088e52c572df7d756b131f5115489060d.jpg)  \nFigure 6. Shifts of the resonant frequencies of the first three modes of the PEH during cyclic mechanical loading at $1 . 0 \\ \\mathrm { g }$ .\n\n![](images/57cc67050c0006f6c3b2431f7c483121c9da0f951e56d8279719f4fabaee404a.jpg)  \nFigure 7. Electrical outputs of the PEH transducer during $^ { 2 4 \\mathrm { ~ h ~ } }$ mechanical vibration at 0.3, 0.5 and $0 . 7 \\ \\mathrm { g }$ ."
+    },
+    {
+      "heading": "CONCLUSIONS",
+      "level": 1,
+      "text": "In this study, we have designed and fabricated a PEH of a rectangular cantilever beam shape. A high-quality PZT thick film was deposited by the aerosol deposition method on the stainless steel substrate to function as an active material for electromechanical energy conversion. The PEH transducer showed an output voltage and an output power of $8 . 9 \\mathrm { ~ V _ { p - p } ~ }$ and $1 0 7 . 8 ~ \\mu \\mathrm { W }$ , respectively, when connected with optimal load and excited under $0 . 5 \\mathrm { \\textrm { g } }$ acceleration level.\n\nA cyclic fatigue test was conducted to study the operating lifetime of the PEH transducer. It is found that the PEH transducer had an operating lifetime of about 1.8 million cycles at $1 . 0 \\ \\mathrm { g }$ cyclic loading based on the shift of its resonant frequencies. The experimental results show the resonant frequencies of the first, second and third modes were all shifted to lower frequencies with increasing operation cycle number due to the development of microcracks in the ceramic PZT active layer. In contrast, the same PEH transducer could survive millions of cycles (in the high millions) at $0 . 5 \\ \\mathrm { g }$ cyclic loading without any significant changes in the resonant frequencies and electrical output. Further protection and reinforcement of the composite cantilever structure will be needed to allow the PEH transducer to operate at high acceleration loadings."
+    },
+    {
+      "heading": "ACKNOWLEDGMENT",
+      "level": 1,
+      "text": "The authors acknowledge the technical support of the Nano-Electro-Mechanical-Systems (NEMS) Research Center at the National Taiwan University and the financial support of Agence Nationale de la Recherche (ANR) of France and the Ministry of Science and Technology (MOST) of Taiwan through respective grants ANR-15-CE22-0015-01 and 105-2923-E-002-006-MY3 (BESTMEMS project) and 106-2918-I-002-044. J.S. gratefully acknowledges the UQ Composites Group to support his stay at the University of Queensland."
+    },
+    {
+      "heading": "REFERENCES",
+      "level": 1,
+      "text": "[1] Zhu, Q., Wang, R., Chen, Q., Liu, Y., & Qin, W. (2010). IOT Gateway: Bridging Wireless Sensor Networks into Internet of Things. 347-352. doi:10.1109/euc.2010.58   \n[2] Liu, H., et al., Piezoelectric MEMS Energy Harvester for Low-Frequency Vibrations with Wideband Operation Range and Steadily Increased Output Power. Journal of Microelectromechanical Systems, 2011. 20(5): p. 1131-1142.   \n[3] Shen, D., et al., The design, fabrication and evaluation of a MEMS PZT cantilever with an integrated Si proof mass for vibration energy harvesting. Journal of Micromechanics and Microengineering, 2008. 18(5): p. 055017.   \n[4] Kim, H.S., J.-H. Kim, and J. Kim, A review of piezoelectric energy harvesting based on vibration. International Journal of Precision Engineering and Manufacturing, 2011. 12(6): p. 1129-1141   \n[5] Shu, Y.C. and I.C. Lien, Efficiency of energy conversion for a piezoelectric power harvesting system. Journal of Micromechanics and Microengineering, 2006. 16(11): p. 2429-2438.   \n[6] Lin, S.-C. and W.-J. Wu, Fabrication of PZT MEMS energy harvester based on silicon and stainless-steel substrates utilizing an aerosol deposition method. Journal of Micromechanics and Microengineering, 2013. 23(12): p. 125028.   \n[7] Kuo, C.-L., S.-C. Lin, and W.-J. Wu, Fabrication and performance evaluation of a metal-based bimorph piezoelectric MEMS generator for vibration energy harvesting. Smart Materials and Structures, 2016. 25(10): p. 105016.   \n[8] Kholkin, A.L., et al., Fatigue of piezoelectric properties in $\\mathrm { P b } ( \\mathrm { Z r } , \\mathrm { T i } ) \\mathrm { O } 3$ films. Applied Physics Letters, 1996. 68(18): p. 2577-2579.   \n[9] Takahashi, S., et al., Stability of PbZrO3-PbTiO3-Pb(Mn1/3Sb2/3)O3Piezoelectric Ceramics under Vibration-Level Change. Japanese Journal of Applied Physics, 1995. 34(Part 1, No. 9B): p. 5328-5331.   \n[10]Wang, D., Y. Fotinich, and G.P. Carman, Influence of temperature on the electromechanical and fatigue behavior of piezoelectric ceramics. Journal of Applied Physics, 1998. 83(10): p. 5342-5350."
+    }
+  ],
+  "tables": [],
+  "figures": [
+    {
+      "page": -1,
+      "caption": "",
+      "path": "images/99e4d28c8db88772567a932c7272016564dd0588418ebfb8b51997866d7126ca.jpg"
+    },
+    {
+      "page": -1,
+      "caption": "",
+      "path": "images/d4704a2490a36da926e0779e69c9a433b53a0b3de42a97c5ef55e6fd9e18d85d.jpg"
+    },
+    {
+      "page": -1,
+      "caption": "",
+      "path": "images/5c8e34c7d9eaf464047942a0635bf57285ee36bb8d518d2f3c2590a86df66fc3.jpg"
+    },
+    {
+      "page": -1,
+      "caption": "",
+      "path": "images/67daa33c752dbbbfc5add38d34154b3a6668357c6f5916c39f95dd26567626df.jpg"
+    },
+    {
+      "page": -1,
+      "caption": "",
+      "path": "images/8551f588a13eb0e3dfa16ebcf36fe9a01d0438ccdd2d36e02a3e82050983f98c.jpg"
+    },
+    {
+      "page": -1,
+      "caption": "",
+      "path": "images/bcfa9fa3dc96686cf6b141026a11346a77ca036c32e0b56879f9ea47e5ae9b26.jpg"
+    },
+    {
+      "page": -1,
+      "caption": "",
+      "path": "images/0d0342ee0654c3b33c069cef1b2a521088e52c572df7d756b131f5115489060d.jpg"
+    },
+    {
+      "page": -1,
+      "caption": "",
+      "path": "images/57cc67050c0006f6c3b2431f7c483121c9da0f951e56d8279719f4fabaee404a.jpg"
+    }
+  ],
+  "metadata": {
+    "source": "semantic_scholar",
+    "pdf_url": "",
+    "parsed_at": "2026-03-10T10:05:35.337176+00:00"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "paper_id": "10_1063_5_0105103",
+  "doi": "10.1063/5.0105103",
+  "title": "High output performance of piezoelectric energy harvesters using epitaxial Pb(Zr, Ti)O3 thin film grown on Si substrate",
+  "source_apis": [
+    "openalex"
+  ],
+  "pdf_url": "https://aip.scitation.org/doi/pdf/10.1063/5.0105103",
+  "pdf_local_path": "data_registry/raw_stage04_paper_pdf_cleaned/10_1063_5_0105103.pdf",
+  "processing": {
+    "tool": "MinerU",
+    "version": "python -m mineru.cli.client, version 2.7.6",
+    "timestamp": "2026-03-10T09:52:40.144975+00:00",
+    "duration_s": 92.44,
+    "success": true,
+    "error": ""
+  },
+  "outputs": {
+    "content_md": "/root/EH-LLM-vehbench-exp/parsed_docs/10_1063_5_0105103_ov38cccg/content.md",
+    "layout_json": "/root/EH-LLM-vehbench-exp/parsed_docs/10_1063_5_0105103_ov38cccg/layout.json",
+    "images_dir": "/root/EH-LLM-vehbench-exp/parsed_docs/10_1063_5_0105103_ov38cccg/10_1063_5_0105103/auto/images",
+    "normalized_json": "/root/EH-LLM-vehbench-exp/normalized_docs/10_1063_5_0105103.json"
+  },
+  "data_lineage": {
+    "papers_jsonl_hash": "0f3a3f483c70d2944882f704b42ad805",
+    "pipeline_step": "ingestion/mineru_runner.py"
+  }
+}

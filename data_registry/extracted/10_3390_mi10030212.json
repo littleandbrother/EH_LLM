@@ -1,0 +1,147 @@
+{
+  "metadata": {
+    "paper_id": "10_3390_mi10030212",
+    "doi": "10.3390/mi10030212",
+    "title": "Fabrication and Characterization of the Li-Doped ZnO Thin Films Piezoelectric Energy Harvester with Multi-Resonant Frequencies",
+    "year": 2019,
+    "journal": "Micromachines"
+  },
+  "configuration": "cantilever",
+  "proof_mass": true,
+  "geometry": {
+    "length_mm": 6.25,
+    "width_mm": null,
+    "thickness_mm": null,
+    "substrate_thickness_um": null,
+    "piezo_thickness_um": 0.31,
+    "tip_mass_g": null,
+    "diameter_mm": null
+  },
+  "excitation": {
+    "type": "vibration",
+    "frequency_Hz": 999,
+    "acceleration_g": 2.2,
+    "displacement_mm": null,
+    "motion_source": "standard vibration table"
+  },
+  "load": {
+    "load_resistance_ohm": 200000
+  },
+  "output": {
+    "resonant_frequency_Hz": 999,
+    "output_power_W": 2.3e-06,
+    "open_circuit_voltage_V": null,
+    "short_circuit_current_A": null,
+    "bandwidth_Hz": null
+  },
+  "evidence": {
+    "configuration": {
+      "quote": "consisting of an elastic element with three (or more) different length cantilever beam arrays",
+      "section": "Abstract",
+      "source_type": "abstract"
+    },
+    "proof_mass": {
+      "quote": "mass block on every free end of the three beams",
+      "section": "2.1. Basic Structure",
+      "source_type": "section"
+    },
+    "geometry": {
+      "length_mm": {
+        "quote": "the Beam1 L1 = 6.25 mm",
+        "section": "2.1. Basic Structure",
+        "source_type": "section"
+      },
+      "width_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "thickness_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "substrate_thickness_um": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "piezo_thickness_um": {
+        "quote": "marking thickness of LZO thin films of about 310 nm",
+        "section": "4.2. SEM Analysis",
+        "source_type": "section"
+      },
+      "tip_mass_g": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "diameter_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      }
+    },
+    "excitation": {
+      "type": {
+        "quote": "external vibration acceleration",
+        "section": "Abstract",
+        "source_type": "abstract"
+      },
+      "frequency_Hz": {
+        "quote": "vibration frequency of 999 Hz",
+        "section": "Abstract",
+        "source_type": "abstract"
+      },
+      "acceleration_g": {
+        "quote": "external vibration acceleration of 2.2 g",
+        "section": "Abstract",
+        "source_type": "abstract"
+      },
+      "displacement_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "motion_source": {
+        "quote": "standard vibration table",
+        "section": "4. Results and Discussion",
+        "source_type": "section"
+      }
+    },
+    "load": {
+      "load_resistance_ohm": {
+        "quote": "high load power of 2.3 μW at a load resistance of 200 kΩ",
+        "section": "Abstract",
+        "source_type": "abstract"
+      }
+    },
+    "output": {
+      "resonant_frequency_Hz": {
+        "quote": "vibration frequency of 999 Hz",
+        "section": "Abstract",
+        "source_type": "abstract"
+      },
+      "output_power_W": {
+        "quote": "high load power of 2.3 μW",
+        "section": "Abstract",
+        "source_type": "abstract"
+      },
+      "open_circuit_voltage_V": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "short_circuit_current_A": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "bandwidth_Hz": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      }
+    }
+  }
+}

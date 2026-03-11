@@ -1,0 +1,28 @@
+{
+  "paper_id": "10_1063_5_0022881",
+  "doi": "10.1063/5.0022881",
+  "title": "An ultralow frequency, low intensity, and multidirectional piezoelectric vibration energy harvester using liquid as energy-capturing medium",
+  "source_apis": [
+    "openalex"
+  ],
+  "pdf_url": "",
+  "pdf_local_path": "data_registry/raw_stage04_paper_pdf_cleaned/10_1063_5_0022881.pdf",
+  "processing": {
+    "tool": "MinerU",
+    "version": "python -m mineru.cli.client, version 2.7.6",
+    "timestamp": "2026-03-10T09:32:29.317920+00:00",
+    "duration_s": 84.13,
+    "success": true,
+    "error": ""
+  },
+  "outputs": {
+    "content_md": "/root/EH-LLM-vehbench-exp/parsed_docs/10_1063_5_0022881_s4l_9t13/content.md",
+    "layout_json": "/root/EH-LLM-vehbench-exp/parsed_docs/10_1063_5_0022881_s4l_9t13/layout.json",
+    "images_dir": "/root/EH-LLM-vehbench-exp/parsed_docs/10_1063_5_0022881_s4l_9t13/10_1063_5_0022881/auto/images",
+    "normalized_json": "/root/EH-LLM-vehbench-exp/normalized_docs/10_1063_5_0022881.json"
+  },
+  "data_lineage": {
+    "papers_jsonl_hash": "cfffe42dc65e0078f3ba7a5e629ee592",
+    "pipeline_step": "ingestion/mineru_runner.py"
+  }
+}

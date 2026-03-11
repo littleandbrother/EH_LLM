@@ -1,0 +1,28 @@
+{
+  "paper_id": "10_1088_1361_665x_ad5890",
+  "doi": "10.1088/1361-665x/ad5890",
+  "title": "Piezoelectric energy harvester for wind turbine blades based on bistable response of a composite beam in post-buckling",
+  "source_apis": [
+    "both"
+  ],
+  "pdf_url": "https://iopscience.iop.org/article/10.1088/1361-665X/ad5890/pdf",
+  "pdf_local_path": "data_registry/raw_stage04_paper_pdf_cleaned/10_1088_1361_665x_ad5890.pdf",
+  "processing": {
+    "tool": "MinerU",
+    "version": "python -m mineru.cli.client, version 2.7.6",
+    "timestamp": "2026-03-10T09:58:39.042941+00:00",
+    "duration_s": 119.79,
+    "success": true,
+    "error": ""
+  },
+  "outputs": {
+    "content_md": "/root/EH-LLM-vehbench-exp/parsed_docs/10_1088_1361_665x_ad5890_mftbh8kg/content.md",
+    "layout_json": "/root/EH-LLM-vehbench-exp/parsed_docs/10_1088_1361_665x_ad5890_mftbh8kg/layout.json",
+    "images_dir": "/root/EH-LLM-vehbench-exp/parsed_docs/10_1088_1361_665x_ad5890_mftbh8kg/10_1088_1361_665x_ad5890/auto/images",
+    "normalized_json": "/root/EH-LLM-vehbench-exp/normalized_docs/10_1088_1361_665x_ad5890.json"
+  },
+  "data_lineage": {
+    "papers_jsonl_hash": "0f553b44997bd103b15d5a126a15e8ec",
+    "pipeline_step": "ingestion/mineru_runner.py"
+  }
+}

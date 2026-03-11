@@ -1,0 +1,28 @@
+{
+  "paper_id": "10_3390_app10103614",
+  "doi": "10.3390/app10103614",
+  "title": "Snap-Through Buckling Mechanism for Frequency-up Conversion in Piezoelectric Energy Harvesting",
+  "source_apis": [
+    "both"
+  ],
+  "pdf_url": "https://doi.org/10.3390/app10103614",
+  "pdf_local_path": "data_registry/raw_stage04_paper_pdf_cleaned/10_3390_app10103614.pdf",
+  "processing": {
+    "tool": "MinerU",
+    "version": "python -m mineru.cli.client, version 2.7.6",
+    "timestamp": "2026-03-10T10:09:45.579727+00:00",
+    "duration_s": 107.33,
+    "success": true,
+    "error": ""
+  },
+  "outputs": {
+    "content_md": "/root/EH-LLM-vehbench-exp/parsed_docs/10_3390_app10103614_34bmsrub/content.md",
+    "layout_json": "/root/EH-LLM-vehbench-exp/parsed_docs/10_3390_app10103614_34bmsrub/layout.json",
+    "images_dir": "/root/EH-LLM-vehbench-exp/parsed_docs/10_3390_app10103614_34bmsrub/10_3390_app10103614/auto/images",
+    "normalized_json": "/root/EH-LLM-vehbench-exp/normalized_docs/10_3390_app10103614.json"
+  },
+  "data_lineage": {
+    "papers_jsonl_hash": "10d3b346f29086433ab18de3c5a8fd1a",
+    "pipeline_step": "ingestion/mineru_runner.py"
+  }
+}

@@ -1,0 +1,147 @@
+{
+  "metadata": {
+    "paper_id": "10_3390_s151026039",
+    "doi": "10.3390/s151026039",
+    "title": "Piezoelectric Energy Harvesting in Internal Fluid Flow",
+    "year": 2015,
+    "journal": "Italian National Conference on Sensors"
+  },
+  "configuration": "cantilever",
+  "proof_mass": false,
+  "geometry": {
+    "length_mm": 42.418,
+    "width_mm": 17.018,
+    "thickness_mm": 0.7874,
+    "substrate_thickness_um": 101.6,
+    "piezo_thickness_um": 406.4,
+    "tip_mass_g": null,
+    "diameter_mm": null
+  },
+  "excitation": {
+    "type": "vibration",
+    "frequency_Hz": 140,
+    "acceleration_g": null,
+    "displacement_mm": 2,
+    "motion_source": "internal fluid flow"
+  },
+  "load": {
+    "load_resistance_ohm": 10000
+  },
+  "output": {
+    "resonant_frequency_Hz": 140,
+    "output_power_W": 0.025,
+    "open_circuit_voltage_V": 20,
+    "short_circuit_current_A": null,
+    "bandwidth_Hz": null
+  },
+  "evidence": {
+    "configuration": {
+      "quote": "A piezoelectric bimorph connected in parallel (QP21B produced by Mide Technology Corporation, Medford, MA, USA [26]) was used to demonstrate power generation in our first flow energy harvester design.",
+      "section": "4. Bimorph Harvester",
+      "source_type": "section"
+    },
+    "proof_mass": {
+      "quote": "A piezoelectric bimorph connected in parallel (QP21B produced by Mide Technology Corporation, Medford, MA, USA [26]) was used to demonstrate power generation in our first flow energy harvester design.",
+      "section": "4. Bimorph Harvester",
+      "source_type": "section"
+    },
+    "geometry": {
+      "length_mm": {
+        "quote": "total length and width are 1.63 inch (42.418 mm) and 0.67 inch 17.018 mm, respectively.",
+        "section": "4. Bimorph Harvester",
+        "source_type": "section"
+      },
+      "width_mm": {
+        "quote": "total length and width are 1.63 inch (42.418 mm) and 0.67 inch 17.018 mm, respectively.",
+        "section": "4. Bimorph Harvester",
+        "source_type": "section"
+      },
+      "thickness_mm": {
+        "quote": "The total thickness is 0.031 inch (0.7874 mm).",
+        "section": "4. Bimorph Harvester",
+        "source_type": "section"
+      },
+      "substrate_thickness_um": {
+        "quote": "0.002 inch (0.0508 mm) stainless steel shim was added to either side of the commercially available QP21B bimorph actuator",
+        "section": "4. Bimorph Harvester",
+        "source_type": "section"
+      },
+      "piezo_thickness_um": {
+        "quote": "two thin 0.008 inch (0.2032 mm) of PZT5A type piezoelectric elements",
+        "section": "4. Bimorph Harvester",
+        "source_type": "section"
+      },
+      "tip_mass_g": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "diameter_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      }
+    },
+    "excitation": {
+      "type": {
+        "quote": "Fluid motion is coupled to structural vibration via a cantilever beam placed in a converging-diverging flow channel.",
+        "section": "Abstract",
+        "source_type": "abstract"
+      },
+      "frequency_Hz": {
+        "quote": "first resonant frequency ... decreases to around 140 Hz in water.",
+        "section": "4. Bimorph Harvester",
+        "source_type": "section"
+      },
+      "acceleration_g": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "displacement_mm": {
+        "quote": "max deflection of this bimorph is found to be on the order of 2 mm",
+        "section": "4. Bimorph Harvester",
+        "source_type": "section"
+      },
+      "motion_source": {
+        "quote": "internal fluid flow",
+        "section": "Abstract",
+        "source_type": "abstract"
+      }
+    },
+    "load": {
+      "load_resistance_ohm": {
+        "quote": "optimal electrical resistance at 140 Hz in water is between 7 and 10 kOhm.",
+        "section": "4. Bimorph Harvester",
+        "source_type": "section"
+      }
+    },
+    "output": {
+      "resonant_frequency_Hz": {
+        "quote": "first resonant frequency ... decreases to around 140 Hz in water.",
+        "section": "4. Bimorph Harvester",
+        "source_type": "section"
+      },
+      "output_power_W": {
+        "quote": "output power with all tested nozzle-diffuser inserts showed the same maximum of 25 mW",
+        "section": "4. Bimorph Harvester",
+        "source_type": "section"
+      },
+      "open_circuit_voltage_V": {
+        "quote": "open circuit voltage of 20 V at a tip deflection of 0.18 mm",
+        "section": "4. Bimorph Harvester",
+        "source_type": "section"
+      },
+      "short_circuit_current_A": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "bandwidth_Hz": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      }
+    }
+  }
+}

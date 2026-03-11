@@ -1,0 +1,121 @@
+{
+  "paper_id": "10_1109_transducers_2013_6626806",
+  "doi": "10.1109/transducers.2013.6626806",
+  "title": "Lead-free piezoelectric MEMS energy harvesters of stainless steel cantilevers",
+  "year": 2013,
+  "venue": "International Conference on Solid-State Sensors, Actuators and Microsystems",
+  "authors": [
+    "Y. Tsujiura",
+    "E. Suwa",
+    "H. Hida",
+    "K. Suenaga",
+    "K. Shibata",
+    "I. Kanno",
+    "Yuichi Tsujiura",
+    "Eisaku Suwa",
+    "Hirotaka Hida",
+    "Kenji Shibata",
+    "Isaku Kanno"
+  ],
+  "citation_count": 10,
+  "sections": [
+    {
+      "heading": "LEAD-FREE PIEZOELECTRIC MEMS ENERGY HARVESTERS OFSTAINLESS STEEL CANTILEVERS",
+      "level": 1,
+      "text": "Y. Tsujiura1 , E. Suwa1 , H. Hida1 , K. Suenaga2 , K. Shibata2 , and I. Kanno1 1 Kobe University, Kobe, JAPAN 2 Hitachi Cable, Ltd., Tokyo, JAPAN"
+    },
+    {
+      "heading": "ABSTRACT",
+      "level": 1,
+      "text": "We fabricated piezoelectric MEMS energy harvesters (EHs) of lead-free $( \\mathrm { K } , \\mathrm { N a } ) \\mathrm { N b } { \\mathrm { O } } _ { 3 }$ (KNN) thin films on microfabricated stainless steel cantilevers. The $2 . 2 \\mathrm { - } \\mu \\mathrm { m }$ -thick KNN thin films were directly deposited by rf-magnetron sputtering onto the cantilevers, thereby we could simplify fabrication process of the EHs. Because of the strong fracture toughness of stainless steel, the thickness of the cantilevers can be as thin as $3 0 ~ { \\mu \\mathrm { m } }$ . We obtained large averaged output power of $1 . 6 \\mu \\mathrm { W }$ at $3 9 3 \\mathrm { H z }$ and $1 0 ~ \\mathrm { m / s } ^ { 2 }$ for the lead-free unimorph cantilever."
+    },
+    {
+      "heading": "KEYWORDS",
+      "level": 1,
+      "text": "Energy Harvesting, Piezoelectric Thin Film, Lead-Free, Metal Substrate"
+    },
+    {
+      "heading": "INTRODUCTION",
+      "level": 1,
+      "text": "In recent years, there have been many studies on energy harvesters (EHs) composed of piezoelectric thin films functioning as power sources for small electronic devices such as autonomous wireless sensor nodes [1-3]. With EHs, it is possible to realize long-life, maintenance-free power sources to replace primary and secondary batteries. In addition, wireless communication for sensors is able to reduce the wire harness and contributes to weight reduction and resource conservation. As vibration energy widely exists in the environment, it is therefore particularly useful in areas where solar power cannot be used. Although the power consumption of small electronic devices has dropped to tens to hundreds of $\\mu \\mathrm { W }$ [4], the generated power of the EHs is still insufficient and improvements in power generation efficiency are strongly demanded.\n\nPiezoelectric MEMS EHs usually have simple unimorph cantilever structures constructed from piezoelectric $\\mathrm { P b } ( \\mathrm { Z r } , \\mathrm { T i } ) { \\mathrm { O } } _ { 3 }$ (PZT) thin films on Si substrates [5]. In order to maximize the vibration amplitude, the resonance frequency of the cantilevers should be adjusted to environmental vibrations. However, Si-based unimorph cantilevers are brittle materials; improving the brittleness of cantilevers is necessary to enhance the output power under large vibration. Furthermore, conventional MEMS EHs have a higher resonance frequency of more than $1 \\mathrm { k H z }$ because of the small size of the resonators, although the frequency of environmental vibrations is generally less than $2 0 0 \\mathrm { H z }$ [4]. Next issue is toxicity of lead contained in PZT, therefore lead-free piezoelectric materials are required immediately. There are several candidates such as ${ \\mathrm { B a T i O } } _ { 3 }$ (BT), $( \\mathrm { B i } , \\mathrm { N a } ) \\mathrm { T i O } _ { 3 }$ (BNT), and $( \\mathrm { K } , \\mathrm { N a } ) \\mathrm { N b } { \\mathrm { O } } _ { 3 }$ (KNN). Among these materials, KNN shows good piezoelectric properties and high Curie temperature, therefore, KNN films for MEMS device are studied actively.\n\nIn this study, we fabricated lead-free KNN MEMS EHs deposited of a metal substrate to enhance fracture toughness as well as to reduce the resonance frequency. The fracture toughness $K _ { \\mathrm { l c } }$ of ferritic stainless steel (SS430) is more than fifty times larger than that of Si. Furthermore, since such a metal has higher volume density than Si, resonance frequency can be reduced owing to large tip mass of cantilever. We deposited the lead-free KNN thin films directly on the microfabricated stainless steel cantilevers by rf-magnetron sputtering. Stainless steel is easy to microfabricate by wet etching, and direct deposition of the KNN thin films onto the microfabricated stainless steel cantilevers leads to a simple, low-cost fabrication. We describe fabrication process of these metal-based piezoelectric MEMS EHs and discuss an analysis of their power generation performance."
+    },
+    {
+      "heading": "FABRICATION PROCESS",
+      "level": 1,
+      "text": "We fabricated KNN EHs on ferritic stainless steel (SS430) cantilevers using rf-magnetron sputtering techniques. The coefficients of thermal expansion (CTE) of SS430 and KNN are about $1 1 . 4 \\times 1 0 ^ { - 6 } \\mathrm { K } ^ { - 1 }$ and $8 . 0 \\times$ $1 0 ^ { - 6 } ~ \\mathrm { K } ^ { - 1 }$ , respectively [6,7]. Considering that the CTE of typical austenitic stainless steel (SS304) is $1 8 . 4 \\times 1 0 ^ { - 6 } \\mathrm { K } ^ { - 1 }$ , the small difference in CTE between KNN and SS430 can mitigate the initial bending of the unimorph cantilevers.\n\nThe fabrication process for the EHs is schematically shown in Fig. 1. First, a photoresist pattern was formed on both sides of a $3 0 0 \\mathrm { - } \\mu \\mathrm { m }$ -thick stainless steel plate to prepare thin beams, fixed ends, and tip-masses of cantilevers. Following that, $3 0 \\mathrm { - } \\mu \\mathrm { m }$ -thick SS430 cantilevers with tip-masses were fabricated from the stainless steel plate in a two-step spray etching process using ferric chloride solution. This etching of SS430 enables the fixed end and the tip mass of cantilevers to be fabricated without bonding or clamping.\n\nPrior to KNN deposition, $\\mathrm { S i O } _ { 2 }$ oxide layer was deposited by plasma CVD method onto the microfabricated cantilevers, and Pt/Ti bottom electrodes were deposited on it. Successively, the KNN thin films were deposited by rf-magnetron sputtering onto the cantilevers. During the KNN deposition, the substrate was heated to around $6 8 0 ^ { \\circ } \\mathrm { C } _ { \\mathrm { i } }$ , and sputtering deposition was performed under a mixed gas atmosphere of $\\mathbf { A r } / \\mathbf { O } _ { 2 }$ . The thickness of the KNN films was $2 . 2 \\ \\mu \\mathrm { m }$ . The $\\mathrm { P t }$ top electrodes were prepared through a shadow mask. Direct deposition of the KNN thin films on the microfabricated cantilever could drastically simplify fabrication of the piezoelectric MEMS EHs. Fig. 2 shows images of the piezoelectric EHs with the KNN thin film on stainless steel cantilevers. We confirmed the unimorph cantilevers have a little initial bending. As a result, we could achieve the simple fabrication process that does not require microfabrication processes of piezoelectric thin film and top/bottom electrodes.\n\n![](images/2e999cf7a88ffbf21b971331fa700005bdbd8c1aac6c6bf26d51f736b8d22782.jpg)\n\n![](images/9613b5ac56bc2d48d065b9d0f25ae5c14f6a5776c1299d418fce4ab347a32d2a.jpg)  \nFigure 2: (a) A photograph of the piezoelectric MEMS EHs of the lead-free KNN thin films on stainless steel cantilevers. (b) Schematic configuration of a KNN EH."
+    },
+    {
+      "heading": "PIEZOELECTRIC PROPERTIES",
+      "level": 1,
+      "text": "We evaluated the crystal structure of the KNN thin films using X-ray diffraction (XRD) measurements. Fig. 3 shows XRD patterns of the KNN thin films on the stainless steel cantilevers. Diffractions of the perovskite KNN were clearly observed, indicating pyrochlore-free KNN thin films were prepared on the Pt/Ti-coated SS430 cantilevers.\n\n![](images/f770c491da017dee7ebcf77f79471f78b102649ce4fe2053aeb489a53e6019a0.jpg)  \nFigure 3: XRD patterns of KNN thin films deposited on Pt/Ti/SiO2/SS430 substrates.\n\n![](images/9b2b45b013c99dfc64ef9554d433a8d3223b3a56da3de53ed8a728bc0e2b75e4.jpg)  \nFigure 4: KNN/SS430 cantilever displacement and transverse piezoelectric coefficient $e _ { 3 I , f }$ as a function of applied voltage for piezoelectric unimorph cantilever.\n\nWe then measured the dielectric properties of KNN thin films using an LCR meter. The relative dielectric constant $\\varepsilon _ { \\mathrm { r } }$ and dielectric loss tan $\\delta$ of the KNN films were 409 and 0.56, respectively. The low relative dielectric constant of KNN films was caused by in-plane compressive stress due to the difference in CTE between KNN thin films and stainless steel. The relative dielectric constant of KNN $( \\mathrm { K } / \\mathrm { N a } = 4 5 / 5 5 )$ ) films on the Si substrate is reported to be about 800 [8]; in contrast, the low relative dielectric constant of the KNN films on stainless steel is preferable in that it increases the electromechanical coupling factor $k _ { 3 1 }$ of the KNN films. By contrast, tan $\\delta$ of the KNN thin films was high. It is probably due to high volatility or deliquescence of sodium and potassium, the constituent elements of KNN [9].\n\nThe transverse piezoelectric properties of KNN films were measured by the inverse piezoelectric effect for the unimorph cantilevers [10]. We applied a unipolar sinusoidal electric voltage across the top and bottom electrodes at a frequency sufficiently lower than the resonance frequency of the cantilever, and measured cantilever displacements using a laser Doppler vibrometer. Fig. 4 shows the displacements of the $5 \\mathrm { - m m }$ -wide cantilever as a function of the voltage from 2 to $1 0 \\ \\mathrm { V _ { p - p } }$ The laser beam was focused on the cantilever at $3 . 5 ~ \\mathrm { m m }$ from the fixed end. From the displacement, the transverse piezoelectric coefficient $e _ { 3 1 , f }$ was calculated by the following equation,\n\n$$\ne _ { 3 1 , f } = - \\frac { { h _ { s } } ^ { 2 } E _ { s } } { 3 ( 1 - \\nu _ { s } ) L ^ { 2 } } \\frac { \\delta } { V }\n$$\n\nwhere $h _ { s } , E _ { s } , \\nu _ { s }$ are the thickness, Young’s modulus, and Poisson’s ratio of SS430, respectively; and $L , V , \\delta$ are the distance from the fixed end of the cantilever, applied voltage, and displacement of the cantilever, respectively [10]. Young’s modulus and Poisson’s ratio of SS430 are $2 0 0 \\ \\mathrm { M P a }$ and 0.27, respectively [6]. From Eq. (1), the transverse piezoelectric coefficient $e _ { 3 1 , f }$ was calculated to be about $- 3 . 8 ~ \\mathrm { C / m } ^ { 2 }$ , which is almost the same as PZT on SS430 $( e _ { 3 1 , f } { = } - 4 . 0 \\ : \\mathrm { C } / \\mathrm { m } ^ { 2 } )$ [11]."
+    },
+    {
+      "heading": "POWER GENERATION PERFORMANCE",
+      "level": 1,
+      "text": "Fig. 5 shows a photo of the measurement set-up for vibration EHs. The EHs were mounted on the vibration exciter and the acceleration pickup was attached on the base of the cantilevers for monitoring the acceleration. The top and bottom electrodes of the KNN thin films were connected to a load resistance and the generated voltage was measured by an oscilloscope. We evaluated the power generation performance of the unimorph cantilevers of KNN thin films on the SS430.\n\nFig. 6 shows the frequency response of output voltage of a cantilever. We swept the excitation frequency up and down, and the output voltage was measured using a frequency response analyzer (FRA) with open circuit state $( R = 1 ~ \\mathrm { M } \\Omega$ ) at the acceleration of $\\mathrm { i } 0 \\mathrm { m } / \\mathrm { s } ^ { 2 }$ . A clear peak in the output voltage appeared at a resonance frequency of $3 9 3 \\mathrm { H z }$ . The $\\mathcal { Q }$ value was measured as 90 by the half-power bandwidth method. As shown in Fig. 6, the nonlinear response (jump phenomenon and hysteresis) was clearly observed around the resonance frequency. The nonlinear resonance, arising from softening spring effects, is preferable in expanding the range of resonance frequency. In this study, we could realize relatively wide bandwidth EHs by simple structures of cantilevers.\n\nFig. 7 shows the output power and the output voltage as a function of load resistance at the resonance frequency of $3 9 3 \\ \\mathrm { H z }$ under the acceleration of $1 0 ~ \\mathrm { m / s } ^ { 2 }$ . The averaged output power $[ P { = } V ^ { 2 } / 2 R ]$ reached $1 . 6 ~ \\mu \\mathrm { W }$ at the optimum load resistance of $5 \\mathrm { k } \\Omega$ . We define the power density as the maximum output power divided by the volume of the cantilever, the power density is $0 . { \\dot { 4 } } 1 ~ \\mathrm { \\mu W / m m } ^ { 3 }$ . In the previous study, we evaluated the power generation performance of PZT EHs of the same stainless steel cantilevers [11]. Comparison of the KNN and PZT EHs is listed on Table 1. From the evaluation of power generation performance of cantilever with the same design, maximum output power of the PZT thin films was $6 . 8 ~ \\mu \\mathrm { W }$ (power density: $1 . 7 ~ \\mu \\mathrm { W / m m } ^ { 3 }$ ) under conditions of $3 6 7 \\ : \\mathrm { H z }$ , $1 0 \\mathrm { k } \\Omega$ , and $1 \\mathrm { { 0 } m } / \\mathrm { { s } } ^ { 2 }$ .\n\n![](images/f8be42bb87004089f4a7270848d1c589bf47c49f611bb7e8a89768917a0bcd76.jpg)  \nFigure 5: Experimental set-up for measuring output power.\n\n![](images/ad4929ed49d18a599af63fa2ffac2657300a21c2aabd1ca87fc3788b650ca4a9.jpg)  \nFigure 6: Output voltage of the KNN EH as a function of frequency under an acceleration of $I O m / s ^ { 2 }$ .\n\nTheoretical values of the output power of unimorph cantilever, derived from the theoretical circuit modeling [12], were calculated using\n\n$$\n\\begin{array} { l } { { P = \\displaystyle \\frac { m { \\mu _ { 1 } } ^ { 2 } a ^ { 2 } } { 2 \\omega _ { 0 } } \\frac { K ^ { 2 } \\psi Q ^ { 2 } } { \\psi ^ { 2 } + \\left( 1 + K ^ { 2 } \\psi Q \\right) ^ { 2 } } } } \\\\ { { \\ } } \\\\ { { \\psi = \\omega _ { 0 } R C } } \\end{array}\n$$\n\nwhere $m , \\mu _ { 1 } , a , \\omega _ { 0 } , Q , K$ are respectively equivalent mass, correction factor determined by the ratio of the tip mass to the beam mass, acceleration amplitude, fundamental mechanical angular frequency, mechanical quality factor, and electromechanical coupling factor. $R$ and $C$ are the load resistance and the capacitance of cantilever, respectively. Electromechanical coupling factor $( K ^ { 2 } )$ indicates the conversion efficiency between the electric energy and vibration energy. In this study, we evaluated $K ^ { 2 }$ by comparing the output power between measured and theoretical values of Eq. (2). $K ^ { 2 }$ for KNN films on stainless steel cantilever was calculated to be $2 . 3 4 \\times 1 0 ^ { - 3 }$ . Compared with $K ^ { 2 }$ for PZT films on SS430 cantilevers $( 4 . 6 6 \\times ) 0 ^ { - 3 } )$ [11], we achieved comparable conversion efficiency for the KNN EHs on stainless steel cantilevers.\n\n![](images/dfa38f3401addeff71d63cc15768673b30d914493fb0313fe0a1a044a4aa7c93.jpg)  \nFigure 7: Output power and output voltage of the KNN EH as a function of load resistance at $3 9 3 H z$ and 10 $m / s ^ { 2 }$ .\n\nTable 1: Comparison of the KNN and PZT EHs.   \n\n<table><tr><td></td><td>KNN PZT</td></tr><tr><td>Dimensions [mm2]</td><td>7.5 × 5.0</td></tr><tr><td>Tip mass [mg]</td><td>25</td></tr><tr><td>Peak output voltage [mVp-p]</td><td>423 1114</td></tr><tr><td>Resonance frequency [Hz]</td><td>393 367</td></tr><tr><td>Q value [-]</td><td>90 80</td></tr><tr><td>K2 (Fitting) [× 10−3]</td><td>2.34 4.66</td></tr><tr><td>Optimum load resistance [kΩ] 5</td><td>10</td></tr><tr><td>Maximum output power [µW] 1.6</td><td>6.7</td></tr><tr><td>Power density [μW/mm3]</td><td>0.41 1.7</td></tr></table>\n\n![](images/8a0452396dd92a28a2fe3ed9e4f45aa8c873575784874584f54db87957ed5766.jpg)  \nFigure 8: Output power and $\\mathcal { Q }$ value of the KNN EH as a function of acceleration at $3 9 3 H z$ and $5 \\ k \\Omega$ .\n\nFig. 8 shows the output power and $\\boldsymbol { Q }$ value as a function of acceleration. The optimum output power was measured at accelerations ranging from 0 to $1 5 \\mathrm { \\ m } / \\mathrm { s } ^ { 2 }$ under frequency $3 9 3 \\ : \\mathrm { H z }$ and load resistance $5 \\mathrm { k } \\Omega$ ; the theoretical output power was calculated from Eq. (2). From Fig. 8, the measured values were in good agreement with the theoretical values. Furthermore, the output power reached $2 . 1 3 ~ \\mu \\mathrm { W }$ under an acceleration of $\\mathrm { 1 5 ~ m / s ^ { 2 } }$ without destroying the cantilever. The $\\mathcal { Q }$ value by constant rapidly decreased as acceleration increased (see Fig. 8). This is attributed to an increase in air damping with acceleration and the nonlinear resonance due to larger displacements of the cantilever.\n\nIn this paper, we described the simple fabrication process of KNN MEMS EHs using metal substrates. One of these EHs exhibited high efficiency and robustness under ambient vibrations. Optimization of the design will lead to further enhancement of output power as well as adaptation to frequency and bandwidth characterizing environmental vibration."
+    },
+    {
+      "heading": "CONCLUSIONS",
+      "level": 1,
+      "text": "We fabricated lead-free KNN MEMS EHs of microfabricated stainless steel cantilevers. The stainless steel cantilevers with built-in tip mass were produced using two-step spray etching. The KNN thin films were directly deposited on the cantilevers by rf-magnetron sputtering, which enabled the simple fabrication process. KNN thin films have polycrystalline perovskite structure with low relative dielectric constant $\\langle \\varepsilon _ { \\mathrm { r } } = 4 0 9 \\rangle$ with high dielectric loss (tan $\\delta = 0 . 5 6 )$ ). The transverse piezoelectric coefficient $e _ { 3 1 , f }$ was about $- 3 . 8 ~ \\mathrm { C / m } ^ { 2 }$ . From the evaluation of power generation performance of unimorph cantilever (7.5 mm-long, $5 . 0 \\mathrm { m m }$ -wide) with tip mass of $2 5 \\mathrm { m g }$ , maximum output power was $1 . 6 \\mu \\mathrm { W }$ (power density: $0 . { \\dot { 4 } } { \\dot { 1 } } { \\ \\mu } \\mathrm { W } / \\mathrm { m m } ^ { 3 } )$ under conditions of $3 9 3 \\ \\mathrm { H z }$ , $5 \\mathrm { k } \\Omega$ , and $\\mathrm { 1 0 ~ m / s ^ { 2 } }$ . The KNN EHs clearly showed nonlinear resonance due to spring softening, which expanded the bandwidth. The electromechanical coupling factor $K ^ { 2 }$ for KNN films was $2 . 3 4 \\times 1 0 ^ { - 3 }$ ."
+    },
+    {
+      "heading": "REFERENCES",
+      "level": 1,
+      "text": "[1] S. Roundy and P. K. Wright, “A piezoelectric vibration based generator for wireless electronics”, Smart Materials and Structures, Vol. 13, No. 5, pp. 1131-1142, 2004.   \n[2] S. P. Beeby, M. J. Tudor, and N. M. White, “Energy harvesting vibration sources for microsystems applications”, Measurement Science and Technology, Vol. 17, No. 12, pp. R175-R195, 2006.   \n[3] A. Erturk and D. J. Inman, “On Mechanical Modeling of Cantilevered Piezoelectric Vibration Energy Harvesters”, Journal of Intelligent Material Systems and Structures, Vol. 19, No. 11, pp. 1311-1325, 2008.   \n[4] S. Roundy, P. K. Wright, and J. Rabaey, “A study of low level vibrations as a power source for wireless sensor nodes”, Computer Communications, Vol. 26, No. 11, pp. 1131-1144, 2003.   \n[5] Q. M. Wang, X. H. Du, B. Xu, and L. E. Cross, “Electromechanical coupling and output efficiency of piezoelectric bending actuators”, IEEE transactions on ultrasonics, ferroelectrics, and frequency control, Vol. 46, No. 3, pp. 638-46, 1999.   \n[6] K. Tanoue, A. Ema, and H. Masuda, “Effect of Material Transfer and Work Hardening of Metal Surface on the Current Generated by Impact of Particles”, Journal of Chemical Engineering of Japan, Vol. 32, No. 4, pp. 544-548, 1999.   \n[7] K. Shibata, K. Suenaga, A. Nomoto, and T. Mishima, “Curie Temperature, Biaxial Elastic Modulus, and Thermal Expansion Coefficient of $( \\mathrm { K } , \\mathrm { N a } ) \\mathrm { N b } { \\mathrm { O } } _ { 3 }$ Piezoelectric Thin Films”, Japanese Journal of Applied Physics, Vol. 48, No. 12, p. 121408, 2009.   \n[8] I. Kanno, T. Ichida, K. Adachi, H. Kotera, K. Shibata, and T. Mishima, “Power-generation performance of lead-free $( \\mathrm { K } , \\mathrm { N a } ) \\mathrm { N b } { \\mathrm { O } } _ { 3 }$ piezoelectric thin-film energy harvesters”, Sensors and Actuators A: Physical, Vol. 179, pp. 132-136, 2012.   \n[9] Y. Kizaki, Y. Noguchi, and M. Miyayama, “Defect control for low leakage current in $\\mathrm { K } _ { 0 . 5 } \\mathrm { N a } _ { 0 . 5 } \\mathrm { N b O } _ { 3 }$ single crystals”, Applied Physics Letters, Vol. 89, No. 14, p. 142910, 2006.   \n[10] D.-M. Chun, M. Sato, and I. Kanno, “Precise measurement of the transverse piezoelectric coefficient for thin films on anisotropic substrate”, Journal of Applied Physics, Vol. 113, No. 4, p. 044111, 2013.   \n[11] Y. Tsujiura, K. Adachi, and I. Kanno, “Piezoelectric MEMS energy harvesters of PZT thin films on stainless steel cantilevers”, Sensors and Actuators A: Physical, 2013, submitted.   \n[12] M. Renaud, K. Karakaya, T. Sterken, P. Fiorini, C. Van Hoof, and R. Puers, “Fabrication, modelling and characterization of MEMS piezoelectric vibration harvesters”, Sensors and Actuators A: Physical, Vol. 145-146, pp. 380-386, 2008."
+    }
+  ],
+  "tables": [
+    {
+      "page": -1,
+      "content": ""
+    }
+  ],
+  "figures": [
+    {
+      "page": -1,
+      "caption": "",
+      "path": "images/2e999cf7a88ffbf21b971331fa700005bdbd8c1aac6c6bf26d51f736b8d22782.jpg"
+    },
+    {
+      "page": -1,
+      "caption": "",
+      "path": "images/9613b5ac56bc2d48d065b9d0f25ae5c14f6a5776c1299d418fce4ab347a32d2a.jpg"
+    },
+    {
+      "page": -1,
+      "caption": "",
+      "path": "images/f770c491da017dee7ebcf77f79471f78b102649ce4fe2053aeb489a53e6019a0.jpg"
+    },
+    {
+      "page": -1,
+      "caption": "",
+      "path": "images/9b2b45b013c99dfc64ef9554d433a8d3223b3a56da3de53ed8a728bc0e2b75e4.jpg"
+    },
+    {
+      "page": -1,
+      "caption": "",
+      "path": "images/f8be42bb87004089f4a7270848d1c589bf47c49f611bb7e8a89768917a0bcd76.jpg"
+    },
+    {
+      "page": -1,
+      "caption": "",
+      "path": "images/ad4929ed49d18a599af63fa2ffac2657300a21c2aabd1ca87fc3788b650ca4a9.jpg"
+    },
+    {
+      "page": -1,
+      "caption": "",
+      "path": "images/dfa38f3401addeff71d63cc15768673b30d914493fb0313fe0a1a044a4aa7c93.jpg"
+    },
+    {
+      "page": -1,
+      "caption": "",
+      "path": "images/8a0452396dd92a28a2fe3ed9e4f45aa8c873575784874584f54db87957ed5766.jpg"
+    }
+  ],
+  "metadata": {
+    "source": "both",
+    "pdf_url": "",
+    "parsed_at": "2026-03-10T09:57:24.516893+00:00"
+  }
+}

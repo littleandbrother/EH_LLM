@@ -1,0 +1,147 @@
+{
+  "metadata": {
+    "paper_id": "10_4028_www_scientific_net_amm_404_635",
+    "doi": "10.4028/www.scientific.net/amm.404.635",
+    "title": "Broadband Low-Frequency Vibration Energy Harvester with a Rolling Mass",
+    "year": 2013,
+    "journal": "Applied Mechanics and Materials"
+  },
+  "configuration": "cantilever",
+  "proof_mass": true,
+  "geometry": {
+    "length_mm": 31.8,
+    "width_mm": 6.4,
+    "thickness_mm": 0.38,
+    "substrate_thickness_um": 102,
+    "piezo_thickness_um": 139,
+    "tip_mass_g": null,
+    "diameter_mm": 8
+  },
+  "excitation": {
+    "type": "vibration",
+    "frequency_Hz": 37,
+    "acceleration_g": 1.5,
+    "displacement_mm": null,
+    "motion_source": "base excitation"
+  },
+  "load": {
+    "load_resistance_ohm": 100000
+  },
+  "output": {
+    "resonant_frequency_Hz": 37,
+    "output_power_W": 0.000602,
+    "open_circuit_voltage_V": 12.8,
+    "short_circuit_current_A": null,
+    "bandwidth_Hz": 5
+  },
+  "evidence": {
+    "configuration": {
+      "quote": "composed of two symmetrical cantilevered piezoelectric bimorphs",
+      "section": "Broadband Low-Frequency Vibration Energy Harvester with A Rolling Mass",
+      "source_type": "abstract"
+    },
+    "proof_mass": {
+      "quote": "rolling mass in a guiding channel",
+      "section": "Broadband Low-Frequency Vibration Energy Harvester with A Rolling Mass",
+      "source_type": "abstract"
+    },
+    "geometry": {
+      "length_mm": {
+        "quote": "The length, width and thickness of the bimorphs are $3 1 . 8 ~ \\mathrm { m m }$",
+        "section": "Prototype Assembly and Experimental Setup",
+        "source_type": "section"
+      },
+      "width_mm": {
+        "quote": "The length, width and thickness of the bimorphs are ... $6 . 4 \\ \\mathrm { m m }$",
+        "section": "Prototype Assembly and Experimental Setup",
+        "source_type": "section"
+      },
+      "thickness_mm": {
+        "quote": "The length, width and thickness of the bimorphs are ... $0 . 3 8 \\ \\mathrm { m m }$",
+        "section": "Prototype Assembly and Experimental Setup",
+        "source_type": "section"
+      },
+      "substrate_thickness_um": {
+        "quote": "A brass layer with the thickness of $1 0 2 ~ { \\mu \\mathrm { m } }$",
+        "section": "Prototype Assembly and Experimental Setup",
+        "source_type": "section"
+      },
+      "piezo_thickness_um": {
+        "quote": "two PZT-5H piezoelectric layers with the same thickness of $1 3 9 ~ { \\mu \\mathrm { m } }$",
+        "section": "Prototype Assembly and Experimental Setup",
+        "source_type": "section"
+      },
+      "tip_mass_g": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "diameter_mm": {
+        "quote": "steel sphere with the diameter of $8 \\mathrm { m m }$",
+        "section": "Prototype Assembly and Experimental Setup",
+        "source_type": "section"
+      }
+    },
+    "excitation": {
+      "type": {
+        "quote": "base excitation",
+        "section": "Broadband Low-Frequency Vibration Energy Harvester with A Rolling Mass",
+        "source_type": "abstract"
+      },
+      "frequency_Hz": {
+        "quote": "frequency of $3 7 \\ : \\mathrm { H z }$",
+        "section": "Broadband Low-Frequency Vibration Energy Harvester with A Rolling Mass",
+        "source_type": "abstract"
+      },
+      "acceleration_g": {
+        "quote": "amplitude of $1 . 5 \\ : \\mathrm { g }$",
+        "section": "Broadband Low-Frequency Vibration Energy Harvester with A Rolling Mass",
+        "source_type": "abstract"
+      },
+      "displacement_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "motion_source": {
+        "quote": "base excitation",
+        "section": "Broadband Low-Frequency Vibration Energy Harvester with A Rolling Mass",
+        "source_type": "abstract"
+      }
+    },
+    "load": {
+      "load_resistance_ohm": {
+        "quote": "resistor with the resistance of $1 0 0 ~ \\mathrm { k } \\Omega$",
+        "section": "Broadband Low-Frequency Vibration Energy Harvester with A Rolling Mass",
+        "source_type": "abstract"
+      }
+    },
+    "output": {
+      "resonant_frequency_Hz": {
+        "quote": "frequency of $3 7 \\ : \\mathrm { H z }$",
+        "section": "Broadband Low-Frequency Vibration Energy Harvester with A Rolling Mass",
+        "source_type": "abstract"
+      },
+      "output_power_W": {
+        "quote": "maximum output power ... was $6 0 2 ~ \\mu \\mathrm { W }$",
+        "section": "Broadband Low-Frequency Vibration Energy Harvester with A Rolling Mass",
+        "source_type": "abstract"
+      },
+      "open_circuit_voltage_V": {
+        "quote": "RMS open-circuit voltage of the right bimorph was $1 2 . 8 \\mathrm { ~ V ~ }$",
+        "section": "Experimental Results and Discussions",
+        "source_type": "section"
+      },
+      "short_circuit_current_A": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "bandwidth_Hz": {
+        "quote": "half power bandwidth was about ... $5 \\ : \\mathrm { H z }$",
+        "section": "Broadband Low-Frequency Vibration Energy Harvester with A Rolling Mass",
+        "source_type": "abstract"
+      }
+    }
+  }
+}

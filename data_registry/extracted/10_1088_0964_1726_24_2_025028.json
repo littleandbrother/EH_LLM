@@ -1,0 +1,147 @@
+{
+  "metadata": {
+    "paper_id": "10_1088_0964_1726_24_2_025028",
+    "doi": "10.1088/0964-1726/24/2/025028",
+    "title": "Theoretical and experimental investigation of a nonlinear compressive-mode energy harvester with high power output under weak excitations",
+    "year": 2015,
+    "journal": "Smart Materials and Structures"
+  },
+  "configuration": "frame",
+  "proof_mass": true,
+  "geometry": {
+    "length_mm": 50,
+    "width_mm": 5,
+    "thickness_mm": 0.48,
+    "substrate_thickness_um": null,
+    "piezo_thickness_um": 700,
+    "tip_mass_g": 100,
+    "diameter_mm": null
+  },
+  "excitation": {
+    "type": "vibration",
+    "frequency_Hz": 25.7,
+    "acceleration_g": 0.5,
+    "displacement_mm": null,
+    "motion_source": null
+  },
+  "load": {
+    "load_resistance_ohm": 100000
+  },
+  "output": {
+    "resonant_frequency_Hz": 25.7,
+    "output_power_W": 0.0547,
+    "open_circuit_voltage_V": null,
+    "short_circuit_current_A": null,
+    "bandwidth_Hz": 12
+  },
+  "evidence": {
+    "configuration": {
+      "quote": "HC-PEH is supported by two horizontally laid elastic beams bonded to the base.",
+      "section": "2. Design",
+      "source_type": "section"
+    },
+    "proof_mass": {
+      "quote": "Proof mass 100 g",
+      "section": "Table 2",
+      "source_type": "table"
+    },
+    "geometry": {
+      "length_mm": {
+        "quote": "Length of the elastic beam 50 mm",
+        "section": "Table 2",
+        "source_type": "table"
+      },
+      "width_mm": {
+        "quote": "Width of the elastic beam 5 mm",
+        "section": "Table 2",
+        "source_type": "table"
+      },
+      "thickness_mm": {
+        "quote": "Thickness of the elastic beam 0.48 mm",
+        "section": "Table 2",
+        "source_type": "table"
+      },
+      "substrate_thickness_um": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "piezo_thickness_um": {
+        "quote": "32 x 15 x 0.7 mm^3",
+        "section": "4. Experiments",
+        "source_type": "section"
+      },
+      "tip_mass_g": {
+        "quote": "Proof mass 100 g",
+        "section": "Table 2",
+        "source_type": "table"
+      },
+      "diameter_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      }
+    },
+    "excitation": {
+      "type": {
+        "quote": "Harvesting ambient vibration energy",
+        "section": "Abstract",
+        "source_type": "abstract"
+      },
+      "frequency_Hz": {
+        "quote": "25.7",
+        "section": "Table 3",
+        "source_type": "table"
+      },
+      "acceleration_g": {
+        "quote": "4.9 m s-2",
+        "section": "Table 3",
+        "source_type": "table"
+      },
+      "displacement_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "motion_source": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      }
+    },
+    "load": {
+      "load_resistance_ohm": {
+        "quote": "power output reaches its peak at 100 K Ohm",
+        "section": "5.1. Dynamic and electrical characterization of the HC-PEH",
+        "source_type": "section"
+      }
+    },
+    "output": {
+      "resonant_frequency_Hz": {
+        "quote": "25.7",
+        "section": "Table 3",
+        "source_type": "table"
+      },
+      "output_power_W": {
+        "quote": "54.7 mW",
+        "section": "Table 3",
+        "source_type": "table"
+      },
+      "open_circuit_voltage_V": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "short_circuit_current_A": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "bandwidth_Hz": {
+        "quote": "bandwidth for the prototype is about 12 Hz",
+        "section": "5.1. Dynamic and electrical characterization of the HC-PEH",
+        "source_type": "section"
+      }
+    }
+  }
+}

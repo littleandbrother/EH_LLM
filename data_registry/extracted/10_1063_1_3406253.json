@@ -1,0 +1,147 @@
+{
+  "metadata": {
+    "paper_id": "10_1063_1_3406253",
+    "doi": "10.1063/1.3406253",
+    "title": "Vibration energy harvesting using highly (001)-oriented Pb(Zr,Ti)O3 thin film",
+    "year": 2010,
+    "journal": "Journal of Applied Physics"
+  },
+  "configuration": "cantilever",
+  "proof_mass": false,
+  "geometry": {
+    "length_mm": 7.7,
+    "width_mm": 1.8,
+    "thickness_mm": 0.12,
+    "substrate_thickness_um": null,
+    "piezo_thickness_um": 3.6,
+    "tip_mass_g": null,
+    "diameter_mm": null
+  },
+  "excitation": {
+    "type": "vibration",
+    "frequency_Hz": 2450,
+    "acceleration_g": 4.59,
+    "displacement_mm": null,
+    "motion_source": "electromagnetic mechanical shaker"
+  },
+  "load": {
+    "load_resistance_ohm": 2200
+  },
+  "output": {
+    "resonant_frequency_Hz": 2450,
+    "output_power_W": 0.0001,
+    "open_circuit_voltage_V": 2.0,
+    "short_circuit_current_A": null,
+    "bandwidth_Hz": null
+  },
+  "evidence": {
+    "configuration": {
+      "quote": "Recently we have fabricated the cantilever-type energy harvesting devices",
+      "section": "Vibration energy harvesting using highly (001)-oriented Pb(Zr,Ti)O3 thin film",
+      "source_type": "section"
+    },
+    "proof_mass": {
+      "quote": "No proof mass was used for the cantilever",
+      "section": "Vibration energy harvesting using highly (001)-oriented Pb(Zr,Ti)O3 thin film",
+      "source_type": "section"
+    },
+    "geometry": {
+      "length_mm": {
+        "quote": "7700 μm in length",
+        "section": "Vibration energy harvesting using highly (001)-oriented Pb(Zr,Ti)O3 thin film",
+        "source_type": "section"
+      },
+      "width_mm": {
+        "quote": "1800 μm in width",
+        "section": "Vibration energy harvesting using highly (001)-oriented Pb(Zr,Ti)O3 thin film",
+        "source_type": "section"
+      },
+      "thickness_mm": {
+        "quote": "120 μm in thickness",
+        "section": "Vibration energy harvesting using highly (001)-oriented Pb(Zr,Ti)O3 thin film",
+        "source_type": "section"
+      },
+      "substrate_thickness_um": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "piezo_thickness_um": {
+        "quote": "thicknesses of the PZT thin film ... were 3.6 μm",
+        "section": "Vibration energy harvesting using highly (001)-oriented Pb(Zr,Ti)O3 thin film",
+        "source_type": "section"
+      },
+      "tip_mass_g": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "diameter_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      }
+    },
+    "excitation": {
+      "type": {
+        "quote": "Energy conversion from mechanical vibration into electric power",
+        "section": "Vibration energy harvesting using highly (001)-oriented Pb(Zr,Ti)O3 thin film",
+        "source_type": "abstract"
+      },
+      "frequency_Hz": {
+        "quote": "2450 Hz",
+        "section": "Vibration energy harvesting using highly (001)-oriented Pb(Zr,Ti)O3 thin film",
+        "source_type": "abstract"
+      },
+      "acceleration_g": {
+        "quote": "vibration acceleration of 45 m/s^2",
+        "section": "Vibration energy harvesting using highly (001)-oriented Pb(Zr,Ti)O3 thin film",
+        "source_type": "abstract"
+      },
+      "displacement_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "motion_source": {
+        "quote": "electromagnetic mechanical shaker",
+        "section": "Vibration energy harvesting using highly (001)-oriented Pb(Zr,Ti)O3 thin film",
+        "source_type": "section"
+      }
+    },
+    "load": {
+      "load_resistance_ohm": {
+        "quote": "impedance-matched load resistance of 2.2 kΩ",
+        "section": "Vibration energy harvesting using highly (001)-oriented Pb(Zr,Ti)O3 thin film",
+        "source_type": "abstract"
+      }
+    },
+    "output": {
+      "resonant_frequency_Hz": {
+        "quote": "resonant frequency around 2450 Hz",
+        "section": "Vibration energy harvesting using highly (001)-oriented Pb(Zr,Ti)O3 thin film",
+        "source_type": "section"
+      },
+      "output_power_W": {
+        "quote": "average output power of 100 μW",
+        "section": "Vibration energy harvesting using highly (001)-oriented Pb(Zr,Ti)O3 thin film",
+        "source_type": "abstract"
+      },
+      "open_circuit_voltage_V": {
+        "quote": "open voltage V_p-p ~ 2 V",
+        "section": "Vibration energy harvesting using highly (001)-oriented Pb(Zr,Ti)O3 thin film",
+        "source_type": "section"
+      },
+      "short_circuit_current_A": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "bandwidth_Hz": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      }
+    }
+  }
+}

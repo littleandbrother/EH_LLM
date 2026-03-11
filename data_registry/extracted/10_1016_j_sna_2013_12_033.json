@@ -1,0 +1,147 @@
+{
+  "metadata": {
+    "paper_id": "10_1016_j_sna_2013_12_033",
+    "doi": "10.1016/j.sna.2013.12.033",
+    "title": "Theoretical modeling and analysis of mechanical impact driven and frequency up-converted piezoelectric energy harvester for low-frequency and wide-bandwidth operation",
+    "year": 2014,
+    "journal": "Sensors and Actuators A Physical"
+  },
+  "configuration": "cantilever",
+  "proof_mass": true,
+  "geometry": {
+    "length_mm": 25.0,
+    "width_mm": 3.5,
+    "thickness_mm": 0.4,
+    "substrate_thickness_um": 100.0,
+    "piezo_thickness_um": 300.0,
+    "tip_mass_g": 4.36,
+    "diameter_mm": null
+  },
+  "excitation": {
+    "type": "vibration",
+    "frequency_Hz": 14.5,
+    "acceleration_g": 0.612,
+    "displacement_mm": null,
+    "motion_source": "electrodynamic vibration exciter"
+  },
+  "load": {
+    "load_resistance_ohm": 180000.0
+  },
+  "output": {
+    "resonant_frequency_Hz": 14.5,
+    "output_power_W": 0.000378,
+    "open_circuit_voltage_V": 28.5,
+    "short_circuit_current_A": null,
+    "bandwidth_Hz": 7.5
+  },
+  "evidence": {
+    "configuration": {
+      "quote": "low frequency flexible driving beam with horizontally extended tip mass, upon excitation, hits two high frequency rigid piezoelectric generating beams",
+      "section": "a b s t r a c t",
+      "source_type": "abstract"
+    },
+    "proof_mass": {
+      "quote": "Proof mass (Iron) of same area as the horizontally extended beam tip is attached to it",
+      "section": "3. Device configuration and working principle",
+      "source_type": "section"
+    },
+    "geometry": {
+      "length_mm": {
+        "quote": "Generating beam dimension 25 mm × 3.5 mm × 0.4 mm",
+        "section": "3. Device configuration and working principle",
+        "source_type": "table"
+      },
+      "width_mm": {
+        "quote": "Generating beam dimension 25 mm × 3.5 mm × 0.4 mm",
+        "section": "3. Device configuration and working principle",
+        "source_type": "table"
+      },
+      "thickness_mm": {
+        "quote": "Generating beam dimension 25 mm × 3.5 mm × 0.4 mm",
+        "section": "3. Device configuration and working principle",
+        "source_type": "table"
+      },
+      "substrate_thickness_um": {
+        "quote": "bonded to a 0.1 mm thick stainless steel support layer",
+        "section": "3. Device configuration and working principle",
+        "source_type": "section"
+      },
+      "piezo_thickness_um": {
+        "quote": "0.3 mm thick PMN-PT single crystal piezoelectric layer",
+        "section": "3. Device configuration and working principle",
+        "source_type": "section"
+      },
+      "tip_mass_g": {
+        "quote": "Proof mass 4.36 g",
+        "section": "3. Device configuration and working principle",
+        "source_type": "table"
+      },
+      "diameter_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      }
+    },
+    "excitation": {
+      "type": {
+        "quote": "electrodynamic vibration exciter",
+        "section": "5.1. Experimental setup",
+        "source_type": "section"
+      },
+      "frequency_Hz": {
+        "quote": "resonant frequency of 14.5 Hz",
+        "section": "a b s t r a c t",
+        "source_type": "abstract"
+      },
+      "acceleration_g": {
+        "quote": "6 m s^-2 acceleration",
+        "section": "a b. s t r a c t",
+        "source_type": "abstract"
+      },
+      "displacement_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "motion_source": {
+        "quote": "electrodynamic vibration exciter",
+        "section": "5.1. Experimental setup",
+        "source_type": "section"
+      }
+    },
+    "load": {
+      "load_resistance_ohm": {
+        "quote": "180 kΩ resistor",
+        "section": "5.2. Experimental results",
+        "source_type": "section"
+      }
+    },
+    "output": {
+      "resonant_frequency_Hz": {
+        "quote": "resonant frequency of 14.5 Hz",
+        "section": "a b s t r a c t",
+        "source_type": "abstract"
+      },
+      "output_power_W": {
+        "quote": "maximum of 378 μW peak power",
+        "section": "a b s t r a c t",
+        "source_type": "abstract"
+      },
+      "open_circuit_voltage_V": {
+        "quote": "Output voltage was increased to 28.5 V at 14.5 Hz frequency",
+        "section": "5.2. Experimental results",
+        "source_type": "section"
+      },
+      "short_circuit_current_A": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "bandwidth_Hz": {
+        "quote": "The overall bandwidth is 7.5 Hz",
+        "section": "a b s t r a c t",
+        "source_type": "abstract"
+      }
+    }
+  }
+}

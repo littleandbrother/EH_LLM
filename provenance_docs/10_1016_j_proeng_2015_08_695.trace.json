@@ -1,0 +1,28 @@
+{
+  "paper_id": "10_1016_j_proeng_2015_08_695",
+  "doi": "10.1016/j.proeng.2015.08.695",
+  "title": "Fabrication, Simulation and Characterisation of MEMS Piezoelectric Vibration Energy Harvester for Low Frequency",
+  "source_apis": [
+    "openalex"
+  ],
+  "pdf_url": "https://doi.org/10.1016/j.proeng.2015.08.695",
+  "pdf_local_path": "data_registry/raw_stage04_paper_pdf_cleaned/10_1016_j_proeng_2015_08_695.pdf",
+  "processing": {
+    "tool": "MinerU",
+    "version": "python -m mineru.cli.client, version 2.7.6",
+    "timestamp": "2026-03-10T09:31:01.154827+00:00",
+    "duration_s": 81.61,
+    "success": true,
+    "error": ""
+  },
+  "outputs": {
+    "content_md": "/root/EH-LLM-vehbench-exp/parsed_docs/10_1016_j_proeng_2015_08_695_5t7wobfl/content.md",
+    "layout_json": "/root/EH-LLM-vehbench-exp/parsed_docs/10_1016_j_proeng_2015_08_695_5t7wobfl/layout.json",
+    "images_dir": "/root/EH-LLM-vehbench-exp/parsed_docs/10_1016_j_proeng_2015_08_695_5t7wobfl/10_1016_j_proeng_2015_08_695/auto/images",
+    "normalized_json": "/root/EH-LLM-vehbench-exp/normalized_docs/10_1016_j_proeng_2015_08_695.json"
+  },
+  "data_lineage": {
+    "papers_jsonl_hash": "e18661752ae9cdd0b2851ad9cb9b9285",
+    "pipeline_step": "ingestion/mineru_runner.py"
+  }
+}

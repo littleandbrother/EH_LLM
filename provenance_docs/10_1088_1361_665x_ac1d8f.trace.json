@@ -1,0 +1,28 @@
+{
+  "paper_id": "10_1088_1361_665x_ac1d8f",
+  "doi": "10.1088/1361-665x/ac1d8f",
+  "title": "Broadband piezoelectric energy harvesting induced by mixed resonant modes under magnetic plucking",
+  "source_apis": [
+    "both"
+  ],
+  "pdf_url": "https://espace.curtin.edu.au/bitstream/20.500.11937/88202/2/88005.pdf",
+  "pdf_local_path": "data_registry/raw_stage04_paper_pdf_cleaned/10_1088_1361_665x_ac1d8f.pdf",
+  "processing": {
+    "tool": "MinerU",
+    "version": "python -m mineru.cli.client, version 2.7.6",
+    "timestamp": "2026-03-10T10:21:21.701213+00:00",
+    "duration_s": 142.09,
+    "success": true,
+    "error": ""
+  },
+  "outputs": {
+    "content_md": "/root/EH-LLM-vehbench-exp/parsed_docs/10_1088_1361_665x_ac1d8f_biqksh8f/content.md",
+    "layout_json": "/root/EH-LLM-vehbench-exp/parsed_docs/10_1088_1361_665x_ac1d8f_biqksh8f/layout.json",
+    "images_dir": "/root/EH-LLM-vehbench-exp/parsed_docs/10_1088_1361_665x_ac1d8f_biqksh8f/10_1088_1361_665x_ac1d8f/auto/images",
+    "normalized_json": "/root/EH-LLM-vehbench-exp/normalized_docs/10_1088_1361_665x_ac1d8f.json"
+  },
+  "data_lineage": {
+    "papers_jsonl_hash": "a4744212aaceffef7ec9ef78a6c8f081",
+    "pipeline_step": "ingestion/mineru_runner.py"
+  }
+}

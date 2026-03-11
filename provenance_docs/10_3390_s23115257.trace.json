@@ -1,0 +1,28 @@
+{
+  "paper_id": "10_3390_s23115257",
+  "doi": "10.3390/s23115257",
+  "title": "Linear Segmented Arc-Shaped Piezoelectric Branch Beam Energy Harvester for Ultra-Low Frequency Vibrations",
+  "source_apis": [
+    "both"
+  ],
+  "pdf_url": "https://www.mdpi.com/1424-8220/23/11/5257/pdf?version=1685611656",
+  "pdf_local_path": "data_registry/raw_stage04_paper_pdf_cleaned/10_3390_s23115257.pdf",
+  "processing": {
+    "tool": "MinerU",
+    "version": "python -m mineru.cli.client, version 2.7.6",
+    "timestamp": "2026-03-10T09:37:24.348243+00:00",
+    "duration_s": 106.4,
+    "success": true,
+    "error": ""
+  },
+  "outputs": {
+    "content_md": "/root/EH-LLM-vehbench-exp/parsed_docs/10_3390_s23115257_p5znhndq/content.md",
+    "layout_json": "/root/EH-LLM-vehbench-exp/parsed_docs/10_3390_s23115257_p5znhndq/layout.json",
+    "images_dir": "/root/EH-LLM-vehbench-exp/parsed_docs/10_3390_s23115257_p5znhndq/10_3390_s23115257/auto/images",
+    "normalized_json": "/root/EH-LLM-vehbench-exp/normalized_docs/10_3390_s23115257.json"
+  },
+  "data_lineage": {
+    "papers_jsonl_hash": "59699dc9c5c12ebe6682b38d83af99a6",
+    "pipeline_step": "ingestion/mineru_runner.py"
+  }
+}

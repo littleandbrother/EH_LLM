@@ -1,0 +1,28 @@
+{
+  "paper_id": "10_1016_j_aej_2020_11_024",
+  "doi": "10.1016/j.aej.2020.11.024",
+  "title": "An experimental validation of a new shape optimization technique for piezoelectric harvesting cantilever beams",
+  "source_apis": [
+    "both"
+  ],
+  "pdf_url": "https://doi.org/10.1016/j.aej.2020.11.024",
+  "pdf_local_path": "data_registry/raw_stage04_paper_pdf_cleaned/10_1016_j_aej_2020_11_024.pdf",
+  "processing": {
+    "tool": "MinerU",
+    "version": "python -m mineru.cli.client, version 2.7.6",
+    "timestamp": "2026-03-10T10:19:50.714432+00:00",
+    "duration_s": 94.89,
+    "success": true,
+    "error": ""
+  },
+  "outputs": {
+    "content_md": "/root/EH-LLM-vehbench-exp/parsed_docs/10_1016_j_aej_2020_11_024_g33wgcig/content.md",
+    "layout_json": "/root/EH-LLM-vehbench-exp/parsed_docs/10_1016_j_aej_2020_11_024_g33wgcig/layout.json",
+    "images_dir": "/root/EH-LLM-vehbench-exp/parsed_docs/10_1016_j_aej_2020_11_024_g33wgcig/10_1016_j_aej_2020_11_024/auto/images",
+    "normalized_json": "/root/EH-LLM-vehbench-exp/normalized_docs/10_1016_j_aej_2020_11_024.json"
+  },
+  "data_lineage": {
+    "papers_jsonl_hash": "c011b20c4d5b14aaa3ee3c51c0573d28",
+    "pipeline_step": "ingestion/mineru_runner.py"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "paper_id": "10_3390_s21113861",
+  "doi": "10.3390/s21113861",
+  "title": "Analytical Modeling of a Doubly Clamped Flexible Piezoelectric Energy Harvester with Axial Excitation and Its Experimental Characterization",
+  "source_apis": [
+    "openalex"
+  ],
+  "pdf_url": "https://www.mdpi.com/1424-8220/21/11/3861/pdf?version=1622775373",
+  "pdf_local_path": "data_registry/raw_stage04_paper_pdf_cleaned/10_3390_s21113861.pdf",
+  "processing": {
+    "tool": "MinerU",
+    "version": "python -m mineru.cli.client, version 2.7.6",
+    "timestamp": "2026-03-10T10:16:54.825215+00:00",
+    "duration_s": 102.3,
+    "success": true,
+    "error": ""
+  },
+  "outputs": {
+    "content_md": "/root/EH-LLM-vehbench-exp/parsed_docs/10_3390_s21113861_j7zrg20i/content.md",
+    "layout_json": "/root/EH-LLM-vehbench-exp/parsed_docs/10_3390_s21113861_j7zrg20i/layout.json",
+    "images_dir": "/root/EH-LLM-vehbench-exp/parsed_docs/10_3390_s21113861_j7zrg20i/10_3390_s21113861/auto/images",
+    "normalized_json": "/root/EH-LLM-vehbench-exp/normalized_docs/10_3390_s21113861.json"
+  },
+  "data_lineage": {
+    "papers_jsonl_hash": "bdcde2fc5e6df034fd485b53068fa5e3",
+    "pipeline_step": "ingestion/mineru_runner.py"
+  }
+}

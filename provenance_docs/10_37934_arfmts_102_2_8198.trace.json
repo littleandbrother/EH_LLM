@@ -1,0 +1,28 @@
+{
+  "paper_id": "10_37934_arfmts_102_2_8198",
+  "doi": "10.37934/arfmts.102.2.8198",
+  "title": "Modelling and Characterization Piezoelectric Transducer for Sound Wave Energy Harvesting",
+  "source_apis": [
+    "both"
+  ],
+  "pdf_url": "https://semarakilmu.com.my/journals/index.php/fluid_mechanics_thermal_sciences/article/download/1406/1038",
+  "pdf_local_path": "data_registry/raw_stage04_paper_pdf_cleaned/10_37934_arfmts_102_2_8198.pdf",
+  "processing": {
+    "tool": "MinerU",
+    "version": "python -m mineru.cli.client, version 2.7.6",
+    "timestamp": "2026-03-10T10:14:03.193934+00:00",
+    "duration_s": 90.02,
+    "success": true,
+    "error": ""
+  },
+  "outputs": {
+    "content_md": "/root/EH-LLM-vehbench-exp/parsed_docs/10_37934_arfmts_102_2_8198_a5k4h0oe/content.md",
+    "layout_json": "/root/EH-LLM-vehbench-exp/parsed_docs/10_37934_arfmts_102_2_8198_a5k4h0oe/layout.json",
+    "images_dir": "/root/EH-LLM-vehbench-exp/parsed_docs/10_37934_arfmts_102_2_8198_a5k4h0oe/10_37934_arfmts_102_2_8198/auto/images",
+    "normalized_json": "/root/EH-LLM-vehbench-exp/normalized_docs/10_37934_arfmts_102_2_8198.json"
+  },
+  "data_lineage": {
+    "papers_jsonl_hash": "a206299882b4270d9d902cb584489f09",
+    "pipeline_step": "ingestion/mineru_runner.py"
+  }
+}

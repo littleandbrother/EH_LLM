@@ -1,0 +1,28 @@
+{
+  "paper_id": "10_1109_issbes_2015_7435914",
+  "doi": "10.1109/issbes.2015.7435914",
+  "title": "From ambient vibrations to green energy source: MEMS piezoelectric energy harvester for low frequency application",
+  "source_apis": [
+    "both"
+  ],
+  "pdf_url": "",
+  "pdf_local_path": "data_registry/raw_stage04_paper_pdf_cleaned/10_1109_issbes_2015_7435914.pdf",
+  "processing": {
+    "tool": "MinerU",
+    "version": "python -m mineru.cli.client, version 2.7.6",
+    "timestamp": "2026-03-10T10:23:27.665247+00:00",
+    "duration_s": 82.07,
+    "success": true,
+    "error": ""
+  },
+  "outputs": {
+    "content_md": "/root/EH-LLM-vehbench-exp/parsed_docs/10_1109_issbes_2015_7435914_yuqhjwkf/content.md",
+    "layout_json": "/root/EH-LLM-vehbench-exp/parsed_docs/10_1109_issbes_2015_7435914_yuqhjwkf/layout.json",
+    "images_dir": "/root/EH-LLM-vehbench-exp/parsed_docs/10_1109_issbes_2015_7435914_yuqhjwkf/10_1109_issbes_2015_7435914/auto/images",
+    "normalized_json": "/root/EH-LLM-vehbench-exp/normalized_docs/10_1109_issbes_2015_7435914.json"
+  },
+  "data_lineage": {
+    "papers_jsonl_hash": "c23d0b8808e97b8b366b1ea3aaa211d4",
+    "pipeline_step": "ingestion/mineru_runner.py"
+  }
+}

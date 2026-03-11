@@ -1,0 +1,28 @@
+{
+  "paper_id": "10_1515_teme_2020_0030",
+  "doi": "10.1515/teme-2020-0030",
+  "title": "Electromechanical modelling of piezoelectric vibration energy harvester with a novel dynamic magnifier",
+  "source_apis": [
+    "both"
+  ],
+  "pdf_url": "",
+  "pdf_local_path": "data_registry/raw_stage04_paper_pdf_cleaned/10_1515_teme_2020_0030.pdf",
+  "processing": {
+    "tool": "MinerU",
+    "version": "python -m mineru.cli.client, version 2.7.6",
+    "timestamp": "2026-03-10T10:15:57.778550+00:00",
+    "duration_s": 110.71,
+    "success": true,
+    "error": ""
+  },
+  "outputs": {
+    "content_md": "/root/EH-LLM-vehbench-exp/parsed_docs/10_1515_teme_2020_0030_9bnxviv3/content.md",
+    "layout_json": "/root/EH-LLM-vehbench-exp/parsed_docs/10_1515_teme_2020_0030_9bnxviv3/layout.json",
+    "images_dir": "/root/EH-LLM-vehbench-exp/parsed_docs/10_1515_teme_2020_0030_9bnxviv3/10_1515_teme_2020_0030/auto/images",
+    "normalized_json": "/root/EH-LLM-vehbench-exp/normalized_docs/10_1515_teme_2020_0030.json"
+  },
+  "data_lineage": {
+    "papers_jsonl_hash": "9f0e0b44d691676447d329c67884f08d",
+    "pipeline_step": "ingestion/mineru_runner.py"
+  }
+}

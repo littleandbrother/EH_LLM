@@ -1,0 +1,119 @@
+{
+  "paper_id": "10_1186_s40486_017_0054_x",
+  "doi": "10.1186/s40486-017-0054-x",
+  "title": "Micro-fabricated flexible PZT cantilever using d33 mode for energy harvesting",
+  "year": 2017,
+  "venue": "Micro and Nano Systems Letters",
+  "authors": [
+    "Hyunok Cho",
+    "Jongcheol Park",
+    "Jae Y. Park",
+    "Jae Yeong Park"
+  ],
+  "citation_count": 19,
+  "sections": [
+    {
+      "heading": "Micro-fabricated fexible PZT cantilever using d33 mode for energy harvesting",
+      "level": 1,
+      "text": "Hyunok Cho, Jongcheol Park and Jae Yeong Park\\*"
+    },
+    {
+      "heading": "Abstract",
+      "level": 1,
+      "text": "This paper presents a micro-fabricated fexible and curled PZT $\\mathrm { \\Delta [ P b ( Z r _ { 0 . 5 2 } T i _ { 0 . 4 8 } ) O _ { 3 } ] }$ cantilever using ${ \\mathsf { d } } _ { 3 3 }$ piezoelectric mode for vibration based energy harvesting applications. The proposed cantilever based energy harvester consists of polyimide, PZT thin flm, and inter-digitated ${ \\mathsf { I r O } } _ { \\times }$ electrodes. The fexible cantilever was formed using bulk-micromachining on a silicon wafer to integrate it with ICs. The ${ \\mathsf { d } } _ { 3 3 }$ piezoelectric mode was applied to achieve a large output voltage by using inter-digitated electrodes, and the PZT thin flm on polyimide layer has a remnant polarization and coercive fled of approximately $2 P _ { r } = 4 7 . 9 \\mu \\mathrm { C } / \\mathrm { c m } ^ { 2 }$ and $2 { \\pmb { \\mathrm { \\varepsilon } } } _ { c } = 7 8 . 8 \\mathsf { k V / c m } _ { \\ r { \\ r } }$ respectively. The relative dielectric constant was 900. The fabricated micro-electromechanical systems energy harvester generated output voltages of $1 . 2 \\lor$ and output power of $1 1 7 \\mathsf { n W }$ at its optimal resistive load of 6.6 MΩ from its resonant frequency of $9 7 . 8 \\ H z$ with an acceleration of $5 \\mathsf { m } / \\mathsf { S } ^ { 2 }$ .\n\nKeywords: Flexible, PZT, Cantilever, MEMS, Energy harvesting"
+    },
+    {
+      "heading": "Background",
+      "level": 1,
+      "text": "Vibration-based energy harvesters have been considered as a promising power solution for wireless sensor nodes due to their sustainability and reliability in harsh environments and because vibration energy has a higher power density than other forms of wasted energy. Especially, piezoelectric energy harvesters have been actively studied due to their easy integration with micro-electromechanical systems (MEMS) and integrated circuit (IC) technologies [1–3]. In a typical piezoelectric energy harvester, a piezoelectric material is attached to a rigid structure, such as a silicon cantilever, and a proof mass located at the free end of the cantilever is coupled with an induced vibration. Te transducer combined with a mechanical resonator converts the kinetic energy of the proof mass to electrical energy via the piezoelectric material [3–7]. However, the typical rigid-body based cantilever type energy harvester has a large resonance frequency due to its high spring constant. Tus, it is not for harvesting energy from human activity or low frequency ambient vibration. Polyvinylidene fuoride (PVDF) is probably the most popular material for fexible energy harvesting applications. However, PVDF has lower dielectric and piezoelectric properties than ceramics such as PZT. For fexible piezoelectric flms based on ceramics, several approaches have been reported. Nunes-Pereira et  al. reported a piezoelectric fber composite based fexible energy harvester for wearable applications. Piezoelectric fber composite (PFC) based devices presented a larger output than PVDF based ones [8]. Lin et al. presented a $_ { \\mathrm { Z n O } }$ nano wire array based fexible nano generator by employing polydimethylsiloxane (PDMS) [9]. Do et  al. and Park et  al. also demonstrated a ceramic based fexible piezoelectric flm. Te laser annealing lift-of technique was utilized to transform the piezoelectric ceramic layer into a fexible substrate [10, 11]. Although the feasibility of using fexible piezoelectric flms for energy harvesting applications has been well established, the fabrication process has limitations in terms of its integration with integrated circuits (ICs), such as the rectifying or boost-up converter in the interface circuit of the energy harvester. In this paper, a fexible piezoelectric energy harvester has been proposed and developed using low temperature process and silicon bulk micromachining technique for the formation of proof mass to compatible with integrated circuit fabrication process without any complex fabrication process such as laser annealing lift-of process. Te proposed harvester also utilized a polyimide based fexible cantilever with low spring constant for harvesting energy from human activity or low frequency ambient vibrations."
+    },
+    {
+      "heading": "Design and fabrication",
+      "level": 1,
+      "text": "Te proposed vibration energy harvester consists of a fexible and curled piezoelectric cantilever and proof mass, as shown in Fig.  1. Te fexible cantilever has the advantage of low spring constant which allows it to be excited by low frequency vibrations. Figure  2 presents the simulated spring constants of the proposed cantilevers for energy harvesting by using CoventorWare. Te spring constants of rectangular shaped silicon cantilever, rectangular shaped polyimide cantilever, and trapezoid shaped polyimide cantilever are 35, 4.85 and $3 . 6 4 ~ \\mathrm { N / m }$ respectively. Te oscillation of the proof mass at the end of the cantilever results in changes of the curvature of the piezoelectric layer, thus inducing a strain on it. Tus, the proposed energy harvester generates electricity from ambient vibration [12]. In order to improve the output voltage of the energy harvester, the piezoelectric ${ \\bf d } _ { 3 3 }$ -mode was utilized by using inter-digitated electrodes, as shown in Fig. 1. Tis confguration is more sensitive to the excited vibration than the ${ \\bf d } _ { 3 1 }$ -mode and also has an advantage in terms of the forward bias of the rectifying diode circuit [6].\n\n![](images/545207953a17aa26288b7fc6066c021538a2d6939eedd3c64e9cc3dd2e2b7c0b.jpg)  \nFig. 1 Schematic drawing of the proposed piezoelectric ${ \\mathsf { d } } _ { 3 3 }$ -mode MEMS power generator using a fexible and curled PZT cantilever\n\nFigure 3 shows the fabrication process of the proposed fexible cantilever device. Firstly, LPCVD SiNx and LTO were deposited on Si wafers with thicknesses of 0.8 and $0 . 2 \\ \\mu \\mathrm { m } ,$ , respectively. $\\mathrm { P b T i O } _ { 3 }$ and $\\mathrm { P b } ( Z \\mathrm { r } _ { 0 . 5 2 } \\mathrm { T i } _ { 0 . 4 8 } ) \\mathrm { O } _ { 3 }$ thin flms with thicknesses of 0.2 and $1 \\ \\mu \\mathrm { m } ,$ respectively, were sol–gel spin coated and annealed at $6 5 0 ~ ^ { \\circ } \\mathrm { C }$ under oxygen ambient consecutively. A $0 . 1 ~ { \\mu \\mathrm { m } }$ layer of sputtered $\\mathrm { I r O } _ { \\mathrm { x } }$ was deposited on the PZT thin flm as the electrodes. Te annealing process at $6 5 0 ~ ^ { \\circ } \\mathrm { C }$ under oxygen ambient was performed to crystallize the flms as a perovskite structure. Te $\\mathrm { I r O } _ { \\mathrm { x } }$ layers were patterned by the inductively coupled plasma (ICP) dry etching technique and the PZT thin flm was wet-etched using $\\mathrm { H F { : } H N O _ { 3 } { : } H C l { : } H _ { 2 } O }$ at a ratio of 1:3:5:32 as the etchant at room temperature. In order to defne the cantilever geometry, a $1 8 ~  { \\mu \\mathrm { m } }$ flm of photo-defnable polyimide (HD4100, HD MicroSystems) was spin-coated and structured by photolithography as an elastic layer. Te cantilever device was released by wet-etching and dry-etching of the bulk silicon. Te back side of SiNx defned by RIE etching was utilized as a mask-layer for KOH wet-etching to form the Si proof mass. Most of the bulk silicon was carefully etched using KOH wet-etching and the remaining silicon with a thickness of $2 0 \\mu \\mathrm { m }$ was etched using $\\mathrm { X e F } _ { 2 }$ etching. Finally, the cantilever device was released by RIE etching of the front side of the SiNx/LTO layer. As shown in Fig. 4a, trapezoid and rectangular geometries were designed and fabricated for the fexible cantilever based energy harvesters. Te trapezoid and rectangular shaped piezoelectric energy harvesters utilized the fexible and curled cantilevers with the length of $2 0 0 0 \\mu \\mathrm { m }$ and the width of $3 0 0 0 \\mu \\mathrm { m }$ , respectively. In the case of trapezoid geometry, the width of cantilever becomes narrow toward the proof mass. Te proof mass has the length of $2 0 0 0 \\mu \\mathrm { m }$ , width of $3 0 0 0 \\mu \\mathrm { m }$ and thickness of $5 2 5 ~ { \\mu \\mathrm { m } }$ . Te fabricated cantilevers undergo bending deformation, due to the internal elastic stress, and have radii of curvature of 1.2 and $1 . 4 ~ \\mathrm { m m }$ for the trapezoid and rectangular geometries, respectively. Figure 4b just shows how much the fabricated PZT cantilever is fexible visually and Fig.  4c shows the IDT electrodes using $\\mathrm { I r O } _ { \\mathrm { x } } .$ . Figure  5 shows the polarization properties of the PZT thin flm on the rectangular shaped fexible polyimide cantilever characterized by polarization voltage measurements using a Radiant Precision LC system. A well-defned PE hysteresis curve was obtained and the measured results were $2 P _ { r } = 4 7 . 9 ~ \\mu \\mathrm { C } / \\mathrm { c m } ^ { 2 }$ and\n\n![](images/64a2508f26c81c4025361e1250122774b95616c6f661313006512ea5ee7d4d6c.jpg)  \nFig. 2 Simulated spring constants of the designed cantilevers: a rectangular shaped silicon cantilever, b rectangular shaped polyimide cantilever, and c trapezoid shaped polyimide cantilever\n\n![](images/a7d836833bedc7ba6ba0ae1a0ab535a8f4fab43c19c5e49bbc42d43d55e2d322.jpg)  \nFig. 3 Fabrication of fexible PZT based energy harvester: a deposition of SiNx/LTO, PZT/PbTiO3 and Pt on Si wafer, b Pt etching for IDT electrodes, c PZT wet etching, d depositing and defning the cantilever by using photo-defnable polyimide, e KOH wet etching to form the proof mass, f SiNx/ LTO etching by RIE for release\n\n$2 E _ { c } = 7 8 . 8 ~ \\mathrm { k V / c m } .$ . Te capacitance measured using an HP4194A is $0 . 2 3 ~ \\mathrm { n F }$ and the extracted relative dielectric constant is 1243.4. In order to measure the dielectric properties, the efective area for the IDT electrodes was calculated as the product of the length of the comb fngers and the thickness of the PZT thin flm [13, 14]."
+    },
+    {
+      "heading": "Experimental results and discussion",
+      "level": 1,
+      "text": "Figure  6 shows the frequency responses of the fabricated energy harvesters using the polyimide based PZT cantilever. Tey have resonant frequencies of 97.8 and 121  Hz and corresponding Q-factors of 51.4 and 57.6 from an input acceleration of $5 . 0 6 \\ \\mathrm { m } / \\mathrm { s } ^ { 2 }$ for the trapezoid and rectangular geometries, respectively. Te resonant frequency of the polyimide cantilever devices was lower than that of the previously reported devices with similar geometrical dimensions, due to their low elastic modulus of approximately $3 . 4 \\mathrm { \\ G P a }$ [4, 7]. Furthermore, the trapezoid geometry has a lower resonant frequency than the rectangular one because the trapezoid geometry has narrow width of cantilever than the rectangular device resulting in lower spring constant, as shown in Fig. 6. Maximum output powers of 117 and $9 7 ~ \\mathrm { n W }$ were generated for load resistances of 6.6 and $4 . 4 ~ \\mathrm { M } \\Omega$ from vertically excited vibration, respectively, as presented in Fig. 7. Te higher output voltage than ${ \\bf d } _ { 3 1 }$ mode PZT curled cantilever based energy harvester of Park et  al. could be generated by ${ \\bf d } _ { 3 3 }$ piezoelectric mode by using inter-digitated electrodes. In comparison of trapezoid and rectangular shaped geometries, the trapezoid geometry exhibited higher output voltage than the rectangular one as shown in Fig. 7. Since the induced stresses of the two ends of cantilever do afect to the output voltage. In case of rectangular geometry, stress is just concentrated at the anchor of the cantilever. On the other hand, in case of trapezoid geometry, stress is concentrated at both two ends (anchor and free end) of the cantilever.\n\n![](images/a84905902aa6cd0d459e07756e825e6c770644ce5479a1b363df95a121c42389.jpg)  \nFig. 4 Photograph of the micro-fabricated fexible PZT cantilever based energy harvester: a trapezoid (left) and rectangular (right) shaped cantilevers, b visual inspection of fexibility in the fabricated polyamide/PZT cantilever, and c inter-digitated electrodes for piezoelectric ${ \\mathrm { d } } _ { 3 3 } ^ { \\phantom { * } }$ -mode operation on the rectangular shaped cantilever\n\n![](images/c92159af9a797dc59108b556aee079b208661a1d07567b1bd97eb7349db76634.jpg)  \nFig. 5 Polarization curve measured by Precision LC system of the PZT thin flm with $\\mathsf { I r O } _ { \\times }$ inter-digitally shaped electrodes formed onto the rectangular shaped Polyimide cantilever\n\n![](images/ea46dd395746902b60720d563226d59e0ea21360a1ab706aa145afda2d3a7760.jpg)  \nFig. 6 Normalized open circuit voltage of the micro-fabricated curled cantilever based energy harvester under vertically induced vibration\n\n![](images/ddb4a5b3f33d1b2404019a3110a4ed0b67701f3acaa8c1adb8d96f8f9b71f901.jpg)  \nFig. 7 Measured output voltage and power with diferent loads under an acceleration of $5 \\mathrm { m } / \\varsigma ^ { 2 }$ at their resonant frequencies of 97.8 and 121 Hz for the trapezoidal and rectangular shaped cantilever devices, respectively\n\nReceived: 7 December 2016 Accepted: 29 March 2017   \nPublished online: 04 April 2017"
+    },
+    {
+      "heading": "Conclusion",
+      "level": 1,
+      "text": "A fexible PZT cantilever operating in ${ \\bf d } _ { 3 3 }$ piezoelectric mode with an inertial mass located at its free end was presented for energy harvesting applications. Te proposed energy harvester was fabricated using a multi-layered polyimide/PZT cantilever and bulkmicromachining. Te fabricated PZT cantilever is fexible and generates electricity from low frequency vibration by using an inter-digitated electrode for ${ \\bf d } _ { 3 3 }$ piezoelectric mode. Te thin polyimide flm used for the elastic layer of the cantilever layer was highly efective because of its fexibility and ability to lower the resonant frequency of the harvesting device. In addition, the proposed process is applicable to mass-production and integration with ICs, unlike the previously reported ceramic based fexible PZT flms."
+    },
+    {
+      "heading": "Authors’ contributions",
+      "level": 1,
+      "text": "HO participated in the design and fabrication of the piezoelectric energy harvester in this study. JC participated in the design and measurement of the study. JY conceived of the study, and participated in its design and coordination and helped to draft the manuscript. All authors read and approved the fnal manuscript."
+    },
+    {
+      "heading": "Competing interests",
+      "level": 1,
+      "text": "The authors declare that they have no competing interests."
+    },
+    {
+      "heading": "Funding",
+      "level": 1,
+      "text": "This work was supported by Basic Science Research Program (2013R1A1A2A10064810) through the National Research Foundation of Korea (NRF) funded by the Ministry of Education, Science and Technology, Korea."
+    },
+    {
+      "heading": "Publisher’s Note",
+      "level": 1,
+      "text": "Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional afliations."
+    },
+    {
+      "heading": "References",
+      "level": 1,
+      "text": "1. Starner T (1996) Human-powered wearable computing. IBM Syst J 35:618–629   \n2. Amirtharajah R, Chandrakasan AP (1998) Self-powered signal processing using vibration-based power generation. IEEE J Solid-State Circuits 33:687–695   \n3. Roundy S, Wright PK, Rabaey J (2003) A study of low level vibrations as a power source for wireless sensor nodes. Comput Commun 26:1131–1144   \n4. Elfrink R, Kamel T, Goedbloed M, Matova S, Hohlfeld D, Van Andel Y et al (2009) Vibration energy harvesting with aluminum nitride-based piezoelectric devices. J Micromech Microeng 19:094005   \n5. Shen D, Park J-H, Noh JH, Choe S-Y, Kim S-H, Wikle HC III et al (2009) Micromachined PZT cantilever based on SOI structure for low frequency vibration energy harvesting. Sens Actuators A 154:103–108   \n6. Park JC, Park JY, Lee Y-P (2010) Modeling and characterization of piezoelectric ${ \\mathrm { d } } _ { 3 3 } .$ -mode MEMS energy harvester. J Microelectromech Syst 19:1215–1222   \n7. Aktakka E, Peterson R, Najaf K (2011) Thinned-PZT on SOI process and design optimization for piezoelectric inertial energy harvesting. In: 2011 16th International solid-state sensors, actuators and microsystems conference (TRANSDUCERS), pp 1649–1652   \n8. Nunes-Pereira J, Sencadas V, Correia V, Rocha J, Lanceros-Méndez S (2013) Energy harvesting performance of piezoelectric electrospun polymer fbers and polymer/ceramic composites. Sens Actuators A 196:55–62   \n9. Lin L, Hu Y, Xu C, Zhang Y, Zhang R, Wen X et al (2013) Transparent fexible nanogenerator as self-powered sensor for transportation monitoring. Nano Energy 2:75–81   \n10. Do YH, Jung WS, Kang MG, Kang CY, Yoon SJ (2013) Preparation on transparent fexible piezoelectric energy harvester based on PZT flms by laser lift-of process. Sens Actuators A 200:51–55   \n11. Park KI, Son JH, Hwang GT, Jeong CK, Ryu J, Koo M et al (2014) Highlyefcient, fexible piezoelectric PZT thin flm nanogenerator on plastic substrates. Adv Mater 26:2514–2520   \n12. Park J, Khym S, Park J (2013) Micro-fabricated lead zirconate titanate bent cantilever energy harvester with multi-dimensional operation. Appl Phys Lett 102(4):043901   \n13. Xu B, Ye Y, Cross LE, Bernstein JJ, Miller R (1999) Dielectric hysteresis from transverse electric felds in lead zirconate titanate thin flms. Appl Phys Lett 74:3549–3551   \n14. Yu HG, Zou L, Deng K, Wolf R, Tadigadapa S, Trolier-McKinstry S (2003) Lead zirconate titanate MEMS accelerometer using interdigitated electrodes. Sens Actuators A 107:26–35"
+    },
+    {
+      "heading": "Submit your manuscript to a SpringerOpen journal and benefit from:",
+      "level": 1,
+      "text": "Convenient online submission $\\blacktriangleright$ Rigorous peer review Immediate publication on acceptance Open access: articles freely available online $\\blacktriangleright$ High visibility within the field Retaining the copyright to your article\n\nSubmit your next manuscript at  springeropen.com"
+    }
+  ],
+  "tables": [],
+  "figures": [
+    {
+      "page": -1,
+      "caption": "",
+      "path": "images/545207953a17aa26288b7fc6066c021538a2d6939eedd3c64e9cc3dd2e2b7c0b.jpg"
+    },
+    {
+      "page": -1,
+      "caption": "",
+      "path": "images/64a2508f26c81c4025361e1250122774b95616c6f661313006512ea5ee7d4d6c.jpg"
+    },
+    {
+      "page": -1,
+      "caption": "",
+      "path": "images/a7d836833bedc7ba6ba0ae1a0ab535a8f4fab43c19c5e49bbc42d43d55e2d322.jpg"
+    },
+    {
+      "page": -1,
+      "caption": "",
+      "path": "images/a84905902aa6cd0d459e07756e825e6c770644ce5479a1b363df95a121c42389.jpg"
+    },
+    {
+      "page": -1,
+      "caption": "",
+      "path": "images/c92159af9a797dc59108b556aee079b208661a1d07567b1bd97eb7349db76634.jpg"
+    },
+    {
+      "page": -1,
+      "caption": "",
+      "path": "images/ea46dd395746902b60720d563226d59e0ea21360a1ab706aa145afda2d3a7760.jpg"
+    },
+    {
+      "page": -1,
+      "caption": "",
+      "path": "images/ddb4a5b3f33d1b2404019a3110a4ed0b67701f3acaa8c1adb8d96f8f9b71f901.jpg"
+    }
+  ],
+  "metadata": {
+    "source": "both",
+    "pdf_url": "https://doi.org/10.1186/s40486-017-0054-x",
+    "parsed_at": "2026-03-10T09:49:29.776709+00:00"
+  }
+}

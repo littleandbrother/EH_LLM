@@ -1,0 +1,28 @@
+{
+  "paper_id": "10_1016_j_sna_2021_112712",
+  "doi": "10.1016/j.sna.2021.112712",
+  "title": "A new concept of frequency-excitation-up conversion to improve the yield of linear piezoelectric generators",
+  "source_apis": [
+    "both"
+  ],
+  "pdf_url": "",
+  "pdf_local_path": "data_registry/raw_stage04_paper_pdf_cleaned/10_1016_j_sna_2021_112712.pdf",
+  "processing": {
+    "tool": "MinerU",
+    "version": "python -m mineru.cli.client, version 2.7.6",
+    "timestamp": "2026-03-10T09:56:14.748289+00:00",
+    "duration_s": 101.81,
+    "success": true,
+    "error": ""
+  },
+  "outputs": {
+    "content_md": "/root/EH-LLM-vehbench-exp/parsed_docs/10_1016_j_sna_2021_112712_moqooyrm/content.md",
+    "layout_json": "/root/EH-LLM-vehbench-exp/parsed_docs/10_1016_j_sna_2021_112712_moqooyrm/layout.json",
+    "images_dir": "/root/EH-LLM-vehbench-exp/parsed_docs/10_1016_j_sna_2021_112712_moqooyrm/10_1016_j_sna_2021_112712/auto/images",
+    "normalized_json": "/root/EH-LLM-vehbench-exp/normalized_docs/10_1016_j_sna_2021_112712.json"
+  },
+  "data_lineage": {
+    "papers_jsonl_hash": "0de702a18c5898cc144153dbcf9173c6",
+    "pipeline_step": "ingestion/mineru_runner.py"
+  }
+}

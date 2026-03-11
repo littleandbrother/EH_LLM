@@ -1,0 +1,147 @@
+{
+  "metadata": {
+    "paper_id": "10_1016_j_energy_2020_118752",
+    "doi": "10.1016/j.energy.2020.118752",
+    "title": "An experimental study on a novel cylinder harvester made of L-shaped piezoelectric coupled beams with a high efficiency",
+    "year": 2020,
+    "journal": "Energy"
+  },
+  "configuration": "cantilever",
+  "proof_mass": true,
+  "geometry": {
+    "length_mm": 38,
+    "width_mm": 13,
+    "thickness_mm": null,
+    "substrate_thickness_um": 1000,
+    "piezo_thickness_um": 500,
+    "tip_mass_g": null,
+    "diameter_mm": null
+  },
+  "excitation": {
+    "type": "vibration",
+    "frequency_Hz": 40,
+    "acceleration_g": null,
+    "displacement_mm": null,
+    "motion_source": "magnet excitation"
+  },
+  "load": {
+    "load_resistance_ohm": 333000
+  },
+  "output": {
+    "resonant_frequency_Hz": 40,
+    "output_power_W": 0.00235,
+    "open_circuit_voltage_V": 50,
+    "short_circuit_current_A": null,
+    "bandwidth_Hz": null
+  },
+  "evidence": {
+    "configuration": {
+      "quote": "L-shaped piezoelectric coupled beam",
+      "section": "2. Development of the ingenious harvester",
+      "source_type": "section"
+    },
+    "proof_mass": {
+      "quote": "excitation segment with a magnet brick embedded in the groove of its free end",
+      "section": "2. Development of the ingenious harvester",
+      "source_type": "section"
+    },
+    "geometry": {
+      "length_mm": {
+        "quote": "5# ... 38",
+        "section": "Table 2 Dimensions and physical parameters of specimens of the stator made of ABS.",
+        "source_type": "table"
+      },
+      "width_mm": {
+        "quote": "b(mm) ... 13",
+        "section": "Table 2 Dimensions and physical parameters of specimens of the stator made of ABS.",
+        "source_type": "table"
+      },
+      "thickness_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "substrate_thickness_um": {
+        "quote": "5# ... 1",
+        "section": "Table 2 Dimensions and physical parameters of specimens of the stator made of ABS.",
+        "source_type": "table"
+      },
+      "piezo_thickness_um": {
+        "quote": "5#2 ... 0.5",
+        "section": "Table 3 Dimensions and physical parameters of piezoelectric patches.",
+        "source_type": "table"
+      },
+      "tip_mass_g": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "diameter_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      }
+    },
+    "excitation": {
+      "type": {
+        "quote": "magnet excitation force",
+        "section": "4.1. Effect of the excitation frequency and the distance of the distance of d",
+        "source_type": "section"
+      },
+      "frequency_Hz": {
+        "quote": "1st resonant frequency of 40 Hz",
+        "section": "4.5.2. Comparison of the output power from PZT4 patches of #5 stator",
+        "source_type": "section"
+      },
+      "acceleration_g": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "displacement_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "motion_source": {
+        "quote": "magnet excitation",
+        "section": "4.1. Effect of the excitation frequency and the distance of the distance of d",
+        "source_type": "section"
+      }
+    },
+    "load": {
+      "load_resistance_ohm": {
+        "quote": "optimal load resistance of 333 kΩ",
+        "section": "4.5.2. Comparison of the output power from PZT4 patches of #5 stator",
+        "source_type": "section"
+      }
+    },
+    "output": {
+      "resonant_frequency_Hz": {
+        "quote": "1st resonant frequency of 40 Hz",
+        "section": "4.5.2. Comparison of the output power from PZT4 patches of #5 stator",
+        "source_type": "section"
+      },
+      "output_power_W": {
+        "quote": "maximum powers ... are 2.35 mW",
+        "section": "4.5.2. Comparison of the output power from PZT4 patches of #5 stator",
+        "source_type": "section"
+      },
+      "open_circuit_voltage_V": {
+        "quote": "peak-to-peak voltage ... reach up to ... 50 V",
+        "section": "a b s t r a c t",
+        "source_type": "abstract"
+      },
+      "short_circuit_current_A": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "bandwidth_Hz": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      }
+    }
+  }
+}

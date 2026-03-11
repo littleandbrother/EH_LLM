@@ -1,0 +1,28 @@
+{
+  "paper_id": "10_3390_mi12070772",
+  "doi": "10.3390/mi12070772",
+  "title": "Theoretical and Experimental Studies on MEMS Variable Cross-Section Cantilever Beam Based Piezoelectric Vibration Energy Harvester",
+  "source_apis": [
+    "both"
+  ],
+  "pdf_url": "https://www.mdpi.com/2072-666X/12/7/772/pdf?version=1625108697",
+  "pdf_local_path": "data_registry/raw_stage04_paper_pdf_cleaned/10_3390_mi12070772.pdf",
+  "processing": {
+    "tool": "MinerU",
+    "version": "python -m mineru.cli.client, version 2.7.6",
+    "timestamp": "2026-03-10T10:22:01.906565+00:00",
+    "duration_s": 104.17,
+    "success": true,
+    "error": ""
+  },
+  "outputs": {
+    "content_md": "/root/EH-LLM-vehbench-exp/parsed_docs/10_3390_mi12070772_r66ufr92/content.md",
+    "layout_json": "/root/EH-LLM-vehbench-exp/parsed_docs/10_3390_mi12070772_r66ufr92/layout.json",
+    "images_dir": "/root/EH-LLM-vehbench-exp/parsed_docs/10_3390_mi12070772_r66ufr92/10_3390_mi12070772/auto/images",
+    "normalized_json": "/root/EH-LLM-vehbench-exp/normalized_docs/10_3390_mi12070772.json"
+  },
+  "data_lineage": {
+    "papers_jsonl_hash": "3a17e00fbb2f4e858ca2eb64ab1310e0",
+    "pipeline_step": "ingestion/mineru_runner.py"
+  }
+}

@@ -1,0 +1,147 @@
+{
+  "metadata": {
+    "paper_id": "10_1063_1_5018077",
+    "doi": "10.1063/1.5018077",
+    "title": "A piezoelectric energy harvester for broadband rotational excitation using buckled beam",
+    "year": 2018,
+    "journal": "AIP Advances"
+  },
+  "configuration": "other",
+  "proof_mass": null,
+  "geometry": {
+    "length_mm": 175,
+    "width_mm": 12,
+    "thickness_mm": 0.4,
+    "substrate_thickness_um": 400,
+    "piezo_thickness_um": 240,
+    "tip_mass_g": null,
+    "diameter_mm": null
+  },
+  "excitation": {
+    "type": "rotation",
+    "frequency_Hz": 12,
+    "acceleration_g": null,
+    "displacement_mm": null,
+    "motion_source": "stepper motor"
+  },
+  "load": {
+    "load_resistance_ohm": 110000
+  },
+  "output": {
+    "resonant_frequency_Hz": 12,
+    "output_power_W": 6.545e-05,
+    "open_circuit_voltage_V": 7.22,
+    "short_circuit_current_A": null,
+    "bandwidth_Hz": 8
+  },
+  "evidence": {
+    "configuration": {
+      "quote": "piezoelectric bistable buckled beam",
+      "section": "A piezoelectric energy harvester for broadband rotational excitation using buckled beam",
+      "source_type": "abstract"
+    },
+    "proof_mass": {
+      "quote": null,
+      "section": null,
+      "source_type": null
+    },
+    "geometry": {
+      "length_mm": {
+        "quote": "175 x 12 x 0.4 mm^3",
+        "section": "III. PROTOTYPE AND EXPERIMENTS",
+        "source_type": "section"
+      },
+      "width_mm": {
+        "quote": "175 x 12 x 0.4 mm^3",
+        "section": "III. PROTOTYPE AND EXPERIMENTS",
+        "source_type": "section"
+      },
+      "thickness_mm": {
+        "quote": "175 x 12 x 0.4 mm^3",
+        "section": "III. PROTOTYPE AND EXPERIMENTS",
+        "source_type": "section"
+      },
+      "substrate_thickness_um": {
+        "quote": "175 x 12 x 0.4 mm^3",
+        "section": "III. PROTOTYPE AND EXPERIMENTS",
+        "source_type": "section"
+      },
+      "piezo_thickness_um": {
+        "quote": "22 x 8 x 0.24 mm^3",
+        "section": "III. PROTOTYPE AND EXPERIMENTS",
+        "source_type": "section"
+      },
+      "tip_mass_g": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "diameter_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      }
+    },
+    "excitation": {
+      "type": {
+        "quote": "rotational energy harvester",
+        "section": "A piezoelectric energy harvester for broadband rotational excitation using buckled beam",
+        "source_type": "title"
+      },
+      "frequency_Hz": {
+        "quote": "rotation frequency of 12 Hz",
+        "section": "IV. RESULTS AND DISCUSSION",
+        "source_type": "section"
+      },
+      "acceleration_g": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "displacement_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "motion_source": {
+        "quote": "A stepper motor",
+        "section": "III. PROTOTYPE AND EXPERIMENTS",
+        "source_type": "section"
+      }
+    },
+    "load": {
+      "load_resistance_ohm": {
+        "quote": "load resistance of 110 kOhm",
+        "section": "IV. RESULTS AND DISCUSSION",
+        "source_type": "section"
+      }
+    },
+    "output": {
+      "resonant_frequency_Hz": {
+        "quote": "rotation frequency of 12 Hz",
+        "section": "IV. RESULTS AND DISCUSSION",
+        "source_type": "section"
+      },
+      "output_power_W": {
+        "quote": "65.45 uW",
+        "section": "IV. RESULTS AND DISCUSSION",
+        "source_type": "section"
+      },
+      "open_circuit_voltage_V": {
+        "quote": "amplitude of the output voltage is about 7.22 V",
+        "section": "IV. RESULTS AND DISCUSSION",
+        "source_type": "section"
+      },
+      "short_circuit_current_A": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "bandwidth_Hz": {
+        "quote": "broadband and flat frequency response over 6-14 Hz",
+        "section": "A piezoelectric energy harvester for broadband rotational excitation using buckled beam",
+        "source_type": "abstract"
+      }
+    }
+  }
+}

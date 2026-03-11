@@ -1,0 +1,28 @@
+{
+  "paper_id": "10_1109_icsens_2016_7808560",
+  "doi": "10.1109/icsens.2016.7808560",
+  "title": "A piezoelectric based vibration energy harvester fabricated using screen printing technique",
+  "source_apis": [
+    "both"
+  ],
+  "pdf_url": "",
+  "pdf_local_path": "data_registry/raw_stage04_paper_pdf_cleaned/10_1109_icsens_2016_7808560.pdf",
+  "processing": {
+    "tool": "MinerU",
+    "version": "python -m mineru.cli.client, version 2.7.6",
+    "timestamp": "2026-03-10T09:49:20.442502+00:00",
+    "duration_s": 58.04,
+    "success": true,
+    "error": ""
+  },
+  "outputs": {
+    "content_md": "/root/EH-LLM-vehbench-exp/parsed_docs/10_1109_icsens_2016_7808560_506cs3ww/content.md",
+    "layout_json": "/root/EH-LLM-vehbench-exp/parsed_docs/10_1109_icsens_2016_7808560_506cs3ww/layout.json",
+    "images_dir": "/root/EH-LLM-vehbench-exp/parsed_docs/10_1109_icsens_2016_7808560_506cs3ww/10_1109_icsens_2016_7808560/auto/images",
+    "normalized_json": "/root/EH-LLM-vehbench-exp/normalized_docs/10_1109_icsens_2016_7808560.json"
+  },
+  "data_lineage": {
+    "papers_jsonl_hash": "7839987022a9535a78c87247141b85bd",
+    "pipeline_step": "ingestion/mineru_runner.py"
+  }
+}

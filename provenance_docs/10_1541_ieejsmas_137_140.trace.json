@@ -1,0 +1,28 @@
+{
+  "paper_id": "10_1541_ieejsmas_137_140",
+  "doi": "10.1541/ieejsmas.137.140",
+  "title": "Micro-Watt Order Power Generation by Miniaturized Energy Harvester using Coatable PVDF Piezoelectric Thin Film",
+  "source_apis": [
+    "openalex"
+  ],
+  "pdf_url": "",
+  "pdf_local_path": "data_registry/raw_stage04_paper_pdf_cleaned/10_1541_ieejsmas_137_140.pdf",
+  "processing": {
+    "tool": "MinerU",
+    "version": "python -m mineru.cli.client, version 2.7.6",
+    "timestamp": "2026-03-10T10:17:13.647518+00:00",
+    "duration_s": 72.6,
+    "success": true,
+    "error": ""
+  },
+  "outputs": {
+    "content_md": "/root/EH-LLM-vehbench-exp/parsed_docs/10_1541_ieejsmas_137_140_babkgmju/content.md",
+    "layout_json": "/root/EH-LLM-vehbench-exp/parsed_docs/10_1541_ieejsmas_137_140_babkgmju/layout.json",
+    "images_dir": "/root/EH-LLM-vehbench-exp/parsed_docs/10_1541_ieejsmas_137_140_babkgmju/10_1541_ieejsmas_137_140/auto/images",
+    "normalized_json": "/root/EH-LLM-vehbench-exp/normalized_docs/10_1541_ieejsmas_137_140.json"
+  },
+  "data_lineage": {
+    "papers_jsonl_hash": "d15db2193932dd7a4fccbf7337aa8c98",
+    "pipeline_step": "ingestion/mineru_runner.py"
+  }
+}

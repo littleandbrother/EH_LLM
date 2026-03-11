@@ -1,0 +1,147 @@
+{
+  "metadata": {
+    "paper_id": "10_3390_mi14020421",
+    "doi": "10.3390/mi14020421",
+    "title": "A Novel Bird-Shape Broadband Piezoelectric Energy Harvester for Low Frequency Vibrations",
+    "year": 2023,
+    "journal": "Micromachines"
+  },
+  "configuration": "cantilever",
+  "proof_mass": true,
+  "geometry": {
+    "length_mm": 200,
+    "width_mm": 25,
+    "thickness_mm": 0.6,
+    "substrate_thickness_um": 600,
+    "piezo_thickness_um": 300,
+    "tip_mass_g": 10,
+    "diameter_mm": null
+  },
+  "excitation": {
+    "type": "vibration",
+    "frequency_Hz": 19.23,
+    "acceleration_g": 0.3,
+    "displacement_mm": null,
+    "motion_source": "electromagnetic exciter"
+  },
+  "load": {
+    "load_resistance_ohm": 300000
+  },
+  "output": {
+    "resonant_frequency_Hz": 19.23,
+    "output_power_W": 0.00953,
+    "open_circuit_voltage_V": 47.3,
+    "short_circuit_current_A": null,
+    "bandwidth_Hz": null
+  },
+  "evidence": {
+    "configuration": {
+      "quote": "The harvester features a cantilever mounted on a double-hinged beam",
+      "section": "Abstract",
+      "source_type": "abstract"
+    },
+    "proof_mass": {
+      "quote": "The energy harvester is composed of two elastic beams, the proof mass",
+      "section": "2.1. Structural Design",
+      "source_type": "section"
+    },
+    "geometry": {
+      "length_mm": {
+        "quote": "Length of beam M ... 200",
+        "section": "3.1. Finite Element Modeling",
+        "source_type": "table"
+      },
+      "width_mm": {
+        "quote": "Width of the beam M and beam W ... 25",
+        "section": "3.1. Finite Element Modeling",
+        "source_type": "table"
+      },
+      "thickness_mm": {
+        "quote": "The thickness of the beam M and beam W ... 0.6",
+        "section": "3.1. Finite Element Modeling",
+        "source_type": "table"
+      },
+      "substrate_thickness_um": {
+        "quote": "The thickness of the beam M and beam W ... 0.6",
+        "section": "3.1. Finite Element Modeling",
+        "source_type": "table"
+      },
+      "piezo_thickness_um": {
+        "quote": "The thickness of PZT sheets ... 0.3",
+        "section": "3.1. Finite Element Modeling",
+        "source_type": "table"
+      },
+      "tip_mass_g": {
+        "quote": "proof mass is 10 g",
+        "section": "5.1. Effects of the Base Acceleration",
+        "source_type": "section"
+      },
+      "diameter_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      }
+    },
+    "excitation": {
+      "type": {
+        "quote": "low-frequency environmental vibrations",
+        "section": "Abstract",
+        "source_type": "abstract"
+      },
+      "frequency_Hz": {
+        "quote": "19.23 Hz",
+        "section": "Abstract",
+        "source_type": "abstract"
+      },
+      "acceleration_g": {
+        "quote": "base acceleration is 2.94 m/s^2",
+        "section": "5.1. Effects of the Base Acceleration",
+        "source_type": "section"
+      },
+      "displacement_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "motion_source": {
+        "quote": "electromagnetic exciter",
+        "section": "4. Experimental Setup",
+        "source_type": "section"
+      }
+    },
+    "load": {
+      "load_resistance_ohm": {
+        "quote": "external resistance of 300 kΩ",
+        "section": "5.1. Effects of the Base Acceleration",
+        "source_type": "section"
+      }
+    },
+    "output": {
+      "resonant_frequency_Hz": {
+        "quote": "19.23 Hz",
+        "section": "Abstract",
+        "source_type": "abstract"
+      },
+      "output_power_W": {
+        "quote": "9.53 mW",
+        "section": "Abstract",
+        "source_type": "abstract"
+      },
+      "open_circuit_voltage_V": {
+        "quote": "output voltage of beam M can reach 47.3 V",
+        "section": "3.3. Harmonic Response Analysis",
+        "source_type": "section"
+      },
+      "short_circuit_current_A": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "bandwidth_Hz": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      }
+    }
+  }
+}

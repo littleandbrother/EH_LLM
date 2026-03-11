@@ -1,0 +1,147 @@
+{
+  "metadata": {
+    "paper_id": "10_1063_1_4948592",
+    "doi": "10.1063/1.4948592",
+    "title": "Design and analysis of a MEMS-based bifurcate-shape piezoelectric energy harvester",
+    "year": 2016,
+    "journal": "AIP Advances"
+  },
+  "configuration": "cantilever",
+  "proof_mass": true,
+  "geometry": {
+    "length_mm": 1.8,
+    "width_mm": 0.4,
+    "thickness_mm": 0.02,
+    "substrate_thickness_um": 20,
+    "piezo_thickness_um": 4.5,
+    "tip_mass_g": null,
+    "diameter_mm": null
+  },
+  "excitation": {
+    "type": "vibration",
+    "frequency_Hz": 292.11,
+    "acceleration_g": 1.0,
+    "displacement_mm": null,
+    "motion_source": "ambient vibration"
+  },
+  "load": {
+    "load_resistance_ohm": 400000
+  },
+  "output": {
+    "resonant_frequency_Hz": 292.11,
+    "output_power_W": 0.000155,
+    "open_circuit_voltage_V": 3.3,
+    "short_circuit_current_A": null,
+    "bandwidth_Hz": null
+  },
+  "evidence": {
+    "configuration": {
+      "quote": "The vice beam has four cantilevers.",
+      "section": "A. Theoretical design",
+      "source_type": "section"
+    },
+    "proof_mass": {
+      "quote": "there is a proof mass at the free end of the cantilever.",
+      "section": "A. Theoretical design",
+      "source_type": "section"
+    },
+    "geometry": {
+      "length_mm": {
+        "quote": "1800",
+        "section": "B. Characteristics of the voltage and power",
+        "source_type": "table"
+      },
+      "width_mm": {
+        "quote": "400",
+        "section": "B. Characteristics of the voltage and power",
+        "source_type": "table"
+      },
+      "thickness_mm": {
+        "quote": "20",
+        "section": "B. Characteristics of the voltage and power",
+        "source_type": "table"
+      },
+      "substrate_thickness_um": {
+        "quote": "20",
+        "section": "B. Characteristics of the voltage and power",
+        "source_type": "table"
+      },
+      "piezo_thickness_um": {
+        "quote": "4.5",
+        "section": "B. Characteristics of the voltage and power",
+        "source_type": "table"
+      },
+      "tip_mass_g": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "diameter_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      }
+    },
+    "excitation": {
+      "type": {
+        "quote": "practical vibration circumstance",
+        "section": "Design and analysis of a MEMS-based bifurcate-shape piezoelectric energy harvester",
+        "source_type": "abstract"
+      },
+      "frequency_Hz": {
+        "quote": "292.11 Hz of frequency",
+        "section": "Design and analysis of a MEMS-based bifurcate-shape piezoelectric energy harvester",
+        "source_type": "abstract"
+      },
+      "acceleration_g": {
+        "quote": "acceleration of 1 g",
+        "section": "Design and analysis of a MEMS-based bifurcate-shape piezoelectric energy harvester",
+        "source_type": "abstract"
+      },
+      "displacement_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "motion_source": {
+        "quote": "ambient vibration sources",
+        "section": "I. INTRODUCTION",
+        "source_type": "section"
+      }
+    },
+    "load": {
+      "load_resistance_ohm": {
+        "quote": "load of 0.4MΩ",
+        "section": "Design and analysis of a MEMS-based bifurcate-shape piezoelectric energy harvester",
+        "source_type": "abstract"
+      }
+    },
+    "output": {
+      "resonant_frequency_Hz": {
+        "quote": "292.11 Hz of frequency",
+        "section": "Design and analysis of a MEMS-based bifurcate-shape piezoelectric energy harvester",
+        "source_type": "abstract"
+      },
+      "output_power_W": {
+        "quote": "output power can be up to 0.155 mW",
+        "section": "Design and analysis of a MEMS-based bifurcate-shape piezoelectric energy harvester",
+        "source_type": "abstract"
+      },
+      "open_circuit_voltage_V": {
+        "quote": "maximum output voltage can achieve 3.3 V",
+        "section": "Design and analysis of a MEMS-based bifurcate-shape piezoelectric energy harvester",
+        "source_type": "abstract"
+      },
+      "short_circuit_current_A": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "bandwidth_Hz": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      }
+    }
+  }
+}

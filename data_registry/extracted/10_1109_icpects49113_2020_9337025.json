@@ -1,0 +1,147 @@
+{
+  "metadata": {
+    "paper_id": "10_1109_icpects49113_2020_9337025",
+    "doi": "10.1109/icpects49113.2020.9337025",
+    "title": "Electrical Characteristics and the vibration performance of PVDF - Cu MEMS Piezoelectric Vibrational Energy Harvester",
+    "year": 2020,
+    "journal": "2020 International Conference on Power, Energy, Control and Transmission Systems (ICPECTS)"
+  },
+  "configuration": "cantilever",
+  "proof_mass": true,
+  "geometry": {
+    "length_mm": 10,
+    "width_mm": null,
+    "thickness_mm": null,
+    "substrate_thickness_um": 200,
+    "piezo_thickness_um": 300,
+    "tip_mass_g": 0.001,
+    "diameter_mm": null
+  },
+  "excitation": {
+    "type": "vibration",
+    "frequency_Hz": 243.52,
+    "acceleration_g": 4.6976,
+    "displacement_mm": 0.001,
+    "motion_source": null
+  },
+  "load": {
+    "load_resistance_ohm": null
+  },
+  "output": {
+    "resonant_frequency_Hz": 243.52,
+    "output_power_W": 1.6564e-12,
+    "open_circuit_voltage_V": 0.3,
+    "short_circuit_current_A": null,
+    "bandwidth_Hz": null
+  },
+  "evidence": {
+    "configuration": {
+      "quote": "This PVDF piezoelectric cantilever-based MEMS energy harvester",
+      "section": "ABSTRACT",
+      "source_type": "abstract"
+    },
+    "proof_mass": {
+      "quote": "proof mass is considered as 1 mg",
+      "section": "METHODOLOGY",
+      "source_type": "section"
+    },
+    "geometry": {
+      "length_mm": {
+        "quote": "The length of the device is 10 mm",
+        "section": "METHODOLOGY",
+        "source_type": "section"
+      },
+      "width_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "thickness_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "substrate_thickness_um": {
+        "quote": "thickness of the substrate as 200 um",
+        "section": "METHODOLOGY",
+        "source_type": "section"
+      },
+      "piezo_thickness_um": {
+        "quote": "thickness of the piezoelectric as ... 300 um",
+        "section": "METHODOLOGY",
+        "source_type": "section"
+      },
+      "tip_mass_g": {
+        "quote": "proof mass is considered as 1 mg",
+        "section": "METHODOLOGY",
+        "source_type": "section"
+      },
+      "diameter_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      }
+    },
+    "excitation": {
+      "type": {
+        "quote": "harvested from mechanical vibrations",
+        "section": "ABSTRACT",
+        "source_type": "abstract"
+      },
+      "frequency_Hz": {
+        "quote": "Natural frequency 243.52 [Hz]",
+        "section": "RESULTS AND DISCUSSION",
+        "source_type": "table"
+      },
+      "acceleration_g": {
+        "quote": "Input RMS acceleration 4.6976 [g RMS]",
+        "section": "RESULTS AND DISCUSSION",
+        "source_type": "table"
+      },
+      "displacement_mm": {
+        "quote": "The amplitude considered to be 1 um",
+        "section": "METHODOLOGY",
+        "source_type": "section"
+      },
+      "motion_source": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      }
+    },
+    "load": {
+      "load_resistance_ohm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      }
+    },
+    "output": {
+      "resonant_frequency_Hz": {
+        "quote": "Natural frequency 243.52 [Hz]",
+        "section": "RESULTS AND DISCUSSION",
+        "source_type": "table"
+      },
+      "output_power_W": {
+        "quote": "Average harvested power 1.6564e-06 [uW]",
+        "section": "RESULTS AND DISCUSSION",
+        "source_type": "table"
+      },
+      "open_circuit_voltage_V": {
+        "quote": "0.3 volts",
+        "section": "ABSTRACT",
+        "source_type": "abstract"
+      },
+      "short_circuit_current_A": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "bandwidth_Hz": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      }
+    }
+  }
+}

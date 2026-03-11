@@ -1,0 +1,28 @@
+{
+  "paper_id": "10_1088_1361_665x_aaee4e",
+  "doi": "10.1088/1361-665x/aaee4e",
+  "title": "Soft magneto-sensitive elastomer and polyvinylidene fluoride polymer based nonlinear piezoelectric energy harvesting: design, modelling and experiment",
+  "source_apis": [
+    "openalex"
+  ],
+  "pdf_url": "https://iopscience.iop.org/article/10.1088/1361-665X/aaee4e/pdf",
+  "pdf_local_path": "data_registry/raw_stage04_paper_pdf_cleaned/10_1088_1361_665x_aaee4e.pdf",
+  "processing": {
+    "tool": "MinerU",
+    "version": "python -m mineru.cli.client, version 2.7.6",
+    "timestamp": "2026-03-10T09:51:04.273533+00:00",
+    "duration_s": 99.64,
+    "success": true,
+    "error": ""
+  },
+  "outputs": {
+    "content_md": "/root/EH-LLM-vehbench-exp/parsed_docs/10_1088_1361_665x_aaee4e_5cfpzrxh/content.md",
+    "layout_json": "/root/EH-LLM-vehbench-exp/parsed_docs/10_1088_1361_665x_aaee4e_5cfpzrxh/layout.json",
+    "images_dir": "/root/EH-LLM-vehbench-exp/parsed_docs/10_1088_1361_665x_aaee4e_5cfpzrxh/10_1088_1361_665x_aaee4e/auto/images",
+    "normalized_json": "/root/EH-LLM-vehbench-exp/normalized_docs/10_1088_1361_665x_aaee4e.json"
+  },
+  "data_lineage": {
+    "papers_jsonl_hash": "2c7fe8ef0e8af7ca63651237eb616458",
+    "pipeline_step": "ingestion/mineru_runner.py"
+  }
+}

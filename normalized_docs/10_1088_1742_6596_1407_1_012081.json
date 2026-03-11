@@ -1,0 +1,104 @@
+{
+  "paper_id": "10_1088_1742_6596_1407_1_012081",
+  "doi": "10.1088/1742-6596/1407/1/012081",
+  "title": "MEMS Energy Harvesting Based on Uniform-Stress Cantilever with Multilayer PZT Thin Films",
+  "year": 2019,
+  "venue": "Journal of Physics Conference Series",
+  "authors": [
+    "S. Hirai",
+    "Kensuke Kanda",
+    "Takayuki Fujita",
+    "Kazusuke Maenaka"
+  ],
+  "citation_count": 5,
+  "sections": [
+    {
+      "heading": "MEMS Energy Harvesting Based on Uniform-Stress Cantilever with Multilayer PZT Thin Films",
+      "level": 1,
+      "text": "To cite this article: S. Hirai et al 2019 J. Phys. : Conf. Ser. 1407 012081\n\nElectromechanical finite element modellingfor dynamic analysis of a cantilevered piezoelectric energy harvester with tip mass offset under base excitations M F Lumentut and I M Howard\n\nFabrication of PZT MEMS energyharvester based on silicon and stainlesssteel substrates utilizing an aerosol deposition method Shun-Chiu Lin and Wen-Jong Wu\n\nView the article online for updates and enhancements.\n\nOut-of-plane electret-based MEMS energy harvester with the combined nonlinear effect from electrostatic force and a mechanical elastic stopper Kai Tao, Sun Woh Lye, Jianmin Miao et al."
+    },
+    {
+      "heading": "MEMS Energy Harvesting Based on Uniform-Stress Cantilever with Multilayer PZT Thin Films",
+      "level": 1,
+      "text": "S. Hirai1 , K. Kanda1 , T. Fujita1 , and K. Maenaka1\n\n1 Graduate School of Engineering, University of Hyogo, 2167 Shosha, Himeji, Hyogo, Japan\n\nkanda@eng.u-hyogo.ac.jp\n\nAbstract. Multilayered piezoelectric MEMS energy harvesters based on sputtering depositions are designed and fabricated. To obtain high endurance and output power, the unimorph cantilever structure with totally $1 0 ~ { \\mu \\mathrm { m } }$ -thick multilayered PZT thin films and $8 0 ~ { \\mu \\mathrm { m } }$ -thick Si elastic layer is designed. In addition, the cantilever is designed to undergo a uniform stress on the PZT. The output power and voltage was $9 0 ~ \\mu \\mathrm { W }$ and $1 . 0 \\mathrm { V _ { r m s } }$ under the input acceleration of approximately $1 . 2 \\ : \\mathrm { G }$ $\\mathrm { ( = } 1 1 . 7 6 ~ m / s ^ { 2 }$ and optimum load resistance."
+    },
+    {
+      "heading": "1. Introduction",
+      "level": 1,
+      "text": "Along with the development of the IoT society, MEMS energy harvesting has been attracting attention as an autonomous power supply for sensors, wireless modules and their systems. Piezoelectric MEMS energy harvesters (MEMS-PEHs) are promising devices because they have the advantage of low output impedance and simple structure [1]. Although various materials and structures have been reported for MEMS-PEHs [2],[3], not the standardized performance $\\left( \\mu \\mathrm { W } / \\mathrm { c m } ^ { 3 } \\right.$ , etc.) but the absolute performance (output power and voltage) is important for practical use. In addition, piezoelectric thin films should be employed in order to miniaturize the PEHs and to integrate with various sensors. $\\mathrm { P b } ( \\mathrm { Z r } , \\mathrm { T i } ) { \\mathrm { O } } _ { 3 }$ (PZT) thin film is a useful material for energy harvesting because of a large electromechanical coupling coefficient. To obtain the absolute power from MEMS-PEHs, large electromechanical coupling coefficient of thin film and the weight and displacement of the proof mass are necessary as described in chapter 2. Therefore, if a heavy weight is supported by a thin beam, a large output can be obtained. However, such a design causes a practical problem in terms of strength. Although, to increase the strength by thickening the beam is one solution to obtain large output power while using a heavy mass, it results in the lowering the electromechanical coupling factor because the thickness of the piezoelectric thin films for MEMS-PEHs is about $2 { \\cdot } 5 ~  { \\mu \\mathrm { m } }$ in general. Thickening the piezoelectric film is a challenge to overcome the problem of the strength. For example, thickening PZT by sputtering deposition (up to $1 0 ~ \\mu \\mathrm { m } )$ deteriorates the quality such as an increase in leakage current and occurrence of cracks [4]. In order to produce a thick film without degradation, the authors have sputtered PZT and metal electrodes alternatively [5]. By using this technique, MEMS-PEH with multilayered PZT thin film was designed and fabricated (figure 1), and it was verified that it can output relatively large electric power of $5 0 ~ \\mu \\mathrm { W }$ per gravitational acceleration [6],[7]. However, the output voltage at the optimum load is as low as approximately $0 . 7 \\mathrm { V _ { r m s } }$ , and improvement of the output voltage has been a problem. Therefore, the output power and voltage of the MEMS-PEHs are improved by using an uniform stress structure, equalizing the in-plane local stress in the piezoelectric thin films.\n\n![](images/20679614084b0b0273662de7e739f12afc957a6646e81e6e3c460c7be9d86f3b.jpg)  \nFigure 1. Image of the fabricated uniform-width PEH [7]."
+    },
+    {
+      "heading": "2. Basic design of MEMS-PEH",
+      "level": 1,
+      "text": "In order to predict the output of the MEMS-PEH, it is necessary to represent the device by an electric equivalent circuit. Here, it is known that a cantilever-shaped PEH having a weight is represented as shown in figure 2 [8]. The left half of the transformer is an electric equivalent circuit that shows the vibration of the beam of the mechanical system and the right half is the electric equivalent circuit when the load resistor is connected to the capacitor including the piezoelectric body. Where, $D _ { \\mathrm { y } }$ is the attenuation coefficient of the cantilever, $m$ is the equivalent mass of the beam, $k$ D is the spring constant, $m Y _ { 0 } \\omega ^ { 2 } s i n ( \\omega t )$ m is the input force from the shaker, $\\varGamma$ kis the conversion coefficient of mechanical mY ω sin ωtdisplacement and charge, $C _ { \\mathrm { p } }$ Γ is the electrostatic capacity of piezoelectric layer, and $R _ { \\mathrm { L } }$ is a load C Rresistance. From this model, the output power at the optimum load of the device is expressed by the following equation.\n\n$$\nP _ { o p t } = \\frac { m { A _ { 0 } } ^ { 2 } Q } { 4 \\omega _ { 0 } } \\frac { 1 } { 1 + \\sqrt { \\{ 1 + K ^ { - 4 } Q ^ { - 2 } \\} } }\n$$\n\nWhere, $A _ { 0 }$ , $\\mathcal { Q }$ , $\\omega _ { 0 }$ , $K$ represent input acceleration, mechanical performance index, resonance angular A Q ω K frequency, generalized electromechanical coupling coefficient (GEMC), respectively. The GEMC is expressed by the ratio of mechanical displacement and charge, which means that the higher the value, the higher the energy conversion efficiency, which is an important factor in a device design.\n\nThe MEMS-PEHs described in this study have cantilever structures with a proof mass. The proof mass is formed by the active and handle layer of SOI wafer. The cantilever is a lamination structure of piezoelectric thin films and active layer of SOI wafer. When an acceleration is applied to the device, the beam deforms due to the inertial force of the proof mass, and charges are generated on the electrode due to the piezoelectric lateral effect. The device size is designed to be $1 0 \\ \\mathrm { m m }$ square to obtain a large absolute power, and the PZT thickness is set to $1 0 ~ { \\mu \\mathrm { m } }$ on the basis of the conventional fabrication results [5]. The thickness of the active layer was set to $8 0 ~ { \\mu \\mathrm { m } }$ , to endure large acceleration of $1 0 \\mathrm { G }$ .\n\nFigure 3 shows the GEMC with respect to the thickness ratio of the piezoelectric layer, $t _ { \\mathrm { p } }$ to the active layer, $t _ { \\mathrm { s } }$ and the maximum stress in the piezoelectric layer. When $t _ { \\mathrm { p } }$ is $3 \\ \\mu \\mathrm { m }$ t, the maximum stress tis about ten times larger than that of $1 0 ~ { \\mu \\mathrm { m } }$ t. GEMC is determined by the ratio of $t _ { \\mathrm { p } } / \\ t _ { \\mathrm { s } }$ . These results t tindicate that the thicker piezoelectric layer is required for the thicker active layer to obtain large output power. Therefore thick piezoelectric layer is required to obtain high strength and large output power, simultaneously.\n\n![](images/1c6575e2dd4ba986fc67275c8ef3cf866dcc1f3bbd71489da0c1b227cedaf35c.jpg)  \nFigure 2. Equivalent circuit model of a PEH [8].\n\n![](images/fcf555eea8e528181b5cb2bdaacf6219f4c36dcad612311e7278deb660f533a7.jpg)  \nFigure 3. Relation between $K ^ { 2 }$ and maximum stress on $t _ { \\mathrm { p } } / t _ { \\mathrm { s } }$ [7]."
+    },
+    {
+      "heading": "3.1. Fabrication",
+      "level": 1,
+      "text": "3.1. Fabrication For the unimorph (piezo/non-piezo lamination) cantilever structures, the local stress in the longitudinal direction of the piezoelectric layer is expressed as follows using the distance $\\mathbf { X }$ from the fixed end and the distance y from the reference surface.\n\n$$\n\\sigma ( x , y ) = \\frac { 1 2 Y _ { p } \\big ( Y _ { s } t _ { s } + Y _ { p } t _ { p } \\big ) \\rho _ { m } g l _ { m } ( t _ { m } + t _ { s } ) ( l _ { c } + 0 . 5 l _ { m } - x ) y } { { Y _ { s } } ^ { 2 } { t _ { s } } ^ { 4 } + { Y _ { p } } ^ { 2 } { t _ { p } } ^ { 4 } + 4 Y _ { s } Y _ { p } { t _ { s } } ^ { 3 } { t _ { p } } + 4 Y _ { s } Y _ { p } { t _ { s } } { t _ { p } } ^ { 3 } + 6 Y _ { s } { Y _ { p } } { t _ { s } } ^ { 2 } { t _ { p } } ^ { 2 } } \\frac { w _ { m } } { w \\left( x \\right) } \\quad [ P a ]\n$$\n\nWhere $Y , \\ t , \\ l , \\ w , \\ \\rho$ , and $_ g$ are Young’s modulus, thickness, length, width, density, and applied Y t l w ρ gacceleration, respectively (figure 4). Subscripts $s , p , c$ , and $m$ denote Si elastic layer, piezoelectric s p c mlayer, cantilever, and mass, respectively. The uniform stress can be obtained when\n\n$$\n\\kappa ( l _ { c } + 0 . 5 l _ { m } - x ) = w \\left( x \\right)\n$$\n\nwhere $\\kappa$ is a constant. The device size is 1 cm square, same as the uniform-width PEH [7]. Regarding κstrength as well, it was designed to withstand up to $1 0 \\mathrm { ~ G ~ } ( = 9 8 \\mathrm { ~ m } / \\mathrm { s } ^ { 2 } )$ like the uniform-width PEH, and the active layer thickness was $8 0 ~ { \\mu \\mathrm { m } }$ . The removal of the piezoelectric volume which has less contribution to generate charges (i.e. small in-plane stress) can enhance the output power and voltage. The device was fabricated by using alternative sputtering depositions of PZT and bottom electrodes on the initially oxidized SOI wafer. The each PZT and electrode layers were dry-etched layer-by-layer. Active and handle layers are etched through with a deep reactive ion etching equipment. The fabrication procedure in detail is written in elsewhere [7]. Figure 5 shows a schematic illustration of the uniform-stress MEMS-PEH. The cross-section image is shown in figure 6. The piezoelectric layer has a multilayered structure with the total thickness of approximately $1 0 ~ { \\mu \\mathrm { m } }$ . Also, the supporting beam of the device has a trapezoidal shape.\n\n![](images/938ab4e9d746c580d11ff37abfe214cd87b64415d492a027d2ab687290bd9c28.jpg)  \nFigure 4. Structure of uniform-stress PEH.\n\n![](images/b7b6b692041cdcbe30b9e6d2087f32d93a76f58db7504fc6f04ff508168b0f98.jpg)  \nFigure 5. Image of the fabricated uniform-stress PEH.\n\n![](images/0e68bbac4ad32bc9b5b5d2bf8ae8e03dae5d51cbd13fc4f39f1add708bab6c94.jpg)  \nFigure 6. An electron microscopic image on the cross section of the piezoelectric layer."
+    },
+    {
+      "heading": "3.2. Evaluation",
+      "level": 1,
+      "text": "3.2. Evaluation The fabricated device was characterized by using a shaker and inverted amplifier circuit. Load resistance was connected to the top and bottom electrodes of the mulatilayered PZT in parallel. The voltage generated on the load resistance was measured when the sinusoidal acceleration was applied to the MEMS-PEHs at a resonant frequency. Figure 7 shows the load characteristics of the uniformwidth and uniform-stress MEMS-PEHs when the external vibration with an acceleration of approximately $1 . 2 \\mathrm { ~ G ~ }$ at the resonant frequency. The output power and voltage of the uniform-width PEH were $9 0 ~ \\mu \\mathrm { W }$ and $1 . 0 \\mathrm { ~ V ~ } _ { \\mathrm { r m s } }$ , respectively, at the optimum load of $1 0 ~ \\mathrm { k } \\Omega$ . The output power and voltage of the uniform-stress PEH were $1 1 5 ~ \\mu \\mathrm { W }$ and $1 . 2 ~ \\mathrm { V _ { r m s } }$ , respectively, at the optimum load of 13 $\\mathrm { k } \\Omega$ . These results demonstrate that the uniform-stress PEH is useful to obtain large output power and voltage. The robust MEMS-PEH, based on a fully batch process without heavy mass bonding, with large output performance is realized.\n\n![](images/9926d1cd53f161d1d2b4b7e8cba1c24837427ceb7bfd746165fbe306656e4dc0.jpg)  \nFigure 7. Measured output power and voltage as a function of the load resistance."
+    },
+    {
+      "heading": "4. Conclusions",
+      "level": 1,
+      "text": "MEMS-PEH based on multilayered PZT thin films was improved by using uniform stress structure. From the viewpoint of strength and output power, $1 0 ~ \\mathrm { u m }$ piezoelectric layer was deposited on a thick support layer of $8 0 ~ { \\mu \\mathrm { m } }$ . The test device exhibited a high output power of $1 1 5 ~ \\mu \\mathrm { W }$ and high voltage of $1 . 2 \\mathrm { V _ { r m s } }$ under a vibration of $1 . 2 \\ : \\mathrm { G }$ . This performance is sufficiently useful to autonomous sensors."
+    },
+    {
+      "heading": "Acknowledgements",
+      "level": 1,
+      "text": "This research is supported by JST CREST, JPMJCR16Q4 and JSPS Grant-in-Aid for Scientific Research (C) 17K06269, JAPAN."
+    },
+    {
+      "heading": "References",
+      "level": 1,
+      "text": "[1] Kanno I 2016  67 348-352.   \n[2] J. Surf. Finish. Soc. Jpn.Adhikari S, Friswell M I, Inman D J 2012  18 115005   \n[3] Smart Mater. Struct.Lei A, Xu R. Thyssen A, Stoot A C, Christiansen T L, Hansen K, Lou-Moller R, Thomsen E V, Birkelund K 2011 Tec 125-128.   \n[4] (MEMS 2011)Inoue J-I, Kanda K, Fujita T, Maenaka K 2015 25 055001.   \n[5] J. Micromech. Microeng. Sano R, Inoue J-I, Kanda K, Fujita T, Maenaka K 2015  54 10ND03.   \n[6] Jpn. J. Appl. Phys.Hirai S, Kanda K, Fujita T. Maenaka K 2018 19a-C104-1.   \n[7] JSAP Spring Meeting Kanda K, Hirai S, Fujita T, Maenaka K 2018  281 229-235.   \n[8] Sens. Actuators A-Phys.Renaud M, Karakaya K, Sterken T, Fiorini P, Van Hoof C, Puers R 2008 145-146 380-386."
+    }
+  ],
+  "tables": [],
+  "figures": [
+    {
+      "page": -1,
+      "caption": "",
+      "path": "images/20679614084b0b0273662de7e739f12afc957a6646e81e6e3c460c7be9d86f3b.jpg"
+    },
+    {
+      "page": -1,
+      "caption": "",
+      "path": "images/1c6575e2dd4ba986fc67275c8ef3cf866dcc1f3bbd71489da0c1b227cedaf35c.jpg"
+    },
+    {
+      "page": -1,
+      "caption": "",
+      "path": "images/fcf555eea8e528181b5cb2bdaacf6219f4c36dcad612311e7278deb660f533a7.jpg"
+    },
+    {
+      "page": -1,
+      "caption": "",
+      "path": "images/938ab4e9d746c580d11ff37abfe214cd87b64415d492a027d2ab687290bd9c28.jpg"
+    },
+    {
+      "page": -1,
+      "caption": "",
+      "path": "images/b7b6b692041cdcbe30b9e6d2087f32d93a76f58db7504fc6f04ff508168b0f98.jpg"
+    },
+    {
+      "page": -1,
+      "caption": "",
+      "path": "images/0e68bbac4ad32bc9b5b5d2bf8ae8e03dae5d51cbd13fc4f39f1add708bab6c94.jpg"
+    },
+    {
+      "page": -1,
+      "caption": "",
+      "path": "images/9926d1cd53f161d1d2b4b7e8cba1c24837427ceb7bfd746165fbe306656e4dc0.jpg"
+    }
+  ],
+  "metadata": {
+    "source": "openalex",
+    "pdf_url": "https://doi.org/10.1088/1742-6596/1407/1/012081",
+    "parsed_at": "2026-03-10T10:01:19.888943+00:00"
+  }
+}

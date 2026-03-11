@@ -1,0 +1,147 @@
+{
+  "metadata": {
+    "paper_id": "10_1155_2020_4063025",
+    "doi": "10.1155/2020/4063025",
+    "title": "A Metamaterial-Inspired Structure for Simultaneous Vibration Attenuation and Energy Harvesting",
+    "year": 2020,
+    "journal": "Shock and Vibration"
+  },
+  "configuration": "cantilever",
+  "proof_mass": true,
+  "geometry": {
+    "length_mm": 18.51,
+    "width_mm": 7.0,
+    "thickness_mm": 1.0,
+    "substrate_thickness_um": null,
+    "piezo_thickness_um": null,
+    "tip_mass_g": 1.27,
+    "diameter_mm": null
+  },
+  "excitation": {
+    "type": "vibration",
+    "frequency_Hz": 245.0,
+    "acceleration_g": 0.5,
+    "displacement_mm": null,
+    "motion_source": "shaker table"
+  },
+  "load": {
+    "load_resistance_ohm": 15.0
+  },
+  "output": {
+    "resonant_frequency_Hz": 224.0,
+    "output_power_W": 5.2e-06,
+    "open_circuit_voltage_V": null,
+    "short_circuit_current_A": null,
+    "bandwidth_Hz": 52.0
+  },
+  "evidence": {
+    "configuration": {
+      "quote": "Each unit cell contains four angled cantilevers with fixed-free ends.",
+      "section": "2. Design and Fabrication",
+      "source_type": "section"
+    },
+    "proof_mass": {
+      "quote": "The tip mass at the free end of each cantilever is made of copper coils",
+      "section": "2. Design and Fabrication",
+      "source_type": "section"
+    },
+    "geometry": {
+      "length_mm": {
+        "quote": "Length, L 18.51 mm",
+        "section": "Table 1",
+        "source_type": "table"
+      },
+      "width_mm": {
+        "quote": "Width, W 7mm",
+        "section": "Table 1",
+        "source_type": "table"
+      },
+      "thickness_mm": {
+        "quote": "Height, H 1mm",
+        "section": "Table 1",
+        "source_type": "table"
+      },
+      "substrate_thickness_um": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "piezo_thickness_um": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "tip_mass_g": {
+        "quote": "mass, m 0.00127 kg",
+        "section": "Table1",
+        "source_type": "table"
+      },
+      "diameter_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      }
+    },
+    "excitation": {
+      "type": {
+        "quote": "sinusoidal vibration sweep",
+        "section": "5. Results and Discussion",
+        "source_type": "section"
+      },
+      "frequency_Hz": {
+        "quote": "maximum power generated within the first bandgap reaches 5.2 μW at 245 Hz",
+        "section": "A Metamaterial-Inspired Structure for Simultaneous Vibration Attenuation and Energy Harvesting",
+        "source_type": "abstract"
+      },
+      "acceleration_g": {
+        "quote": "acceleration level of 0.5 g",
+        "section": "5. Results and Discussion",
+        "source_type": "section"
+      },
+      "displacement_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "motion_source": {
+        "quote": "shaker table",
+        "section": "4. Experimental Methods",
+        "source_type": "section"
+      }
+    },
+    "load": {
+      "load_resistance_ohm": {
+        "quote": "optimum load resistance of 15 Ω",
+        "section": "A Metamaterial-Inspired Structure for Simultaneous Vibration Attenuation and Energy Harvesting",
+        "source_type": "abstract"
+      }
+    },
+    "output": {
+      "resonant_frequency_Hz": {
+        "quote": "fundamental resonant frequency ... at approximately 224 Hz",
+        "section": "5. Results and Discussion",
+        "source_type": "section"
+      },
+      "output_power_W": {
+        "quote": "maximum power generated within the first bandgap reaches 5.2 μW",
+        "section": "A Metamaterial-Inspired Structure for Simultaneous Vibration Attenuation and Energy Harvesting",
+        "source_type": "abstract"
+      },
+      "open_circuit_voltage_V": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "short_circuit_current_A": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "bandwidth_Hz": {
+        "quote": "Two frequency bandgaps are measured: 205 - 257 Hz",
+        "section": "A Metamaterial-Inspired Structure for Simultaneous Vibration Attenuation and Energy Harvesting",
+        "source_type": "abstract"
+      }
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "paper_id": "10_1063_1_4917214",
+  "doi": "10.1063/1.4917214",
+  "title": "Enhanced performance of magnetoelectric energy harvester based on compound magnetic coupling effect",
+  "source_apis": [
+    "openalex"
+  ],
+  "pdf_url": "",
+  "pdf_local_path": "data_registry/raw_stage04_paper_pdf_cleaned/10_1063_1_4917214.pdf",
+  "processing": {
+    "tool": "MinerU",
+    "version": "python -m mineru.cli.client, version 2.7.6",
+    "timestamp": "2026-03-10T09:32:28.723947+00:00",
+    "duration_s": 94.23,
+    "success": true,
+    "error": ""
+  },
+  "outputs": {
+    "content_md": "/root/EH-LLM-vehbench-exp/parsed_docs/10_1063_1_4917214_3rlv2dqa/content.md",
+    "layout_json": "/root/EH-LLM-vehbench-exp/parsed_docs/10_1063_1_4917214_3rlv2dqa/layout.json",
+    "images_dir": "/root/EH-LLM-vehbench-exp/parsed_docs/10_1063_1_4917214_3rlv2dqa/10_1063_1_4917214/auto/images",
+    "normalized_json": "/root/EH-LLM-vehbench-exp/normalized_docs/10_1063_1_4917214.json"
+  },
+  "data_lineage": {
+    "papers_jsonl_hash": "0bb3e17d917535cf5fbe4aee0fd2ee6e",
+    "pipeline_step": "ingestion/mineru_runner.py"
+  }
+}

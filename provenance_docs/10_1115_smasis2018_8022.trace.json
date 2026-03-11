@@ -1,0 +1,28 @@
+{
+  "paper_id": "10_1115_smasis2018_8022",
+  "doi": "10.1115/smasis2018-8022",
+  "title": "The Reliability Testing and Fatigue Behavior Study of Micro Piezoelectric Energy Harvester",
+  "source_apis": [
+    "semantic_scholar"
+  ],
+  "pdf_url": "",
+  "pdf_local_path": "data_registry/raw_stage04_paper_pdf_cleaned/10_1115_smasis2018_8022.pdf",
+  "processing": {
+    "tool": "MinerU",
+    "version": "python -m mineru.cli.client, version 2.7.6",
+    "timestamp": "2026-03-10T10:05:39.553886+00:00",
+    "duration_s": 70.77,
+    "success": true,
+    "error": ""
+  },
+  "outputs": {
+    "content_md": "/root/EH-LLM-vehbench-exp/parsed_docs/10_1115_smasis2018_8022_zde55v2i/content.md",
+    "layout_json": "/root/EH-LLM-vehbench-exp/parsed_docs/10_1115_smasis2018_8022_zde55v2i/layout.json",
+    "images_dir": "/root/EH-LLM-vehbench-exp/parsed_docs/10_1115_smasis2018_8022_zde55v2i/10_1115_smasis2018_8022/auto/images",
+    "normalized_json": "/root/EH-LLM-vehbench-exp/normalized_docs/10_1115_smasis2018_8022.json"
+  },
+  "data_lineage": {
+    "papers_jsonl_hash": "1afdd0be7978e67ac1081abb47c8048b",
+    "pipeline_step": "ingestion/mineru_runner.py"
+  }
+}

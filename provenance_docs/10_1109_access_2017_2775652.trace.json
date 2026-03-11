@@ -3,26 +3,26 @@
   "doi": "10.1109/access.2017.2775652",
   "title": "Performance Dependence on Initial Free-End Levitation of a Magnetically Levitated Piezoelectric Vibration Energy Harvester With a Composite Cantilever Beam",
   "source_apis": [
-    "openalex"
+    "both"
   ],
   "pdf_url": "https://doi.org/10.1109/access.2017.2775652",
-  "pdf_local_path": "",
+  "pdf_local_path": "data_registry/raw/10_1109_access_2017_2775652.pdf",
   "processing": {
     "tool": "MinerU",
-    "version": "mineru, version 2.7.6",
-    "timestamp": "2026-02-23T11:38:58.673699+00:00",
-    "duration_s": 5.17,
-    "success": false,
+    "version": "python -m mineru.cli.client, version 2.7.6",
+    "timestamp": "2026-03-09T15:24:54.696904+00:00",
+    "duration_s": 56.48,
+    "success": true,
     "error": ""
   },
   "outputs": {
-    "content_md": "",
-    "layout_json": "",
-    "images_dir": "",
-    "normalized_json": ""
+    "content_md": "/root/EH-LLM-vehbench-exp/parsed_docs/10_1109_access_2017_2775652_uvofyy_l/content.md",
+    "layout_json": "/root/EH-LLM-vehbench-exp/parsed_docs/10_1109_access_2017_2775652_uvofyy_l/layout.json",
+    "images_dir": "/root/EH-LLM-vehbench-exp/parsed_docs/10_1109_access_2017_2775652_uvofyy_l/10_1109_access_2017_2775652/auto/images",
+    "normalized_json": "/root/EH-LLM-vehbench-exp/normalized_docs/10_1109_access_2017_2775652.json"
   },
   "data_lineage": {
-    "papers_jsonl_hash": "1c3e18b483877017f1da564bac2a6a2d",
+    "papers_jsonl_hash": "3b0fc51dbb8e414db6a2e714b3af4dd9",
     "pipeline_step": "ingestion/mineru_runner.py"
   }
 }

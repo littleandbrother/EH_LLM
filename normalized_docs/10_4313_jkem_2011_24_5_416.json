@@ -1,0 +1,134 @@
+{
+  "paper_id": "10_4313_jkem_2011_24_5_416",
+  "doi": "10.4313/jkem.2011.24.5.416",
+  "title": "A Study on Energy Harvester with Cantilever Structure Using PZT Piezoelectric Material",
+  "year": 2011,
+  "venue": "Journal of the Korean Institute of Electrical and Electronic Material Engineers",
+  "authors": [
+    "Doo-Yeol Cha",
+    "Soo-jin Lee",
+    "Sung-Pil Chang",
+    "Sung‐Pil Chang"
+  ],
+  "citation_count": 3,
+  "sections": [
+    {
+      "heading": "Preamble",
+      "level": 0,
+      "text": "차두열1 , 이수진2 , 장성필1,a\n\n1 인하대학교 전자공학과  \n2 인하대학교 기계공학과"
+    },
+    {
+      "heading": "A Study on Energy Harvester with Cantilever Structure Using PZT Piezoelectric Material",
+      "level": 1,
+      "text": "Doo-Yeol Cha1 , Soo-Jin Lee2 , and Sung-Pil Chang1,a 1 Department of Electronic Engineering, Inha University, Incheon 402-751, Korea 2 Department of Mechanical Engineering, Inha University, Incheon 402-751, Korea (Received October 15, 2010; Revised December 17, 2010; Accepted January 20, 2011)\n\nAbstract: Nowadays, the increasing demands upon mobile devices such as wireless sensor networks and the recent advent of low power electrical devices such as MEMS make such renewable power sources att ractive. A vibration-driven MEMS lead zirconate titanate $\\mathrm { P b ( Z r , T i ) O _ { 3 } }$ (PZT) cantilever device is developed for energy harvesting application. This paper presents a piezoelectric based energy harvester which is suit able for power generating from conventional vibration and has in providing energy for low power electron ic devices. The PZT cantilever is used $\\mathrm { { d _ { 3 3 } } }$ mode to get the electrical power. The PZT cantilever based en ergy harvester with the dimension of $7 \\ \\mathrm { m m } { \\times } 3 \\ \\mathrm { m m } { \\times } 0 . 0 3 \\ \\mathrm { m m }$ is fabricated using micromachining technolog ies. This PZT cantilever has the mechanical resonance frequency with a $9 0 0 ~ \\mathrm { H z }$ . With these conditions, w e get experimentally the $3 7 \\mathrm { \\ u W }$ output power from this device with the application of $1 \\mathrm { g }$ acceleration usi ng the $9 0 0 ~ \\mathrm { H z }$ vibration. From this study, we show the feasibility of one of energy harvesting candidates using PZT based structure. This PZT energy harvester could be used for various applications such a batt eryless micro sensors and micro power generators.\n\nKeywords: MEMS, Energy harvester, PZT, Resonance frequency"
+    },
+    {
+      "heading": "1. 서 론",
+      "level": 1,
+      "text": "최근 무선 네트워킹 기술이 발전하면서 시간, 위치,장소에 상관없이 어디서든 정보를 쉽게 얻을 수 있는유비쿼터스 사회를 실현하기 위해 높은 성능과 소형화를 통하여 휴대성을 확보할 수 있는 기기들의 필요성이 증대되고 있다 그리고 이를 뒷받침하기 위해필수적인 요소 기술인 에너지 하베스팅 기술의 개발이 요구되고 있다 [1]. 지금까지 이러한 에너지원으로는 대부분 충전식 이차전지를 활용하고 있는 실정이다. 그러나 다른 소형화 에너지 재생기술이 크게 발전하는데 비하여 이차전지 성능은 미약하게 증가하는데 그치고 있다 [2]. 따라서 현재 장시간 사용 가능한 동력원이 필요한 제품들이 상용화 되고 있기 때문에는 기존의 이차전지를 대체할 새로운 형태의 에너지 하베스팅 기술이 요구되고 있다. 이러한 예로 연료전지, 태양전지, 소형 압전 세라믹 기술 등이 있다.이러한 기술 중에 연료전지와 태양전지 등은 화학반응으로 인한 안정성 문제 및 태양광의 필요로 인한환경적 요인 등으로 사용이 제한적이다. 그러나 압전재료가 외부에서 가해지는 구조적 변화에 의한 전기에너지가 발생되는 압전 현상을 이용한 에너지 하베스팅 기술은 움직이는 대부분의 물체에 사용가능한근래에 크게 각광을 받는 기술이다 [3]. 본 논문에서는 PZT 압전 세라믹 물질을 이용하여 마이크로 머시닝 공정을 통해 낮은 공진주파수 영역의 외팔보를 제작함으로써 집적화 및 소형화가 가능한 에너지 하베스팅 기술을 연구하고자 하며, 또한 기존의 d31 모드의 에너지 하베스터가 아닌 d 모드의 에너지 하베스터를 제작하여 용이한 제작 공정을 통해 높은 전력을 얻을 수 있는 에너지 하베스터를 제작하고자 한다."
+    },
+    {
+      "heading": "2.1.1 압전 현상",
+      "level": 1,
+      "text": "압전 현상은 1880년 피에르와 폴 자크 퀴리 형제에의해 처음 발견된 현상으로 그들은 어떠한 결정물은외부에서 기계적 응력을 받았을 때 전하를 발생시킨다는 사실을 발견했다. 일반적으로 대칭성에 따란 나눈 고체 결정 32정족 중에 20종이 이러한 성질을 가진다. 이러한 성질을 압전 현상이라고 하고, 이러한성질을 지닌 물질을 압전 재료라 한다. 이러한 압전재료에 그림 1과 같은 전극을 입하고 퀴리 온도 이상에서 높은 전기장을 걸어 주면 압전 재료내의 분자가전기장 방향으로 쌍극자를 형성하게 되는데, 이러한처리과정을 폴리 (poling procedure)라고 한다. 이렇게 폴링 처리된 압전 재료는 낮은 전기장을 가해도수축 또는 팽창하는 특성을 갖는다. 또한 이와는 반대로 극화 처리된 압전 재료에 변형을 가해도 수축및 팽창하는 특성을 가진다. 압전 재료의 이러한 특성을 각각 역방향 효과와 순방향 효과라 한다. 외부에서 응력이나 압력을 가하면 전하분포나 전기장이발생하는 현상이 순방향 효과이고, 외부에서 전기장을 가했을 때 변형이 생기는 현상이 역방향 효과이다. 또한 압전 재료는 하중에 대하여 변형이 생기는순간에는 전하가 발생하나 변형된 상태에서 압전재료가 폐회로를 구성하면 곧 전하가 소멸되므로,주로 동적 거동 해석에 적합하다. 압전 현상을 이용한 재료는 다결정 세라믹 압전 재료와 고분자 압전재료가 있는데, 대표적인 세라믹 압전 재료는 PZT이며, 고분자 압전재료는 PvDF이다. 그중 세라믹압전 재료는 넓은 주파수 응답성, 높은 출력 전압등으로 에너지 하베스터 재료로 적합하다 할 수 있다.\n\n![](images/eff758d0c48ce2b3405667a9dcd3b218addda0b764309df85d1a4aedb3686f12.jpg)  \nFig. 1. Polarization of piezoelectric material."
+    },
+    {
+      "heading": "2.1.2 에너지 발생 이론",
+      "level": 1,
+      "text": "압전 재료에 기계적 힘이 가해졌을 때 발생하는 전기적 에너지는 다음과 같이 주어진다.\n\n$$\nE n e r g y = V Q\n$$\n\n여기서 V와 Q는 각각 압전 재료에 발생한 전압과전하량이다. 그림 2와 같이 길이가 L, 폭이 W, 두께가 T인 사각형의 압전 재료에 크기 F의 기계적 힘이가해지면, 다음과 같은 크기의 전압과 전하량을 얻을수 있다.\n\n$$\n\\begin{array} { l } { { V _ { 3 3 } = \\displaystyle \\frac { F g _ { 3 3 } T } { L W } , Q _ { 3 3 } = F d _ { 3 3 } } } \\\\ { { V _ { 3 1 } = \\displaystyle \\frac { F g _ { 3 1 } } { W } , Q _ { 3 1 } = \\displaystyle \\frac { F L d _ { 3 1 } } { T } } } \\end{array}\n$$\n\ng33와 g31은 33모드와 31모드의 응력 상수이고, d33와d31은 각 모드에서의 변형률 상수이다. 이때 압전 재료에 작용하는 힘이 f[Hz]의 주파수를 가해진다면, 압전 재료에서 얻을 수 있는 단위 시간당 전기에너지,즉 전력 P는 다음과 같이 나타낼 수 있다.\n\n여기서 33모드는 응력의 작용과 전위차가 발생하는방향이 수평인 경우를 말하며, 31모드는 응력이 작용하는 방향과 전위차가 발생하는 방향이 수직인 경우를 말한다.\n\n$$\n\\begin{array} { r } { P _ { 3 3 } = V _ { 3 3 } Q _ { 3 3 } f = \\sigma _ { 3 3 } ^ { 2 } d _ { 3 3 } g _ { 3 3 } T W L f } \\\\ { P _ { 3 1 } = V _ { 3 1 } Q _ { 3 1 } f = \\sigma _ { 3 1 } ^ { 2 } d _ { 3 1 } g _ { 3 1 } T W L f } \\end{array}\n$$\n\n식 (4)는 33모드에서의 전력 발생식이고, 식 5는 31모드에서의 전력 발생식이다.\n\n위 두 식을 통해서 압전 재료의 물성치와 설계 변수들이 전력 발생에 미치는 영향을 파악할 수 있다.\n\n표 1에 나타난 각 모드별 응력 상수와 변형률 상수값을 비교해보면, 대부분의 압전 재료에서 d33모드에서의 상수 값이 더 크다는 것을 알 수 있다. 따라서d 모드보다 d 모드를 이용할 때, 더 많은 양의 에너지를 얻을 수 있을 것이라 기대된다.\n\nTable 1. Properties of piezoelectric materials.   \n\n<table><tr><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>Sign</td><td rowspan=1 colspan=1>PZT</td><td rowspan=1 colspan=1>PvDF</td><td rowspan=1 colspan=1>Unit</td></tr><tr><td rowspan=2 colspan=1>Piezoelectricstrainconstant</td><td rowspan=1 colspan=1>d33</td><td rowspan=1 colspan=1>370*10-12</td><td rowspan=1 colspan=1>33#10-12</td><td rowspan=1 colspan=1>C/m2</td></tr><tr><td rowspan=1 colspan=1>d31</td><td rowspan=1 colspan=1>170*10-12</td><td rowspan=1 colspan=1>23*10-12</td><td rowspan=1 colspan=1>N/m2</td></tr><tr><td rowspan=1 colspan=1>Young&#x27;smodulus</td><td rowspan=1 colspan=1>E</td><td rowspan=1 colspan=1>6*1010</td><td rowspan=1 colspan=1>3*109</td><td rowspan=1 colspan=1>N/m2</td></tr></table>"
+    },
+    {
+      "heading": "2.2.1 설계",
+      "level": 1,
+      "text": "본 연구에서는 PZT 압전세라믹 물질을 외팔보 형태로 제작하여 고유진동수 영역에서 진동시킴으로써 전력을 발생시키고자 한다. 외팔보는 진동 특성이 비교적 간단하고 공정이 용이하여 PZT 에너지 하베스터의 특징을 살펴보는데 적합한 구조라 할 수 있다.\n\n그림 2의 외팔보의 고유진동수는 식 (7)과 같이 표현될 수 있다.\n\n$$\nd = { \\frac { { \\cal { F } } { \\mathit { l } } ^ { 3 } } { 1 2 E { \\cal { I } } } } , ~ { \\mathit { I } } = { \\frac { w t ^ { 3 } } { 1 2 } } , ~ { \\mathit { F } } = k d\n$$\n\n$$\nf = { \\frac { 1 } { 2 \\pi } } { \\sqrt { \\frac { k } { m } } } = { \\frac { 1 } { 2 \\pi } } { \\sqrt { \\frac { E w t ^ { 3 } } { m l ^ { 3 } } } }\n$$\n\nd : 외팔보의 최대변위  \nI : 관성모멘트  \nk : 용수철 상수  \nE : 영률\n\n![](images/67d2dc69c79cada05f77b9f8924c1984413c10cfef92fc97b6b9062b0152318f.jpg)  \nFig. 2. PZT Cantilever.\n\n본 논문에서는 위 식을 이용하여 크기가 $7 ~ \\mathrm { m m } { \\times } 3$ $\\mathrm { m m } { \\times } 0 . 0 3 \\ \\mathrm { m m } ^ { \\circ } |$ 며 고유진동수가 $8 9 2 \\ \\mathrm { H z } _ { \\mathrm { \\downarrow } } ^ { \\circ }$ 비교적 낮은 고유주파수를 갖는 MEMS 외팔보를 설계하였다."
+    },
+    {
+      "heading": "2.2.2 시뮬레이션",
+      "level": 1,
+      "text": "설계된 외팔보를 유한요소해석을 통해 시뮬레이션을 진행하였으며 그 결과 $9 1 5 ~ \\mathrm { H z } $ 의 고유진동수를 얻을 수 있었으며 그것은 설계된 외팔보의 고유진동수인 892 Hz와 매우 흡사한 값을 갖는 것을 알 수가있었다. 유한요소해석에서 경계조건의 설정으로 설계된 값과 시뮬레이션 값이 $1 9 \\ \\mathrm { ~ H z ~ }$ 의 차이가 발생하였다.\n\n에너지 하베스팅을 위한 MEMS 외팔보의 경우 크기가 매우 작아 변위의 발생이 미약하여 고유진동수영역에서 외팔보를 동작시킴으로써 외팔보가 최대변위를 갖게 한다. 그래서 일반적으로 고유진동수 영역에서 동작하도록 제작하게 된다.\n\n![](images/8fbb3d768fc9766b49c55912b7a35d0b029bdfd24bdfc9879707ae2bcb281302.jpg)  \nFig. 3. Natural frequency analysis of the cantilever."
+    },
+    {
+      "heading": "2.3 제작공정",
+      "level": 1,
+      "text": "PZT 에너지 하베스트 외팔보는 그림 4와 같은 공정순서로 제작되었다.\n\nLPCVD를 이용하여 낮은 응력과 높은 순도를 가진실리콘 산화막을 $2 \\textrm { u m }$ 증착을 시킨다. 이 산화막 층은 압전세라믹의 절연층의 역할과 동시에 질량체를지지하는 지지대 역할도 동시에 수행하게 된다. LPCVD 공정을 수행하게 되면 실리콘 웨이퍼 뒷면에도역시 산화막이 형성되는데 이것은 추후 뒷면 식각의희생층으로 사용하데 된다. 다음으로 산화막 위에 30um 두께의 PZT를 스핀 코팅하게 된다. 일반적으로Sol-gel 방법으로 PZT를 수 um 정도로 코팅하기 위해서는 다중코팅을 진행하여야 한다. PZT 솔루션은스핀코팅을 이용해 7중 다층 코팅을 하게 되며 이 과정을 통해 $3 0 \\ \\mathrm { u m }$ 두께의 PZT 세라믹 막을 형성할 수있다. 이렇게 형성된 PZT 세라믹 막은 $8 0 0 \\mathrm { { ‰} }$ 의 온도에서 10분간 어닐링을 진행하게 된다.\n\nPZT 박막을 형성한 후에 마지막으로 전극을 패턴하게 되는데 포토리소그래피 공정을 이용하여 d 모드 전극을 패턴한 후에 RF 스퍼터를 이용하여 Ti/Au 전극을 각각 200 Å/2,000 Å 두께로 증착하게 된다. 이렇게형성된 구조체를 뒷면 습식 식각을 통해 외팔보로 제작된다.\n\n![](images/b08c523f648e57721c49256db9cd8cd4c5426f804d56a45351d402420e29c1e8.jpg)  \nFig. 4. Fabrication sequence of MEMS cantilever.\n\n![](images/7659b0a8561224baa76b02071a16f745cd25a07ccdc9e8ad0cc89ae1170d9c3d.jpg)  \nFig. 5. Fabricated PZT cantilever.\n\n마지막으로 이렇게 완성된 MEMS 에너지 하베스팅소자에 전압을 가해 PZT 세라믹 층을 폴링하게 된다.$1 0 0 \\mathrm { { ‰} }$ 의 퍼니스에서 600 V의 전압으로 30분간 폴링을진행하여 PZT 층의 쌍극자의 정렬을 유도한다. 그림 5는 제작된 외팔보의 모습을 보여주고 있다."
+    },
+    {
+      "heading": "3. 결과 및 고찰",
+      "level": 1,
+      "text": "에너지 변환 시스템에 진동 에너지를 인가시켜 그 때발생하는 전압을 측정함으로써, PZT 외팔보의 실제 거동을 이론적 거동과 비교하고자 한다.\n\n![](images/483650c81e3ffa5107dd06771e68a5c5e0b54cdeeacc67ac8e9136371d327b1f.jpg)  \nFig. 6. The circuit of PZT energy harvesting system.\n\n![](images/d2096ae71cbe142ced5b35ab21dee3ed908d298f0c9f7c8e7e7f7b96e0db60b7.jpg)  \nFig. 7. Power generating of PZT cantilever."
+    },
+    {
+      "heading": "3.1 가진기를 이용한 에너지 하베스팅",
+      "level": 1,
+      "text": "그림 6은 PZT 에너지 하베스팅 시스템의 회로도로써PZT에너지 하베스터에 연속적으로 임의의 가속도로 진동이 인가되어 진동 에너지가 전기 에너지로 변화되어,회로의 정류회로에서 직류전원으로 변환되고 DC-DC 컨버터에서 승압이 되어 배터리에 전기에너지가 충전되는형태이다.\n\n그림 7은 PZT 외팔보에 진동에너지를 가했을 경우발생되는 전압을 오실로스코프를 통해 측정된 모습을보여주고 있다. 가진기를 통해 1g의 가속도로 진동에너지를 가했을 때 전압이 발생되어 기계적 진동에너지가 전기에너지로 변환이 일어나는 것을 알 수 있다. PZT 외팔보에서 발생된 교류전원은 다이오드 브릿지 회로를 이용한 정류회로를 통해 직류전원으로\n\n![](images/ca830b366a2b386a35eff8594d466c9ebd0167d11733d4c736392a26c62820a9.jpg)  \nFig. 8. The voltages with resistive load.\n\n![](images/44104adad6e490168a12cb410658e244bb9ca307064d2db56e4589da8a590e62.jpg)  \nFig. 9. The output power with resistive load.\n\n변환된다.\n\n그림 8은 정류회로 뒷단에 저항을 인가하여 PZT외팔보에 의해 발생되는 전압변화를 살펴보았다. 실험결과 3 V 정도에서 포화영역에 드는 것을 알 수 있었다.\n\n그림 9는 PZT 외팔보에서 발생되는 전력의 추이를보여주는 그림이다. 실제 측정값과 시뮬레이션을 통해 얻은 이론값을 보여주고 있다. 두 값이 차이를 보이는 이유는 실제 시뮬레이션에서 적용시킨 물질의강성 및 압전물질의 압전상수 등이 실제값과 차이를보여 오차가 발생되는 것으로 보여진다. 측정시 PZT외팔보의 열화 현상으로 이상적인 값을 얻을 수 없었다."
+    },
+    {
+      "heading": "REFERENCES",
+      "level": 1,
+      "text": "PZT 압전 물질의 이론적 해석을 바탕으로 에너지하베스팅 시스템의 제작과 실험을 통해 인가되는 에너지가 전기 에너지로 변환되는 양을 실험으로 측정하였다. 또한 측정된 값과 이론적 해석을 비교, 검토하여 외부 에너지와 변환 에너지의 관계를 파악함으로써 설계를 위한 기본 인자를 확인하였다. 가진기를이용하여 930 Hz의 고유진동수 영역의 진동을 가했을 때, PZT 외팔보에서 37 uW의 전력을 발생시키는것을 확인하였고, 부하저항에 의해 에너지 변환 정도가 변하는 것을 알 수 있었다. 이를 통해 에너지 하베스팅 시스템의 설계 고려사항으로 향상된 압전 소재 사용뿐만이 아니라 회로영역에서도 최적화 설계를수행해야함을 알 수 있었다.\n\n[1] B. S. Lee and W. J. Wu, IEEE Ultrasonic Symposium (New York, USA, 2007) p. 28.   \n[2] J. H. Lin, X. M. Wu, T. L. Ren, and L. T. Liu,, Integr. Ferroelectr., 95, 128 (2007).   \n[3] S. Roudy, E. S. Leland, J. Baker, E. Carleton, E. Reilly, E. Lai, and B. Otis, IEEE Pervasive Computing, 4, 28 (2005).   \n[4] T. W. Choi, C. S. Lee, and S. C. Yoo, Proc. 2002 Summer Conf. KIEEME (Jeju, Korea, 2002) p. 10.   \n[5] T. W. Choi and S. C. Yoo, J. KIEEME, 15, 10 (200 1).   \n[6] T. W. Choi, C. S. Lee, and S. C. Yoo, Trans. Electr. Electron. Mater., 15, 10 (2001).   \n[7] T. W. Choi and S. C. Yoo, J. Mater. Sci., 15, 10 (2 001).   \n[8] H. A. Sodano and D. J. Inman, J. Intell. Mater. Sys. and Struc., 16, 799 (2005)."
+    },
+    {
+      "heading": "감사의 글",
+      "level": 1,
+      "text": "이 논문은 2010년도 정부(교육과학기술부)의 재원으로 한국연구재단의 지원을 받아 수행된 연구임.(2010-0002659)"
+    }
+  ],
+  "tables": [
+    {
+      "page": -1,
+      "content": ""
+    }
+  ],
+  "figures": [
+    {
+      "page": -1,
+      "caption": "",
+      "path": "images/eff758d0c48ce2b3405667a9dcd3b218addda0b764309df85d1a4aedb3686f12.jpg"
+    },
+    {
+      "page": -1,
+      "caption": "",
+      "path": "images/67d2dc69c79cada05f77b9f8924c1984413c10cfef92fc97b6b9062b0152318f.jpg"
+    },
+    {
+      "page": -1,
+      "caption": "",
+      "path": "images/8fbb3d768fc9766b49c55912b7a35d0b029bdfd24bdfc9879707ae2bcb281302.jpg"
+    },
+    {
+      "page": -1,
+      "caption": "",
+      "path": "images/b08c523f648e57721c49256db9cd8cd4c5426f804d56a45351d402420e29c1e8.jpg"
+    },
+    {
+      "page": -1,
+      "caption": "",
+      "path": "images/7659b0a8561224baa76b02071a16f745cd25a07ccdc9e8ad0cc89ae1170d9c3d.jpg"
+    },
+    {
+      "page": -1,
+      "caption": "",
+      "path": "images/483650c81e3ffa5107dd06771e68a5c5e0b54cdeeacc67ac8e9136371d327b1f.jpg"
+    },
+    {
+      "page": -1,
+      "caption": "",
+      "path": "images/d2096ae71cbe142ced5b35ab21dee3ed908d298f0c9f7c8e7e7f7b96e0db60b7.jpg"
+    },
+    {
+      "page": -1,
+      "caption": "",
+      "path": "images/ca830b366a2b386a35eff8594d466c9ebd0167d11733d4c736392a26c62820a9.jpg"
+    },
+    {
+      "page": -1,
+      "caption": "",
+      "path": "images/44104adad6e490168a12cb410658e244bb9ca307064d2db56e4589da8a590e62.jpg"
+    }
+  ],
+  "metadata": {
+    "source": "both",
+    "pdf_url": "http://koreascience.or.kr:80/article/JAKO201115952330174.pdf",
+    "parsed_at": "2026-03-10T10:16:30.803187+00:00"
+  }
+}

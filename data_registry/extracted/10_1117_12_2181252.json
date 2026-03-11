@@ -1,0 +1,147 @@
+{
+  "metadata": {
+    "paper_id": "10_1117_12_2181252",
+    "doi": "10.1117/12.2181252",
+    "title": "Nonlinear vibration analysis of the high-efficiency compressive-mode piezoelectric energy harvester",
+    "year": 2015,
+    "journal": "Proceedings of SPIE, the International Society for Optical Engineering/Proceedings of SPIE"
+  },
+  "configuration": "frame",
+  "proof_mass": true,
+  "geometry": {
+    "length_mm": 50,
+    "width_mm": 5,
+    "thickness_mm": 0.48,
+    "substrate_thickness_um": 500,
+    "piezo_thickness_um": null,
+    "tip_mass_g": 100,
+    "diameter_mm": null
+  },
+  "excitation": {
+    "type": "vibration",
+    "frequency_Hz": 22,
+    "acceleration_g": 0.3,
+    "displacement_mm": null,
+    "motion_source": "electromagnetic shaker"
+  },
+  "load": {
+    "load_resistance_ohm": 100000
+  },
+  "output": {
+    "resonant_frequency_Hz": 22,
+    "output_power_W": 0.03,
+    "open_circuit_voltage_V": null,
+    "short_circuit_current_A": null,
+    "bandwidth_Hz": null
+  },
+  "evidence": {
+    "configuration": {
+      "quote": "The HC-PEH is composed of a flex-compressive center and two proof masses. The flex-compressive center is composed of a piezoelectric plate sandwiched by two bow-shape metal plates.",
+      "section": "2. DESIGN",
+      "source_type": "section"
+    },
+    "proof_mass": {
+      "quote": "The HC-PEH is composed of a flex-compressive center and two proof masses.",
+      "section": "2. DESIGN",
+      "source_type": "section"
+    },
+    "geometry": {
+      "length_mm": {
+        "quote": "Length of the elastic beam 50 mm",
+        "section": "4. EXPERIMENTS",
+        "source_type": "table"
+      },
+      "width_mm": {
+        "quote": "Width of the elastic beam 5 mm",
+        "section": "4. EXPERIMENTS",
+        "source_type": "table"
+      },
+      "thickness_mm": {
+        "quote": "Thickness of the elastic beam 0.48 mm",
+        "section": "4. EXPERIMENTS",
+        "source_type": "table"
+      },
+      "substrate_thickness_um": {
+        "quote": "Thickness of the bow-shape plate 0.5 mm",
+        "section": "4. EXPERIMENTS",
+        "source_type": "table"
+      },
+      "piezo_thickness_um": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "tip_mass_g": {
+        "quote": "Proof mass 100 g",
+        "section": "4. EXPERIMENTS",
+        "source_type": "table"
+      },
+      "diameter_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      }
+    },
+    "excitation": {
+      "type": {
+        "quote": "The vibration-based energy harvesting is extensively studied recently",
+        "section": "ABSTRACT",
+        "source_type": "abstract"
+      },
+      "frequency_Hz": {
+        "quote": "a maximum power output 30 mW is generated at 22 Hz",
+        "section": "ABSTRACT",
+        "source_type": "abstract"
+      },
+      "acceleration_g": {
+        "quote": "Under a weak excitation of 0.3 g",
+        "section": "ABSTRACT",
+        "source_type": "abstract"
+      },
+      "displacement_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "motion_source": {
+        "quote": "The HC-PEH was mounted on an electromagnetic shaker",
+        "section": "4. EXPERIMENTS",
+        "source_type": "section"
+      }
+    },
+    "load": {
+      "load_resistance_ohm": {
+        "quote": "optimum resistance was found to be 100 KΩ",
+        "section": "5. RESULTS AND DISCUSSIONS",
+        "source_type": "section"
+      }
+    },
+    "output": {
+      "resonant_frequency_Hz": {
+        "quote": "a maximum power output 30 mW is generated at 22 Hz",
+        "section": "ABSTRACT",
+        "source_type": "abstract"
+      },
+      "output_power_W": {
+        "quote": "a maximum power output 30 mW is generated at 22 Hz",
+        "section": "ABSTRACT",
+        "source_type": "abstract"
+      },
+      "open_circuit_voltage_V": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "short_circuit_current_A": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "bandwidth_Hz": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      }
+    }
+  }
+}

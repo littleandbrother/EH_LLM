@@ -1,0 +1,173 @@
+{
+  "paper_id": "10_1016_j_sbspro_2015_06_198",
+  "doi": "10.1016/j.sbspro.2015.06.198",
+  "title": "Micro-Electro-Mechanical System (MEMS)-Based Piezoelectric Energy Harvester for Ambient Vibrations",
+  "year": 2015,
+  "venue": "Procedia - Social and Behavioral Sciences",
+  "authors": [
+    "S. Saadon",
+    "O. Sidek",
+    "Salem Saadon",
+    "Othman Sidek"
+  ],
+  "citation_count": 35,
+  "sections": [
+    {
+      "heading": "Preamble",
+      "level": 0,
+      "text": "World Conference on Technology, Innovation and Entrepreneurship"
+    },
+    {
+      "heading": "Micro-Electro-Mechanical System (MEMS)-Based Piezoelectric Energy Harvester for Ambient Vibrations",
+      "level": 1,
+      "text": "Salem Saadona \\*, Othman Sideka\n\na School of Electrical & Electronic Engineering Universiti Sains Malaysia Engineering Campus 14300 Nibong Tebal, Penang, Malaysia, saadonsalem@yahoo.com"
+    },
+    {
+      "heading": "Abstract",
+      "level": 1,
+      "text": "The ambient vibration-based micro electromechanical systems (MEMS) piezoelectric harvester has become an important subject in most research publications. Providing a green and virtually infinite alternative power source to traditional energy sources, this harvester will significantly expand the applications of wireless sensor networks and other technologies. Using piezoelectric materials to harvest the ambient vibrations that surround a system is one method that has seen a dramatic rise in the powerharvesting applications. The simplicity associated with piezoelectric micro-generators makes them very attractive for MEMS applications in which ambient vibrations are harvested and converted into electric energy. These micro generators can become an alternative to the battery-based solutions in the future, especially for remote systems. In this paper, we proposed a model and presented the simulation of a MEMS-based arrayed energy harvester under ambient vibration excitation using the Coventorware approach. This arrayed cantilever-based MEMS energy harvester that operates under ambient excitation of frequency band of 67 to $7 0 \\ : \\mathrm { H z }$ , within a base acceleration of 0.2 to $1 . 3 \\mathrm { g }$ produces an output power of $6 . 8 \\mu \\mathrm { w }$ and 0.4 volts at $2 0 . 1 \\mathrm { k }$ -ohms load.\n\n$^ ©$ 2015 The Authors. Published by Elsevier Ltd. This is an open access article under the CC BY-NC-ND license © 2015 The Authors. Published by Elsevier Ltd.(http://creativecommons.org/licenses/by-nc-nd/4.0/).   \nPeer-review under responsibility of Istanbul UnivePeer-review under responsibility of Istanbul Univeristy.\n\nKeywords: Piezoelectric Materials; Energy Conversion; Shaped Cantilever; MEMS"
+    },
+    {
+      "heading": "1. Introduction",
+      "level": 1,
+      "text": "The flexibility associated with piezoelectric materials makes them very attractive for power harvesting. Piezoelectric materials possess a large amount of mechanical energy that can be converted into electrical energy, and they can withstand large strain magnitude. Many methods have been reported to improve the harvested power of micro electromechanical systems (MEMS) micro-generators. One of these methods is the selection of a proper coupling mode of operation, which involves two modes. The first mode, called 31mode, considers the excited vibration force being applied perpendicular to the poling direction (pending beam). The other mode is called the 33mode in which the force is applied on the same side as the poling direction. Between the two modes, the 31mode is the most commonly used, which produces a lower coupling coefficient $\\mathbf { \\bar { \\Sigma } } ^ { \\mathrm { c } } \\mathbf { k } ^ { \\mathrm { , , } \\mathrm { , } }$ than the 33mode. The second method to improve harvested power requires changing the device configuration, accomplished by adding multiple piezoelectric materials to the harvester.The unimorph cantilever beam configuration proposed by Johnson et al. (2006) demonstrated that, a highest power could be generated using this configuration under lower excitation frequencies and load resistance.\n\nTwo combinations of the bimorph structures are possible, namely, the series and the parallel types. Series and parallel triple-layer bimorph structures were presented by $\\mathrm { N g }$ and Liao (2004, 2005). The series triple-layer bimorph was made of a metallic layer sandwiched between two piezoelectric materials, and the piezoelectric patches were electrically connected in series. For the parallel triple-layer bimorph, which was also sandwiched between two piezoelectric layer bimorphs, the piezoelectric materials were connected in parallel.\n\nThe parallel triple-layer bimorph generates the highest power under medium excited frequencies and load resistance, whereas the series triple-layer bimorph produces the highest power when excited under higher frequencies and load resistance. The series connection method will increases the device impedance as well as improve the delivered output power at higher loads. Several researchers have carried out studies to improve the bimorph efficiency. Jiang et al. (2005) investigated a bimorph cantilever with a proof mass attached to its tip. Their results showed that reducing the bimorph thickness and increasing the attached proof mass decreased the harvester resonant frequency and produced a maximum harvested power. Similarly, Anderson and Sexton (2006) found that varying the length and width of the proof mass affected the output of the harvested power. The cantilever geometrical structure also plays an important role in improving the harvester’s efficiency. Rectangular-shaped cantilever structures are most commonly used in MEMS-based piezoelectric harvesters. They are easy to implement and effective in harvesting energy from ambient vibrations, as proposed in the review paper by Saadon and Sidek (2011). However, the study conducted by Mateu and Moll (2005) showed that a triangular-shaped cantilever beam with a small free end can withstand higher strains and allows maximum deflections, resulting in higher power output compared with the rectangular beam with the width and length equal to the base and height of the corresponding triangular cantilever beam.\n\nRoundy et al. (2005) discovered that the strain on a trapezoidal-shaped cantilever beam can be more distributed throughout its structure. They also observed that, for the same volume of lead Zirconate Titanate (PZT), the trapezoidal cantilever beam can deliver more than twice the energy than the rectangular-shaped beam can. Similarly, Baker et al. (2005) experimentally tested a nearly triangular trapezoidal-shaped cantilever beam, along with a rectangular-shaped beam of the same volume. They found that $30 \\%$ more power could be achieved using the trapezoidal beam than that using the rectangular one.\n\nAnother method of improving the efficiency of a power harvester is by tuning the device so that its resonant frequency matches the ambient vibration-resonant frequency. Shahruz (2006a, b) designed a power harvester that can be resonated at various frequency ranges without the need for any adjustment. This device consisted of different cantilever beams with different lengths and different tip masses attached to its common base frame such that each cantilever has its own resonant frequency. This configuration resulted in a “mechanical band-pass filter,” which led to the increase in size and cost of the device. Rastegar et al. (2006) designed a passive tuning system that had a twostage system in which a very low frequency ${ 0 . 2 } ~ \\mathrm { H z }$ to $0 . 5 ~ \\mathrm { H z }$ ) can be converted into potential energy and then transferred to the system at a higher natural frequency.\n\nSimilar works on the modeling, design, fabrication, and simulations of shaped cantilevered structure MEMSbased piezoelectric power harvesters were conducted by other authors (Marzencki et al. 2005, 2008; Shen et al. 2008; Renaud et al. 2008; Fang et al. 2006; Liu et al. 2008; Jeon et al. 2005; Lee et al. 2007, 2009; Muralt et al. 2009; Elfrink et al. 2009; Littrell & Grosh 2012; Lallart et al. 2012; Park et al. 2010; Liu et al. 2011; Wasa et al. 2012; Tabesh & Frechette, 2010)."
+    },
+    {
+      "heading": "2. Analytical model of Typical Cantilevered-Based MEMS Harvester",
+      "level": 1,
+      "text": "To achieve an optimal harvested power of the cantilevered harvester, the resonant frequency should be taken into consideration. The dimensions of the cantilever and the mass decide the desirable resonant frequency of the harvester. Any slight deviation from the resonant frequency will cause a large reduction in the output power of such harvester. Thus, this resonant frequency should be calculated carefully to match the excitation frequency of the harvester and meet the optimal conditions for its output harvested power, which is the main objective of this paper. To determine the value of resonant frequency of any cantilevered piezoelectric energy harvester, important parameters should be defined from its structure as denoted on figure1.\n\n![](images/848422855e2f64744927b4201208571bb62bd12198276526f39a02c31796b114.jpg)  \nFig. 1. Typical MEMS-based cantilevered piezoelectric energy harvester\n\nUsually, the resonant frequency of a piezoelectric cantilever is expressed by Equation (1) (Gere & Timoshenko,1984).\n\n$$\n\\pmb { f _ { n } } = \\frac { \\upsilon _ { n } ^ { 2 } } { 2 \\pi I ^ { 2 } } \\sqrt { \\frac { E I } { m } }\n$$\n\nWhere $f _ { \\mathrm { n } }$ and $\\nu _ { \\mathrm { n } }$ are the nth mode of the resonant frequency and the eigenvalue respectively, $l$ is the cantilever length, E is the modulus of elasticity (Young’s modulus), $I$ is the area moment of inertia about the neutral axis, and $\\mathbf { m } ^ { \\prime }$ is the mass per unit length of the cantilever.\n\nEquation (1) can be rewritten in terms of the bending modulus per unit width $\\mathrm { ( D _ { p } ) }$ as follows:\n\n$$\nf _ { n } = \\frac { \\upsilon _ { n } ^ { 2 } } { 2 \\pi I ^ { 2 } } \\sqrt { \\frac { D _ { p } } { m } }\n$$\n\nwhere, $m = \\rho _ { p } t _ { p } + \\rho _ { s } t _ { s }$\n\nThus, the mass per unit area $\\mathrm { ( m ) }$ is calculated by the sum of the products of the density and thickness of each layer. $\\rho _ { \\mathrm { p } } \\mathrm { t _ { p } }$ is the product of the density and thickness of the piezoelectric layer, whereas $\\rho _ { \\mathrm { s } } \\mathrm { t _ { s } }$ is the product of the density and thickness of the support layer.\n\nAs expressed by Yi et al. (2002), the bending modulus $\\mathrm { D } _ { \\mathrm { p } }$ is a function of both Young’s moduli and the thicknesses of the two layers, i.e.,\n\n$$\nD _ { p } = \\frac { E _ { p } ^ { 2 } t _ { p } ^ { 4 } + E _ { s } ^ { 2 } t _ { s } ^ { 4 } + 2 E _ { p } E _ { s } t _ { p } t _ { s } ( 2 t _ { p } ^ { 2 } + 2 t _ { s } ^ { 2 } + 3 t _ { p } t _ { s } ) } { 1 2 ( E _ { p } t _ { p } + E _ { s } t _ { s } ) }\n$$\n\nThe purpose of attaching a proof mass at the tip of the cantilever is to lower its resonant frequency and to provide\n\nalarge displacement at the cantilever tip.\n\nThe resonant frequency in this case is calculated by Equation (4).\n\n$$\n\\pmb { f } _ { r } = \\frac { \\omega } { 2 \\pi } = \\frac { 1 } { 2 \\pi } \\sqrt { \\frac { k } { m _ { e } } }\n$$\n\nwhere $\\omega , \\mathrm { K } ,$ and $\\mathfrak { m } _ { \\mathrm { e } }$ are the angular frequency, the spring constant at the tip, and the effective mass of the cantilever, respectively.\n\nThe resonant frequency approximation when the size of the attached proof mass is smaller than the cantilever length is expressed as:\n\n$$\n\\pmb { f _ { n } = \\frac { { \\upsilon _ { n } ^ { \\prime } } ^ { 2 } } { 2 \\pi } } \\sqrt { \\frac { k } { m _ { e } + \\Delta m } }\n$$\n\nwhere the effective mass $m _ { e } = 0 . 2 3 6 m w i$ l when considering the axial velocity, that acts on the length or the width $( \\mathrm { w } { < } { < } 1 )$ . The spring constant $\\mathbf { k }$ can be written as:\n\n$$\nk = \\frac { 3 D _ { p } W _ { p } } { I ^ { 3 } }\n$$\n\nWhen the center of the proof mass has a concentrated load, its distance is $1 _ { \\mathrm { m } } / 2$ from the tip, and the effective spring constant at this point is expressed by Equation (7).\n\n$$\nk ^ { \\prime } = k \\sp { \\prime } \\sp { \\prime } \\frac { \\cal I } { { \\cal I } - { \\cal I } _ { m } / 2 } \\sp { 3 }\n$$\n\nTherefore, by substituting the spring constant (k) in Equation (6) with the effective spring constant $\\mathbf { ( } \\mathbf { k } ^ { \\prime } )$ , the resonant frequency of the cantilever with a proof mass is expressed by Equation (8):\n\n$$\n\\mathbf { f } _ { n } = \\frac { v _ { n } ^ { 2 } } { 2 \\pi } \\sqrt { \\frac { 0 . 2 3 6 w _ { p } D _ { p } \\big ( I - I _ { m } / 2 \\big ) ^ { 3 } } { 0 . 2 3 6 m _ { p } I ^ { 7 } + \\Delta m I ^ { 3 } \\big ( I - I _ { m } / 2 \\big ) ^ { 3 } } }\n$$\n\nwhere the attached mass, $\\Delta m = \\rho _ { m } I _ { m } w _ { m } h _ { m }$\n\nThus, the low resonant frequency of the cantilever beam can be determined either by increasing the cantilever length or by attaching a larger proof mass at its tip.\n\nBased on the previously mentioned equations, the design of a cantilever-based piezoelectric harvester demands a beam with high mechanical strength against vibration, as well as a higher mass density to meet the high-efficiency requirement."
+    },
+    {
+      "heading": "3.1. Materials declaration of single cantilever",
+      "level": 1,
+      "text": "The reduction of the natural frequency of the cantilever beams to meet the excitation frequency captured from ambient vibrations, which are normally less than $2 0 0 ~ \\mathrm { H z } ,$ , in this research a MEMS piezoelectric energy harvester that capable to captured an excitation frequency from ambient vibrations surrounding the device was proposed by using SOI substrate instead of standard substrate, it can be found that reduction in the device natural frequency and optimization of the extracted power from environment not only depends upon the volume of the attached proof mass but also on the shape and thickness of the cantilever beam of the device.\n\nThe harvester model and structure can be shown in figure 2, while tables 1 and 2 illustrated the dimensions and the specific properties of the beam materials.\n\n![](images/24bbfe7546e60ec12227ebf98d6b965093ebb5161b8b5a1ad1b94f8129aa5369.jpg)  \nFig2. Schematic view of the multi-layered structure of the designed beam.\n\n<table><tr><td>Name</td><td>Length (μm)</td><td>Width (μm)</td><td>Thickness (μm)</td></tr><tr><td>Beam</td><td>2450</td><td>450</td><td>11.2</td></tr><tr><td>Proof mass</td><td>1500</td><td>780</td><td>480</td></tr></table>\n\nTable1. Dimensions of the harvester Table2. Materials specifications\n\n<table><tr><td>Materials Density (kg/μm³)</td><td></td><td>Modulus (MPa)</td><td>Poisson&#x27;s ratio</td></tr><tr><td>PZT</td><td>7.5x10-15</td><td>6.2x104</td><td>0.25</td></tr><tr><td>Silicon</td><td>2.328x10-15</td><td>1.65x105</td><td>0.3</td></tr></table>\n\nThe materials specification of (Silicon(Si), Silicon dioxide $( \\mathrm { S i O } _ { 2 } )$ , Lead Zirconate Titanate (PZT), Platinum $\\left( \\mathrm { P _ { t } } \\right)$ and Titanium (Ti) were carefully edited in the material editor window of the Coventorware as shown in fig.3.\n\n![](images/c9dfac4ab97174c12f6407d074cfd9e54358996cccf94b8119dcfa93ccbf6de7.jpg)  \nFig. 3. Material editor window"
+    },
+    {
+      "heading": "3.2. Process Implementation",
+      "level": 1,
+      "text": "A silicon-on-insulator (SOI) wafer was used in place of more conventional silicon substrates, whereas the buried $\\mathrm { S i O } _ { 2 }$ layer added as an etching stop layer.\n\nThe thicknesses of beam silicon layer, the thermal $\\mathrm { S i O } _ { 2 }$ layer and the substrate silicon layer were edited manually t be $1 0 \\mu \\mathrm { m }$ , $1 0 0 \\mathrm { n m }$ , and $5 0 0 \\mu \\mathrm { m }$ respectively as shown in figure 4.\n\n![](images/8c8bf3a1e6c7f6df8dd86984dee4e861f282be58ac6d1665332d624d219982c7.jpg)  \nFig.4 Process editor window\n\nA $\\mathrm { S i O } _ { 2 }$ layer of thickness about $1 0 0 ~ \\mathrm { { n m } }$ was grown on both back and front side of the SOI wafer. The front side $\\mathrm { S i O } _ { 2 }$ layer was used to balance the PZT thin film inertial stress then can be performed, and the back oxide was used to mask the area of the surface to prevent damage that may occurred during back-side etching process.\n\nThe interlayer Titanium Ti $( 1 0 \\mathrm { n m } )$ was used as an adhesion (seed) between the bottom electrode Pt. and the oxide layer. Through these steps of the process a multi-layered films (Pt./PZT/Pt./Ti/SiO2) were successfully formed on SOI substrate. More details can be found from the process editor window as shown in figure 4."
+    },
+    {
+      "heading": "3.3. Layout and masking layers",
+      "level": 1,
+      "text": "All mask names those appeared previously on the process editor window in figure 4 were could be selected to construct the harvester layout as shown in figure 5.\n\nIn the layout editor window many object shapes can be drown after editing their coordinate points, however every mask layer have its own colour as edited previously in the process editor window.\n\n![](images/665dedf2e9afcacfef65225f7c7786e2f1cd784504963b3f990a8b70cf7f5758.jpg)  \nFig.5 Layout editor window"
+    },
+    {
+      "heading": "3.4. Solid and meshed model",
+      "level": 1,
+      "text": "The solid model of the device depends upon the previous editors. Precisely edited data were capable to construct the solid or 3-dimensional device.\n\nAs shown in figure 6, all the device layers were shown on the left hand side of the processor window. The developed solid model should be prepared for the simulation process to be achieved, however, the model should be meshed after the mesh element type and size were selected. In this case the Tetrahedrons type mesh with 100- element size had been used.\n\n![](images/8de250eb032d1d1c3228965e4ec645514ba7c26689fded164a9672d7b48b8408.jpg)  \nFig.6 Processor or solid model window"
+    },
+    {
+      "heading": "4. Broadband Cantilever-Based MEMS Energy Harvester",
+      "level": 1,
+      "text": "Power and voltage optimization of the design harvester has more challenges to overcome the leak power that could be extracted by a single MEMS-based piezoelectric energy harvester, however, micro fabrication of such type of harvesters is complicated and faces more difficulties.\n\nParallel arrayed broadband energy harvester is more efficient than serial arrayed type in which the extracted power is the same as single type energy harvester.\n\nThe arrayed parallel type structure is shown in figure 8, whereas its process definition is shown in figure 7.\n\n![](images/733c1a0cc1ca0abccac0e7aa3183bbfa7f6a13f240505a6a15d0ae0d8524b58d.jpg)  \nFig.7 Process editor window of parallel arrayed harvester\n\n![](images/5de145869b63207747acbeb9c825503e1dbe4e7dfb587536cf2999c02e0cb634.jpg)  \nFig.8 5-element cantilever Arrayed broadband MEMS piezoelectric energy harvester"
+    },
+    {
+      "heading": "4.1. Direct harmonic analysis",
+      "level": 1,
+      "text": "According to the results obtained as shown graphically in figure 9, the cantilever displacement swing between $4 2 0 0 ~ { \\mu \\mathrm { m } }$ to $6 2 0 0 ~ { \\mu \\mathrm { m } }$ as shown in figure 9(a), while the extracted power ranged between $3 ~ \\mu \\mathrm { w }$ and $6 . 8 ~ \\mu \\mathrm { w }$ as can be shown in figure 9(b). However the output voltage fluctuated between 0.25 to 0.4 volts as illustrated in figure 9(c), whereas the output current ranged from 12 to $1 8 \\mu \\mathrm { A }$ as shown in figure 9(d).\n\nThe maximum displacement of the designed broadband harvester is around 6000 micron in Z-direction (vertical displacement), this should be taken into account in order to package the harvester, which means that the height of the package should be not less than 6500 micron to be available at acceleration amplitudes from 0.2 to $1 . 3 \\ \\mathrm { g }$ as shown in figure 10.\n\n![](images/1e84dc802c424792acd3cf2e695178cea1a7c461f1bd5e45e83dcb2f3b282e9a.jpg)  \nFig. 9 Harmonic analysis (a) Displacement in microns, (b) Power in Pico-watts, (c) Voltage in Volts, and (d) Current in Pico-amperes\n\n![](images/a9861163c82a9d90da81b752f6de61097c1c0b81c3efd6c5fd6c4229b7e0581d.jpg)  \nFig. 10 Broadband energy harvester deflections at various acceleration amplitudes\n\nIncreasing the number of the cantilevers of the harvester will result in wider frequency bandwidth as well as optimization of the output voltage and power (Shahrus 2006 a,b; Liu et al. 2008; Hajati & Kim, 2011; Defosseux et al. 2011).\n\nThe output power and voltage of this proposed broadband energy harvester at different acceleration values (0.2- $1 . 3 \\mathrm { g } )$ are shown in figures 11 and 12 respectively.\n\n![](images/f2713e0718f1997fc9d8407db685535603142f26099679c545eb38dd83a2e2e7.jpg)  \nircuit Element Power 28 D ec 2013 C oventor D ata   \nFig. 11 Broadband energy harvester Output power at acceleration (0.2-1.3g)\n\n![](images/2ed81ab03af88e9f28f29adbd16b36ab720cf51f1702d9c6abcbe27f87db50d5.jpg)  \nFig. 12 Output voltage of broadband harvester at (0.2- 1.3g)"
+    },
+    {
+      "heading": "4.2. Modal analysis (frequency modes)",
+      "level": 1,
+      "text": "The modal analysis was done by selecting the number of modes in the analyser solver to 5 modes of frequency from $6 7 \\ : \\mathrm { H z }$ to $7 0 \\ : \\mathrm { H z }$ depending upon the excitation frequency band affecting the harvester behaviour. From figure 13, each cantilever had its own resonant frequency as indicated by red colours starting from mode1 to mode5 respectively.\n\n![](images/ab081ede12b43c88d4b8d6d28600659230fdce98096457df3148717f3b21bed0.jpg)  \nFig. 13 Frequency shape modes (67 Hz to 70 Hz)"
+    },
+    {
+      "heading": "5. Conclusion",
+      "level": 1,
+      "text": "Optimization of power, current, and voltage of the designed harvester depends upon the alignment of the layers of the cantilever as well as the thickness of the supporting layer provided that, this thickness should be more than the PZT thickness. As shown in all previously discussed subsections of the single element cantilever that the obtained power is not accounted, while the arrayed 5-element cantilever can generate more voltage and power compared with the single cantilever harvester. Lower frequency response of the harvester could be achieved by the arrayed harvester compared with single harvester constructed from the same element of the cantilever. The results obtained by this Coventorware simulation are closed to the fabrication results of the single element cantilever process done by (Kim et al. 2012). However, the fabrication of this arrayed cantilever piezoelectric energy harvester will be the first step in our future work."
+    },
+    {
+      "heading": "Acknowledgement",
+      "level": 1,
+      "text": "This research was supported by USM RU Team grant 1001/PCEDEC/854003."
+    },
+    {
+      "heading": "References",
+      "level": 1,
+      "text": "Anderson, T. A., & Sexton, D. W. (2006, March). A vibration energy harvesting sensor platform for increased industrial efficiency. In Smart structures and materials (pp. 61741Y-61741Y). International Society for Optics and Photonics.   \nBaker, J., Roundy, S., & Wright, P. (2005, August). Alternative geometries for increasing power density in vibration energy scavenging for wireless sensor networks. In Proc. 3rd Int. Energy Conversion Engineering Conf.(San Francisco, CA, Aug.) (pp. 959-70).   \nDefosseux, M., Allain, M., Ivaldi, P., Defay, E., & Basrour, S. (2011). Design, fabrication and characterization of wideband piezoelectric energy harvesters?. In International Conference Piezo 2011-Electroceramics for End-users VI (p. pp).   \nElfrink, R., Kamel, T. M., Goedbloed, M., Matova, S., Hohlfeld, D., Van Andel, Y., & Van Schaijk, R. (2009). Vibration energy harvesting with aluminum nitride-based piezoelectric devices. Journal of Micromechanics and Microengineering,19(9), 094005.   \nFang, H. B., Liu, J. Q., Xu, Z. Y., Dong, L., Wang, L., Chen, D., ... & Liu, Y. (2006). Fabrication and performance of MEMS-based piezoelectric power generator for vibration energy harvesting. Microelectronics Journal, 37(11), 1280-1284.   \nGere, J. M., & Timoshenko, S. P. Mechanics of materials. 2nd.(1984). Belmont, Ca: Brooks/Cole Engineering.   \nHajati, A., & Kim, S. G. (2011). Ultra-wide bandwidth piezoelectric energy harvesting. Applied Physics Letters, 99(8), 083105.   \nJeon, Y. B., Sood, R., Jeong, J. H., & Kim, S. G. (2005). MEMS power generator with transverse mode thin film PZT. Sensors and Actuators A: Physical, 122(1), 16-22.   \nJiang, S., Li, X., Guo, S., Hu, Y., Yang, J., & Jiang, Q. (2005). Performance of a piezoelectric bimorph for scavenging vibration energy. Smart Materials and Structures, 14(4), 769.   \nJohnson, T. J., Charnegie, D., Clark, W. W., Buric, M., & Kusic, G. (2006, March). Energy harvesting from mechanical vibrations using piezoelectric cantilever beams. In smart structures and materials (pp. 61690D-61690D). International Society for Optics and Photonics.   \nKim, M., Hwang, B., Ham, Y. H., Jeong, J., Min, N. K., & Kwon, K. H. (2012). Design, fabrication, and experimental demonstration of a piezoelectric cantilever for a low resonant frequency microelectromechanical system vibration energy harvester. Journal of Micro/Nanolithography, MEMS, and MOEMS, 11(3), 033009-1.   \nLallart, M., Wu, Y. C., & Guyomar, D. (2012). Switching delay effects on nonlinear piezoelectric energy harvesting techniques. Industrial Electronics, IEEE Transactions on, 59(1), 464-472.   \nLee, B. S., Lin, S. C., Wu, W. J., Wang, X. Y., Chang, P. Z., & Lee, C. K. (2009). Piezoelectric MEMS generators fabricated with an aerosol deposition PZT thin film. Journal of Micromechanics and Microengineering, 19(6), 065014.   \nLee, B. S., Wu, W. J., Shih, W. P., Vasic, D., & Costa, F. (2007). P2E-3 power harvesting using piezoelectric MEMS generator with interdigital electrodes. In Ultrasonics Symposium, 2007. IEEE (pp. 1598-1601). IEEE.   \nLittrell, R., & Grosh, K. (2012). Modeling and characterization of cantilever-based MEMS piezoelectric sensors and actuators. Microelectromechanical Systems, Journal of, 21(2), 406-413.   \nLiu, H., Tay, C. J., Quan, C., Kobayashi, T., & Lee, C. (2011). Piezoelectric MEMS energy harvester for low-frequency vibrations with wideband operation range and steadily increased output power. Microelectromechanical Systems, Journal of, 20(5), 1131-1142.   \nLiu, J. Q., Fang, H. B., Xu, Z. Y., Mao, X. H., Shen, X. C., Chen, D., ... & Cai, B. C. (2008). A MEMS-based piezoelectric power generator array for vibration energy harvesting. Microelectronics Journal, 39(5), 802-806.   \nMarzencki, M., Ammar, Y., & Basrour, S. (2008). Integrated power harvesting system including a MEMS generator and a power management circuit. Sensors and Actuators A: Physical, 145, 363-370.   \nMarzencki, M., Basrour, S., Charlot, B., Grasso, A., Colin, M., & Valbin, L. (2005). Design and fabrication of piezoelectric micro power generators for autonomous microsystems. In Proc. of DTIP’05 (pp. 299-302).   \nMateu, L., & Moll, F. (2005). Optimum piezoelectric bending beam structures for energy harvesting using shoe inserts. Journal of Intelligent Material Systems and Structures, 16(10), 835-845.   \nMuralt, P., Marzencki, M., Belgacem, B., Calame, F., & Basrour, S. (2009). Vibration energy harvesting with PZT micro device. Procedia Chemistry, 1(1), 1191-1194.   \nNg, T. H., & Liao, W. H. (2004). Feasibility study of a self-powered piezoelectric sensor. In Smart Structures and Materials (pp. 377-388). International Society for Optics and Photonics.   \nNg, T. H., & Liao, W. H. (2005). Sensitivity analysis and energy harvesting for a self-powered piezoelectric sensor. Journal of Intelligent Material Systems and Structures, 16(10), 785-797.   \nPark, J. C., Park, J. Y., & Lee, Y. P. (2010). Modeling and Characterization of Piezoelectric-Mode MEMS Energy Harvester. Microelectromechanical Systems, Journal of, 19(5), 1215-1222.   \nRastegar, J., Pereira, C., & Nguyen, H. L. (2006, March). Piezoelectric-based power sources for harvesting energy from platforms with lowfrequency vibration. In Smart Structures and Materials (pp. 617101-617101). International Society for Optics and Photonics.   \nRenaud, M., Karakaya, K., Sterken, T., Fiorini, P., Van Hoof, C., & Puers, R. (2008). Fabrication, modelling and characterization of MEMS piezoelectric vibration harvesters. Sensors and Actuators A: Physical, 145, 380-386.   \nRoundy, S., Leland, E. S., Baker, J., Carleton, E., Reilly, E., Lai, E., ... & Sundararajan, V. (2005). Improving power output for vibration-based energy scavengers. Pervasive Computing, IEEE, 4(1), 28-36.   \nSaadon, S., & Sidek, O. (2011). A review of vibration-based MEMS piezoelectric energy harvesters. energy conversion and management, 52(1), 500-504.   \nShahruz, S. M. (2006a). Design of mechanical band-pass filters for energy scavenging. Journal of Sound and Vibration, 292(3), 987-998.   \nShahruz, S.M.(2006b). Limits of performance of mechanical band-pass filters used in energy scavenging. Journal of sound and vibration, 293(1), 449-461.   \nShen, D., Park, J. H., Ajitsaria, J., Choe, S. Y., Wikle III, H. C., & Kim, D. J. (2008). The design, fabrication and evaluation of a MEMS PZT cantilever with an integrated Si proof mass for vibration energy harvesting. Journal of Micromechanics and Microengineering, 18(5), 055017.   \nTabesh, A., & Fréchette, L. G. (2010). A low-power stand-alone adaptive circuit for harvesting energy from a piezoelectric micropower generator. Industrial Electronics, IEEE Transactions on, 57(3), 840-849.   \nWasa, K., Matsushima, T., Adachi, H., Kanno, I., & Kotera, H. (2012). Thin-film piezoelectric materials for a better energy harvesting MEMS.Microelectromechanical Systems, Journal of, 21(2), 451-457.   \nYi, J. W., Shih, W. Y., & Shih, W. H. (2002). Effect of length, width, and mode on the mass detection sensitivity of piezoelectric unimorph cantilevers. Journal of applied physics, 91(3), 1680-1686."
+    }
+  ],
+  "tables": [
+    {
+      "page": -1,
+      "content": ""
+    },
+    {
+      "page": -1,
+      "content": ""
+    }
+  ],
+  "figures": [
+    {
+      "page": -1,
+      "caption": "",
+      "path": "images/848422855e2f64744927b4201208571bb62bd12198276526f39a02c31796b114.jpg"
+    },
+    {
+      "page": -1,
+      "caption": "",
+      "path": "images/24bbfe7546e60ec12227ebf98d6b965093ebb5161b8b5a1ad1b94f8129aa5369.jpg"
+    },
+    {
+      "page": -1,
+      "caption": "",
+      "path": "images/c9dfac4ab97174c12f6407d074cfd9e54358996cccf94b8119dcfa93ccbf6de7.jpg"
+    },
+    {
+      "page": -1,
+      "caption": "",
+      "path": "images/8c8bf3a1e6c7f6df8dd86984dee4e861f282be58ac6d1665332d624d219982c7.jpg"
+    },
+    {
+      "page": -1,
+      "caption": "",
+      "path": "images/665dedf2e9afcacfef65225f7c7786e2f1cd784504963b3f990a8b70cf7f5758.jpg"
+    },
+    {
+      "page": -1,
+      "caption": "",
+      "path": "images/8de250eb032d1d1c3228965e4ec645514ba7c26689fded164a9672d7b48b8408.jpg"
+    },
+    {
+      "page": -1,
+      "caption": "",
+      "path": "images/733c1a0cc1ca0abccac0e7aa3183bbfa7f6a13f240505a6a15d0ae0d8524b58d.jpg"
+    },
+    {
+      "page": -1,
+      "caption": "",
+      "path": "images/5de145869b63207747acbeb9c825503e1dbe4e7dfb587536cf2999c02e0cb634.jpg"
+    },
+    {
+      "page": -1,
+      "caption": "",
+      "path": "images/1e84dc802c424792acd3cf2e695178cea1a7c461f1bd5e45e83dcb2f3b282e9a.jpg"
+    },
+    {
+      "page": -1,
+      "caption": "",
+      "path": "images/a9861163c82a9d90da81b752f6de61097c1c0b81c3efd6c5fd6c4229b7e0581d.jpg"
+    },
+    {
+      "page": -1,
+      "caption": "",
+      "path": "images/f2713e0718f1997fc9d8407db685535603142f26099679c545eb38dd83a2e2e7.jpg"
+    },
+    {
+      "page": -1,
+      "caption": "",
+      "path": "images/2ed81ab03af88e9f28f29adbd16b36ab720cf51f1702d9c6abcbe27f87db50d5.jpg"
+    },
+    {
+      "page": -1,
+      "caption": "",
+      "path": "images/ab081ede12b43c88d4b8d6d28600659230fdce98096457df3148717f3b21bed0.jpg"
+    }
+  ],
+  "metadata": {
+    "source": "both",
+    "pdf_url": "https://doi.org/10.1016/j.sbspro.2015.06.198",
+    "parsed_at": "2026-03-10T10:08:27.494150+00:00"
+  }
+}

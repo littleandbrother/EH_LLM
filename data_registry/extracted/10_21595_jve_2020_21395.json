@@ -1,0 +1,147 @@
+{
+  "metadata": {
+    "paper_id": "10_21595_jve_2020_21395",
+    "doi": "10.21595/jve.2020.21395",
+    "title": "Design of a self-tunable, variable-length pendulum for harvesting energy from rotational motion",
+    "year": 2020,
+    "journal": "Journal of Vibroengineering"
+  },
+  "configuration": "other",
+  "proof_mass": true,
+  "geometry": {
+    "length_mm": 900,
+    "width_mm": null,
+    "thickness_mm": null,
+    "substrate_thickness_um": null,
+    "piezo_thickness_um": null,
+    "tip_mass_g": 7000,
+    "diameter_mm": null
+  },
+  "excitation": {
+    "type": "vibration",
+    "frequency_Hz": 0.47,
+    "acceleration_g": null,
+    "displacement_mm": 120,
+    "motion_source": "slider-crank mechanism"
+  },
+  "load": {
+    "load_resistance_ohm": 3
+  },
+  "output": {
+    "resonant_frequency_Hz": 0.47,
+    "output_power_W": 4.1,
+    "open_circuit_voltage_V": null,
+    "short_circuit_current_A": null,
+    "bandwidth_Hz": 0.21
+  },
+  "evidence": {
+    "configuration": {
+      "quote": "pendulum excited by a slider-crank mechanism",
+      "section": "abstract",
+      "source_type": "abstract"
+    },
+    "proof_mass": {
+      "quote": "pendulum mass which mounted at its tip",
+      "section": "abstract",
+      "source_type": "abstract"
+    },
+    "geometry": {
+      "length_mm": {
+        "quote": "pendulum length reaches to 900 mm",
+        "section": "4. Conclusions",
+        "source_type": "section"
+      },
+      "width_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "thickness_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "substrate_thickness_um": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "piezo_thickness_um": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "tip_mass_g": {
+        "quote": "md 7 kg",
+        "section": "3. Experimental setup",
+        "source_type": "table"
+      },
+      "diameter_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      }
+    },
+    "excitation": {
+      "type": {
+        "quote": "harvest low-frequency vibration energy",
+        "section": "1. Introduction",
+        "source_type": "section"
+      },
+      "frequency_Hz": {
+        "quote": "tuned resonance frequency of 0.47 Hz",
+        "section": "4. Conclusions",
+        "source_type": "section"
+      },
+      "acceleration_g": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "displacement_mm": {
+        "quote": "maximum excitation amplitude of 120 mm",
+        "section": "abstract",
+        "source_type": "abstract"
+      },
+      "motion_source": {
+        "quote": "slider-crank mechanism",
+        "section": "2. Design and modeling",
+        "source_type": "section"
+      }
+    },
+    "load": {
+      "load_resistance_ohm": {
+        "quote": "corresponding to 3 Ω",
+        "section": "4. Conclusions",
+        "source_type": "section"
+      }
+    },
+    "output": {
+      "resonant_frequency_Hz": {
+        "quote": "tuned resonance frequency of 0.47 Hz",
+        "section": "4. Conclusions",
+        "source_type": "section"
+      },
+      "output_power_W": {
+        "quote": "maximum output power of 4.1 W",
+        "section": "4. Conclusions",
+        "source_type": "section"
+      },
+      "open_circuit_voltage_V": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "short_circuit_current_A": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "bandwidth_Hz": {
+        "quote": "expand the bandwidth from (0.47-0.68) Hz",
+        "section": "4. Conclusions",
+        "source_type": "section"
+      }
+    }
+  }
+}

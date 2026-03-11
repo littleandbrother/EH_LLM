@@ -1,0 +1,147 @@
+{
+  "metadata": {
+    "paper_id": "10_21595_jve_2017_18940",
+    "doi": "10.21595/jve.2017.18940",
+    "title": "Voltage enhancing using multi-magnetic arrangement for low frequency vibrational energy harvesting",
+    "year": 2018,
+    "journal": "Journal of Vibroengineering"
+  },
+  "configuration": "other",
+  "proof_mass": true,
+  "geometry": {
+    "length_mm": null,
+    "width_mm": null,
+    "thickness_mm": null,
+    "substrate_thickness_um": null,
+    "piezo_thickness_um": null,
+    "tip_mass_g": null,
+    "diameter_mm": null
+  },
+  "excitation": {
+    "type": "vibration",
+    "frequency_Hz": 14,
+    "acceleration_g": null,
+    "displacement_mm": 3,
+    "motion_source": "vibration exciter"
+  },
+  "load": {
+    "load_resistance_ohm": 5100
+  },
+  "output": {
+    "resonant_frequency_Hz": 14,
+    "output_power_W": 0.01144,
+    "open_circuit_voltage_V": null,
+    "short_circuit_current_A": null,
+    "bandwidth_Hz": null
+  },
+  "evidence": {
+    "configuration": {
+      "quote": "This device consists of four magnets and four coils shown in Fig. 3(b). All the magnets are connected rigidly.",
+      "section": "3. Construction of vibrational energy harvesting device",
+      "source_type": "section"
+    },
+    "proof_mass": {
+      "quote": "The vibration energy harvesting device consists of a mass (magnet), spring and a damper system.",
+      "section": "2. Theory",
+      "source_type": "section"
+    },
+    "geometry": {
+      "length_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "width_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "thickness_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "substrate_thickness_um": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "piezo_thickness_um": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "tip_mass_g": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "diameter_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      }
+    },
+    "excitation": {
+      "type": {
+        "quote": "vibration energy harvesting device",
+        "section": "Abstract",
+        "source_type": "abstract"
+      },
+      "frequency_Hz": {
+        "quote": "at 14 Hz frequency, the induced voltage is found to be the highest.",
+        "section": "6. Result and discussion",
+        "source_type": "section"
+      },
+      "acceleration_g": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "displacement_mm": {
+        "quote": "the 3 mm displacement is given to the magnet.",
+        "section": "3. Construction of vibrational energy harvesting device",
+        "source_type": "section"
+      },
+      "motion_source": {
+        "quote": "By using a vibration exciter, we can give excitation of the known amplitude",
+        "section": "3. Construction of vibrational energy harvesting device",
+        "source_type": "section"
+      }
+    },
+    "load": {
+      "load_resistance_ohm": {
+        "quote": "induced voltages in the coils i.e. from coil 1 to coil 4 are 1.937 V, 1.426 V, 2.01 V and 2.27 V respectively across 5.1 kΩ",
+        "section": "6. Result and discussion",
+        "source_type": "section"
+      }
+    },
+    "output": {
+      "resonant_frequency_Hz": {
+        "quote": "The natural frequency of system is 14 Hz",
+        "section": "5. Experimental set",
+        "source_type": "section"
+      },
+      "output_power_W": {
+        "quote": "By using a multi-magnet arrangement with four magnets up to 7.64 V, and 11.44 mW output is reached.",
+        "section": "7. Conclusions",
+        "source_type": "section"
+      },
+      "open_circuit_voltage_V": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "short_circuit_current_A": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "bandwidth_Hz": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      }
+    }
+  }
+}

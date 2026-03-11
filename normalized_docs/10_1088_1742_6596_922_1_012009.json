@@ -1,0 +1,119 @@
+{
+  "paper_id": "10_1088_1742_6596_922_1_012009",
+  "doi": "10.1088/1742-6596/922/1/012009",
+  "title": "Non-resonant energy harvester with elastic constraints for low rotating frequencies",
+  "year": 2017,
+  "venue": "",
+  "authors": [
+    "S. P. Machado",
+    "M. Febbo",
+    "C. Gatti",
+    "J. M. Ramírez"
+  ],
+  "citation_count": 4,
+  "sections": [
+    {
+      "heading": "Non-resonant energy harvester with elastic constraints for low rotating frequencies",
+      "level": 1,
+      "text": "Characteristics of vibration energy harvesting using giant magnetostrictive cantilevers with resonant tuning Kotaro Mori, Tadashi Horibe, Shigekazu Ishikawa et al.\n\nTo cite this article: Sebastián P Machado et al 2017 J. Phys. : Conf. Ser. 922 012009\n\nWrinkling of the membrane with squarerigid elements   \nDong Yan, Dongzhen Huangfu, Kai Zhang et al.\n\nView the article online for updates and enhancements.\n\nGraded multifunctional piezoelectric metastructures for wideband vibration attenuation and energy harvesting M Alshaqaq and A Erturk"
+    },
+    {
+      "heading": "Non-resonant energy harvester with elastic constraints for low rotating frequencies",
+      "level": 1,
+      "text": "Sebastián P Machado1 , Mariano Febbo2 , Claudio D Gatti1 and José M Ramirez1\n\n1 Grupo de Investigación en Multifísica aplicada, Universidad Tecnológica Nacional FRBB and CONICET, Bahía Blanca, Argentina.\n\n2 Instituto de Física del Sur, Departamento de Física. Universidad Nacional del Sur, CONICET, Bahía Blanca, Argentina.\n\nsmachado@frbb.utn.edu.ar\n\nAbstract. This paper presents a non-resonant piezoelectric energy harvester (PEH) which is designed to capture energy from low frequency rotational vibration. The proposed device works out of the plane of rotation where the motion of a mass-spring system is transferred to a piezoelectric layer with the intention to generate energy to power wireless structural monitoring systems or sensors. The mechanical structure is formed by two beams with rigid and elastic boundary conditions at the clamped end. On the free boundaries, heavy masses connected by a spring are placed in order to increase voltage generation and diminish the natural frequency. A mathematical framework and the equations governing the energyharvesting system are presented. Numerical simulations and experimental verifications are performed for different rotation speeds ranging from 0.7 to $2 . 5 \\ \\mathrm { H z }$ . An output power of 125 $\\mu \\mathrm { W }$ is obtained for maximum rotating frequency demonstrating that the proposed design can collect enough energy for the suggested application."
+    },
+    {
+      "heading": "1. Introduction",
+      "level": 1,
+      "text": "This paper presents an innovative design of a PEH system which represents an alternative to the most common device consisting in cantilevered beams carrying tip masses to generate energy on a rotating environment. Most of previous works [1-3] considered piezoelectric beams fixed to a rotating hub, where the effect of the centrifugal force is used to tune the resonance frequency with the rotating driving frequency. When the hub rotates at constant angular speed, the output power and voltage of the harvester occur at the resonance frequency. In ref. [1], the authors only presented the utilization of the FE method to simulate a passive self-tuning piezoelectric composite beam for harvesting rotational energy. They obtained a relatively good power generation but their model failed to predict a precise peak voltage generation. A multimode mathematical model for the coupled electromechanical system is derived in [2], but experimental results are not presented. A simple analytical model is presented in [3] to explain the design parameter selection. The prototype reached a passive self-tuning for driving frequencies ranging from 6.2 to $1 6 . 2 \\mathrm { H z }$ .\n\nAccording to these proposals [1-3], it is required long length scales or large masses to match the resonance frequency to the excitation frequency for low rotation speeds. In order to overcome this difficulty, we propose a two-beam structure connected by a mass-spring system supported by elastic constrains. The device is intended to deliver energy for wireless structural monitoring systems or sensors, to monitor wind turbines of $3 0 ~ \\mathrm { K W }$ working at $5 0 { \\sim } 1 5 0 ~ \\mathrm { r p m }$ . These characteristics impose a definite bandwidth and size to the EH device to be constructed. For this reason, the physical dimensions and geometry are determining factors in the design."
+    },
+    {
+      "heading": "2. Device Concept",
+      "level": 1,
+      "text": "A schematic illustration of the device is shown in figure 1, where it can be noticed that the harvester is mounted rigidly on a hub. The gravity component in the reference system fixed to the hub, can be used in rotary motion to cause a beam to vibrate harmonically in the transverse direction, similarly to a base excitation. The advantage of the proposed shape over that of a simple cantilever beam can be explained by means of natural frequency analysis. The structural system is formed by two beams, which have very different stiffnesses. The harvester design is based on reducing the natural frequency by means of elastic restraints adopted for beam #2 (figure 1). The piezoelectric sheet (QP16N, Mide Corporation) is mounted on the stiffest beam #1. Both beams are connected by a spring element (spring #1) placed between two heavy masses. For these reasons, the configuration of the system requires a complex analysis of the natural frequencies and mode shapes, which will be presented in the next sections.\n\n![](images/f766d28f416bf49d3a34544d00a7e8f135f8baa7d81fe96473ebb66d2cd2265e.jpg)  \nFigure 1. Schematic views of the proposed PEH."
+    },
+    {
+      "heading": "3. Analytical model",
+      "level": 1,
+      "text": "The mathematical modeling of the proposed mechanism is simplified assuming that Euler-Bernoulli beam equations are valid for both beams. A Lagrangian approach is then used to develop the governing equations. The position of an infinitesimal segment on the beam in the rotating coordinate system is represented by $R$ :\n\n$$\nR = ( r + w ) e _ { _ z } + u e _ { _ x } ,\n$$\n\nwhere $w$ and $u$ are the transverse and axial elastic displacements respectively, $r$ is the distance from the axis of rotation to the beams, while $e _ { x }$ and $e _ { z }$ are unit vectors in the $x$ and $z$ directions respectively. In this case the bending motions will not induce significant axial motions for that reason they are neglected. The kinetic energy of the system is\n\n$$\nT = \\frac { I } { 2 } \\rho A \\int _ { \\cal O } ^ { l } \\biggl [ { \\dot { w } } ^ { 2 } + { \\dot { \\theta } } ^ { 2 } ( w ^ { 2 } + r ^ { 2 } + 2 r w ) \\biggr ] \\mathrm { d } x + \\frac { I } { 2 } m _ { T } \\dot { R } t _ { l } \\cdot \\dot { R } t _ { l } + \\frac { I } { 2 } I _ { T } \\dot { w } _ { l } ^ { \\prime 2 } ,\n$$\n\nwhere $l$ is the structural system length, $m _ { T }$ represent the masses (#1, #2 or $\\# 3$ ), $I _ { T }$ is the moment of inertia of the masses and the velocity of the heavy masses at free end is\n\n$$\n\\dot { R } t = ( \\dot { w } + d \\dot { w } _ { l } ^ { \\prime } ) e _ { x } + ( r + w _ { l } + d w _ { l } ^ { \\prime } ) \\dot { \\theta } e _ { z }\n$$\n\nwhere $d$ is the length from the tip beam to the center of the heavy mass (see figure 2). The potential energy of the system can be expressed as\n\n$$\nU = \\frac { I } { 2 } E I \\int _ { o } ^ { I } w ^ { \\prime \\prime } \\mathrm { d } x + g \\rho A \\int _ { o } ^ { I } ( r + w ) s e n \\theta \\ \\mathrm { d } x + m _ { T } g \\left[ ( r + w _ { I } + d \\ w _ { I } ^ { \\prime } ) s e n \\theta \\right] - \\frac { I } { 2 } J _ { p } \\nu \\int _ { 0 } ^ { I } w ^ { \\prime } \\mathrm { d } x\n$$\n\nwhere $J _ { p }$ is the electromechanical coupling coefficient, $\\nu$ is the voltage drop in the piezoelectric, $E I$ is the flexural rigidity which depends on the section of the structural system and $g$ is the gravity. The internal electrical energy in the piezoceramic layer is\n\n$$\nW _ { i e } = \\frac { I } { 2 } J _ { p } \\nu \\int _ { 0 } ^ { l } \\frac { \\hat { \\sigma } ^ { 2 } w } { \\hat { \\sigma } x ^ { 2 } } \\mathrm { d } x + \\frac { I } { 2 } C _ { p } \\nu ^ { 2 } ,\n$$\n\nbeing $C _ { p }$ the internal capacitance of the piezoceramic. Applying the Lagrangian formulation for the mechanical and electrical degrees of freedom it is possible to define the governing equations of motion in the following way:\n\n$$\n\\begin{array} { c } { { \\ddot { q } + c \\dot { q } + ( \\mathrm { K } - \\Omega ^ { 2 } ) q - \\Omega ^ { 2 } \\chi + \\mathcal { S } \\nu = \\Gamma g \\sin \\Omega , } } \\\\ { { { } } } \\\\ { { C _ { p } \\dot { \\nu } + \\displaystyle \\frac { \\nu } { R } + \\mathcal { S } \\dot { q } = 0 . } } \\end{array}\n$$\n\nIn order to consider the geometric change introduced by the piezoelectric layer and the spring connection, a discontinuous system is proposed to define an orthogonal basis function (see figure 2). With the aim to show the complex analysis of the natural frequencies and mode shapes, the modal amplitude constant is evaluated from a mass normalization according to:\n\n$$\n\\begin{array} { l } { \\rho A _ { 1 } \\displaystyle \\int _ { 0 } ^ { L _ { i } } \\phi _ { j , l } ( x ) \\phi _ { n , l } ( x ) \\ \\mathrm { d } { \\mathbf x } + \\rho A _ { 2 } \\displaystyle \\int _ { L _ { i } } ^ { L _ { i } + L _ { 2 } } \\phi _ { j , 2 } ( x ) \\phi _ { n , 2 } ( x ) \\ \\mathrm { d } { \\mathbf x } + \\rho A _ { 3 } \\displaystyle \\int _ { L _ { j } + L _ { 2 } } ^ { L _ { j } + L _ { 2 } + L _ { 3 } } \\phi _ { j , 3 } ( x ) \\phi _ { n , 3 } ( x ) \\ \\mathrm { d } { \\mathbf x } + } \\\\ { \\phi _ { j , 2 } ( L _ { l } + L _ { 2 } ) M _ { l } \\ \\phi _ { n , 2 } ( L _ { l } + L _ { 2 } ) + \\phi _ { j , 3 } ( L _ { l } + L _ { 2 } ) M _ { 2 } \\ \\phi _ { n , 3 } ( L _ { l } + L _ { 2 } ) + 2 M _ { l } d _ { l } \\phi _ { j , 2 } ( L _ { l } + L _ { 2 } ) \\ \\phi _ { n , 2 } ^ { \\prime } ( L _ { l } + L _ { 2 } ) + } \\\\ { 2 M _ { 2 } d _ { 2 } \\phi _ { j , 3 } ( L _ { l } + L _ { 2 } ) \\phi _ { n , 3 } ^ { \\prime } ( L _ { l } + L _ { 2 } ) + ( I _ { T l } + M _ { l } d _ { l } ^ { 2 } ) \\phi _ { j , 2 } ^ { \\prime } ( L _ { l } + L _ { 2 } ) \\phi _ { n , 2 } ^ { \\prime } ( L _ { l } + L _ { 2 } ) + } \\\\ { ( I _ { T 2 } + M _ { 2 } d _ { 2 } ^ { 2 } ) \\phi _ { j , 3 } ^ { \\prime } ( L _ { l } + L _ { 2 } ) \\phi _ { n , 3 } ^ { \\prime } ( L _ { l } + L _ { 2 } ) = \\left\\{ 0 \\ \\mathrm { f o r } \\ j \\neq n . \\right. } \\end{array}\n$$\n\n![](images/e6824c203fc4c054ec29c4bc14773f0521898d507af2e4693a5dc8707519cf27.jpg)  \nFigure 2. Schematic showing the parameters of the PEH.\n\nFor a complete derivation of these expressions, the more involved reader can follow ref [5]."
+    },
+    {
+      "heading": "4. Experiments",
+      "level": 1,
+      "text": "To investigate the validity of theoretical model, a prototype device has been fabricated and tested. An electric motor with a variable speed controller provides the rotational motion of the system which was rigidly mounted to the hub as observed in figure 3. Instead of using a more common slip-ring system which is a major shortcoming to acquire the voltage signal in a rotating scenario, an Arduino board with a Bluetooth connection was used instead, that connects the collected data to a pc at a rate of 100 samples/sec. The design parameters of the harvester are summarized in table 1 and the other parameters are: $\\mathrm { K } _ { 1 } = \\mathrm { K } _ { 2 } = 4 3 0 0 \\ \\mathrm { N / m }$ , $\\mathrm { M } _ { 1 } = 2 9$ gr, $\\mathrm { M } _ { 2 } = 4 2$ gr, $\\mathrm { M } _ { 3 } = 1 0$ gr, $\\mathrm { d } _ { 1 } { = } 8 \\ \\mathrm { m m }$ , $\\mathrm { d } _ { 2 } = 2 2 . 5 \\ \\mathrm { m m }$ , $\\boldsymbol { \\mathrm { r } } _ { 1 }$ $= 9 0 \\ \\mathrm { m m }$ and $\\mathrm { r } _ { 2 } = 6 5 \\ \\mathrm { m m }$ . A load resistor of $5 6 ~ \\mathrm { K } \\Omega$ was employed in order to capture the voltage generation, due to a limitation of the data acquisition system (Arduino setting $= 5 \\mathrm { V p p }$ max).\n\nTable 1. Design parameters of the piezoelectric harvester.   \n\n<table><tr><td></td><td>Length (mm)</td><td>Width (mm)</td><td>Thickness (mm)</td><td>Density (kg/m3)</td><td>Young&#x27;s modulus (GPa)</td><td>Coupling d31(pm/V)</td><td>Capacitance (nF)</td><td>Permittivity</td></tr><tr><td>Beam #1</td><td>73</td><td>22.5</td><td>0.5</td><td>7850</td><td>210</td><td></td><td>-</td><td></td></tr><tr><td>Beam #2</td><td>70</td><td>18</td><td>0.5</td><td>2700</td><td>70</td><td>-</td><td>-</td><td>-</td></tr><tr><td>QP16N</td><td>45.9</td><td>20.57</td><td>0.25</td><td>7800</td><td>67</td><td>-190</td><td>90.78</td><td>1500ε0</td></tr></table>\n\n![](images/8ca7d9199522bc418787e5eddecfcf47a19a5e7c7716ef954bffad98ff0f453d.jpg)  \nFigure 3. Prototype and experimental setup of the PEH."
+    },
+    {
+      "heading": "5.1. Frequency analysis",
+      "level": 1,
+      "text": "As it was pointed out before, we aim to reduce the natural frequency of the PEH by means of a proper design of beam $\\# 2$ (secondary beam). We begin by examining the natural frequencies for beams $\\# 1$ and $\\# 2$ . In a cantilever condition without spring connection $( \\mathrm { K } _ { 1 } { = } 0 )$ , the frequencies are $f _ { \\# 1 } = 2 2 . 8 ~ \\mathrm { H z }$ and $f _ { \\# 2 } { = } 6 . 7 \\ : \\mathrm { H z }$ . When coupled to spring/mass system, the combined effect of the two beams provides a new frequency value of $f { = } 1 3 . 8 \\ \\mathrm { H z }$ . In this way, the frequency of the PEH is reduced considerably by means of the two elastic conditions $\\mathrm { K } _ { 1 }$ and $\\mathrm { K } _ { 2 }$ . As the system rotates, there is an additional reduction in frequency due to the centrifugal force, but this reduction is slight compared with the first, being from $1 3 . 8  1 3 . 4 \\ : \\mathrm { H z }$ for a speed of $\\Omega = 1 5 0 \\mathrm { r p m }$ ."
+    },
+    {
+      "heading": "5.2. Rotational harvester: Test and modelling",
+      "level": 1,
+      "text": "The dynamic behavior of the energy harvesting system under rotational motion is shown in this section. In figure 4 the peak voltage generation obtained by analytical and experimental means are presented for rotation speeds between $5 0 { \\sim } 1 5 0 ~ \\mathrm { r p m }$ . As it can be found, experimental and theoretical results match very well for the whole set of analysed frequencies. The output voltage ranges from a minimum value 0.54 Volts to a maximum of 1.93 Volts with a linear increment for growing frequencies.\n\nWith the aim to increase the generated voltage, we add an extra mass of 31 gr to $\\mathbf { M } _ { 2 }$ (see figure 1). This value was selected in order to ensure a geometrically linear assumption, as will be demonstrated later. We expect this extra mass has a twofold effect, on the one hand to increase the strain on the beam $\\# 1$ and therefore the bending moment; on the other hand, to diminish the natural frequency of the PEH. Figure 5 shows the results.\n\n![](images/21dbaca1d43ab0cbeae8acf445064d0bf257025061b739eb440ad1f1cbf926a8.jpg)  \nFigure 4. Peak output voltage versus rotating frequency.\n\n![](images/0a0cf7d035d6811380ddd2d0472d4d2c37ef06600c865662acfadbc1acdf0eed.jpg)  \nFigure 5. The influence of extra mass on the voltage. Figure 6. Comparison of tip displacement."
+    },
+    {
+      "heading": "6. Discussions",
+      "level": 1,
+      "text": "As it can be observed, the output voltage was increased by $6 6 \\%$ and the resonance frequency of the harvester was measured in $1 0 . 8 6 ~ \\mathrm { H z }$ (compared to $1 3 . 8 ~ \\mathrm { H z }$ ). Clearly, this mass addition confirmed both benefits on increasing voltage generation. Is it important to point out that the results for $\\mathrm { R } { = } 5 6 \\mathrm { K } \\Omega$ are only analytical predictions due to the limitation of the data acquisition system. Instead, we diminish the resistive load to $\\mathrm { R } { = } 1 0 \\ \\mathrm { K } \\Omega$ to present a proper comparison between experimental and theoretical predictions.\n\nFigure 6 shows the maximum deflection of the beams for the largest rotation speed $( 1 5 0 \\ \\mathrm { r p m } )$ . There, it is possible to observe that the ratio of tip displacement to length of the beams is below 0.1, demonstrating the validity of the linear assumption. It is also interesting to note that the large displacements observed in the case with extra mass, confirm that the strain induced in the beam $\\# 1$ , which supports the piezoelectric layer, is larger compared with the case of no extra mass.\n\nIn order to accumulate the harnessed power, a simple harvesting circuit, which consists of a rectifier bridge and a $4 7 \\ \\mu F$ electrolytic capacitor acting as a storage device, was used. We select germanium diodes instead of silicon ones in the rectifier bridge to minimize the voltage drop. Therefore, the capacitor accumulates the rectified DC generated by the REH as the system rotates. To calculate the average harvested power during a certain time period, we follow ref [4], with $\\mathrm { V } _ { \\mathrm { r e c t 1 } } = 5 \\mathrm { V }$ and $\\mathrm { { V } } _ { \\mathrm { { r e c t 0 } } } =$ 4V and the time interval $\\varDelta t$ computed from the collected data. The results are presented in figure 7 for the cases with and without an extra mass in beam $\\# 2$ . From these results, it can be observed a minimum harvested power of $3 4 . 8 5 \\ \\mu W$ and maximum of $1 2 3 \\ \\mu W$ for a rotating frequency of $2 . 5 6 \\ : \\mathrm { H z }$ $( 1 5 3 . 6 ~ \\mathrm { r p m } )$ and a minimum of $3 4 ~ \\mu W$ for $0 . 6 9 \\mathrm { H z }$ $( 4 1 . 4 ~ \\mathrm { r p m } )$ in the case of the addition of mass in beam $\\# 2$ . Taking into account that a minimum power requirement of $2 0 ~ \\mu W$ is needed to feed a wireless transmitter circuit [4], our system can be used as a power source for autonomous structural monitoring systems or sensors. It is important to point that having used a more involved harvesting circuit, the output power could have been increased [4]. This is left for future works.\n\n![](images/4459797cb4b1a1e724bd1335fe7235d49683aeeb6e69161a058f1e7662485366.jpg)  \nFigure 7. Output power versus rotating frequency."
+    },
+    {
+      "heading": "7. Conclusion",
+      "level": 1,
+      "text": "This paper presents the design of a piezoelectric energy harvester to capture energy from low rotating frequencies. The objective was to increase the output voltage by studying the interaction between its constitutive parts which are comprised by two beams and a spring-mass system supported by elastic boundary conditions. The selection of these boundary conditions, in comparison with cantilever beam models, lower the stiffness of the entire harvester without enlarging the length of the beams. By the addition of some extra mass in a particular place of the device, it is also possible to diminish its natural frequency and to increase the strain induced in the piezoelectric sheet, rising in this way the generated power. A thorough mathematical (electromechanical) model for the harvester was developed and validated with experimental tests. Numerical simulations and experimental verifications are performed with very good agreement for different rotation speeds ranging from 0.7 to $2 . 5 \\ : \\mathrm { H z }$ . With a generation between $3 4 . 8 5 \\ – 1 2 3 \\ \\mu W$ , the results demonstrate that it is possible to use this system to power up wireless sensors for the projected application."
+    },
+    {
+      "heading": "Acknowledgements",
+      "level": 1,
+      "text": "The authors wish to thank CONICET (PIP Nº:11220120100346), UNS, UTN FRBB and ANPCyT under grant PICT 2013- $\\mathrm { N } ^ { \\circ } 2 0 6 5$ for their financial support."
+    },
+    {
+      "heading": "References",
+      "level": 1,
+      "text": "[1] J. C. Hsu, C. T. Tseng and Y. S Chen, “Analysis and experiment of self-frequency tuning piezoelectric energy harvesters for rotational motion,” Smart Mater. Struct., vol. 23, no. 075013, 2014.   \n[2] F. Khameneifar, M. Moallem and S. Arzanpour, “Modeling and Analysis of a Piezoelectric Energy Scavenger for Rotary Motion Applications, ” J. Vib. Acoust., vol. 133, no. 011005, 2011.   \n[3] L. Gu and C. Livermore, “Passive self-tuning energy harvester for extracting energy from rotational motion,” Appl. Phys. Lett., vol. 97, no. 081904, 2010.   \n[4] M. Guan and W. H. Liao, “Design and analysis of a piezoelectric energy harvester for rotational motion system,” Energy Convers. Manage., vol. 11, pp. 239-244, 2016.   \n[5] S. P. Machado, M. Febbo, F. Rubio-Marcos, L. A. Ramajo and M. S. Castro, “Evaluation of the performance of a lead-free piezoelectric material for energy harvesting”, Smart Mater. Struct., vol. 24, no. 115011, 2015."
+    }
+  ],
+  "tables": [
+    {
+      "page": -1,
+      "content": ""
+    }
+  ],
+  "figures": [
+    {
+      "page": -1,
+      "caption": "",
+      "path": "images/f766d28f416bf49d3a34544d00a7e8f135f8baa7d81fe96473ebb66d2cd2265e.jpg"
+    },
+    {
+      "page": -1,
+      "caption": "",
+      "path": "images/e6824c203fc4c054ec29c4bc14773f0521898d507af2e4693a5dc8707519cf27.jpg"
+    },
+    {
+      "page": -1,
+      "caption": "",
+      "path": "images/8ca7d9199522bc418787e5eddecfcf47a19a5e7c7716ef954bffad98ff0f453d.jpg"
+    },
+    {
+      "page": -1,
+      "caption": "",
+      "path": "images/21dbaca1d43ab0cbeae8acf445064d0bf257025061b739eb440ad1f1cbf926a8.jpg"
+    },
+    {
+      "page": -1,
+      "caption": "",
+      "path": "images/0a0cf7d035d6811380ddd2d0472d4d2c37ef06600c865662acfadbc1acdf0eed.jpg"
+    },
+    {
+      "page": -1,
+      "caption": "",
+      "path": "images/4459797cb4b1a1e724bd1335fe7235d49683aeeb6e69161a058f1e7662485366.jpg"
+    }
+  ],
+  "metadata": {
+    "source": "semantic_scholar",
+    "pdf_url": "https://doi.org/10.1088/1742-6596/922/1/012009",
+    "parsed_at": "2026-03-10T10:03:02.617528+00:00"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "profile_name": "vehbench_verifier_v1_frequency_log_ridge",
+  "target": "resonant_frequency_hz",
+  "model_type": "log10_ridge_regression",
+  "ridge_lambda": 0.001,
+  "feature_names": [
+    "bias",
+    "log10_acceleration_g",
+    "log10_beam_length_mm",
+    "log10_beam_width_mm",
+    "log10_excitation_frequency_hz",
+    "log10_load_resistance_ohm",
+    "log10_piezo_thickness_um",
+    "log10_raw_resonant_frequency_hz",
+    "log10_substrate_thickness_um",
+    "log10_tip_mass_g",
+    "piezo::AlN",
+    "piezo::PVDF",
+    "piezo::PZT",
+    "piezo::unknown",
+    "struct::bimorph",
+    "struct::other_piezo_cantilever",
+    "struct::unimorph"
+  ],
+  "coefficients": [
+    0.1551589842107244,
+    0.06129053288884667,
+    -0.052987912407891566,
+    -0.001995894404344363,
+    0.9697320849740748,
+    -0.0114583680515519,
+    0.010016057471182368,
+    -0.019550130971001754,
+    0.004661811689754795,
+    0.01981150520351722,
+    0.08114015580395491,
+    -0.013246906684834248,
+    0.05804214474024357,
+    0.029223590361643383,
+    0.042788019569769506,
+    0.0646933890145531,
+    0.04767757559361535
+  ],
+  "cross_validation": {
+    "scheme": "leave_one_out",
+    "count": 52,
+    "mape_pct": 10.338267444131796,
+    "median_ape_pct": 5.324681610581516
+  }
+}

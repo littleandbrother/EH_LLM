@@ -1,0 +1,147 @@
+{
+  "metadata": {
+    "paper_id": "10_3390_s23031372",
+    "doi": "10.3390/s23031372",
+    "title": "Enhancing the Bandwidth and Energy Production of Piezoelectric Energy Harvester Using Novel Multimode Bent Branched Beam Design for Human Motion Application",
+    "year": 2023,
+    "journal": "Italian National Conference on Sensors"
+  },
+  "configuration": "cantilever",
+  "proof_mass": false,
+  "geometry": {
+    "length_mm": 200,
+    "width_mm": 20,
+    "thickness_mm": 1,
+    "substrate_thickness_um": 1000,
+    "piezo_thickness_um": 350,
+    "tip_mass_g": null,
+    "diameter_mm": null
+  },
+  "excitation": {
+    "type": "vibration",
+    "frequency_Hz": 4,
+    "acceleration_g": 1,
+    "displacement_mm": null,
+    "motion_source": "mechanical shaker"
+  },
+  "load": {
+    "load_resistance_ohm": 1000000
+  },
+  "output": {
+    "resonant_frequency_Hz": 4.09,
+    "output_power_W": 0.0019,
+    "open_circuit_voltage_V": 44,
+    "short_circuit_current_A": null,
+    "bandwidth_Hz": null
+  },
+  "evidence": {
+    "configuration": {
+      "quote": "The proposed BBBH consisted of one main cantilever beam",
+      "section": "2.1. Beam Harvesters Used in the Study",
+      "source_type": "section"
+    },
+    "proof_mass": {
+      "quote": "A V-shaped joint ... was used as a proof mass for CBH and as a connector for VBH and BBBH",
+      "section": "2.2. Finite Element Method (FEM) Analysis",
+      "source_type": "section"
+    },
+    "geometry": {
+      "length_mm": {
+        "quote": "dimension of the main cantilever beam was selected as 200 mm × 20 mm × 1 mm",
+        "section": "2.2.1. Geometrical Optimization of Main Beam",
+        "source_type": "section"
+      },
+      "width_mm": {
+        "quote": "dimension of the main cantilever beam was selected as 200 mm × 20 mm × 1 mm",
+        "section": "2.2.1. Geometrical Optimization of Main Beam",
+        "source_type": "section"
+      },
+      "thickness_mm": {
+        "quote": "dimension of the main cantilever beam was selected as 200 mm × 20 mm × 1 mm",
+        "section": "2.2.1. Geometrical Optimization of Main Beam",
+        "source_type": "section"
+      },
+      "substrate_thickness_um": {
+        "quote": "dimension of the main cantilever beam was selected as 200 mm × 20 mm × 1 mm",
+        "section": "2.2.1. Geometrical Optimization of Main Beam",
+        "source_type": "section"
+      },
+      "piezo_thickness_um": {
+        "quote": "MFC (M2814-P2) patch of 28 mm × 14 mm × 0.350 mm",
+        "section": "2.1. Beam Harvesters Used in the Study",
+        "source_type": "section"
+      },
+      "tip_mass_g": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "diameter_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      }
+    },
+    "excitation": {
+      "type": {
+        "quote": "excited using a mechanical shaker",
+        "section": "2.3. Experimental Study",
+        "source_type": "section"
+      },
+      "frequency_Hz": {
+        "quote": "optimum performance of the BBBH was observed at 4 Hz",
+        "section": "3.1.4. Harvested Power",
+        "source_type": "section"
+      },
+      "acceleration_g": {
+        "quote": "under 1 g acceleration",
+        "section": "3.1.4. Harvested Power",
+        "source_type": "section"
+      },
+      "displacement_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "motion_source": {
+        "quote": "excited using a mechanical shaker",
+        "section": "2.3. Experimental Study",
+        "source_type": "section"
+      }
+    },
+    "load": {
+      "load_resistance_ohm": {
+        "quote": "a considerable 1 MΩ load resistance was assumed",
+        "section": "3.1.4. Harvested Power",
+        "source_type": "section"
+      }
+    },
+    "output": {
+      "resonant_frequency_Hz": {
+        "quote": "The first three resonance frequencies were 4.09 Hz",
+        "section": "2.2.2. Modal Analysis of CBH, VBH, and BBBH",
+        "source_type": "section"
+      },
+      "output_power_W": {
+        "quote": "producing power ranging from 1400 μW to 1900 μW",
+        "section": "3.1.4. Harvested Power",
+        "source_type": "section"
+      },
+      "open_circuit_voltage_V": {
+        "quote": "highest output voltage of 44 V at 4 Hz",
+        "section": "3.1.1. Output Voltage",
+        "source_type": "section"
+      },
+      "short_circuit_current_A": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "bandwidth_Hz": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      }
+    }
+  }
+}

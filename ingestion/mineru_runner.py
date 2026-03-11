@@ -18,6 +18,7 @@ Workflow:
 """
 
 import argparse
+from concurrent.futures import ThreadPoolExecutor, as_completed
 import hashlib
 import json
 import os
@@ -26,6 +27,7 @@ import shutil
 import subprocess
 import sys
 import tempfile
+import threading
 import time
 from datetime import datetime, timezone
 from pathlib import Path
@@ -55,6 +57,7 @@ def detect_default_device() -> str:
 
 
 DEFAULT_DEVICE = detect_default_device()
+PRINT_LOCK = threading.Lock()
 
 # Ensure dirs exist
 for d in [PARSED_DIR, NORMALIZED_DIR, PROVENANCE_DIR]:
@@ -189,6 +192,12 @@ def run_mineru(pdf_path: Path, output_dir: Path,
     if not result["success"]:
         result["error"] = result.get("error") or f"MinerU exited 0 but no output files found. STDOUT: {proc.stdout[-5000:] if proc.stdout else ''} STDERR: {proc.stderr[-5000:] if proc.stderr else ''}"
     return result
+
+
+def _log(message: str = "") -> None:
+    """Serialize console output when multiple worker threads are active."""
+    with PRINT_LOCK:
+        print(message, flush=True)
 
 
 # ---------------------------------------------------------------------------
@@ -445,6 +454,64 @@ def _load_failed_processed_ids() -> set[str]:
     }
 
 
+def _process_single_paper(paper: dict, index: int, total: int,
+                          device: str, backend: str,
+                          lang: str, source: str) -> bool:
+    """Process one PDF through MinerU + normalization + provenance."""
+    pid = make_paper_id(paper)
+    title = paper.get("title", "Unknown")[:60]
+    pdf_path = _resolve_pdf_path(paper)
+
+    _log(f"[{index}/{total}] {pid}")
+    _log(f"  📄 {title}...")
+
+    if not pdf_path.exists():
+        _log(f"  ❌ PDF not found: {pdf_path}")
+        return False
+
+    paper_parsed_dir = PARSED_DIR / pid
+    tmp_output_dir = Path(
+        tempfile.mkdtemp(prefix=f"{pid}_", dir=str(PARSED_DIR)))
+
+    _log("  🔍 Running MinerU...")
+    mineru_result = run_mineru(
+        pdf_path, tmp_output_dir,
+        device=device, backend=backend, lang=lang, source=source
+    )
+
+    if mineru_result["success"]:
+        _log(f"  ✅ MinerU complete ({mineru_result['duration_s']}s)")
+        if paper_parsed_dir.exists():
+            shutil.rmtree(paper_parsed_dir)
+        shutil.move(str(tmp_output_dir), str(paper_parsed_dir))
+    else:
+        _log(f"  ❌ MinerU failed: {mineru_result['error'][:200]}")
+        shutil.rmtree(tmp_output_dir, ignore_errors=True)
+        trace = build_provenance_trace(paper, pid, mineru_result, "")
+        trace_path = PROVENANCE_DIR / f"{pid}.trace.json"
+        trace_path.write_text(
+            json.dumps(trace, ensure_ascii=False, indent=2))
+        return False
+
+    _log("  📝 Normalizing...")
+    norm_doc = build_normalized_doc(paper, pid, paper_parsed_dir)
+    norm_path = NORMALIZED_DIR / f"{pid}.json"
+    norm_path.write_text(
+        json.dumps(norm_doc, ensure_ascii=False, indent=2))
+    n_sections = len(norm_doc.get("sections", []))
+    n_tables = len(norm_doc.get("tables", []))
+    _log(f"  ✅ Normalized ({n_sections} sections, {n_tables} tables)")
+
+    trace = build_provenance_trace(
+        paper, pid, mineru_result, str(norm_path))
+    trace_path = PROVENANCE_DIR / f"{pid}.trace.json"
+    trace_path.write_text(
+        json.dumps(trace, ensure_ascii=False, indent=2))
+
+    _log("")
+    return True
+
+
 # ---------------------------------------------------------------------------
 # Main
 # ---------------------------------------------------------------------------
@@ -452,12 +519,13 @@ def _load_failed_processed_ids() -> set[str]:
 def run(limit: int = None, paper_id_filter: str = None,
         device: str = DEFAULT_DEVICE, backend: str = "pipeline",
         lang: str = "en", source: str = DEFAULT_MINERU_SOURCE,
-        force: bool = False):
+        force: bool = False, workers: int = 1):
     """Run the MinerU extraction pipeline."""
     print(f"\n{'='*60}")
     print(f"  EH-LLM MinerU PDF Extraction Pipeline")
     print(f"  Device:  {device}  |  Backend: {backend}  |  Lang: {lang}")
     print(f"  Model source: {source}")
+    print(f"  Workers: {workers}")
     print(f"{'='*60}\n")
 
     if not PAPERS_JSONL.exists():
@@ -498,66 +566,30 @@ def run(limit: int = None, paper_id_filter: str = None,
 
     success_count = 0
     fail_count = 0
+    total = len(papers_with_pdf)
 
-    for i, paper in enumerate(papers_with_pdf, 1):
-        pid = make_paper_id(paper)
-        title = paper.get("title", "Unknown")[:60]
-        pdf_path = _resolve_pdf_path(paper)
-
-        print(f"[{i}/{len(papers_with_pdf)}] {pid}")
-        print(f"  📄 {title}...")
-
-        if not pdf_path.exists():
-            print(f"  ❌ PDF not found: {pdf_path}")
-            fail_count += 1
-            continue
-
-        paper_parsed_dir = PARSED_DIR / pid
-        tmp_output_dir = Path(
-            tempfile.mkdtemp(prefix=f"{pid}_", dir=str(PARSED_DIR)))
-
-        # Step 1: Run MinerU
-        print(f"  🔍 Running MinerU...", end=" ", flush=True)
-        mineru_result = run_mineru(
-            pdf_path, tmp_output_dir,
-            device=device, backend=backend, lang=lang, source=source
-        )
-
-        if mineru_result["success"]:
-            print(f"✅ ({mineru_result['duration_s']}s)")
-            if paper_parsed_dir.exists():
-                shutil.rmtree(paper_parsed_dir)
-            shutil.move(str(tmp_output_dir), str(paper_parsed_dir))
-        else:
-            print(f"❌ {mineru_result['error'][:80]}")
-            fail_count += 1
-            shutil.rmtree(tmp_output_dir, ignore_errors=True)
-            # Still write provenance trace for failures
-            trace = build_provenance_trace(paper, pid, mineru_result, "")
-            trace_path = PROVENANCE_DIR / f"{pid}.trace.json"
-            trace_path.write_text(
-                json.dumps(trace, ensure_ascii=False, indent=2))
-            continue
-
-        # Step 2: Build normalized doc
-        print(f"  📝 Normalizing...", end=" ", flush=True)
-        norm_doc = build_normalized_doc(paper, pid, paper_parsed_dir)
-        norm_path = NORMALIZED_DIR / f"{pid}.json"
-        norm_path.write_text(
-            json.dumps(norm_doc, ensure_ascii=False, indent=2))
-        n_sections = len(norm_doc.get("sections", []))
-        n_tables = len(norm_doc.get("tables", []))
-        print(f"✅ ({n_sections} sections, {n_tables} tables)")
-
-        # Step 3: Write provenance trace
-        trace = build_provenance_trace(
-            paper, pid, mineru_result, str(norm_path))
-        trace_path = PROVENANCE_DIR / f"{pid}.trace.json"
-        trace_path.write_text(
-            json.dumps(trace, ensure_ascii=False, indent=2))
-
-        success_count += 1
-        print()
+    if workers <= 1:
+        for i, paper in enumerate(papers_with_pdf, 1):
+            if _process_single_paper(
+                paper, i, total, device, backend, lang, source
+            ):
+                success_count += 1
+            else:
+                fail_count += 1
+    else:
+        with ThreadPoolExecutor(max_workers=workers) as executor:
+            futures = [
+                executor.submit(
+                    _process_single_paper,
+                    paper, i, total, device, backend, lang, source
+                )
+                for i, paper in enumerate(papers_with_pdf, 1)
+            ]
+            for future in as_completed(futures):
+                if future.result():
+                    success_count += 1
+                else:
+                    fail_count += 1
 
     # Summary
     print(f"\n{'='*60}")
@@ -591,6 +623,8 @@ def main():
                         help="MinerU model source (default: env MINERU_MODEL_SOURCE or modelscope)")
     parser.add_argument("--force", action="store_true",
                         help="Re-process already parsed papers")
+    parser.add_argument("--workers", type=int, default=1,
+                        help="Concurrent MinerU workers (default: 1)")
     parser.add_argument("--status", action="store_true",
                         help="Show processing status")
     args = parser.parse_args()
@@ -607,6 +641,7 @@ def main():
         lang=args.lang,
         source=args.source,
         force=args.force,
+        workers=max(1, args.workers),
     )
 
 

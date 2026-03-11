@@ -1,0 +1,28 @@
+{
+  "paper_id": "10_1088_0964_1726_22_5_055013",
+  "doi": "10.1088/0964-1726/22/5/055013",
+  "title": "Low frequency acoustic energy harvesting using PZT piezoelectric plates in a straight tube resonator",
+  "source_apis": [
+    "both"
+  ],
+  "pdf_url": "",
+  "pdf_local_path": "data_registry/raw_stage04_paper_pdf_cleaned/10_1088_0964_1726_22_5_055013.pdf",
+  "processing": {
+    "tool": "MinerU",
+    "version": "python -m mineru.cli.client, version 2.7.6",
+    "timestamp": "2026-03-10T09:43:42.783167+00:00",
+    "duration_s": 88.19,
+    "success": true,
+    "error": ""
+  },
+  "outputs": {
+    "content_md": "/root/EH-LLM-vehbench-exp/parsed_docs/10_1088_0964_1726_22_5_055013_09xxcm9m/content.md",
+    "layout_json": "/root/EH-LLM-vehbench-exp/parsed_docs/10_1088_0964_1726_22_5_055013_09xxcm9m/layout.json",
+    "images_dir": "/root/EH-LLM-vehbench-exp/parsed_docs/10_1088_0964_1726_22_5_055013_09xxcm9m/10_1088_0964_1726_22_5_055013/auto/images",
+    "normalized_json": "/root/EH-LLM-vehbench-exp/normalized_docs/10_1088_0964_1726_22_5_055013.json"
+  },
+  "data_lineage": {
+    "papers_jsonl_hash": "06bd1d19079fd5d740c3afd546b2b4ce",
+    "pipeline_step": "ingestion/mineru_runner.py"
+  }
+}

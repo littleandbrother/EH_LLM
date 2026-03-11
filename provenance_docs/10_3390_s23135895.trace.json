@@ -1,0 +1,28 @@
+{
+  "paper_id": "10_3390_s23135895",
+  "doi": "10.3390/s23135895",
+  "title": "Design and Analysis of an Extended Simply Supported Beam Piezoelectric Energy Harvester",
+  "source_apis": [
+    "openalex"
+  ],
+  "pdf_url": "https://www.mdpi.com/1424-8220/23/13/5895/pdf?version=1687747648",
+  "pdf_local_path": "data_registry/raw_stage04_paper_pdf_cleaned/10_3390_s23135895.pdf",
+  "processing": {
+    "tool": "MinerU",
+    "version": "python -m mineru.cli.client, version 2.7.6",
+    "timestamp": "2026-03-10T10:15:04.891469+00:00",
+    "duration_s": 102.9,
+    "success": true,
+    "error": ""
+  },
+  "outputs": {
+    "content_md": "/root/EH-LLM-vehbench-exp/parsed_docs/10_3390_s23135895_wvi_saw5/content.md",
+    "layout_json": "/root/EH-LLM-vehbench-exp/parsed_docs/10_3390_s23135895_wvi_saw5/layout.json",
+    "images_dir": "/root/EH-LLM-vehbench-exp/parsed_docs/10_3390_s23135895_wvi_saw5/10_3390_s23135895/auto/images",
+    "normalized_json": "/root/EH-LLM-vehbench-exp/normalized_docs/10_3390_s23135895.json"
+  },
+  "data_lineage": {
+    "papers_jsonl_hash": "5da33459c412c7f310788fa92397fc4b",
+    "pipeline_step": "ingestion/mineru_runner.py"
+  }
+}

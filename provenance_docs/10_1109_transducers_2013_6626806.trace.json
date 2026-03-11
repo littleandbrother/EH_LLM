@@ -1,0 +1,28 @@
+{
+  "paper_id": "10_1109_transducers_2013_6626806",
+  "doi": "10.1109/transducers.2013.6626806",
+  "title": "Lead-free piezoelectric MEMS energy harvesters of stainless steel cantilevers",
+  "source_apis": [
+    "both"
+  ],
+  "pdf_url": "",
+  "pdf_local_path": "data_registry/raw_stage04_paper_pdf_cleaned/10_1109_transducers_2013_6626806.pdf",
+  "processing": {
+    "tool": "MinerU",
+    "version": "python -m mineru.cli.client, version 2.7.6",
+    "timestamp": "2026-03-10T09:57:32.091206+00:00",
+    "duration_s": 69.77,
+    "success": true,
+    "error": ""
+  },
+  "outputs": {
+    "content_md": "/root/EH-LLM-vehbench-exp/parsed_docs/10_1109_transducers_2013_6626806_p2pv3a72/content.md",
+    "layout_json": "/root/EH-LLM-vehbench-exp/parsed_docs/10_1109_transducers_2013_6626806_p2pv3a72/layout.json",
+    "images_dir": "/root/EH-LLM-vehbench-exp/parsed_docs/10_1109_transducers_2013_6626806_p2pv3a72/10_1109_transducers_2013_6626806/auto/images",
+    "normalized_json": "/root/EH-LLM-vehbench-exp/normalized_docs/10_1109_transducers_2013_6626806.json"
+  },
+  "data_lineage": {
+    "papers_jsonl_hash": "c6cc3911522c8572470d1b18fcd9c294",
+    "pipeline_step": "ingestion/mineru_runner.py"
+  }
+}

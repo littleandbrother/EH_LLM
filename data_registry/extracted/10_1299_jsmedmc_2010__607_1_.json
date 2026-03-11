@@ -1,0 +1,147 @@
+{
+  "metadata": {
+    "paper_id": "10_1299_jsmedmc_2010__607_1_",
+    "doi": "10.1299/jsmedmc.2010._607-1_",
+    "title": "607 Power Generation Performance Evaluation of Vibration Energy Harvester with Piezocomposite and Power Loss Evaluation of a Full-Bridge Rectifier",
+    "year": 2010,
+    "journal": "The Proceedings of the Dynamics & Design Conference"
+  },
+  "configuration": "cantilever",
+  "proof_mass": null,
+  "geometry": {
+    "length_mm": 49.25,
+    "width_mm": 14.0,
+    "thickness_mm": 0.8,
+    "substrate_thickness_um": null,
+    "piezo_thickness_um": 150.0,
+    "tip_mass_g": null,
+    "diameter_mm": null
+  },
+  "excitation": {
+    "type": "vibration",
+    "frequency_Hz": 26.25,
+    "acceleration_g": null,
+    "displacement_mm": null,
+    "motion_source": "electrodynamic shaker"
+  },
+  "load": {
+    "load_resistance_ohm": 287600.0
+  },
+  "output": {
+    "resonant_frequency_Hz": 26.25,
+    "output_power_W": 0.0001095,
+    "open_circuit_voltage_V": null,
+    "short_circuit_current_A": null,
+    "bandwidth_Hz": null
+  },
+  "evidence": {
+    "configuration": {
+      "quote": "piezoelectric bimorph cantilever type",
+      "section": "Power Generation Performance Evaluation of Vibration Energy Harvester with Piezocomposite and Power Loss Evaluation of a Full-Bridge Rectifier",
+      "source_type": "abstract"
+    },
+    "proof_mass": {
+      "quote": null,
+      "section": null,
+      "source_type": null
+    },
+    "geometry": {
+      "length_mm": {
+        "quote": "Length of cantilever beam ls 49.25 x 10-3 [m]",
+        "section": "3. ETRMAT#EO#E",
+        "source_type": "table"
+      },
+      "width_mm": {
+        "quote": "Width wp 14.00 x 10-3 [m]",
+        "section": "3. ETRMAT#EO#E",
+        "source_type": "table"
+      },
+      "thickness_mm": {
+        "quote": "Thickness of cantilever beam ts 0.80 x 10-3[m]",
+        "section": "3. ETRMAT#EO#E",
+        "source_type": "table"
+      },
+      "substrate_thickness_um": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "piezo_thickness_um": {
+        "quote": "Thickness tp 0.15 x 10-3 [m]",
+        "section": "3. ETRMAT#EO#E",
+        "source_type": "table"
+      },
+      "tip_mass_g": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "diameter_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      }
+    },
+    "excitation": {
+      "type": {
+        "quote": "vibration power generator",
+        "section": "Power Generation Performance Evaluation of Vibration Energy Harvester with Piezocomposite and Power Loss Evaluation of a Full-Bridge Rectifier",
+        "source_type": "abstract"
+      },
+      "frequency_Hz": {
+        "quote": "Resonant frequency fd 26.250 [Hz]",
+        "section": "3. ETRMAT#EO#E",
+        "source_type": "table"
+      },
+      "acceleration_g": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "displacement_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "motion_source": {
+        "quote": "electrodynamic shaker",
+        "section": "4.#",
+        "source_type": "figure_caption"
+      }
+    },
+    "load": {
+      "load_resistance_ohm": {
+        "quote": "287.6 [kΩ]",
+        "section": "4.#",
+        "source_type": "table"
+      }
+    },
+    "output": {
+      "resonant_frequency_Hz": {
+        "quote": "Resonant frequency fd 26.250 [Hz]",
+        "section": "3. ETRMAT#EO#E",
+        "source_type": "table"
+      },
+      "output_power_W": {
+        "quote": "109.5 [μW]",
+        "section": "4.#",
+        "source_type": "table"
+      },
+      "open_circuit_voltage_V": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "short_circuit_current_A": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "bandwidth_Hz": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      }
+    }
+  }
+}

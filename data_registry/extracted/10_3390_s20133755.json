@@ -1,0 +1,147 @@
+{
+  "metadata": {
+    "paper_id": "10_3390_s20133755",
+    "doi": "10.3390/s20133755",
+    "title": "Piezoelectric Energy Harvesting from Suspension Structures with Piezoelectric Layers",
+    "year": 2020,
+    "journal": "Sensors"
+  },
+  "configuration": "cantilever",
+  "proof_mass": true,
+  "geometry": {
+    "length_mm": 34,
+    "width_mm": 61,
+    "thickness_mm": 0.4,
+    "substrate_thickness_um": 400,
+    "piezo_thickness_um": 350,
+    "tip_mass_g": 120,
+    "diameter_mm": null
+  },
+  "excitation": {
+    "type": "vibration",
+    "frequency_Hz": 25.2,
+    "acceleration_g": 0.2,
+    "displacement_mm": null,
+    "motion_source": null
+  },
+  "load": {
+    "load_resistance_ohm": 610000
+  },
+  "output": {
+    "resonant_frequency_Hz": 25.2,
+    "output_power_W": 0.0017,
+    "open_circuit_voltage_V": 38.4,
+    "short_circuit_current_A": null,
+    "bandwidth_Hz": null
+  },
+  "evidence": {
+    "configuration": {
+      "quote": "leaf spring",
+      "section": "Abstract",
+      "source_type": "abstract"
+    },
+    "proof_mass": {
+      "quote": "Workload Load 1 (g) 120",
+      "section": "3.1. Prototype Fabrication and Experimental Setup",
+      "source_type": "table"
+    },
+    "geometry": {
+      "length_mm": {
+        "quote": "Height (mm) 34",
+        "section": "3.1. Prototype Fabrication and Experimental Setup",
+        "source_type": "table"
+      },
+      "width_mm": {
+        "quote": "Width (mm) 61",
+        "section": "3.1. Prototype Fabrication and Experimental Setup",
+        "source_type": "table"
+      },
+      "thickness_mm": {
+        "quote": "Thickness (mm) 0.4",
+        "section": "3.1. Prototype Fabrication and Experimental Setup",
+        "source_type": "table"
+      },
+      "substrate_thickness_um": {
+        "quote": "Thickness (mm) 0.4",
+        "section": "3.1. Prototype Fabrication and Experimental Setup",
+        "source_type": "table"
+      },
+      "piezo_thickness_um": {
+        "quote": "9 x 9 x 0.35 mm",
+        "section": "3.1. Prototype Fabrication and Experimental Setup",
+        "source_type": "table"
+      },
+      "tip_mass_g": {
+        "quote": "Workload Load 1 (g) 120",
+        "section": "3.1. Prototype Fabrication and Experimental Setup",
+        "source_type": "table"
+      },
+      "diameter_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      }
+    },
+    "excitation": {
+      "type": {
+        "quote": "shaker",
+        "section": "3.1. Prototype Fabrication and Experimental Setup",
+        "source_type": "section"
+      },
+      "frequency_Hz": {
+        "quote": "resonant frequency of 25.2 Hz",
+        "section": "3.2.2. Impedance Matching and Output Power",
+        "source_type": "section"
+      },
+      "acceleration_g": {
+        "quote": "acceleration of 0.2 g",
+        "section": "3.2.2. Impedance Matching and Output Power",
+        "source_type": "section"
+      },
+      "displacement_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "motion_source": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      }
+    },
+    "load": {
+      "load_resistance_ohm": {
+        "quote": "impedance matching of 610 kΩ",
+        "section": "Abstract",
+        "source_type": "abstract"
+      }
+    },
+    "output": {
+      "resonant_frequency_Hz": {
+        "quote": "resonant frequency of 25.2 Hz",
+        "section": "3.2.2. Impedance Matching and Output Power",
+        "source_type": "section"
+      },
+      "output_power_W": {
+        "quote": "sum of the output power attains 1.7 mW",
+        "section": "Abstract",
+        "source_type": "abstract"
+      },
+      "open_circuit_voltage_V": {
+        "quote": "open circuit voltage, which is 38.4 V",
+        "section": "3.2.2. Impedance Matching and Output Power",
+        "source_type": "section"
+      },
+      "short_circuit_current_A": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "bandwidth_Hz": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      }
+    }
+  }
+}

@@ -1,0 +1,147 @@
+{
+  "metadata": {
+    "paper_id": "10_1088_1361_665x_aa7ad6",
+    "doi": "10.1088/1361-665x/aa7ad6",
+    "title": "Design and kinetic analysis of piezoelectric energy harvesters with self-adjusting resonant frequency",
+    "year": 2017,
+    "journal": "Smart Materials and Structures"
+  },
+  "configuration": "cantilever",
+  "proof_mass": true,
+  "geometry": {
+    "length_mm": 22,
+    "width_mm": 6,
+    "thickness_mm": 0.5,
+    "substrate_thickness_um": 500,
+    "piezo_thickness_um": 28,
+    "tip_mass_g": 24.27,
+    "diameter_mm": null
+  },
+  "excitation": {
+    "type": "rotation",
+    "frequency_Hz": 7.5,
+    "acceleration_g": null,
+    "displacement_mm": null,
+    "motion_source": "rotating wheel"
+  },
+  "load": {
+    "load_resistance_ohm": 3300000
+  },
+  "output": {
+    "resonant_frequency_Hz": 7.5,
+    "output_power_W": 0.0001074,
+    "open_circuit_voltage_V": null,
+    "short_circuit_current_A": null,
+    "bandwidth_Hz": 8.33
+  },
+  "evidence": {
+    "configuration": {
+      "quote": "trapezoidal cantilever",
+      "section": "Abstract",
+      "source_type": "abstract"
+    },
+    "proof_mass": {
+      "quote": "I-shaped weighted block",
+      "section": "2. Kinetic equation of the energy harvester",
+      "source_type": "section"
+    },
+    "geometry": {
+      "length_mm": {
+        "quote": "L (mm) ... 22",
+        "section": "4. Dynamic analysis",
+        "source_type": "table"
+      },
+      "width_mm": {
+        "quote": "b (mm) ... 6",
+        "section": "4. Dynamic analysis",
+        "source_type": "table"
+      },
+      "thickness_mm": {
+        "quote": "h (mm) ... 0.5",
+        "section": "4. Dynamic analysis",
+        "source_type": "table"
+      },
+      "substrate_thickness_um": {
+        "quote": "h (mm) ... 0.5",
+        "section": "4. Dynamic analysis",
+        "source_type": "table"
+      },
+      "piezo_thickness_um": {
+        "quote": "tc (μm) ... 28",
+        "section": "4. Dynamic analysis",
+        "source_type": "table"
+      },
+      "tip_mass_g": {
+        "quote": "m2 (Kg) ... 0.02427",
+        "section": "4. Dynamic analysis",
+        "source_type": "table"
+      },
+      "diameter_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      }
+    },
+    "excitation": {
+      "type": {
+        "quote": "rotational environments",
+        "section": "Abstract",
+        "source_type": "abstract"
+      },
+      "frequency_Hz": {
+        "quote": "200 to 700 RPM",
+        "section": "Abstract",
+        "source_type": "abstract"
+      },
+      "acceleration_g": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "displacement_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "motion_source": {
+        "quote": "rotating wheel",
+        "section": "Abstract",
+        "source_type": "abstract"
+      }
+    },
+    "load": {
+      "load_resistance_ohm": {
+        "quote": "3.3 MΩ",
+        "section": "Abstract",
+        "source_type": "abstract"
+      }
+    },
+    "output": {
+      "resonant_frequency_Hz": {
+        "quote": "self-adjust its resonant frequency",
+        "section": "Abstract",
+        "source_type": "abstract"
+      },
+      "output_power_W": {
+        "quote": "average power was 107.4 μW",
+        "section": "7. Conclusion",
+        "source_type": "section"
+      },
+      "open_circuit_voltage_V": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "short_circuit_current_A": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "bandwidth_Hz": {
+        "quote": "200 to 700 RPM",
+        "section": "Abstract",
+        "source_type": "abstract"
+      }
+    }
+  }
+}

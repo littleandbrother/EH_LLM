@@ -1,0 +1,147 @@
+{
+  "metadata": {
+    "paper_id": "10_3390_s22197449",
+    "doi": "10.3390/s22197449",
+    "title": "Piezoelectric Energy Harvesting from Rotational Motion to Power Industrial Maintenance Sensors",
+    "year": 2022,
+    "journal": "Sensors"
+  },
+  "configuration": "cantilever",
+  "proof_mass": true,
+  "geometry": {
+    "length_mm": 79,
+    "width_mm": 25,
+    "thickness_mm": null,
+    "substrate_thickness_um": 250,
+    "piezo_thickness_um": 600,
+    "tip_mass_g": 28.3,
+    "diameter_mm": null
+  },
+  "excitation": {
+    "type": "rotation",
+    "frequency_Hz": 7.4,
+    "acceleration_g": null,
+    "displacement_mm": null,
+    "motion_source": "motor"
+  },
+  "load": {
+    "load_resistance_ohm": 110000
+  },
+  "output": {
+    "resonant_frequency_Hz": 7.4,
+    "output_power_W": 0.0005792,
+    "open_circuit_voltage_V": null,
+    "short_circuit_current_A": null,
+    "bandwidth_Hz": null
+  },
+  "evidence": {
+    "configuration": {
+      "quote": "piezoelectric-cantilever-type energy harvesters",
+      "section": "Abstract",
+      "source_type": "abstract"
+    },
+    "proof_mass": {
+      "quote": "A mass was placed on the tip of the cantilevers",
+      "section": "Abstract",
+      "source_type": "abstract"
+    },
+    "geometry": {
+      "length_mm": {
+        "quote": "free length from the clamp to the mass was 79 mm",
+        "section": "2. Prototype Manufacturing and Test Setup",
+        "source_type": "section"
+      },
+      "width_mm": {
+        "quote": "piezoelectric (PZ-5A) area (25 mm × 30 mm × 0.6 mm)",
+        "section": "3.2. Further Optimization of the Piezoelectric Energy Harvester",
+        "source_type": "section"
+      },
+      "thickness_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "substrate_thickness_um": {
+        "quote": "slightly thicker steel (250 µm)",
+        "section": "3.2. Further Optimization of the Piezoelectric Energy Harvester",
+        "source_type": "section"
+      },
+      "piezo_thickness_um": {
+        "quote": "piezoelectric material (0.6 mm)",
+        "section": "3.2. Further Optimization of the Piezoelectric Energy Harvester",
+        "source_type": "section"
+      },
+      "tip_mass_g": {
+        "quote": "28.3 g",
+        "section": "3.2. Further Optimization of the Piezoelectric Energy Harvester",
+        "source_type": "figure_caption"
+      },
+      "diameter_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      }
+    },
+    "excitation": {
+      "type": {
+        "quote": "Piezoelectric Energy Harvesting from Rotational Motion",
+        "section": "Article Piezoelectric Energy Harvesting from Rotational Motion to Power Industrial Maintenance Sensors",
+        "source_type": "title"
+      },
+      "frequency_Hz": {
+        "quote": "579.2 µW at 7.4 Hz rotational frequency",
+        "section": "3.2. Further Optimization of the Piezoelectric Energy Harvester",
+        "source_type": "section"
+      },
+      "acceleration_g": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "displacement_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "motion_source": {
+        "quote": "rotated by the motor",
+        "section": "2. Prototype Manufacturing and Test Setup",
+        "source_type": "section"
+      }
+    },
+    "load": {
+      "load_resistance_ohm": {
+        "quote": "over a load of 110 kOhm",
+        "section": "2. Prototype Manufacturing and Test Setup",
+        "source_type": "section"
+      }
+    },
+    "output": {
+      "resonant_frequency_Hz": {
+        "quote": "579.2 µW at 7.4 Hz rotational frequency",
+        "section": "3.2. Further Optimization of the Piezoelectric Energy Harvester",
+        "source_type": "section"
+      },
+      "output_power_W": {
+        "quote": "highest calculated raw power of 579.2 µW",
+        "section": "3.2. Further Optimization of the Piezoelectric Energy Harvester",
+        "source_type": "section"
+      },
+      "open_circuit_voltage_V": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "short_circuit_current_A": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "bandwidth_Hz": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      }
+    }
+  }
+}

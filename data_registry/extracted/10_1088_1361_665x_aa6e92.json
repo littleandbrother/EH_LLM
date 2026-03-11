@@ -1,0 +1,147 @@
+{
+  "metadata": {
+    "paper_id": "10_1088_1361_665x_aa6e92",
+    "doi": "10.1088/1361-665x/aa6e92",
+    "title": "Low-frequency, broadband vibration energy harvester using coupled oscillators and frequency up-conversion by mechanical stoppers",
+    "year": 2017,
+    "journal": "Smart Materials and Structures"
+  },
+  "configuration": "diaphragm",
+  "proof_mass": true,
+  "geometry": {
+    "length_mm": null,
+    "width_mm": null,
+    "thickness_mm": null,
+    "substrate_thickness_um": null,
+    "piezo_thickness_um": null,
+    "tip_mass_g": 3.4,
+    "diameter_mm": null
+  },
+  "excitation": {
+    "type": "vibration",
+    "frequency_Hz": 24.0,
+    "acceleration_g": 1.0,
+    "displacement_mm": null,
+    "motion_source": "shaker Modal Exciter 4826"
+  },
+  "load": {
+    "load_resistance_ohm": 16000
+  },
+  "output": {
+    "resonant_frequency_Hz": 340.0,
+    "output_power_W": 0.0008,
+    "open_circuit_voltage_V": 15.0,
+    "short_circuit_current_A": null,
+    "bandwidth_Hz": 10.2
+  },
+  "evidence": {
+    "configuration": {
+      "quote": "disc-shaped diaphragm with attached piezoelectric elements",
+      "section": "Abstract",
+      "source_type": "abstract"
+    },
+    "proof_mass": {
+      "quote": "additional seismic mass positioned in the center of the diaphragm",
+      "section": "2. Mechanical design",
+      "source_type": "section"
+    },
+    "geometry": {
+      "length_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "width_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "thickness_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "substrate_thickness_um": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "piezo_thickness_um": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "tip_mass_g": {
+        "quote": "m2 0.0034 kg",
+        "section": "3. Mathematical model",
+        "source_type": "table"
+      },
+      "diameter_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      }
+    },
+    "excitation": {
+      "type": {
+        "quote": "vibration based energy harvester",
+        "section": "Abstract",
+        "source_type": "abstract"
+      },
+      "frequency_Hz": {
+        "quote": "f = 24 Hz",
+        "section": "5. Frequency dependencies",
+        "source_type": "figure_caption"
+      },
+      "acceleration_g": {
+        "quote": "acceleration amplitude of 9.81 m s^-2",
+        "section": "Abstract",
+        "source_type": "abstract"
+      },
+      "displacement_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "motion_source": {
+        "quote": "driven by the shaker Modal Exciter 4826",
+        "section": "4. Numerical solution",
+        "source_type": "section"
+      }
+    },
+    "load": {
+      "load_resistance_ohm": {
+        "quote": "optimum load resistance R_Lopt = 16 kOhm",
+        "section": "5. Frequency dependencies",
+        "source_type": "section"
+      }
+    },
+    "output": {
+      "resonant_frequency_Hz": {
+        "quote": "oscillates at the eigenfrequency of about 340 Hz",
+        "section": "4. Numerical solution",
+        "source_type": "section"
+      },
+      "output_power_W": {
+        "quote": "maximum value of 0.8 mW",
+        "section": "Abstract",
+        "source_type": "abstract"
+      },
+      "open_circuit_voltage_V": {
+        "quote": "peak output voltage of the PZT disc is roughly 15 V",
+        "section": "4. Numerical solution",
+        "source_type": "section"
+      },
+      "short_circuit_current_A": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "bandwidth_Hz": {
+        "quote": "10.2",
+        "section": "5. Frequency dependencies",
+        "source_type": "table"
+      }
+    }
+  }
+}

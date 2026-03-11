@@ -1,0 +1,33 @@
+{
+  "profile_name": "vehbench_verifier_v1_power_surrogate",
+  "output_suffix": "power_gold_subset",
+  "status": "experimental_not_enabled",
+  "recommended_runtime_mode": null,
+  "selection_metric": "leave_one_out_mape_pct",
+  "candidates": {
+    "raw_physics_identity": {
+      "count": 18,
+      "mape_pct": 98.93887013630419,
+      "median_ape_pct": 99.99949356307904,
+      "median_abs_log10_ratio": 5.368686898402569
+    },
+    "global_log_bias": {
+      "count": 18,
+      "mape_pct": 4511574.213351189,
+      "median_ape_pct": 165.0435704570891,
+      "median_abs_log10_ratio": 2.106010876192455
+    },
+    "log_ridge_power": {
+      "count": 18,
+      "mape_pct": 11376985300.557734,
+      "median_ape_pct": 99.99983554159238,
+      "median_abs_log10_ratio": 2.7083977502700707
+    },
+    "log_ridge_vload": {
+      "count": 18,
+      "mape_pct": 11093313958.617191,
+      "median_ape_pct": 99.99984043164258,
+      "median_abs_log10_ratio": 2.7011320257465377
+    }
+  }
+}

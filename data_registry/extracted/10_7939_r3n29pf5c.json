@@ -1,0 +1,147 @@
+{
+  "metadata": {
+    "paper_id": "10_7939_r3n29pf5c",
+    "doi": "10.7939/r3n29pf5c",
+    "title": "Investigation of Potential Platforms for Low Frequency MEMS-based Piezoelectric Energy Harvesting",
+    "year": 2015,
+    "journal": "University of Alberta Library"
+  },
+  "configuration": "diaphragm",
+  "proof_mass": true,
+  "geometry": {
+    "length_mm": null,
+    "width_mm": null,
+    "thickness_mm": null,
+    "substrate_thickness_um": 5.0,
+    "piezo_thickness_um": 1.2,
+    "tip_mass_g": null,
+    "diameter_mm": 6.0
+  },
+  "excitation": {
+    "type": "vibration",
+    "frequency_Hz": 381.0,
+    "acceleration_g": 4.0,
+    "displacement_mm": null,
+    "motion_source": null
+  },
+  "load": {
+    "load_resistance_ohm": null
+  },
+  "output": {
+    "resonant_frequency_Hz": 381.0,
+    "output_power_W": 1.37e-06,
+    "open_circuit_voltage_V": null,
+    "short_circuit_current_A": null,
+    "bandwidth_Hz": 146.0
+  },
+  "evidence": {
+    "configuration": {
+      "quote": "a SU-8 membrane has been designed and fabricated",
+      "section": "Abstract",
+      "source_type": "abstract"
+    },
+    "proof_mass": {
+      "quote": "A circular array of energy harvesters on a SU-8 membrane with a silicon proof mass.",
+      "section": "List of Figures",
+      "source_type": "figure_caption"
+    },
+    "geometry": {
+      "length_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "width_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "thickness_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "substrate_thickness_um": {
+        "quote": "SU-8 thickness is 5 um",
+        "section": "List of Figures",
+        "source_type": "figure_caption"
+      },
+      "piezo_thickness_um": {
+        "quote": "PZT thickness is 1.2 um",
+        "section": "List of Figures",
+        "source_type": "figure_caption"
+      },
+      "tip_mass_g": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "diameter_mm": {
+        "quote": "R2 = 3 mm",
+        "section": "List of Figures",
+        "source_type": "figure_caption"
+      }
+    },
+    "excitation": {
+      "type": {
+        "quote": "base excitation",
+        "section": "Abstract",
+        "source_type": "abstract"
+      },
+      "frequency_Hz": {
+        "quote": "linear resonant frequency of 381 Hz",
+        "section": "Abstract",
+        "source_type": "abstract"
+      },
+      "acceleration_g": {
+        "quote": "base excitation of 4 g",
+        "section": "Abstract",
+        "source_type": "abstract"
+      },
+      "displacement_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "motion_source": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      }
+    },
+    "load": {
+      "load_resistance_ohm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      }
+    },
+    "output": {
+      "resonant_frequency_Hz": {
+        "quote": "linear resonant frequency of 381 Hz",
+        "section": "Abstract",
+        "source_type": "abstract"
+      },
+      "output_power_W": {
+        "quote": "maximum output power of 1.37 uW",
+        "section": "Abstract",
+        "source_type": "abstract"
+      },
+      "open_circuit_voltage_V": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "short_circuit_current_A": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "bandwidth_Hz": {
+        "quote": "frequency bandwidth of 146 Hz",
+        "section": "Abstract",
+        "source_type": "abstract"
+      }
+    }
+  }
+}

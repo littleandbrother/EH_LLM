@@ -1,0 +1,28 @@
+{
+  "paper_id": "10_1088_1742_6596_1407_1_012081",
+  "doi": "10.1088/1742-6596/1407/1/012081",
+  "title": "MEMS Energy Harvesting Based on Uniform-Stress Cantilever with Multilayer PZT Thin Films",
+  "source_apis": [
+    "openalex"
+  ],
+  "pdf_url": "https://doi.org/10.1088/1742-6596/1407/1/012081",
+  "pdf_local_path": "data_registry/raw_stage04_paper_pdf_cleaned/10_1088_1742_6596_1407_1_012081.pdf",
+  "processing": {
+    "tool": "MinerU",
+    "version": "python -m mineru.cli.client, version 2.7.6",
+    "timestamp": "2026-03-10T10:01:25.214437+00:00",
+    "duration_s": 73.73,
+    "success": true,
+    "error": ""
+  },
+  "outputs": {
+    "content_md": "/root/EH-LLM-vehbench-exp/parsed_docs/10_1088_1742_6596_1407_1_012081_smitaqr2/content.md",
+    "layout_json": "/root/EH-LLM-vehbench-exp/parsed_docs/10_1088_1742_6596_1407_1_012081_smitaqr2/layout.json",
+    "images_dir": "/root/EH-LLM-vehbench-exp/parsed_docs/10_1088_1742_6596_1407_1_012081_smitaqr2/10_1088_1742_6596_1407_1_012081/auto/images",
+    "normalized_json": "/root/EH-LLM-vehbench-exp/normalized_docs/10_1088_1742_6596_1407_1_012081.json"
+  },
+  "data_lineage": {
+    "papers_jsonl_hash": "13962c5c69e00622ee52f54c562f4161",
+    "pipeline_step": "ingestion/mineru_runner.py"
+  }
+}

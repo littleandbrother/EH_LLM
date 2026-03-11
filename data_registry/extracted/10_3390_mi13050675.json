@@ -1,0 +1,147 @@
+{
+  "metadata": {
+    "paper_id": "10_3390_mi13050675",
+    "doi": "10.3390/mi13050675",
+    "title": "Design and Optimization of Piezoelectric Cantilever Beam Vibration Energy Harvester",
+    "year": 2022,
+    "journal": "Micromachines"
+  },
+  "configuration": "cantilever",
+  "proof_mass": false,
+  "geometry": {
+    "length_mm": 80,
+    "width_mm": 33,
+    "thickness_mm": 0.4,
+    "substrate_thickness_um": 200,
+    "piezo_thickness_um": 200,
+    "tip_mass_g": null,
+    "diameter_mm": null
+  },
+  "excitation": {
+    "type": "vibration",
+    "frequency_Hz": 23.29,
+    "acceleration_g": 1,
+    "displacement_mm": null,
+    "motion_source": null
+  },
+  "load": {
+    "load_resistance_ohm": 45420
+  },
+  "output": {
+    "resonant_frequency_Hz": 23.29,
+    "output_power_W": 0.00449,
+    "open_circuit_voltage_V": 40.4,
+    "short_circuit_current_A": null,
+    "bandwidth_Hz": null
+  },
+  "evidence": {
+    "configuration": {
+      "quote": "Piezoelectric cantilever beam",
+      "section": "Design and Optimization of Piezoelectric Cantilever Beam Vibration Energy Harvester",
+      "source_type": "title"
+    },
+    "proof_mass": {
+      "quote": "The developed PEH with a trapezoidal hollow structure ... with a copper substrate",
+      "section": "Design and Optimization of Piezoelectric Cantilever Beam Vibration Energy Harvester",
+      "source_type": "abstract"
+    },
+    "geometry": {
+      "length_mm": {
+        "quote": "copper substrate of 80 mm x 33 mm x 0.2 mm",
+        "section": "Design and Optimization of Piezoelectric Cantilever Beam Vibration Energy Harvester",
+        "source_type": "abstract"
+      },
+      "width_mm": {
+        "quote": "copper substrate of 80 mm x 33 mm x 0.2 mm",
+        "section": "Design and Optimization of Piezoelectric Cantilever Beam Vibration Energy Harvester",
+        "source_type": "abstract"
+      },
+      "thickness_mm": {
+        "quote": "Thickness/(mm) ... 0.2",
+        "section": "2. Design and Simulation",
+        "source_type": "table"
+      },
+      "substrate_thickness_um": {
+        "quote": "copper substrate of 80 mm x 33 mm x 0.2 mm",
+        "section": "Design and Optimization of Piezoelectric Cantilever Beam Vibration Energy Harvester",
+        "source_type": "abstract"
+      },
+      "piezo_thickness_um": {
+        "quote": "Thickness/(mm) ... 0.2",
+        "section": "2. Design and Simulation",
+        "source_type": "table"
+      },
+      "tip_mass_g": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "diameter_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      }
+    },
+    "excitation": {
+      "type": {
+        "quote": "vibration",
+        "section": "Design and Optimization of Piezoelectric Cantilever Beam Vibration Energy Harvester",
+        "source_type": "title"
+      },
+      "frequency_Hz": {
+        "quote": "resonance frequency ... 23.29 Hz",
+        "section": "Design and Optimization of Piezoelectric Cantilever Beam Vibration Energy Harvester",
+        "source_type": "abstract"
+      },
+      "acceleration_g": {
+        "quote": "Under the condition of 1 g acceleration",
+        "section": "Design and Optimization of Piezoelectric Cantilever Beam Vibration Energy Harvester",
+        "source_type": "abstract"
+      },
+      "displacement_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "motion_source": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      }
+    },
+    "load": {
+      "load_resistance_ohm": {
+        "quote": "Matched loading resistance of Samples A ... were measured to be 45.42 kOhm",
+        "section": "4. Experiment",
+        "source_type": "section"
+      }
+    },
+    "output": {
+      "resonant_frequency_Hz": {
+        "quote": "resonance frequency ... 23.29 Hz",
+        "section": "Design and Optimization of Piezoelectric Cantilever Beam Vibration Energy Harvester",
+        "source_type": "abstract"
+      },
+      "output_power_W": {
+        "quote": "maximum output power of Sample A is 4.49 mW",
+        "section": "4. Experiment",
+        "source_type": "section"
+      },
+      "open_circuit_voltage_V": {
+        "quote": "peak voltage output were ... 40.4 V",
+        "section": "Design and Optimization of Piezoelectric Cantilever Beam Vibration Energy Harvester",
+        "source_type": "abstract"
+      },
+      "short_circuit_current_A": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "bandwidth_Hz": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      }
+    }
+  }
+}

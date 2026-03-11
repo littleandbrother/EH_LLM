@@ -1,0 +1,147 @@
+{
+  "metadata": {
+    "paper_id": "10_3390_en15197271",
+    "doi": "10.3390/en15197271",
+    "title": "Automatic Resonance Tuning Technique for an Ultra-Broadband Piezoelectric Energy Harvester",
+    "year": 2022,
+    "journal": "Energies"
+  },
+  "configuration": "cantilever",
+  "proof_mass": true,
+  "geometry": {
+    "length_mm": 105,
+    "width_mm": 10,
+    "thickness_mm": 0.3,
+    "substrate_thickness_um": 300,
+    "piezo_thickness_um": 300,
+    "tip_mass_g": 10,
+    "diameter_mm": null
+  },
+  "excitation": {
+    "type": "vibration",
+    "frequency_Hz": null,
+    "acceleration_g": 0.3,
+    "displacement_mm": null,
+    "motion_source": "bridges and buildings"
+  },
+  "load": {
+    "load_resistance_ohm": 10000000
+  },
+  "output": {
+    "resonant_frequency_Hz": null,
+    "output_power_W": 0.00228,
+    "open_circuit_voltage_V": 213,
+    "short_circuit_current_A": null,
+    "bandwidth_Hz": 17
+  },
+  "evidence": {
+    "configuration": {
+      "quote": "The proposed harvester is composed of a cantilever beam and sliding masse",
+      "section": "Abstract",
+      "source_type": "abstract"
+    },
+    "proof_mass": {
+      "quote": "The mobile mass is made of steel with a weight of 10 g",
+      "section": "4. ART Piezoelectric Energy Harvester Description",
+      "source_type": "section"
+    },
+    "geometry": {
+      "length_mm": {
+        "quote": "high strength 65 Mn spring steel with the dimensions of 105 × 10 mm^2",
+        "section": "4. ART Piezoelectric Energy Harvester Description",
+        "source_type": "section"
+      },
+      "width_mm": {
+        "quote": "high strength 65 Mn spring steel with the dimensions of 105 × 10 mm^2",
+        "section": "4. ART Piezoelectric Energy Harvester Description",
+        "source_type": "section"
+      },
+      "thickness_mm": {
+        "quote": "thickness of 0.3 mm for the cantilever beam is selected",
+        "section": "4. ART Piezoelectric Energy Harvester Description",
+        "source_type": "section"
+      },
+      "substrate_thickness_um": {
+        "quote": "thickness of 0.3 mm for the cantilever beam is selected",
+        "section": "4. ART Piezoelectric Energy Harvester Description",
+        "source_type": "section"
+      },
+      "piezo_thickness_um": {
+        "quote": "optimal PZT thickness is 0.3 mm",
+        "section": "4.2.2. Piezoelectric Parameters Optimization",
+        "source_type": "section"
+      },
+      "tip_mass_g": {
+        "quote": "The mobile mass is made of steel with a weight of 10 g",
+        "section": "4. ART Piezoelectric Energy Harvester Description",
+        "source_type": "section"
+      },
+      "diameter_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      }
+    },
+    "excitation": {
+      "type": {
+        "quote": "harvest the vibration of bridges and buildings",
+        "section": "4. ART Piezoelectric Energy Harvester Description",
+        "source_type": "section"
+      },
+      "frequency_Hz": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "acceleration_g": {
+        "quote": "The base excitation amplitude is 0.3 g",
+        "section": "4. ART Piezoelectric Energy Harvester Description",
+        "source_type": "section"
+      },
+      "displacement_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "motion_source": {
+        "quote": "harvest the vibration of bridges and buildings",
+        "section": "4. ART Piezoelectric Energy Harvester Description",
+        "source_type": "section"
+      }
+    },
+    "load": {
+      "load_resistance_ohm": {
+        "quote": "The circuit resistance is selected to be 10 MΩ",
+        "section": "4. ART Piezoelectric Energy Harvester Description",
+        "source_type": "section"
+      }
+    },
+    "output": {
+      "resonant_frequency_Hz": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "output_power_W": {
+        "quote": "produces 213 V and 2.28 mW",
+        "section": "4.2.2. Piezoelectric Parameters Optimization",
+        "source_type": "section"
+      },
+      "open_circuit_voltage_V": {
+        "quote": "produces 213 V and 2.28 mW",
+        "section": "4.2.2. Piezoelectric Parameters Optimization",
+        "source_type": "section"
+      },
+      "short_circuit_current_A": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "bandwidth_Hz": {
+        "quote": "The bandwidth of the ART harvester (17 Hz) is found to be 1130% larger",
+        "section": "Abstract",
+        "source_type": "abstract"
+      }
+    }
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "paper_id": "10_1299_jsmemnm_2011_3_35",
+  "doi": "10.1299/jsmemnm.2011.3.35",
+  "title": "3-7 Characterization of vibration energy harvesters composed of piezoelectric thin films",
+  "year": 2011,
+  "venue": "The Proceedings of the Symposium on Micro-Nano Science and Technology",
+  "authors": [
+    "Isaku Kanno",
+    "Hidetoshi Kotera",
+    "Kenji Shibata",
+    "Tomoyoshi Mishima"
+  ],
+  "citation_count": 2,
+  "sections": [
+    {
+      "heading": "--",
+      "level": 1,
+      "text": "Characterization of vibration energy harvesters composed of piezoelectric thin films '()#() \\* ()=² ()\n\nIsaku Kanno Hidetoshi KoteraKyoto Univriy Kenji Shibata², Tomoyoshi Mishima², 2Hitachi Cable, Ltd.\n\nWe fabricated piezoelectric vibration energy harvesters composed of PZT and lead-free KNN thin films on Si cnlevernarrizheuu voltagepowe  thos pzleisBo  h Z n KNN f wedeposien -coate substrateaneron putternThearveter a spl cantilever tructure with the almost same dimensions, and the haracteristico powr generation wereexamine. When we applied the acceleration of $1 0 ~ \\mathrm { m / s ^ { 2 } }$ on the PZT and KNN energy harvesters, they generated the output power of 1.11 and $1 . 0 1 ~ \\mu \\mathrm { W }$ at the resonant frequency under $1 0 ~ \\mathrm { m } / \\mathrm { s } ^ { 2 }$ , indicating lead-free KNN films are comparable to PZT films for the performance for power generation.\n\nKey Words: energy harvesting, piezoelectric, thin films, vibration, PZT, KN"
+    },
+    {
+      "heading": "1. ICME",
+      "level": 1,
+      "text": "-.I $\\oslash$ EUZ-E${ \\sim } \\mathcal { O }$ E\n\nPZT\\$I-- —#.PZT# MEMS ${ \\sim } \\mathcal { O }$ TL3. $\\scriptstyle { \\mathfrak { k } } ( \\mathbf { K } , \\mathbf { N a } ) \\mathbf { N b } 0 _ { 3 }$ (NN)# NNPZT # NEM ${ \\frown } \\oslash$ NN#P# #NN\\$I $\\models \\frown \\oslash$ E E"
+    },
+    {
+      "heading": "2.U#",
+      "level": 1,
+      "text": "NNPF##PUTi/SKNNPZT$3 \\mu \\mathrm { m }$ $2 \\mu \\mathrm { m }$ Lt.Si $\\oslash$ 7 $2 0 0 \\mu \\mathrm { m }$ TH$3 . 4 \\mathrm { m m }$ , E $1 6 { \\sim } 1 7 ~ \\mathrm { m m } ~ \\mathcal { O } )$ R.KNNPZT $\\boldsymbol { \\mathcal { O } } \\boldsymbol { \\Sigma }$ (XRDFig.KNNUPZT$\\mathfrak { h }$ ,KNN\n\nKNNUPT, U#L.KNNUPZT 74472 tand1 $7 . 1 \\%$ $3 . 9 \\%$ NN --P-E\n\n![](images/52e3ce68c68562210d558e1b53de0cafc90ef5601c34575954121850e24d4c8b.jpg)  \nFig. 1 XRD patterns of KNN and PZT thin films deposited on Pt/Ti/Si substrates.\n\nNNUPZT\n\nKNNUPZT $\\oslash$ E .E#NN/SUPZT/S= KDCEE $\\textcircled{7}$ EE# $e _ { 3 1 , \\mathbf { f } }$\n\n$$\ne _ { 3 1 , f } = \\frac { h _ { s } ^ { ~ 2 } E _ { s } } { 3 \\left( 1 - v _ { s } \\right) L ^ { 2 } V } \\delta\n$$\n\n==t, $h _ { \\mathrm { s } } , E _ { \\mathrm { s } } , \\nu _ { \\mathrm { s } }$ $\\oslash$   \nHT $\\mathfrak { h }$ , $L$ , V, $\\delta$ ETASOEEE, $e _ { 3 \\mathrm { l } , \\mathbf { f } }$ 1, $e _ { 3 1 }$ $\\boldsymbol { e _ { 3 1 } }$   \n4) $3 3 < 1 1 0 > \\mathrm { S i } \\ \\mathcal { O } )$ FVR ${ e _ { 3 1 } } ^ { * } { \\mathcal { Z } } ~ \\mathfrak { V }$ J $7 \\%$\n\nFig.2KNNUPZT= R-UE $e _ { 3 1 , \\mathbf { f } }$ C $\\oslash$ Si# $\\mathfrak { h }$ ,MEAMBER $\\tilde { 5 } \\ 1 3 . 5 \\ \\mathrm { m m }$ - ${ \\bf < } 1 1 0 >$ C3. NNUPZT= $\\boldsymbol { \\mathcal { O } } \\boldsymbol { \\mathcal { O } }$ 20V\n\n![](images/c02300d67da68b93c5c9165665b2c246b2d37a3f296bfddd9aa18e4426f89430.jpg)  \nFig. 2 Tip displacement of unimorph cantilevers of KNN/Si and PZT/Si, and transverse piezoelectric coefficients of KNN and PZT films as a function of applied voltage.\n\n![](images/db2d88a5755fa00d262af26c3619b3bd2862b091ff8e98870be52d00d063ac37.jpg)  \nFig. 3 Output power of KNN and PZT unimorph energy harvesters as a function of load resistance. The measurements were performed at the resonant frequencies of the cantilevers under the acceleration of $1 0 \\ m / \\mathsf { s } ^ { 2 }$ .\n\nEET $\\oslash$ $\\delta$ 111 $1 7 \\ \\mu \\mathrm { m }$ $\\mathfrak { h }$ , KNN UPZTCE# $e _ { 3 \\mathrm { l } , \\mathbf { f } }$ lt -11 $\\mathrm { C } / \\mathrm { m } ^ { 2 }$"
+    },
+    {
+      "heading": "3. \\*#",
+      "level": 1,
+      "text": "KNNUPZTS-# $\\oslash$   \n= $\\nparallel$ H   \n--\n\n7CEL.\n\nFig. . $\\mathrm { l } 0 \\mathrm { m } / \\mathrm { s } ^ { 2 }$ $\\mathbf { 1 . 0 4 \\ k H z }$ KNN,   \n$0 . 8 9 ~ \\mathrm { k H z }$ PZTH3E $\\mathfrak { h }$ ,KNNUPZT=   \nO $1 . 7 \\ \\mathbf { k } \\Omega$ $1 . 2 \\ \\mathbf k \\Omega$ T $\\mathfrak { h }$ , $1 . 1 0 ~ \\mu \\mathrm { W }$ $1 . 0 1 ~ \\mu \\mathrm { W }$ Thot.\n\n$\\boldsymbol { \\mathcal { O } }$ 32).\n\n$$\nP \\cong { \\frac { \\mu _ { 1 } m a ^ { 2 } } { 2 \\omega _ { 0 } } } { \\frac { K ^ { 2 } \\psi Q ^ { 2 } } { \\psi ^ { 2 } + \\left( 1 + K ^ { 2 } \\psi Q \\right) ^ { 2 } } }\n$$\n\n$$\n\\psi = \\omega _ { \\mathrm { 0 } } R C\n$$\n\nzZt, $m , \\mu , a , \\omega _ { 0 } , Q , K$ E i,#W#, $Q$ , U (GEMC) T $\\mathfrak { h }$ , $R , C$ - T.cA $\\dot { 6 } \\mathcal { O }$ U 14 $Q$ - $K ^ { 2 }$ 1 $Q$ IHE $\\oslash$ # #NUPZT $\\mathcal { O } \\mathcal { Q }$ 1 119158 $K ^ { 2 }$ E #130 $\\oslash$   \n,Open-short $\\oslash$ $\\oslash$   \nPZ #≠# $K ^ { 2 } { \\mathcal { O } }$   \n$K ^ { 2 } { \\mathcal { O } }$ (2)Fig. 3 KNNUPZT Z $K ^ { 2 } { \\mathcal { O } }$ $3 . 1 \\times 1 0 ^ { - 3 }$ $1 . 1 \\times 1 0 ^ { - 3 }$ KKNPZT $\\mathfrak { h }$ $K ^ { 2 }$ 11=127 - $\\sharp _ { \\scriptscriptstyle \\mathscr { O } }$ T $\\mathfrak { h }$ ,KNNUPZT $V \\setminus \\hat { \\mathcal { D } } ^ { \\tilde { \\Sigma } }$ , KNN #= $K ^ { 2 } \\notin \\mathfrak { E }$ PZT $5 \\subseteq { \\mathbb { E } }$ 3."
+    },
+    {
+      "heading": "4.",
+      "level": 1,
+      "text": "KNNPZT#NNUPZT $2 0 0 \\mu \\mathrm { m } \\emptyset$ $1 6 \\mathrm { m m }$ , P $3 . 4 \\mathrm { m m } \\mathrm { \\it ~  ~ }$ $k = 1 0 \\ m / s ^ { 2 }$ NNPZTWT1.1 $1 . 0 ~ \\mu \\mathrm { W }$ (GEMCKNPZT$\\notin$ ."
+    },
+    {
+      "heading": "I",
+      "level": 1,
+      "text": "(1) S. Roundy, et al., A piezoelectric vibration based generator for wireless electronics, Smart Mater. Struct. 13 (2004) 1131.   \n(2) M. Renaud, et al., Fabrication, modeling and characterization of MEMS piezoelectric vibration harvesters, Sens. Actuators A, 145-146 (2008) 380   \n(3) K. Shibata, et al., Piezoelectric Properties of $( \\mathsf { K } , \\mathsf { N a } ) \\mathsf { N b } 0 3$ Films Deposited by RF Magnetron Sputtering, Appl. Phys. Exp., 1 (2008) 011501   \n(4) I. Kanno, et al., Measurement of transverse piezoelectric properties of PZT thin films, Sens. Actuators A, 107, (2003) 68"
+    }
+  ],
+  "tables": [],
+  "figures": [
+    {
+      "page": -1,
+      "caption": "",
+      "path": "images/52e3ce68c68562210d558e1b53de0cafc90ef5601c34575954121850e24d4c8b.jpg"
+    },
+    {
+      "page": -1,
+      "caption": "",
+      "path": "images/c02300d67da68b93c5c9165665b2c246b2d37a3f296bfddd9aa18e4426f89430.jpg"
+    },
+    {
+      "page": -1,
+      "caption": "",
+      "path": "images/db2d88a5755fa00d262af26c3619b3bd2862b091ff8e98870be52d00d063ac37.jpg"
+    }
+  ],
+  "metadata": {
+    "source": "openalex",
+    "pdf_url": "https://doi.org/10.1299/jsmemnm.2011.3.35",
+    "parsed_at": "2026-03-10T10:04:35.045897+00:00"
+  }
+}

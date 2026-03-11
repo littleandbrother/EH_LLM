@@ -1,0 +1,88 @@
+{
+  "paper_id": "10_3390_proceedings1040588",
+  "doi": "10.3390/proceedings1040588",
+  "title": "Development of a Compact, Low-Frequency Vibration, Piezoelectric MEMS Energy Harvester",
+  "year": 2017,
+  "venue": "",
+  "authors": [
+    "F. Costache",
+    "B. Pawlik",
+    "A. Rieck"
+  ],
+  "citation_count": 9,
+  "sections": [
+    {
+      "heading": "Proceedings Development of a Compact, Low-Frequency Vibration, Piezoelectric MEMS Energy Harvester †",
+      "level": 1,
+      "text": "Florenta Costache \\*, Boscij Pawlik and Andreas Rieck\n\nFraunhofer Institute for Photonic Microsystems, Maria-Reiche Str. 2, 01109 Dresden, Germany \\* Correspondence: florenta.costache@ipms.fraunhofer.de; Tel.: +49-351-8823-259 † Presented at the Eurosensors 2017 Conference, Paris, France, 3–6 September 2017.\n\nPublished: 8 August 2017\n\nAbstract: This paper presents the design and fabrication of a piezoelectric MEMS cantilever harvester of optimized shape able to generate a usable amount of power from low frequency vibrations for moderate cantilever deflection. The corresponding harvester design, obtained by means of FEM simulations, comprises a trapezoidal unimorph silicon cantilever beam with a piezoelectric PZT film and a rectangular silicon tip mass. This device was fabricated by wafer-level micro-fabrication processes. The harvester provided $2 \\mu \\mathrm { W }$ generated power at $1 2 3 \\mathrm { H z }$ resonant frequency.\n\nKeywords: vibration energy harvesting; piezoelectric films; micro-mechanical devices; silicon cantilever; fabrication"
+    },
+    {
+      "heading": "1. Introduction",
+      "level": 1,
+      "text": "Harvesting energy from environmental vibrations offers an ideal solution for powering the next, energy-efficient, small-scale electronic devices. In order to provide reasonable harvested power (low power electronics need $\\mu \\mathrm { } W$ to mW of power [1,2]) at low excitation frequencies (environmental vibrations exhibit highest amplitude for frequencies of up to $2 0 0 ~ \\mathrm { H z }$ [1]), and to be suitable for integration with micro-devices, the harvester device must have small dimensions. This imposes challenges on the device design to achieve low resonance frequencies given that the natural frequencies of piezoelectric ceramics and single crystals stacks are usually over 1 kHz. Numerous research papers have focused on enhancing the performance of small footprint energy harvesters by optimizing material properties, their geometry and harvesting circuit [1–3]. From the multiple possible structures, a piezoelectric cantilever beam can exhibit large deflection, stress, strain and consequently high output voltage and generated power [1–3]. To tune the harvester resonant frequency, a tip mass is usually added to the harvester design. The resonance frequency can be then decreased by methods such as increasing the harvester cantilever beam length or tip mass. Yet, if the application imposes limitations on harvester cantilever beam length or tip mass, these methods may not be feasible. It is therefore useful to perform shape design optimization of a harvester with a specified footprint. This work presents the design, fabrication and characterization of a piezoelectric micro-electro-mechanical systems (MEMS) harvester of a specified footprint with optimized shape to deliver usable generated power from low frequency vibrations."
+    },
+    {
+      "heading": "2. Piezoelectric MEMS Cantilever Design",
+      "level": 1,
+      "text": "The goal was to design a thin, compact vibration energy harvester able to generate optimum power from a $2 5 \\times 2 0 ~ \\mathrm { m m } ^ { 2 }$ device area when subjected to low frequency vibrations and low accelerations. The design under study was a unimorph MEMS structure with a piezoelectric $\\mathrm { P b } ( Z \\mathbf { r } _ { 1 - \\times } \\mathrm { T i } _ { \\times } ) \\mathrm { O } _ { 3 }$ (lead zirconate titanate, PZT [4]) film stack placed on a silicon (Si) cantilever with a silicon tip mass. The harvester thickness is $0 . 4 7 5 \\mathrm { ~ m m }$ , i.e., equal to the silicon wafer thickness. The shape and dimensions of the Si/PZT cantilever and the Si tip mass were calculated and optimized by means of simulations using finite element analysis (FEM, commercial Comsol Multiphysics software) to generate the highest energy at the lowest resonance frequency.\n\nA possible design solution for this problem is the 31-mode Si/PZT cantilever harvester structure presented in Figure 1a. It consists of a trapezoidal Si cantilever with an Au/PZT/Au film stack on top of it and a rectangular Si mass at its end. This design was found to be optimal for the harvester under study because it ensured a larger strain (thus, larger generated power) compared to other designs, while allowing decreasing the resonant frequency with an appropriate tip mass. For simulation, the thickness $t$ for each of the layers within the piezoelectric cantilever $\\mathrm { S i / A u / P Z T / A u }$ stack was chosen, by taking into consideration real material parameters and processing capabilities, as follows: $5 0 ~ { \\mu \\mathrm { m } }$ (Si membrane), $1 0 ~ \\mu \\mathrm { m }$ (first Au electrode layer) and $4 0 ~ \\mu \\mathrm { m }$ (PZT layer) and $< 0 . 1 \\ \\mu \\mathrm { m }$ (second Au electrode layer). The mechanical modes of the cantilever were simulated, i.e., their frequency and shape for out-of-plane motion. Figure 1b displays a 3D-FEM simulation result for the cantilever from Figure 1a, namely its first resonant mode at $5 0 \\mathrm { H z }$ resonance frequency. The calculated load resistance of the piezoelectric cantilever at the resonance frequency was $1 0 0 \\mathrm { k } \\Omega$ and the generated power was $1 0 \\mu \\mathrm { W }$ . Based on simulation, piezoelectric cantilevers were fabricated and characterized.\n\n![](images/c9565e9a95f1468e757718b356fe81ce7091c64e8b7ff8d397aba9c68125df62.jpg)  \nFigure 1. (a) Si/PZT cantilever harvester structure (up: top view; down: side view); (b) 3D-mode shape of the harvester structure according to (a), namely the 1st mode at $5 0 \\mathrm { H z }$ resonance frequency."
+    },
+    {
+      "heading": "3. Piezoelectric MEMS Cantilever Fabrication",
+      "level": 1,
+      "text": "The Si cantilever from Figure 1a was fabricated on $0 . 4 7 5 \\mathrm { m m }$ thick, $1 5 0 \\mathrm { m m }$ diameter standard Si wafers by employing micro-fabrication techniques. Specifically, the Si cantilever was structured by means of wet anisotropic etching.\n\nSubsequently the PZT stack was deposited on the structured Si wafer (Figure 2a). Accordingly, a gold (Au) electrode layer, a PZT layer and an Au counter electrode layer were deposited on the structured Si wafer by screen printing and sintering processes [4,5]. The layers within the obtained\n\nAu/PZT/Au stack had $1 2 \\mu \\mathrm { m } , 5 0 \\mu \\mathrm { m }$ and $9 \\mu \\mathrm { m }$ thickness, respectively. The PZT film was subsequently poled with an external electric field of $2 . 2 \\mathrm { V } / \\mu \\mathrm { m } ,$ at room temperature for 2 min. After wafer dicing, the harvester cantilever chips (Figure 2b) were mounted on PCBs for characterization of their mechanical and electrical properties.\n\n![](images/ecf3862c4df6abe2ad3a697b3a1d8e71295602550e63dbb5a3033974b2d94f54.jpg)  \nFigure 2. Fabricated harvester cantilever: (a) Cantilever structures on a silicon wafer; (b) Examples of a cantilever of $2 5 \\times 2 0 \\mathrm { m m } ^ { 2 }$ footprint and a cantilever chip of $1 8 \\times 2 0 \\mathrm { m m } ^ { 2 }$ footprint on a PCB."
+    },
+    {
+      "heading": "4. Piezoelectric MEMS Cantilever Characterization",
+      "level": 1,
+      "text": "The mechanical and electrical properties of the harvester were determined by means of a set-up including a shaker as a source for vibrations of definite frequency and acceleration, in addition to a microscope to visualize and determine the deflection response of the harvester cantilever at the excitation vibration frequency."
+    },
+    {
+      "heading": "4.1. Resonance Frequency",
+      "level": 1,
+      "text": "The generated peak-to-peak voltage and the harvester cantilever deflection amplitude were recorded for various vibration frequencies and accelerations. Figure 3a indicates that the cantilever resonant frequency is about $1 2 3 \\ : \\mathrm { H z }$ and the maximum amplitude attained is about $5 0 0 \\mu \\mathrm { m }$ for $0 . 5 \\ : \\mathrm { g }$ acceleration. The difference from the simulated values can be explained by the following facts: (1) the experimentally obtained thickness of the layers of the piezoelectric stack differed from the layer thickness used in the simulation; (2) a polymer reinforcement layer had to be added to the cantilever to prevent breakage.\n\n![](images/09ea594f2e008a404f2adb2a8b1134d6477a0eecb2cc706456b976542eee9ad2.jpg)  \nFigure 3. (a) Peak-to-peak voltage and amplitude as a function of frequency at $0 . 5 \\ : \\mathrm { g }$ acceleration for the harvester structure from Figure 1a; (b) Generated power as a function of acceleration after the 1st and the 2nd PZT poling process."
+    },
+    {
+      "heading": "4.2. Generated Voltage and Power",
+      "level": 1,
+      "text": "Figure 3b gives the power generated by subjecting the harvester to vibrations matching its resonance frequency at various accelerations. It should be stated that, in this work, a second PZT poling process with the parameters indicated in Section 3, but for a longer poling duration $( 5 \\mathrm { { m i n } ) }$ , was applied on the cantilever. This second PZT poling process lead to more power generated from the harvester (Figure 3b). To verify the origin of this result, the cantilever deflection was analyzed as a function of acceleration after each poling process and was found to provide comparable amplitudes, unaltered by the poling process. This confirms that the second poling process enhanced the piezoelectric properties of the PZT.\n\nFurther the generated peak-to-peak voltage and the corresponding power as a function of load resistance were determined at the harvester resonance frequency and for $0 . 5 \\mathrm { ~ g ~ }$ acceleration (Figure 4a). A maximum peak-to-peak voltage of about $_ { 1 \\textrm { V } }$ and a maximum power of about $0 . 7 \\mu \\mathrm { W }$ were obtained in this way, the latter corresponding to an optimal load resistance of ${ \\sim } 1 8 0 ~ \\mathrm { k } \\Omega$ . This finding is consistent with additional measurements performed by means of impedance spectroscopy.\n\nFigure 4b shows the generated power and the cantilever deflection amplitude obtained for various accelerations at the harvester resonant frequency. The highest power measured was about $2 \\mu \\mathrm { W }$ for a cantilever deflection of about $8 0 0 \\mu \\mathrm { m }$ .\n\n![](images/d5ff4cb28b2ebe08b68cd8fc9d0b145b38f4da4cb28cd790ab9b7b8caba741e7.jpg)  \nFigure 4. (a) Peak-to-peak voltage and generated power as a function of load resistance at the harvester resonance frequency and $0 . 5 \\ \\mathrm { g }$ acceleration; (b) Generated power and amplitude as a function of acceleration at the resonance frequency and optimal load resistance.\n\nThe experimental results were in general agreement with the simulations results. Further optimization of chip manufacturing processes is however needed, in particular with regard to the PZT layer."
+    },
+    {
+      "heading": "5. Conclusions",
+      "level": 1,
+      "text": "This paper presented the design, fabrication and characterization of a piezoelectric MEMS harvester of $2 5 \\times 2 0 \\times 0 . 4 7 5 ~ \\mathrm { m m } ^ { 3 }$ dimensions with optimized shape able to deliver, at moderate deflection of about $8 0 0 \\ \\mu \\mathrm { m } ,$ usable generated power from low frequency vibrations and low accelerations. The measured resonant frequency, maximum peak-to-peak voltage and highest power of the cantilever device were $1 2 3 \\mathrm { ~ H z } , 1 \\mathrm { ~ V ~ }$ and $2 \\mu \\mathrm { W } .$ , respectively. This design has advantages for integration with microelectronics devices.\n\nAcknowledgments: This work was supported by the FhG internal programs under project no. 600 628. The authors would like to thank to S. Gebhardt (Fraunhofer IKTS, Dresden, Germany) for the PZT films deposition, Christian Drabe for his help with the cantilever technology and Martin Blasl, Konrad Seidel, Hans-Jürgen Holland and Mathias Landwehr for fruitful discussions.\n\nConflicts of Interest: The authors declare no conflict of interest."
+    },
+    {
+      "heading": "References",
+      "level": 1,
+      "text": "1. Li, H.; Tian, C.; Deng, D. Energy harvesting from low frequency applications using piezoelectric materials. Appl. Phys. Rev. 2014, 1, 041301:1–041301:20, doi:10.1063/1.4900845.   \n2. Kang, M.-G.; Jung, W.-S.; Kang, C.-Y.; Yoon, S.-J. Recent Progress on PZT Based Piezoelectric Energy Harvesting Technologies. Actuators 2016, 5, 1–17, doi:10.3390/act5010005.   \n3. Roundy, S.; Leland, E.S.; Baker, J.; Carleton, E.; Reilly, E.; Lai, E.; Otis, B.; Rabaey, J.M.; Wright, P.K.; Sundararajan, V. Improving power output for vibration-based energy scavengers. IEEE Pervasive Comput. 2005, 47, 28–36, doi:10.1109/MPRV.2005.14.   \n4. Ernst, D; Bramlage, B.; Gebhardt, S.E.; Schönecker, A.J. High performance PZT thick film actuators using in plane polarisation. Adv. Appl. Chem. 2015, 114, 237–242, doi:10.1179/1743676115Y.0000000010.   \n5. Gebhardt, S.; Schänecker, A.; Bruchmann, C. Integrated actuators based on PZT think films for microsystems applications. In Actuator 2010; Bremen, German, 2010; pp. 122–125; ISBN 978-3-933339-13-3.\n\n$©$ 2017 by the authors. Licensee MDPI, Basel, Switzerland. This article is an open access article distributed under the terms and conditions of the Creative Commons Attribution (CC BY) license (http://creativecommons.org/licenses/by/4.0/)."
+    }
+  ],
+  "tables": [],
+  "figures": [
+    {
+      "page": -1,
+      "caption": "",
+      "path": "images/c9565e9a95f1468e757718b356fe81ce7091c64e8b7ff8d397aba9c68125df62.jpg"
+    },
+    {
+      "page": -1,
+      "caption": "",
+      "path": "images/ecf3862c4df6abe2ad3a697b3a1d8e71295602550e63dbb5a3033974b2d94f54.jpg"
+    },
+    {
+      "page": -1,
+      "caption": "",
+      "path": "images/09ea594f2e008a404f2adb2a8b1134d6477a0eecb2cc706456b976542eee9ad2.jpg"
+    },
+    {
+      "page": -1,
+      "caption": "",
+      "path": "images/d5ff4cb28b2ebe08b68cd8fc9d0b145b38f4da4cb28cd790ab9b7b8caba741e7.jpg"
+    }
+  ],
+  "metadata": {
+    "source": "semantic_scholar",
+    "pdf_url": "https://www.mdpi.com/2504-3900/1/4/588/pdf?version=1504512645",
+    "parsed_at": "2026-03-10T10:24:51.089859+00:00"
+  }
+}

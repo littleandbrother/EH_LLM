@@ -1,0 +1,147 @@
+{
+  "metadata": {
+    "paper_id": "10_3390_mi11121072",
+    "doi": "10.3390/mi11121072",
+    "title": "Fluorinated Polyethylene Propylene Ferroelectrets with an Air-Filled Concentric Tunnel Structure: Preparation, Characterization, and Application in Energy Harvesting",
+    "year": 2020,
+    "journal": "Micromachines"
+  },
+  "configuration": "plate",
+  "proof_mass": true,
+  "geometry": {
+    "length_mm": null,
+    "width_mm": null,
+    "thickness_mm": 0.34,
+    "substrate_thickness_um": 25,
+    "piezo_thickness_um": 25,
+    "tip_mass_g": 33.4,
+    "diameter_mm": 20
+  },
+  "excitation": {
+    "type": "vibration",
+    "frequency_Hz": 210,
+    "acceleration_g": 1,
+    "displacement_mm": null,
+    "motion_source": null
+  },
+  "load": {
+    "load_resistance_ohm": 12000000
+  },
+  "output": {
+    "resonant_frequency_Hz": 210,
+    "output_power_W": 0.001039,
+    "open_circuit_voltage_V": null,
+    "short_circuit_current_A": null,
+    "bandwidth_Hz": null
+  },
+  "evidence": {
+    "configuration": {
+      "quote": "The 33-mode energy harvester consisted of a top plate, a bottom plate, and an FEP film. For the sake of restricting the deformation of the film in all directions except vertically, the film was fixed on the bottom plate.",
+      "section": "3.1. Fabrication of Energy Harvesters",
+      "source_type": "section"
+    },
+    "proof_mass": {
+      "quote": "seismic mass of 33.4 g",
+      "section": "Abstract",
+      "source_type": "abstract"
+    },
+    "geometry": {
+      "length_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "width_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "thickness_mm": {
+        "quote": "taking the maximum and minimum thickness— t_max = 340 μm and t_min = 25 μm—of the samples quoted above",
+        "section": "2.3. Dielectric Resonance Spectrum",
+        "source_type": "section"
+      },
+      "substrate_thickness_um": {
+        "quote": "taking the maximum and minimum thickness— t_max = 340 μm and t_min = 25 μm—of the samples quoted above",
+        "section": "2.3. Dielectric Resonance Spectrum",
+        "source_type": "section"
+      },
+      "piezo_thickness_um": {
+        "quote": "taking the maximum and minimum thickness— t_max = 340 μm and t_min = 25 μm—of the samples quoted above",
+        "section": "2.3. Dielectric Resonance Spectrum",
+        "source_type": "section"
+      },
+      "tip_mass_g": {
+        "quote": "seismic mass of 33.4 g",
+        "section": "Abstract",
+        "source_type": "abstract"
+      },
+      "diameter_mm": {
+        "quote": "The sample had a diameter of 20 mm",
+        "section": "3.2. Performance Assessment of Energy Harvesters",
+        "source_type": "section"
+      }
+    },
+    "excitation": {
+      "type": {
+        "quote": "vibrational energy harvesters",
+        "section": "Abstract",
+        "source_type": "abstract"
+      },
+      "frequency_Hz": {
+        "quote": "resonance frequency of 210 Hz",
+        "section": "Abstract",
+        "source_type": "abstract"
+      },
+      "acceleration_g": {
+        "quote": "acceleration of 1g",
+        "section": "Abstract",
+        "source_type": "abstract"
+      },
+      "displacement_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "motion_source": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      }
+    },
+    "load": {
+      "load_resistance_ohm": {
+        "quote": "optimal load resistance of 12 MΩ",
+        "section": "3.2. Performance Assessment of Energy Harvesters",
+        "source_type": "section"
+      }
+    },
+    "output": {
+      "resonant_frequency_Hz": {
+        "quote": "resonance frequency of 210 Hz",
+        "section": "Abstract",
+        "source_type": "abstract"
+      },
+      "output_power_W": {
+        "quote": "maximum power of the 33-mode harvester was about 1039 μW",
+        "section": "3.2. Performance Assessment of Energy Harvesters",
+        "source_type": "section"
+      },
+      "open_circuit_voltage_V": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "short_circuit_current_A": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "bandwidth_Hz": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      }
+    }
+  }
+}

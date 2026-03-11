@@ -1,0 +1,28 @@
+{
+  "paper_id": "10_1063_1_5018077",
+  "doi": "10.1063/1.5018077",
+  "title": "A piezoelectric energy harvester for broadband rotational excitation using buckled beam",
+  "source_apis": [
+    "openalex"
+  ],
+  "pdf_url": "https://doi.org/10.1063/1.5018077",
+  "pdf_local_path": "data_registry/raw_stage04_paper_pdf_cleaned/10_1063_1_5018077.pdf",
+  "processing": {
+    "tool": "MinerU",
+    "version": "python -m mineru.cli.client, version 2.7.6",
+    "timestamp": "2026-03-10T09:19:03.744406+00:00",
+    "duration_s": 51.66,
+    "success": true,
+    "error": ""
+  },
+  "outputs": {
+    "content_md": "/root/EH-LLM-vehbench-exp/parsed_docs/10_1063_1_5018077_o2tzimn5/content.md",
+    "layout_json": "/root/EH-LLM-vehbench-exp/parsed_docs/10_1063_1_5018077_o2tzimn5/layout.json",
+    "images_dir": "/root/EH-LLM-vehbench-exp/parsed_docs/10_1063_1_5018077_o2tzimn5/10_1063_1_5018077/auto/images",
+    "normalized_json": "/root/EH-LLM-vehbench-exp/normalized_docs/10_1063_1_5018077.json"
+  },
+  "data_lineage": {
+    "papers_jsonl_hash": "9f38dafe84449e1aa74f145d737c7004",
+    "pipeline_step": "ingestion/mineru_runner.py"
+  }
+}

@@ -1,0 +1,147 @@
+{
+  "metadata": {
+    "paper_id": "10_1177_1045389x20983880",
+    "doi": "10.1177/1045389x20983880",
+    "title": "Impact-driven piezoelectric energy harvester using a pendulum structure for low-frequency vibration",
+    "year": 2021,
+    "journal": "Journal of Intelligent Materials Systems and Structures"
+  },
+  "configuration": "cantilever",
+  "proof_mass": false,
+  "geometry": {
+    "length_mm": 120,
+    "width_mm": 15,
+    "thickness_mm": null,
+    "substrate_thickness_um": 500,
+    "piezo_thickness_um": 300,
+    "tip_mass_g": null,
+    "diameter_mm": null
+  },
+  "excitation": {
+    "type": "vibration",
+    "frequency_Hz": 2,
+    "acceleration_g": 0.04,
+    "displacement_mm": 2.5,
+    "motion_source": "electromagnetic vibrator"
+  },
+  "load": {
+    "load_resistance_ohm": 130000
+  },
+  "output": {
+    "resonant_frequency_Hz": null,
+    "output_power_W": 1.053e-05,
+    "open_circuit_voltage_V": 15.8,
+    "short_circuit_current_A": null,
+    "bandwidth_Hz": null
+  },
+  "evidence": {
+    "configuration": {
+      "quote": "pendulum ball impact-excited PEH... two high-frequency piezoelectric cantilever beams",
+      "section": "Finite element simulation analysis",
+      "source_type": "section"
+    },
+    "proof_mass": {
+      "quote": "Two piezoelectric cantilever beams are fixed on either side of the mass block above... The pendulum is hung in the middle of two piezoelectric cantilevers",
+      "section": "Finite element simulation analysis",
+      "source_type": "section"
+    },
+    "geometry": {
+      "length_mm": {
+        "quote": "Length X Width X Thickness (mm) ... 120 x 15 x 0.5",
+        "section": "Finite element simulation analysis",
+        "source_type": "table"
+      },
+      "width_mm": {
+        "quote": "Length X Width X Thickness (mm) ... 120 x 15 x 0.5",
+        "section": "Finite element simulation analysis",
+        "source_type": "table"
+      },
+      "thickness_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "substrate_thickness_um": {
+        "quote": "Length X Width X Thickness (mm) ... 120 x 15 x 0.5",
+        "section": "Finite element simulation analysis",
+        "source_type": "table"
+      },
+      "piezo_thickness_um": {
+        "quote": "Length x Width x Thickness (mm) ... 20 x 15 x 0.3",
+        "section": "Finite element simulation analysis",
+        "source_type": "table"
+      },
+      "tip_mass_g": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "diameter_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      }
+    },
+    "excitation": {
+      "type": {
+        "quote": "sinusoidal excitation acceleration",
+        "section": "Abstract",
+        "source_type": "abstract"
+      },
+      "frequency_Hz": {
+        "quote": "2 Hz",
+        "section": "Abstract",
+        "source_type": "abstract"
+      },
+      "acceleration_g": {
+        "quote": "0.04 g",
+        "section": "Abstract",
+        "source_type": "abstract"
+      },
+      "displacement_mm": {
+        "quote": "2.5 mm horizontal displacement",
+        "section": "Abstract",
+        "source_type": "abstract"
+      },
+      "motion_source": {
+        "quote": "electromagnetic vibrator",
+        "section": "Experiment and discussion",
+        "source_type": "section"
+      }
+    },
+    "load": {
+      "load_resistance_ohm": {
+        "quote": "130 kOhm",
+        "section": "Abstract",
+        "source_type": "abstract"
+      }
+    },
+    "output": {
+      "resonant_frequency_Hz": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "output_power_W": {
+        "quote": "10.53 uW",
+        "section": "Abstract",
+        "source_type": "abstract"
+      },
+      "open_circuit_voltage_V": {
+        "quote": "15.8 V",
+        "section": "Abstract",
+        "source_type": "abstract"
+      },
+      "short_circuit_current_A": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "bandwidth_Hz": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      }
+    }
+  }
+}

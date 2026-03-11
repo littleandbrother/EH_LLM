@@ -1,0 +1,142 @@
+{
+  "paper_id": "10_1088_1742_6596_1052_1_012038",
+  "doi": "10.1088/1742-6596/1052/1/012038",
+  "title": "A High Performance Piezoelectric Micro Energy Harvester Based on Stainless Steel Substrates",
+  "year": 2018,
+  "venue": "Journal of Physics: Conference Series",
+  "authors": [
+    "W. Tang",
+    "T. Lin",
+    "C.T. Chen",
+    "Y. Fu",
+    "S. Lin",
+    "W. Wu",
+    "Wei‐Chieh Tang",
+    "Tzu‐Chieh Lin",
+    "C. T. Chen",
+    "Y.-H. Fu",
+    "Shih‐Hung Lin",
+    "Wen-Jong Wu"
+  ],
+  "citation_count": 5,
+  "sections": [
+    {
+      "heading": "A High Performance Piezoelectric Micro Energy Harvester Based on Stainless Steel Substrates",
+      "level": 1,
+      "text": "To cite this article: W.H. Tang et al 2018 J. Phys. : Conf. Ser. 1052 012038\n\nView the article online for updates and enhancements."
+    },
+    {
+      "heading": "You may also like",
+      "level": 1,
+      "text": "Piezoelectric micro energy harvesters based on stainless-steel substrates Shun-Chiu Lin and Wen-Jong Wu\n\nHigh responsivity photodetector based on-MEH-PPV/CsPbBr heterojunction Zhendong Fu, Fuguo Wang, Jiangnan Liu et al.\n\nX-rays sensing properties of MEH-PPV,- Alq and additive components: A new organic dosimeter as a candidate for minimizing the risk of accidents of patients undergoing radiation oncology T. Schimitberger, G.R. Ferreira, L.C. Akcelrud et al."
+    },
+    {
+      "heading": "A High Performance Piezoelectric Micro Energy Harvester Based on Stainless Steel Substrates.",
+      "level": 1,
+      "text": "W.H. Tang1 , T.K. Lin1 , C.T. Chen1 , Y.H. $\\mathbf { F u 1 }$ , S.C. Lin1 , W.J. Wu1\\*\n\n1 Department of Engineering Science and Ocean Engineering Science, National Taiwan   \nUniversity, Taipei,   \n\\*Email: wjwu@ntu.edu.tw\n\nAbstract. This paper presents a high performance piezoelectric micro energy harvester (PMEH) fabricated on stainless-steel substrate with metal MEMS process. The PMEHs fabricated in this study are with simple unimorph or bimorph cantilever structure with one or two layers of high quality lead zirconate titanate (PZT) piezoelectric films deposited by aerosol deposition method (ADM) and a glued tungsten proof mass $( 4 \\mathrm { m m } ^ { * } 6 \\mathrm { m m } ^ { * } 1 \\mathrm { m m } )$ ). The thickness of the PZT active layer are $1 8 \\mu \\mathrm { m }$ for unimorph PMEH and $1 0 \\mu \\mathrm { m }$ thick on both sides for bimorph PMEH. The length and width of the cantilever structure is $9 \\mathrm { m m }$ and 6mm. With all the experimental process optimized, the results show that unimorph PMEH has a maximum output power of $1 2 2 \\mu \\mathrm { W }$ tested with optimal load under $0 . 5 \\mathrm { g }$ acceleration vibration level in resonant frequency around $1 2 0 \\mathrm { H z }$ . The corresponding value of bimorph PMEH is $3 0 4 \\mu \\mathrm { W }$ . The normalized power density (NPD) for unimorph PMEH and bimorph PMEH are $1 8 . 9 \\mathrm { m W \\cdot c m ^ { - 3 } \\cdot g ^ { - 2 } }$ and $4 6 . 8 1 \\mathrm { m W } \\cdot \\mathrm { m } ^ { - 3 } \\cdot \\mathbf { g } ^ { - 2 }$ respectively, which outperformed all previous published PMEHs based on either silicon or stainless steel substrates."
+    },
+    {
+      "heading": "1. Introduction",
+      "level": 1,
+      "text": "The output performance of piezoelectric micro energy harvesters (PMEH) with area smaller than $1 \\mathrm { c m } ^ { 2 }$ has great improvement over the past decade. The performance of the piezoelectric materials, the device structure design, the fabrication process, and the substrate materials are all crucial factors to optimized the output perfomance of PMEHs. Early studies of PMEHs are mostly based on silicon substrate with conventional MEMS processes[1- 4], the chip area of these PMEHs are usually small and with higher resonant frequencies in around kHz range. Although the normalized power density (NPD) of silicon based PMEHs can be high, the devices are difficult to find real field applications because the mechanical vibration frequencies are usually in low frequencies. Furthermore, silicon and ceramic piezoelectric material are both brittle material which tends to break easily under strong vibration levels. There are growing studies of PMEHS based on metal substrates, especially stainless steel [5-8]. Metal substrate materials like stainless steel are ductile materials show not only much better mechanical strength over silicon but can be pre-stressed to avoid tensile cracks of ceramic piezoelectric materials. The metal MEMS processes of cantilever stucture are also simpler and cheaper because the metal substrates are usually chosen as the final beam thickness and buck micromachining backside etching for silicon is not required. The output power of metal substrate based PMEHs therefore showed better performance in lower frequency but the NPD are in general smaller than silicon based devices with high performance thin piezoelectric layers. In this study, high performance unimorph and bimorph PMEHs with around $1 0 \\mu \\mathrm { m }$ and 20 $\\mu \\mathrm { m }$ high quality lead zirconate titanate (PZT) deposited by aero deposition method (ADM) on $6 0 \\mu \\mathrm { m }$ stainless steel substrates are fabricated and tested. The device is design to have natural frequency around $1 2 0 ~ \\mathrm { H z }$ to harvest vibration from motors. The resonant frequency is much lower than typical silicon based devices but with the optimized ADM deposited PZT film, the PMEHs in this study shows even higher NPD than conventional silicon devices. The material characterization of the deposited PZT films, the device fabrication and characterization are all presented in this paper."
+    },
+    {
+      "heading": "2. Material Characterization",
+      "level": 1,
+      "text": "Fig 1 shows $\\mathbf { X }$ -ray diffraction (XRD) patterns of the PZT powder and the deposited films annealed with different temperature. The crystalline phase with different annealing temperature remains pure perovskite phase as the PZT powder. Although the deposited films annealed with higher temperatures shows stronger perovskite phase, the stainless-steel substrate will be heavily oxidized along with degraded mechanical strength, and the PZT films also shows higher dielectric losses. The annealing temperature for later device fabrication is chosen below $6 5 0 \\mathrm { { } ^ { \\circ } C }$ in this study. Fig 2 shows the cross section SEM image of the PZT film deposited by ADM with thickness around $2 0 \\mu \\mathrm { m }$ . The PZT film deposited by ADM is quite dense and strong bonded to the stainless steel substrate. In order to analyze the ferroelectric characteristic of the PZT films, ferroelectric hysteresis loop is measured by ferroelectric analyzer (aixACCT TF analyzer 2000). Fig 3 shows the ferroelectric hysteresis loop on polarization-electrical field (P-E) plane of the PZT film deposited on stainless-steel substrate. The measured electrical field varies from 20 to 300V at $1 0 \\mathrm { H z }$ . The P-E loop shows good symmetry and the coercive field Ec $= 5 . 4 1 ~ \\mathrm { V / \\mu m }$ and remnant polarization $\\mathrm { P r } = 6 . 0 8 ~ \\mu \\mathrm { C } / \\mathrm { c m } ^ { 2 }$ . To sum up, the series material characterizations indicate the PZT films deposited on stainless steel has excellent ferroelectric properties.\n\n![](images/2471130482aa10efdcccc14b7eb52d7d4a61407c1569827e406f8950bb9e4b2a.jpg)  \nFig 1. XRD scanning pattern of the PZT powder at different annealing temperature.\n\n![](images/850c37f74527d669f738a4ae6becae997654d92d543c4bf4c94726a74cec1ed9.jpg)  \nFig 2. SEM image of the cross section of the PZT film."
+    },
+    {
+      "heading": "3. Device Fabrication",
+      "level": 1,
+      "text": "The PMEH device fabrication process is based on metal MEMS process detailed in our previous report [9]. After the cantilever beam is released with wet etching process, a tungsten proof mass is glued to the tip of the cantilever beam with epoxy resin to lower the resonant frequency. The PZT layers are poled under high electric field and high temperature to activate piezoelectricity. Fig 4 shows the photo of the bimorph PMEH device. The dimension of the cantilever beam is $6 \\mathrm { { m m } \\times 8 \\mathrm { { m m } } }$ , and the total thickness of the bimorph PMEH is about $8 0 \\mu \\mathrm { m }$ composed of two $1 0 \\mu \\mathrm { m }$ of PZT films and $6 0 \\mu \\mathrm { m }$ stainless steel substrate. The fabrication process of the unimorph PMEH is similar to the bimorph PMEH. The difference between is all the deposited layers only need to be done in one side of stainless steel substrate."
+    },
+    {
+      "heading": "4. Experimental Setup",
+      "level": 1,
+      "text": "The experimental setup of the bimorph or unimorph PMEH device characterization is described below. The PMEH is mounted on the shaker to simulate the base excitation from a vibration source. The shaker is driven by a sinusoidal wave with a function generator through a power amplifier. An accelerometer is mounted side by side with the energy harvester to measure the acceleration level. The acceleration level and corresponding open-circuit output signal are visualized on the oscilloscope."
+    },
+    {
+      "heading": "5.1. Unimorph piezoelectric micro energy harvester",
+      "level": 1,
+      "text": "Fig 5 shows the frequency response of output voltage $( \\mathsf { V } _ { \\mathsf { p } - \\mathsf { p } } )$ versus the excitation frequency under open circuit condition at $0 . 5 \\mathrm { g }$ driven acceleration level. The device shows non-linearity and has different frequency response curve for frequency forward and reverse sweeping. The resonant frequency of forward sweep and reverse sweep slightly shifts from $1 1 1 . 3 \\mathrm { H z }$ to $1 1 0 . 5 \\mathrm { H z }$ . The result shows that the peak voltages of forward sweep and reverse sweep are $2 1 . 4 \\mathrm { V } _ { \\mathrm { p - p } }$ and $2 5 . 4 \\mathrm { V _ { p - p } }$ . The output power and voltage is then tested with different resistive load at 0.5 g acceleration level and showed in Fig 6. The optimal load resistance of the unimorph PMEH is around $1 0 0 \\mathrm { k } \\Omega$ and corresponding maximum output power is $1 2 2 \\mu \\mathrm { W }$ ."
+    },
+    {
+      "heading": "5.2. Bimorph piezoelectric micro energy harvester",
+      "level": 1,
+      "text": "The bimorph PMEH is tested with the same setup and condition. Fig 7 shows the frequency response plots with forward and reverse sweeping. The resonant frequencies of forward sweep and reverse sweep are both 126.1 $\\mathrm { H z }$ which means then device shows almost no non-linearity. The peak voltage is $3 4 . 6 \\mathrm { V } _ { \\mathrm { p - p } }$ , which is much better to the unimorph device thanks to symmetric structure layout of bimorph devices. Fig 8 shows the output power versus load resistance at $0 . 5 \\mathrm { g }$ acceleration level. Under $0 . 5 \\mathrm { g }$ , the output power shows the peak value of $3 0 4 \\mu \\mathrm { W }$ corresponding to the $1 5 0 \\mathrm { k } \\Omega$ optimal load.\n\n![](images/8644b3fbeabc29f104c621adae3fa741b31c5b6e8e484f096c63e5695f7c8d7d.jpg)  \nFig 3. Ferroelectric hysteresis loop of the PZT layer at different measured voltages.\n\n![](images/9a1c3a06298168d290647e420bcb00d4dda6f09563c1037921ffbe6a5dcfc43b.jpg)  \nFig 4. Photo of bimorph PMEH from (a) bottom view and (b) top view."
+    },
+    {
+      "heading": "5.3. Comparison of normalized power density",
+      "level": 1,
+      "text": "With complete fabrication process optimized, the unimorph PMEH and bimorph PMEH show excellent output performance. The performances of the PMEHs are benchmarked to state-of-the-art PMEH based on silicon and stainless steel substrates published before with the device area smaller than $1 \\mathrm { c m } ^ { 2 }$ . The normalized power density (NPD) are calculated and presented in Fig 9. The NPD for the unimorph PMEH and bimorph PMEH in this study are $1 8 . 9 \\mathrm { m W \\cdot c m ^ { - 3 } \\cdot g ^ { - 2 } }$ and $4 6 . 8 1 \\mathrm { m W } \\cdot \\mathrm { m } ^ { - 3 } \\cdot \\mathrm { g } ^ { - 2 }$ , which outperformed all previous published PMEHs based on either silicon or stainless steel substrates.\n\n![](images/0b61d0331b2ff7b06cf00e30122c9863c2f665490a2b139957e5aa0ac016851f.jpg)\n\n![](images/f0f8d5b8fbb3a0f60d6a99e8e9be96b262f4890ddf111194842abc90fdb16250.jpg)  \nFig 5. Frequency response of unimorph PMEH with output voltage versus excitation frequency under open circuit at $0 . 5 \\mathrm { g }$ acceleration level.   \nFig 6. Experimental output performance of bimorph PMEH under different loading impedance at $0 . 5 \\mathrm { g }$ acceleration level.\n\n![](images/d0e697720ceb9e5a95bde711c0f4323af550590f0e0f761d957e389adc41defc.jpg)\n\n![](images/6416e9112ac94bb5326f1c211024c6f983bb6eb1556c9e719f372fcfc5f812c1.jpg)  \nFig 7. Frequency response of bimorph PMEH with output voltage versus excitation frequency under open circuit at $0 . 5 \\mathrm { g }$ acceleration level.   \nFig 8. Experimental output performance of bimorph PMEH under different loading impedance at $0 . 5 \\mathrm { g }$ acceleration level."
+    },
+    {
+      "heading": "6. Conclusion",
+      "level": 1,
+      "text": "In this paper, we presented a unimorph PMEH and bimorph PMEH fabricated with metal MEMS processed on stainless steel substrates. The high-quality PZT layers deposited by ADM shows promising piezoelectric characteristics. The experimental result shows that the output power of unimorph PMEH is $1 2 2 \\mu \\mathrm { W }$ tested with $1 0 0 \\mathrm { k } \\Omega$ optimal load under $0 . 5 \\ \\mathrm { g }$ acceleration level around $1 2 0 \\mathrm { H z }$ . As the bimorph PMEH, the corresponding value is up to $3 0 4 \\mu \\mathrm { W }$ . The normalized power density (NPD) for the unimorph PMEH and bimorph PMEH are $1 8 . 9 \\mathrm { m W \\cdot c m ^ { - 3 } \\cdot g ^ { - 2 } }$ and $4 6 . 8 1 \\mathrm { m W } \\cdot \\mathrm { m } ^ { - 3 } \\cdot \\mathrm { g } ^ { - 2 }$ respectively. The NPD outperformed previous published energy harvester based on either silicon or stainless steel substrates, which makes the high performance stainless steel based PMEH more feasible to the practical applications.\n\n![](images/fbf213927c2049997c2f4472892b37502866321d0a853a52075db634feddc9e4.jpg)  \nFig 9. Benchmark of NPD with the state-of-the-art PMEHs based on silicon and stainless steel substrates."
+    },
+    {
+      "heading": "Acknowledgment",
+      "level": 1,
+      "text": "The authors gratefully acknowledge the facility support from the Nano-Electro-Mechanical-Systems Research Center at National Taiwan University and the funding support gratefully acknowledge the support of Agence Nationale de la Recherche, France and Ministry of Science and Technology, Taiwan through respective grants ANR-15-CE22-0015-01 and 105-2923-E-002-006 -MY3 (BESTMEMS project)."
+    },
+    {
+      "heading": "References",
+      "level": 1,
+      "text": "[1] M. Le Van, M. Hara, T. Yokoyama, T. Nishihara, M. Ueda, and H. Kuwano, \"Highly piezoelectric MgZr codoped aluminum nitride-based vibrational energy harvesters [Correspondence],\" IEEE Transactions on Ultrasonics, Ferroelectrics, and Frequency Control, vol. 62, pp. 2005-2008, 2015.   \n[2] L. V. Minh, M. Hara, F. Horikiri, K. Shibata, T. Mishima, and H. Kuwano, \"Bulk micromachined energy harvesters employing (K, Na)NbO3thin film,\" Journal of Micromechanics and Microengineering, vol. 23, p. 035029, 2013.   \n[3] R. Elfrink, T. M. Kamel, M. Goedbloed, S. Matova, D. Hohlfeld, Y. van Andel, et al., \"Vibration energy harvesting with aluminum nitride-based piezoelectric devices,\" Journal of Micromechanics and Microengineering, vol. 19, p. 094005, 2009.   \n[4] E. Arroyo, Y. Jia, S. Du, S. T. Chen, and A. Seshia, \"High temperature performance of a piezoelectric micro cantilever for vibration energy harvesting,\" Journal of Physics: Conference Series, vol. 773, p. 012001, 2016.   \n[5] L. Van Minh, T. Sano, T. Fujii, and H. Kuwano, \"Vibrational micro-energy harvesters utilizing Nb-doped Pb(Zr,Ti)O3films on stainless steel substrates,\" Journal of Physics: Conference Series, vol. 773, p. 012003, 2016.   \n[6] K. Morimoto, I. Kanno, K. Wasa, and H. Kotera, \"High-efficiency piezoelectric energy harvesters of c-axisoriented epitaxial PZT films transferred onto stainless steel cantilevers,\" Sensors and Actuators A: Physical, vol. 163, pp. 428-432, 2010.   \n[7] Y. Tsujiura, E. Suwa, F. Kurokawa, H. Hida, K. Suenaga, K. Shibata, et al., \"Lead-Free Piezoelectric MEMS Energy Harvesters of (K,Na)NbO3Thin Films on Stainless Steel Cantilevers,\" Japanese Journal of Applied Physics, vol. 52, p. 09KD13, 2013.   \n[8] Z. Cao, J. He, Q. Wang, M. Hara, H. Oguchi, and H. Kuwano, \"High output power AlN vibration-driven energy harvesters,\" Journal of Physics: Conference Series, vol. 476, p. 012034, 2013.   \n[9] S.-C. Lin and W.-J. Wu, \"Piezoelectric micro energy harvesters based on stainless-steel substrates,\" Smart Materials and Structures, vol. 22, p. 045016, 2013."
+    }
+  ],
+  "tables": [],
+  "figures": [
+    {
+      "page": -1,
+      "caption": "",
+      "path": "images/2471130482aa10efdcccc14b7eb52d7d4a61407c1569827e406f8950bb9e4b2a.jpg"
+    },
+    {
+      "page": -1,
+      "caption": "",
+      "path": "images/850c37f74527d669f738a4ae6becae997654d92d543c4bf4c94726a74cec1ed9.jpg"
+    },
+    {
+      "page": -1,
+      "caption": "",
+      "path": "images/8644b3fbeabc29f104c621adae3fa741b31c5b6e8e484f096c63e5695f7c8d7d.jpg"
+    },
+    {
+      "page": -1,
+      "caption": "",
+      "path": "images/9a1c3a06298168d290647e420bcb00d4dda6f09563c1037921ffbe6a5dcfc43b.jpg"
+    },
+    {
+      "page": -1,
+      "caption": "",
+      "path": "images/0b61d0331b2ff7b06cf00e30122c9863c2f665490a2b139957e5aa0ac016851f.jpg"
+    },
+    {
+      "page": -1,
+      "caption": "",
+      "path": "images/f0f8d5b8fbb3a0f60d6a99e8e9be96b262f4890ddf111194842abc90fdb16250.jpg"
+    },
+    {
+      "page": -1,
+      "caption": "",
+      "path": "images/d0e697720ceb9e5a95bde711c0f4323af550590f0e0f761d957e389adc41defc.jpg"
+    },
+    {
+      "page": -1,
+      "caption": "",
+      "path": "images/6416e9112ac94bb5326f1c211024c6f983bb6eb1556c9e719f372fcfc5f812c1.jpg"
+    },
+    {
+      "page": -1,
+      "caption": "",
+      "path": "images/fbf213927c2049997c2f4472892b37502866321d0a853a52075db634feddc9e4.jpg"
+    }
+  ],
+  "metadata": {
+    "source": "both",
+    "pdf_url": "https://iopscience.iop.org/article/10.1088/1742-6596/1052/1/012038/pdf",
+    "parsed_at": "2026-03-10T10:00:15.461306+00:00"
+  }
+}

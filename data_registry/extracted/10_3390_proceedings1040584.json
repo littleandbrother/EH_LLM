@@ -1,0 +1,147 @@
+{
+  "metadata": {
+    "paper_id": "10_3390_proceedings1040584",
+    "doi": "10.3390/proceedings1040584",
+    "title": "Bulk PZT Cantilever Based MEMS Acoustic Transducer for Cochlear Implant Applications",
+    "year": 2017,
+    "journal": null
+  },
+  "configuration": "cantilever",
+  "proof_mass": true,
+  "geometry": {
+    "length_mm": null,
+    "width_mm": null,
+    "thickness_mm": null,
+    "substrate_thickness_um": 30,
+    "piezo_thickness_um": 50,
+    "tip_mass_g": null,
+    "diameter_mm": null
+  },
+  "excitation": {
+    "type": "vibration",
+    "frequency_Hz": 1780,
+    "acceleration_g": null,
+    "displacement_mm": null,
+    "motion_source": "sound"
+  },
+  "load": {
+    "load_resistance_ohm": null
+  },
+  "output": {
+    "resonant_frequency_Hz": 1780,
+    "output_power_W": 1.625e-05,
+    "open_circuit_voltage_V": 2.47,
+    "short_circuit_current_A": null,
+    "bandwidth_Hz": 150
+  },
+  "evidence": {
+    "configuration": {
+      "quote": "Bulk PZT Cantilever Based MEMS Acoustic Transducer",
+      "section": "Proceedings Bulk PZT Cantilever Based MEMS Acoustic Transducer for Cochlear Implant Applications",
+      "source_type": "title"
+    },
+    "proof_mass": {
+      "quote": "cantilever structure with a tip mass at the free end",
+      "section": "2. Materials and Methods",
+      "source_type": "section"
+    },
+    "geometry": {
+      "length_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "width_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "thickness_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "substrate_thickness_um": {
+        "quote": "Active and handle layers of the SOI wafer (30 um and 300 um) define the cantilever and tip mass thicknesses, respectively.",
+        "section": "2. Materials and Methods",
+        "source_type": "section"
+      },
+      "piezo_thickness_um": {
+        "quote": "Bulk PZT chip is bonded on an SOI-wafer by AuIn transient liquid phase (TLP) bonding and, subsequently thinned down to 50 um by lapping.",
+        "section": "2. Materials and Methods",
+        "source_type": "section"
+      },
+      "tip_mass_g": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "diameter_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      }
+    },
+    "excitation": {
+      "type": {
+        "quote": "acoustic input",
+        "section": "3. Results",
+        "source_type": "section"
+      },
+      "frequency_Hz": {
+        "quote": "1780 Hz",
+        "section": "3. Results",
+        "source_type": "section"
+      },
+      "acceleration_g": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "displacement_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "motion_source": {
+        "quote": "sound input",
+        "section": "3. Results",
+        "source_type": "section"
+      }
+    },
+    "load": {
+      "load_resistance_ohm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      }
+    },
+    "output": {
+      "resonant_frequency_Hz": {
+        "quote": "around 1780 Hz resonance frequency",
+        "section": "3. Results",
+        "source_type": "section"
+      },
+      "output_power_W": {
+        "quote": "Maximum rectified DC output power was 16.25 uW",
+        "section": "3. Results",
+        "source_type": "section"
+      },
+      "open_circuit_voltage_V": {
+        "quote": "with an open circuit voltage of 2.47 V_DC",
+        "section": "3. Results",
+        "source_type": "section"
+      },
+      "short_circuit_current_A": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "bandwidth_Hz": {
+        "quote": "with a 150 Hz bandwidth",
+        "section": "3. Results",
+        "source_type": "section"
+      }
+    }
+  }
+}

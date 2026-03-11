@@ -1,0 +1,28 @@
+{
+  "paper_id": "10_1177_1045389x211014950",
+  "doi": "10.1177/1045389x211014950",
+  "title": "Hybrid vibration energy harvesting based on piezoelectric polyline beams with electret coupling",
+  "source_apis": [
+    "both"
+  ],
+  "pdf_url": "",
+  "pdf_local_path": "data_registry/raw_stage04_paper_pdf_cleaned/10_1177_1045389x211014950.pdf",
+  "processing": {
+    "tool": "MinerU",
+    "version": "python -m mineru.cli.client, version 2.7.6",
+    "timestamp": "2026-03-10T09:39:55.353656+00:00",
+    "duration_s": 107.99,
+    "success": true,
+    "error": ""
+  },
+  "outputs": {
+    "content_md": "/root/EH-LLM-vehbench-exp/parsed_docs/10_1177_1045389x211014950_ynf94a7g/content.md",
+    "layout_json": "/root/EH-LLM-vehbench-exp/parsed_docs/10_1177_1045389x211014950_ynf94a7g/layout.json",
+    "images_dir": "/root/EH-LLM-vehbench-exp/parsed_docs/10_1177_1045389x211014950_ynf94a7g/10_1177_1045389x211014950/auto/images",
+    "normalized_json": "/root/EH-LLM-vehbench-exp/normalized_docs/10_1177_1045389x211014950.json"
+  },
+  "data_lineage": {
+    "papers_jsonl_hash": "bd41a480d7e64e779f63ff74aea7390f",
+    "pipeline_step": "ingestion/mineru_runner.py"
+  }
+}

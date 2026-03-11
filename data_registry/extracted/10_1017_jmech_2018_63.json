@@ -1,0 +1,147 @@
+{
+  "metadata": {
+    "paper_id": "10_1017_jmech_2018_63",
+    "doi": "10.1017/jmech.2018.63",
+    "title": "Resonant Frequency Reduction of Piezoelectric Voltage Energy Harvester by Elastic Boundary Condition",
+    "year": 2019,
+    "journal": "Journal of Mechanics"
+  },
+  "configuration": "cantilever",
+  "proof_mass": false,
+  "geometry": {
+    "length_mm": 58,
+    "width_mm": 31.8,
+    "thickness_mm": 0.48,
+    "substrate_thickness_um": 120,
+    "piezo_thickness_um": 180,
+    "tip_mass_g": null,
+    "diameter_mm": null
+  },
+  "excitation": {
+    "type": "vibration",
+    "frequency_Hz": 37,
+    "acceleration_g": null,
+    "displacement_mm": null,
+    "motion_source": "mechanical shaker"
+  },
+  "load": {
+    "load_resistance_ohm": null
+  },
+  "output": {
+    "resonant_frequency_Hz": 37,
+    "output_power_W": 0.0012,
+    "open_circuit_voltage_V": 7.1,
+    "short_circuit_current_A": null,
+    "bandwidth_Hz": null
+  },
+  "evidence": {
+    "configuration": {
+      "quote": "The elastic fixtures structure consists of three parts, i.e., aluminum cover, PZT and aluminum elastic support base.",
+      "section": "2.1 Designs of Elastic Boundary for PVEH",
+      "source_type": "section"
+    },
+    "proof_mass": {
+      "quote": "Recently, some researchers achieved on reducing the resonant frequency for several designs of PVEH, regardless of adding proof mass.",
+      "section": "1. INTRODUCTION",
+      "source_type": "section"
+    },
+    "geometry": {
+      "length_mm": {
+        "quote": "the exposed length of the PZT is 58 mm",
+        "section": "2.1 Designs of Elastic Boundary for PVEH",
+        "source_type": "section"
+      },
+      "width_mm": {
+        "quote": "the area of piezoelectric bimorph is 58 mm x 31.8 mm",
+        "section": "2.2 Finite Element Modeling and Analysis",
+        "source_type": "section"
+      },
+      "thickness_mm": {
+        "quote": "two thin layers (0.18-mm thickness) of piezoelectric ceramics bonded together with a center-layer of brass (0.12-mm thickness)",
+        "section": "2.2 Finite Element Modeling and Analysis",
+        "source_type": "section"
+      },
+      "substrate_thickness_um": {
+        "quote": "center-layer of brass (0.12-mm thickness)",
+        "section": "2.2 Finite Element Modeling and Analysis",
+        "source_type": "section"
+      },
+      "piezo_thickness_um": {
+        "quote": "two thin layers (0.18-mm thickness) of piezoelectric ceramics",
+        "section": "2.2 Finite Element Modeling and Analysis",
+        "source_type": "section"
+      },
+      "tip_mass_g": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "diameter_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      }
+    },
+    "excitation": {
+      "type": {
+        "quote": "mechanical shaker (Model: V4, Data physics corporation, UK) was used in the measurements of direct piezoelectric effect",
+        "section": "3.2 Laser Doppler Vibrometer (LDV)",
+        "source_type": "section"
+      },
+      "frequency_Hz": {
+        "quote": "The fundamental natural frequency of PVEH with the thickness of 0.58-mm elastic fixture is reduced to 37 Hz",
+        "section": "ABSTRACT",
+        "source_type": "abstract"
+      },
+      "acceleration_g": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "displacement_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "motion_source": {
+        "quote": "mechanical shaker (Model: V4, Data physics corporation, UK)",
+        "section": "3.2 Laser Doppler Vibrometer (LDV)",
+        "source_type": "section"
+      }
+    },
+    "load": {
+      "load_resistance_ohm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      }
+    },
+    "output": {
+      "resonant_frequency_Hz": {
+        "quote": "The fundamental natural frequency of PVEH with the thickness of 0.58-mm elastic fixture is reduced to 37 Hz",
+        "section": "ABSTRACT",
+        "source_type": "abstract"
+      },
+      "output_power_W": {
+        "quote": "maintaining at 7.1 volts (1.2 mW)",
+        "section": "ABSTRACT",
+        "source_type": "abstract"
+      },
+      "open_circuit_voltage_V": {
+        "quote": "maintaining at 7.1 volts (1.2 mW)",
+        "section": "ABSTRACT",
+        "source_type": "abstract"
+      },
+      "short_circuit_current_A": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "bandwidth_Hz": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      }
+    }
+  }
+}

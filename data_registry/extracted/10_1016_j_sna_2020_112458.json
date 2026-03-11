@@ -1,0 +1,147 @@
+{
+  "metadata": {
+    "paper_id": "10_1016_j_sna_2020_112458",
+    "doi": "10.1016/j.sna.2020.112458",
+    "title": "Modeling and design of V-shaped piezoelectric vibration energy harvester with stopper for low-frequency broadband and shock excitation",
+    "year": 2020,
+    "journal": "Sensors and Actuators A Physical"
+  },
+  "configuration": "cantilever",
+  "proof_mass": true,
+  "geometry": {
+    "length_mm": 60,
+    "width_mm": 20,
+    "thickness_mm": null,
+    "substrate_thickness_um": 140,
+    "piezo_thickness_um": 180,
+    "tip_mass_g": null,
+    "diameter_mm": null
+  },
+  "excitation": {
+    "type": "vibration",
+    "frequency_Hz": 12,
+    "acceleration_g": 0.1,
+    "displacement_mm": null,
+    "motion_source": "exciter"
+  },
+  "load": {
+    "load_resistance_ohm": 30000
+  },
+  "output": {
+    "resonant_frequency_Hz": 12,
+    "output_power_W": 0.000442,
+    "open_circuit_voltage_V": 11.5,
+    "short_circuit_current_A": null,
+    "bandwidth_Hz": 0.792
+  },
+  "evidence": {
+    "configuration": {
+      "quote": "V-shaped PVEH with two piezoelectric bimorphs in folded and a proof mass on tip is proposed.",
+      "section": "1. Introduction",
+      "source_type": "section"
+    },
+    "proof_mass": {
+      "quote": "proof mass on tip",
+      "section": "1. Introduction",
+      "source_type": "section"
+    },
+    "geometry": {
+      "length_mm": {
+        "quote": "L Bimorph length 60 mm",
+        "section": "Table 3",
+        "source_type": "table"
+      },
+      "width_mm": {
+        "quote": "b Structure width 20 mm",
+        "section": "Table 3",
+        "source_type": "table"
+      },
+      "thickness_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "substrate_thickness_um": {
+        "quote": "ts Substrate layer layer thickness 0.14 mm",
+        "section": "Table 3",
+        "source_type": "table"
+      },
+      "piezo_thickness_um": {
+        "quote": "tp Piezoelectric layer thickness 0.18 mm",
+        "section": "Table 3",
+        "source_type": "table"
+      },
+      "tip_mass_g": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "diameter_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      }
+    },
+    "excitation": {
+      "type": {
+        "quote": "vibration energy harvester",
+        "section": "a b s t r a c t",
+        "source_type": "abstract"
+      },
+      "frequency_Hz": {
+        "quote": "resonant frequency of 12 Hz",
+        "section": "a b s t r a c t",
+        "source_type": "abstract"
+      },
+      "acceleration_g": {
+        "quote": "excitation of 0.1 g",
+        "section": "a b s t r a c t",
+        "source_type": "abstract"
+      },
+      "displacement_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "motion_source": {
+        "quote": "fed to the exciter",
+        "section": "3.2. V-PVEH prototype and experimental platform",
+        "source_type": "section"
+      }
+    },
+    "load": {
+      "load_resistance_ohm": {
+        "quote": "optimal resistance is 30 kΩ",
+        "section": "3.4. Power performance",
+        "source_type": "section"
+      }
+    },
+    "output": {
+      "resonant_frequency_Hz": {
+        "quote": "resonant frequency of 12 Hz",
+        "section": "a b s t r a c t",
+        "source_type": "abstract"
+      },
+      "output_power_W": {
+        "quote": "maximum power of 0.442 mW",
+        "section": "a b s t r a c t",
+        "source_type": "abstract"
+      },
+      "open_circuit_voltage_V": {
+        "quote": "peak voltage of 11.5 V",
+        "section": "a b s t r a c t",
+        "source_type": "abstract"
+      },
+      "short_circuit_current_A": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "bandwidth_Hz": {
+        "quote": "∆f / fo(%) ... 6.6",
+        "section": "Table 5",
+        "source_type": "table"
+      }
+    }
+  }
+}

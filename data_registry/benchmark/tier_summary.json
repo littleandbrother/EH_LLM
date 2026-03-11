@@ -1,0 +1,7 @@
+{
+  "valid_extracted": 186,
+  "scope_passing": 104,
+  "candidate": 100,
+  "silver": 78,
+  "gold_pre_verifier": 68
+}

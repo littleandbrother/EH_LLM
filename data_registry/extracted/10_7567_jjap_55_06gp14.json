@@ -1,0 +1,147 @@
+{
+  "metadata": {
+    "paper_id": "10_7567_jjap_55_06gp14",
+    "doi": "10.7567/jjap.55.06gp14",
+    "title": "Design of piezoelectric MEMS cantilever for low-frequency vibration energy harvester",
+    "year": 2016,
+    "journal": "Japanese Journal of Applied Physics"
+  },
+  "configuration": "cantilever",
+  "proof_mass": true,
+  "geometry": {
+    "length_mm": 10.7,
+    "width_mm": 2.0,
+    "thickness_mm": null,
+    "substrate_thickness_um": 10.0,
+    "piezo_thickness_um": 1.8,
+    "tip_mass_g": null,
+    "diameter_mm": null
+  },
+  "excitation": {
+    "type": "vibration",
+    "frequency_Hz": 25.1,
+    "acceleration_g": 0.051,
+    "displacement_mm": 0.015,
+    "motion_source": "rotator"
+  },
+  "load": {
+    "load_resistance_ohm": 68000.0
+  },
+  "output": {
+    "resonant_frequency_Hz": 25.1,
+    "output_power_W": 2.1e-07,
+    "open_circuit_voltage_V": 0.48,
+    "short_circuit_current_A": null,
+    "bandwidth_Hz": null
+  },
+  "evidence": {
+    "configuration": {
+      "quote": "piezoelectric MEMS cantilevers",
+      "section": "Design of piezoelectric MEMS cantilever for low-frequency vibration energy harvester",
+      "source_type": "abstract"
+    },
+    "proof_mass": {
+      "quote": "The top silicon layer and the handle wafer serve as a shim and a proof mass, respectively.",
+      "section": "2. Design",
+      "source_type": "section"
+    },
+    "geometry": {
+      "length_mm": {
+        "quote": "Lm (μm) 7500; Lp (μm) 3200",
+        "section": "3. Fabrication and measurement",
+        "source_type": "table"
+      },
+      "width_mm": {
+        "quote": "width of the cantilevers (Wp) is 2000 μm",
+        "section": "2. Design",
+        "source_type": "section"
+      },
+      "thickness_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "substrate_thickness_um": {
+        "quote": "tp (μm) 10",
+        "section": "3. Fabrication and measurement",
+        "source_type": "table"
+      },
+      "piezo_thickness_um": {
+        "quote": "tpzr (μm) 1.8",
+        "section": "3. Fabrication and measurement",
+        "source_type": "table"
+      },
+      "tip_mass_g": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "diameter_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      }
+    },
+    "excitation": {
+      "type": {
+        "quote": "harmonic vibration",
+        "section": "Design of piezoelectric MEMS cantilever for low-frequency vibration energy harvester",
+        "source_type": "abstract"
+      },
+      "frequency_Hz": {
+        "quote": "fr (Hz) 25.1",
+        "section": "3. Fabrication and measurement",
+        "source_type": "table"
+      },
+      "acceleration_g": {
+        "quote": "maximum acceleration of 0.5 m/s^2",
+        "section": "3. Fabrication and measurement",
+        "source_type": "section"
+      },
+      "displacement_mm": {
+        "quote": "displacement of the shaker (~ ± 15 μm)",
+        "section": "3. Fabrication and measurement",
+        "source_type": "section"
+      },
+      "motion_source": {
+        "quote": "rotators steadily emit ~30 Hz vibration originating from shaft rotation",
+        "section": "1. Introduction",
+        "source_type": "section"
+      }
+    },
+    "load": {
+      "load_resistance_ohm": {
+        "quote": "load resistance of 68 kΩ",
+        "section": "3. Fabrication and measurement",
+        "source_type": "section"
+      }
+    },
+    "output": {
+      "resonant_frequency_Hz": {
+        "quote": "fr (Hz) 25.1",
+        "section": "3. Fabrication and measurement",
+        "source_type": "table"
+      },
+      "output_power_W": {
+        "quote": "maximum power of 0.21 μW",
+        "section": "3. Fabrication and measurement",
+        "source_type": "section"
+      },
+      "open_circuit_voltage_V": {
+        "quote": "Vpp is 0.48 V",
+        "section": "3. Fabrication and measurement",
+        "source_type": "section"
+      },
+      "short_circuit_current_A": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "bandwidth_Hz": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      }
+    }
+  }
+}

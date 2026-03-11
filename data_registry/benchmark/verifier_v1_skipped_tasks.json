@@ -1,0 +1,10 @@
+{
+  "skipped_tasks": [
+    "10_1088_1742_6596_1019_1_012033::frequency_matching",
+    "10_1088_1742_6596_1019_1_012033::constrained_power_maximization",
+    "10_1109_uksim_2013_125::frequency_matching",
+    "10_1109_uksim_2013_125::constrained_power_maximization",
+    "10_3390_mi10030212::frequency_matching",
+    "10_3390_mi10030212::constrained_power_maximization"
+  ]
+}

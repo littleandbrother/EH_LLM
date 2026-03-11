@@ -1,0 +1,28 @@
+{
+  "paper_id": "10_3390_en14010211",
+  "doi": "10.3390/en14010211",
+  "title": "Planform Geometry and Excitation Effects of PVDF-Based Vibration Energy Harvesters",
+  "source_apis": [
+    "both"
+  ],
+  "pdf_url": "https://www.mdpi.com/1996-1073/14/1/211/pdf?version=1609851753",
+  "pdf_local_path": "data_registry/raw_stage04_paper_pdf_cleaned/10_3390_en14010211.pdf",
+  "processing": {
+    "tool": "MinerU",
+    "version": "python -m mineru.cli.client, version 2.7.6",
+    "timestamp": "2026-03-10T10:13:04.967853+00:00",
+    "duration_s": 91.72,
+    "success": true,
+    "error": ""
+  },
+  "outputs": {
+    "content_md": "/root/EH-LLM-vehbench-exp/parsed_docs/10_3390_en14010211_akey57wp/content.md",
+    "layout_json": "/root/EH-LLM-vehbench-exp/parsed_docs/10_3390_en14010211_akey57wp/layout.json",
+    "images_dir": "/root/EH-LLM-vehbench-exp/parsed_docs/10_3390_en14010211_akey57wp/10_3390_en14010211/auto/images",
+    "normalized_json": "/root/EH-LLM-vehbench-exp/normalized_docs/10_3390_en14010211.json"
+  },
+  "data_lineage": {
+    "papers_jsonl_hash": "81ace7cbf4542319afe0e7d0e3b3a978",
+    "pipeline_step": "ingestion/mineru_runner.py"
+  }
+}

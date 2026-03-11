@@ -1,0 +1,28 @@
+{
+  "paper_id": "10_31438_trf_hh2004_41",
+  "doi": "10.31438/trf.hh2004.41",
+  "title": "PIEZOELECTRIC MICRO POWER GENERATOR FOR ENERGY HARVESTING",
+  "source_apis": [
+    "openalex"
+  ],
+  "pdf_url": "https://doi.org/10.31438/trf.hh2004.41",
+  "pdf_local_path": "data_registry/raw_stage04_paper_pdf_cleaned/10_31438_trf_hh2004_41.pdf",
+  "processing": {
+    "tool": "MinerU",
+    "version": "python -m mineru.cli.client, version 2.7.6",
+    "timestamp": "2026-03-10T09:30:50.629158+00:00",
+    "duration_s": 76.78,
+    "success": true,
+    "error": ""
+  },
+  "outputs": {
+    "content_md": "/root/EH-LLM-vehbench-exp/parsed_docs/10_31438_trf_hh2004_41_prdpegm7/content.md",
+    "layout_json": "/root/EH-LLM-vehbench-exp/parsed_docs/10_31438_trf_hh2004_41_prdpegm7/layout.json",
+    "images_dir": "/root/EH-LLM-vehbench-exp/parsed_docs/10_31438_trf_hh2004_41_prdpegm7/10_31438_trf_hh2004_41/auto/images",
+    "normalized_json": "/root/EH-LLM-vehbench-exp/normalized_docs/10_31438_trf_hh2004_41.json"
+  },
+  "data_lineage": {
+    "papers_jsonl_hash": "78fae3a4f5b5a1a31e906f3f713c8e46",
+    "pipeline_step": "ingestion/mineru_runner.py"
+  }
+}

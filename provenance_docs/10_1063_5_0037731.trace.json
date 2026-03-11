@@ -1,0 +1,28 @@
+{
+  "paper_id": "10_1063_5_0037731",
+  "doi": "10.1063/5.0037731",
+  "title": "Comparison of K0.5Na0.5NbO3 and PbZr0.52Ti0.48O3 compliant-mechanism-design energy harvesters",
+  "source_apis": [
+    "both"
+  ],
+  "pdf_url": "https://aip.scitation.org/doi/pdf/10.1063/5.0037731",
+  "pdf_local_path": "data_registry/raw_stage04_paper_pdf_cleaned/10_1063_5_0037731.pdf",
+  "processing": {
+    "tool": "MinerU",
+    "version": "python -m mineru.cli.client, version 2.7.6",
+    "timestamp": "2026-03-10T09:59:18.593981+00:00",
+    "duration_s": 102.82,
+    "success": true,
+    "error": ""
+  },
+  "outputs": {
+    "content_md": "/root/EH-LLM-vehbench-exp/parsed_docs/10_1063_5_0037731_u8y7qgmc/content.md",
+    "layout_json": "/root/EH-LLM-vehbench-exp/parsed_docs/10_1063_5_0037731_u8y7qgmc/layout.json",
+    "images_dir": "/root/EH-LLM-vehbench-exp/parsed_docs/10_1063_5_0037731_u8y7qgmc/10_1063_5_0037731/auto/images",
+    "normalized_json": "/root/EH-LLM-vehbench-exp/normalized_docs/10_1063_5_0037731.json"
+  },
+  "data_lineage": {
+    "papers_jsonl_hash": "c6dc193bb7fcab6b5cbe438fd5790d0a",
+    "pipeline_step": "ingestion/mineru_runner.py"
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "metadata": {
+    "paper_id": null,
+    "title": "MEMS Energy Harvesting Based on Uniform-Stress Cantilever with Multilayer PZT Thin Films",
+    "year": 2019,
+    "journal": "Journal of Physics Conference Series",
+    "doi": null,
+    "eh_type": "piezoelectric",
+    "application_domain": "IoT node"
+  },
+  "structure": {
+    "configuration": "cantilever",
+    "layers": [
+      {
+        "material": "PZT",
+        "role": "active",
+        "thickness_um": 10
+      },
+      {
+        "material": "Si",
+        "role": "substrate",
+        "thickness_um": 80
+      }
+    ],
+    "proof_mass": true,
+    "geometry": {
+      "length_mm": 10,
+      "width_mm": 10,
+      "thickness_mm": 0.09,
+      "volume_mm3": 9
+    }
+  },
+  "excitation": {
+    "type": "vibration",
+    "frequency_Hz": null,
+    "acceleration_g": 1.2,
+    "acceleration_ms2": 11.76,
+    "displacement_mm": null,
+    "velocity_ms": null,
+    "force_N": null,
+    "rotation_rpm": null,
+    "human_motion": false,
+    "motion_source": "machine vibration"
+  },
+  "circuit": {
+    "rectifier": "not_specified",
+    "load_resistance_ohm": 13000,
+    "power_management_ic": null,
+    "storage": "not_specified",
+    "storage_value": null
+  },
+  "performance": {
+    "open_circuit_voltage_V": null,
+    "short_circuit_current_A": null,
+    "output_power_W": 0.000115,
+    "power_density_W_per_m3": 12777.78,
+    "power_density_W_per_m2": 1.15,
+    "power_density_W_per_kg": null,
+    "efficiency": null,
+    "bandwidth_Hz": null,
+    "resonant_frequency_Hz": null,
+    "measured_at": {
+      "frequency_Hz": null,
+      "acceleration_g": 1.2,
+      "displacement_mm": null,
+      "load_resistance_ohm": 13000
+    }
+  },
+  "experiment": {
+    "environment": "lab_shaker",
+    "real_world_test": false,
+    "human_walking": false,
+    "rotation_rpm": null,
+    "durability_cycles": null,
+    "temperature_C": null,
+    "powered_device": null
+  },
+  "evidence": {
+    "source": "text",
+    "page": null,
+    "section": "3.2. Evaluation",
+    "figure": "Figure 7",
+    "table": null,
+    "bbox": null,
+    "chunk_id": null,
+    "verbatim": "The output power and voltage of the uniform-stress PEH were 115 μW and 1.2 V_rms, respectively, at the optimum load of 13 kΩ."
+  },
+  "claim": {
+    "novelty": "uniform stress structure",
+    "mechanism": "equalizing the in-plane local stress in the piezoelectric thin films"
+  },
+  "limitation": {
+    "items": [
+      "fabrication challenges with thick PZT films (leakage current, cracks)"
+    ]
+  }
+}

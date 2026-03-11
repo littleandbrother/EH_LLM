@@ -1,0 +1,28 @@
+{
+  "paper_id": "10_3390_s21217042",
+  "doi": "10.3390/s21217042",
+  "title": "Experimental Characterization of Optimized Piezoelectric Energy Harvesters for Wearable Sensor Networks",
+  "source_apis": [
+    "openalex"
+  ],
+  "pdf_url": "https://www.mdpi.com/1424-8220/21/21/7042/pdf?version=1635329003",
+  "pdf_local_path": "data_registry/raw_stage04_paper_pdf_cleaned/10_3390_s21217042.pdf",
+  "processing": {
+    "tool": "MinerU",
+    "version": "python -m mineru.cli.client, version 2.7.6",
+    "timestamp": "2026-03-10T09:38:20.261126+00:00",
+    "duration_s": 110.44,
+    "success": true,
+    "error": ""
+  },
+  "outputs": {
+    "content_md": "/root/EH-LLM-vehbench-exp/parsed_docs/10_3390_s21217042_z1jxe6ln/content.md",
+    "layout_json": "/root/EH-LLM-vehbench-exp/parsed_docs/10_3390_s21217042_z1jxe6ln/layout.json",
+    "images_dir": "/root/EH-LLM-vehbench-exp/parsed_docs/10_3390_s21217042_z1jxe6ln/10_3390_s21217042/auto/images",
+    "normalized_json": "/root/EH-LLM-vehbench-exp/normalized_docs/10_3390_s21217042.json"
+  },
+  "data_lineage": {
+    "papers_jsonl_hash": "cd6c3a50417379feab5c3b8dcb066245",
+    "pipeline_step": "ingestion/mineru_runner.py"
+  }
+}

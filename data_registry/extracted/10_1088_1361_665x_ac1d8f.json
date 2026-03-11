@@ -1,0 +1,147 @@
+{
+  "metadata": {
+    "paper_id": "10_1088_1361_665x_ac1d8f",
+    "doi": "10.1088/1361-665x/ac1d8f",
+    "title": "Broadband piezoelectric energy harvesting induced by mixed resonant modes under magnetic plucking",
+    "year": 2021,
+    "journal": "Smart Materials and Structures"
+  },
+  "configuration": "cantilever",
+  "proof_mass": true,
+  "geometry": {
+    "length_mm": 52.3,
+    "width_mm": 15.0,
+    "thickness_mm": 0.3,
+    "substrate_thickness_um": 300.0,
+    "piezo_thickness_um": 200.0,
+    "tip_mass_g": null,
+    "diameter_mm": null
+  },
+  "excitation": {
+    "type": "rotation",
+    "frequency_Hz": 11.9,
+    "acceleration_g": null,
+    "displacement_mm": null,
+    "motion_source": "motor"
+  },
+  "load": {
+    "load_resistance_ohm": 220000.0
+  },
+  "output": {
+    "resonant_frequency_Hz": 47.6,
+    "output_power_W": null,
+    "open_circuit_voltage_V": null,
+    "short_circuit_current_A": null,
+    "bandwidth_Hz": 10.0
+  },
+  "evidence": {
+    "configuration": {
+      "quote": "piezoelectric cantilever beam",
+      "section": "Abstract",
+      "source_type": "abstract"
+    },
+    "proof_mass": {
+      "quote": "piezoelectric cantilever beam attached to a tip magnet",
+      "section": "Abstract",
+      "source_type": "abstract"
+    },
+    "geometry": {
+      "length_mm": {
+        "quote": "size of the Cu substrate is 52.3 x 15 x 0.3 mm^3",
+        "section": "3. Experiment",
+        "source_type": "section"
+      },
+      "width_mm": {
+        "quote": "size of the Cu substrate is 52.3 x 15 x 0.3 mm^3",
+        "section": "3. Experiment",
+        "source_type": "section"
+      },
+      "thickness_mm": {
+        "quote": "size of the Cu substrate is 52.3 x 15 x 0.3 mm^3",
+        "section": "3. Experiment",
+        "source_type": "section"
+      },
+      "substrate_thickness_um": {
+        "quote": "size of the Cu substrate is 52.3 x 15 x 0.3 mm^3",
+        "section": "3. Experiment",
+        "source_type": "section"
+      },
+      "piezo_thickness_um": {
+        "quote": "piezoelectric attachment is 7.3 x 15 x 0.2 mm^3",
+        "section": "3. Experiment",
+        "source_type": "section"
+      },
+      "tip_mass_g": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "diameter_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      }
+    },
+    "excitation": {
+      "type": {
+        "quote": "two-point rotary magnetic plucking",
+        "section": "Abstract",
+        "source_type": "abstract"
+      },
+      "frequency_Hz": {
+        "quote": "f_d = 11.9 Hz",
+        "section": "4. Results and discussions",
+        "source_type": "section"
+      },
+      "acceleration_g": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "displacement_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "motion_source": {
+        "quote": "A motor (SGM7G-13AFA61) and its controller (SGD7S-120A00A008) are chosen to drive the rotating plate.",
+        "section": "3. Experiment",
+        "source_type": "section"
+      }
+    },
+    "load": {
+      "load_resistance_ohm": {
+        "quote": "optimal load R_L = 220 k Ohm",
+        "section": "4. Results and discussions",
+        "source_type": "section"
+      }
+    },
+    "output": {
+      "resonant_frequency_Hz": {
+        "quote": "fsc (Hz) ... 47.6",
+        "section": "Table 3",
+        "source_type": "table"
+      },
+      "output_power_W": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "open_circuit_voltage_V": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "short_circuit_current_A": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "bandwidth_Hz": {
+        "quote": "wide frequency range between 5-15 Hz",
+        "section": "5. Conclusions",
+        "source_type": "section"
+      }
+    }
+  }
+}

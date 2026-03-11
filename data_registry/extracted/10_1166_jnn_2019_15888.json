@@ -1,0 +1,147 @@
+{
+  "metadata": {
+    "paper_id": "10_1166_jnn_2019_15888",
+    "doi": "10.1166/jnn.2019.15888",
+    "title": "A Low Frequency Vibration Energy Harvester Using ZnO Nanowires on Elastic Interdigitated Electrodes.",
+    "year": 2019,
+    "journal": "Journal of Nanoscience and Nanotechnology"
+  },
+  "configuration": "cantilever",
+  "proof_mass": true,
+  "geometry": {
+    "length_mm": 0.1,
+    "width_mm": 0.2,
+    "thickness_mm": 0.01,
+    "substrate_thickness_um": 520,
+    "piezo_thickness_um": 3.7,
+    "tip_mass_g": 15,
+    "diameter_mm": 10
+  },
+  "excitation": {
+    "type": "vibration",
+    "frequency_Hz": 6,
+    "acceleration_g": 0.5,
+    "displacement_mm": null,
+    "motion_source": "vibration exciter"
+  },
+  "load": {
+    "load_resistance_ohm": 1000000
+  },
+  "output": {
+    "resonant_frequency_Hz": null,
+    "output_power_W": 1.88e-11,
+    "open_circuit_voltage_V": 0.036,
+    "short_circuit_current_A": null,
+    "bandwidth_Hz": null
+  },
+  "evidence": {
+    "configuration": {
+      "quote": "cantilever array structures",
+      "section": "A Low Frequency Vibration Energy Harvester Using ZnO Nanowires on Elastic Interdigitated Electrodes",
+      "source_type": "abstract"
+    },
+    "proof_mass": {
+      "quote": "A spherical Ni ball is used as a proof mass",
+      "section": "A Low Frequency Vibration Energy Harvester Using ZnO Nanowires on Elastic Interdigitated Electrodes",
+      "source_type": "abstract"
+    },
+    "geometry": {
+      "length_mm": {
+        "quote": "width and length of the cantilever structure are 50 and 100 um",
+        "section": "2.1. Design of Energy Harvester",
+        "source_type": "section"
+      },
+      "width_mm": {
+        "quote": "width of the electrode is designed to be 200 um",
+        "section": "2.1. Design of Energy Harvester",
+        "source_type": "section"
+      },
+      "thickness_mm": {
+        "quote": "thickness of the electrodes is designed to be 10 um",
+        "section": "2.1. Design of Energy Harvester",
+        "source_type": "section"
+      },
+      "substrate_thickness_um": {
+        "quote": "520 um-thick Pyrex glass substrate",
+        "section": "2.2. Fabrication of Energy Harvester",
+        "source_type": "section"
+      },
+      "piezo_thickness_um": {
+        "quote": "measured average length and diameter were approximately 3.7 um",
+        "section": "2.2. Fabrication of Energy Harvester",
+        "source_type": "section"
+      },
+      "tip_mass_g": {
+        "quote": "mass of 15 g",
+        "section": "2.1. Design of Energy Harvester",
+        "source_type": "section"
+      },
+      "diameter_mm": {
+        "quote": "diameter of 10 mm",
+        "section": "2.1. Design of Energy Harvester",
+        "source_type": "section"
+      }
+    },
+    "excitation": {
+      "type": {
+        "quote": "vibration exciter",
+        "section": "3.1. Experimental Configuration",
+        "source_type": "section"
+      },
+      "frequency_Hz": {
+        "quote": "6 Hz sinusoidal vibration",
+        "section": "3.1. Experimental Configuration",
+        "source_type": "section"
+      },
+      "acceleration_g": {
+        "quote": "acceleration of 0.5 g",
+        "section": "3.1. Experimental Configuration",
+        "source_type": "section"
+      },
+      "displacement_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "motion_source": {
+        "quote": "vibration exciter (Bruel and Kjær LDS V406)",
+        "section": "3.1. Experimental Configuration",
+        "source_type": "section"
+      }
+    },
+    "load": {
+      "load_resistance_ohm": {
+        "quote": "load resistance of 1 M Ohm",
+        "section": "3.2. Measurements and Discussion",
+        "source_type": "section"
+      }
+    },
+    "output": {
+      "resonant_frequency_Hz": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "output_power_W": {
+        "quote": "maximum power of 18.8 pW",
+        "section": "3.2. Measurements and Discussion",
+        "source_type": "section"
+      },
+      "open_circuit_voltage_V": {
+        "quote": "maximum peak-to-peak open circuit voltage of 36 mV",
+        "section": "3.2. Measurements and Discussion",
+        "source_type": "section"
+      },
+      "short_circuit_current_A": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "bandwidth_Hz": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      }
+    }
+  }
+}

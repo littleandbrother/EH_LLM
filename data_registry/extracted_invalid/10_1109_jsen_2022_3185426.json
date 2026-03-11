@@ -1,0 +1,290 @@
+{
+  "status": "invalid",
+  "doc_path": "/Users/depengsu/Desktop/paper_story_agnet/EH-LLM-vehbench-exp/normalized_docs/10_1109_jsen_2022_3185426.json",
+  "doc_metadata": {
+    "paper_id": "10_1109_jsen_2022_3185426",
+    "doi": "10.1109/jsen.2022.3185426",
+    "title": "Tunable Piezoelectric Vibration Energy Harvester With Supercapacitors for WSN in an Industrial Environment",
+    "year": 2022,
+    "journal": "IEEE Sensors Journal"
+  },
+  "errors": [
+    "evidence.quote missing for load.load_resistance_ohm",
+    "evidence.source_type missing for load.load_resistance_ohm",
+    "evidence.section missing for load.load_resistance_ohm"
+  ],
+  "warnings": [],
+  "record": {
+    "metadata": {
+      "paper_id": "10_1109_jsen_2022_3185426",
+      "doi": "10.1109/jsen.2022.3185426",
+      "title": "Tunable Piezoelectric Vibration Energy Harvester With Supercapacitors for WSN in an Industrial Environment",
+      "year": 2022,
+      "journal": "IEEE Sensors Journal"
+    },
+    "configuration": "cantilever",
+    "proof_mass": true,
+    "geometry": {
+      "length_mm": 53,
+      "width_mm": 20.8,
+      "thickness_mm": 0.71,
+      "substrate_thickness_um": 440,
+      "piezo_thickness_um": 190,
+      "tip_mass_g": 26.8,
+      "diameter_mm": null
+    },
+    "excitation": {
+      "type": "vibration",
+      "frequency_Hz": 49.0,
+      "acceleration_g": 0.275,
+      "displacement_mm": null,
+      "motion_source": "industrial environment"
+    },
+    "load": {
+      "load_resistance_ohm": 31000
+    },
+    "output": {
+      "resonant_frequency_Hz": 49.0,
+      "output_power_W": 0.0029,
+      "open_circuit_voltage_V": 18.5,
+      "short_circuit_current_A": null,
+      "bandwidth_Hz": null
+    },
+    "evidence": {
+      "configuration": {
+        "quote": "MIDE PPA 1014 piezoelectric cantilever beam",
+        "section": "Tunable Piezoelectric Vibration Energy Harvester With Supercapacitors for WSN in an Industrial Environment",
+        "source_type": "abstract"
+      },
+      "proof_mass": {
+        "quote": "dedicated tip-mass",
+        "section": "Tunable Piezoelectric Vibration Energy Harvester With Supercapacitors for WSN in an Industrial Environment",
+        "source_type": "abstract"
+      },
+      "geometry": {
+        "length_mm": {
+          "quote": "Total length 53",
+          "section": "III. PIEZOELECTRIC HARVESTER DEVELOPMENT A. Electromechanical Conversion Design",
+          "source_type": "table"
+        },
+        "width_mm": {
+          "quote": "Total width b 20.8",
+          "section": "III. PIEZOELECTRIC HARVESTER DEVELOPMENT A. Electromechanical Conversion Design",
+          "source_type": "table"
+        },
+        "thickness_mm": {
+          "quote": "Total thickness h 0.71",
+          "section": "III. PIEZOELECTRIC HARVESTER DEVELOPMENT A. Electromechanical Conversion Design",
+          "source_type": "table"
+        },
+        "substrate_thickness_um": {
+          "quote": "FR4 80 FR4 360",
+          "section": "III. PIEZOELECTRIC HARVESTER DEVELOPMENT A. Electromechanical Conversion Design",
+          "source_type": "table"
+        },
+        "piezo_thickness_um": {
+          "quote": "PZT 5H 190",
+          "section": "III. PIEZOELECTRIC HARVESTER DEVELOPMENT A. Electromechanical Conversion Design",
+          "source_type": "table"
+        },
+        "tip_mass_g": {
+          "quote": "Tip mass 26.8 g",
+          "section": "III. PIEZOELECTRIC HARVESTER DEVELOPMENT D. Prototyping",
+          "source_type": "table"
+        },
+        "diameter_mm": {
+          "quote": null,
+          "section": null,
+          "source_type": null
+        }
+      },
+      "excitation": {
+        "type": {
+          "quote": "vibration energy harvesting",
+          "section": "Tunable Piezoelectric Vibration Energy Harvester With Supercapacitors for WSN in an Industrial Environment",
+          "source_type": "abstract"
+        },
+        "frequency_Hz": {
+          "quote": "49.0 Hz",
+          "section": "Tunable Piezoelectric Vibration Energy Harvester With Supercapacitors for WSN in an Industrial Environment",
+          "source_type": "abstract"
+        },
+        "acceleration_g": {
+          "quote": "2.7 m/s^2",
+          "section": "Tunable Piezoelectric Vibration Energy Harvester With Supercapacitors for WSN in an Industrial Environment",
+          "source_type": "abstract"
+        },
+        "displacement_mm": {
+          "quote": null,
+          "section": null,
+          "source_type": null
+        },
+        "motion_source": {
+          "quote": "industrial environment",
+          "section": "Tunable Piezoelectric Vibration Energy Harvester With Supercapacitors for WSN in an Industrial Environment",
+          "source_type": "abstract"
+        }
+      },
+      "load": {
+        "load_resistance_ohm": {
+          "quote": null,
+          "section": null,
+          "source_type": null
+        }
+      },
+      "output": {
+        "resonant_frequency_Hz": {
+          "quote": "49.0 Hz",
+          "section": "Tunable Piezoelectric Vibration Energy Harvester With Supercapacitors for WSN in an Industrial Environment",
+          "source_type": "abstract"
+        },
+        "output_power_W": {
+          "quote": "≈ 2.9 mW",
+          "section": "Tunable Piezoelectric Vibration Energy Harvester With Supercapacitors for WSN in an Industrial Environment",
+          "source_type": "abstract"
+        },
+        "open_circuit_voltage_V": {
+          "quote": "maximum voltage of the piezoelectric beam of the order of 18.5 V",
+          "section": "IV. EXPERIMENTAL VALIDATION C. Validation Test With WSN",
+          "source_type": "section"
+        },
+        "short_circuit_current_A": {
+          "quote": null,
+          "section": null,
+          "source_type": null
+        },
+        "bandwidth_Hz": {
+          "quote": null,
+          "section": null,
+          "source_type": null
+        }
+      }
+    }
+  },
+  "llm_result": {
+    "ok": true,
+    "data": {
+      "configuration": "cantilever",
+      "proof_mass": true,
+      "geometry": {
+        "length_mm": 53,
+        "width_mm": 20.8,
+        "thickness_mm": 0.71,
+        "substrate_thickness_um": 440,
+        "piezo_thickness_um": 190,
+        "tip_mass_g": 26.8,
+        "diameter_mm": null
+      },
+      "excitation": {
+        "type": "vibration",
+        "frequency_Hz": 49.0,
+        "acceleration_g": 0.275,
+        "displacement_mm": null,
+        "motion_source": "industrial environment"
+      },
+      "load": {
+        "load_resistance_ohm": 31000
+      },
+      "output": {
+        "resonant_frequency_Hz": 49.0,
+        "output_power_W": 0.0029,
+        "open_circuit_voltage_V": 18.5,
+        "short_circuit_current_A": null,
+        "bandwidth_Hz": null
+      },
+      "evidence": {
+        "configuration": {
+          "quote": "MIDE PPA 1014 piezoelectric cantilever beam",
+          "section": "Tunable Piezoelectric Vibration Energy Harvester With Supercapacitors for WSN in an Industrial Environment",
+          "source_type": "abstract"
+        },
+        "proof_mass": {
+          "quote": "dedicated tip-mass",
+          "section": "Tunable Piezoelectric Vibration Energy Harvester With Supercapacitors for WSN in an Industrial Environment",
+          "source_type": "abstract"
+        },
+        "geometry": {
+          "length_mm": {
+            "quote": "Total length 53",
+            "section": "III. PIEZOELECTRIC HARVESTER DEVELOPMENT A. Electromechanical Conversion Design",
+            "source_type": "table"
+          },
+          "width_mm": {
+            "quote": "Total width b 20.8",
+            "section": "III. PIEZOELECTRIC HARVESTER DEVELOPMENT A. Electromechanical Conversion Design",
+            "source_type": "table"
+          },
+          "thickness_mm": {
+            "quote": "Total thickness h 0.71",
+            "section": "III. PIEZOELECTRIC HARVESTER DEVELOPMENT A. Electromechanical Conversion Design",
+            "source_type": "table"
+          },
+          "substrate_thickness_um": {
+            "quote": "FR4 80 FR4 360",
+            "section": "III. PIEZOELECTRIC HARVESTER DEVELOPMENT A. Electromechanical Conversion Design",
+            "source_type": "table"
+          },
+          "piezo_thickness_um": {
+            "quote": "PZT 5H 190",
+            "section": "III. PIEZOELECTRIC HARVESTER DEVELOPMENT A. Electromechanical Conversion Design",
+            "source_type": "table"
+          },
+          "tip_mass_g": {
+            "quote": "Tip mass 26.8 g",
+            "section": "III. PIEZOELECTRIC HARVESTER DEVELOPMENT D. Prototyping",
+            "source_type": "table"
+          },
+          "diameter_mm": null
+        },
+        "excitation": {
+          "type": {
+            "quote": "vibration energy harvesting",
+            "section": "Tunable Piezoelectric Vibration Energy Harvester With Supercapacitors for WSN in an Industrial Environment",
+            "source_type": "abstract"
+          },
+          "frequency_Hz": {
+            "quote": "49.0 Hz",
+            "section": "Tunable Piezoelectric Vibration Energy Harvester With Supercapacitors for WSN in an Industrial Environment",
+            "source_type": "abstract"
+          },
+          "acceleration_g": {
+            "quote": "2.7 m/s^2",
+            "section": "Tunable Piezoelectric Vibration Energy Harvester With Supercapacitors for WSN in an Industrial Environment",
+            "source_type": "abstract"
+          },
+          "displacement_mm": null,
+          "motion_source": {
+            "quote": "industrial environment",
+            "section": "Tunable Piezoelectric Vibration Energy Harvester With Supercapacitors for WSN in an Industrial Environment",
+            "source_type": "abstract"
+          }
+        },
+        "load的后load_resistance_ohm": {
+          "quote": "Ropt 31.0",
+          "section": "IV. EXPERIMENTAL VALIDATION B. VEH Characterization and Frequency Tuning Validation",
+          "source_type": "table"
+        },
+        "output": {
+          "resonant_frequency_Hz": {
+            "quote": "49.0 Hz",
+            "section": "Tunable Piezoelectric Vibration Energy Harvester With Supercapacitors for WSN in an Industrial Environment",
+            "source_type": "abstract"
+          },
+          "output_power_W": {
+            "quote": "≈ 2.9 mW",
+            "section": "Tunable Piezoelectric Vibration Energy Harvester With Supercapacitors for WSN in an Industrial Environment",
+            "source_type": "abstract"
+          },
+          "open_circuit_voltage_V": {
+            "quote": "maximum voltage of the piezoelectric beam of the order of 18.5 V",
+            "section": "IV. EXPERIMENTAL VALIDATION C. Validation Test With WSN",
+            "source_type": "section"
+          },
+          "short_circuit_current_A": null,
+          "bandwidth_Hz": null
+        }
+      }
+    },
+    "raw_output": "```json\n{\n  \"configuration\": \"cantilever\",\n  \"proof_mass\": true,\n  \"geometry\": {\n    \"length_mm\": 53,\n    \"width_mm\": 20.8,\n    \"thickness_mm\": 0.71,\n    \"substrate_thickness_um\": 440,\n    \"piezo_thickness_um\": 190,\n    \"tip_mass_g\": 26.8,\n    \"diameter_mm\": null\n  },\n  \"excitation\": {\n    \"type\": \"vibration\",\n    \"frequency_Hz\": 49.0,\n    \"acceleration_g\": 0.275,\n    \"displacement_mm\": null,\n    \"motion_source\": \"industrial environment\"\n  },\n  \"load\": {\n    \"load_resistance_ohm\": 31000\n  },\n  \"output\": {\n    \"resonant_frequency_Hz\": 49.0,\n    \"output_power_W\": 0.0029,\n    \"open_circuit_voltage_V\": 18.5,\n    \"short_circuit_current_A\": null,\n    \"bandwidth_Hz\": null\n  },\n  \"evidence\": {\n    \"configuration\": {\n      \"quote\": \"MIDE PPA 1014 piezoelectric cantilever beam\",\n      \"section\": \"Tunable Piezoelectric Vibration Energy Harvester With Supercapacitors for WSN in an Industrial Environment\",\n      \"source_type\": \"abstract\"\n    },\n    \"proof_mass\": {\n      \"quote\": \"dedicated tip-mass\",\n      \"section\": \"Tunable Piezoelectric Vibration Energy Harvester With Supercapacitors for WSN in an Industrial Environment\",\n      \"source_type\": \"abstract\"\n    },\n    \"geometry\": {\n      \"length_mm\": {\n        \"quote\": \"Total length 53\",\n        \"section\": \"III. PIEZOELECTRIC HARVESTER DEVELOPMENT A. Electromechanical Conversion Design\",\n        \"source_type\": \"table\"\n      },\n      \"width_mm\": {\n        \"quote\": \"Total width b 20.8\",\n        \"section\": \"III. PIEZOELECTRIC HARVESTER DEVELOPMENT A. Electromechanical Conversion Design\",\n        \"source_type\": \"table\"\n      },\n      \"thickness_mm\": {\n        \"quote\": \"Total thickness h 0.71\",\n        \"section\": \"III. PIEZOELECTRIC HARVESTER DEVELOPMENT A. Electromechanical Conversion Design\",\n        \"source_type\": \"table\"\n      },\n      \"substrate_thickness_um\": {\n        \"quote\": \"FR4 80 FR4 360\",\n        \"section\": \"III. PIEZOELECTRIC HARVESTER DEVELOPMENT A. Electromechanical Conversion Design\",\n        \"source_type\": \"table\"\n      },\n      \"piezo_thickness_um\": {\n        \"quote\": \"PZT 5H 190\",\n        \"section\": \"III. PIEZOELECTRIC HARVESTER DEVELOPMENT A. Electromechanical Conversion Design\",\n        \"source_type\": \"table\"\n      },\n      \"tip_mass_g\": {\n        \"quote\": \"Tip mass 26.8 g\",\n        \"section\": \"III. PIEZOELECTRIC HARVESTER DEVELOPMENT D. Prototyping\",\n        \"source_type\": \"table\"\n      },\n      \"diameter_mm\": null\n    },\n    \"excitation\": {\n      \"type\": {\n        \"quote\": \"vibration energy harvesting\",\n        \"section\": \"Tunable Piezoelectric Vibration Energy Harvester With Supercapacitors for WSN in an Industrial Environment\",\n        \"source_type\": \"abstract\"\n      },\n      \"frequency_Hz\": {\n        \"quote\": \"49.0 Hz\",\n        \"section\": \"Tunable Piezoelectric Vibration Energy Harvester With Supercapacitors for WSN in an Industrial Environment\",\n        \"source_type\": \"abstract\"\n      },\n      \"acceleration_g\": {\n        \"quote\": \"2.7 m/s^2\",\n        \"section\": \"Tunable Piezoelectric Vibration Energy Harvester With Supercapacitors for WSN in an Industrial Environment\",\n        \"source_type\": \"abstract\"\n      },\n      \"displacement_mm\": null,\n      \"motion_source\": {\n        \"quote\": \"industrial environment\",\n        \"section\": \"Tunable Piezoelectric Vibration Energy Harvester With Supercapacitors for WSN in an Industrial Environment\",\n        \"source_type\": \"abstract\"\n      }\n    },\n    \"load的后load_resistance_ohm\": {\n      \"quote\": \"Ropt 31.0\",\n      \"section\": \"IV. EXPERIMENTAL VALIDATION B. VEH Characterization and Frequency Tuning Validation\",\n      \"source_type\": \"table\"\n    },\n    \"output\": {\n      \"resonant_frequency_Hz\": {\n        \"quote\": \"49.0 Hz\",\n        \"section\": \"Tunable Piezoelectric Vibration Energy Harvester With Supercapacitors for WSN in an Industrial Environment\",\n        \"source_type\": \"abstract\"\n      },\n      \"output_power_W\": {\n        \"quote\": \"≈ 2.9 mW\",\n        \"section\": \"Tunable Piezoelectric Vibration Energy Harvester With Supercapacitors for WSN in an Industrial Environment\",\n        \"source_type\": \"abstract\"\n      },\n      \"open_circuit_voltage_V\": {\n        \"quote\": \"maximum voltage of the piezoelectric beam of the order of 18.5 V\",\n        \"section\": \"IV. EXPERIMENTAL VALIDATION C. Validation Test With WSN\",\n        \"source_type\": \"section\"\n      },\n      \"short_circuit_current_A\": null,\n      \"bandwidth_Hz\": null\n    }\n  }\n}\n```"
+  }
+}

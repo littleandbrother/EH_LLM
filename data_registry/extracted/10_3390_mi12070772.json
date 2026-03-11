@@ -1,0 +1,147 @@
+{
+  "metadata": {
+    "paper_id": "10_3390_mi12070772",
+    "doi": "10.3390/mi12070772",
+    "title": "Theoretical and Experimental Studies on MEMS Variable Cross-Section Cantilever Beam Based Piezoelectric Vibration Energy Harvester",
+    "year": 2021,
+    "journal": "Micromachines"
+  },
+  "configuration": "cantilever",
+  "proof_mass": true,
+  "geometry": {
+    "length_mm": 4,
+    "width_mm": 14,
+    "thickness_mm": 0.05,
+    "substrate_thickness_um": 50,
+    "piezo_thickness_um": 1,
+    "tip_mass_g": null,
+    "diameter_mm": null
+  },
+  "excitation": {
+    "type": "vibration",
+    "frequency_Hz": 160.6,
+    "acceleration_g": 1,
+    "displacement_mm": null,
+    "motion_source": "vibration exciter"
+  },
+  "load": {
+    "load_resistance_ohm": 240000
+  },
+  "output": {
+    "resonant_frequency_Hz": 160.6,
+    "output_power_W": 5.41e-05,
+    "open_circuit_voltage_V": 5.64,
+    "short_circuit_current_A": null,
+    "bandwidth_Hz": null
+  },
+  "evidence": {
+    "configuration": {
+      "quote": "variable cross-section cantilever beam (VCSCB)",
+      "section": "Abstract",
+      "source_type": "abstract"
+    },
+    "proof_mass": {
+      "quote": "Si mass",
+      "section": "2. Theoretical Model",
+      "source_type": "section"
+    },
+    "geometry": {
+      "length_mm": {
+        "quote": "the lb and the lm are 4 and 9 mm",
+        "section": "3.4. Prototype Processing and Performance Analysis",
+        "source_type": "section"
+      },
+      "width_mm": {
+        "quote": "The w1, w2, and wm are 14, 9, and 14 mm",
+        "section": "3.4. Prototype Processing and Performance Analysis",
+        "source_type": "section"
+      },
+      "thickness_mm": {
+        "quote": "The tb ... are 50 um",
+        "section": "3.4. Prototype Processing and Performance Analysis",
+        "source_type": "section"
+      },
+      "substrate_thickness_um": {
+        "quote": "The tb ... are 50 um",
+        "section": "3.4. Prototype Processing and Performance Analysis",
+        "source_type": "section"
+      },
+      "piezo_thickness_um": {
+        "quote": "tp ... 1 um",
+        "section": "3.4. Prototype Processing and Performance Analysis",
+        "source_type": "section"
+      },
+      "tip_mass_g": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "diameter_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      }
+    },
+    "excitation": {
+      "type": {
+        "quote": "vibration exciter",
+        "section": "3.4. Prototype Processing and Performance Analysis",
+        "source_type": "section"
+      },
+      "frequency_Hz": {
+        "quote": "experimental values of the fr ... are 160.6 Hz",
+        "section": "3.4. Prototype Processing and Performance Analysis",
+        "source_type": "section"
+      },
+      "acceleration_g": {
+        "quote": "external excitation acceleration is 1 g",
+        "section": "3.4. Prototype Processing and Performance Analysis",
+        "source_type": "section"
+      },
+      "displacement_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "motion_source": {
+        "quote": "vibration exciter",
+        "section": "3.4. Prototype Processing and Performance Analysis",
+        "source_type": "section"
+      }
+    },
+    "load": {
+      "load_resistance_ohm": {
+        "quote": "optimized load of 240 kΩ",
+        "section": "3.4. Prototype Processing and Performance Analysis",
+        "source_type": "section"
+      }
+    },
+    "output": {
+      "resonant_frequency_Hz": {
+        "quote": "experimental values of the fr ... are 160.6 Hz",
+        "section": "3.4. Prototype Processing and Performance Analysis",
+        "source_type": "section"
+      },
+      "output_power_W": {
+        "quote": "peak output power ... are 54.1 μW",
+        "section": "3.4. Prototype Processing and Performance Analysis",
+        "source_type": "section"
+      },
+      "open_circuit_voltage_V": {
+        "quote": "Voc ... are 5.64 V",
+        "section": "3.4. Prototype Processing and Performance Analysis",
+        "source_type": "section"
+      },
+      "short_circuit_current_A": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "bandwidth_Hz": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      }
+    }
+  }
+}

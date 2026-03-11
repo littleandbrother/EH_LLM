@@ -1,0 +1,147 @@
+{
+  "metadata": {
+    "paper_id": "10_1063_5_0022881",
+    "doi": "10.1063/5.0022881",
+    "title": "An ultralow frequency, low intensity, and multidirectional piezoelectric vibration energy harvester using liquid as energy-capturing medium",
+    "year": 2020,
+    "journal": "Applied Physics Letters"
+  },
+  "configuration": "cantilever",
+  "proof_mass": false,
+  "geometry": {
+    "length_mm": 55.3,
+    "width_mm": 23.4,
+    "thickness_mm": 0.15,
+    "substrate_thickness_um": 150.0,
+    "piezo_thickness_um": 150.0,
+    "tip_mass_g": null,
+    "diameter_mm": null
+  },
+  "excitation": {
+    "type": "vibration",
+    "frequency_Hz": 2.6,
+    "acceleration_g": 0.03,
+    "displacement_mm": null,
+    "motion_source": "shaker"
+  },
+  "load": {
+    "load_resistance_ohm": 135000.0
+  },
+  "output": {
+    "resonant_frequency_Hz": 2.6,
+    "output_power_W": 9.8e-06,
+    "open_circuit_voltage_V": null,
+    "short_circuit_current_A": null,
+    "bandwidth_Hz": null
+  },
+  "evidence": {
+    "configuration": {
+      "quote": "piezoelectric cantilever beam",
+      "section": "ABSTRACT",
+      "source_type": "abstract"
+    },
+    "proof_mass": {
+      "quote": "The proposed harvester comprises a cylindrical container with a certain liquid, a piezoelectric cantilever beam, ropes, and floater-lever arrays.",
+      "section": "ABSTRACT",
+      "source_type": "abstract"
+    },
+    "geometry": {
+      "length_mm": {
+        "quote": "Length of stainless steel 304 55.3 mm",
+        "section": "TABLE I.",
+        "source_type": "table"
+      },
+      "width_mm": {
+        "quote": "Width of stainless steel 304 23.4 mm",
+        "section": "TABLE I.",
+        "source_type": "table"
+      },
+      "thickness_mm": {
+        "quote": "Thickness of stainless steel 304 0.15 mm",
+        "section": "TABLE I.",
+        "source_type": "table"
+      },
+      "substrate_thickness_um": {
+        "quote": "Thickness of stainless steel 304 0.15 mm",
+        "section": "TABLE I.",
+        "source_type": "table"
+      },
+      "piezo_thickness_um": {
+        "quote": "Thickness of PZT 0.15 mm",
+        "section": "TABLE I.",
+        "source_type": "table"
+      },
+      "tip_mass_g": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "diameter_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      }
+    },
+    "excitation": {
+      "type": {
+        "quote": "vibration excitation",
+        "section": "ABSTRACT",
+        "source_type": "abstract"
+      },
+      "frequency_Hz": {
+        "quote": "2.6 Hz",
+        "section": "ABSTRACT",
+        "source_type": "abstract"
+      },
+      "acceleration_g": {
+        "quote": "0.03 g",
+        "section": "ABSTRACT",
+        "source_type": "abstract"
+      },
+      "displacement_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "motion_source": {
+        "quote": "shaker was used as a horizontal vibration source",
+        "section": "FIG. 2.",
+        "source_type": "figure_caption"
+      }
+    },
+    "load": {
+      "load_resistance_ohm": {
+        "quote": "optimized resistance of 135 kΩ",
+        "section": "In the experiments, we first studied the ultralow frequency characteristic of the proposed PVEH with a single floater-lever structure at a liquid height of 20 mm.",
+        "source_type": "section"
+      }
+    },
+    "output": {
+      "resonant_frequency_Hz": {
+        "quote": "2.6 Hz",
+        "section": "ABSTRACT",
+        "source_type": "abstract"
+      },
+      "output_power_W": {
+        "quote": "9.8 μW",
+        "section": "ABSTRACT",
+        "source_type": "abstract"
+      },
+      "open_circuit_voltage_V": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "short_circuit_current_A": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "bandwidth_Hz": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      }
+    }
+  }
+}

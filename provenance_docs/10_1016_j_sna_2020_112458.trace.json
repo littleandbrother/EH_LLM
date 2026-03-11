@@ -1,0 +1,28 @@
+{
+  "paper_id": "10_1016_j_sna_2020_112458",
+  "doi": "10.1016/j.sna.2020.112458",
+  "title": "Modeling and design of V-shaped piezoelectric vibration energy harvester with stopper for low-frequency broadband and shock excitation",
+  "source_apis": [
+    "both"
+  ],
+  "pdf_url": "",
+  "pdf_local_path": "data_registry/raw_stage04_paper_pdf_cleaned/10_1016_j_sna_2020_112458.pdf",
+  "processing": {
+    "tool": "MinerU",
+    "version": "python -m mineru.cli.client, version 2.7.6",
+    "timestamp": "2026-03-10T09:28:12.727513+00:00",
+    "duration_s": 92.44,
+    "success": true,
+    "error": ""
+  },
+  "outputs": {
+    "content_md": "/root/EH-LLM-vehbench-exp/parsed_docs/10_1016_j_sna_2020_112458_3cz5sef3/content.md",
+    "layout_json": "/root/EH-LLM-vehbench-exp/parsed_docs/10_1016_j_sna_2020_112458_3cz5sef3/layout.json",
+    "images_dir": "/root/EH-LLM-vehbench-exp/parsed_docs/10_1016_j_sna_2020_112458_3cz5sef3/10_1016_j_sna_2020_112458/auto/images",
+    "normalized_json": "/root/EH-LLM-vehbench-exp/normalized_docs/10_1016_j_sna_2020_112458.json"
+  },
+  "data_lineage": {
+    "papers_jsonl_hash": "a0f131e305fe8939ee257cd655d82206",
+    "pipeline_step": "ingestion/mineru_runner.py"
+  }
+}

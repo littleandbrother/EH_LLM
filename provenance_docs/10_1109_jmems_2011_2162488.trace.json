@@ -1,0 +1,28 @@
+{
+  "paper_id": "10_1109_jmems_2011_2162488",
+  "doi": "10.1109/jmems.2011.2162488",
+  "title": "Piezoelectric MEMS Energy Harvester for Low-Frequency Vibrations With Wideband Operation Range and Steadily Increased Output Power",
+  "source_apis": [
+    "both"
+  ],
+  "pdf_url": "",
+  "pdf_local_path": "data_registry/raw_stage04_paper_pdf_cleaned/10_1109_jmems_2011_2162488.pdf",
+  "processing": {
+    "tool": "MinerU",
+    "version": "python -m mineru.cli.client, version 2.7.6",
+    "timestamp": "2026-03-10T09:42:48.330262+00:00",
+    "duration_s": 77.04,
+    "success": true,
+    "error": ""
+  },
+  "outputs": {
+    "content_md": "/root/EH-LLM-vehbench-exp/parsed_docs/10_1109_jmems_2011_2162488_qfpie87p/content.md",
+    "layout_json": "/root/EH-LLM-vehbench-exp/parsed_docs/10_1109_jmems_2011_2162488_qfpie87p/layout.json",
+    "images_dir": "/root/EH-LLM-vehbench-exp/parsed_docs/10_1109_jmems_2011_2162488_qfpie87p/10_1109_jmems_2011_2162488/auto/images",
+    "normalized_json": "/root/EH-LLM-vehbench-exp/normalized_docs/10_1109_jmems_2011_2162488.json"
+  },
+  "data_lineage": {
+    "papers_jsonl_hash": "8f53fa0d60fe84ea170365ca213607b0",
+    "pipeline_step": "ingestion/mineru_runner.py"
+  }
+}

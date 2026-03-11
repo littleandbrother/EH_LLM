@@ -1,0 +1,147 @@
+{
+  "metadata": {
+    "paper_id": "10_1088_1742_6596_1019_1_012033",
+    "doi": "10.1088/1742-6596/1019/1/012033",
+    "title": "An Optimization of Electrical Output Power for Piezoelectric Energy Harvester using Different Micro-Cantilever Beam Geometries",
+    "year": 2018,
+    "journal": "Journal of Physics: Conference Series"
+  },
+  "configuration": "cantilever",
+  "proof_mass": true,
+  "geometry": {
+    "length_mm": 1.5,
+    "width_mm": null,
+    "thickness_mm": null,
+    "substrate_thickness_um": 30,
+    "piezo_thickness_um": 0.3,
+    "tip_mass_g": null,
+    "diameter_mm": null
+  },
+  "excitation": {
+    "type": "vibration",
+    "frequency_Hz": 60,
+    "acceleration_g": 1,
+    "displacement_mm": null,
+    "motion_source": "ambient"
+  },
+  "load": {
+    "load_resistance_ohm": 10000000
+  },
+  "output": {
+    "resonant_frequency_Hz": 52.77,
+    "output_power_W": 1.5e-08,
+    "open_circuit_voltage_V": 0.393,
+    "short_circuit_current_A": null,
+    "bandwidth_Hz": null
+  },
+  "evidence": {
+    "configuration": {
+      "quote": "micro-cantilever beam geometry",
+      "section": "Abstract",
+      "source_type": "abstract"
+    },
+    "proof_mass": {
+      "quote": "A proof mass from Si material is attached at the beam free end",
+      "section": "2. Piezoelectric Power Generator (PPG) 3D modelling",
+      "source_type": "section"
+    },
+    "geometry": {
+      "length_mm": {
+        "quote": "Both PPG 2 and PPG 3 are discovered to achieve the match frequency at 1500 um",
+        "section": "3.1 Frequency Resonance Result",
+        "source_type": "section"
+      },
+      "width_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "thickness_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "substrate_thickness_um": {
+        "quote": "30 um for Si",
+        "section": "2. Piezoelectric Power Generator (PPG) 3D modelling",
+        "source_type": "section"
+      },
+      "piezo_thickness_um": {
+        "quote": "0.3 um for ZnO",
+        "section": "2. Piezoelectric Power Generator (PPG) 3D modelling",
+        "source_type": "section"
+      },
+      "tip_mass_g": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "diameter_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      }
+    },
+    "excitation": {
+      "type": {
+        "quote": "mechanical vibration",
+        "section": "1. Introduction",
+        "source_type": "section"
+      },
+      "frequency_Hz": {
+        "quote": "The excitation frequency for PPG 2 is as low as 60 Hz",
+        "section": "Abstract",
+        "source_type": "abstract"
+      },
+      "acceleration_g": {
+        "quote": "1 g vibration amplitude",
+        "section": "Abstract",
+        "source_type": "abstract"
+      },
+      "displacement_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "motion_source": {
+        "quote": "ambient",
+        "section": "2. Piezoelectric Power Generator (PPG) 3D modelling",
+        "source_type": "section"
+      }
+    },
+    "load": {
+      "load_resistance_ohm": {
+        "quote": "10 MΩ optimal load",
+        "section": "Abstract",
+        "source_type": "abstract"
+      }
+    },
+    "output": {
+      "resonant_frequency_Hz": {
+        "quote": "52.77",
+        "section": "Table 1. The PPG sensor adjusted excitation frequency.",
+        "source_type": "table"
+      },
+      "output_power_W": {
+        "quote": "output power is 15 nW",
+        "section": "Abstract",
+        "source_type": "abstract"
+      },
+      "open_circuit_voltage_V": {
+        "quote": "393 mV of output voltage",
+        "section": "Abstract",
+        "source_type": "abstract"
+      },
+      "short_circuit_current_A": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "bandwidth_Hz": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      }
+    }
+  }
+}

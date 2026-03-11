@@ -1,0 +1,147 @@
+{
+  "metadata": {
+    "paper_id": "10_1016_j_sna_2020_112148",
+    "doi": "10.1016/j.sna.2020.112148",
+    "title": "Frequency tunable, flexible and low cost piezoelectric micro-generator for energy harvesting",
+    "year": 2020,
+    "journal": "Sensors and Actuators A: Physical"
+  },
+  "configuration": "cantilever",
+  "proof_mass": true,
+  "geometry": {
+    "length_mm": 82,
+    "width_mm": 22,
+    "thickness_mm": 0.4,
+    "substrate_thickness_um": 75,
+    "piezo_thickness_um": 3,
+    "tip_mass_g": 0.6,
+    "diameter_mm": null
+  },
+  "excitation": {
+    "type": "vibration",
+    "frequency_Hz": 9.9,
+    "acceleration_g": 1,
+    "displacement_mm": null,
+    "motion_source": "shaker"
+  },
+  "load": {
+    "load_resistance_ohm": 280000000
+  },
+  "output": {
+    "resonant_frequency_Hz": 9.9,
+    "output_power_W": 0.000127,
+    "open_circuit_voltage_V": 360,
+    "short_circuit_current_A": null,
+    "bandwidth_Hz": null
+  },
+  "evidence": {
+    "configuration": {
+      "quote": "cantileverbased vibration energy harvesters",
+      "section": "Abstract",
+      "source_type": "abstract"
+    },
+    "proof_mass": {
+      "quote": "two magnetic proof masses (1 cm × 0.4 cm × 0.1 cm) of 0.3 g were arranged on each side of the beam",
+      "section": "4.1. Experimental setup",
+      "source_type": "section"
+    },
+    "geometry": {
+      "length_mm": {
+        "quote": "The length, width and height of the cantilever beam are 8.2 cm, 2.2 cm, 400 μm respectively.",
+        "section": "4.1. Experimental setup",
+        "source_type": "section"
+      },
+      "width_mm": {
+        "quote": "The length, width and height of the cantilever beam are 8.2 cm, 2.2 cm, 400 μm respectively.",
+        "section": "4.1. Experimental setup",
+        "source_type": "section"
+      },
+      "thickness_mm": {
+        "quote": "The length, width and height of the cantilever beam are 8.2 cm, 2.2 cm, 400 μm respectively.",
+        "section": "4.1. Experimental setup",
+        "source_type": "section"
+      },
+      "substrate_thickness_um": {
+        "quote": "PET sheet with a thickness of 75 μm",
+        "section": "1. Introduction",
+        "source_type": "section"
+      },
+      "piezo_thickness_um": {
+        "quote": "overall thickness of the PZT film of 3 μm",
+        "section": "1. Introduction",
+        "source_type": "section"
+      },
+      "tip_mass_g": {
+        "quote": "two magnetic proof masses (1 cm × 0.4 cm × 0.1 cm) of 0.3 g were arranged on each side of the beam",
+        "section": "4.1. Experimental setup",
+        "source_type": "section"
+      },
+      "diameter_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      }
+    },
+    "excitation": {
+      "type": {
+        "quote": "conversion of vibrations",
+        "section": "Abstract",
+        "source_type": "abstract"
+      },
+      "frequency_Hz": {
+        "quote": "resonance frequency of 9.9 Hz",
+        "section": "Abstract",
+        "source_type": "abstract"
+      },
+      "acceleration_g": {
+        "quote": "constant acceleration of 1 g",
+        "section": "Abstract",
+        "source_type": "abstract"
+      },
+      "displacement_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "motion_source": {
+        "quote": "shaker (TMS K2007E01)",
+        "section": "4.1. Experimental setup",
+        "source_type": "section"
+      }
+    },
+    "load": {
+      "load_resistance_ohm": {
+        "quote": "The theoretical optimal resistance value is R_opt ... 280 MΩ",
+        "section": "4.2. Experimental results",
+        "source_type": "section"
+      }
+    },
+    "output": {
+      "resonant_frequency_Hz": {
+        "quote": "resonance frequency of 9.9 Hz",
+        "section": "Abstract",
+        "source_type": "abstract"
+      },
+      "output_power_W": {
+        "quote": "maximum power of 127 μW",
+        "section": "Abstract",
+        "source_type": "abstract"
+      },
+      "open_circuit_voltage_V": {
+        "quote": "The open-circuit voltage ... reaches about 360 V for a mass at 8 cm",
+        "section": "4.2. Experimental results",
+        "source_type": "section"
+      },
+      "short_circuit_current_A": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "bandwidth_Hz": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      }
+    }
+  }
+}

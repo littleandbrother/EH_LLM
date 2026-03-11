@@ -1,0 +1,147 @@
+{
+  "metadata": {
+    "paper_id": "10_1088_0960_1317_23_12_125009",
+    "doi": "10.1088/0960-1317/23/12/125009",
+    "title": "A micromachined low-frequency piezoelectric harvester for vibration and wind energy scavenging",
+    "year": 2013,
+    "journal": "Journal of Micromechanics and Microengineering"
+  },
+  "configuration": "cantilever",
+  "proof_mass": true,
+  "geometry": {
+    "length_mm": 3.0,
+    "width_mm": 8.0,
+    "thickness_mm": null,
+    "substrate_thickness_um": 35.0,
+    "piezo_thickness_um": 1.3,
+    "tip_mass_g": null,
+    "diameter_mm": null
+  },
+  "excitation": {
+    "type": "vibration",
+    "frequency_Hz": 134.8,
+    "acceleration_g": 0.1,
+    "displacement_mm": null,
+    "motion_source": "electromagnetic shaker"
+  },
+  "load": {
+    "load_resistance_ohm": 410000.0
+  },
+  "output": {
+    "resonant_frequency_Hz": 134.8,
+    "output_power_W": 1.85e-06,
+    "open_circuit_voltage_V": 1.42,
+    "short_circuit_current_A": null,
+    "bandwidth_Hz": 0.319
+  },
+  "evidence": {
+    "configuration": {
+      "quote": "lumped-parameter model of the cantilevered piezoelectric energy harvester with a proof mass",
+      "section": "Abstract",
+      "source_type": "abstract"
+    },
+    "proof_mass": {
+      "quote": "with a proof mass",
+      "section": "Abstract",
+      "source_type": "abstract"
+    },
+    "geometry": {
+      "length_mm": {
+        "quote": "Cantilever length lb (µm) 3000",
+        "section": "3.1. Optimization",
+        "source_type": "table"
+      },
+      "width_mm": {
+        "quote": "Width b (µm) 8000",
+        "section": "3.1. Optimization",
+        "source_type": "table"
+      },
+      "thickness_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "substrate_thickness_um": {
+        "quote": "Structural layer thickness hs (µm) 35",
+        "section": "3.1. Optimization",
+        "source_type": "table"
+      },
+      "piezo_thickness_um": {
+        "quote": "AlN layer thickness hp (µm) 1.3",
+        "section": "3.1. Optimization",
+        "source_type": "table"
+      },
+      "tip_mass_g": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "diameter_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      }
+    },
+    "excitation": {
+      "type": {
+        "quote": "vibration energy and wind energy scavenging",
+        "section": "Abstract",
+        "source_type": "title"
+      },
+      "frequency_Hz": {
+        "quote": "open-circuit natural frequency (anti-resonance frequency) of the harvester is about 134.8 Hz",
+        "section": "4.1. Performance of vibration energy harvesting",
+        "source_type": "section"
+      },
+      "acceleration_g": {
+        "quote": "acceleration with constant amplitude of 0.1g",
+        "section": "4.1. Performance of vibration energy harvesting",
+        "source_type": "section"
+      },
+      "displacement_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "motion_source": {
+        "quote": "measured on an electromagnetic shaker",
+        "section": "4.1. Performance of vibration energy harvesting",
+        "source_type": "section"
+      }
+    },
+    "load": {
+      "load_resistance_ohm": {
+        "quote": "matched resistance is about 410 kΩ",
+        "section": "4.1. Performance of vibration energy harvesting",
+        "source_type": "section"
+      }
+    },
+    "output": {
+      "resonant_frequency_Hz": {
+        "quote": "open-circuit natural frequency (anti-resonance frequency) of the harvester is about 134.8 Hz",
+        "section": "4.1. Performance of vibration energy harvesting",
+        "source_type": "section"
+      },
+      "output_power_W": {
+        "quote": "maximum output power is about 1.85 μW",
+        "section": "4.1. Performance of vibration energy harvesting",
+        "source_type": "section"
+      },
+      "open_circuit_voltage_V": {
+        "quote": "maximum RMS open-circuit voltage of about 1.42 V",
+        "section": "4.1. Performance of vibration energy harvesting",
+        "source_type": "section"
+      },
+      "short_circuit_current_A": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "bandwidth_Hz": {
+        "quote": "half power bandwidth was about 0.237%",
+        "section": "4.1. Performance of vibration energy harvesting",
+        "source_type": "section"
+      }
+    }
+  }
+}

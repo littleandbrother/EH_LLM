@@ -1,0 +1,260 @@
+{
+  "status": "invalid",
+  "doc_path": "/Users/depengsu/Desktop/paper_story_agnet/EH-LLM-vehbench-exp/normalized_docs/10_1117_12_2009621.json",
+  "doc_metadata": {
+    "paper_id": "10_1117_12_2009621",
+    "doi": "10.1117/12.2009621",
+    "title": "A multiaxial piezoelectric energy harvester",
+    "year": 2013,
+    "journal": "Proceedings of SPIE, the International Society for Optical Engineering/Proceedings of SPIE"
+  },
+  "errors": [
+    "output has no populated metric"
+  ],
+  "warnings": [
+    "excitation has no numeric condition"
+  ],
+  "record": {
+    "metadata": {
+      "paper_id": "10_1117_12_2009621",
+      "doi": "10.1117/12.2009621",
+      "title": "A multiaxial piezoelectric energy harvester",
+      "year": 2013,
+      "journal": "Proceedings of SPIE, the International Society for Optical Engineering/Proceedings of SPIE"
+    },
+    "configuration": "cantilever",
+    "proof_mass": true,
+    "geometry": {
+      "length_mm": 33,
+      "width_mm": null,
+      "thickness_mm": 0.1,
+      "substrate_thickness_um": 100,
+      "piezo_thickness_um": 100,
+      "tip_mass_g": null,
+      "diameter_mm": null
+    },
+    "excitation": {
+      "type": "vibration",
+      "frequency_Hz": null,
+      "acceleration_g": null,
+      "displacement_mm": null,
+      "motion_source": "haker"
+    },
+    "load": {
+      "load_resistance_ohm": null
+    },
+    "output": {
+      "resonant_frequency_Hz": null,
+      "output_power_W": null,
+      "open_circuit_voltage_V": null,
+      "short_circuit_current_A": null,
+      "bandwidth_Hz": null
+    },
+    "evidence": {
+      "configuration": {
+        "quote": "cantilever composite pab",
+        "section": "1. INTRODUCTION",
+        "source_type": "section"
+      },
+      "proof_mass": {
+        "quote": "A seismic mass M is connected by 4 elastic beams to a rigid base.",
+        "section": "2. BASIC PRINCIPALE AND DESIGN CONSEDERATION",
+        "source_type": "section"
+      },
+      "geometry": {
+        "length_mm": {
+          "quote": "L 33 mm",
+          "section": "3. FINITE ELEMENT DESIGN OF THE VALIDATION PROTOTYP",
+          "source_type": "table"
+        },
+        "width_mm": {
+          "quote": null,
+          "section": null,
+          "source_type": null
+        },
+        "thickness_mm": {
+          "quote": "E 0.1 mm",
+          "section": "3. FINITE ELEMENT DESIGN OF THE VALIDATION PROTOTYP",
+          "source_type": "table"
+        },
+        "substrate_thickness_um": {
+          "quote": "brass plate with a thickness of 100 μm",
+          "section": "4.1. The test bench and material",
+          "source_type": "section"
+        },
+        "piezo_thickness_um": {
+          "quote": "deposited a layer of piezoelectric thickness of 100 μm",
+          "section": "4.1. The test bench and material",
+          "source_type": "section"
+        },
+        "tip_mass_g": {
+          "quote": null,
+          "section": null,
+          "source_type": null
+        },
+        "diameter_mm": {
+          "quote": null,
+          "section": null,
+          "source_type": null
+        }
+      },
+      "excitation": {
+        "type": {
+          "quote": "vibrations",
+          "section": "Abstract",
+          "source_type": "abstract"
+        },
+        "frequency_Hz": {
+          "quote": null,
+          "section": null,
+          "source_type": null
+        },
+        "acceleration_g": {
+          "quote": null,
+          "section": null,
+          "source_type": null
+        },
+        "displacement_mm": {
+          "quote": null,
+          "section": null,
+          "source_type": null
+        },
+        "motion_source": {
+          "quote": "connected to the haker",
+          "section": "4.1. The test bench and material",
+          "source_type": "figure_caption"
+        }
+      },
+      "load": {
+        "load_resistance_ohm": {
+          "quote": null,
+          "section": null,
+          "source_type": null
+        }
+      },
+      "output": {
+        "resonant_frequency_Hz": {
+          "quote": null,
+          "section": null,
+          "source_type": null
+        },
+        "output_power_W": {
+          "quote": null,
+          "section": null,
+          "source_type": null
+        },
+        "open_circuit_voltage_V": {
+          "quote": null,
+          "section": null,
+          "source_type": null
+        },
+        "short_circuit_current_A": {
+          "quote": null,
+          "section": null,
+          "source_type": null
+        },
+        "bandwidth_Hz": {
+          "quote": null,
+          "section": null,
+          "source_type": null
+        }
+      }
+    }
+  },
+  "llm_result": {
+    "ok": true,
+    "data": {
+      "configuration": "cantilever",
+      "proof_mass": true,
+      "geometry": {
+        "length_mm": 33,
+        "width_mm": null,
+        "thickness_mm": 0.1,
+        "substrate_thickness_um": 100,
+        "piezo_thickness_um": 100,
+        "tip_mass_g": null,
+        "diameter_mm": null
+      },
+      "excitation": {
+        "type": "vibration",
+        "frequency_Hz": null,
+        "acceleration_g": null,
+        "displacement_mm": null,
+        "motion_source": "haker"
+      },
+      "load": {
+        "load_resistance_ohm": null
+      },
+      "output": {
+        "resonant_frequency_Hz": null,
+        "output_power_W": null,
+        "open_circuit_voltage_V": null,
+        "short_circuit_current_A": null,
+        "bandwidth_Hz": null
+      },
+      "evidence": {
+        "configuration": {
+          "quote": "cantilever composite pab",
+          "section": "1. INTRODUCTION",
+          "source_type": "section"
+        },
+        "proof_mass": {
+          "quote": "A seismic mass M is connected by 4 elastic beams to a rigid base.",
+          "section": "2. BASIC PRINCIPALE AND DESIGN CONSEDERATION",
+          "source_type": "section"
+        },
+        "geometry": {
+          "length_mm": {
+            "quote": "L 33 mm",
+            "section": "3. FINITE ELEMENT DESIGN OF THE VALIDATION PROTOTYP",
+            "source_type": "table"
+          },
+          "width_mm": null,
+          "thickness_mm": {
+            "quote": "E 0.1 mm",
+            "section": "3. FINITE ELEMENT DESIGN OF THE VALIDATION PROTOTYP",
+            "source_type": "table"
+          },
+          "substrate_thickness_um": {
+            "quote": "brass plate with a thickness of 100 μm",
+            "section": "4.1. The test bench and material",
+            "source_type": "section"
+          },
+          "piezo_thickness_um": {
+            "quote": "deposited a layer of piezoelectric thickness of 100 μm",
+            "section": "4.1. The test bench and material",
+            "source_type": "section"
+          },
+          "tip_mass_g": null,
+          "diameter_mm": null
+        },
+        "excitation": {
+          "type": {
+            "quote": "vibrations",
+            "section": "Abstract",
+            "source_type": "abstract"
+          },
+          "frequency_Hz": null,
+          "acceleration_g": null,
+          "displacement_mm": null,
+          "motion_source": {
+            "quote": "connected to the haker",
+            "section": "4.1. The test bench and material",
+            "source_type": "figure_caption"
+          }
+        },
+        "load": {
+          "load_resistance_ohm": null
+        },
+        "output": {
+          "resonant_frequency_Hz": null,
+          "output_power_W": null,
+          "open_circuit_voltage_V": null,
+          "short_circuit_current_A": null,
+          "bandwidth_Hz": null
+        }
+      }
+    },
+    "raw_output": "```json\n{\n  \"configuration\": \"cantilever\",\n  \"proof_mass\": true,\n  \"geometry\": {\n    \"length_mm\": 33,\n    \"width_mm\": null,\n    \"thickness_mm\": 0.1,\n    \"substrate_thickness_um\": 100,\n    \"piezo_thickness_um\": 100,\n    \"tip_mass_g\": null,\n    \"diameter_mm\": null\n  },\n  \"excitation\": {\n    \"type\": \"vibration\",\n    \"frequency_Hz\": null,\n    \"acceleration_g\": null,\n    \"displacement_mm\": null,\n    \"motion_source\": \"haker\"\n  },\n  \"load\": {\n    \"load_resistance_ohm\": null\n  },\n  \"output\": {\n    \"resonant_frequency_Hz\": null,\n    \"output_power_W\": null,\n    \"open_circuit_voltage_V\": null,\n    \"short_circuit_current_A\": null,\n    \"bandwidth_Hz\": null\n  },\n  \"evidence\": {\n    \"configuration\": {\n      \"quote\": \"cantilever composite pab\",\n      \"section\": \"1. INTRODUCTION\",\n      \"source_type\": \"section\"\n    },\n    \"proof_mass\": {\n      \"quote\": \"A seismic mass M is connected by 4 elastic beams to a rigid base.\",\n      \"section\": \"2. BASIC PRINCIPALE AND DESIGN CONSEDERATION\",\n      \"source_type\": \"section\"\n    },\n    \"geometry\": {\n      \"length_mm\": {\n        \"quote\": \"L 33 mm\",\n        \"section\": \"3. FINITE ELEMENT DESIGN OF THE VALIDATION PROTOTYP\",\n        \"source_type\": \"table\"\n      },\n      \"width_mm\": null,\n      \"thickness_mm\": {\n        \"quote\": \"E 0.1 mm\",\n        \"section\": \"3. FINITE ELEMENT DESIGN OF THE VALIDATION PROTOTYP\",\n        \"source_type\": \"table\"\n      },\n      \"substrate_thickness_um\": {\n        \"quote\": \"brass plate with a thickness of 100 μm\",\n        \"section\": \"4.1. The test bench and material\",\n        \"source_type\": \"section\"\n      },\n      \"piezo_thickness_um\": {\n        \"quote\": \"deposited a layer of piezoelectric thickness of 100 μm\",\n        \"section\": \"4.1. The test bench and material\",\n        \"source_type\": \"section\"\n      },\n      \"tip_mass_g\": null,\n      \"diameter_mm\": null\n    },\n    \"excitation\": {\n      \"type\": {\n        \"quote\": \"vibrations\",\n        \"section\": \"Abstract\",\n        \"source_type\": \"abstract\"\n      },\n      \"frequency_Hz\": null,\n      \"acceleration_g\": null,\n      \"displacement_mm\": null,\n      \"motion_source\": {\n        \"quote\": \"connected to the haker\",\n        \"section\": \"4.1. The test bench and material\",\n        \"source_type\": \"figure_caption\"\n      }\n    },\n    \"load\": {\n      \"load_resistance_ohm\": null\n    },\n    \"output\": {\n      \"resonant_frequency_Hz\": null,\n      \"output_power_W\": null,\n      \"open_circuit_voltage_V\": null,\n      \"short_circuit_current_A\": null,\n      \"bandwidth_Hz\": null\n    }\n  }\n}\n```"
+  }
+}

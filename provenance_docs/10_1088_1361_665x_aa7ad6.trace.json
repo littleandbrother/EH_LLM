@@ -1,0 +1,28 @@
+{
+  "paper_id": "10_1088_1361_665x_aa7ad6",
+  "doi": "10.1088/1361-665x/aa7ad6",
+  "title": "Design and kinetic analysis of piezoelectric energy harvesters with self-adjusting resonant frequency",
+  "source_apis": [
+    "both"
+  ],
+  "pdf_url": "",
+  "pdf_local_path": "data_registry/raw_stage04_paper_pdf_cleaned/10_1088_1361_665x_aa7ad6.pdf",
+  "processing": {
+    "tool": "MinerU",
+    "version": "python -m mineru.cli.client, version 2.7.6",
+    "timestamp": "2026-03-10T09:29:30.185901+00:00",
+    "duration_s": 111.3,
+    "success": true,
+    "error": ""
+  },
+  "outputs": {
+    "content_md": "/root/EH-LLM-vehbench-exp/parsed_docs/10_1088_1361_665x_aa7ad6_8f1e3vxs/content.md",
+    "layout_json": "/root/EH-LLM-vehbench-exp/parsed_docs/10_1088_1361_665x_aa7ad6_8f1e3vxs/layout.json",
+    "images_dir": "/root/EH-LLM-vehbench-exp/parsed_docs/10_1088_1361_665x_aa7ad6_8f1e3vxs/10_1088_1361_665x_aa7ad6/auto/images",
+    "normalized_json": "/root/EH-LLM-vehbench-exp/normalized_docs/10_1088_1361_665x_aa7ad6.json"
+  },
+  "data_lineage": {
+    "papers_jsonl_hash": "dc0ae3de9ff412bc145509c6162f2409",
+    "pipeline_step": "ingestion/mineru_runner.py"
+  }
+}

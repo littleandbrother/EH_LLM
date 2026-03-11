@@ -1,0 +1,147 @@
+{
+  "metadata": {
+    "paper_id": "10_1109_memsys_2010_5442542",
+    "doi": "10.1109/memsys.2010.5442542",
+    "title": "High efficiency energy harvester of transferred epitaxial PZT films on stainless steel sheets",
+    "year": 2010,
+    "journal": "IEEE/LEOS International Conference on Optical MEMS"
+  },
+  "configuration": "cantilever",
+  "proof_mass": false,
+  "geometry": {
+    "length_mm": 20,
+    "width_mm": 5,
+    "thickness_mm": null,
+    "substrate_thickness_um": 50,
+    "piezo_thickness_um": 2.8,
+    "tip_mass_g": null,
+    "diameter_mm": null
+  },
+  "excitation": {
+    "type": "vibration",
+    "frequency_Hz": 126,
+    "acceleration_g": 0.51,
+    "displacement_mm": null,
+    "motion_source": "vibrator"
+  },
+  "load": {
+    "load_resistance_ohm": 50000
+  },
+  "output": {
+    "resonant_frequency_Hz": 126,
+    "output_power_W": 5.3e-06,
+    "open_circuit_voltage_V": 2.6,
+    "short_circuit_current_A": null,
+    "bandwidth_Hz": null
+  },
+  "evidence": {
+    "configuration": {
+      "quote": "prepare the unimorph cantilevers",
+      "section": "ABSTRACT",
+      "source_type": "abstract"
+    },
+    "proof_mass": {
+      "quote": "without seismic mass",
+      "section": "ABSTRACT",
+      "source_type": "abstract"
+    },
+    "geometry": {
+      "length_mm": {
+        "quote": "Cantilever length 20 mm",
+        "section": "3. CHARACTERISTICS OF PZT FILMS",
+        "source_type": "table"
+      },
+      "width_mm": {
+        "quote": "Cantilever width 5mm",
+        "section": "3. CHARACTERISTICS OF PZT FILMS",
+        "source_type": "table"
+      },
+      "thickness_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "substrate_thickness_um": {
+        "quote": "Stainless steel thickness 50μm",
+        "section": "3. CHARACTERISTICS OF PZT FILMS",
+        "source_type": "table"
+      },
+      "piezo_thickness_um": {
+        "quote": "PZT thickness 2.8 μm",
+        "section": "3. CHARACTERISTICS OF PZT FILMS",
+        "source_type": "table"
+      },
+      "tip_mass_g": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "diameter_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      }
+    },
+    "excitation": {
+      "type": {
+        "quote": "vibrated under constant acceleration",
+        "section": "4. OUTPUT POWER",
+        "source_type": "section"
+      },
+      "frequency_Hz": {
+        "quote": "resonant frequency could be reduced to 126 Hz",
+        "section": "ABSTRACT",
+        "source_type": "abstract"
+      },
+      "acceleration_g": {
+        "quote": "acceleration of 5 m/s^2",
+        "section": "ABSTRACT",
+        "source_type": "abstract"
+      },
+      "displacement_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "motion_source": {
+        "quote": "mounted on a vibrator",
+        "section": "4. OUTPUT POWER",
+        "source_type": "section"
+      }
+    },
+    "load": {
+      "load_resistance_ohm": {
+        "quote": "peaks at around 50 kΩ",
+        "section": "4. OUTPUT POWER",
+        "source_type": "section"
+      }
+    },
+    "output": {
+      "resonant_frequency_Hz": {
+        "quote": "resonant frequency could be reduced to 126 Hz",
+        "section": "ABSTRACT",
+        "source_type": "abstract"
+      },
+      "output_power_W": {
+        "quote": "generate large electric power of 5.3 μW",
+        "section": "ABSTRACT",
+        "source_type": "abstract"
+      },
+      "open_circuit_voltage_V": {
+        "quote": "reached 2.6 V at 1 MΩ",
+        "section": "4. OUTPUT POWER",
+        "source_type": "section"
+      },
+      "short_circuit_current_A": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "bandwidth_Hz": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      }
+    }
+  }
+}

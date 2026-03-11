@@ -1,0 +1,28 @@
+{
+  "paper_id": "10_1155_2020_4063025",
+  "doi": "10.1155/2020/4063025",
+  "title": "A Metamaterial-Inspired Structure for Simultaneous Vibration Attenuation and Energy Harvesting",
+  "source_apis": [
+    "openalex"
+  ],
+  "pdf_url": "https://downloads.hindawi.com/journals/sv/2020/4063025.pdf",
+  "pdf_local_path": "data_registry/raw_stage04_paper_pdf_cleaned/10_1155_2020_4063025.pdf",
+  "processing": {
+    "tool": "MinerU",
+    "version": "python -m mineru.cli.client, version 2.7.6",
+    "timestamp": "2026-03-10T09:50:25.331620+00:00",
+    "duration_s": 104.1,
+    "success": true,
+    "error": ""
+  },
+  "outputs": {
+    "content_md": "/root/EH-LLM-vehbench-exp/parsed_docs/10_1155_2020_4063025_rkz2kh26/content.md",
+    "layout_json": "/root/EH-LLM-vehbench-exp/parsed_docs/10_1155_2020_4063025_rkz2kh26/layout.json",
+    "images_dir": "/root/EH-LLM-vehbench-exp/parsed_docs/10_1155_2020_4063025_rkz2kh26/10_1155_2020_4063025/auto/images",
+    "normalized_json": "/root/EH-LLM-vehbench-exp/normalized_docs/10_1155_2020_4063025.json"
+  },
+  "data_lineage": {
+    "papers_jsonl_hash": "f956a68302ebf7731804925a4fd0f751",
+    "pipeline_step": "ingestion/mineru_runner.py"
+  }
+}

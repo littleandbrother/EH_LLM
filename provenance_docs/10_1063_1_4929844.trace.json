@@ -1,0 +1,28 @@
+{
+  "paper_id": "10_1063_1_4929844",
+  "doi": "10.1063/1.4929844",
+  "title": "Two-dimensional concentrated-stress low-frequency piezoelectric vibration energy harvesters",
+  "source_apis": [
+    "both"
+  ],
+  "pdf_url": "",
+  "pdf_local_path": "data_registry/raw_stage04_paper_pdf_cleaned/10_1063_1_4929844.pdf",
+  "processing": {
+    "tool": "MinerU",
+    "version": "python -m mineru.cli.client, version 2.7.6",
+    "timestamp": "2026-03-10T10:07:24.350943+00:00",
+    "duration_s": 68.39,
+    "success": true,
+    "error": ""
+  },
+  "outputs": {
+    "content_md": "/root/EH-LLM-vehbench-exp/parsed_docs/10_1063_1_4929844_0p08k8bs/content.md",
+    "layout_json": "/root/EH-LLM-vehbench-exp/parsed_docs/10_1063_1_4929844_0p08k8bs/layout.json",
+    "images_dir": "/root/EH-LLM-vehbench-exp/parsed_docs/10_1063_1_4929844_0p08k8bs/10_1063_1_4929844/auto/images",
+    "normalized_json": "/root/EH-LLM-vehbench-exp/normalized_docs/10_1063_1_4929844.json"
+  },
+  "data_lineage": {
+    "papers_jsonl_hash": "2caf00e48f1a2b310d3c80acad60378c",
+    "pipeline_step": "ingestion/mineru_runner.py"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "paper_id": "10_1166_jnn_2013_8106",
+  "doi": "10.1166/jnn.2013.8106",
+  "title": "Design and fabrication of vibration based energy harvester using microelectromechanical system piezoelectric cantilever for low power applications.",
+  "source_apis": [
+    "both"
+  ],
+  "pdf_url": "",
+  "pdf_local_path": "data_registry/raw_stage04_paper_pdf_cleaned/10_1166_jnn_2013_8106.pdf",
+  "processing": {
+    "tool": "MinerU",
+    "version": "python -m mineru.cli.client, version 2.7.6",
+    "timestamp": "2026-03-10T09:53:40.564650+00:00",
+    "duration_s": 77.37,
+    "success": true,
+    "error": ""
+  },
+  "outputs": {
+    "content_md": "/root/EH-LLM-vehbench-exp/parsed_docs/10_1166_jnn_2013_8106_66y72u6e/content.md",
+    "layout_json": "/root/EH-LLM-vehbench-exp/parsed_docs/10_1166_jnn_2013_8106_66y72u6e/layout.json",
+    "images_dir": "/root/EH-LLM-vehbench-exp/parsed_docs/10_1166_jnn_2013_8106_66y72u6e/10_1166_jnn_2013_8106/auto/images",
+    "normalized_json": "/root/EH-LLM-vehbench-exp/normalized_docs/10_1166_jnn_2013_8106.json"
+  },
+  "data_lineage": {
+    "papers_jsonl_hash": "39b1b38ba3e7bb147963460bfcd7f931",
+    "pipeline_step": "ingestion/mineru_runner.py"
+  }
+}

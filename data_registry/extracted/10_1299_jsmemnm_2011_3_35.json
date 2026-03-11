@@ -1,0 +1,147 @@
+{
+  "metadata": {
+    "paper_id": "10_1299_jsmemnm_2011_3_35",
+    "doi": "10.1299/jsmemnm.2011.3.35",
+    "title": "3-7 Characterization of vibration energy harvesters composed of piezoelectric thin films",
+    "year": 2011,
+    "journal": "The Proceedings of the Symposium on Micro-Nano Science and Technology"
+  },
+  "configuration": "cantilever",
+  "proof_mass": null,
+  "geometry": {
+    "length_mm": 16.0,
+    "width_mm": 3.4,
+    "thickness_mm": null,
+    "substrate_thickness_um": 200.0,
+    "piezo_thickness_um": 2.0,
+    "tip_mass_g": null,
+    "diameter_mm": null
+  },
+  "excitation": {
+    "type": "vibration",
+    "frequency_Hz": 1040.0,
+    "acceleration_g": 1.02,
+    "displacement_mm": null,
+    "motion_source": null
+  },
+  "load": {
+    "load_resistance_ohm": 1700.0
+  },
+  "output": {
+    "resonant_frequency_Hz": 1040.0,
+    "output_power_W": 1.1e-06,
+    "open_circuit_voltage_V": null,
+    "short_circuit_current_A": null,
+    "bandwidth_Hz": null
+  },
+  "evidence": {
+    "configuration": {
+      "quote": "Si cantilever",
+      "section": "SECTION: -- ---",
+      "source_type": "abstract"
+    },
+    "proof_mass": {
+      "quote": null,
+      "section": null,
+      "source_type": null
+    },
+    "geometry": {
+      "length_mm": {
+        "quote": "Length 16 mm",
+        "section": "SECTION: 4.",
+        "source_type": "section"
+      },
+      "width_mm": {
+        "quote": "Width 3.4 mm",
+        "section": "SECTION: 4.",
+        "source_type": "section"
+      },
+      "thickness_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "substrate_thickness_um": {
+        "quote": "Si 200 um",
+        "section": "SECTION: 4.",
+        "source_type": "section"
+      },
+      "piezo_thickness_um": {
+        "quote": "KNN 2 um",
+        "section": "SECTION: 2.U#",
+        "source_type": "section"
+      },
+      "tip_mass_g": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "diameter_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      }
+    },
+    "excitation": {
+      "type": {
+        "quote": "piezoelectric vibration energy harvesters",
+        "section": "SECTION: -- ---",
+        "source_type": "abstract"
+      },
+      "frequency_Hz": {
+        "quote": "1.04 kHz KNN",
+        "section": "SECTION: 3. *#",
+        "source_type": "section"
+      },
+      "acceleration_g": {
+        "quote": "acceleration of 10 m/s^2",
+        "section": "SECTION: -- ---",
+        "source_type": "abstract"
+      },
+      "displacement_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "motion_source": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      }
+    },
+    "load": {
+      "load_resistance_ohm": {
+        "quote": "1.7 kOhm",
+        "section": "SECTION: 3. *#",
+        "source_type": "section"
+      }
+    },
+    "output": {
+      "resonant_frequency_Hz": {
+        "quote": "1.04 kHz KNN",
+        "section": "SECTION: 3. *#",
+        "source_type": "section"
+      },
+      "output_power_W": {
+        "quote": "1.10 uW",
+        "section": "SECTION: 3. *#",
+        "source_type": "section"
+      },
+      "open_circuit_voltage_V": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "short_circuit_current_A": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "bandwidth_Hz": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      }
+    }
+  }
+}

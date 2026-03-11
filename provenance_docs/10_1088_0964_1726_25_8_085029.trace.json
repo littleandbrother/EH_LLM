@@ -1,0 +1,28 @@
+{
+  "paper_id": "10_1088_0964_1726_25_8_085029",
+  "doi": "10.1088/0964-1726/25/8/085029",
+  "title": "Design and characterisation of a piezoelectric knee-joint energy harvester with frequency up-conversion through magnetic plucking",
+  "source_apis": [
+    "openalex"
+  ],
+  "pdf_url": "https://iopscience.iop.org/article/10.1088/0964-1726/25/8/085029/pdf",
+  "pdf_local_path": "data_registry/raw_stage04_paper_pdf_cleaned/10_1088_0964_1726_25_8_085029.pdf",
+  "processing": {
+    "tool": "MinerU",
+    "version": "python -m mineru.cli.client, version 2.7.6",
+    "timestamp": "2026-03-10T09:25:32.522951+00:00",
+    "duration_s": 79.7,
+    "success": true,
+    "error": ""
+  },
+  "outputs": {
+    "content_md": "/root/EH-LLM-vehbench-exp/parsed_docs/10_1088_0964_1726_25_8_085029_xuk99hm4/content.md",
+    "layout_json": "/root/EH-LLM-vehbench-exp/parsed_docs/10_1088_0964_1726_25_8_085029_xuk99hm4/layout.json",
+    "images_dir": "/root/EH-LLM-vehbench-exp/parsed_docs/10_1088_0964_1726_25_8_085029_xuk99hm4/10_1088_0964_1726_25_8_085029/auto/images",
+    "normalized_json": "/root/EH-LLM-vehbench-exp/normalized_docs/10_1088_0964_1726_25_8_085029.json"
+  },
+  "data_lineage": {
+    "papers_jsonl_hash": "c53d0571a697a93945a98146eda6e930",
+    "pipeline_step": "ingestion/mineru_runner.py"
+  }
+}

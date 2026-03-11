@@ -1,0 +1,28 @@
+{
+  "paper_id": "10_1109_jmems_2012_2213069",
+  "doi": "10.1109/jmems.2012.2213069",
+  "title": "Comparison of MEMS PZT Cantilevers Based on $d_{31}$  and $d_{33}$ Modes for Vibration Energy Harvesting",
+  "source_apis": [
+    "both"
+  ],
+  "pdf_url": "",
+  "pdf_local_path": "data_registry/raw_stage04_paper_pdf_cleaned/10_1109_jmems_2012_2213069.pdf",
+  "processing": {
+    "tool": "MinerU",
+    "version": "python -m mineru.cli.client, version 2.7.6",
+    "timestamp": "2026-03-10T10:18:12.231566+00:00",
+    "duration_s": 93.98,
+    "success": true,
+    "error": ""
+  },
+  "outputs": {
+    "content_md": "/root/EH-LLM-vehbench-exp/parsed_docs/10_1109_jmems_2012_2213069_yx7k37v8/content.md",
+    "layout_json": "/root/EH-LLM-vehbench-exp/parsed_docs/10_1109_jmems_2012_2213069_yx7k37v8/layout.json",
+    "images_dir": "/root/EH-LLM-vehbench-exp/parsed_docs/10_1109_jmems_2012_2213069_yx7k37v8/10_1109_jmems_2012_2213069/auto/images",
+    "normalized_json": "/root/EH-LLM-vehbench-exp/normalized_docs/10_1109_jmems_2012_2213069.json"
+  },
+  "data_lineage": {
+    "papers_jsonl_hash": "7b92260b7884a0b87a8a0ffccb4352fb",
+    "pipeline_step": "ingestion/mineru_runner.py"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "paper_id": "10_1109_sensor_2009_5285375",
+  "doi": "10.1109/sensor.2009.5285375",
+  "title": "High performance piezoelectric MEMS energy harvester based on D33 mode of PZT thin film on buffer-layer with PBTIO3 inter-layer",
+  "source_apis": [
+    "both"
+  ],
+  "pdf_url": "",
+  "pdf_local_path": "data_registry/raw_stage04_paper_pdf_cleaned/10_1109_sensor_2009_5285375.pdf",
+  "processing": {
+    "tool": "MinerU",
+    "version": "python -m mineru.cli.client, version 2.7.6",
+    "timestamp": "2026-03-10T09:48:18.744974+00:00",
+    "duration_s": 77.6,
+    "success": true,
+    "error": ""
+  },
+  "outputs": {
+    "content_md": "/root/EH-LLM-vehbench-exp/parsed_docs/10_1109_sensor_2009_5285375_7hei6zdc/content.md",
+    "layout_json": "/root/EH-LLM-vehbench-exp/parsed_docs/10_1109_sensor_2009_5285375_7hei6zdc/layout.json",
+    "images_dir": "/root/EH-LLM-vehbench-exp/parsed_docs/10_1109_sensor_2009_5285375_7hei6zdc/10_1109_sensor_2009_5285375/auto/images",
+    "normalized_json": "/root/EH-LLM-vehbench-exp/normalized_docs/10_1109_sensor_2009_5285375.json"
+  },
+  "data_lineage": {
+    "papers_jsonl_hash": "3d2a377442f76a375d974d24d486ccbe",
+    "pipeline_step": "ingestion/mineru_runner.py"
+  }
+}

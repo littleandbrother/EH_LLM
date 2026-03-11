@@ -1,0 +1,147 @@
+{
+  "metadata": {
+    "paper_id": "10_1080_03772063_2021_1913071",
+    "doi": "10.1080/03772063.2021.1913071",
+    "title": "Multi-perforated Energy-Efficient Piezoelectric Energy Harvester Using Improved Stress Distribution",
+    "year": 2021,
+    "journal": "Journal of the Institution of Electronics and Telecommunication Engineers"
+  },
+  "configuration": "cantilever",
+  "proof_mass": true,
+  "geometry": {
+    "length_mm": 5.0,
+    "width_mm": 1.0,
+    "thickness_mm": 0.016,
+    "substrate_thickness_um": 13,
+    "piezo_thickness_um": 2,
+    "tip_mass_g": 0.00198,
+    "diameter_mm": null
+  },
+  "excitation": {
+    "type": "vibration",
+    "frequency_Hz": 98.59,
+    "acceleration_g": 1.0,
+    "displacement_mm": 2.9,
+    "motion_source": "heating, ventilation, and air conditioning system"
+  },
+  "load": {
+    "load_resistance_ohm": 1600000
+  },
+  "output": {
+    "resonant_frequency_Hz": 98.59,
+    "output_power_W": 7.15e-06,
+    "open_circuit_voltage_V": 14.0,
+    "short_circuit_current_A": null,
+    "bandwidth_Hz": null
+  },
+  "evidence": {
+    "configuration": {
+      "quote": "The proposed tapered multi-perforated cantilever structure",
+      "section": "ABSTRACT",
+      "source_type": "abstract"
+    },
+    "proof_mass": {
+      "quote": "The cantilever has the Si-based proof-mass of length 1000 μm, width 1000 μm, and thickness 850 μm",
+      "section": "3.1 Rectangular Plate Structures",
+      "source_type": "section"
+    },
+    "geometry": {
+      "length_mm": {
+        "quote": "length equals to 5000 μm",
+        "section": "3.1 Rectangular Plate Structures",
+        "source_type": "section"
+      },
+      "width_mm": {
+        "quote": "wider width is 1000 μm",
+        "section": "3.2.1 Design of Tapered Cantilever Structure",
+        "source_type": "section"
+      },
+      "thickness_mm": {
+        "quote": "net thickness is 16 μm",
+        "section": "3.1 Rectangular Plate Structures",
+        "source_type": "section"
+      },
+      "substrate_thickness_um": {
+        "quote": "silicon substrate layer thickness is 13 μm",
+        "section": "2. DESIGN AND ANALYSIS",
+        "source_type": "section"
+      },
+      "piezo_thickness_um": {
+        "quote": "PZ layer thickness is 2 μm",
+        "section": "2. DESIGN AND ANALYSIS",
+        "source_type": "section"
+      },
+      "tip_mass_g": {
+        "quote": "proof-mass of length 1000 μm, width 1000 μm, and thickness 850 μm",
+        "section": "3.1 Rectangular Plate Structures",
+        "source_type": "section"
+      },
+      "diameter_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      }
+    },
+    "excitation": {
+      "type": {
+        "quote": "generating electrical energy from the surrounding vibration",
+        "section": "ABSTRACT",
+        "source_type": "abstract"
+      },
+      "frequency_Hz": {
+        "quote": "resonant frequency of 98.59 Hz",
+        "section": "ABSTRACT",
+        "source_type": "abstract"
+      },
+      "acceleration_g": {
+        "quote": "excitedated acceleration of 1g",
+        "section": "ABSTRACT",
+        "source_type": "abstract"
+      },
+      "displacement_mm": {
+        "quote": "Tapered multi-perforated ... 2900",
+        "section": "Table 1: Comparison between different cantilever structures",
+        "source_type": "table"
+      },
+      "motion_source": {
+        "quote": "designs the EH for the heating, ventilation, and air conditioning system",
+        "section": "ABSTRACT",
+        "source_type": "abstract"
+      }
+    },
+    "load": {
+      "load_resistance_ohm": {
+        "quote": "approximately 1.6 Mohm",
+        "section": "3.4.2 Harvested Output Power",
+        "source_type": "section"
+      }
+    },
+    "output": {
+      "resonant_frequency_Hz": {
+        "quote": "resonant frequency of 98.59 Hz",
+        "section": "ABSTRACT",
+        "source_type": "abstract"
+      },
+      "output_power_W": {
+        "quote": "average output power of 7.15 μW",
+        "section": "ABSTRACT",
+        "source_type": "abstract"
+      },
+      "open_circuit_voltage_V": {
+        "quote": "output voltage of 14 V",
+        "section": "ABSTRACT",
+        "source_type": "abstract"
+      },
+      "short_circuit_current_A": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "bandwidth_Hz": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      }
+    }
+  }
+}

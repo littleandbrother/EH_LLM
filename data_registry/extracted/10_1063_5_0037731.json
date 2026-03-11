@@ -1,0 +1,147 @@
+{
+  "metadata": {
+    "paper_id": "10_1063_5_0037731",
+    "doi": "10.1063/5.0037731",
+    "title": "Comparison of K0.5Na0.5NbO3 and PbZr0.52Ti0.48O3 compliant-mechanism-design energy harvesters",
+    "year": 2021,
+    "journal": "Journal of Applied Physics"
+  },
+  "configuration": "other",
+  "proof_mass": true,
+  "geometry": {
+    "length_mm": 8,
+    "width_mm": 4.5,
+    "thickness_mm": 0.025,
+    "substrate_thickness_um": 25,
+    "piezo_thickness_um": 1,
+    "tip_mass_g": 0.022,
+    "diameter_mm": null
+  },
+  "excitation": {
+    "type": "vibration",
+    "frequency_Hz": 70,
+    "acceleration_g": 2.5,
+    "displacement_mm": null,
+    "motion_source": "shaker table"
+  },
+  "load": {
+    "load_resistance_ohm": null
+  },
+  "output": {
+    "resonant_frequency_Hz": 70,
+    "output_power_W": 2.05e-05,
+    "open_circuit_voltage_V": 2.2,
+    "short_circuit_current_A": null,
+    "bandwidth_Hz": null
+  },
+  "evidence": {
+    "configuration": {
+      "quote": "compliant mechanism design",
+      "section": "ABSTRACT",
+      "source_type": "abstract"
+    },
+    "proof_mass": {
+      "quote": "moving frame carrying the seismic mass",
+      "section": "EXPERIMENTAL PROCEDURE",
+      "source_type": "section"
+    },
+    "geometry": {
+      "length_mm": {
+        "quote": "The beam size was set to 4.5 x 8 mm^2",
+        "section": "DIMENSIONING PROCESS",
+        "source_type": "section"
+      },
+      "width_mm": {
+        "quote": "The beam size was set to 4.5 x 8 mm^2",
+        "section": "DIMENSIONING PROCESS",
+        "source_type": "section"
+      },
+      "thickness_mm": {
+        "quote": "Beam thickness (μm) 25",
+        "section": "DIMENSIONING PROCESS",
+        "source_type": "table"
+      },
+      "substrate_thickness_um": {
+        "quote": "25 μm thick nickel foil",
+        "section": "EXPERIMENTAL PROCEDURE",
+        "source_type": "section"
+      },
+      "piezo_thickness_um": {
+        "quote": "1 μm thick PZT",
+        "section": "EXPERIMENTAL PROCEDURE",
+        "source_type": "section"
+      },
+      "tip_mass_g": {
+        "quote": "Seismic masses (g) ... 0.022",
+        "section": "DIMENSIONING PROCESS",
+        "source_type": "table"
+      },
+      "diameter_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      }
+    },
+    "excitation": {
+      "type": {
+        "quote": "ambient vibrations",
+        "section": "ABSTRACT",
+        "source_type": "abstract"
+      },
+      "frequency_Hz": {
+        "quote": "70 Hz",
+        "section": "ABSTRACT",
+        "source_type": "abstract"
+      },
+      "acceleration_g": {
+        "quote": "Experimental acceleration (G) ... 2.5",
+        "section": "DIMENSIONING PROCESS",
+        "source_type": "table"
+      },
+      "displacement_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "motion_source": {
+        "quote": "A shaker table (F3, Wilcoxon) was used as a vibration source.",
+        "section": "EXPERIMENTAL PROCEDURE",
+        "source_type": "section"
+      }
+    },
+    "load": {
+      "load_resistance_ohm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      }
+    },
+    "output": {
+      "resonant_frequency_Hz": {
+        "quote": "70 Hz",
+        "section": "POWER MEASUREMENTS",
+        "source_type": "section"
+      },
+      "output_power_W": {
+        "quote": "20.5 μW",
+        "section": "POWER MEASUREMENTS",
+        "source_type": "section"
+      },
+      "open_circuit_voltage_V": {
+        "quote": "maximum peak-to-peak voltage was between 1.9 and 2.2 V",
+        "section": "POWER MEASUREMENTS",
+        "source_type": "section"
+      },
+      "short_circuit_current_A": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "bandwidth_Hz": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      }
+    }
+  }
+}

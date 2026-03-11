@@ -1,0 +1,67 @@
+{
+  "paper_id": "10_1049_el_2012_1419",
+  "doi": "10.1049/el.2012.1419",
+  "title": "Piezoelectric MEMS low-level vibration energy harvester with PMN-PT single crystal cantilever",
+  "year": 2012,
+  "venue": "Electronics Letters",
+  "authors": [
+    "Gang Tang",
+    "J.-Q. Liu",
+    "Bin Yang",
+    "Jiang Luo",
+    "H.-S. Liu",
+    "Y.-G. Li",
+    "Chaoqiang Yang",
+    "Dzung Viet Dao",
+    "Katsuhiro Tanaka",
+    "S. Sugiyama",
+    "J. Liu",
+    "Jiangbo Luo",
+    "He-sheng Liu",
+    "Yuanxiang Li",
+    "Chunsheng Yang",
+    "V. Dao",
+    "K. Tanaka"
+  ],
+  "citation_count": 23,
+  "sections": [
+    {
+      "heading": "Piezoelectric MEMS low-level vibration energy harvester with PMN-PT single crystal cantilever",
+      "level": 1,
+      "text": "G. Tang, J.-Q. Liu, B. Yang, J.-B. Luo, H.-S. Liu, Y.-G. Li, C.-S. Yang, V.-D. Dao, K. Tanaka and S. Sugiyama\n\nA piezoelectric MEMS vibration energy harvester with PMN-PT single material has been developed, which can convert low-level vibration energy into electrical energy. Compared with the conventional piezoelectric material, the PMN-PT single crystal has a higher coupling coefficient and electromechanical coefficient, which can improve the conversion efficiency of the power generating device. The designed device consists of a composite cantilever beam and an Ni proof mass, which is fabricated using UV-LIGA technology. Test results show that the fabricated vibration energy harvester can generate a maximum output power of $2 . 7 0 4 \\mu \\mathrm { W }$ with a $2 . 0 8 \\mathrm { V } _ { \\mathrm { P - P } }$ output voltage, at a resonant frequency of $2 3 7 . 4 \\mathrm { H z }$ and $1 . 0 g$ acceleration level.\n\nIntroduction: Converting an environmental mechanical vibration energy into an electrical one has been actively explored through various piezoelectric materials and structures. The coupling coefficient of piezoelectric material plays an important role in energy harvesters, since it directly affects the energy conversion effectiveness. Different piezoelectric materials have been deployed widely in MEMS energy harvesters, such as PZT thin film [1] or thick film [2], AlN thin film [3] and $Z _ { \\mathrm { { n O } } }$ thin film [4]. However, there is a large gap between the performance of many prototypes and the practical requirement of wireless microsystems owing to their low output performance. Recently, some attempts have been made to increase the efficiency of piezoelectric energy harvesting devices by using a new piezoelectric material, PMN-PT piezoelectric single crystal [5, 6]. It has been shown that PMN-PT material exhibits outstanding piezoelectric properties that considerably surpass the PZT ceramics by a factor of 4 to 5 [7]. However, current research on piezoelectric energy harvesting devices with PMN-PT material is concentrated on bulk prototypes which have large volume. So far, there has been scarcely any PMN-PT based piezoelectric generator developed at the scale of MEMS for conversion of lowfrequency vibration to electrical power. Therefore, it is necessary to develop MEMS generators based on PMN-PT single material to improve conversion efficiency.\n\nIn this Letter, a MEMS vibration energy harvester is proposed with a PMN-PT piezoelectric single crystal, which has a higher coupling coefficient and electromechanical coefficient than conventional piezoelectric materials. This has not appeared in any other published literature about the MEMS-type energy harvester. A composite micro-cantilever with a nickel proof mass on its tip is designed as the structure type of our generator and 31 excitation mode is deployed owing to its advantage in MEMS application [1]. The fabricated prototype has a small volume, simple structure, low production costs and high output performance. Meanwhile, the fabrication process is compatible with MEMS technology.\n\nFabrication: The composite cantilever beam and the Ni proof mass were fabricated using MEMS micromachining technology. The fabrication process of the composite cantilever beam is shown in Fig. 1a. The key fabrication techniques include a low-temperature bonding technique using a conductive epoxy resin, mechanical lapping and polishing for thinning down the bulk PMN-PT, and bulk the micromachining of silicon. First, the surfaces of the SOI and PMN-PT wafers were mirror polished and thin layers of $\\mathrm { { A u / C r } }$ $1 5 0 \\mathrm { n m } / 2 0 \\mathrm { n m } )$ were deposited on them to form fine primary electrode layers. Then, one layer of conductive epoxy resins as an intermediate layer was screen-printed on the Au layer of the SOI wafer. The PMN-PT and the prepared SOI wafer were bonded together in a vacuum oven. The bonding pressure is 0.1 MPa and the temperature rises from 60 to $1 7 5 \\mathrm { { } ^ { \\circ } C }$ according to $1 5 \\mathrm { { } ^ { \\circ } C }$ per 10 minutes and holding for more than 1 hour at $1 7 5 \\mathrm { { } ^ { \\circ } C }$ . The testing result shows that the bonding strength is larger than $1 0 \\ \\mathrm { M P a }$ . After bonding, the PMN-PT was thinned down to about $1 0 ~ { \\mu \\mathrm { m } }$ thickness by mechanical lapping. Thirdly, the $\\mathrm { { C r / A u } }$ layer as the top electrode was sputtered and patterned on the thinned PMN-PT layer. Subsequently, the PMN-PT was micromachined by the dicing method. Fourthly, a back oxide window was created for KOH etching by HF solution etching. After the oxide layers were etched, anisotropic etching of the wafer’s backside was carried through in KOH solution. Finally, the cantilever beam structure was successfully released by a silicon $\\mathrm { X e F } _ { 2 }$ isotropic etch step. Fig. 1b shows the fabrication process of the Ni proof mass. The Ti seed layer was sputtered on the glass wafer, and then oxidised to improve the adhesive force between the substrate and SU8 photoresist. Secondly, SU8 photoresist was spin coated and patterned. Thirdly, the Ni proof masses were electroplated. Finally, the photoresist and sacrificial layer were removed and the Ni masses were totally released.\n\n![](images/862ee4ca119e2e39b5cb043825c736ca369123a3bc6980eee34661c4f9c19e5a.jpg)  \nFig. 1 Fabrication process of composite cantilever beam and Ni proof mass $a$ Cantilever beam b Ni proof mass\n\nThe microfabricated nickel mass was assembled on the free end of the cantilever beam. The cross-section view of the assembled prototype with the high quality bonding interface after thinning down the PMN-PT is shown in Fig. 2.\n\n![](images/6116a35ac8e483c3b2ceb26e79a0e1eb924d09a49471dafeb4e4ea7ef15a3e62.jpg)  \nFig. 2 Cross-sectional SEM images of assembled vibration energy harvester\n\nTesting: Fig. 3 shows the measured impedance and phase angle of the fabricated vibration energy harvester using the impedance analyser. The resonant peak from the phase angle is $2 3 7 . 4 \\mathrm { H z }$ .\n\n![](images/359ee694b590cbba33713621678a10910c42c27b72f9e8999a09de6e6ac4e70c.jpg)  \nFig. 3 Measured resonant frequency of fabricated prototype\n\nThe output performance of the fabricated prototype was also evaluated by a vibration testing platform described previously [1]. Fig. $_ { 4 a }$ shows the relationship between output voltage (peak to peak) and output power at different loading impedance with $_ { 1 g }$ acceleration under the resonant frequency of $2 3 7 . 4 \\mathrm { H z }$ for the piezoelectric MEMS generator. With the increasing of the load impedance, the output voltage was obviously increasing, while the corresponding output average power increased at first and then decreased. The output power has a maximal value of $2 . 7 0 4 \\mu \\mathrm { W }$ when the load resistance increases from 10 to $2 0 0 0 \\mathrm { k } \\Omega$ . The load resistance corresponding to maximal power is $2 0 0 \\mathrm { k } \\Omega$ , which is the same as the internal resistance of the fabricated device. At the maximum output power condition, the output voltage was $2 . 0 8 \\mathrm { ~ V _ { P - P } } .$ , which was higher than the minimum requirement for the rectifier circuit diode bandgaps.\n\n![](images/df4671d064c9fd794b1ef08a837b919816a2b212d1d84a2baa00d23c0b371caf.jpg)  \nFig. 4 Output performance of prototype $a$ Load voltage and power against resistance, measured at $_ { 1 g }$ acceleration and resonant conditions $^ b$ Maximum output power and output voltage against different applied acceleration levels at resonance\n\nFig. $4 b$ shows the maximum output power and output voltage against different applied acceleration levels when the prototype is at resonance. It indicates that the maximum output power is related to the applied acceleration level. The obtained output power and voltage of the generator increase with respect to an increase in acceleration. The piezoelectric MEMS generator was tested up a $2 . 0 g$ acceleration level. A maximum output power of $5 . 9 2 9 \\mu \\mathrm { W }$ for the fabricated device was obtained and the output voltage was $3 . 0 8 \\mathrm { V } _ { \\mathrm { P - P } }$ under the optimal resistance of $2 0 0 \\mathrm { k } \\Omega$ at a $2 . 0 g$ acceleration. Meanwhile, the open circuit output voltage was found to be $5 . 8 4 \\mathrm { ~ V _ { P - P } }$ for this device.\n\nConclusion: A vibration-based MEMS energy harvester including a PMN-PT/SOI composite beam with an Ni proof mass has been proposed, fabricated and tested. The use of PMN-PT piezoelectric material with excellent piezoelectric properties improves the energy conversion efficiency. The effective volume of the prototype is about $0 . 6 \\mathrm { m m } ^ { 3 }$ . A maximum output power of $2 . 7 0 4 \\mu \\mathrm { W }$ with a $2 . 0 8 \\mathrm { \\ V _ { P - P } }$ output voltage was measured from the fabricated prototype, at the resonant frequency of $2 3 7 . 4 \\ : \\mathrm { H z }$ and an acceleration of $_ { 1 g }$ .\n\nAcknowledgments: This work was supported by financial support from the National Natural Science Foundation of China (61076107), the Science and Technology Department of Shanghai (11JC1405700, 11DZ2290203), the Program for New Century Excellent Talents in University (2009) and STCSM and the Youth Science Fund of Jiangxi Province Office of Education of China (GJJ11248).\n\n$©$ The Institution of Engineering and Technology 2012   \n24 April 2012   \ndoi: 10.1049/el.2012.1419   \nOne or more of the Figures in this Letter are available in colour online. G. Tang, J.-Q. Liu, B. Yang, J.-B. Luo, H.-S. Liu, Y.-G. Li and C.-S. Yang (Research Institute of Micro/Nano Science and Technology, Shanghai Jiao Tong University, 800 Dongchuan Road, Shanghai 200240, People’s Republic of China)   \nE-mail: jqliu@sjtu.edu.cn   \nV.-D. Dao, K. Tanaka and S. Sugiyama (Department of Micro System Technology, Rtsumeikan University, 1-1-1 Noji-Higashi, Kusatsu, Shiga, Japan)   \nG. Tang: Also with the School of Mechanical and Electrical Engineering, Nanchang Institute of Technology, 289 Tianxiang Road, Nanchang, 330099, China."
+    },
+    {
+      "heading": "References",
+      "level": 1,
+      "text": "1 Fang, H.B., Liu, J.Q., Xu, Z.Y., Dong, L., Wang, L., Chen, D., Cai, B.C., and Liu, Y.: ‘Fabrication and performance of MEMS-based piezoelectric power generator for vibration energy harvesting’, Microelectron. J., 2006, 37, pp. 1280– 1284   \n2 Lee, B.S., Lin, S.C., Wu, W.J., Wang, X.Y., Chang, P.Z., and Lee, C.K.: ‘Piezoelectric MEMS generators fabricated with an aerosol deposition PZT thin film’, J. Micromech. Microeng., 2009, 19, pp. 1– 8   \n3 Marzencki, M., Ammar, Y., and Basrour, S.: ‘Integrated power harvesting system including a MEMS generator and a power management circuit’, Sens. Actuators A, 2008, 145 –146, pp. 363 –370   \n4 Lu, M.P., Song, J.H., Lu, M.Y., Chen, M.T., Gao, Y.F., Chen, L.J., and Wang, Z.L.: ‘Piezoelectric nanogenerator using p-type $Z _ { \\mathrm { { n O } } }$ nanowire arrays’, Nano Lett., 2009, 9, (3), pp. 1223– 1227   \n5 Sun, C., Qin, L., Li, F., and Wang, Q.M.: ‘Piezoelectric energy harvesting using single crystal $\\mathrm { P b } ( \\mathrm { M g } _ { 1 / 3 } \\mathrm { N b } _ { 2 / 3 } ) \\mathrm { O } _ { 3 } { \\cdot } \\mathrm { x P b } ^ { \\prime }$ TiO3 (PMN-PT) device’, J. Intell. Mater. Syst. Struct., 2009, 20, pp. 559–568   \n6 Mathers, A., Moon, K.S., and Yi, J.G.: ‘A vibration-based PMN-PT energy harvester’, IEEE Sens. J., 2009, 9, pp. 731–739   \n7 Ivan, I.A., Rakotondrabe, M., Agnus, J., Bourquin, R., Chaillet, N., Lutz, P., Poncot, J.C., Duffait, R., and Bauer, O.: ‘Comparative material study between PZT ceramic and newer crystalline PMN-PT and PZN-PT materials for composite bimorph actuators’, Rev. Adv. Mater. Sci., 2010, 24, pp. 1– 9"
+    }
+  ],
+  "tables": [],
+  "figures": [
+    {
+      "page": -1,
+      "caption": "",
+      "path": "images/862ee4ca119e2e39b5cb043825c736ca369123a3bc6980eee34661c4f9c19e5a.jpg"
+    },
+    {
+      "page": -1,
+      "caption": "",
+      "path": "images/6116a35ac8e483c3b2ceb26e79a0e1eb924d09a49471dafeb4e4ea7ef15a3e62.jpg"
+    },
+    {
+      "page": -1,
+      "caption": "",
+      "path": "images/359ee694b590cbba33713621678a10910c42c27b72f9e8999a09de6e6ac4e70c.jpg"
+    },
+    {
+      "page": -1,
+      "caption": "",
+      "path": "images/df4671d064c9fd794b1ef08a837b919816a2b212d1d84a2baa00d23c0b371caf.jpg"
+    }
+  ],
+  "metadata": {
+    "source": "both",
+    "pdf_url": "",
+    "parsed_at": "2026-03-09T15:25:37.677739+00:00"
+  }
+}

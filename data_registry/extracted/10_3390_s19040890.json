@@ -1,0 +1,147 @@
+{
+  "metadata": {
+    "paper_id": "10_3390_s19040890",
+    "doi": "10.3390/s19040890",
+    "title": "Electrostatic MEMS Vibration Energy Harvesters inside of Tire Treads",
+    "year": 2019,
+    "journal": "Sensors"
+  },
+  "configuration": "stack",
+  "proof_mass": true,
+  "geometry": {
+    "length_mm": null,
+    "width_mm": null,
+    "thickness_mm": 0.65,
+    "substrate_thickness_um": 650,
+    "piezo_thickness_um": null,
+    "tip_mass_g": 0.16,
+    "diameter_mm": null
+  },
+  "excitation": {
+    "type": "vibration",
+    "frequency_Hz": 1200,
+    "acceleration_g": 2.9,
+    "displacement_mm": 0.1,
+    "motion_source": "sinusoidal vibration"
+  },
+  "load": {
+    "load_resistance_ohm": 5000000
+  },
+  "output": {
+    "resonant_frequency_Hz": 1200,
+    "output_power_W": 0.000495,
+    "open_circuit_voltage_V": 41,
+    "short_circuit_current_A": null,
+    "bandwidth_Hz": null
+  },
+  "evidence": {
+    "configuration": {
+      "quote": "Three substrates are stacked and bonded together.",
+      "section": "2.1. Basic Concept of an Electrostatic MEMS Vibration Energy Harvester",
+      "source_type": "section"
+    },
+    "proof_mass": {
+      "quote": "proof mass and spring are collectively formed",
+      "section": "2.1. Basic Concept of an Electrostatic MEMS Vibration Energy Harvester",
+      "source_type": "section"
+    },
+    "geometry": {
+      "length_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "width_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "thickness_mm": {
+        "quote": "whole thickness of 650 μm of the substrate",
+        "section": "3.1. Process Flow",
+        "source_type": "section"
+      },
+      "substrate_thickness_um": {
+        "quote": "whole thickness of 650 μm of the substrate",
+        "section": "3.1. Process Flow",
+        "source_type": "section"
+      },
+      "piezo_thickness_um": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "tip_mass_g": {
+        "quote": "m = 160 mg",
+        "section": "4.1. Sign-Wave Vibration",
+        "source_type": "section"
+      },
+      "diameter_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      }
+    },
+    "excitation": {
+      "type": {
+        "quote": "under sinusoidal vibration",
+        "section": "4.1. Sign-Wave Vibration",
+        "source_type": "section"
+      },
+      "frequency_Hz": {
+        "quote": "f_vib = 1.2 kHz",
+        "section": "4.1. Sign-Wave Vibration",
+        "source_type": "section"
+      },
+      "acceleration_g": {
+        "quote": "a_vib = 2.9 g",
+        "section": "4.1. Sign-Wave Vibration",
+        "source_type": "section"
+      },
+      "displacement_mm": {
+        "quote": "Maximum displacement of the proof mass is 100 μm",
+        "section": "2.2. Electrode Configuration for High Power Generation",
+        "source_type": "section"
+      },
+      "motion_source": {
+        "quote": "under sinusoidal vibration",
+        "section": "4.1. Sign-Wave Vibration",
+        "source_type": "section"
+      }
+    },
+    "load": {
+      "load_resistance_ohm": {
+        "quote": "load resistance R = 5 MΩ",
+        "section": "4.1. Sign-Wave Vibration",
+        "source_type": "section"
+      }
+    },
+    "output": {
+      "resonant_frequency_Hz": {
+        "quote": "f_vib = 1.2 kHz",
+        "section": "4.1. Sign-Wave Vibration",
+        "source_type": "section"
+      },
+      "output_power_W": {
+        "quote": "P = 495 μW",
+        "section": "4.1. Sign-Wave Vibration",
+        "source_type": "section"
+      },
+      "open_circuit_voltage_V": {
+        "quote": "Output voltage amplitude reached the maximum value of 41 V",
+        "section": "4.1. Sign-Wave Vibration",
+        "source_type": "section"
+      },
+      "short_circuit_current_A": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "bandwidth_Hz": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      }
+    }
+  }
+}

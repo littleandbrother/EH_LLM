@@ -1,0 +1,147 @@
+{
+  "metadata": {
+    "paper_id": "10_1109_uksim_2013_153",
+    "doi": "10.1109/uksim.2013.153",
+    "title": "Vibration-based MEMS Piezoelectric Energy Harvester for Power Optimization",
+    "year": 2013,
+    "journal": "2013 UKSim 15th International Conference on Computer Modelling and Simulation"
+  },
+  "configuration": "cantilever",
+  "proof_mass": true,
+  "geometry": {
+    "length_mm": null,
+    "width_mm": null,
+    "thickness_mm": null,
+    "substrate_thickness_um": null,
+    "piezo_thickness_um": null,
+    "tip_mass_g": null,
+    "diameter_mm": null
+  },
+  "excitation": {
+    "type": "vibration",
+    "frequency_Hz": 28,
+    "acceleration_g": 1,
+    "displacement_mm": 45,
+    "motion_source": "ambient vibration"
+  },
+  "load": {
+    "load_resistance_ohm": 5000
+  },
+  "output": {
+    "resonant_frequency_Hz": 28,
+    "output_power_W": 0.00025,
+    "open_circuit_voltage_V": 0.45,
+    "short_circuit_current_A": null,
+    "bandwidth_Hz": 10
+  },
+  "evidence": {
+    "configuration": {
+      "quote": "E-shaped cantilever-based MEMS energy harvester",
+      "section": "Abstract",
+      "source_type": "abstract"
+    },
+    "proof_mass": {
+      "quote": "The purpose attaching a proof mass at the tip of the cantilever is to lower its resonant frequency",
+      "section": "II. FACTORS AFFECT THE OPTIMIZATION OF HARVESTED POWER",
+      "source_type": "section"
+    },
+    "geometry": {
+      "length_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "width_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "thickness_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "substrate_thickness_um": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "piezo_thickness_um": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "tip_mass_g": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "diameter_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      }
+    },
+    "excitation": {
+      "type": {
+        "quote": "ambient vibration excitation",
+        "section": "Abstract",
+        "source_type": "abstract"
+      },
+      "frequency_Hz": {
+        "quote": "frequencies of 28, 29, and 31 Hz",
+        "section": "Abstract",
+        "source_type": "abstract"
+      },
+      "acceleration_g": {
+        "quote": "base acceleration of 1g",
+        "section": "Abstract",
+        "source_type": "abstract"
+      },
+      "displacement_mm": {
+        "quote": "displacement at Z-direction about 5000 to 45000 micron",
+        "section": "IV. SIMULATION RESULTS",
+        "source_type": "section"
+      },
+      "motion_source": {
+        "quote": "ambient vibration",
+        "section": "Abstract",
+        "source_type": "abstract"
+      }
+    },
+    "load": {
+      "load_resistance_ohm": {
+        "quote": "5 kΩ load",
+        "section": "Abstract",
+        "source_type": "abstract"
+      }
+    },
+    "output": {
+      "resonant_frequency_Hz": {
+        "quote": "frequencies of 28, 29, and 31 Hz",
+        "section": "Abstract",
+        "source_type": "abstract"
+      },
+      "output_power_W": {
+        "quote": "0.25 milliwatts",
+        "section": "Abstract",
+        "source_type": "abstract"
+      },
+      "open_circuit_voltage_V": {
+        "quote": "maximum generated voltage is about 0.45 volts",
+        "section": "IV. SIMULATION RESULTS",
+        "source_type": "section"
+      },
+      "short_circuit_current_A": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "bandwidth_Hz": {
+        "quote": "mode frequencies of the harvester due to the cantilever three sections displacement will be 25 to 35 Hz",
+        "section": "IV. SIMULATION RESULTS",
+        "source_type": "section"
+      }
+    }
+  }
+}

@@ -1,0 +1,147 @@
+{
+  "metadata": {
+    "paper_id": "10_1109_jmems_2019_2920213",
+    "doi": "10.1109/jmems.2019.2920213",
+    "title": "Design, Fabrication, and Characterization of Bimorph Micromachined Harvester With Asymmetrical PZT Films",
+    "year": 2019,
+    "journal": "Journal of Microelectromechanical Systems"
+  },
+  "configuration": "cantilever",
+  "proof_mass": true,
+  "geometry": {
+    "length_mm": 18,
+    "width_mm": 3,
+    "thickness_mm": 0.131,
+    "substrate_thickness_um": 50,
+    "piezo_thickness_um": 81,
+    "tip_mass_g": 0.1155,
+    "diameter_mm": null
+  },
+  "excitation": {
+    "type": "vibration",
+    "frequency_Hz": 38.89,
+    "acceleration_g": 1.5,
+    "displacement_mm": null,
+    "motion_source": null
+  },
+  "load": {
+    "load_resistance_ohm": 660000
+  },
+  "output": {
+    "resonant_frequency_Hz": 38.89,
+    "output_power_W": 0.000258,
+    "open_circuit_voltage_V": 43,
+    "short_circuit_current_A": null,
+    "bandwidth_Hz": null
+  },
+  "evidence": {
+    "configuration": {
+      "quote": "bimorph MEMS cantilever harvester",
+      "section": "Abstract",
+      "source_type": "abstract"
+    },
+    "proof_mass": {
+      "quote": "proof mass tungsten bonded at the free end",
+      "section": "Abstract",
+      "source_type": "abstract"
+    },
+    "geometry": {
+      "length_mm": {
+        "quote": "length (L) of the beryllium-bronze as substrate layer are ... 18 mm",
+        "section": "II. DESIGN AND SIMULATION",
+        "source_type": "section"
+      },
+      "width_mm": {
+        "quote": "width (w) ... are ... 3 mm",
+        "section": "II. DESIGN AND SIMULATION",
+        "source_type": "section"
+      },
+      "thickness_mm": {
+        "quote": "actual thickness of the top, bottom PZT layer ... is 26 μm, 55 μm and 50 μm",
+        "section": "III. FABRICATION PROCESS AND EXPERIMENTAL RESULTS",
+        "source_type": "section"
+      },
+      "substrate_thickness_um": {
+        "quote": "thickness (t_sub) ... are 50 μm",
+        "section": "II. DESIGN AND SIMULATION",
+        "source_type": "section"
+      },
+      "piezo_thickness_um": {
+        "quote": "actual thickness of the top, bottom PZT layer ... is 26 μm, 55 μm",
+        "section": "III. FABRICATION PROCESS AND EXPERIMENTAL RESULTS",
+        "source_type": "section"
+      },
+      "tip_mass_g": {
+        "quote": "additional tungsten block (5 mm × 3 mm × 0.4 mm) as a proof mass",
+        "section": "III. FABRICATION PROCESS AND EXPERIMENTAL RESULTS",
+        "source_type": "section"
+      },
+      "diameter_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      }
+    },
+    "excitation": {
+      "type": {
+        "quote": "ambient vibration",
+        "section": "Abstract",
+        "source_type": "abstract"
+      },
+      "frequency_Hz": {
+        "quote": "resonant frequency of 38.89 Hz",
+        "section": "Abstract",
+        "source_type": "abstract"
+      },
+      "acceleration_g": {
+        "quote": "under 1.5 g acceleration",
+        "section": "Abstract",
+        "source_type": "abstract"
+      },
+      "displacement_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "motion_source": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      }
+    },
+    "load": {
+      "load_resistance_ohm": {
+        "quote": "matched loading resistance of 660 kΩ",
+        "section": "Abstract",
+        "source_type": "abstract"
+      }
+    },
+    "output": {
+      "resonant_frequency_Hz": {
+        "quote": "resonant frequency of 38.89 Hz",
+        "section": "Abstract",
+        "source_type": "abstract"
+      },
+      "output_power_W": {
+        "quote": "Power (μW) ... 258",
+        "section": "TABLE I COMPARISON OF RECENTLY REPORTED PIEZOELECTRIC ENERGY HARVESTERS",
+        "source_type": "table"
+      },
+      "open_circuit_voltage_V": {
+        "quote": "maximum open-circuit peak to peak voltages reach ... 43 V",
+        "section": "III. FABRICATION PROCESS AND EXPERIMENTAL RESULTS",
+        "source_type": "section"
+      },
+      "short_circuit_current_A": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "bandwidth_Hz": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      }
+    }
+  }
+}

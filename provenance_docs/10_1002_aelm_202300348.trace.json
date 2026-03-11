@@ -1,0 +1,28 @@
+{
+  "paper_id": "10_1002_aelm_202300348",
+  "doi": "10.1002/aelm.202300348",
+  "title": "Bioinspired PVDF Piezoelectric Generator for Harvesting Multi‐Frequency Sound Energy",
+  "source_apis": [
+    "openalex"
+  ],
+  "pdf_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/aelm.202300348",
+  "pdf_local_path": "data_registry/raw_stage04_paper_pdf_cleaned/10_1002_aelm_202300348.pdf",
+  "processing": {
+    "tool": "MinerU",
+    "version": "python -m mineru.cli.client, version 2.7.6",
+    "timestamp": "2026-03-10T09:48:20.511725+00:00",
+    "duration_s": 106.43,
+    "success": true,
+    "error": ""
+  },
+  "outputs": {
+    "content_md": "/root/EH-LLM-vehbench-exp/parsed_docs/10_1002_aelm_202300348_2_cha1kv/content.md",
+    "layout_json": "/root/EH-LLM-vehbench-exp/parsed_docs/10_1002_aelm_202300348_2_cha1kv/layout.json",
+    "images_dir": "/root/EH-LLM-vehbench-exp/parsed_docs/10_1002_aelm_202300348_2_cha1kv/10_1002_aelm_202300348/auto/images",
+    "normalized_json": "/root/EH-LLM-vehbench-exp/normalized_docs/10_1002_aelm_202300348.json"
+  },
+  "data_lineage": {
+    "papers_jsonl_hash": "9c2e6a77903a85fb238d60156922dab3",
+    "pipeline_step": "ingestion/mineru_runner.py"
+  }
+}

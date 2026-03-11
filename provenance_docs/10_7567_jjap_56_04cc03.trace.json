@@ -1,0 +1,28 @@
+{
+  "paper_id": "10_7567_jjap_56_04cc03",
+  "doi": "10.7567/jjap.56.04cc03",
+  "title": "High-efficiency MOSFET bridge rectifier for AlN MEMS cantilever vibration energy harvester",
+  "source_apis": [
+    "both"
+  ],
+  "pdf_url": "",
+  "pdf_local_path": "data_registry/raw_stage04_paper_pdf_cleaned/10_7567_jjap_56_04cc03.pdf",
+  "processing": {
+    "tool": "MinerU",
+    "version": "python -m mineru.cli.client, version 2.7.6",
+    "timestamp": "2026-03-10T09:40:11.449792+00:00",
+    "duration_s": 69.96,
+    "success": true,
+    "error": ""
+  },
+  "outputs": {
+    "content_md": "/root/EH-LLM-vehbench-exp/parsed_docs/10_7567_jjap_56_04cc03_lmxy_rbn/content.md",
+    "layout_json": "/root/EH-LLM-vehbench-exp/parsed_docs/10_7567_jjap_56_04cc03_lmxy_rbn/layout.json",
+    "images_dir": "/root/EH-LLM-vehbench-exp/parsed_docs/10_7567_jjap_56_04cc03_lmxy_rbn/10_7567_jjap_56_04cc03/auto/images",
+    "normalized_json": "/root/EH-LLM-vehbench-exp/normalized_docs/10_7567_jjap_56_04cc03.json"
+  },
+  "data_lineage": {
+    "papers_jsonl_hash": "f1aa4dcbc6dd3e186ad6c7407075c6db",
+    "pipeline_step": "ingestion/mineru_runner.py"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "paper_id": "10_1155_2018_5037187",
+  "doi": "10.1155/2018/5037187",
+  "title": "Multifrequency Piezoelectric Energy Harvester Based on Polygon‐Shaped Cantilever Array",
+  "source_apis": [
+    "openalex"
+  ],
+  "pdf_url": "http://downloads.hindawi.com/journals/sv/2018/5037187.pdf",
+  "pdf_local_path": "data_registry/raw_stage04_paper_pdf_cleaned/10_1155_2018_5037187.pdf",
+  "processing": {
+    "tool": "MinerU",
+    "version": "python -m mineru.cli.client, version 2.7.6",
+    "timestamp": "2026-03-10T09:54:41.806149+00:00",
+    "duration_s": 96.05,
+    "success": true,
+    "error": ""
+  },
+  "outputs": {
+    "content_md": "/root/EH-LLM-vehbench-exp/parsed_docs/10_1155_2018_5037187_55ru95m7/content.md",
+    "layout_json": "/root/EH-LLM-vehbench-exp/parsed_docs/10_1155_2018_5037187_55ru95m7/layout.json",
+    "images_dir": "/root/EH-LLM-vehbench-exp/parsed_docs/10_1155_2018_5037187_55ru95m7/10_1155_2018_5037187/auto/images",
+    "normalized_json": "/root/EH-LLM-vehbench-exp/normalized_docs/10_1155_2018_5037187.json"
+  },
+  "data_lineage": {
+    "papers_jsonl_hash": "1f11ec67846b674f1b5e0947f99b7e99",
+    "pipeline_step": "ingestion/mineru_runner.py"
+  }
+}

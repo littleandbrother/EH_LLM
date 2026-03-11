@@ -1,0 +1,28 @@
+{
+  "paper_id": "10_5539_jmsr_v6n4p5",
+  "doi": "10.5539/jmsr.v6n4p5",
+  "title": "Modeling, Simulation and Optimization of Piezoelectric Bimorph Transducer for Broadband Vibration Energy Harvesting",
+  "source_apis": [
+    "openalex"
+  ],
+  "pdf_url": "http://www.ccsenet.org/journal/index.php/jmsr/article/download/68572/38077",
+  "pdf_local_path": "data_registry/raw_stage04_paper_pdf_cleaned/10_5539_jmsr_v6n4p5.pdf",
+  "processing": {
+    "tool": "MinerU",
+    "version": "python -m mineru.cli.client, version 2.7.6",
+    "timestamp": "2026-03-10T10:25:13.245283+00:00",
+    "duration_s": 102.21,
+    "success": true,
+    "error": ""
+  },
+  "outputs": {
+    "content_md": "/root/EH-LLM-vehbench-exp/parsed_docs/10_5539_jmsr_v6n4p5_at0ls1wj/content.md",
+    "layout_json": "/root/EH-LLM-vehbench-exp/parsed_docs/10_5539_jmsr_v6n4p5_at0ls1wj/layout.json",
+    "images_dir": "/root/EH-LLM-vehbench-exp/parsed_docs/10_5539_jmsr_v6n4p5_at0ls1wj/10_5539_jmsr_v6n4p5/auto/images",
+    "normalized_json": "/root/EH-LLM-vehbench-exp/normalized_docs/10_5539_jmsr_v6n4p5.json"
+  },
+  "data_lineage": {
+    "papers_jsonl_hash": "bca0b434c27bbb67dcd15d7b77148300",
+    "pipeline_step": "ingestion/mineru_runner.py"
+  }
+}

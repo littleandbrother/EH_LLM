@@ -1,0 +1,28 @@
+{
+  "paper_id": "10_1088_1361_665x_aaee97",
+  "doi": "10.1088/1361-665x/aaee97",
+  "title": "Theoretical analysis and experimental study of a nonlinear U-shaped bi-directional piezoelectric energy harvester",
+  "source_apis": [
+    "both"
+  ],
+  "pdf_url": "",
+  "pdf_local_path": "data_registry/raw_stage04_paper_pdf_cleaned/10_1088_1361_665x_aaee97.pdf",
+  "processing": {
+    "tool": "MinerU",
+    "version": "python -m mineru.cli.client, version 2.7.6",
+    "timestamp": "2026-03-10T10:21:40.354441+00:00",
+    "duration_s": 106.26,
+    "success": true,
+    "error": ""
+  },
+  "outputs": {
+    "content_md": "/root/EH-LLM-vehbench-exp/parsed_docs/10_1088_1361_665x_aaee97_fbbsg6x9/content.md",
+    "layout_json": "/root/EH-LLM-vehbench-exp/parsed_docs/10_1088_1361_665x_aaee97_fbbsg6x9/layout.json",
+    "images_dir": "/root/EH-LLM-vehbench-exp/parsed_docs/10_1088_1361_665x_aaee97_fbbsg6x9/10_1088_1361_665x_aaee97/auto/images",
+    "normalized_json": "/root/EH-LLM-vehbench-exp/normalized_docs/10_1088_1361_665x_aaee97.json"
+  },
+  "data_lineage": {
+    "papers_jsonl_hash": "49675cae0c70fd8e1bb78bebc0bf08d5",
+    "pipeline_step": "ingestion/mineru_runner.py"
+  }
+}

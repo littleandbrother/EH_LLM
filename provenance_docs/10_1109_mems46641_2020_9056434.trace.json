@@ -1,0 +1,28 @@
+{
+  "paper_id": "10_1109_mems46641_2020_9056434",
+  "doi": "10.1109/mems46641.2020.9056434",
+  "title": "A MEMS Piezoelectric Vibration Energy Harvester Based on Trapezoidal Cantilever Beam Array",
+  "source_apis": [
+    "both"
+  ],
+  "pdf_url": "",
+  "pdf_local_path": "data_registry/raw_stage04_paper_pdf_cleaned/10_1109_mems46641_2020_9056434.pdf",
+  "processing": {
+    "tool": "MinerU",
+    "version": "python -m mineru.cli.client, version 2.7.6",
+    "timestamp": "2026-03-10T09:55:32.663643+00:00",
+    "duration_s": 108.47,
+    "success": true,
+    "error": ""
+  },
+  "outputs": {
+    "content_md": "/root/EH-LLM-vehbench-exp/parsed_docs/10_1109_mems46641_2020_9056434_b_b_55kd/content.md",
+    "layout_json": "/root/EH-LLM-vehbench-exp/parsed_docs/10_1109_mems46641_2020_9056434_b_b_55kd/layout.json",
+    "images_dir": "/root/EH-LLM-vehbench-exp/parsed_docs/10_1109_mems46641_2020_9056434_b_b_55kd/10_1109_mems46641_2020_9056434/auto/images",
+    "normalized_json": "/root/EH-LLM-vehbench-exp/normalized_docs/10_1109_mems46641_2020_9056434.json"
+  },
+  "data_lineage": {
+    "papers_jsonl_hash": "129a9f94a99ac0f615c36a87e211e451",
+    "pipeline_step": "ingestion/mineru_runner.py"
+  }
+}

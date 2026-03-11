@@ -1,0 +1,28 @@
+{
+  "paper_id": "10_1002_adfm_201801327",
+  "doi": "10.1002/adfm.201801327",
+  "title": "Strongly (001) Oriented Bimorph PZT Film on Metal Foils Grown by <i>rf</i>‐Sputtering for Wrist‐Worn Piezoelectric Energy Harvesters",
+  "source_apis": [
+    "openalex"
+  ],
+  "pdf_url": "",
+  "pdf_local_path": "data_registry/raw_stage04_paper_pdf_cleaned/10_1002_adfm_201801327.pdf",
+  "processing": {
+    "tool": "MinerU",
+    "version": "python -m mineru.cli.client, version 2.7.6",
+    "timestamp": "2026-03-10T09:44:56.064560+00:00",
+    "duration_s": 88.36,
+    "success": true,
+    "error": ""
+  },
+  "outputs": {
+    "content_md": "/root/EH-LLM-vehbench-exp/parsed_docs/10_1002_adfm_201801327_s0v0tax0/content.md",
+    "layout_json": "/root/EH-LLM-vehbench-exp/parsed_docs/10_1002_adfm_201801327_s0v0tax0/layout.json",
+    "images_dir": "/root/EH-LLM-vehbench-exp/parsed_docs/10_1002_adfm_201801327_s0v0tax0/10_1002_adfm_201801327/auto/images",
+    "normalized_json": "/root/EH-LLM-vehbench-exp/normalized_docs/10_1002_adfm_201801327.json"
+  },
+  "data_lineage": {
+    "papers_jsonl_hash": "ae64c05a7227f0c345651b97fcbf500c",
+    "pipeline_step": "ingestion/mineru_runner.py"
+  }
+}

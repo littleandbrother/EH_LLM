@@ -1,0 +1,64 @@
+{
+  "coverage": {
+    "total_requests": 156,
+    "valid_requests": 156,
+    "feasible_requests": 105,
+    "by_task_type": {
+      "frequency_matching": {
+        "count": 52,
+        "valid": 52,
+        "feasible": 52
+      },
+      "constrained_power_maximization": {
+        "count": 52,
+        "valid": 52,
+        "feasible": 52
+      },
+      "feasibility_repair": {
+        "count": 52,
+        "valid": 52,
+        "feasible": 1
+      }
+    }
+  },
+  "literature_backsub_raw": {
+    "count": 52,
+    "frequency_mae_hz": 1594.0272630192308,
+    "frequency_mape_pct": 759.8448795773634,
+    "frequency_median_ape_pct": 194.9715396193006,
+    "power_mape_pct": 199.48638295021695,
+    "power_median_ape_pct": 99.99104906557525,
+    "power_median_abs_log10_ratio": 3.8597311782922374,
+    "frequency_decision_consistency": 0.0
+  },
+  "literature_backsub_calibrated_frequency": {
+    "count": 52,
+    "frequency_mae_hz": 14.709469653846153,
+    "frequency_mape_pct": 7.114852720630054,
+    "frequency_median_ape_pct": 4.3287753180661594,
+    "power_mape_pct": 199.48638295021695,
+    "power_median_ape_pct": 99.99104906557525,
+    "power_median_abs_log10_ratio": 3.8597311782922374,
+    "frequency_decision_consistency": 0.5769230769230769
+  },
+  "literature_backsub_task_aware_frequency": {
+    "count": 52,
+    "frequency_mae_hz": 0.0,
+    "frequency_mape_pct": 0.0,
+    "frequency_median_ape_pct": 0.0,
+    "power_mape_pct": 199.48638295021695,
+    "power_median_ape_pct": 99.99104906557525,
+    "power_median_abs_log10_ratio": 3.8597311782922374,
+    "frequency_decision_consistency": 1.0
+  },
+  "literature_backsub_task_aware_power": {
+    "count": 52,
+    "frequency_mae_hz": 0.0,
+    "frequency_mape_pct": 0.0,
+    "frequency_median_ape_pct": 0.0,
+    "power_mape_pct": 0.004104753304329253,
+    "power_median_ape_pct": 0.0,
+    "power_median_abs_log10_ratio": 0.0,
+    "frequency_decision_consistency": 1.0
+  }
+}

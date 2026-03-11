@@ -1,0 +1,28 @@
+{
+  "paper_id": "10_1088_1361_665x_ab19d2",
+  "doi": "10.1088/1361-665x/ab19d2",
+  "title": "Low frequency piezoelectric P(VDF-TrFE) micro-cantilevers with a novel MEMS process for vibration sensor and energy harvester applications",
+  "source_apis": [
+    "both"
+  ],
+  "pdf_url": "",
+  "pdf_local_path": "data_registry/raw_stage04_paper_pdf_cleaned/10_1088_1361_665x_ab19d2.pdf",
+  "processing": {
+    "tool": "MinerU",
+    "version": "python -m mineru.cli.client, version 2.7.6",
+    "timestamp": "2026-03-10T10:10:04.652888+00:00",
+    "duration_s": 90.4,
+    "success": true,
+    "error": ""
+  },
+  "outputs": {
+    "content_md": "/root/EH-LLM-vehbench-exp/parsed_docs/10_1088_1361_665x_ab19d2_fe4_4nz3/content.md",
+    "layout_json": "/root/EH-LLM-vehbench-exp/parsed_docs/10_1088_1361_665x_ab19d2_fe4_4nz3/layout.json",
+    "images_dir": "/root/EH-LLM-vehbench-exp/parsed_docs/10_1088_1361_665x_ab19d2_fe4_4nz3/10_1088_1361_665x_ab19d2/auto/images",
+    "normalized_json": "/root/EH-LLM-vehbench-exp/normalized_docs/10_1088_1361_665x_ab19d2.json"
+  },
+  "data_lineage": {
+    "papers_jsonl_hash": "04e1fbc54e5e7920d6bf432a4d3f9202",
+    "pipeline_step": "ingestion/mineru_runner.py"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "paper_id": "10_1166_jnn_2014_10120",
+  "doi": "10.1166/jnn.2014.10120",
+  "title": "Micro electro-mechanical system piezoelectric cantilever array for a broadband vibration energy harvester.",
+  "source_apis": [
+    "both"
+  ],
+  "pdf_url": "",
+  "pdf_local_path": "data_registry/raw_stage04_paper_pdf_cleaned/10_1166_jnn_2014_10120.pdf",
+  "processing": {
+    "tool": "MinerU",
+    "version": "python -m mineru.cli.client, version 2.7.6",
+    "timestamp": "2026-03-10T10:01:28.167931+00:00",
+    "duration_s": 72.74,
+    "success": true,
+    "error": ""
+  },
+  "outputs": {
+    "content_md": "/root/EH-LLM-vehbench-exp/parsed_docs/10_1166_jnn_2014_10120_58n1v16g/content.md",
+    "layout_json": "/root/EH-LLM-vehbench-exp/parsed_docs/10_1166_jnn_2014_10120_58n1v16g/layout.json",
+    "images_dir": "/root/EH-LLM-vehbench-exp/parsed_docs/10_1166_jnn_2014_10120_58n1v16g/10_1166_jnn_2014_10120/auto/images",
+    "normalized_json": "/root/EH-LLM-vehbench-exp/normalized_docs/10_1166_jnn_2014_10120.json"
+  },
+  "data_lineage": {
+    "papers_jsonl_hash": "2a3a72e7cf997462efee724d4ed2ffb8",
+    "pipeline_step": "ingestion/mineru_runner.py"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "paper_id": "10_1017_jmech_2018_63",
+  "doi": "10.1017/jmech.2018.63",
+  "title": "Resonant Frequency Reduction of Piezoelectric Voltage Energy Harvester by Elastic Boundary Condition",
+  "source_apis": [
+    "openalex"
+  ],
+  "pdf_url": "https://academic.oup.com/jom/article-pdf/35/6/779/34416672/jom_v35_6_779.pdf",
+  "pdf_local_path": "data_registry/raw_stage04_paper_pdf_cleaned/10_1017_jmech_2018_63.pdf",
+  "processing": {
+    "tool": "MinerU",
+    "version": "python -m mineru.cli.client, version 2.7.6",
+    "timestamp": "2026-03-10T10:14:51.732132+00:00",
+    "duration_s": 102.85,
+    "success": true,
+    "error": ""
+  },
+  "outputs": {
+    "content_md": "/root/EH-LLM-vehbench-exp/parsed_docs/10_1017_jmech_2018_63_b4xip1vg/content.md",
+    "layout_json": "/root/EH-LLM-vehbench-exp/parsed_docs/10_1017_jmech_2018_63_b4xip1vg/layout.json",
+    "images_dir": "/root/EH-LLM-vehbench-exp/parsed_docs/10_1017_jmech_2018_63_b4xip1vg/10_1017_jmech_2018_63/auto/images",
+    "normalized_json": "/root/EH-LLM-vehbench-exp/normalized_docs/10_1017_jmech_2018_63.json"
+  },
+  "data_lineage": {
+    "papers_jsonl_hash": "82e222021d8ad415b61b791ed578d1e4",
+    "pipeline_step": "ingestion/mineru_runner.py"
+  }
+}

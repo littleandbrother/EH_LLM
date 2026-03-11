@@ -1,0 +1,147 @@
+{
+  "metadata": {
+    "paper_id": "10_3390_mi10100639",
+    "doi": "10.3390/mi10100639",
+    "title": "A Low-Frequency MEMS Piezoelectric Energy Harvesting System Based on Frequency Up-Conversion Mechanism",
+    "year": 2019,
+    "journal": "Micromachines"
+  },
+  "configuration": "cantilever",
+  "proof_mass": true,
+  "geometry": {
+    "length_mm": 15,
+    "width_mm": 14,
+    "thickness_mm": 0.275,
+    "substrate_thickness_um": 200,
+    "piezo_thickness_um": 65,
+    "tip_mass_g": null,
+    "diameter_mm": null
+  },
+  "excitation": {
+    "type": "vibration",
+    "frequency_Hz": 40,
+    "acceleration_g": 0.3,
+    "displacement_mm": null,
+    "motion_source": "TIRA vibration exciter"
+  },
+  "load": {
+    "load_resistance_ohm": 11000
+  },
+  "output": {
+    "resonant_frequency_Hz": 40,
+    "output_power_W": 2e-07,
+    "open_circuit_voltage_V": 0.238,
+    "short_circuit_current_A": null,
+    "bandwidth_Hz": 5
+  },
+  "evidence": {
+    "configuration": {
+      "quote": "PEHS consists of a high-frequency straight piezoelectric cantilever (SPC), a low-frequency S-shaped stainless-steel cantilever (SSC)",
+      "section": "Abstract",
+      "source_type": "abstract"
+    },
+    "proof_mass": {
+      "quote": "At the free end of the SSC, two nickel proof masses were assembled",
+      "section": "2.1. Device Configuration",
+      "source_type": "section"
+    },
+    "geometry": {
+      "length_mm": {
+        "quote": "Length of the cantilever beam 15mm",
+        "section": "2.1. Device Configuration",
+        "source_type": "table"
+      },
+      "width_mm": {
+        "quote": "surface area of the SPC was 15 × 14 mm^2",
+        "section": "2.1. Device Configuration",
+        "source_type": "section"
+      },
+      "thickness_mm": {
+        "quote": "The thickness of the cantilever was controlled using a DRIE process to about 275 μm",
+        "section": "3. Micro Fabrication Process",
+        "source_type": "section"
+      },
+      "substrate_thickness_um": {
+        "quote": "Thickness of the Si substrate 200 μm",
+        "section": "2.1. Device Configuration",
+        "source_type": "table"
+      },
+      "piezo_thickness_um": {
+        "quote": "Thickness of the PZT layer 65 μm",
+        "section": "2.1. Device Configuration",
+        "source_type": "table"
+      },
+      "tip_mass_g": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "diameter_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      }
+    },
+    "excitation": {
+      "type": {
+        "quote": "mounted onto a TIRA vibration exciter",
+        "section": "4. Experimental Results and Discussion",
+        "source_type": "section"
+      },
+      "frequency_Hz": {
+        "quote": "resonant frequency of 40 Hz",
+        "section": "4.2. The Output Performance of the PEHS",
+        "source_type": "section"
+      },
+      "acceleration_g": {
+        "quote": "acceleration of 0.3 g",
+        "section": "4.2. The Output Performance of the PEHS",
+        "source_type": "section"
+      },
+      "displacement_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "motion_source": {
+        "quote": "TIRA vibration exciter",
+        "section": "4. Experimental Results and Discussion",
+        "source_type": "section"
+      }
+    },
+    "load": {
+      "load_resistance_ohm": {
+        "quote": "optimal load resistance of 11 kΩ",
+        "section": "4.2. The Output Performance of the PEHS",
+        "source_type": "section"
+      }
+    },
+    "output": {
+      "resonant_frequency_Hz": {
+        "quote": "resonant frequency of 40 Hz",
+        "section": "4.2. The Output Performance of the PEHS",
+        "source_type": "section"
+      },
+      "output_power_W": {
+        "quote": "maximum value of the output power was 0.2 μW",
+        "section": "4.2. The Output Performance of the PEHS",
+        "source_type": "section"
+      },
+      "open_circuit_voltage_V": {
+        "quote": "The maximum voltage of 238 mV appeared at 0.3 g for a distance of 0.9 mm",
+        "section": "4.2. The Output Performance of the PEHS",
+        "source_type": "section"
+      },
+      "short_circuit_current_A": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "bandwidth_Hz": {
+        "quote": "half-bandwidth of the PEHS at a gain of 0.5 was approximately 5 Hz",
+        "section": "4.2. The Output Performance of the PEHS",
+        "source_type": "section"
+      }
+    }
+  }
+}

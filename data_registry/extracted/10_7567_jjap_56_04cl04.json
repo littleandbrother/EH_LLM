@@ -1,0 +1,147 @@
+{
+  "metadata": {
+    "paper_id": "10_7567_jjap_56_04cl04",
+    "doi": "10.7567/jjap.56.04cl04",
+    "title": "Piezoelectric vibration energy harvesters with stretched and multistacked organic ferroelectric films",
+    "year": 2017,
+    "journal": "Japanese Journal of Applied Physics"
+  },
+  "configuration": "cantilever",
+  "proof_mass": true,
+  "geometry": {
+    "length_mm": 7,
+    "width_mm": 5,
+    "thickness_mm": null,
+    "substrate_thickness_um": 25,
+    "piezo_thickness_um": 2,
+    "tip_mass_g": 0.04,
+    "diameter_mm": null
+  },
+  "excitation": {
+    "type": "vibration",
+    "frequency_Hz": 26,
+    "acceleration_g": 1.02,
+    "displacement_mm": null,
+    "motion_source": null
+  },
+  "load": {
+    "load_resistance_ohm": null
+  },
+  "output": {
+    "resonant_frequency_Hz": 26,
+    "output_power_W": 2.5e-06,
+    "open_circuit_voltage_V": null,
+    "short_circuit_current_A": null,
+    "bandwidth_Hz": null
+  },
+  "evidence": {
+    "configuration": {
+      "quote": "cantilever-type energy harvesters",
+      "section": "2. Experimental methods",
+      "source_type": "section"
+    },
+    "proof_mass": {
+      "quote": "attaching a weight of 0.04 g to the tip of the cantilever",
+      "section": "2. Experimental methods",
+      "source_type": "section"
+    },
+    "geometry": {
+      "length_mm": {
+        "quote": "5 mm x 7 mm",
+        "section": "2. Experimental methods",
+        "source_type": "section"
+      },
+      "width_mm": {
+        "quote": "5 mm x 7 mm",
+        "section": "2. Experimental methods",
+        "source_type": "section"
+      },
+      "thickness_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "substrate_thickness_um": {
+        "quote": "25-μm-thick polyethylene naphthalate (PEN) films",
+        "section": "2. Experimental methods",
+        "source_type": "section"
+      },
+      "piezo_thickness_um": {
+        "quote": "thickness of the P(VDF/TrFE) films was about 2.0 μm",
+        "section": "2. Experimental methods",
+        "source_type": "section"
+      },
+      "tip_mass_g": {
+        "quote": "weight of 0.04 g",
+        "section": "2. Experimental methods",
+        "source_type": "section"
+      },
+      "diameter_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      }
+    },
+    "excitation": {
+      "type": {
+        "quote": "mechanical vibrations were applied",
+        "section": "2. Experimental methods",
+        "source_type": "section"
+      },
+      "frequency_Hz": {
+        "quote": "Resonant frequencies for single-layered and four-layered cantilevers were observed to be 24.6 Hz and 26.0 Hz",
+        "section": "3. Results and discussion",
+        "source_type": "section"
+      },
+      "acceleration_g": {
+        "quote": "acceleration of 10 m/s^2",
+        "section": "2. Experimental methods",
+        "source_type": "section"
+      },
+      "displacement_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "motion_source": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      }
+    },
+    "load": {
+      "load_resistance_ohm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      }
+    },
+    "output": {
+      "resonant_frequency_Hz": {
+        "quote": "Resonant frequencies for single-layered and four-layered cantilevers were observed to be 24.6 Hz and 26.0 Hz",
+        "section": "3. Results and discussion",
+        "source_type": "section"
+      },
+      "output_power_W": {
+        "quote": "The generated power of the four-layer laminated harvesters was measured to be 2.5 μW",
+        "section": "3. Results and discussion",
+        "source_type": "section"
+      },
+      "open_circuit_voltage_V": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "short_circuit_current_A": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "bandwidth_Hz": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      }
+    }
+  }
+}

@@ -1,0 +1,147 @@
+{
+  "metadata": {
+    "paper_id": "10_1109_uksim_2013_125",
+    "doi": "10.1109/uksim.2013.125",
+    "title": "Shape Optimization of Cantilever-based MEMS Piezoelectric Energy Harvester for Low Frequency Applications",
+    "year": 2013,
+    "journal": "2013 UKSim 15th International Conference on Computer Modelling and Simulation"
+  },
+  "configuration": "cantilever",
+  "proof_mass": true,
+  "geometry": {
+    "length_mm": 6.8,
+    "width_mm": null,
+    "thickness_mm": 0.015,
+    "substrate_thickness_um": 10,
+    "piezo_thickness_um": 5,
+    "tip_mass_g": null,
+    "diameter_mm": null
+  },
+  "excitation": {
+    "type": "vibration",
+    "frequency_Hz": 12.8,
+    "acceleration_g": 0.102,
+    "displacement_mm": null,
+    "motion_source": "ambient vibration"
+  },
+  "load": {
+    "load_resistance_ohm": 2000
+  },
+  "output": {
+    "resonant_frequency_Hz": 12.8,
+    "output_power_W": 1.0,
+    "open_circuit_voltage_V": 0.45,
+    "short_circuit_current_A": null,
+    "bandwidth_Hz": null
+  },
+  "evidence": {
+    "configuration": {
+      "quote": "E-shaped cantilever-based MEMS energy harvester",
+      "section": "Shape Optimization of Cantilever-based MEMS Piezoelectric Energy Harvester for Low Frequency Applications",
+      "source_type": "abstract"
+    },
+    "proof_mass": {
+      "quote": "suspended with different sizes of silicon proof masses at the tip",
+      "section": "III. MODELING OF E-SHAPED CANTILEVER-BASED MEMS ENERGY HARVESTER",
+      "source_type": "section"
+    },
+    "geometry": {
+      "length_mm": {
+        "quote": "cantilever lengths are equal to 6.8, 3.2, 0.18 mm",
+        "section": "III. MODELING OF E-SHAPED CANTILEVER-BASED MEMS ENERGY HARVESTER",
+        "source_type": "section"
+      },
+      "width_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "thickness_mm": {
+        "quote": "thicknesses of the silicon-support layer, the PZT layer, and the proof masses are 10, 5, and 20 um, respectively",
+        "section": "III. MODELING OF E-SHAPED CANTILEVER-BASED MEMS ENERGY HARVESTER",
+        "source_type": "section"
+      },
+      "substrate_thickness_um": {
+        "quote": "thicknesses of the silicon-support layer, the PZT layer, and the proof masses are 10, 5, and 20 um, respectively",
+        "section": "III. MODELING OF E-SHAPED CANTILEVER-BASED MEMS ENERGY HARVESTER",
+        "source_type": "section"
+      },
+      "piezo_thickness_um": {
+        "quote": "thicknesses of the silicon-support layer, the PZT layer, and the proof masses are 10, 5, and 20 um, respectively",
+        "section": "III. MODELING OF E-SHAPED CANTILEVER-BASED MEMS ENERGY HARVESTER",
+        "source_type": "section"
+      },
+      "tip_mass_g": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "diameter_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      }
+    },
+    "excitation": {
+      "type": {
+        "quote": "ambient vibration-based",
+        "section": "Shape Optimization of Cantilever-based MEMS Piezoelectric Energy Harvester for Low Frequency Applications",
+        "source_type": "abstract"
+      },
+      "frequency_Hz": {
+        "quote": "frequencies of 12.8, 17.1, and 21.3 Hz",
+        "section": "Shape Optimization of Cantilever-based MEMS Piezoelectric Energy Harvester for Low Frequency Applications",
+        "source_type": "abstract"
+      },
+      "acceleration_g": {
+        "quote": "base acceleration of 1 m/s^2",
+        "section": "Shape Optimization of Cantilever-based MEMS Piezoelectric Energy Harvester for Low Frequency Applications",
+        "source_type": "abstract"
+      },
+      "displacement_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "motion_source": {
+        "quote": "ambient vibration-based",
+        "section": "Shape Optimization of Cantilever-based MEMS Piezoelectric Energy Harvester for Low Frequency Applications",
+        "source_type": "abstract"
+      }
+    },
+    "load": {
+      "load_resistance_ohm": {
+        "quote": "2 kΩ load",
+        "section": "Shape Optimization of Cantilever-based MEMS Piezoelectric Energy Harvester for Low Frequency Applications",
+        "source_type": "abstract"
+      }
+    },
+    "output": {
+      "resonant_frequency_Hz": {
+        "quote": "frequencies of 12.8, 17.1, and 21.3 Hz",
+        "section": "Shape Optimization of Cantilever-based MEMS Piezoelectric Energy Harvester for Low Frequency Applications",
+        "source_type": "abstract"
+      },
+      "output_power_W": {
+        "quote": "produces an output power of 1.0 W",
+        "section": "Shape Optimization of Cantilever-based MEMS Piezoelectric Energy Harvester for Low Frequency Applications",
+        "source_type": "abstract"
+      },
+      "open_circuit_voltage_V": {
+        "quote": "reported output voltage from the Analyzer/MemMech simulation is about 0.45 volts",
+        "section": "V. CONCLUSIONS",
+        "source_type": "section"
+      },
+      "short_circuit_current_A": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "bandwidth_Hz": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      }
+    }
+  }
+}

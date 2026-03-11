@@ -1,0 +1,147 @@
+{
+  "metadata": {
+    "paper_id": "10_1016_j_rinp_2018_09_009",
+    "doi": "10.1016/j.rinp.2018.09.009",
+    "title": "Fabrication and characterization of miniature nonlinear piezoelectric harvester applied for low frequency and weak vibration",
+    "year": 2018,
+    "journal": "Results in Physics"
+  },
+  "configuration": "cantilever",
+  "proof_mass": true,
+  "geometry": {
+    "length_mm": 25,
+    "width_mm": 14,
+    "thickness_mm": 0.05,
+    "substrate_thickness_um": 50,
+    "piezo_thickness_um": 1.1,
+    "tip_mass_g": 0.44,
+    "diameter_mm": null
+  },
+  "excitation": {
+    "type": "vibration",
+    "frequency_Hz": 17.6,
+    "acceleration_g": 0.12,
+    "displacement_mm": null,
+    "motion_source": null
+  },
+  "load": {
+    "load_resistance_ohm": 150000
+  },
+  "output": {
+    "resonant_frequency_Hz": 17.6,
+    "output_power_W": 8.5e-07,
+    "open_circuit_voltage_V": 1.6,
+    "short_circuit_current_A": null,
+    "bandwidth_Hz": 8.4
+  },
+  "evidence": {
+    "configuration": {
+      "quote": "PZT thick films were deposited on cantilever-shaped titanium (Ti) substrate",
+      "section": "Abstract",
+      "source_type": "abstract"
+    },
+    "proof_mass": {
+      "quote": "a proof mass is added at the free end of the cantilever beam",
+      "section": "3.3 Nonlinear piezoelectric energy harvester",
+      "source_type": "section"
+    },
+    "geometry": {
+      "length_mm": {
+        "quote": "The length, width and height of the cantilever beam are 25mm, 14mm, 50 μm",
+        "section": "3.3 Nonlinear piezoelectric energy harvester",
+        "source_type": "section"
+      },
+      "width_mm": {
+        "quote": "The length, width and height of the cantilever beam are 25mm, 14mm, 50 μm",
+        "section": "3.3 Nonlinear piezoelectric energy harvester",
+        "source_type": "section"
+      },
+      "thickness_mm": {
+        "quote": "The length, width and height of the cantilever beam are 25mm, 14mm, 50 μm",
+        "section": "3.3 Nonlinear piezoelectric energy harvester",
+        "source_type": "section"
+      },
+      "substrate_thickness_um": {
+        "quote": "A 50 μm thick titanium sheet was selected as the substrate",
+        "section": "2.Experimental",
+        "source_type": "section"
+      },
+      "piezo_thickness_um": {
+        "quote": "piezoelectric film (1.1µm thick)",
+        "section": "3.2 Electrical properties",
+        "source_type": "section"
+      },
+      "tip_mass_g": {
+        "quote": "weight of the proof mass (12mm×2mm×3mm) is 0.44 g",
+        "section": "3.3 Nonlinear piezoelectric energy harvester",
+        "source_type": "section"
+      },
+      "diameter_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      }
+    },
+    "excitation": {
+      "type": {
+        "quote": "input vibration acceleration",
+        "section": "Abstract",
+        "source_type": "abstract"
+      },
+      "frequency_Hz": {
+        "quote": "low resonant frequency of 17.6 Hz",
+        "section": "Abstract",
+        "source_type": "abstract"
+      },
+      "acceleration_g": {
+        "quote": "input vibration acceleration was 0.12 g",
+        "section": "Abstract",
+        "source_type": "abstract"
+      },
+      "displacement_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "motion_source": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      }
+    },
+    "load": {
+      "load_resistance_ohm": {
+        "quote": "with 150 kΩ load resistance",
+        "section": "Abstract",
+        "source_type": "abstract"
+      }
+    },
+    "output": {
+      "resonant_frequency_Hz": {
+        "quote": "low resonant frequency of 17.6 Hz",
+        "section": "Abstract",
+        "source_type": "abstract"
+      },
+      "output_power_W": {
+        "quote": "output power is 0.85 μW",
+        "section": "Abstract",
+        "source_type": "abstract"
+      },
+      "open_circuit_voltage_V": {
+        "quote": "maximum open-circuit voltage of the piezoelectric energy harvester is 1.6 V",
+        "section": "Abstract",
+        "source_type": "abstract"
+      },
+      "short_circuit_current_A": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "bandwidth_Hz": {
+        "quote": "frequency bandwidth is broadened from 0 to 8.4Hz",
+        "section": "Abstract",
+        "source_type": "abstract"
+      }
+    }
+  }
+}

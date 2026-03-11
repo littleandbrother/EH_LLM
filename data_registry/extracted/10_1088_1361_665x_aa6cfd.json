@@ -1,0 +1,147 @@
+{
+  "metadata": {
+    "paper_id": "10_1088_1361_665x_aa6cfd",
+    "doi": "10.1088/1361-665x/aa6cfd",
+    "title": "Experimental investigation of fan-folded piezoelectric energy harvesters for powering pacemakers",
+    "year": 2017,
+    "journal": "Smart Materials and Structures"
+  },
+  "configuration": "cantilever",
+  "proof_mass": true,
+  "geometry": {
+    "length_mm": 20.0,
+    "width_mm": 5.0,
+    "thickness_mm": null,
+    "substrate_thickness_um": 190.0,
+    "piezo_thickness_um": 190.0,
+    "tip_mass_g": 18.4,
+    "diameter_mm": null
+  },
+  "excitation": {
+    "type": "vibration",
+    "frequency_Hz": null,
+    "acceleration_g": null,
+    "displacement_mm": null,
+    "motion_source": "heartbeat"
+  },
+  "load": {
+    "load_resistance_ohm": 80000.0
+  },
+  "output": {
+    "resonant_frequency_Hz": 15.79,
+    "output_power_W": 1.625e-05,
+    "open_circuit_voltage_V": null,
+    "short_circuit_current_A": null,
+    "bandwidth_Hz": null
+  },
+  "evidence": {
+    "configuration": {
+      "quote": "fan-folded structure consisting of bimorph piezoelectric beams",
+      "section": "Abstract",
+      "source_type": "abstract"
+    },
+    "proof_mass": {
+      "quote": "tip mass is added to the top beam",
+      "section": "2. Prototypes structure",
+      "source_type": "section"
+    },
+    "geometry": {
+      "length_mm": {
+        "quote": "Each beam is 20 mm long",
+        "section": "2.3. Prototype 2",
+        "source_type": "section"
+      },
+      "width_mm": {
+        "quote": "5 mm wide",
+        "section": "2.3. Prototype 2",
+        "source_type": "section"
+      },
+      "thickness_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "substrate_thickness_um": {
+        "quote": "0.19 mm thick brass substrate",
+        "section": "2.3. Prototype 2",
+        "source_type": "section"
+      },
+      "piezo_thickness_um": {
+        "quote": "two 0.19 mm thick piezoelectric patches",
+        "section": "2.3. Prototype 2",
+        "source_type": "section"
+      },
+      "tip_mass_g": {
+        "quote": "18.4 g tip mass",
+        "section": "4.3. Power generated from the heartbeat",
+        "source_type": "section"
+      },
+      "diameter_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      }
+    },
+    "excitation": {
+      "type": {
+        "quote": "excited by the heartbeat",
+        "section": "Abstract",
+        "source_type": "abstract"
+      },
+      "frequency_Hz": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "acceleration_g": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "displacement_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "motion_source": {
+        "quote": "reproduce the heartbeat vibrations",
+        "section": "Abstract",
+        "source_type": "abstract"
+      }
+    },
+    "load": {
+      "load_resistance_ohm": {
+        "quote": "80 K Ohm for the EH with ... 18.4 g tip mass",
+        "section": "4.3. Power generated from the heartbeat",
+        "source_type": "section"
+      }
+    },
+    "output": {
+      "resonant_frequency_Hz": {
+        "quote": "The first resonance is 15.79 Hz",
+        "section": "4.2. Characterization with sine wave",
+        "source_type": "section"
+      },
+      "output_power_W": {
+        "quote": "maximum accumulative power ... with the 18.4 g tip mass is 16.25 uW",
+        "section": "4.3. Power generated from the heartbeat",
+        "source_type": "section"
+      },
+      "open_circuit_voltage_V": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "short_circuit_current_A": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "bandwidth_Hz": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      }
+    }
+  }
+}

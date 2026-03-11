@@ -1,0 +1,147 @@
+{
+  "metadata": {
+    "paper_id": "10_1109_mhs_2013_6710467",
+    "doi": "10.1109/mhs.2013.6710467",
+    "title": "Modeling of metal-based piezoelectric MEMS energy harvesters",
+    "year": 2013,
+    "journal": "Micro-NanoMechatronics and Human Science"
+  },
+  "configuration": "cantilever",
+  "proof_mass": true,
+  "geometry": {
+    "length_mm": 10,
+    "width_mm": 10,
+    "thickness_mm": null,
+    "substrate_thickness_um": 50,
+    "piezo_thickness_um": 3.55,
+    "tip_mass_g": 0.48,
+    "diameter_mm": null
+  },
+  "excitation": {
+    "type": "vibration",
+    "frequency_Hz": 75,
+    "acceleration_g": 0.51,
+    "displacement_mm": 0.435,
+    "motion_source": null
+  },
+  "load": {
+    "load_resistance_ohm": 20000
+  },
+  "output": {
+    "resonant_frequency_Hz": 75,
+    "output_power_W": 1.1e-06,
+    "open_circuit_voltage_V": 0.326,
+    "short_circuit_current_A": null,
+    "bandwidth_Hz": null
+  },
+  "evidence": {
+    "configuration": {
+      "quote": "stainless steel cantilever",
+      "section": "Abstract",
+      "source_type": "abstract"
+    },
+    "proof_mass": {
+      "quote": "attaching a tip mass",
+      "section": "Abstract",
+      "source_type": "abstract"
+    },
+    "geometry": {
+      "length_mm": {
+        "quote": "length: 10 mm",
+        "section": "Abstract",
+        "source_type": "abstract"
+      },
+      "width_mm": {
+        "quote": "width: 10 mm",
+        "section": "Abstract",
+        "source_type": "abstract"
+      },
+      "thickness_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "substrate_thickness_um": {
+        "quote": "50-μm-thick",
+        "section": "Abstract",
+        "source_type": "abstract"
+      },
+      "piezo_thickness_um": {
+        "quote": "thickness of the PZT thin film was 3.55 μm",
+        "section": "2. DEVICE FABRICATION",
+        "source_type": "section"
+      },
+      "tip_mass_g": {
+        "quote": "weight: 480 mg",
+        "section": "Abstract",
+        "source_type": "abstract"
+      },
+      "diameter_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      }
+    },
+    "excitation": {
+      "type": {
+        "quote": "under vibration",
+        "section": "Abstract",
+        "source_type": "abstract"
+      },
+      "frequency_Hz": {
+        "quote": "75 Hz",
+        "section": "Abstract",
+        "source_type": "abstract"
+      },
+      "acceleration_g": {
+        "quote": "acceleration amplitude: 5 m/s^2",
+        "section": "Abstract",
+        "source_type": "abstract"
+      },
+      "displacement_mm": {
+        "quote": "435 μm",
+        "section": "4. POWER GENERATION PERFORMANCE",
+        "source_type": "section"
+      },
+      "motion_source": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      }
+    },
+    "load": {
+      "load_resistance_ohm": {
+        "quote": "load resistance: 20 kΩ",
+        "section": "Abstract",
+        "source_type": "abstract"
+      }
+    },
+    "output": {
+      "resonant_frequency_Hz": {
+        "quote": "75 Hz",
+        "section": "Abstract",
+        "source_type": "abstract"
+      },
+      "output_power_W": {
+        "quote": "1.1 μW",
+        "section": "Abstract",
+        "source_type": "abstract"
+      },
+      "open_circuit_voltage_V": {
+        "quote": "326 mV",
+        "section": "4. POWER GENERATION PERFORMANCE",
+        "source_type": "section"
+      },
+      "short_circuit_current_A": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "bandwidth_Hz": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      }
+    }
+  }
+}

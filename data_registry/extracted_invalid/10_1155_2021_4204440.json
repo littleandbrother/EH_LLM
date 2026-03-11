@@ -1,0 +1,293 @@
+{
+  "status": "invalid",
+  "doc_path": "/Users/depengsu/Desktop/paper_story_agnet/EH-LLM-vehbench-exp/normalized_docs/10_1155_2021_4204440.json",
+  "doc_metadata": {
+    "paper_id": "10_1155_2021_4204440",
+    "doi": "10.1155/2021/4204440",
+    "title": "Segmented Cantilever and Array Configurations for Wider Frequency Band and Higher Power Generation in Piezoelectric Vibration Energy Harvester",
+    "year": 2021,
+    "journal": "Wireless Communications and Mobile Computing"
+  },
+  "errors": [
+    "evidence.quote missing for geometry.substrate_thickness_um",
+    "evidence.source_type missing for geometry.substrate_thickness_um",
+    "evidence.section missing for geometry.substrate_thickness_um",
+    "evidence.quote missing for geometry.piezo_thickness_um",
+    "evidence.source_type missing for geometry.piezo_thickness_um",
+    "evidence.section missing for geometry.piezo_thickness_um"
+  ],
+  "warnings": [],
+  "record": {
+    "metadata": {
+      "paper_id": "10_1155_2021_4204440",
+      "doi": "10.1155/2021/4204440",
+      "title": "Segmented Cantilever and Array Configurations for Wider Frequency Band and Higher Power Generation in Piezoelectric Vibration Energy Harvester",
+      "year": 2021,
+      "journal": "Wireless Communications and Mobile Computing"
+    },
+    "configuration": "cantilever",
+    "proof_mass": true,
+    "geometry": {
+      "length_mm": 70,
+      "width_mm": 11,
+      "thickness_mm": 0.6,
+      "substrate_thickness_um": 600,
+      "piezo_thickness_um": 200,
+      "tip_mass_g": 5.06,
+      "diameter_mm": null
+    },
+    "excitation": {
+      "type": "vibration",
+      "frequency_Hz": 29.2,
+      "acceleration_g": 0.7,
+      "displacement_mm": 0.5,
+      "motion_source": "shaker"
+    },
+    "load": {
+      "load_resistance_ohm": 20000
+    },
+    "output": {
+      "resonant_frequency_Hz": 29.2,
+      "output_power_W": 0.0205,
+      "open_circuit_voltage_V": null,
+      "short_circuit_current_A": null,
+      "bandwidth_Hz": 10
+    },
+    "evidence": {
+      "configuration": {
+        "quote": "two-segment cantilever beams",
+        "section": "3. Description of the C-VEH Model Design",
+        "source_type": "section"
+      },
+      "proof_mass": {
+        "quote": "two suspended masses M1 and M2",
+        "section": "3. Description of the C-VEH Model Design",
+        "source_type": "section"
+      },
+      "geometry": {
+        "length_mm": {
+          "quote": "70 × 11 × 0.6",
+          "section": "TABLE 2: Parameters of the C-VEH Investigated in this letter.",
+          "source_type": "table"
+        },
+        "width_mm": {
+          "quote": "70 × 11 × 0.6",
+          "section": "TABLE 2: Parameters of the C-VEH Investigated in this letter.",
+          "source_type": "table"
+        },
+        "thickness_mm": {
+          "quote": "70 × 11 × 0.6",
+          "section": "TABLE 2: Parameters of the C-VEH Investigated in this letter.",
+          "source_type": "table"
+        },
+        "substrate_thickness_um": {
+          "quote": null,
+          "section": null,
+          "source_type": null
+        },
+        "piezo_thickness_um": {
+          "quote": null,
+          "section": null,
+          "source_type": null
+        },
+        "tip_mass_g": {
+          "quote": "5.06 (M1)",
+          "section": "TABLE 2: Parameters of the C-VEH Investigated in this letter.",
+          "source_type": "table"
+        },
+        "diameter_mm": {
+          "quote": null,
+          "section": null,
+          "source_type": null
+        }
+      },
+      "excitation": {
+        "type": {
+          "quote": "Piezoelectric Vibration Energy Harvester",
+          "section": "title",
+          "source_type": "title"
+        },
+        "frequency_Hz": {
+          "quote": "20.5 mW at 29.2 Hz",
+          "section": "abstract",
+          "source_type": "abstract"
+        },
+        "acceleration_g": {
+          "quote": "acceleration of 0.7 g",
+          "section": "abstract",
+          "source_type": "abstract"
+        },
+        "displacement_mm": {
+          "quote": "amplitude is 0.5 mm",
+          "section": "6. Experimental Analysis",
+          "source_type": "section"
+        },
+        "motion_source": {
+          "quote": "shaker (YE5871)",
+          "section": "6. Experimental Analysis",
+          "source_type": "section"
+        }
+      },
+      "load": {
+        "load_resistance_ohm": {
+          "quote": "20 KΩ",
+          "section": "TABLE 3: Comparison of experimental results of the C-VEH and the T-VEH.",
+          "source_type": "table"
+        }
+      },
+      "output": {
+        "resonant_frequency_Hz": {
+          "quote": "20.5 mW at 29.2 Hz",
+          "section": "abstract",
+          "source_type": "abstract"
+        },
+        "output_power_W": {
+          "quote": "20.5 mW",
+          "section": "abstract",
+          "source_type": "abstract"
+        },
+        "open_circuit_voltage_V": {
+          "quote": null,
+          "section": null,
+          "source_type": null
+        },
+        "short_circuit_current_A": {
+          "quote": null,
+          "section": null,
+          "source_type": null
+        },
+        "bandwidth_Hz": {
+          "quote": "27.5 Hz to 37.5 Hz",
+          "section": "abstract",
+          "source_type": "abstract"
+        }
+      }
+    }
+  },
+  "llm_result": {
+    "ok": true,
+    "data": {
+      "configuration": "cantilever",
+      "proof_mass": true,
+      "geometry": {
+        "length_mm": 70,
+        "width_mm": 11,
+        "thickness_mm": 0.6,
+        "substrate_thickness_um": 600,
+        "piezo_thickness_um": 200,
+        "tip_mass_g": 5.06
+      },
+      "excitation": {
+        "type": "vibration",
+        "frequency_Hz": 29.2,
+        "acceleration_g": 0.7,
+        "displacement_mm": 0.5,
+        "motion_source": "shaker"
+      },
+      "load": {
+        "load_resistance_ohm": 20000
+      },
+      "output": {
+        "resonant_frequency_Hz": 29.2,
+        "output_power_W": 0.0205,
+        "bandwidth_Hz": 10
+      },
+      "evidence": {
+        "configuration": {
+          "quote": "two-segment cantilever beams",
+          "section": "3. Description of the C-VEH Model Design",
+          "source_type": "section"
+        },
+        "proof_mass": {
+          "quote": "two suspended masses M1 and M2",
+          "section": "3. Description of the C-VEH Model Design",
+          "source_type": "section"
+        },
+        "geometry": {
+          "length_mm": {
+            "quote": "70 × 11 × 0.6",
+            "section": "TABLE 2: Parameters of the C-VEH Investigated in this letter.",
+            "source_type": "table"
+          },
+          "width_mm": {
+            "quote": "70 × 11 × 0.6",
+            "section": "TABLE 2: Parameters of the C-VEH Investigated in this letter.",
+            "source_type": "table"
+          },
+          "thickness_mm": {
+            "quote": "70 × 11 × 0.6",
+            "section": "TABLE 2: Parameters of the C-VEH Investigated in this letter.",
+            "source_type": "table"
+          },
+          "substrate_thicknessum": {
+            "quote": "70 × 11 × 0.6",
+            "section": "TABLE 2: Parameters of the C-VEH Investigated in this letter.",
+            "source_type": "table"
+          },
+          "piezo_thicknessum": {
+            "quote": "60 × 5 × 0.2 (PZT1, PZT2)",
+            "section": "TABLE 2: Parameters of the C-VEH Investigated in this letter.",
+            "source_type": "table"
+          },
+          "tip_mass_g": {
+            "quote": "5.06 (M1)",
+            "section": "TABLE 2: Parameters of the C-VEH Investigated in this letter.",
+            "source_type": "table"
+          }
+        },
+        "excitation": {
+          "type": {
+            "quote": "Piezoelectric Vibration Energy Harvester",
+            "section": "title",
+            "source_type": "title"
+          },
+          "frequency_Hz": {
+            "quote": "20.5 mW at 29.2 Hz",
+            "section": "abstract",
+            "source_type": "abstract"
+          },
+          "acceleration_g": {
+            "quote": "acceleration of 0.7 g",
+            "section": "abstract",
+            "source_type": "abstract"
+          },
+          "displacement_mm": {
+            "quote": "amplitude is 0.5 mm",
+            "section": "6. Experimental Analysis",
+            "source_type": "section"
+          },
+          "motion_source": {
+            "quote": "shaker (YE5871)",
+            "section": "6. Experimental Analysis",
+            "source_type": "section"
+          }
+        },
+        "load": {
+          "load_resistance_ohm": {
+            "quote": "20 KΩ",
+            "section": "TABLE 3: Comparison of experimental results of the C-VEH and the T-VEH.",
+            "source_type": "table"
+          }
+        },
+        "output": {
+          "resonant_frequency_Hz": {
+            "quote": "20.5 mW at 29.2 Hz",
+            "section": "abstract",
+            "source_type": "abstract"
+          },
+          "output_power_W": {
+            "quote": "20.5 mW",
+            "section": "abstract",
+            "source_type": "abstract"
+          },
+          "bandwidth_Hz": {
+            "quote": "27.5 Hz to 37.5 Hz",
+            "section": "abstract",
+            "source_type": "abstract"
+          }
+        }
+      }
+    },
+    "raw_output": "{\n  \"configuration\": \"cantilever\",\n  \"proof_mass\": true,\n  \"geometry\": {\n    \"length_mm\": 70,\n    \"width_mm\": 11,\n    \"thickness_mm\": 0.6,\n    \"substrate_thickness_um\": 600,\n    \"piezo_thickness_um\": 200,\n    \"tip_mass_g\": 5.06\n  },\n  \"excitation\": {\n    \"type\": \"vibration\",\n    \"frequency_Hz\": 29.2,\n    \"acceleration_g\": 0.7,\n    \"displacement_mm\": 0.5,\n    \"motion_source\": \"shaker\"\n  },\n  \"load\": {\n    \"load_resistance_ohm\": 20000\n  },\n  \"output\": {\n    \"resonant_frequency_Hz\": 29.2,\n    \"output_power_W\": 0.0205,\n    \"bandwidth_Hz\": 10\n  },\n  \"evidence\": {\n    \"configuration\": {\n      \"quote\": \"two-segment cantilever beams\",\n      \"section\": \"3. Description of the C-VEH Model Design\",\n      \"source_type\": \"section\"\n    },\n    \"proof_mass\": {\n      \"quote\": \"two suspended masses M1 and M2\",\n      \"section\": \"3. Description of the C-VEH Model Design\",\n      \"source_type\": \"section\"\n    },\n    \"geometry\": {\n      \"length_mm\": {\n        \"quote\": \"70 × 11 × 0.6\",\n        \"section\": \"TABLE 2: Parameters of the C-VEH Investigated in this letter.\",\n        \"source_type\": \"table\"\n      },\n      \"width_mm\": {\n        \"quote\": \"70 × 11 × 0.6\",\n        \"section\": \"TABLE 2: Parameters of the C-VEH Investigated in this letter.\",\n        \"source_type\": \"table\"\n      },\n      \"thickness_mm\": {\n        \"quote\": \"70 × 11 × 0.6\",\n        \"section\": \"TABLE 2: Parameters of the C-VEH Investigated in this letter.\",\n        \"source_type\": \"table\"\n      },\n      \"substrate_thicknessum\": {\n        \"quote\": \"70 × 11 × 0.6\",\n        \"section\": \"TABLE 2: Parameters of the C-VEH Investigated in this letter.\",\n        \"source_type\": \"table\"\n      },\n      \"piezo_thicknessum\": {\n        \"quote\": \"60 × 5 × 0.2 (PZT1, PZT2)\",\n        \"section\": \"TABLE 2: Parameters of the C-VEH Investigated in this letter.\",\n        \"source_type\": \"table\"\n      },\n      \"tip_mass_g\": {\n        \"quote\": \"5.06 (M1)\",\n        \"section\": \"TABLE 2: Parameters of the C-VEH Investigated in this letter.\",\n        \"source_type\": \"table\"\n      }\n    },\n    \"excitation\": {\n      \"type\": {\n        \"quote\": \"Piezoelectric Vibration Energy Harvester\",\n        \"section\": \"title\",\n        \"source_type\": \"title\"\n      },\n      \"frequency_Hz\": {\n        \"quote\": \"20.5 mW at 29.2 Hz\",\n        \"section\": \"abstract\",\n        \"source_type\": \"abstract\"\n      },\n      \"acceleration_g\": {\n        \"quote\": \"acceleration of 0.7 g\",\n        \"section\": \"abstract\",\n        \"source_type\": \"abstract\"\n      },\n      \"displacement_mm\": {\n        \"quote\": \"amplitude is 0.5 mm\",\n        \"section\": \"6. Experimental Analysis\",\n        \"source_type\": \"section\"\n      },\n      \"motion_source\": {\n        \"quote\": \"shaker (YE5871)\",\n        \"section\": \"6. Experimental Analysis\",\n        \"source_type\": \"section\"\n      }\n    },\n    \"load\": {\n      \"load_resistance_ohm\": {\n        \"quote\": \"20 KΩ\",\n        \"section\": \"TABLE 3: Comparison of experimental results of the C-VEH and the T-VEH.\",\n        \"source_type\": \"table\"\n      }\n    },\n    \"output\": {\n      \"resonant_frequency_Hz\": {\n        \"quote\": \"20.5 mW at 29.2 Hz\",\n        \"section\": \"abstract\",\n        \"source_type\": \"abstract\"\n      },\n      \"output_power_W\": {\n        \"quote\": \"20.5 mW\",\n        \"section\": \"abstract\",\n        \"source_type\": \"abstract\"\n      },\n      \"bandwidth_Hz\": {\n        \"quote\": \"27.5 Hz to 37.5 Hz\",\n        \"section\": \"abstract\",\n        \"source_type\": \"abstract\"\n      }\n    }\n  }\n}"
+  }
+}

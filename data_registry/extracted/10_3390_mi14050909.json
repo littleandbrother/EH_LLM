@@ -1,0 +1,147 @@
+{
+  "metadata": {
+    "paper_id": "10_3390_mi14050909",
+    "doi": "10.3390/mi14050909",
+    "title": "A Bio-Inspired Bistable Piezoelectric Structure for Low-Frequency Energy Harvesting Applied to Reduce Stress Concentration",
+    "year": 2023,
+    "journal": "Micromachines"
+  },
+  "configuration": "other",
+  "proof_mass": true,
+  "geometry": {
+    "length_mm": 90,
+    "width_mm": 20,
+    "thickness_mm": 0.1,
+    "substrate_thickness_um": 100,
+    "piezo_thickness_um": 100,
+    "tip_mass_g": 10,
+    "diameter_mm": null
+  },
+  "excitation": {
+    "type": "vibration",
+    "frequency_Hz": 18,
+    "acceleration_g": null,
+    "displacement_mm": null,
+    "motion_source": "shaker"
+  },
+  "load": {
+    "load_resistance_ohm": 47000
+  },
+  "output": {
+    "resonant_frequency_Hz": 18,
+    "output_power_W": 0.000734,
+    "open_circuit_voltage_V": 11.5,
+    "short_circuit_current_A": null,
+    "bandwidth_Hz": null
+  },
+  "evidence": {
+    "configuration": {
+      "quote": "seagull-inspired beam proposed in this paper",
+      "section": "3. Relief of Stress Concentration",
+      "source_type": "section"
+    },
+    "proof_mass": {
+      "quote": "limit module was composed of 10 g of resin block",
+      "section": "4.1. Prototype Fabrication and Experimental Setup",
+      "source_type": "section"
+    },
+    "geometry": {
+      "length_mm": {
+        "quote": "geometric dimension: 90 mm x 20 mm x 1 mm",
+        "section": "3. Relief of Stress Concentration",
+        "source_type": "section"
+      },
+      "width_mm": {
+        "quote": "Width b1 = 20 mm",
+        "section": "Table 1",
+        "source_type": "table"
+      },
+      "thickness_mm": {
+        "quote": "thickness 0.1 mm",
+        "section": "4.1. Prototype Fabrication and Experimental Setup",
+        "source_type": "section"
+      },
+      "substrate_thickness_um": {
+        "quote": "Thickness h1 = 0.1 mm",
+        "section": "Table 1",
+        "source_type": "table"
+      },
+      "piezo_thickness_um": {
+        "quote": "Thickness h2 = 0.1 mm",
+        "section": "Table 1",
+        "source_type": "table"
+      },
+      "tip_mass_g": {
+        "quote": "limit module was composed of 10 g of resin block",
+        "section": "4.1. Prototype Fabrication and Experimental Setup",
+        "source_type": "section"
+      },
+      "diameter_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      }
+    },
+    "excitation": {
+      "type": {
+        "quote": "convert low-frequency, low-amplitude and random vibrations",
+        "section": "A Bio-Inspired Bistable Piezoelectric Structure for Low-Frequency Energy Harvesting Applied to Reduce Stress Concentration",
+        "source_type": "abstract"
+      },
+      "frequency_Hz": {
+        "quote": "at 18 Hz",
+        "section": "A Bio-Inspired Bistable Piezoelectric Structure for Low-Frequency Energy Harvesting Applied to Reduce Stress Concentration",
+        "source_type": "abstract"
+      },
+      "acceleration_g": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "displacement_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "motion_source": {
+        "quote": "provided by an SA-JZ020 shaker",
+        "section": "4.1. Prototype Fabrication and Experimental Setup",
+        "source_type": "section"
+      }
+    },
+    "load": {
+      "load_resistance_ohm": {
+        "quote": "47 kΩ external resistance",
+        "section": "A Bio-Inspired Bistable Piezoelectric Structure for Low-Frequency Energy Harvesting Applied to Reduce Stress Concentration",
+        "source_type": "abstract"
+      }
+    },
+    "output": {
+      "resonant_frequency_Hz": {
+        "quote": "at 18 Hz",
+        "section": "A Bio-Inspired Bistable Piezoelectric Structure for Low-Frequency Energy Harvesting Applied to Reduce Stress Concentration",
+        "source_type": "abstract"
+      },
+      "output_power_W": {
+        "quote": "0.734 mW",
+        "section": "A Bio-Inspired Bistable Piezoelectric Structure for Low-Frequency Energy Harvesting Applied to Reduce Stress Concentration",
+        "source_type": "abstract"
+      },
+      "open_circuit_voltage_V": {
+        "quote": "11,500 mV",
+        "section": "A Bio-Inspired Bistable Piezoelectric Structure for Low-Frequency Energy Harvesting Applied to Reduce Stress Concentration",
+        "source_type": "abstract"
+      },
+      "short_circuit_current_A": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "bandwidth_Hz": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      }
+    }
+  }
+}

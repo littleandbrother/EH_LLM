@@ -1,0 +1,28 @@
+{
+  "paper_id": "10_1109_isaf_2015_7172670",
+  "doi": "10.1109/isaf.2015.7172670",
+  "title": "Piezoelectric free-standing thick-film structures for material characterization and energy harvesting applications",
+  "source_apis": [
+    "both"
+  ],
+  "pdf_url": "",
+  "pdf_local_path": "data_registry/raw_stage04_paper_pdf_cleaned/10_1109_isaf_2015_7172670.pdf",
+  "processing": {
+    "tool": "MinerU",
+    "version": "python -m mineru.cli.client, version 2.7.6",
+    "timestamp": "2026-03-10T10:30:28.647155+00:00",
+    "duration_s": 60.58,
+    "success": true,
+    "error": ""
+  },
+  "outputs": {
+    "content_md": "/root/EH-LLM-vehbench-exp/parsed_docs/10_1109_isaf_2015_7172670_c9k1xbaz/content.md",
+    "layout_json": "/root/EH-LLM-vehbench-exp/parsed_docs/10_1109_isaf_2015_7172670_c9k1xbaz/layout.json",
+    "images_dir": "/root/EH-LLM-vehbench-exp/parsed_docs/10_1109_isaf_2015_7172670_c9k1xbaz/10_1109_isaf_2015_7172670/auto/images",
+    "normalized_json": "/root/EH-LLM-vehbench-exp/normalized_docs/10_1109_isaf_2015_7172670.json"
+  },
+  "data_lineage": {
+    "papers_jsonl_hash": "6285621266022fb07a1cc68d41ec8466",
+    "pipeline_step": "ingestion/mineru_runner.py"
+  }
+}

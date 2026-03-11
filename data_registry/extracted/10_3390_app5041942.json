@@ -1,0 +1,147 @@
+{
+  "metadata": {
+    "paper_id": "10_3390_app5041942",
+    "doi": "10.3390/app5041942",
+    "title": "A Novel Piezoelectric Energy Harvester Using the Macro Fiber Composite Cantilever with a Bicylinder in Water",
+    "year": 2015,
+    "journal": "Applied Sciences"
+  },
+  "configuration": "cantilever",
+  "proof_mass": true,
+  "geometry": {
+    "length_mm": 30,
+    "width_mm": 16,
+    "thickness_mm": 0.4,
+    "substrate_thickness_um": 100,
+    "piezo_thickness_um": 300,
+    "tip_mass_g": null,
+    "diameter_mm": 30
+  },
+  "excitation": {
+    "type": "vibration",
+    "frequency_Hz": 1.28,
+    "acceleration_g": null,
+    "displacement_mm": null,
+    "motion_source": "water flow"
+  },
+  "load": {
+    "load_resistance_ohm": 170000
+  },
+  "output": {
+    "resonant_frequency_Hz": 1.28,
+    "output_power_W": 2.186e-05,
+    "open_circuit_voltage_V": null,
+    "short_circuit_current_A": null,
+    "bandwidth_Hz": null
+  },
+  "evidence": {
+    "configuration": {
+      "quote": "Macro Fiber Composite Cantilever",
+      "section": "title",
+      "source_type": "title"
+    },
+    "proof_mass": {
+      "quote": "The cylinders are equipped at the end of the piezoelectric beams.",
+      "section": "2. Physics Statement",
+      "source_type": "section"
+    },
+    "geometry": {
+      "length_mm": {
+        "quote": "The active lengths of both piezoelectric beams are $L_1 = 30 \\mathrm{~mm}$ and $L_2 = 30 \\mathrm{~mm}$",
+        "section": "2. Physics Statement",
+        "source_type": "section"
+      },
+      "width_mm": {
+        "quote": "the width of the piezoelectric beam is $b { = } 16 \\mathrm{~mm}$",
+        "section": "2. Physics Statement",
+        "source_type": "section"
+      },
+      "thickness_mm": {
+        "quote": "The thicknesses of the substrate layer and the piezoelectric layer are $h \\mathrm { s } = 0 . 1 \\mathrm{~mm}$ and $h _ { \\mathrm { p } } = 0 . 3 \\mathrm{~mm}$",
+        "section": "2. Physics Statement",
+        "source_type": "section"
+      },
+      "substrate_thickness_um": {
+        "quote": "$h \\mathrm { s } = 0 . 1 \\mathrm{~mm}$",
+        "section": "2. Physics Statement",
+        "source_type": "section"
+      },
+      "piezo_thickness_um": {
+        "quote": "$h _ { \\mathrm { p } } = 0 . 3 \\mathrm{~mm}$",
+        "section": "2. Physics Statement",
+        "source_type": "section"
+      },
+      "tip_mass_g": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "diameter_mm": {
+        "quote": "diameter of the cylinder $( 3 0 ~ \\mathrm { m m } )$",
+        "section": "abstract",
+        "source_type": "abstract"
+      }
+    },
+    "excitation": {
+      "type": {
+        "quote": "vortex-induced vibration (VIV)",
+        "section": "abstract",
+        "source_type": "abstract"
+      },
+      "frequency_Hz": {
+        "quote": "vibration frequencies of the two cylinders are both $1 . 2 8 ~ \\mathrm { H z }$",
+        "section": "4. Results and Discussion",
+        "source_type": "section"
+      },
+      "acceleration_g": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "displacement_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "motion_source": {
+        "quote": "kinetic energy of water",
+        "section": "abstract",
+        "source_type": "abstract"
+      }
+    },
+    "load": {
+      "load_resistance_ohm": {
+        "quote": "optimal resistance $( 1 7 0 \\mathrm { k } \\Omega )$",
+        "section": "abstract",
+        "source_type": "abstract"
+      }
+    },
+    "output": {
+      "resonant_frequency_Hz": {
+        "quote": "vibration frequencies of the two cylinders are both $1 . 2 8 ~ \\mathrm { H z }$",
+        "section": "4. Results and Discussion",
+        "source_type": "section"
+      },
+      "output_power_W": {
+        "quote": "maximum output power of $2 1 . 8 6 ~ \\mu \\mathrm { W }$",
+        "section": "abstract",
+        "source_type": "abstract"
+      },
+      "open_circuit_voltage_V": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "short_circuit_current_A": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "bandwidth_Hz": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      }
+    }
+  }
+}

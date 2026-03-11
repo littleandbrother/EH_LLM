@@ -1,0 +1,147 @@
+{
+  "metadata": {
+    "paper_id": "10_7567_jjap_57_11ud10",
+    "doi": "10.7567/jjap.57.11ud10",
+    "title": "Characterization of piezoelectric MEMS vibration energy harvesters using random vibration",
+    "year": 2018,
+    "journal": "Japanese Journal of Applied Physics"
+  },
+  "configuration": "cantilever",
+  "proof_mass": true,
+  "geometry": {
+    "length_mm": 6,
+    "width_mm": 1,
+    "thickness_mm": 0.024,
+    "substrate_thickness_um": 20,
+    "piezo_thickness_um": 3,
+    "tip_mass_g": 0.0035,
+    "diameter_mm": null
+  },
+  "excitation": {
+    "type": "vibration",
+    "frequency_Hz": 183,
+    "acceleration_g": 0.00724,
+    "displacement_mm": null,
+    "motion_source": null
+  },
+  "load": {
+    "load_resistance_ohm": 180000
+  },
+  "output": {
+    "resonant_frequency_Hz": 183,
+    "output_power_W": null,
+    "open_circuit_voltage_V": null,
+    "short_circuit_current_A": null,
+    "bandwidth_Hz": null
+  },
+  "evidence": {
+    "configuration": {
+      "quote": "single cantilever structure",
+      "section": "2. Fabrication and experiment",
+      "source_type": "section"
+    },
+    "proof_mass": {
+      "quote": "proof mass on the tip of the cantilever",
+      "section": "2. Fabrication and experiment",
+      "source_type": "section"
+    },
+    "geometry": {
+      "length_mm": {
+        "quote": "length, and thickness of the cantilever were 1 mm, 6 mm, and 24 um, respectively",
+        "section": "2. Fabrication and experiment",
+        "source_type": "section"
+      },
+      "width_mm": {
+        "quote": "width, length, and thickness of the cantilever were 1 mm, 6 mm, and 24 um, respectively",
+        "section": "2. Fabrication and experiment",
+        "source_type": "section"
+      },
+      "thickness_mm": {
+        "quote": "width, length, and thickness of the cantilever were 1 mm, 6 mm, and 24 um, respectively",
+        "section": "2. Fabrication and experiment",
+        "source_type": "section"
+      },
+      "substrate_thickness_um": {
+        "quote": "SOI wafer with a 20-um-thick Si device layer",
+        "section": "2. Fabrication and experiment",
+        "source_type": "section"
+      },
+      "piezo_thickness_um": {
+        "quote": "PZT piezoelectric film with a thickness of 3.0 um",
+        "section": "2. Fabrication and experiment",
+        "source_type": "section"
+      },
+      "tip_mass_g": {
+        "quote": "weight was 3.5 mg",
+        "section": "2. Fabrication and experiment",
+        "source_type": "section"
+      },
+      "diameter_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      }
+    },
+    "excitation": {
+      "type": {
+        "quote": "random vibration",
+        "section": "Characterization of piezoelectric MEMS vibration energy harvesters using random vibration",
+        "source_type": "abstract"
+      },
+      "frequency_Hz": {
+        "quote": "resonant frequency of around 183 Hz",
+        "section": "3. Results and discussion",
+        "source_type": "section"
+      },
+      "acceleration_g": {
+        "quote": "acceleration of 0.071 m/s^2 (RMS)",
+        "section": "3. Results and discussion",
+        "source_type": "section"
+      },
+      "displacement_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "motion_source": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      }
+    },
+    "load": {
+      "load_resistance_ohm": {
+        "quote": "impedance-matched load resistance, 180 kOhm",
+        "section": "3. Results and discussion",
+        "source_type": "section"
+      }
+    },
+    "output": {
+      "resonant_frequency_Hz": {
+        "quote": "resonant frequency of around 183 Hz",
+        "section": "3. Results and discussion",
+        "source_type": "section"
+      },
+      "output_power_W": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "open_circuit_voltage_V": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "short_circuit_current_A": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "bandwidth_Hz": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      }
+    }
+  }
+}

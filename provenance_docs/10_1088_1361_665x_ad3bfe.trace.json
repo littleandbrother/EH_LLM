@@ -1,0 +1,28 @@
+{
+  "paper_id": "10_1088_1361_665x_ad3bfe",
+  "doi": "10.1088/1361-665x/ad3bfe",
+  "title": "Numerical and experimental investigation of an auxetic piezoelectric energy harvester with frequency self-tuning capability",
+  "source_apis": [
+    "openalex"
+  ],
+  "pdf_url": "https://iopscience.iop.org/article/10.1088/1361-665X/ad3bfe/pdf",
+  "pdf_local_path": "data_registry/raw_stage04_paper_pdf_cleaned/10_1088_1361_665x_ad3bfe.pdf",
+  "processing": {
+    "tool": "MinerU",
+    "version": "python -m mineru.cli.client, version 2.7.6",
+    "timestamp": "2026-03-10T09:33:44.766393+00:00",
+    "duration_s": 104.14,
+    "success": true,
+    "error": ""
+  },
+  "outputs": {
+    "content_md": "/root/EH-LLM-vehbench-exp/parsed_docs/10_1088_1361_665x_ad3bfe_h1uhdg80/content.md",
+    "layout_json": "/root/EH-LLM-vehbench-exp/parsed_docs/10_1088_1361_665x_ad3bfe_h1uhdg80/layout.json",
+    "images_dir": "/root/EH-LLM-vehbench-exp/parsed_docs/10_1088_1361_665x_ad3bfe_h1uhdg80/10_1088_1361_665x_ad3bfe/auto/images",
+    "normalized_json": "/root/EH-LLM-vehbench-exp/normalized_docs/10_1088_1361_665x_ad3bfe.json"
+  },
+  "data_lineage": {
+    "papers_jsonl_hash": "8b019cf91b64dc8dd0b240580de6ae33",
+    "pipeline_step": "ingestion/mineru_runner.py"
+  }
+}

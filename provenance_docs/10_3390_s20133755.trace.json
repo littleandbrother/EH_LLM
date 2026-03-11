@@ -1,0 +1,28 @@
+{
+  "paper_id": "10_3390_s20133755",
+  "doi": "10.3390/s20133755",
+  "title": "Piezoelectric Energy Harvesting from Suspension Structures with Piezoelectric Layers",
+  "source_apis": [
+    "openalex"
+  ],
+  "pdf_url": "https://www.mdpi.com/1424-8220/20/13/3755/pdf?version=1593871273",
+  "pdf_local_path": "data_registry/raw_stage04_paper_pdf_cleaned/10_3390_s20133755.pdf",
+  "processing": {
+    "tool": "MinerU",
+    "version": "python -m mineru.cli.client, version 2.7.6",
+    "timestamp": "2026-03-10T10:11:55.784624+00:00",
+    "duration_s": 88.4,
+    "success": true,
+    "error": ""
+  },
+  "outputs": {
+    "content_md": "/root/EH-LLM-vehbench-exp/parsed_docs/10_3390_s20133755_f_5otol3/content.md",
+    "layout_json": "/root/EH-LLM-vehbench-exp/parsed_docs/10_3390_s20133755_f_5otol3/layout.json",
+    "images_dir": "/root/EH-LLM-vehbench-exp/parsed_docs/10_3390_s20133755_f_5otol3/10_3390_s20133755/auto/images",
+    "normalized_json": "/root/EH-LLM-vehbench-exp/normalized_docs/10_3390_s20133755.json"
+  },
+  "data_lineage": {
+    "papers_jsonl_hash": "f2fba03fc7f5f7260eb787d934489a90",
+    "pipeline_step": "ingestion/mineru_runner.py"
+  }
+}

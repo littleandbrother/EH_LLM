@@ -1,0 +1,28 @@
+{
+  "paper_id": "10_1080_10584587_2020_1803674",
+  "doi": "10.1080/10584587.2020.1803674",
+  "title": "Characterization and Optimization of Piezoelectric Bimorph Cantilever Structure for Ambient Vibration-Based Energy Harvesting Application",
+  "source_apis": [
+    "semantic_scholar"
+  ],
+  "pdf_url": "",
+  "pdf_local_path": "data_registry/raw_stage04_paper_pdf_cleaned/10_1080_10584587_2020_1803674.pdf",
+  "processing": {
+    "tool": "MinerU",
+    "version": "python -m mineru.cli.client, version 2.7.6",
+    "timestamp": "2026-03-10T10:28:28.221118+00:00",
+    "duration_s": 85.6,
+    "success": true,
+    "error": ""
+  },
+  "outputs": {
+    "content_md": "/root/EH-LLM-vehbench-exp/parsed_docs/10_1080_10584587_2020_1803674_gknoynms/content.md",
+    "layout_json": "/root/EH-LLM-vehbench-exp/parsed_docs/10_1080_10584587_2020_1803674_gknoynms/layout.json",
+    "images_dir": "/root/EH-LLM-vehbench-exp/parsed_docs/10_1080_10584587_2020_1803674_gknoynms/10_1080_10584587_2020_1803674/auto/images",
+    "normalized_json": "/root/EH-LLM-vehbench-exp/normalized_docs/10_1080_10584587_2020_1803674.json"
+  },
+  "data_lineage": {
+    "papers_jsonl_hash": "110534d26e3f18174b3c47c415820bef",
+    "pipeline_step": "ingestion/mineru_runner.py"
+  }
+}

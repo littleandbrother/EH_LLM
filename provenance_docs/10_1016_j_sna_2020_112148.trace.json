@@ -1,0 +1,28 @@
+{
+  "paper_id": "10_1016_j_sna_2020_112148",
+  "doi": "10.1016/j.sna.2020.112148",
+  "title": "Frequency tunable, flexible and low cost piezoelectric micro-generator for energy harvesting",
+  "source_apis": [
+    "both"
+  ],
+  "pdf_url": "https://hal.science/hal-02874657",
+  "pdf_local_path": "data_registry/raw_stage04_paper_pdf_cleaned/10_1016_j_sna_2020_112148.pdf",
+  "processing": {
+    "tool": "MinerU",
+    "version": "python -m mineru.cli.client, version 2.7.6",
+    "timestamp": "2026-03-10T09:46:45.648714+00:00",
+    "duration_s": 94.33,
+    "success": true,
+    "error": ""
+  },
+  "outputs": {
+    "content_md": "/root/EH-LLM-vehbench-exp/parsed_docs/10_1016_j_sna_2020_112148_jt47km7u/content.md",
+    "layout_json": "/root/EH-LLM-vehbench-exp/parsed_docs/10_1016_j_sna_2020_112148_jt47km7u/layout.json",
+    "images_dir": "/root/EH-LLM-vehbench-exp/parsed_docs/10_1016_j_sna_2020_112148_jt47km7u/10_1016_j_sna_2020_112148/auto/images",
+    "normalized_json": "/root/EH-LLM-vehbench-exp/normalized_docs/10_1016_j_sna_2020_112148.json"
+  },
+  "data_lineage": {
+    "papers_jsonl_hash": "b89c0e0e9527935aa6768f8a93ceafb0",
+    "pipeline_step": "ingestion/mineru_runner.py"
+  }
+}

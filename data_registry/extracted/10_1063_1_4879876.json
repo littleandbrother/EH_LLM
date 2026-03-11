@@ -1,0 +1,147 @@
+{
+  "metadata": {
+    "paper_id": "10_1063_1_4879876",
+    "doi": "10.1063/1.4879876",
+    "title": "Structure–performance relationships for cantilever-type piezoelectric energy harvesters",
+    "year": 2014,
+    "journal": "Journal of Applied Physics"
+  },
+  "configuration": "cantilever",
+  "proof_mass": true,
+  "geometry": {
+    "length_mm": 31,
+    "width_mm": 36,
+    "thickness_mm": null,
+    "substrate_thickness_um": 80,
+    "piezo_thickness_um": 130,
+    "tip_mass_g": null,
+    "diameter_mm": null
+  },
+  "excitation": {
+    "type": "vibration",
+    "frequency_Hz": 30.1,
+    "acceleration_g": 0.7,
+    "displacement_mm": 0.274,
+    "motion_source": null
+  },
+  "load": {
+    "load_resistance_ohm": null
+  },
+  "output": {
+    "resonant_frequency_Hz": 30.1,
+    "output_power_W": 0.0525,
+    "open_circuit_voltage_V": null,
+    "short_circuit_current_A": null,
+    "bandwidth_Hz": null
+  },
+  "evidence": {
+    "configuration": {
+      "quote": "cantilever-type piezoelectric energy harvesters",
+      "section": "Structure—performance relationships for cantilever-type piezoelectric energy harvesters",
+      "source_type": "title"
+    },
+    "proof_mass": {
+      "quote": "Tungsten was used as a tip mass material",
+      "section": "III. CONTROL OF LAYER CONFIGURATION OF HARVESTER BEAM",
+      "source_type": "section"
+    },
+    "geometry": {
+      "length_mm": {
+        "quote": "dimensions similar to sample #3 (L=31 mm and b=36 mm)",
+        "section": "III. CONTROL OF LAYER CONFIGURATION OF HARVESTER BEAM",
+        "source_type": "section"
+      },
+      "width_mm": {
+        "quote": "dimensions similar to sample #3 (L=31 mm and b=36 mm)",
+        "section": "III. CONTROL OF LAYER CONFIGURATION OF HARVESTER BEAM",
+        "source_type": "section"
+      },
+      "thickness_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "substrate_thickness_um": {
+        "quote": "the 2t_I1 + t_I2 value (total thickness of inactive layers) was fixed at 80 um",
+        "section": "III. CONTROL OF LAYER CONFIGURATION OF HARVESTER BEAM",
+        "source_type": "section"
+      },
+      "piezo_thickness_um": {
+        "quote": "piezoelectric layer with a t_A of 130 um",
+        "section": "II. CONTROL OF DIMENSIONS OF HARVESTER BEAM",
+        "source_type": "section"
+      },
+      "tip_mass_g": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "diameter_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      }
+    },
+    "excitation": {
+      "type": {
+        "quote": "vibration sources",
+        "section": "I. INTRODUCTION",
+        "source_type": "section"
+      },
+      "frequency_Hz": {
+        "quote": "fn (Hz) 30.1",
+        "section": "III. CONTROL OF LAYER CONFIGURATION OF HARVESTER BEAM",
+        "source_type": "table"
+      },
+      "acceleration_g": {
+        "quote": "under 6.9 m s^-2 (0.7 G) acceleration",
+        "section": "III. CONTROL OF LAYER CONFIGURATION OF HARVESTER BEAM",
+        "source_type": "section"
+      },
+      "displacement_mm": {
+        "quote": "Y (mm) 0.274",
+        "section": "III. CONTROL OF LAYER CONFIGURATION OF HARVESTER BEAM",
+        "source_type": "table"
+      },
+      "motion_source": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      }
+    },
+    "load": {
+      "load_resistance_ohm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      }
+    },
+    "output": {
+      "resonant_frequency_Hz": {
+        "quote": "fn (Hz) 30.1",
+        "section": "III. CONTROL OF LAYER CONFIGURATION OF HARVESTER BEAM",
+        "source_type": "table"
+      },
+      "output_power_W": {
+        "quote": "high output power of 52.5 mW",
+        "section": "III. CONTROL OF LAYER CONFIGURATION OF HARVESTER BEAM",
+        "source_type": "section"
+      },
+      "open_circuit_voltage_V": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "short_circuit_current_A": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "bandwidth_Hz": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      }
+    }
+  }
+}

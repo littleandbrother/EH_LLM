@@ -1,0 +1,28 @@
+{
+  "paper_id": "10_1177_1045389x20983880",
+  "doi": "10.1177/1045389x20983880",
+  "title": "Impact-driven piezoelectric energy harvester using a pendulum structure for low-frequency vibration",
+  "source_apis": [
+    "both"
+  ],
+  "pdf_url": "",
+  "pdf_local_path": "data_registry/raw_stage04_paper_pdf_cleaned/10_1177_1045389x20983880.pdf",
+  "processing": {
+    "tool": "MinerU",
+    "version": "python -m mineru.cli.client, version 2.7.6",
+    "timestamp": "2026-03-10T09:37:20.254242+00:00",
+    "duration_s": 88.55,
+    "success": true,
+    "error": ""
+  },
+  "outputs": {
+    "content_md": "/root/EH-LLM-vehbench-exp/parsed_docs/10_1177_1045389x20983880_dfvop8__/content.md",
+    "layout_json": "/root/EH-LLM-vehbench-exp/parsed_docs/10_1177_1045389x20983880_dfvop8__/layout.json",
+    "images_dir": "/root/EH-LLM-vehbench-exp/parsed_docs/10_1177_1045389x20983880_dfvop8__/10_1177_1045389x20983880/auto/images",
+    "normalized_json": "/root/EH-LLM-vehbench-exp/normalized_docs/10_1177_1045389x20983880.json"
+  },
+  "data_lineage": {
+    "papers_jsonl_hash": "7f8bc59bd39b0cdc70557ba988952971",
+    "pipeline_step": "ingestion/mineru_runner.py"
+  }
+}

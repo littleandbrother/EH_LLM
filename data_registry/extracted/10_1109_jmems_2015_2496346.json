@@ -1,0 +1,147 @@
+{
+  "metadata": {
+    "paper_id": "10_1109_jmems_2015_2496346",
+    "doi": "10.1109/jmems.2015.2496346",
+    "title": "Power Optimization by Mass Tuning for MEMS Piezoelectric Cantilever Vibration Energy Harvesting",
+    "year": 2015,
+    "journal": "Journal of Microelectromechanical Systems"
+  },
+  "configuration": "cantilever",
+  "proof_mass": true,
+  "geometry": {
+    "length_mm": 3.5,
+    "width_mm": 3.5,
+    "thickness_mm": null,
+    "substrate_thickness_um": 10,
+    "piezo_thickness_um": 0.5,
+    "tip_mass_g": null,
+    "diameter_mm": null
+  },
+  "excitation": {
+    "type": "vibration",
+    "frequency_Hz": 210,
+    "acceleration_g": 0.06116,
+    "displacement_mm": null,
+    "motion_source": "shaker"
+  },
+  "load": {
+    "load_resistance_ohm": 300000
+  },
+  "output": {
+    "resonant_frequency_Hz": 210,
+    "output_power_W": 1.78e-06,
+    "open_circuit_voltage_V": null,
+    "short_circuit_current_A": null,
+    "bandwidth_Hz": 1.0
+  },
+  "evidence": {
+    "configuration": {
+      "quote": "Power Optimization by Mass Tuning for MEMS Piezoelectric Cantilever Vibration Energy Harvesting",
+      "section": "Power Optimisation by Mass Tuning for MEMS Piezoelectric Cantilever Vibration Energy Harvesting",
+      "source_type": "title"
+    },
+    "proof_mass": {
+      "quote": "A cantilever with an end mass is one of the most popular designs for piezoelectric MEMS vibration energy harvesting.",
+      "section": "Power Optimisation by Mass Tuning for MEMS Piezoelectric Cantilever Vibration Energy Harvesting",
+      "source_type": "abstract"
+    },
+    "geometry": {
+      "length_mm": {
+        "quote": "2D dimensions of 3.5 mm by 3.5 mm",
+        "section": "II Design and modelling",
+        "source_type": "section"
+      },
+      "width_mm": {
+        "quote": "2D dimensions of 3.5 mm by 3.5 mm",
+        "section": "II Design and modelling",
+        "source_type": "section"
+      },
+      "thickness_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "substrate_thickness_um": {
+        "quote": "0.5 μm AlN on 10 μm doped Si process",
+        "section": "Apparatus",
+        "source_type": "section"
+      },
+      "piezo_thickness_um": {
+        "quote": "0.5 μm AlN on 10 μm doped Si process",
+        "section": "Apparatus",
+        "source_type": "section"
+      },
+      "tip_mass_g": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "diameter_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      }
+    },
+    "excitation": {
+      "type": {
+        "quote": "Power Optimization by Mass Tuning for MEMS Piezoelectric Cantilever Vibration Energy Harvesting",
+        "section": "Power Optimisation by Mass Tuning for MEMS Piezoelectric Cantilever Vibration Energy Harvesting",
+        "source_type": "title"
+      },
+      "frequency_Hz": {
+        "quote": "MC70 ... 210",
+        "section": "High power configuration",
+        "source_type": "table"
+      },
+      "acceleration_g": {
+        "quote": "MC70 ... 0.60",
+        "section": "High power configuration",
+        "source_type": "table"
+      },
+      "displacement_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "motion_source": {
+        "quote": "mechanically driven by a shaker",
+        "section": "Apparatus",
+        "source_type": "section"
+      }
+    },
+    "load": {
+      "load_resistance_ohm": {
+        "quote": "matched resistive loads (around 0.3 MΩ)",
+        "section": "Linear response",
+        "source_type": "section"
+      }
+    },
+    "output": {
+      "resonant_frequency_Hz": {
+        "quote": "MC70 ... 210",
+        "section": "High power configuration",
+        "source_type": "table"
+      },
+      "output_power_W": {
+        "quote": "MC70 ... 1.78",
+        "section": "High power configuration",
+        "source_type": "table"
+      },
+      "open_circuit_voltage_V": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "short_circuit_current_A": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "bandwidth_Hz": {
+        "quote": "MC70 holed LCC ... 1.0",
+        "section": "Comparison with the literature",
+        "source_type": "table"
+      }
+    }
+  }
+}

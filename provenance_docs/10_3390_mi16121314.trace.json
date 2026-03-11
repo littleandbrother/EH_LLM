@@ -1,0 +1,28 @@
+{
+  "paper_id": "10_3390_mi16121314",
+  "doi": "10.3390/mi16121314",
+  "title": "Piezoelectric Energy Harvester with Zigzag Root Section for Self-Powered Transformer Monitoring",
+  "source_apis": [
+    "semantic_scholar"
+  ],
+  "pdf_url": "",
+  "pdf_local_path": "data_registry/raw_stage04_paper_pdf_cleaned/10_3390_mi16121314.pdf",
+  "processing": {
+    "tool": "MinerU",
+    "version": "python -m mineru.cli.client, version 2.7.6",
+    "timestamp": "2026-03-10T10:06:30.613589+00:00",
+    "duration_s": 108.32,
+    "success": true,
+    "error": ""
+  },
+  "outputs": {
+    "content_md": "/root/EH-LLM-vehbench-exp/parsed_docs/10_3390_mi16121314_aytaj8_3/content.md",
+    "layout_json": "/root/EH-LLM-vehbench-exp/parsed_docs/10_3390_mi16121314_aytaj8_3/layout.json",
+    "images_dir": "/root/EH-LLM-vehbench-exp/parsed_docs/10_3390_mi16121314_aytaj8_3/10_3390_mi16121314/auto/images",
+    "normalized_json": "/root/EH-LLM-vehbench-exp/normalized_docs/10_3390_mi16121314.json"
+  },
+  "data_lineage": {
+    "papers_jsonl_hash": "c317f0cabadddf2fa90b04566ac3c2ff",
+    "pipeline_step": "ingestion/mineru_runner.py"
+  }
+}

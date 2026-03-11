@@ -3,26 +3,26 @@
   "doi": "10.1109/uksim.2013.125",
   "title": "Shape Optimization of Cantilever-based MEMS Piezoelectric Energy Harvester for Low Frequency Applications",
   "source_apis": [
-    "openalex"
+    "both"
   ],
   "pdf_url": "",
-  "pdf_local_path": "",
+  "pdf_local_path": "data_registry/raw/10_1109_uksim_2013_125.pdf",
   "processing": {
     "tool": "MinerU",
-    "version": "mineru, version 2.7.6",
-    "timestamp": "2026-02-23T11:38:34.486338+00:00",
-    "duration_s": 5.12,
-    "success": false,
+    "version": "python -m mineru.cli.client, version 2.7.6",
+    "timestamp": "2026-03-09T15:35:01.136870+00:00",
+    "duration_s": 58.72,
+    "success": true,
     "error": ""
   },
   "outputs": {
-    "content_md": "",
-    "layout_json": "",
-    "images_dir": "",
-    "normalized_json": ""
+    "content_md": "/root/EH-LLM-vehbench-exp/parsed_docs/10_1109_uksim_2013_125_axedu3iv/content.md",
+    "layout_json": "/root/EH-LLM-vehbench-exp/parsed_docs/10_1109_uksim_2013_125_axedu3iv/layout.json",
+    "images_dir": "/root/EH-LLM-vehbench-exp/parsed_docs/10_1109_uksim_2013_125_axedu3iv/10_1109_uksim_2013_125/auto/images",
+    "normalized_json": "/root/EH-LLM-vehbench-exp/normalized_docs/10_1109_uksim_2013_125.json"
   },
   "data_lineage": {
-    "papers_jsonl_hash": "723770a82ae5c217055121e4734d1e38",
+    "papers_jsonl_hash": "0334079e5c2494c28f2a03d2e41412c2",
     "pipeline_step": "ingestion/mineru_runner.py"
   }
 }

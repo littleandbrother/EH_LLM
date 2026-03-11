@@ -1,0 +1,147 @@
+{
+  "metadata": {
+    "paper_id": "10_1109_transducers_2013_6626806",
+    "doi": "10.1109/transducers.2013.6626806",
+    "title": "Lead-free piezoelectric MEMS energy harvesters of stainless steel cantilevers",
+    "year": 2013,
+    "journal": "International Conference on Solid-State Sensors, Actuators and Microsystems"
+  },
+  "configuration": "cantilever",
+  "proof_mass": true,
+  "geometry": {
+    "length_mm": 7.5,
+    "width_mm": 5.0,
+    "thickness_mm": 0.03,
+    "substrate_thickness_um": 30,
+    "piezo_thickness_um": 2.2,
+    "tip_mass_g": 0.025,
+    "diameter_mm": null
+  },
+  "excitation": {
+    "type": "vibration",
+    "frequency_Hz": 393,
+    "acceleration_g": 1.02,
+    "displacement_mm": null,
+    "motion_source": "vibration exciter"
+  },
+  "load": {
+    "load_resistance_ohm": 5000
+  },
+  "output": {
+    "resonant_frequency_Hz": 393,
+    "output_power_W": 1.6e-06,
+    "open_circuit_voltage_V": 0.423,
+    "short_circuit_current_A": null,
+    "bandwidth_Hz": null
+  },
+  "evidence": {
+    "configuration": {
+      "quote": "stainless steel cantilevers",
+      "section": "ABSTRACT",
+      "source_type": "abstract"
+    },
+    "proof_mass": {
+      "quote": "tip-masses of cantilevers",
+      "section": "FABRICATION PROCESS",
+      "source_type": "section"
+    },
+    "geometry": {
+      "length_mm": {
+        "quote": "7.5 mm-long",
+        "section": "CONCLUSIONS",
+        "source_type": "section"
+      },
+      "width_mm": {
+        "quote": "5.0 mm-wide",
+        "section": "CONCLUSIONS",
+        "source_type": "section"
+      },
+      "thickness_mm": {
+        "quote": "30-um-thick SS430 cantilevers",
+        "section": "FABRICATION PROCESS",
+        "source_type": "section"
+      },
+      "substrate_thickness_um": {
+        "quote": "30-um-thick SS430 cantilevers",
+        "section": "FABRICATION PROCESS",
+        "source_type": "section"
+      },
+      "piezo_thickness_um": {
+        "quote": "2.2-um-thick KNN thin films",
+        "section": "ABSTRACT",
+        "source_type": "abstract"
+      },
+      "tip_mass_g": {
+        "quote": "Tip mass [mg] 25",
+        "section": "POWER GENERATION PERFORMANCE",
+        "source_type": "table"
+      },
+      "diameter_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      }
+    },
+    "excitation": {
+      "type": {
+        "quote": "vibration EHs",
+        "section": "POWER GENERATION PERFORMANCE",
+        "source_type": "section"
+      },
+      "frequency_Hz": {
+        "quote": "393 Hz",
+        "section": "ABSTRACT",
+        "source_type": "abstract"
+      },
+      "acceleration_g": {
+        "quote": "10 m/s^2",
+        "section": "ABSTRACT",
+        "source_type": "abstract"
+      },
+      "displacement_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "motion_source": {
+        "quote": "vibration exciter",
+        "section": "POWER GENERATION PERFORMANCE",
+        "source_type": "figure_caption"
+      }
+    },
+    "load": {
+      "load_resistance_ohm": {
+        "quote": "optimum load resistance of 5 kOhm",
+        "section": "POWER GENERATION PERFORMANCE",
+        "source_type": "section"
+      }
+    },
+    "output": {
+      "resonant_frequency_Hz": {
+        "quote": "393 Hz",
+        "section": "ABSTRACT",
+        "source_type": "abstract"
+      },
+      "output_power_W": {
+        "quote": "1.6 uW",
+        "section": "ABSTRACT",
+        "source_type": "abstract"
+      },
+      "open_circuit_voltage_V": {
+        "quote": "Peak output voltage [mVp-p] 423",
+        "section": "POWER GENERATION PERFORMANCE",
+        "source_type": "table"
+      },
+      "short_circuit_current_A": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "bandwidth_Hz": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      }
+    }
+  }
+}

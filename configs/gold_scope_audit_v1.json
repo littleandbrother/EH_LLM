@@ -1,0 +1,18 @@
+{
+  "version": "gold_scope_audit_v1",
+  "exclude": {
+    "10_1063_1_5063268": "liquid_flow_vortex_excitation",
+    "10_1063_5_0022881": "liquid_multidirectional_harvester",
+    "10_1088_1361_665x_ab3f47": "multi_dof_mechanism",
+    "10_1109_access_2022_3215541": "dual_harvesting_system",
+    "10_1109_tuffc_2020_3002917": "tip_excitation_regime",
+    "10_1117_12_2046687": "review_or_progress_article",
+    "10_1177_1045389x211014950": "hybrid_electret_coupling",
+    "10_1177_16878132241248999": "liquid_sloshing_excitation",
+    "10_1515_teme_2020_0030": "dynamic_magnifier_auxiliary_mechanism",
+    "10_3390_en15197271": "active_resonance_tuning",
+    "10_3390_mi14061159": "cam_rotor_multidirectional_excitation",
+    "10_3390_s151026039": "internal_fluid_flow_excitation",
+    "10_37934_arfmts_102_2_8198": "sound_wave_excitation"
+  }
+}

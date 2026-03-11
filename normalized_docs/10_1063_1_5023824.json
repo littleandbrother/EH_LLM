@@ -1,0 +1,107 @@
+{
+  "paper_id": "10_1063_1_5023824",
+  "doi": "10.1063/1.5023824",
+  "title": "Fabrication and characterization of a piezoelectric energy harvester with clamped-clamped beams",
+  "year": 2018,
+  "venue": "AIP Advances",
+  "authors": [
+    "Yan Cui",
+    "Menglin Yu",
+    "Shiqiao Gao",
+    "X. Kong",
+    "Wang Gu",
+    "Ran Zhang",
+    "Bowen Liu",
+    "Xiangxin Kong"
+  ],
+  "citation_count": 10,
+  "sections": [
+    {
+      "heading": "Fabrication and characterization of a piezoelectric energy harvester with clampedclamped beams",
+      "level": 1,
+      "text": "Yan Cui, Menglin Yu, Shiqiao Gao, Xiangxin Kong, Wang Gu, Ran Zhang, and Bowen Liu\n\nCitation: AIP Advances 8, 055028 (2018); doi: 10.1063/1.5023824 View online: https://doi.org/10.1063/1.5023824 View Table of Contents: http://aip.scitation.org/toc/adv/8/5 Published by the American Institute of Physics"
+    },
+    {
+      "heading": "Fabrication and characterization of a piezoelectric energy harvester with clamped-clamped beams",
+      "level": 1,
+      "text": "Yan Cui,1,a Menglin Yu,1 Shiqiao Gao,2 Xiangxin Kong,1 Wang Gu,1   \nRan Zhang,1 and Bowen Liu1   \n1Key Laboratory for Micro/Nano Technology and System of Liaoning Province,   \nDalian University of Technology, Dalian 116024, China   \n2State Key Laboratory of Explosion Science and Technology, Beijing Institute of Technology,   \nBeijing 100081, China\n\n(Received 28 January 2018; accepted 14 May 2018; published online 25 May 2018)\n\nThis work presents a piezoelectric energy harvester with clamped-clamped beams, and it is fabricated with MEMS process. When excited by sinusoidal vibration, the energy harvester has a sharp jumping down phenomenon and the measured frequency responses of the clamped-clamped beams structure show a larger bandwidth which is about $5 6 \\mathrm { H z }$ , more efficient than that with cantilever beams. When the exciting acceleration $\\mathrm { a _ { c } }$ is $1 2 \\mathrm { m } / \\mathrm { s } ^ { 2 }$ , the energy harvester achieves to a maximum open-circuit voltage of $9 4 \\mathrm { m V }$ on one beam. The load voltage is proportional to the load resistance, and it increased with the increase of load resistance. Connected four beams in series, the output power reaches the maximum value of $7 3 0 ~ \\mathrm { n W }$ and the optimal load is $1 5 \\mathrm { K } \\Omega$ to one beam. $©$ 2018 Author(s). All article content, except where otherwise noted, is licensed under a Creative Commons Attribution (CC BY) license (http://creativecommons.org/licenses/by/4.0/). https://doi.org/10.1063/1.5023824"
+    },
+    {
+      "heading": "I. INTRODUCTION",
+      "level": 1,
+      "text": "Due to the rapid development of microelectronic equipment, microelectronic products have been widely used. Because of the low energy density and limited lifetime of conventional chemical batteries, the longtime and stable energy supply of MEMS devices has become a pressing problem to be solved.1\n\nPiezoelectric energy harvester has been extensively researched not only for its easy integration of MEMS and integrated circuit (IC) technology,2,3 but also for the abundant energy sources from the environment. The traditional piezoelectric energy harvesters with cantilever beam not only have a small carrying capacity, and a low energy collection efficiency but also require external device to increase the bandwidth, such as magnets,4 prestress5 and so on. Compared with the cantilever beam, the stress of the clamped-clamped beam is more evenly distributed along the direction of the beam, thus improving the efficiency of energy collection.6,7 And its nonlinear behavior8 can broaden the bandwidth of energy harvesting. Yingmei Zheng et al.9 have simulated and it shows that the stress distribution on the surface of the clamped-clamped beam is uniform. Arman Hajati et al.10 have designed an energy harvester using ${ \\mathrm { d } } _ { 3 3 }$ mode, which has output of $4 5 ~ { \\mu \\mathrm { W } } ,$ the frequency exceed 1KHz and the impedance is $2 9 0 ~ \\mathrm { K } \\Omega$ . Xiudong Dang et al.11 concluded that the additional mass will magnify the induced strain of the beam to improve the output.\n\nIn this research, based on the conclusions of stress distribution and nonlinear phenomenon, the design, fabrication, and vibration characteristic of an energy harvester are reported. In addition, the properties of the PZT thin film are analyzed."
+    },
+    {
+      "heading": "A. The model of the energy harvester",
+      "level": 1,
+      "text": "The energy harvester has been designed using the clamped-clamped structure, as shown in Figure 1(c). The parameters of structure are shown in Table I. In order to improve the output of the energy harvester, the distributed electrodes are designed to utilize the two different strain on one beam and the proof mass 2 is glued to the proof mass 1 to increase the deformation. The finite element analysis is done to verify the design method and the results show that the strain distribute on one beam are tension and compression and they change with the vibration direction of beam. Besides, the maximum stress value on the beam is $2 . 1 3 \\times 1 0 ^ { 5 } \\mathrm { P a }$ and the deformation is $3 . 4 3 \\times 1 0 ^ { - 7 } \\mathrm { m }$ with proof mass 1. But with an external proof mass 2, the two kinds of parameters increase to $1 . 2 5 \\times 1 0 ^ { 6 }$ Pa and $2 . 0 6 \\times 1 0 ^ { - 6 } \\mathrm { m }$ which suggest that the external proof mass will magnify the deformation of the beam and it is helpful for improving the output, as shown in Figure 1(a), (b). The fabricated energy harvester and the cross-sectional SEM image are shown in Figure 1(d)."
+    },
+    {
+      "heading": "B. The fabrication process of energy harvester",
+      "level": 1,
+      "text": "The energy harvester presented is fabricated with MEMS process, as shown in Figure 2. (a) A piece of 2-inch double-side-polished silicon wafer is oxidized into $\\mathrm { S i O } _ { 2 }$ with a thickness of $2 . 5 \\mu \\mathrm { m }$ and the $\\mathrm { S i O } _ { 2 }$ layer is patterned on the backside of the wafer and then bulk silicon is anisotropically etched. In addition, the front $\\mathrm { S i O } _ { 2 }$ layer is patterned by a U-shape to release the energy harvester. (b) A Ti layer and $\\mathrm { P t }$ layer are sputtered and patterned with corrosion. (c)The PZT thin film is deposited on the $\\mathrm { P t / T i / S i O } _ { 2 } / \\mathrm { S i }$ substrate with sol-Gel method12 and the thickness is about $1 . 8 \\mu \\mathrm { m }$ . (d)The top electrode is fabricated with sputtering method and the PZT thin film is corroded. (e) An insulating layer of $\\mathrm { S i N _ { x } }$ is prepared by PECVD and patterned. (f)The clamped-clamped beams are freed by a dry etching process.\n\n![](images/f1a8b7937641bef474817489e74b06b1e74d572b482c52ffec61c65f34c69d6b.jpg)  \nFIG. 1. The model of piezoelectric energy harvester (a) The stress distribution of simulation with proof mass1 (b) The stress comparison distribution of simulation with proof mass1 and 2. (c) The Schematic diagram of the energy harvester. (d) The fabricated energy harvester and the cross-sectional image.\n\nTABLE I. Dimension of the designed energy harvester.   \n\n<table><tr><td>Structure layers</td><td>Geometrical parameters(mm)</td></tr><tr><td>Overall size</td><td>155 x 3.5 × 3.9mm3</td></tr><tr><td>Proof mass 1(Si)</td><td>3.5 × 3.5 × 0.22mm3</td></tr><tr><td>Proof mass 2(Cu)</td><td>3.5 × 3.5 × 1mm3</td></tr><tr><td>Single beam</td><td>4 × 1.15 × 0.03mm3</td></tr><tr><td>PZT thin film</td><td>1.8 µm(Thickness)</td></tr><tr><td>Electrode 1</td><td>1.95 × 0.9mm2</td></tr><tr><td>Electrode 2</td><td>1.9 × 1.05mm2</td></tr></table>\n\n![](images/a2bbeca7be5927e72771f49062d33627bf5e06c802e0b5089ea1095cf896a3f7.jpg)  \nFIG. 2. The fabrication process."
+    },
+    {
+      "heading": "A. Characteristics of the PZT thin film",
+      "level": 1,
+      "text": "The crystallization and dielectric properties of The PZT thin film are tested as followings. The crystal phase analysis of the PZT thin film was conducted by the D8 DISCOVER Diffraction Analyzer, and the result show that the PZT thin film is crystallized mainly in ${ < } 1 1 0 { > }$ perovskite phase. The < >dielectric properties were measured by an Intelligent LCR Measuring Instrument (ZL-5). The range of capacitance is from $1 8 . 1 \\mathrm { n F }$ to $2 1 . 3 \\mathrm { n F } .$ . The dielectric loss coefficient never exceed 0.06. The dielectric constant εr is calculated with the equation.12\n\n$$\n\\varepsilon _ { \\mathrm { r } } = { \\frac { \\mathrm { C } \\times \\mathrm { d } } { \\mathrm { A } \\times \\varepsilon _ { 0 } } }\n$$\n\nC is the capacitance, d is the thickness and A is the effective area of the PZT thin $\\mathrm { { f i m . } } \\varepsilon _ { 0 }$ is the permittivity of vacuum and the value is $8 . 8 5 \\times 1 0 ^ { - 1 2 } \\mathrm { F { \\cdot } m ^ { - 1 } }$ .\n\nThe dielectric constant $\\varepsilon _ { \\mathrm { r } }$ changes between 1525 and 1793, and it is relatively stable, as shown in Figure 3. That is vital important for a piezoelectric energy harvester to provide a stable output."
+    },
+    {
+      "heading": "B. The output characteristics of the energy harvester",
+      "level": 1,
+      "text": "To test the output of the energy harvester, the damping ratio, open-circuit voltage and load voltage of the energy harvester are measured under sinusoidal vibration.\n\n![](images/296720f26746c169120508dba42a7648188f0ef98dbd6ecda1b9489dcc7a381f.jpg)  \nFIG. 3. The measuring system.\n\n![](images/bec6a808a09fabe7eb406a2c9cf7e5d425d2e5f002d1a5eddc2dbe4748c8a35d.jpg)  \nFIG. 4. The measured results of open-circuit output.\n\nUsing the damping ratio measuring system13(the shaker JZK-5 and the FASTCAM SA4), the damping ratio $\\boldsymbol { \\zeta }$ tested is 0.015, suggesting that the energy harvester has a less energy loss in the process of vibration, thus will improve the efficiency of energy conversion.14\n\nAs for the output voltage, an electromagnetic shaker type JZ-5 which is controlled by AFG 3021B signal generator and YE5871A power amplifier is used to excite the energy harvester, the acceleration and voltage are measured by the accelerometer and oscilloscope, as shown in Figure 3. With the increase of excitation frequency, the open-circuit voltage increases under different accelerations $\\mathrm { a _ { c } }$ , then it jumped down to a lower level and approximately tends to be stable, as shown in Figure 4. Since the axial force generated by the geometric deformation of beams increases the spring constant of the structure, the sharp drop and jump phenomenon is related to nonlinear behavior and could broaden the bandwidth of the energy harvester. The maximum value of the output voltage is $9 4 \\mathrm { m V }$ at the frequency of $5 8 0 \\mathrm { H z }$ when $\\mathrm { a _ { c } }$ is $1 2 \\mathrm { m } / \\mathrm { s } ^ { 2 }$ and the -3dB bandwidth is 56Hz. The energy harvester with clamped-clamped beams has greater frequency bandwidth than other energy harvesters,15–17 as shown in Table II.\n\nThe output voltage and power of single beam in the energy harvester is as shown in Figure 5. The output power increases firstly and then decreases as the load increases. When the four beams are connected in series, the output power reaches the maximum value of $7 3 0 \\mathrm { n W }$ and the optimal load is $1 5 \\mathrm { K } \\Omega$ to one beam.\n\nTABLE II. The comparison between energy harvesters (Piezoelectric energy harvester-PE).   \n\n<table><tr><td></td><td>-3dB BW(Hz)</td><td>Power(nW)</td></tr><tr><td>PE15</td><td>35</td><td>Not mentioned</td></tr><tr><td>PE17</td><td>&lt;30</td><td>136</td></tr><tr><td>PE16</td><td>&lt;45</td><td>844</td></tr><tr><td>This work</td><td>56</td><td>730</td></tr></table>\n\n![](images/b42f2078a09a10e4e3f2abcec05679449d0980663756777fb0cd62059ba856bd.jpg)  \nFIG. 5. The load voltage and power."
+    },
+    {
+      "heading": "IV. CONCLUSION",
+      "level": 1,
+      "text": "In this work, a piezoelectric energy harvester with clamped-clamped beams has been proposed and it was fabricated with MEMS processing technology. The characteristic of PZT thin film has been measured and the result shows that the PZT thin film could satisfy the demand of the energy harvester. The output voltage and power of the vibration piezoelectric energy harvester are considerable in different frequency and acceleration. Because of the nonlinear behavior, the bandwidth of the energy harvester is broadened. But there are also many details worthy of further study, for instance, how to design the beams structures that can improve the output voltage."
+    },
+    {
+      "heading": "ACKNOWLEDGMENTS",
+      "level": 1,
+      "text": "The reported study was supported by the Fundamental Research Funds for the Central Universities according to the research Project DUT16TD20 and the Science Fund for Creative Research Groups(51621064).\n\n$^ 1 \\mathrm { L } .$ . Zhang, K. A. Williams, and Z. Xie, Mathematical Problems in Engineering 2013, 1–10 (2013).   \n2 Y. Chiu and Y.-C. Lee, Journal of Micromechanics and Microengineering 23(1), 015012 (2013).   \n3 H. Cho, J. Park, and J. Y. Park, Micro and Nano Systems Letters 5(1) (2017).   \n4 L. Tang, Y. Yang, and C. K. Soh, Journal of Intelligent Material Systems and Structures 21(18), 1867–1897 (2010).   \n5 F. Cottone, L. Gammaitoni, H. Vocca, M. Ferrari, and V. Ferrari, Smart Materials and Structures 21(3), 035021 (2012).   \n6 E. M. A. Fuentes-Fernandez, A. M. Salomon-Preciado, B. E. Gnade, M. A. Quevedo-Lopez, P. Shah, and H. N. Alshareef,   \nJournal of Electronic Materials 43(11), 3898–3904 (2014).   \n7 G. Gafforelli, A. Corigliano, R. Xu, and S.-G. Kim, Applied Physics Letters 105(20), 203901 (2014).   \n8 S. D. Senturia, Springer Berlin (2007).   \n9 Y. Zheng, X. Wu, M. Parmar, and D. W. Lee, The Review of scientific instruments 85(2), 026101 (2014).   \n10 A. Hajati and S.-G. Kim, Applied Physics Letters 99(8), 083105 (2011).   \n11 X. Tang and L. Zuo, Smart Materials and Structures 21(7), 075025 (2012).   \n12 Y. Cui, Q. Zhang, M. Yao, W. Dong, and S. Gao, AIP Advances 5(4), 041332 (2015).   \n13 P. Li, S. Gao, H. Cai, and Y. Cui, International Journal of Applied Electromagnetics & Mechanics 47(1), 125–139 (2015).   \n14 Z. Xu, X. Shan, H. Yang, W. Wang, and T. Xie, Micromachines 8(6) (2017).   \n15 S. Dhote, J. Zu, and Y. Zhu, Applied Physics Letters 106(16), 163903 (2015).   \n16 Z. Liang, C. Xu, B. Ren, H. Luo, and D. Wang, Japanese Journal of Applied Physics 53(8), 087101 (2014).   \n17 M. Rezaeisaray, M. E. Gowini, D. Sameoto, D. Raboud, and W. Moussa, Sensors and Actuators A: Physical 228, 104–111   \n(2015)."
+    }
+  ],
+  "tables": [
+    {
+      "page": -1,
+      "content": ""
+    },
+    {
+      "page": -1,
+      "content": ""
+    }
+  ],
+  "figures": [
+    {
+      "page": -1,
+      "caption": "",
+      "path": "images/f1a8b7937641bef474817489e74b06b1e74d572b482c52ffec61c65f34c69d6b.jpg"
+    },
+    {
+      "page": -1,
+      "caption": "",
+      "path": "images/a2bbeca7be5927e72771f49062d33627bf5e06c802e0b5089ea1095cf896a3f7.jpg"
+    },
+    {
+      "page": -1,
+      "caption": "",
+      "path": "images/296720f26746c169120508dba42a7648188f0ef98dbd6ecda1b9489dcc7a381f.jpg"
+    },
+    {
+      "page": -1,
+      "caption": "",
+      "path": "images/bec6a808a09fabe7eb406a2c9cf7e5d425d2e5f002d1a5eddc2dbe4748c8a35d.jpg"
+    },
+    {
+      "page": -1,
+      "caption": "",
+      "path": "images/b42f2078a09a10e4e3f2abcec05679449d0980663756777fb0cd62059ba856bd.jpg"
+    }
+  ],
+  "metadata": {
+    "source": "both",
+    "pdf_url": "https://aip.scitation.org/doi/pdf/10.1063/1.5023824",
+    "parsed_at": "2026-03-10T09:56:26.568174+00:00"
+  }
+}

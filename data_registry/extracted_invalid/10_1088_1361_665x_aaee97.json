@@ -1,0 +1,256 @@
+{
+  "status": "invalid",
+  "doc_path": "/Users/depengsu/Desktop/paper_story_agnet/EH-LLM-vehbench-exp/normalized_docs/10_1088_1361_665x_aaee97.json",
+  "doc_metadata": {
+    "paper_id": "10_1088_1361_665x_aaee97",
+    "doi": "10.1088/1361-665x/aaee97",
+    "title": "Theoretical analysis and experimental study of a nonlinear U-shaped bi-directional piezoelectric energy harvester",
+    "year": 2018,
+    "journal": "Smart materials and structures (Print)"
+  },
+  "errors": [
+    "output has no populated metric"
+  ],
+  "warnings": [],
+  "record": {
+    "metadata": {
+      "paper_id": "10_1088_1361_665x_aaee97",
+      "doi": "10.1088/1361-665x/aaee97",
+      "title": "Theoretical analysis and experimental study of a nonlinear U-shaped bi-directional piezoelectric energy harvester",
+      "year": 2018,
+      "journal": "Smart materials and structures (Print)"
+    },
+    "configuration": "frame",
+    "proof_mass": true,
+    "geometry": {
+      "length_mm": 100,
+      "width_mm": 11.5,
+      "thickness_mm": 0.123,
+      "substrate_thickness_um": 123,
+      "piezo_thickness_um": 300,
+      "tip_mass_g": 0.3,
+      "diameter_mm": null
+    },
+    "excitation": {
+      "type": "vibration",
+      "frequency_Hz": null,
+      "acceleration_g": 0.15,
+      "displacement_mm": null,
+      "motion_source": "electromagnetic shaker (LDS-V406)"
+    },
+    "load": {
+      "load_resistance_ohm": 500000
+    },
+    "output": {
+      "resonant_frequency_Hz": null,
+      "output_power_W": null,
+      "open_circuit_voltage_V": null,
+      "short_circuit_current_A": null,
+      "bandwidth_Hz": null
+    },
+    "evidence": {
+      "configuration": {
+        "quote": "The U-shaped harvester consists of a beam bent into a U shape with both ends fixed.",
+        "section": "Abstract",
+        "source_type": "abstract"
+      },
+      "proof_mass": {
+        "quote": "Mass of the magnet on the main beam 0.3 g",
+        "section": "3. Experiment",
+        "source_type": "table"
+      },
+      "geometry": {
+        "length_mm": {
+          "quote": "Length of the main beam 100 mm",
+          "section": "3. Experiment",
+          "source_type": "table"
+        },
+        "width_mm": {
+          "quote": "Width of substrate 11.5 mm",
+          "section": "3. Experimentation",
+          "source_type": "table"
+        },
+        "thickness_mm": {
+          "quote": "Thickness of substrate 0.123 mm",
+          "section": "3. Experiment",
+          "source_type": "table"
+        },
+        "substrate_thickness_um": {
+          "quote": "Thickness of substrate 0.123 mm",
+          "section": "3. Experiment",
+          "source_type": "table"
+        },
+        "piezo_thickness_um": {
+          "quote": "Thickness of MFC 0.3 mm",
+          "section": "3. Experiment",
+          "source_type": "table"
+        },
+        "tip_mass_g": {
+          "quote": "Mass of the magnet on the main beam 0.3 g",
+          "section": "3. Experiment",
+          "source_type": "table"
+        },
+        "diameter_mm": {
+          "quote": null,
+          "section": null,
+          "source_type": null
+        }
+      },
+      "excitation": {
+        "type": {
+          "quote": "The U-shaped PEH is mounted on an electromagnetic shaker (LDS-V406) for base excitations.",
+          "section": "3. Experiment",
+          "source_type": "section"
+        },
+        "frequency_Hz": {
+          "quote": null,
+          "section": null,
+          "source_type": null
+        },
+        "acceleration_g": {
+          "quote": "constant acceleration of 0.15 G",
+          "section": "3. Experiment",
+          "source_type": "section"
+        },
+        "displacement_mm": {
+          "quote": null,
+          "section": null,
+          "source_type": null
+        },
+        "motion_source": {
+          "quote": "electromagnetic shaker (LDS-V406)",
+          "section": "3. Experiment",
+          "source_type": "section"
+        }
+      },
+      "load": {
+        "load_resistance_ohm": {
+          "quote": "Load resistance 500kΩ",
+          "section": "3. Experiment",
+          "source_type": "table"
+        }
+      },
+      "output": {
+        "resonant_frequency_Hz": {
+          "quote": null,
+          "section": null,
+          "source_type": null
+        },
+        "output_power_W": {
+          "quote": null,
+          "section": null,
+          "source_type": null
+        },
+        "open_circuit_voltage_V": {
+          "quote": null,
+          "section": null,
+          "source_type": null
+        },
+        "short_circuit_current_A": {
+          "quote": null,
+          "section": null,
+          "source_type": null
+        },
+        "bandwidth_Hz": {
+          "quote": null,
+          "section": null,
+          "source_type": null
+        }
+      }
+    }
+  },
+  "llm_result": {
+    "ok": true,
+    "data": {
+      "configuration": "frame",
+      "proof_mass": true,
+      "geometry": {
+        "length_mm": 100,
+        "width_mm": 11.5,
+        "thickness_mm": 0.123,
+        "substrate_thickness_um": 123,
+        "piezo_thickness_um": 300,
+        "tip_mass_g": 0.3
+      },
+      "excitation": {
+        "type": "vibration",
+        "acceleration_g": 0.15,
+        "motion_source": "electromagnetic shaker (LDS-V406)"
+      },
+      "load": {
+        "load_resistance_ohm": 500000
+      },
+      "output": {},
+      "evidence": {
+        "configuration": {
+          "quote": "The U-shaped harvester consists of a beam bent into a U shape with both ends fixed.",
+          "section": "Abstract",
+          "source_type": "abstract"
+        },
+        "proof_mass": {
+          "quote": "Mass of the magnet on the main beam 0.3 g",
+          "section": "3. Experiment",
+          "source_type": "table"
+        },
+        "geometry": {
+          "length_mm": {
+            "quote": "Length of the main beam 100 mm",
+            "section": "3. Experiment",
+            "source_type": "table"
+          },
+          "width_mm": {
+            "quote": "Width of substrate 11.5 mm",
+            "section": "3. Experimentation",
+            "source_type": "table"
+          },
+          "thickness_mm": {
+            "quote": "Thickness of substrate 0.123 mm",
+            "section": "3. Experiment",
+            "source_type": "table"
+          },
+          "substrate_thickness_um": {
+            "quote": "Thickness of substrate 0.123 mm",
+            "section": "3. Experiment",
+            "source_type": "table"
+          },
+          "piezo_thickness_um": {
+            "quote": "Thickness of MFC 0.3 mm",
+            "section": "3. Experiment",
+            "source_type": "table"
+          },
+          "tip_mass_g": {
+            "quote": "Mass of the magnet on the main beam 0.3 g",
+            "section": "3. Experiment",
+            "source_type": "table"
+          }
+        },
+        "excitation": {
+          "type": {
+            "quote": "The U-shaped PEH is mounted on an electromagnetic shaker (LDS-V406) for base excitations.",
+            "section": "3. Experiment",
+            "source_type": "section"
+          },
+          "acceleration_g": {
+            "quote": "constant acceleration of 0.15 G",
+            "section": "3. Experiment",
+            "source_type": "section"
+          },
+          "motion_source": {
+            "quote": "electromagnetic shaker (LDS-V406)",
+            "section": "3. Experiment",
+            "source_type": "section"
+          }
+        },
+        "load": {
+          "load_resistance_ohm": {
+            "quote": "Load resistance 500kΩ",
+            "section": "3. Experiment",
+            "source_type": "table"
+          }
+        },
+        "output": {}
+      }
+    },
+    "raw_output": "{\n  \"configuration\": \"frame\",\n  \"proof_mass\": true,\n  \"geometry\": {\n    \"length_mm\": 100,\n    \"width_mm\": 11.5,\n    \"thickness_mm\": 0.123,\n    \"substrate_thickness_um\": 123,\n    \"piezo_thickness_um\": 300,\n    \"tip_mass_g\": 0.3\n  },\n  \"excitation\": {\n    \"type\": \"vibration\",\n    \"acceleration_g\": 0.15,\n    \"motion_source\": \"electromagnetic shaker (LDS-V406)\"\n  },\n  \"load\": {\n    \"load_resistance_ohm\": 500000\n  },\n  \"output\": {},\n  \"evidence\": {\n    \"configuration\": {\n      \"quote\": \"The U-shaped harvester consists of a beam bent into a U shape with both ends fixed.\",\n      \"section\": \"Abstract\",\n      \"source_type\": \"abstract\"\n    },\n    \"proof_mass\": {\n      \"quote\": \"Mass of the magnet on the main beam 0.3 g\",\n      \"section\": \"3. Experiment\",\n      \"source_type\": \"table\"\n    },\n    \"geometry\": {\n      \"length_mm\": {\n        \"quote\": \"Length of the main beam 100 mm\",\n        \"section\": \"3. Experiment\",\n        \"source_type\": \"table\"\n      },\n      \"width_mm\": {\n        \"quote\": \"Width of substrate 11.5 mm\",\n        \"section\": \"3. Experimentation\",\n        \"source_type\": \"table\"\n      },\n      \"thickness_mm\": {\n        \"quote\": \"Thickness of substrate 0.123 mm\",\n        \"section\": \"3. Experiment\",\n        \"source_type\": \"table\"\n      },\n      \"substrate_thickness_um\": {\n        \"quote\": \"Thickness of substrate 0.123 mm\",\n        \"section\": \"3. Experiment\",\n        \"source_type\": \"table\"\n      },\n      \"piezo_thickness_um\": {\n        \"quote\": \"Thickness of MFC 0.3 mm\",\n        \"section\": \"3. Experiment\",\n        \"source_type\": \"table\"\n      },\n      \"tip_mass_g\": {\n        \"quote\": \"Mass of the magnet on the main beam 0.3 g\",\n        \"section\": \"3. Experiment\",\n        \"source_type\": \"table\"\n      }\n    },\n    \"excitation\": {\n      \"type\": {\n        \"quote\": \"The U-shaped PEH is mounted on an electromagnetic shaker (LDS-V406) for base excitations.\",\n        \"section\": \"3. Experiment\",\n        \"source_type\": \"section\"\n      },\n      \"acceleration_g\": {\n        \"quote\": \"constant acceleration of 0.15 G\",\n        \"section\": \"3. Experiment\",\n        \"source_type\": \"section\"\n      },\n      \"motion_source\": {\n        \"quote\": \"electromagnetic shaker (LDS-V406)\",\n        \"section\": \"3. Experiment\",\n        \"source_type\": \"section\"\n      }\n    },\n    \"load\": {\n      \"load_resistance_ohm\": {\n        \"quote\": \"Load resistance 500kΩ\",\n        \"section\": \"3. Experiment\",\n        \"source_type\": \"table\"\n      }\n    },\n    \"output\": {}\n  }\n}"
+  }
+}

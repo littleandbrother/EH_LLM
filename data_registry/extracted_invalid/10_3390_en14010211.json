@@ -1,0 +1,261 @@
+{
+  "status": "invalid",
+  "doc_path": "/Users/depengsu/Desktop/paper_story_agnet/EH-LLM-vehbench-exp/normalized_docs/10_3390_en14010211.json",
+  "doc_metadata": {
+    "paper_id": "10_3390_en14010211",
+    "doi": "10.3390/en14010211",
+    "title": "Planform Geometry and Excitation Effects of PVDF-Based Vibration Energy Harvesters",
+    "year": 2021,
+    "journal": "Energies"
+  },
+  "errors": [
+    "output has no populated metric"
+  ],
+  "warnings": [],
+  "record": {
+    "metadata": {
+      "paper_id": "10_3390_en14010211",
+      "doi": "10.3390/en14010211",
+      "title": "Planform Geometry and Excitation Effects of PVDF-Based Vibration Energy Harvesters",
+      "year": 2021,
+      "journal": "Energies"
+    },
+    "configuration": "cantilever",
+    "proof_mass": false,
+    "geometry": {
+      "length_mm": 78,
+      "width_mm": 22,
+      "thickness_mm": null,
+      "substrate_thickness_um": 100,
+      "piezo_thickness_um": 64,
+      "tip_mass_g": null,
+      "diameter_mm": null
+    },
+    "excitation": {
+      "type": "vibration",
+      "frequency_Hz": 13.5,
+      "acceleration_g": 0.2,
+      "displacement_mm": null,
+      "motion_source": null
+    },
+    "load": {
+      "load_resistance_ohm": 1000000
+    },
+    "output": {
+      "resonant_frequency_Hz": null,
+      "output_power_W": null,
+      "open_circuit_voltage_V": null,
+      "short_circuit_current_A": null,
+      "bandwidth_Hz": null
+    },
+    "evidence": {
+      "configuration": {
+        "quote": "cantilever bimorphs",
+        "section": "2.1. Harvesters’ Design and Realization",
+        "source_type": "section"
+      },
+      "proof_mass": {
+        "quote": "The present harvesters do not employ tip masses",
+        "section": "2.1. Harvesters’ Design and Realization",
+        "source_type": "section"
+      },
+      "geometry": {
+        "length_mm": {
+          "quote": "78",
+          "section": "2.1. Harvesters’ Design and Realization",
+          "source_type": "table"
+        },
+        "width_mm": {
+          "quote": "22",
+          "section": "2.1. Harvesters’ Design and Realization",
+          "source_type": "table"
+        },
+        "thickness_mm": {
+          "quote": null,
+          "section": null,
+          "source_type": null
+        },
+        "substrate_thickness_um": {
+          "quote": "thickness: $h_e = 0.1 mm$",
+          "section": "2.1. Harvesters’ Design and Realization",
+          "source_type": "section"
+        },
+        "piezo_thickness_um": {
+          "quote": "thickness: $h_p = 0.064 mm$",
+          "section": "2.1. Harvesters’ Design and Realization",
+          "source_type": "section"
+        },
+        "tip_mass_g": {
+          "quote": null,
+          "section": null,
+          "source_type": null
+        },
+        "diameter_mm": {
+          "quote": null,
+          "section": null,
+          "source_type": null
+        }
+      },
+      "excitation": {
+        "type": {
+          "quote": "vibration sources excitation",
+          "section": "Article Planform Geometry and Excitation Effects of PVDF-Based Vibration Energy Harvesters",
+          "source_type": "abstract"
+        },
+        "frequency_Hz": {
+          "quote": "13.5",
+          "section": "3.1. Dynamics and Power Generation Measurements",
+          "source_type": "table"
+        },
+        "acceleration_g": {
+          "quote": "0.2 g",
+          "section": "3.1. Dynamics and Power Generation Measurements",
+          "source_type": "table"
+        },
+        "displacement_mm": {
+          "quote": null,
+          "section": null,
+          "source_type": null
+        },
+        "motion_source": {
+          "quote": null,
+          "section": null,
+          "source_type": null
+        }
+      },
+      "load": {
+        "load_resistance_ohm": {
+          "quote": "1000",
+          "section": "2.1. Harvesters’ Design and Realization",
+          "source_type": "table"
+        }
+      },
+      "output": {
+        "resonant_frequency_Hz": {
+          "quote": "13.5",
+          "section": "3.1. Dynamics and Power Generation Measurements",
+          "source_type": "table"
+        },
+        "output_power_W": {
+          "quote": null,
+          "section": null,
+          "source_type": null
+        },
+        "open_circuit_voltage_V": {
+          "quote": null,
+          "section": null,
+          "source_type": null
+        },
+        "short_circuit_current_A": {
+          "quote": null,
+          "section": null,
+          "source_type": null
+        },
+        "bandwidth_Hz": {
+          "quote": null,
+          "section": null,
+          "source_type": null
+        }
+      }
+    }
+  },
+  "llm_result": {
+    "ok": true,
+    "data": {
+      "configuration": "cantilever",
+      "proof_mass": false,
+      "geometry": {
+        "length_mm": 78,
+        "width_mm": 22,
+        "thickness_mm": null,
+        "substrate_thickness_um": 100,
+        "piezo_thickness_um": 64,
+        "tip_mass_g": null,
+        "diameter_mm": null
+      },
+      "excitation": {
+        "type": "vibration",
+        "frequency_Hz": 13.5,
+        "acceleration_g": 0.2,
+        "displacement_mm": null,
+        "motion_source": null
+      },
+      "load": {
+        "load_resistance_ohm": 1000000
+      },
+      "output": {
+        "resresonant_frequency_Hz": 13.5,
+        "output_power_W": null,
+        "open_circuit_voltage_V": null,
+        "short_circuit_current_A": null,
+        "bandwidth_Hz": null
+      },
+      "evidence": {
+        "configuration": {
+          "quote": "cantilever bimorphs",
+          "section": "2.1. Harvesters’ Design and Realization",
+          "source_type": "section"
+        },
+        "proof_mass": {
+          "quote": "The present harvesters do not employ tip masses",
+          "section": "2.1. Harvesters’ Design and Realization",
+          "source_type": "section"
+        },
+        "geometry": {
+          "length_mm": {
+            "quote": "78",
+            "section": "2.1. Harvesters’ Design and Realization",
+            "source_type": "table"
+          },
+          "width_mm": {
+            "quote": "22",
+            "section": "2.1. Harvesters’ Design and Realization",
+            "source_type": "table"
+          },
+          "substrate_thickness_um": {
+            "quote": "thickness: $h_e = 0.1 mm$",
+            "section": "2.1. Harvesters’ Design and Realization",
+            "source_type": "section"
+          },
+          "piezo_thickness_um": {
+            "quote": "thickness: $h_p = 0.064 mm$",
+            "section": "2.1. Harvesters’ Design and Realization",
+            "source_type": "section"
+          }
+        },
+        "excitation": {
+          "type": {
+            "quote": "vibration sources excitation",
+            "section": "Article Planform Geometry and Excitation Effects of PVDF-Based Vibration Energy Harvesters",
+            "source_type": "abstract"
+          },
+          "frequency_Hz": {
+            "quote": "13.5",
+            "section": "3.1. Dynamics and Power Generation Measurements",
+            "source_type": "table"
+          },
+          "acceleration_g": {
+            "quote": "0.2 g",
+            "section": "3.1. Dynamics and Power Generation Measurements",
+            "source_type": "table"
+          }
+        },
+        "load": {
+          "load_resistance_ohm": {
+            "quote": "1000",
+            "section": "2.1. Harvesters’ Design and Realization",
+            "source_type": "table"
+          }
+        },
+        "output": {
+          "resonant_frequency_Hz": {
+            "quote": "13.5",
+            "section": "3.1. Dynamics and Power Generation Measurements",
+            "source_type": "table"
+          }
+        }
+      }
+    },
+    "raw_output": "```json\n{\n  \"configuration\": \"cantilever\",\n  \"proof_mass\": false,\n  \"geometry\": {\n    \"length_mm\": 78,\n    \"width_mm\": 22,\n    \"thickness_mm\": null,\n    \"substrate_thickness_um\": 100,\n    \"piezo_thickness_um\": 64,\n    \"tip_mass_g\": null,\n    \"diameter_mm\": null\n  },\n  \"excitation\": {\n    \"type\": \"vibration\",\n    \"frequency_Hz\": 13.5,\n    \"acceleration_g\": 0.2,\n    \"displacement_mm\": null,\n    \"motion_source\": null\n  },\n  \"load\": {\n    \"load_resistance_ohm\": 1000000\n  },\n  \"output\": {\n    \"resresonant_frequency_Hz\": 13.5,\n    \"output_power_W\": null,\n    \"open_circuit_voltage_V\": null,\n    \"short_circuit_current_A\": null,\n    \"bandwidth_Hz\": null\n  },\n  \"evidence\": {\n    \"configuration\": {\n      \"quote\": \"cantilever bimorphs\",\n      \"section\": \"2.1. Harvesters’ Design and Realization\",\n      \"source_type\": \"section\"\n    },\n    \"proof_mass\": {\n      \"quote\": \"The present harvesters do not employ tip masses\",\n      \"section\": \"2.1. Harvesters’ Design and Realization\",\n      \"source_type\": \"section\"\n    },\n    \"geometry\": {\n      \"length_mm\": {\n        \"quote\": \"78\",\n        \"section\": \"2.1. Harvesters’ Design and Realization\",\n        \"source_type\": \"table\"\n      },\n      \"width_mm\": {\n        \"quote\": \"22\",\n        \"section\": \"2.1. Harvesters’ Design and Realization\",\n        \"source_type\": \"table\"\n      },\n      \"substrate_thickness_um\": {\n        \"quote\": \"thickness: $h_e = 0.1 mm$\",\n        \"section\": \"2.1. Harvesters’ Design and Realization\",\n        \"source_type\": \"section\"\n      },\n      \"piezo_thickness_um\": {\n        \"quote\": \"thickness: $h_p = 0.064 mm$\",\n        \"section\": \"2.1. Harvesters’ Design and Realization\",\n        \"source_type\": \"section\"\n      }\n    },\n    \"excitation\": {\n      \"type\": {\n        \"quote\": \"vibration sources excitation\",\n        \"section\": \"Article Planform Geometry and Excitation Effects of PVDF-Based Vibration Energy Harvesters\",\n        \"source_type\": \"abstract\"\n      },\n      \"frequency_Hz\": {\n        \"quote\": \"13.5\",\n        \"section\": \"3.1. Dynamics and Power Generation Measurements\",\n        \"source_type\": \"table\"\n      },\n      \"acceleration_g\": {\n        \"quote\": \"0.2 g\",\n        \"section\": \"3.1. Dynamics and Power Generation Measurements\",\n        \"source_type\": \"table\"\n      }\n    },\n    \"load\": {\n      \"load_resistance_ohm\": {\n        \"quote\": \"1000\",\n        \"section\": \"2.1. Harvesters’ Design and Realization\",\n        \"source_type\": \"table\"\n      }\n    },\n    \"output\": {\n      \"resonant_frequency_Hz\": {\n        \"quote\": \"13.5\",\n        \"section\": \"3.1. Dynamics and Power Generation Measurements\",\n        \"source_type\": \"table\"\n      }\n    }\n  }\n}\n```"
+  }
+}

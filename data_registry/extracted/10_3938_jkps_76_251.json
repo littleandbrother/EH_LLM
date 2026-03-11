@@ -1,0 +1,147 @@
+{
+  "metadata": {
+    "paper_id": "10_3938_jkps_76_251",
+    "doi": "10.3938/jkps.76.251",
+    "title": "Propeller-based Underwater Piezoelectric Energy Harvesting System for an Autonomous IoT Sensor System",
+    "year": 2020,
+    "journal": "Journal of the Korean Physical Society"
+  },
+  "configuration": "cantilever",
+  "proof_mass": false,
+  "geometry": {
+    "length_mm": 80,
+    "width_mm": 37,
+    "thickness_mm": 1.55,
+    "substrate_thickness_um": 1350,
+    "piezo_thickness_um": 200,
+    "tip_mass_g": null,
+    "diameter_mm": null
+  },
+  "excitation": {
+    "type": "impact",
+    "frequency_Hz": 24.5,
+    "acceleration_g": null,
+    "displacement_mm": null,
+    "motion_source": "water flow"
+  },
+  "load": {
+    "load_resistance_ohm": 10800
+  },
+  "output": {
+    "resonant_frequency_Hz": 24.5,
+    "output_power_W": 0.017,
+    "open_circuit_voltage_V": 50,
+    "short_circuit_current_A": null,
+    "bandwidth_Hz": null
+  },
+  "evidence": {
+    "configuration": {
+      "quote": "The piezoelectric module is installed as a cantilever structure in this experiment",
+      "section": "II. METHOD",
+      "source_type": "section"
+    },
+    "proof_mass": {
+      "quote": "Unlike previous tip mass method, a newly applied technique makes it possible to match a frequency by easily controlling the bending length of a piezoelectric module using an acrylic plate",
+      "section": "Propeller-based Underwater Piezoelectric Energy Harvesting System for an Autonomous IoT Sensor System",
+      "source_type": "abstract"
+    },
+    "geometry": {
+      "length_mm": {
+        "quote": "The frequency-matched bending length was 80 mm",
+        "section": "Propeller-based Underwater Piezoelectric Energy Harvesting System for an Autonomous IoT Sensor System",
+        "source_type": "abstract"
+      },
+      "width_mm": {
+        "quote": "C is the 37 mm width of both the piezoelectric and the substrate plate",
+        "section": "II. METHOD",
+        "source_type": "section"
+      },
+      "thickness_mm": {
+        "quote": "The thickness of the piezoelectric plate is 0.2 mm and that of the substrate is 1.35 mm",
+        "section": "II. METHOD",
+        "source_type": "section"
+      },
+      "substrate_thickness_um": {
+        "quote": "thickness of the piezoelectric plate is 0.2 mm and that of the substrate is 1.35 mm",
+        "section": "II. METHOD",
+        "source_type": "section"
+      },
+      "piezo_thickness_um": {
+        "quote": "The thickness of the piezoelectric plate is 0.2 mm",
+        "section": "II. METHOD",
+        "source_type": "section"
+      },
+      "tip_mass_g": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "diameter_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      }
+    },
+    "excitation": {
+      "type": {
+        "quote": "hitting sticks... hit a piezoelectric cantilever beam",
+        "section": "Propeller-based Underwater Piezoelectric Energy Harvesting System for an Autonomous IoT Sensor System",
+        "source_type": "abstract"
+      },
+      "frequency_Hz": {
+        "quote": "frequency of 24.5 Hz occurred with four hitting sticks",
+        "section": "Propeller-based Underwater Piezoelectric Energy Harvesting System for an Autonomous IoT Sensor System",
+        "source_type": "abstract"
+      },
+      "acceleration_g": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "displacement_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "motion_source": {
+        "quote": "water flow rate of the Han River",
+        "section": "Propeller-based Underwater Piezoelectric Energy Harvesting System for an Autonomous IoT Sensor System",
+        "source_type": "abstract"
+      }
+    },
+    "load": {
+      "load_resistance_ohm": {
+        "quote": "At a resistance of 10.8 kΩ",
+        "section": "Propeller-based Underwater Piezoelectric Energy Harvesting System for an Autonomous IoT Sensor System",
+        "source_type": "abstract"
+      }
+    },
+    "output": {
+      "resonant_frequency_Hz": {
+        "quote": "frequency of 24.5 Hz occurred",
+        "section": "Propeller-based Underwater Piezoelectric Energy Harvesting System for an Autonomous IoT Sensor System",
+        "source_type": "abstract"
+      },
+      "output_power_W": {
+        "quote": "output power of 17 mW_rms",
+        "section": "Propeller-based Underwater Piezoelectric Energy Harvesting System for an Autonomous IoT Sensor System",
+        "source_type": "abstract"
+      },
+      "open_circuit_voltage_V": {
+        "quote": "maximum output voltage of 50 V",
+        "section": "III. RESULTS AND DISCUSSION",
+        "source_type": "section"
+      },
+      "short_circuit_current_A": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "bandwidth_Hz": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      }
+    }
+  }
+}

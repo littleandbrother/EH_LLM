@@ -1,0 +1,118 @@
+{
+  "paper_id": "10_7567_jjap_56_04cl04",
+  "doi": "10.7567/jjap.56.04cl04",
+  "title": "Piezoelectric vibration energy harvesters with stretched and multistacked organic ferroelectric films",
+  "year": 2017,
+  "venue": "Japanese Journal of Applied Physics",
+  "authors": [
+    "T. Kajihara",
+    "Y. Ueno",
+    "Y. Tsujiura",
+    "Y. Koshiba",
+    "M. Morimoto",
+    "I. Kanno",
+    "K. Ishida",
+    "Tadao Kajihara",
+    "Yoshikazu Ueno",
+    "Yuichi Tsujiura",
+    "Yasuko Koshiba",
+    "Masahiro Morimoto",
+    "Isaku Kanno",
+    "Kenji Ishida"
+  ],
+  "citation_count": 9,
+  "sections": [
+    {
+      "heading": "Kobe University Repository : Kernel",
+      "level": 1,
+      "text": "PDF issue: 2026-03-10\n\nPiezoelectric vibration energy harvesters with stretched and multistacked organic ferroelectric films\n\nKajihara, Tadao ; Ueno, Yoshikazu ; Tsujiura, Yuichi ; Koshiba, Yasuko ; Morimoto, Masahiro ; Kanno, Isaku ; Ishida, Kenji\n\n(Citation) Japanese Journal of Applied Physics,56(4S):04CL04-04CL04\n\n(Issue Date)   \n2017-04   \n(Resource Type)   \njournal article   \n(Version)   \nAccepted Manuscript   \n(Rights)   \n$\\circledcirc$ 2017 The Japan Society of Applied Physics\n\n(URL) https://hdl.handle.net/20.500.14094/90005404"
+    },
+    {
+      "heading": "Piezoelectric vibration energy harvesters with stretched and multistacked organic ferroelectric films",
+      "level": 1,
+      "text": "Tadao Kajihara1 , Yoshikazu Ueno1 , Yuichi Tsujiura2 , Yasuko Koshiba1 , Masahiro Morimoto1 , Isaku Kanno2 and Kenji Ishida1,3\\*\n\n1. Department of Chemical Science and Engineering, Graduate School of Engineering, Kobe University, Rokkodai 1-1, Nada, Kobe 657-8501, Japan.   \n2. Department of Mechanical Engineering, Graduate School of Engineering, Kobe University, Rokkodai 1-1, Nada, Kobe 657-8501, Japan.   \n3. Center for Membrane and Films Technology, Graduate School of Engineering, Kobe University, Rokkodai 1-1, Nada, Kobe 657-8501, Japan.\n\n\\*Email: kishida@crystal.kobe-u.ac.jp\n\nWe investigated piezoelectric vibration energy harvesters with poly(vinylidene fluoride/trifluoroethylene) films and the improved power generation from using multistacked and stretched ferroelectric films on the cantilevers. The energy harvesters generated electric power with a resonant frequency approximately $2 5 \\ : \\mathrm { H z }$ , which corresponded to the ambient vibration. The power density of four-layered harvesters was estimated to be $2 . 5 \\mu \\mathrm { W } / \\mathrm { m m } ^ { 3 }$ , which was quite larger than that of previous harvesters. The output power of stretched-film harvesters was 3.6 times the output obtained from unstretched films. Also, because organic ferroelectric films are flexible, the resonant frequency of each harvester was practically constant even when using the techniques of multistacking and stretching."
+    },
+    {
+      "heading": "1. Introduction",
+      "level": 1,
+      "text": "Energy harvesting has attracted significant attention in the recent years because it converts wasted ambient energy into usable electrical power. Unused ambient energy comes from light, thermal, wind and vibration sources. Vibration energy, for example, pervades our living environment and includes large energy sources. Ambient vibrations with low frequencies under $1 0 0 \\mathrm { H z }$ are most widely distributed;1) thus the resonant frequency of the vibration harvesters should be adjusted to these low frequencies. Vibration harvesters using inorganic piezoelectric materials have been investigated.2–5) The resonant frequencies of harvesters with inorganic materials were higher than those emanating from environmental vibrations.6,7) Hence, environmental vibration energy has rarely been utilized efficiently.\n\nOrganic ferroelectric materials are attracting great attention as promising materials in the growing field of molecular electronics, especially in the area of sensor applications. Poly(vinylidene fluoride/trifluoroethylene) [P(VDF/TrFE)] is a well-known organic ferroelectric polymer widely investigated because of its ferroelectric,8–12) piezoelectric,13– 16) and pyroelectric15–19) properties. P(VDF/TrFE) polymers have a low Young’s modulus, exhibit flexibility, and can be subjected to large, non-destructive deformations. Therefore, energy harvesters with P(VDF/TrFE) have been expected to show lower resonance frequencies than inorganic materials. Earlier P(VDF/TrFE) harvesters showed small Q-value performance; thus, they could correspond to wide ranges of vibration frequencies and could be expected to serve as effective vibration energy harvesters.20–22)\n\nWe aimed to fabricate high-performance energy harvesters using multistacked polymer films and stretched polymer films. Polymer materials can be coated by wet-processing, which enables the fabrication of large-area and easily multistacked polymer layers. In contrast, stretching methods are well-known techniques for working with polymer films and have been widely used because the mechanical and electrical properties of polymer films were improved by using these methods.23–25) In this study, we tried to improve the performance of energy harvesters with P(VDF/TrFE) films. The output power density of the energy harvesters was increased by laminating multiple P(VDF/TrFE) films to increase power generation. Moreover, we tried to increase the piezoelectric properties by stretching the P(VDF/TrFE) films. We evaluated the relationship between the vibration energy and piezoelectric properties of the stretched P(VDF/TrFE) films to determine an effective approach for high-efficiency power generation."
+    },
+    {
+      "heading": "2. Experimental methods",
+      "level": 1,
+      "text": "P(VDF/TrFE) (Kureha Corporation, Tokyo, Japan) was dissolved in $1 0 \\ \\mathrm { w t } \\%$ methyl ethyl ketone. The solution was spin-coated onto the $8 0 \\ \\mathrm { n m }$ Al bottom electrode coated with 25- $\\mu \\mathrm { m }$ -thick polyethylene naphthalate (PEN) films. The P(VDF/TrFE) films were annealed at $1 2 5 ~ ^ { \\circ } \\mathrm { C }$ for $2 . 0 \\mathrm { h }$ under nitrogen atmosphere. The thickness of the P(VDF/TrFE) films was about $2 . 0 \\mu \\mathrm { m }$ . The $8 0 \\ \\mathrm { n m }$ Al top electrode was deposited. These processing were repeated and the multistacked Al/P(VDF/TrFE)/Al capacitors were fabricated, as Fig. 1(a) shows. The cantilever-type energy harvesters for power generation and piezoelectric measurements were $5 \\mathrm { m m } \\times 7 \\mathrm { m m }$ and $0 . 5 \\ : \\mathrm { m m } \\times 4 \\ : \\mathrm { m m }$ , respectively. The P(VDF/TrFE) self-standing films were mechanically stretched about $3 0 0 \\%$ . The stretched films, onto which the $8 0 \\mathrm { n m }$ Al electrodes had been deposited, were laminated to the PEN substrate [Fig. 1(b,c)]. Subsequently, an external sinusoidal voltage of $1 5 0 \\mathrm { V }$ was applied to the P(VDF/TrFE) capacitors at room temperature to polarize the molecular dipoles in the P(VDF/TrFE) films. Remnant polarization $P _ { \\mathrm { { r } } }$ , that is, the ferroelectric performance index, was adjusted by controlling the number of applied electric field scans.\n\nThe piezoelectric properties were measured using a laser Doppler vibrometer. The piezoelectric vibration was generated by applying a sinusoidal voltage between the top and bottom electrodes, and the displacement of the cantilever tip was read by a laser Doppler vibrometer (LV-1720, Ono Sokki, Yokohama, Japan). The electric power generation was measured as mechanical vibrations were applied to the cantilever. The cantilevers were mounted on a vibration exciter, and the acceleration of the vibration was measured by an acceleration pickup attached to the vibration exciter. The output voltage with a load resistance was measured, and the tip displacement of the cantilevers was read while the cantilevers were subjected to applied vibrations. Large displacements of the energy harvester were observed by attaching a weight of $0 . 0 4 \\ \\mathrm { g }$ to the tip of the cantilever and employing excited vibrations with an acceleration of $1 0 \\mathrm { m } / \\mathrm { s } ^ { 2 }$ ."
+    },
+    {
+      "heading": "3. Results and discussion",
+      "level": 1,
+      "text": "3.1 Multistacked energy harvesters\n\nFigure 2 shows the output voltage and the tip displacement of unimorph P(VDF/TrFE) energy harvesters as functions of the vibration frequency. The voltage and displacement each displayed a single peak; the frequencies of the peaks corresponded. This result suggests that the displacement of the cantilever at the resonant frequency caused the output voltage of the energy harvester. The frequency peak was observed at approximately $2 5 \\ : \\mathrm { H z }$ , which was quite lower than that of the inorganic hard harvesters.2,3) Therefore, the performance of the organic piezoelectric energy harvester indicated the possibility of efficient power conversion of environmental vibrations widely present below $1 0 0 \\mathrm { H z }$ . The remanent polarization $P _ { \\mathrm { ~ r ~ } }$ of the P(VDF/TrFE) dependence of output power and piezoelectric constant $e$ for unimorph cantilevers is shown in Fig. 3(a). Both the output power and values of $e$ showed increases with increasing values of $P _ { \\mathrm { { r } } }$ because the output power depended on the $e$ of the piezoelectric polymers and the relational equation between the power and $e$ has been reported.3,4,26) However, the $P _ { \\mathrm { { r } } }$ indicating the intrinsic polarization of P(VDF/TrFE) films influences the generated power directly, despite the fact that $P _ { \\mathrm { ~ r ~ } }$ was not included in the equation. This relation implies that the high power generation of piezoelectric harvesters is attributable not only to piezoelectricity; thus, this relation is influenced not only by the piezoelectric constant $e$ but also by the intrinsic ferroelectricity $P _ { \\mathrm { ~ r ~ } }$ .\n\nSubsequently, the number of stacked P(VDF/TrFE) layers linearly increased the output power of energy harvesters because stacking the layers increased the effective electrode area, as Fig. 3(b) shows. The generated power of the four-layer laminated harvesters was measured to be $2 . 5 \\mu \\mathrm { W } .$ . However, measures of the power generation varied with increases in the number of layers because the electrodes and films were probably damaged during the several times polling process. The single-layered harvesters observed small density of generated power, but the four-layered harvesters could observe 100 times density of generated power as much as previous organic harvesters (Table I). In contrast, the resonant frequency remained nearly constant for multistacked films. Resonant frequencies for single-layered and four-layered cantilevers were observed to be $2 4 . 6 \\mathrm { H z }$ and $2 6 . 0 \\mathrm { H z }$ , respectively and they were quite lower than that of the previously reported harvesters with high performance. These results occurred because the resonant frequency attributable to the cantilever modulus was decided by the mostly substrate elastic properties; thus, the multistacked piezoelectric energy harvesters could be expected to supply high power density and a practical means for energy harvesting."
+    },
+    {
+      "heading": "3.2 Stretched P(VDF/TrFE) energy harvesters",
+      "level": 1,
+      "text": "Figure 4 shows the polarized FT-IR spectra both before and after stretching P(VDF/TrFE)\n\nfilms. The peaks at $1 3 9 0 \\mathrm { c m } ^ { - 1 }$ and $1 0 7 0 \\mathrm { c m } ^ { - 1 }$ correspond to $\\mathrm { C H } _ { 2 }$ wagging; $w \\mathrm { C H } _ { 2 }$ and CC stretching; $\\nu \\mathbf { C } \\mathbf { C }$ , respectively, which are parallel to the molecular chains. The peaks at $1 2 9 0 \\mathrm { c m } ^ { - 1 }$ , $1 1 9 0 \\mathrm { c m } ^ { - 1 }$ , $8 8 0 ~ \\mathrm { c m ^ { - 1 } }$ , and $8 4 0 ~ \\mathrm { c m ^ { - 1 } }$ correspond to $\\mathrm { C F } _ { 2 }$ antisymmetric stretching; $\\nu _ { a } \\mathrm { C F } _ { 2 }$ , which is perpendicular to the molecular chains27–30) These results suggest that the molecular chains of stretched films were aligned with the stretching direction.\n\nThe output voltages of three types of cantilevers, the unstretched ones, those with stretch direction parallel to the cantilever, and those with stretch direction perpendicular to the cantilever, are shown in Fig. 5. The resonance frequencies did not change significantly before and after stretching. The levels of maximum power generation, calculated from the output voltage peak, were observed to reach different values. Table $\\mathrm { I I }$ presents a summary of the resonant frequency, effective voltage, output power generation, and piezoelectric constant $e$ . The output power obtained from molecular chains parallel $2 2 2 { \\mathrm { n W } } ,$ ) and perpendicular $( 2 2 . 4 \\mathrm { n W } )$ to the cantilevers were about 3.5 and 0.3 times, respectively, the values obtained from unstretched cantilevers. The values of $e$ similarly showed differences depending upon the molecular orientation. The molecular chains parallel to the cantilevers were applied the main chain directional piezoelectric stress, thus they higher ordered and increased the $e$ , which was defined as the $e _ { 3 1 }$ . Because the molecular chains perpendicular to the cantilevers were applied the intermolecular stress, their orientation disordered and decreased the $e$ , which was defined as $e _ { 3 2 }$ . These results show that orienting the molecular chains parallel to the cantilevers increased both the output power and $e _ { 3 1 }$ . Furthermore, the variation in molecular orientation led to a tenfold increase in the anisotropy of the electrical characteristics. Thus, the performance of vibration harvesters can be improved by stretching the P(VDF/TrFE) films and by choosing their molecular orientation. These results demonstrate the structural indicators of piezoelectric polymers for practical uses in energy harvesters. Moreover, we are trying to use the multistacking P(VDF/TrFE) stretched films and more improve the performance without changing the resonant frequency."
+    },
+    {
+      "heading": "4. Conclusion",
+      "level": 1,
+      "text": "Energy harvesters were fabricated using P(VDF/TrFE) films. The methods of multiple laminating and stretching films were tested to gauge improvements in their performance. The single-layered harvesters showed power generation measured at approximately $2 5 \\ : \\mathrm { H z }$ , which corresponded to the environmental vibration and enabled obtaining resonant frequencies lower than those displayed by inorganic energy harvesters. The relationship between vibration generation characteristics and ferroelectric and piezoelectric properties was revealed, indicating the path for improving P(VDF/TrFE) harvesters. The output power increased with increases in the piezoelectric constant and ferroelectricity of P(VDF/TrFE) films. The output power of multistacked harvesters increased with the number of stacked layers. Furthermore, the output power of the four-layered harvesters was measured to be $2 . 5 \\mu \\mathrm { W }$ ; the resonant frequency of multilayered harvesters was constant. Subsequently, stretching films oriented the molecular chains of P(VDF/TrFE). Thus, we could fabricate three types of cantilevers with molecular anisotropy. The piezoelectric constants and generated performance depended on the molecular direction of the P(VDF/TrFE). The measures of the output power of the molecular chains parallel and perpendicular to the cantilevers were $2 2 2 \\mathrm { n W }$ and $2 2 . 4 \\mathrm { n W }$ , respectively.\n\nWe showed the structural indicators of piezoelectric polymers for practical energy harvesters. Each the mulitstacking and stretching technique could improve the performance of cantilever-type energy harvester at the low frequency without changing the resonant frequency. Moreover, we are trying to use the multistacking P(VDF/TrFE) stretched films and more improve the performance. Thus, vibration energy harvesters using these techniques are expected to become the preferred choice for efficiently harvesting energy from ambient vibrations."
+    },
+    {
+      "heading": "Acknowledgments",
+      "level": 1,
+      "text": "This work was partly supported by CREST, JST, and JSPS KAKENHI grants numbered 16K17513, 16K05003, and 15K13817."
+    },
+    {
+      "heading": "References",
+      "level": 1,
+      "text": "[1] S. Priya, J. Electroceramics 19, 165 (2007).   \n[2] W. J. Choi, Y. Jeon, J. H. Jeong, R. Sood, and S. G. Kim, J. Electroceramics 17, 543 (2006).   \n[3] M. Renaud, K. Karakaya, T. Sterken, P. Fiorini, C. Van Hoof, and R. Puers, Sensors Actuators, A Phys. 145–146, 380 (2008).   \n[4] Y. Tsujiura, S. Kawabe, F. Kurokawa, H. Hida, and I. Kanno, Jpn. J. Appl. Phys. 54, 10NA04 (2015).   \n[5] I. Kanno, J. Phys. Conf. Ser. 660, 12001 (2015).   \n[6] T. Mino, S. Kuwajima, T. Suzuki, I. Kanno, H. Kotera, and K. Wasa, Jpn. J. Appl. Phys. 46, 6960 (2007).   \n[7] I. Kanno, H. Kotera, and K. Wasa, Sensors Actuators A Phys. 107, 68 (2003).   \n[8] H. Ohigashi, Jpn. J. Appl. Phys. 24, 23 (1985).   \n[9] S. Horiuchi and Y. Tokura, Nat. Mater. 7, 357 (2008).   \n[10] K. Asadi, P. W. M. Blom, and D. M. de Leeuw, Appl. Phys. Lett. 99, 53306 (2011).   \n[11] T. Furukawa and E. Fukada, J. Appl. Phys. 51, 1135 (1980).   \n[12] S. Horike, M. Misaki, Y. Koshiba, M. Morimoto, T. Saito, and K. Ishida, Appl. Phys. Express 9, 81301 (2016).   \n[13] T. Furukawa and J. X. Wen, Jpn. J. Appl. Phys. 23, L677 (1984).   \n[14] S. N. K. Rajala, M. Mettanen, and S. Tuukkanen, IEEE Sens. J. 16, 1692 (2016).   \n[15] M. Morimoto, Y. Koshiba, M. Misaki, and K. Ishida, Jpn. J. Appl. Phys. 54, 04DK13 (2015).   \n[16] M. Morimoto, Y. Koshiba, M. Misaki, and K. Ishida, Appl. Phys. Express 8, 10 (2015).   \n[17] W. von Münch, M. Nägele, M. Rinner, G. Wöhl, B. Ploss, and W. Ruppel, Sensors Actuators A Phys. 37–38, 365 (1993).   \n[18] H. Nguyen, A. Navid, and L. Pilon, Appl. Therm. Eng. 30, 2127 (2010).   \n[19] Y. Kuroda, Y. Koshiba, M. Misaki, K. Ishida, and Y. Ueda, Appl. Phys. Express 6, 21601 (2013).   \n[20] V. Bhavanasi, V. Kumar, K. Parida, J. Wang, and P. S. Lee, ACS Appl. Mater. Interfaces 8, 521 (2016).   \n[21] E. Gusarova, B. Viala, A. Plihon, B. Gusarov, L. Gimeno, and O. Cugat, in 2015 Transducers - 2015 18th Int. Conf. Solid-State Sensors, Actuators Microsystems (IEEE, 2015), pp. 1901–1904.   \n[22] M. Morimoto, Y. Tsujiura, Y. Koshiba, I. Kanno, and K. Ishida, Mol. Cryst. Liq. Cryst. submitted (2016).   \n[23] T. Yucel, P. Cebe, and D. L. Kaplan, Adv. Funct. Mater. 21, 779 (2011).   \n[24] H. Dumbleton, D. R. Buchanan, and B. B. Bowles, J. Appl. Polym. Sci. 12, 2067 (1968).   \n[25] S. Liu, Z. Cui, P. Fu, M. Liu, L. Zhang, Z. Li, and Q. Zhao, J. Polym. Sci. Part B Polym. Phys. 52, 1094 (2014).   \n[26] R. Xu, A. Lei, C. Dahl-Petersen, K. Hansen, M. Guizzetti, K. Birkelund, E. V Thomsen, and O. Hansen, J. Micromechanics Microengineering 22, 94007 (2012).   \n[27] M. Kobayashi, K. Tashiro, and H. Tadokoro, Macromolecules 8, 158 (1975).   \n[28] K. Tashiro, K. Takano, M. Kobayashi, Y. Chatani, and H. Tadokoro, Polymer 24, 199 (1983).   \n[29] S. Nozaki, K. Ishida, A. Matsumoto, S. Horie, S. Kuwajima, H. Yamada, and K. Matsushige, Thin Solid Films 516, 2450 (2008).   \n[30] S. Kuwajima, S. Horie, T. Horiuchi, H. Yamada, K. Matsushige, and K. Ishida, Macromolecules 42, 3353 (2009).   \n[31] S. R. Oh, T. C. Wong, C. Y. Tan, K. Yao, and F. E.-H. Tay, Smart Mater. Struct. 2 15013 (2014)."
+    },
+    {
+      "heading": "Figure captions",
+      "level": 1,
+      "text": "Fig. 1. (Color online) Schematic of (a) multistacked, (b) stretch direction parallel and (c) stretch direction perpendicular to cantilever-type energy harvesters.\n\nFig. 2. (Color online) Output voltage and tip displacement of unimorph cantilevers as functions of vibration frequency.\n\nFig. 3. (Color online) (a) $P _ { \\mathrm { ~ r ~ } }$ dependence of the piezoelectric constant and output power of unimorph cantilevered energy harvesters. (b) The dependence of output power on the number of multistacked layers.\n\nFig. 4. (Color online) Polarized FT-IR spectra obtained before and after stretching the P(VDF/TrFE) films.\n\nFig. 5. (Color online) Output voltages as functions of vibration frequency for three types of cantilevers: unstretched (black line); stretch direction parallel to cantilever (blue line); and stretch direction perpendicular to cantilever (red line).\n\nTable I. Energy harvesting performance of multistacked P(VDF/TrFE) cantilevers.   \n\n<table><tr><td rowspan=\"2\"></td><td colspan=\"3\">Organic polymer P(VDF/TrFE)</td><td rowspan=\"2\">Inorganic</td></tr><tr><td>Single-layered</td><td>4-layered </td><td>10-layered3 1</td></tr><tr><td>Output power (μW)</td><td>0.22</td><td>2.5</td><td>17</td><td>37</td></tr><tr><td>Density of generated power (μW/mm3)</td><td>0.22</td><td>2.5</td><td>0.02</td><td>53</td></tr><tr><td>Resonant frequency (Hz)</td><td>24.6</td><td>26.0</td><td>134</td><td>248</td></tr></table>\n\nTable II. Maximum output power and piezoelectric constants of stretched P(VDF/TrFE) films.   \n\n<table><tr><td rowspan=\"2\"></td><td rowspan=\"2\">Unstretched</td><td colspan=\"2\">Molecular chain</td></tr><tr><td>Parallel to cantilever</td><td>Perpendicular to cantilever</td></tr><tr><td>Effective voltage (mV)</td><td>423</td><td>735</td><td>330</td></tr><tr><td>Piezoelectric constant e</td><td>8.24</td><td>16.9</td><td>2.19</td></tr><tr><td>(mC/m²) Output power (nW)</td><td>61.2</td><td>222</td><td>22.4</td></tr><tr><td>Resonant frequency (Hz)</td><td>24.1</td><td></td><td></td></tr><tr><td></td><td></td><td>24.6</td><td>23.3</td></tr></table>\n\n![](images/1198538c05c5128ad7c375d6e5174e18304137937953049afa2f2ecc208d425d.jpg)  \nFig.1. (Color Online)\n\n![](images/6e78f04264b60c4a8703ee4c4c5600d999a562d74977dae3d50c330c1e587088.jpg)  \nFig. 2. (Color online)\n\n![](images/d8a32d9c76de1119b2f740bb28e1ffd715c675c5488e71095263f8348f5de02d.jpg)  \nFig. 3. (Color online)\n\n![](images/c6baad6bd3ec036ed1de33e3b56641dd7c9f3a4b363fc675744574a2b125bc21.jpg)  \nFig. 4. (Color online)\n\n![](images/a181367c5d10b3c2bc2bfbda5c3d0760bf0a45b32e963cde1c70b29636ff4fa9.jpg)  \nFig. 5. (Color online)"
+    }
+  ],
+  "tables": [
+    {
+      "page": -1,
+      "content": ""
+    },
+    {
+      "page": -1,
+      "content": ""
+    }
+  ],
+  "figures": [
+    {
+      "page": -1,
+      "caption": "",
+      "path": "images/1198538c05c5128ad7c375d6e5174e18304137937953049afa2f2ecc208d425d.jpg"
+    },
+    {
+      "page": -1,
+      "caption": "",
+      "path": "images/6e78f04264b60c4a8703ee4c4c5600d999a562d74977dae3d50c330c1e587088.jpg"
+    },
+    {
+      "page": -1,
+      "caption": "",
+      "path": "images/d8a32d9c76de1119b2f740bb28e1ffd715c675c5488e71095263f8348f5de02d.jpg"
+    },
+    {
+      "page": -1,
+      "caption": "",
+      "path": "images/c6baad6bd3ec036ed1de33e3b56641dd7c9f3a4b363fc675744574a2b125bc21.jpg"
+    },
+    {
+      "page": -1,
+      "caption": "",
+      "path": "images/a181367c5d10b3c2bc2bfbda5c3d0760bf0a45b32e963cde1c70b29636ff4fa9.jpg"
+    }
+  ],
+  "metadata": {
+    "source": "both",
+    "pdf_url": "https://iopscience.iop.org/article/10.7567/JJAP.56.04CL04/pdf",
+    "parsed_at": "2026-03-10T09:57:46.842160+00:00"
+  }
+}

@@ -1,0 +1,147 @@
+{
+  "metadata": {
+    "paper_id": "10_1063_1_4917214",
+    "doi": "10.1063/1.4917214",
+    "title": "Enhanced performance of magnetoelectric energy harvester based on compound magnetic coupling effect",
+    "year": 2015,
+    "journal": "Journal of Applied Physics"
+  },
+  "configuration": "cantilever",
+  "proof_mass": true,
+  "geometry": {
+    "length_mm": 38,
+    "width_mm": 14,
+    "thickness_mm": 1.1,
+    "substrate_thickness_um": 500,
+    "piezo_thickness_um": 600,
+    "tip_mass_g": 30.5,
+    "diameter_mm": null
+  },
+  "excitation": {
+    "type": "vibration",
+    "frequency_Hz": 50,
+    "acceleration_g": null,
+    "displacement_mm": null,
+    "motion_source": "power line"
+  },
+  "load": {
+    "load_resistance_ohm": 900000
+  },
+  "output": {
+    "resonant_frequency_Hz": 50,
+    "output_power_W": 0.002136,
+    "open_circuit_voltage_V": null,
+    "short_circuit_current_A": null,
+    "bandwidth_Hz": null
+  },
+  "evidence": {
+    "configuration": {
+      "quote": "piezoelectric bimorph cantilever with a permanent magnet tip mass",
+      "section": "Enhanced performance of magnetoelectric energy harvester based on compound magnetic coupling effect",
+      "source_type": "abstract"
+    },
+    "proof_mass": {
+      "quote": "NdFeB N38 magnet (30.5 g) is used as the permanent magnet tip mass",
+      "section": "III. EXPERIMENTAL SETUP",
+      "source_type": "section"
+    },
+    "geometry": {
+      "length_mm": {
+        "quote": "38 (length) ... mm^3 piezoelectric fiber composite bimorph",
+        "section": "III. EXPERIMENTAL SETUP",
+        "source_type": "section"
+      },
+      "width_mm": {
+        "quote": "14 (width) ... mm^3",
+        "section": "III. EXPERIMENTAL SETUP",
+        "source_type": "section"
+      },
+      "thickness_mm": {
+        "quote": "1.1 (thickness) mm^3 piezoelectric fiber composite bimorph",
+        "section": "III. EXPERIMENTAL SETUP",
+        "source_type": "section"
+      },
+      "substrate_thickness_um": {
+        "quote": "one 0.5-mm-thick stainless steel layer",
+        "section": "III. EXPERIMENTAL SETUP",
+        "source_type": "section"
+      },
+      "piezo_thickness_um": {
+        "quote": "two 0.3-mm-thick piezoelectric fiber layers",
+        "section": "III. EXPERIMENTAL SETUP",
+        "source_type": "section"
+      },
+      "tip_mass_g": {
+        "quote": "NdFeB N38 magnet (30.5 g)",
+        "section": "III. EXPERIMENTAL SETUP",
+        "source_type": "section"
+      },
+      "diameter_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      }
+    },
+    "excitation": {
+      "type": {
+        "quote": "transverse vibration of the piezoelectric cantilever",
+        "section": "II. THEORETICAL ANALYSIS",
+        "source_type": "section"
+      },
+      "frequency_Hz": {
+        "quote": "50 Hz",
+        "section": "Enhanced performance of magnetoelectric energy harvester based on compound magnetic coupling effect",
+        "source_type": "abstract"
+      },
+      "acceleration_g": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "displacement_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "motion_source": {
+        "quote": "power line",
+        "section": "Enhanced performance of magnetoelectric energy harvester based on compound magnetic coupling effect",
+        "source_type": "abstract"
+      }
+    },
+    "load": {
+      "load_resistance_ohm": {
+        "quote": "The resistance (900 kΩ) in use corresponds to the optimal load",
+        "section": "IV. RESULTS AND DISCUSSION",
+        "source_type": "section"
+      }
+    },
+    "output": {
+      "resonant_frequency_Hz": {
+        "quote": "resonance-frequency of the energy harvester has been tuned to 50 Hz",
+        "section": "III. EXPERIMENTAL SETUP",
+        "source_type": "section"
+      },
+      "output_power_W": {
+        "quote": "maximum power of 2.136 mW",
+        "section": "Enhanced performance of magnetoelectric energy harvester based on compound magnetic coupling effect",
+        "source_type": "abstract"
+      },
+      "open_circuit_voltage_V": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "short_circuit_current_A": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "bandwidth_Hz": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      }
+    }
+  }
+}

@@ -1,0 +1,147 @@
+{
+  "metadata": {
+    "paper_id": "10_1063_1_5063268",
+    "doi": "10.1063/1.5063268",
+    "title": "A broadband E-shaped piezoelectric energy harvester based on vortex-shedding induced vibration from low velocity liquid flow",
+    "year": 2018,
+    "journal": "AIP Advances"
+  },
+  "configuration": "cantilever",
+  "proof_mass": true,
+  "geometry": {
+    "length_mm": 90,
+    "width_mm": 70,
+    "thickness_mm": 5,
+    "substrate_thickness_um": null,
+    "piezo_thickness_um": null,
+    "tip_mass_g": null,
+    "diameter_mm": null
+  },
+  "excitation": {
+    "type": "vibration",
+    "frequency_Hz": 5.35,
+    "acceleration_g": 0.02,
+    "displacement_mm": null,
+    "motion_source": "liquid flow"
+  },
+  "load": {
+    "load_resistance_ohm": 100000
+  },
+  "output": {
+    "resonant_frequency_Hz": 5.35,
+    "output_power_W": 8.697e-05,
+    "open_circuit_voltage_V": 18.9,
+    "short_circuit_current_A": null,
+    "bandwidth_Hz": null
+  },
+  "evidence": {
+    "configuration": {
+      "quote": "piezoelectric cantilever beam",
+      "section": "A broadband E-shaped piezoelectric energy harvester based on vortex-shedding induced vibration from low velocity liquid flow",
+      "source_type": "section"
+    },
+    "proof_mass": {
+      "quote": "tip mass on the vice beams",
+      "section": "A broadband E-shaped piezoelectric energy harvester based on vortex-shedding induced vibration from low velocity liquid flow",
+      "source_type": "section"
+    },
+    "geometry": {
+      "length_mm": {
+        "quote": "total size of the E-shaped PEH is $L { \\times } W { \\times } H = 9 0 \\mathrm { m m } { \\times } 7 0 \\mathrm { m m } { \\times } 5 \\mathrm { m m }$",
+        "section": "A broadband E-shaped piezoelectric energy harvester based on vortex-shedding induced vibration from low velocity liquid flow",
+        "source_type": "section"
+      },
+      "width_mm": {
+        "quote": "total size of the E-shaped PEH is $L { \\times } W { \\times } H = 9 0 \\mathrm { m m } { \\times } 7 0 \\mathrm { m m } { \\times } 5 \\mathrm { m m }$",
+        "section": "A broadband E-shaped piezoelectric energy harvester based on vortex-shedding induced vibration from low velocity liquid flow",
+        "source_type": "section"
+      },
+      "thickness_mm": {
+        "quote": "total size of the E-shaped PEH is $L { \\times } W { \\times } H = 9 0 \\mathrm { m m } { \\times } 7 0 \\mathrm { m m } { \\times } 5 \\mathrm { m m }$",
+        "section": "A broadband E-shaped piezoelectric energy harvester based on vortex-shedding induced vibration from low velocity liquid flow",
+        "source_type": "section"
+      },
+      "substrate_thickness_um": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "piezo_thickness_um": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "tip_mass_g": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "diameter_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      }
+    },
+    "excitation": {
+      "type": {
+        "quote": "vortex-shedding induced vibration",
+        "section": "A broadband E-shaped piezoelectric energy harvester based on vortex-shedding induced vibration from low velocity liquid flow",
+        "source_type": "section"
+      },
+      "frequency_Hz": {
+        "quote": "resonance frequency of main beam is set as about $5 . 3 5 \\mathrm { H z }$",
+        "section": "A broadband E-shaped piezoelectric energy harvester based on vortex-shedding induced vibration from low velocity liquid flow",
+        "source_type": "section"
+      },
+      "acceleration_g": {
+        "quote": "acceleration of 0.02 g are shown in Figs. 3(a) and 3(b)",
+        "section": "A broadband E-shaped piezoelectric energy harvester based on vortex-shedding induced vibration from low velocity liquid flow",
+        "source_type": "section"
+      },
+      "displacement_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "motion_source": {
+        "quote": "liquid flow",
+        "section": "A broadband E-shaped piezoelectric energy harvester based on vortex-shedding induced vibration from low velocity liquid flow",
+        "source_type": "section"
+      }
+    },
+    "load": {
+      "load_resistance_ohm": {
+        "quote": "load resistance is about $1 0 ^ { 5 } ~ \\Omega$",
+        "section": "A broadband E-shaped piezoelectric energy harvester based on vortex-shedding induced vibration from low velocity liquid flow",
+        "source_type": "section"
+      }
+    },
+    "output": {
+      "resonant_frequency_Hz": {
+        "quote": "resonance frequency of main beam is set as about $5 . 3 5 \\mathrm { H z }$",
+        "section": "A broadband E-shaped piezoelectric energy harvester based on vortex-shedding induced vibration from low velocity liquid flow",
+        "source_type": "section"
+      },
+      "output_power_W": {
+        "quote": "power increases from $5 1 . 2 0 \\mu \\mathrm { W }$ for a conventional PEH to $8 6 . 9 7 \\mu \\mathrm { W }$ for the proposed E-shaped PEH",
+        "section": "A broadband E-shaped piezoelectric energy harvester based on vortex-shedding induced vibration from low velocity liquid flow",
+        "source_type": "section"
+      },
+      "open_circuit_voltage_V": {
+        "quote": "total output voltages of 9.47V and 18.90V",
+        "section": "A broadband E-shaped piezoelectric energy harvester based on vortex-shedding induced vibration from low velocity liquid flow",
+        "source_type": "section"
+      },
+      "short_circuit_current_A": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "bandwidth_Hz": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      }
+    }
+  }
+}

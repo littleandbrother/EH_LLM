@@ -1,0 +1,147 @@
+{
+  "metadata": {
+    "paper_id": "10_1088_1361_665x_abee36",
+    "doi": "10.1088/1361-665x/abee36",
+    "title": "Effect of single-side stroke limiter on cantilever-based piezoelectric energy harvesting from low frequency vibrations",
+    "year": 2021,
+    "journal": "Smart materials and structures (Print)"
+  },
+  "configuration": "cantilever",
+  "proof_mass": true,
+  "geometry": {
+    "length_mm": 40.0,
+    "width_mm": 5.0,
+    "thickness_mm": 0.45,
+    "substrate_thickness_um": null,
+    "piezo_thickness_um": null,
+    "tip_mass_g": 0.3,
+    "diameter_mm": null
+  },
+  "excitation": {
+    "type": "vibration",
+    "frequency_Hz": null,
+    "acceleration_g": null,
+    "displacement_mm": 3.8,
+    "motion_source": "electrodynamic shaker"
+  },
+  "load": {
+    "load_resistance_ohm": null
+  },
+  "output": {
+    "resonant_frequency_Hz": 130.0,
+    "output_power_W": 0.0001,
+    "open_circuit_voltage_V": null,
+    "short_circuit_current_A": null,
+    "bandwidth_Hz": null
+  },
+  "evidence": {
+    "configuration": {
+      "quote": "Unimorph cantilevers",
+      "section": "Abstract",
+      "source_type": "abstract"
+    },
+    "proof_mass": {
+      "quote": "with 300 mg mass attached on the tip",
+      "section": "Abstract",
+      "source_type": "abstract"
+    },
+    "geometry": {
+      "length_mm": {
+        "quote": "A 40 mm free length unimorph",
+        "section": "Abstract",
+        "source_type": "abstract"
+      },
+      "width_mm": {
+        "quote": "The width and total thickness of the unimorphs were fixed at 5",
+        "section": "2.1. Preparation of piezoelectric unimorphs",
+        "source_type": "section"
+      },
+      "thickness_mm": {
+        "quote": "total thickness of the unimorphs were fixed at ... 0.45 mm",
+        "section": "2.1. Preparation of piezoelectric unimorphs",
+        "source_type": "section"
+      },
+      "substrate_thickness_um": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "piezo_thickness_um": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "tip_mass_g": {
+        "quote": "with 300 mg mass attached on the tip",
+        "section": "Abstract",
+        "source_type": "abstract"
+      },
+      "diameter_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      }
+    },
+    "excitation": {
+      "type": {
+        "quote": "vibrational excitation",
+        "section": "Abstract",
+        "source_type": "abstract"
+      },
+      "frequency_Hz": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "acceleration_g": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "displacement_mm": {
+        "quote": "base excitation amplitude and frequency were fixed to 3.8 mm",
+        "section": "2.3. Measurements",
+        "source_type": "section"
+      },
+      "motion_source": {
+        "quote": "drive an electrodynamic shaker",
+        "section": "2.3. Measurements",
+        "source_type": "section"
+      }
+    },
+    "load": {
+      "load_resistance_ohm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      }
+    },
+    "output": {
+      "resonant_frequency_Hz": {
+        "quote": "sharp peak at approximately 130 Hz",
+        "section": "5.4. Bandwidth",
+        "source_type": "section"
+      },
+      "output_power_W": {
+        "quote": "increase in power output (0.1 mW)",
+        "section": "Abstract",
+        "source_type": "abstract"
+      },
+      "open_circuit_voltage_V": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "short_circuit_current_A": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "bandwidth_Hz": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      }
+    }
+  }
+}

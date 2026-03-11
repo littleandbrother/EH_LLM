@@ -1,0 +1,147 @@
+{
+  "metadata": {
+    "paper_id": "10_1088_0964_1726_20_12_125011",
+    "doi": "10.1088/0964-1726/20/12/125011",
+    "title": "Bi-stable frequency up-conversion piezoelectric energy harvester driven by non-contact magnetic repulsion",
+    "year": 2011,
+    "journal": "Smart Materials and Structures"
+  },
+  "configuration": "cantilever",
+  "proof_mass": true,
+  "geometry": {
+    "length_mm": 9,
+    "width_mm": 1.3,
+    "thickness_mm": 0.14,
+    "substrate_thickness_um": 50,
+    "piezo_thickness_um": 30,
+    "tip_mass_g": 0.0097,
+    "diameter_mm": null
+  },
+  "excitation": {
+    "type": "vibration",
+    "frequency_Hz": 10,
+    "acceleration_g": 1,
+    "displacement_mm": null,
+    "motion_source": "shaker"
+  },
+  "load": {
+    "load_resistance_ohm": 6100000
+  },
+  "output": {
+    "resonant_frequency_Hz": 240,
+    "output_power_W": 1.41e-05,
+    "open_circuit_voltage_V": null,
+    "short_circuit_current_A": null,
+    "bandwidth_Hz": 12
+  },
+  "evidence": {
+    "configuration": {
+      "quote": "piezoelectric resonant cantilevers",
+      "section": "Abstract",
+      "source_type": "abstract"
+    },
+    "proof_mass": {
+      "quote": "central sliding mass",
+      "section": "1. Introduction",
+      "source_type": "section"
+    },
+    "geometry": {
+      "length_mm": {
+        "quote": "9 mm × 1.3 mm × 0.14 mm",
+        "section": "Table 2",
+        "source_type": "table"
+      },
+      "width_mm": {
+        "quote": "9 mm × 1.3 mm × 0.14 mm",
+        "section": "Table 2",
+        "source_type": "table"
+      },
+      "thickness_mm": {
+        "quote": "9 mm × 1.3 mm × 0.14 mm",
+        "section": "Table 2",
+        "source_type": "table"
+      },
+      "substrate_thickness_um": {
+        "quote": "50 μm thick copper foil",
+        "section": "3. Fabrication",
+        "source_type": "section"
+      },
+      "piezo_thickness_um": {
+        "quote": "30 μm thick polyvinylidene fluoride (PVDF)",
+        "section": "3. Fabrication",
+        "source_type": "section"
+      },
+      "tip_mass_g": {
+        "quote": "Calculated FIG effective end mass 9.70 mg",
+        "section": "Table 1",
+        "source_type": "table"
+      },
+      "diameter_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      }
+    },
+    "excitation": {
+      "type": {
+        "quote": "ambient vibration",
+        "section": "Abstract",
+        "source_type": "abstract"
+      },
+      "frequency_Hz": {
+        "quote": "10 Hz",
+        "section": "Abstract",
+        "source_type": "abstract"
+      },
+      "acceleration_g": {
+        "quote": "1g",
+        "section": "Abstract",
+        "source_type": "abstract"
+      },
+      "displacement_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "motion_source": {
+        "quote": "shaker",
+        "section": "4. Testing results and discussion",
+        "source_type": "section"
+      }
+    },
+    "load": {
+      "load_resistance_ohm": {
+        "quote": "6.1 MΩ matching resistor",
+        "section": "4. Testing results and discussion",
+        "source_type": "section"
+      }
+    },
+    "output": {
+      "resonant_frequency_Hz": {
+        "quote": "vibrate at 240 Hz, i.e. the resonant frequency",
+        "section": "4. Testing results and discussion",
+        "source_type": "section"
+      },
+      "output_power_W": {
+        "quote": "average power of 14.1 μW",
+        "section": "4. Testing results and discussion",
+        "source_type": "section"
+      },
+      "open_circuit_voltage_V": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "short_circuit_current_A": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "bandwidth_Hz": {
+        "quote": "frequency range of 10-22 Hz",
+        "section": "4. Testing results and discussion",
+        "source_type": "section"
+      }
+    }
+  }
+}

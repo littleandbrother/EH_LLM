@@ -1,0 +1,147 @@
+{
+  "metadata": {
+    "paper_id": "10_1115_smasis2010_3729",
+    "doi": "10.1115/smasis2010-3729",
+    "title": "Experimental Study of a Self-Excited Piezoelectric Energy Harvester",
+    "year": 2010,
+    "journal": null
+  },
+  "configuration": "cantilever",
+  "proof_mass": true,
+  "geometry": {
+    "length_mm": 50.8,
+    "width_mm": 31.8,
+    "thickness_mm": 0.66,
+    "substrate_thickness_um": 140,
+    "piezo_thickness_um": 260,
+    "tip_mass_g": 5.6,
+    "diameter_mm": 25.4
+  },
+  "excitation": {
+    "type": "wind_induced",
+    "frequency_Hz": 45.5,
+    "acceleration_g": null,
+    "displacement_mm": null,
+    "motion_source": "uniform flow"
+  },
+  "load": {
+    "load_resistance_ohm": 300000
+  },
+  "output": {
+    "resonant_frequency_Hz": 45.5,
+    "output_power_W": 0.00024,
+    "open_circuit_voltage_V": null,
+    "short_circuit_current_A": null,
+    "bandwidth_Hz": null
+  },
+  "evidence": {
+    "configuration": {
+      "quote": "The configuration consists of a piezoelectric cantilever beam with a cylindrical tip body",
+      "section": "ABSTRACT",
+      "source_type": "abstract"
+    },
+    "proof_mass": {
+      "quote": "weighs about 5.6 grams",
+      "section": "EXPERIMENTAL SETUP",
+      "source_type": "section"
+    },
+    "geometry": {
+      "length_mm": {
+        "quote": "Overhang (clamped) Length, L [mm] ... 50.8",
+        "section": "EXPERIMENTAL SETUP",
+        "source_type": "table"
+      },
+      "width_mm": {
+        "quote": "Width, b [mm] ... 31.8",
+        "section": "EXPERIMENTAL SETUP",
+        "source_type": "table"
+      },
+      "thickness_mm": {
+        "quote": "Thickness, h [mm] ... 0.26 ... 0.14",
+        "section": "EXPERIMENTAL SETUP",
+        "source_type": "table"
+      },
+      "substrate_thickness_um": {
+        "quote": "Thickness, h [mm] ... 0.14",
+        "section": "EXPERIMENTAL SETUP",
+        "source_type": "table"
+      },
+      "piezo_thickness_um": {
+        "quote": "Thickness, h [mm] ... 0.26",
+        "section": "EXPERIMENTAL SETUP",
+        "source_type": "table"
+      },
+      "tip_mass_g": {
+        "quote": "weighs about 5.6 grams",
+        "section": "EXPERIMENTAL SETUP",
+        "source_type": "section"
+      },
+      "diameter_mm": {
+        "quote": "diameter D = 25.4 mm",
+        "section": "EXPERIMENTAL SETUP",
+        "source_type": "section"
+      }
+    },
+    "excitation": {
+      "type": {
+        "quote": "piezoelectric based fluid flow energy harvesters",
+        "section": "ABSTRACT",
+        "source_type": "abstract"
+      },
+      "frequency_Hz": {
+        "quote": "natural frequency of the beam with attached cylinder was measured to be f1 = 45.5 Hz",
+        "section": "EXPERIMENTAL SETUP",
+        "source_type": "section"
+      },
+      "acceleration_g": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "displacement_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "motion_source": {
+        "quote": "uniform flow of 28 m/s",
+        "section": "ABSTRACT",
+        "source_type": "abstract"
+      }
+    },
+    "load": {
+      "load_resistance_ohm": {
+        "quote": "load resistance of R = 300 kOhm",
+        "section": "RESULTS AND DISCUSSION",
+        "source_type": "section"
+      }
+    },
+    "output": {
+      "resonant_frequency_Hz": {
+        "quote": "natural frequency of the beam with attached cylinder was measured to be f1 = 45.5 Hz",
+        "section": "EXPERIMENTAL SETUP",
+        "source_type": "section"
+      },
+      "output_power_W": {
+        "quote": "0.24 mW of electrical power can be attained",
+        "section": "ABSTRACT",
+        "source_type": "abstract"
+      },
+      "open_circuit_voltage_V": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "short_circuit_current_A": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "bandwidth_Hz": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      }
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "paper_id": "10_3390_mi12020203",
+  "doi": "10.3390/mi12020203",
+  "title": "A Multi-Mode Broadband Vibration Energy Harvester Composed of Symmetrically Distributed U-Shaped Cantilever Beams",
+  "source_apis": [
+    "both"
+  ],
+  "pdf_url": "https://www.mdpi.com/2072-666X/12/2/203/pdf?version=1613787781",
+  "pdf_local_path": "data_registry/raw_stage04_paper_pdf_cleaned/10_3390_mi12020203.pdf",
+  "processing": {
+    "tool": "MinerU",
+    "version": "python -m mineru.cli.client, version 2.7.6",
+    "timestamp": "2026-03-10T09:46:30.034330+00:00",
+    "duration_s": 87.98,
+    "success": true,
+    "error": ""
+  },
+  "outputs": {
+    "content_md": "/root/EH-LLM-vehbench-exp/parsed_docs/10_3390_mi12020203_t57l3tt_/content.md",
+    "layout_json": "/root/EH-LLM-vehbench-exp/parsed_docs/10_3390_mi12020203_t57l3tt_/layout.json",
+    "images_dir": "/root/EH-LLM-vehbench-exp/parsed_docs/10_3390_mi12020203_t57l3tt_/10_3390_mi12020203/auto/images",
+    "normalized_json": "/root/EH-LLM-vehbench-exp/normalized_docs/10_3390_mi12020203.json"
+  },
+  "data_lineage": {
+    "papers_jsonl_hash": "d73f0a3f32581ac575ff03b8cee4c8de",
+    "pipeline_step": "ingestion/mineru_runner.py"
+  }
+}

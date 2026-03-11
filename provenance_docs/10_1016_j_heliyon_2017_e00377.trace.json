@@ -1,0 +1,28 @@
+{
+  "paper_id": "10_1016_j_heliyon_2017_e00377",
+  "doi": "10.1016/j.heliyon.2017.e00377",
+  "title": "Design optimization of PVDF-based piezoelectric energy harvesters",
+  "source_apis": [
+    "both"
+  ],
+  "pdf_url": "http://www.cell.com/article/S240584401731263X/pdf",
+  "pdf_local_path": "data_registry/raw_stage04_paper_pdf_cleaned/10_1016_j_heliyon_2017_e00377.pdf",
+  "processing": {
+    "tool": "MinerU",
+    "version": "python -m mineru.cli.client, version 2.7.6",
+    "timestamp": "2026-03-10T10:18:54.869643+00:00",
+    "duration_s": 97.74,
+    "success": true,
+    "error": ""
+  },
+  "outputs": {
+    "content_md": "/root/EH-LLM-vehbench-exp/parsed_docs/10_1016_j_heliyon_2017_e00377_o3i825qq/content.md",
+    "layout_json": "/root/EH-LLM-vehbench-exp/parsed_docs/10_1016_j_heliyon_2017_e00377_o3i825qq/layout.json",
+    "images_dir": "/root/EH-LLM-vehbench-exp/parsed_docs/10_1016_j_heliyon_2017_e00377_o3i825qq/10_1016_j_heliyon_2017_e00377/auto/images",
+    "normalized_json": "/root/EH-LLM-vehbench-exp/normalized_docs/10_1016_j_heliyon_2017_e00377.json"
+  },
+  "data_lineage": {
+    "papers_jsonl_hash": "426a06f2ffe0f981d63380c546755fc6",
+    "pipeline_step": "ingestion/mineru_runner.py"
+  }
+}

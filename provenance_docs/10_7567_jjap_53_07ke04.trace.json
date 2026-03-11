@@ -1,0 +1,28 @@
+{
+  "paper_id": "10_7567_jjap_53_07ke04",
+  "doi": "10.7567/jjap.53.07ke04",
+  "title": "New output power estimation method for cantilever-based piezoelectric energy harvesters",
+  "source_apis": [
+    "both"
+  ],
+  "pdf_url": "",
+  "pdf_local_path": "data_registry/raw_stage04_paper_pdf_cleaned/10_7567_jjap_53_07ke04.pdf",
+  "processing": {
+    "tool": "MinerU",
+    "version": "python -m mineru.cli.client, version 2.7.6",
+    "timestamp": "2026-03-10T10:00:06.155008+00:00",
+    "duration_s": 71.49,
+    "success": true,
+    "error": ""
+  },
+  "outputs": {
+    "content_md": "/root/EH-LLM-vehbench-exp/parsed_docs/10_7567_jjap_53_07ke04_dpe5lhvy/content.md",
+    "layout_json": "/root/EH-LLM-vehbench-exp/parsed_docs/10_7567_jjap_53_07ke04_dpe5lhvy/layout.json",
+    "images_dir": "/root/EH-LLM-vehbench-exp/parsed_docs/10_7567_jjap_53_07ke04_dpe5lhvy/10_7567_jjap_53_07ke04/auto/images",
+    "normalized_json": "/root/EH-LLM-vehbench-exp/normalized_docs/10_7567_jjap_53_07ke04.json"
+  },
+  "data_lineage": {
+    "papers_jsonl_hash": "5264ee1345d0ae718fdf2811a0550cc1",
+    "pipeline_step": "ingestion/mineru_runner.py"
+  }
+}

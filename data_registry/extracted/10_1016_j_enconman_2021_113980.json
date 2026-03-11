@@ -1,0 +1,147 @@
+{
+  "metadata": {
+    "paper_id": "10_1016_j_enconman_2021_113980",
+    "doi": "10.1016/j.enconman.2021.113980",
+    "title": "Development of a novel non-contact piezoelectric wind energy harvester excited by vortex-induced vibration",
+    "year": 2021,
+    "journal": "Energy Conversion and Management"
+  },
+  "configuration": "cantilever",
+  "proof_mass": true,
+  "geometry": {
+    "length_mm": 70,
+    "width_mm": 30,
+    "thickness_mm": null,
+    "substrate_thickness_um": 500,
+    "piezo_thickness_um": 200,
+    "tip_mass_g": 65,
+    "diameter_mm": 70
+  },
+  "excitation": {
+    "type": "wind_induced",
+    "frequency_Hz": null,
+    "acceleration_g": null,
+    "displacement_mm": 1.65,
+    "motion_source": null
+  },
+  "load": {
+    "load_resistance_ohm": 300000
+  },
+  "output": {
+    "resonant_frequency_Hz": null,
+    "output_power_W": 0.001438,
+    "open_circuit_voltage_V": 42.2,
+    "short_circuit_current_A": null,
+    "bandwidth_Hz": null
+  },
+  "evidence": {
+    "configuration": {
+      "quote": "pre-bending piezoelectric vibrator is composed of two (upper and lower) piezoelectric cantilever beams",
+      "section": "2.Structure and working principle of the NC-PWEH",
+      "source_type": "section"
+    },
+    "proof_mass": {
+      "quote": "added cantilever mass is located at the free end of the transducer",
+      "section": "2.Structure and working principle of the NC-PWEH",
+      "source_type": "section"
+    },
+    "geometry": {
+      "length_mm": {
+        "quote": "Length of substrate plate ... 70",
+        "section": "3. Fabrication and experiments",
+        "source_type": "table"
+      },
+      "width_mm": {
+        "quote": "Width of substrate plate ... 30",
+        "section": "3. Fabrication and experiments",
+        "source_type": "table"
+      },
+      "thickness_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "substrate_thickness_um": {
+        "quote": "Thickness of substrate plate ... 0.5",
+        "section": "3. Fabrication and experiments",
+        "source_type": "table"
+      },
+      "piezo_thickness_um": {
+        "quote": "Thickness of PZT-4 ... 0.2",
+        "section": "3. Fabrication and experiments",
+        "source_type": "table"
+      },
+      "tip_mass_g": {
+        "quote": "transducer mass of 65 g",
+        "section": "ABSTRACT",
+        "source_type": "abstract"
+      },
+      "diameter_mm": {
+        "quote": "Diameter of cylindrical shell ... 70",
+        "section": "3. Fabrication and experiments",
+        "source_type": "table"
+      }
+    },
+    "excitation": {
+      "type": {
+        "quote": "vortex-induced vibration-based piezoelectric wind energy harvester",
+        "section": "ABSTRACT",
+        "source_type": "abstract"
+      },
+      "frequency_Hz": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "acceleration_g": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "displacement_mm": {
+        "quote": "Peak vibration displacement ... 1.65 mm",
+        "section": "3.2. Analysis of the influence of piezoelectric transducer mass on output performance",
+        "source_type": "table"
+      },
+      "motion_source": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      }
+    },
+    "load": {
+      "load_resistance_ohm": {
+        "quote": "optimal load resistance of 300 kOhm",
+        "section": "ABSTRACT",
+        "source_type": "abstract"
+      }
+    },
+    "output": {
+      "resonant_frequency_Hz": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "output_power_W": {
+        "quote": "maximum power of 1.438 mW",
+        "section": "ABSTRACT",
+        "source_type": "abstract"
+      },
+      "open_circuit_voltage_V": {
+        "quote": "maximum generated voltage of 42.2 V",
+        "section": "3.2. Analysis of the influence of piezoelectric transducer mass on output performance",
+        "source_type": "section"
+      },
+      "short_circuit_current_A": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "bandwidth_Hz": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      }
+    }
+  }
+}

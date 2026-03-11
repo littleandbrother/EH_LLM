@@ -1,0 +1,147 @@
+{
+  "metadata": {
+    "paper_id": "10_1063_1_4929844",
+    "doi": "10.1063/1.4929844",
+    "title": "Two-dimensional concentrated-stress low-frequency piezoelectric vibration energy harvesters",
+    "year": 2015,
+    "journal": "Applied Physics Letters"
+  },
+  "configuration": "cantilever",
+  "proof_mass": true,
+  "geometry": {
+    "length_mm": 25.4,
+    "width_mm": 25.4,
+    "thickness_mm": null,
+    "substrate_thickness_um": null,
+    "piezo_thickness_um": null,
+    "tip_mass_g": 1.88,
+    "diameter_mm": null
+  },
+  "excitation": {
+    "type": "vibration",
+    "frequency_Hz": 68.125,
+    "acceleration_g": 0.1,
+    "displacement_mm": null,
+    "motion_source": null
+  },
+  "load": {
+    "load_resistance_ohm": 1000000
+  },
+  "output": {
+    "resonant_frequency_Hz": 68.125,
+    "output_power_W": 8.13e-05,
+    "open_circuit_voltage_V": null,
+    "short_circuit_current_A": null,
+    "bandwidth_Hz": null
+  },
+  "evidence": {
+    "configuration": {
+      "quote": "maintaining a cantilever-like configuration",
+      "section": "Two-dimensional concentrated-stress low-frequency piezoelectric vibration energy harvesters",
+      "source_type": "section"
+    },
+    "proof_mass": {
+      "quote": "Attached to each harvester were also $1.88 \\mathrm{g}$ tip masses",
+      "section": "Two-dimensional concentrated-stress low-frequency piezoelectric vibration energy harvesters",
+      "source_type": "section"
+    },
+    "geometry": {
+      "length_mm": {
+        "quote": "confining the surface area of our harvesters to a $25.4 \\times 25.4 \\mathrm{mm}^2$ area",
+        "section": "Two-dimensional concentrated-stress low-frequency piezoelectric vibration energy harvesters",
+        "source_type": "section"
+      },
+      "width_mm": {
+        "quote": "confining the surface area of our harvesters to a $25.4 \\times 25.4 \\mathrm{mm}^2$ area",
+        "section": "Two-dimensional concentrated-stress low-frequency piezoelectric vibration energy harvesters",
+        "source_type": "section"
+      },
+      "thickness_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "substrate_thickness_um": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "piezo_thickness_um": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "tip_mass_g": {
+        "quote": "Attached to each harvester were also $1.88 \\mathrm{g}$ tip masses",
+        "section": "Two-dimensional concentrated-stress low-frequency piezoelectric vibration energy harvesters",
+        "source_type": "section"
+      },
+      "diameter_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      }
+    },
+    "excitation": {
+      "type": {
+        "quote": "Vibration-based energy harvesters using piezoelectric materials",
+        "section": "Two-dimensional concentrated-stress low-frequency piezoelectric vibration energy harvesters",
+        "source_type": "section"
+      },
+      "frequency_Hz": {
+        "quote": "Elephant harvester... $81.3 \\mu\\mathrm{W}$ across 1 MX at $68.125 \\mathrm{Hz}$",
+        "section": "Two-dimensional concentrated-stress low-frequency piezoelectric vibration energy harvesters",
+        "source_type": "section"
+      },
+      "acceleration_g": {
+        "quote": "base acceleration is set equal to $0.1 \\mathrm{g}$",
+        "section": "Two-dimensional concentrated-stress low-frequency piezoelectric vibration energy harvesters",
+        "source_type": "section"
+      },
+      "displacement_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "motion_source": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      }
+    },
+    "load": {
+      "load_resistance_ohm": {
+        "quote": "Elephant harvester... $81.3 \\mu\\mathrm{W}$ across 1 MX at $68.125 \\mathrm{Hz}$",
+        "section": "Two-dimensional concentrated-stress low-frequency piezoelectric vibration energy harvesters",
+        "source_type": "section"
+      }
+    },
+    "output": {
+      "resonant_frequency_Hz": {
+        "quote": "Elephant harvester... $81.3 \\mu\\mathrm{W}$ across 1 MX at $68.125 \\mathrm{Hz}$",
+        "section": "Two-dimensional concentrated-stress low-frequency piezoelectric vibration energy harvesters",
+        "source_type": "section"
+      },
+      "output_power_W": {
+        "quote": "Elephant harvester... $81.3 \\mu\\mathrm{W}$ across 1 MX at $68.125 \\mathrm{Hz}$",
+        "section": "Two-dimensional concentrated-stress low-frequency piezoelectric vibration energy harvesters",
+        "source_type": "section"
+      },
+      "open_circuit_voltage_V": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "short_circuit_current_A": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "bandwidth_Hz": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      }
+    }
+  }
+}

@@ -1,0 +1,147 @@
+{
+  "metadata": {
+    "paper_id": "10_1063_5_0105103",
+    "doi": "10.1063/5.0105103",
+    "title": "High output performance of piezoelectric energy harvesters using epitaxial Pb(Zr, Ti)O3 thin film grown on Si substrate",
+    "year": 2022,
+    "journal": "Applied Physics Letters"
+  },
+  "configuration": "cantilever",
+  "proof_mass": null,
+  "geometry": {
+    "length_mm": 15,
+    "width_mm": 2,
+    "thickness_mm": 0.7275,
+    "substrate_thickness_um": 725,
+    "piezo_thickness_um": null,
+    "tip_mass_g": null,
+    "diameter_mm": null
+  },
+  "excitation": {
+    "type": "vibration",
+    "frequency_Hz": 373,
+    "acceleration_g": 1.12,
+    "displacement_mm": 0.151,
+    "motion_source": "shaker"
+  },
+  "load": {
+    "load_resistance_ohm": 13000
+  },
+  "output": {
+    "resonant_frequency_Hz": 373,
+    "output_power_W": 4.093e-05,
+    "open_circuit_voltage_V": null,
+    "short_circuit_current_A": null,
+    "bandwidth_Hz": null
+  },
+  "evidence": {
+    "configuration": {
+      "quote": "unimorph cantilever composed of the epitaxial PZT thin film on Si substrate (PZT/Si) was fabricated",
+      "section": "ABSTRACT",
+      "source_type": "section"
+    },
+    "proof_mass": {
+      "quote": null,
+      "section": null,
+      "source_type": null
+    },
+    "geometry": {
+      "length_mm": {
+        "quote": "dimensions of the cantilever are 2 mm in width and about 15 mm in length.",
+        "section": "ABSTRACT",
+        "source_type": "section"
+      },
+      "width_mm": {
+        "quote": "dimensions of the cantilever are 2 mm in width and about 15 mm in length.",
+        "section": "ABSTRACT",
+        "source_type": "section"
+      },
+      "thickness_mm": {
+        "quote": "thicknesses of the epitaxial SRO-coated Si substrate and PZT thin film were 725 and 2.5 µm, respectively.",
+        "section": "ABSTRACT",
+        "source_type": "section"
+      },
+      "substrate_thickness_um": {
+        "quote": "thicknesses of the epitaxial SRO-coated Si substrate and PZT thin film were 725 and 2.5 µm, respectively.",
+        "section": "ABSTRACT",
+        "source_type": "section"
+      },
+      "piezo_thickness_um": {
+        "quote": "thicknesses of the epitaxial SRO-coated Si substrate and PZT thin film were 725 and 2.5 µm, respectively.",
+        "section": "ABSTRACT",
+        "source_type": "section"
+      },
+      "tip_mass_g": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "diameter_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      }
+    },
+    "excitation": {
+      "type": {
+        "quote": "measured using a shaker",
+        "section": "ABSTRACT",
+        "source_type": "section"
+      },
+      "frequency_Hz": {
+        "quote": "resonant frequency of 373 Hz",
+        "section": "ABSTRACT",
+        "source_type": "abstract"
+      },
+      "acceleration_g": {
+        "quote": "acceleration of 11 m/s^2",
+        "section": "ABSTRACT",
+        "source_type": "abstract"
+      },
+      "displacement_mm": {
+        "quote": "input displacement of 151 µm",
+        "section": "ABSTRACT",
+        "source_type": "section"
+      },
+      "motion_source": {
+        "quote": "measured using a shaker",
+        "section": "ABSTRACT",
+        "source_type": "section"
+      }
+    },
+    "load": {
+      "load_resistance_ohm": {
+        "quote": "load resistance of approximately 13 kΩ",
+        "section": "ABSTRACT",
+        "source_type": "section"
+      }
+    },
+    "output": {
+      "resonant_frequency_Hz": {
+        "quote": "resonant frequency of 373 Hz",
+        "section": "ABSTRACT",
+        "source_type": "abstract"
+      },
+      "output_power_W": {
+        "quote": "output power of 40.93 µW",
+        "section": "ABSTRACT",
+        "source_type": "abstract"
+      },
+      "open_circuit_voltage_V": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "short_circuit_current_A": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "bandwidth_Hz": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      }
+    }
+  }
+}

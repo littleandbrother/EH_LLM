@@ -1,0 +1,28 @@
+{
+  "paper_id": "10_3390_mi14061159",
+  "doi": "10.3390/mi14061159",
+  "title": "Multidirectional Piezoelectric Vibration Energy Harvester Based on Cam Rotor Mechanism",
+  "source_apis": [
+    "both"
+  ],
+  "pdf_url": "https://www.mdpi.com/2072-666X/14/6/1159/pdf?version=1685497870",
+  "pdf_local_path": "data_registry/raw_stage04_paper_pdf_cleaned/10_3390_mi14061159.pdf",
+  "processing": {
+    "tool": "MinerU",
+    "version": "python -m mineru.cli.client, version 2.7.6",
+    "timestamp": "2026-03-10T09:36:18.132338+00:00",
+    "duration_s": 111.02,
+    "success": true,
+    "error": ""
+  },
+  "outputs": {
+    "content_md": "/root/EH-LLM-vehbench-exp/parsed_docs/10_3390_mi14061159_08mo4yev/content.md",
+    "layout_json": "/root/EH-LLM-vehbench-exp/parsed_docs/10_3390_mi14061159_08mo4yev/layout.json",
+    "images_dir": "/root/EH-LLM-vehbench-exp/parsed_docs/10_3390_mi14061159_08mo4yev/10_3390_mi14061159/auto/images",
+    "normalized_json": "/root/EH-LLM-vehbench-exp/normalized_docs/10_3390_mi14061159.json"
+  },
+  "data_lineage": {
+    "papers_jsonl_hash": "acb4980b16e2bce4a491f38eefb7451c",
+    "pipeline_step": "ingestion/mineru_runner.py"
+  }
+}

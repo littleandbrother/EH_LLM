@@ -1,0 +1,146 @@
+{
+  "paper_id": "10_1117_12_2181252",
+  "doi": "10.1117/12.2181252",
+  "title": "Nonlinear vibration analysis of the high-efficiency compressive-mode piezoelectric energy harvester",
+  "year": 2015,
+  "venue": "Proceedings of SPIE, the International Society for Optical Engineering/Proceedings of SPIE",
+  "authors": [
+    "Zhengbao Yang",
+    "Jean W. Zu"
+  ],
+  "citation_count": 5,
+  "sections": [
+    {
+      "heading": "Nonlinear vibration analysis of the high-efficiency compressive-mode piezoelectric energy harvester",
+      "level": 1,
+      "text": "Zhengbao Yang and Jean Zu Department of Mechanical and Industrial Engineering, University of Toronto Toronto, Ontario, Canada, M5S 3G8"
+    },
+    {
+      "heading": "ABSTRACT",
+      "level": 1,
+      "text": "Power source is critical to achieve independent and autonomous operations of electronic mobile devices. The vibration-based energy harvesting is extensively studied recently, and recognized as a promising technology to realize inexhaustible power supply for small-scaleelectronics.Among various approaches, the piezoleic energyharvestin has gaine the most attention due toits hig conversion efficiency and simple congurations. However, most of piezoelectric energy harvesters (PEHs) to date are based on bending-beam structures and can only generate limited power with a narrow working bandwidth. The insufient electricoutput has grealy impeded their practical applications. In this paper, we present an innovative lead zirconate titanate (PZT) energy harvester, named high-eficiency compressive-mode piezoelectric energy harvester (HC-PEH), to enhance the performanceofenergy harvesters.A theoretical model was developed analytically, and solvednumerically to study the nonlinear characteristics of the HC-PEH. The results estimated by the developed mode agree well with the experimental data from the fabricated prototype. The HC-PEH shows strong nonlinear responses, favorable working bandwidth and superior power output. Under a weak excitation of 0.3 g $\\mathrm { \\overrightarrow { g } } = 9 . 8 ~ m / s ^ { 2 }$ ), a maximum power output 30 mW is generated at 22 Hz, which is about ten times better than current energy harvesters. The HC-PEH demonstrates the capability of generating enough power for most of wireless sensors.\n\nKeywords: Energy harvester, Piezoelectric, High-efficiency, Compressive mode, Force amplification, Flextensional."
+    },
+    {
+      "heading": "1. INTRODUCTION",
+      "level": 1,
+      "text": "In the past decade, theenergy harvestingtechnology hasattracteconsiderableattention bot academiaand indusrywing ts reat application potentialTakethe rapid developing wireless senor network or exaple. Sensor nodes are being popularly employed in a variety of areas, including structural health monitoring $^ { 1 - 3 }$ forest fre monitoring,railay system, etReplacin r recharging batteris or largenumber  snsors ine area is very costly and time-consuming. Therefore, a device that can scavenge ambient vibration as a long lasting power source becomes a loadstone. Energy harvesters can also be applied in medical devices such as artificial pacemakers,6 spinal simulators7 and hearing aids $^ 8$ to lower their dependence on batteries and prolong their effective life span.\n\nAmong different mechanisms of harvesting vibration energy to date, piezoelectric mechanism is the most promising one due to its simple configurations and high power density. Nevertheless, piezoelectric energy harvesters (PEHs) have also demonstrated several critical issues. These shortcomings are tethered to their innate operating concept. Currently, most of PEHs are employing the cantilever structure or modifed bendingbeam structures. $^ { 9 - 1 1 }$ Although the beam structures can induce large bending strains under weak vibrations with simple confgurations, they sur from the low power output and cannot generate enough electricity for mosto elecronics.1 In addition, the most commonly-used cantilevered PEHs can only convert energy from excitations to electric loads effectively in a narrow frequency region around the fundamental frequency.Small variations in the excitation requency will render the vibration away rom resonance, resulting in a sinificant drop  the output. The narrow bandwidth makes PEHs impracticable in the ambient random vibrating environment. These critical issues have greatly impeded the extensive adoption of the energy harvesting technology.\n\nZhengbao Yang: zbyang@mie.utoronto.ca, Telephone: $+ 1$ (416) 946 3709"
+    },
+    {
+      "heading": "Downloaded From: http://proceedings.spiedigitallibrary.org/on 06/17/2015 Terms of Use: http:/spiedl.orgterms",
+      "level": 1,
+      "text": "In order to improve the performance of the PEHs, force amplification methods can be used in light of the mechanical properties of piezoceramics: large yield stress but extremely small yield strain. The fextensional ruhoipns bepl for a long time. In 2003, Deng Ken filed a patent and proposed the ideaof using extensional transducers n the energy harvesting feld.13 The fextensional energy harvester is composed of a piezoelectric disc sandwiched by a paiconve metal cas.The eistenc thesetwo metal caps oty protect the cente activemateals fromfailurebut sohanc thefeciveactiorRercesndicatehat extensinal energarv have the capability of performing well under the hig-requency, strong-excitation environment.However,under the common low-frequency, weak-excitation surroundings, they have no advantages over others.\n\nTo harness the ambient low-frequency, low-acceleration vibrations, inspired by the fexural structure, we developed a new energy transducer, named high-eficiency compressive-mode piezoelectric energy harvester (HC-PEH). It shows strong nonlinear responses, wide working bandwidth and high power output. In this paper, the electrical-mechanical coupling system is modeled analytically and examined numerically. Furthermore, a prototype was fabricated and tested.Theresults from experiments correlate we wit the data estimated by the mel and validate the superiority f the new HC-EH. This paper isorganized as follows: Section I presents the design of the HC-PEH, and the corresponding finite element analysis. Section III and Section IV show the modeling method and experiments, respectively. Results and discussions folow in Section V, and conclusions are provided in Section VI."
+    },
+    {
+      "heading": "2. DESIGN",
+      "level": 1,
+      "text": "The eahe C-H owFi.Itse-i center and two proof masses. The fex-compressive center is composed of a piezoelectric plate sandwiched by two bow-shape metal plates. The entire device is mounted to the excitation base. The operation principle goes like this: frst, the base excitation is transferred by the elastic beams and absorbed by the proof masses as inertial force;then, vbration the promasses andfex-cmpressiv center nduc ongitudinal streson theelastic beams; third, the stretching beam causes fexural deformation of the bow-shape plate; finally, the compressive load by the bow-shape plateon the center piezo plate generates electricity. In the process, rc s amplifed twice succesively, frst by the elastic beams, second by the bow-shape plate. Therefore, the HC-PEH can generate high voltage even under weak excitations. The metal bow-shape plate protects the piezoelectric element in the HC-PEH from failure to a certain level The proof mass and theelastic beam can beadjustd to accommodate to different environments.\n\nAs a dynamic system working under different excitations, it is essential to considerits modal responses while deinnsur wor he wyepeceInhisstudy moalnalys yhefni (FEM) was conducted to probe the dynamic response of the HC-PEH.\n\nFigure 2 illustrates the mode shapes of the HC-PEH. At the first eigenfrequency $1 5 . 9 \\ \\mathrm { H z }$ , the HC-PEH vibrates in vertical direction; at the second eigenfrequency $1 6 . 3 ~ \\mathrm { H z }$ , it rotates around the axis of the elastic\n\n![](images/5a81e231f16a98fc7566819c48f7760d512a7ee4dbd12a9eb336efd27231ced9.jpg)  \nFigure 1. Schematic of the proposed HC-PEH."
+    },
+    {
+      "heading": "Downloaded From:http://proceedings.spiedigitallibrary.org/on 06/17/2015 Terms of Use: http:/spiedl.orgterms",
+      "level": 1,
+      "text": "![](images/e77bac35b98a46e90f31acecceef83ba6e516974f4285ce6068fbde191b46003.jpg)  \nohape herstrmodsRereis splat n blueregis l splc. The static position is shown in wireframe. The first eigenfrequency is $1 5 . 9 \\ \\mathrm { H z }$ ; the second eigenfrequency is $1 6 . 3 \\ \\mathrm { H z }$ ; and the third eigenfrequency is $4 6 . 6 \\ \\mathrm { H z }$ .\n\nbeams; while at the third eigenfrequency $4 6 . 6 ~ \\mathrm { H z }$ , it rotates around the center of the flex-compressive center. The first two eigenrequencies are located so near that it is hard to distinguish them in practice.Both the first two modal vibrations make contributions to the overall performance, but the first vertical vibration along the ea playsminoThereraehsnodehe with alumped-parameter model for the fundamental vibration mode. In the following section we articulate the modeling methodology."
+    },
+    {
+      "heading": "3. THEORETICAL ANALYSIS",
+      "level": 1,
+      "text": "Avibration-based energyharvester using piezoelectricmaterials includes both mechanical and electrical domans, and can be modeled as either an equivalent spring-mass-damper system $^ { 1 4 , 1 5 }$ or an equivalent circuit system. $^ { 1 6 , 1 7 }$ Here we model the system as an equivalent circuit system as shown in Fig. 3. Since weak excitations are used in the study, the nonlinear piezoelectricity is $^ { 1 8 }$ not considered in the model. The piezoelectric materials are asumed linear, complying with the constitutive equations.19 In the system, force in the mechanical domain coon tovoltagetheelectrilmain; and velociyhemechaniloma corepon tcin the electrical domain. The energy storageelements mass and spring correspond to inductance and capacitance, respectively ( $l = m$ ; $c = 1 / k$ ). The energy dissipation element damping corresponds to resistance ( $R = c$ ). The electromechanical coupling is represented by a transformer with a turn-ratio $\\theta$ $C _ { p }$ is the equivalent internal capacitance of the piezoelectric plate, and $R$ is the external load.\n\nAccording to the Kirchhoff's circuit law, the governing equations are derived as:\n\n$$\n\\begin{array} { c } { { m X ^ { \\prime \\prime } + c X ^ { \\prime } + k _ { 1 } X + k _ { 3 } X ^ { 3 } + \\theta V = m Z ^ { \\prime \\prime } } } \\\\ { { { } } } \\\\ { { C _ { p } V ^ { \\prime } + \\displaystyle { \\frac { 1 } { R } } V = \\theta X ^ { \\prime } } } \\end{array}\n$$\n\nThe excitation is assumed to be a harmonic vibration:\n\n$$\nZ ^ { \\prime \\prime } = A \\cos \\omega t\n$$\n\nwhere $A$ is the acceleration amplitude, and $\\omega$ is the angular frequency.\n\nWhen the fex-compressive center vibrates in vertical direction, the elastic beams bend and incline to accommodate the motion. The change of tensile stress in the inclined beams causes nonlinear stiffess. The"
+    },
+    {
+      "heading": "Downloaded From:http://proceedings.spiedigitallibrary.org/on 06/17/2015 Terms of Use: http:/spiedl.orgterms",
+      "level": 1,
+      "text": "stiffness can be easily calculated by a static deformation study in any commercial FEM software. For brevity, we omit the details here.\n\nTo rescale the governing equations, we introduce a nondimensional time term, $\\tau = \\omega _ { n } t$ , into the governing equations where $\\omega _ { n } = \\sqrt { k _ { 1 } / m }$ is the linear undamped natural frequency of the SDOF system, and define the damping coefficient $\\zeta = c / 2 \\omega _ { n } m$ . Equation (1) and Equation (2) are nondimensionalized as:\n\n$$\n\\ddot { x } + 2 \\zeta \\dot { x } + x + \\gamma x ^ { 3 } + \\varphi ^ { 2 } v = \\ddot { z }\n$$\n\n$$\n\\dot { v } + \\alpha v = \\dot { x }\n$$\n\nwhere, $z = Z , x = X , v = C _ { p } V / \\theta$ are the nondimensional input, nondimensional displacement response, and nondimensional voltage response, respecively; $\\gamma = k _ { 3 } / k _ { 1 }$ is the nonlinear stiffess ratio; $\\begin{array} { r } { \\varphi ^ { 2 } \\ = \\ \\frac { \\theta ^ { 2 } } { k _ { 1 } C _ { p } } } \\end{array}$ is the dimensionless coupling term; and α= Rω is the tuning ratio of the equivalent circuit (open-circuit: $\\alpha = 0$ ; impedance matching condition: $\\alpha = 1$ ).\n\nFor the convenience of solving numerically, we express the state-space form of the governing equations as:\n\n$$\n\\left\\{ \\begin{array} { c } { { \\dot { x } _ { 1 } = x _ { 2 } } } \\\\ { { \\dot { x } _ { 2 } = - 2 \\zeta x _ { 2 } - x _ { 1 } - \\gamma x _ { 1 } ^ { 3 } - \\varphi ^ { 2 } x _ { 3 } + \\ddot { z } } } \\\\ { { \\dot { x } _ { 3 } = x _ { 2 } - \\alpha x _ { 3 } } } \\end{array} \\right.\n$$\n\nwhere the $x _ { 1 }$ , $x _ { 2 }$ , and $x _ { 3 }$ represent the displacement, velocity and voltage, respectively.\n\nThese ordinary differential equations can be solved using various numerical solvers. Specifically, the ode45 solver function of $M A T L A B$ is utilized here. The values of different parameters are identified according to the fabricated prototype. Table 1 lists the parameters used in the numerical simulation.\n\nTable 1. Numerical parameters.   \n\n<table><tr><td>Parameter</td><td>Symbol</td><td>Value</td></tr><tr><td>Damping coefficient</td><td>ζ</td><td>0.028</td></tr><tr><td>Stiffness ratio</td><td>γ</td><td>6.24 × 104</td></tr><tr><td>Coupling term</td><td>$</td><td>0.033</td></tr><tr><td>Acceleration</td><td>A</td><td>0.3 × 9.8m/s2</td></tr></table>"
+    },
+    {
+      "heading": "4. EXPERIMENTS",
+      "level": 1,
+      "text": "A prototype was fabricated for experimental verification of the model.The active material in the prototype is PZT-5H from DeL Piezo Specialties LLC. The PZT-5H plate was poled in the thickness direction with silver elecrode  the both sidesBoth the elastbeam and the bowshape plate are madealuminualy 3003. Properties of the prototype are illustrated in Tab. 2.\n\nThe experimental setup used to characterize the HC-PEH is shown in Fig. 4. The HC-PEH was mounted on an electromagnetic shaker (Modal Shop Inc., 2075E) that provides a harmonic base excitation. The acceleration at the base is measured by a small accelerometer (Kistler Instrument Corp. 8632C50), and the mechanical response isrecorded by alaser Dopplervibrometer.A digitalosilloscope (Tektronix 3014)i used t recrd the output voltage.\n\n![](images/29200a87494648d2fddd3844761a4c51c7410ec143abc3270bcb076fdb49907a.jpg)  \nFigure 3. Circuit representation for the first mode of piezoelectric energy harvesters."
+    },
+    {
+      "heading": "Downloaded From: http://proceedings.spiedigitalibrary.org/on06/17/2015 Terms of Use: http://spiedl.org/terms",
+      "level": 1,
+      "text": "Table 2. Geometric and material properties of the HC-PEH prototype.   \n\n<table><tr><td>Description</td><td>Value</td></tr><tr><td>Length of the elastic beam</td><td>50 mm</td></tr><tr><td>Width of the elastic beam</td><td>5 mm</td></tr><tr><td>Thickness of the elastic beam</td><td>0.48 mm</td></tr><tr><td>Density of the elastic beam</td><td>2700 kg/m3</td></tr><tr><td>Young&#x27;s modulus of the elastic beam</td><td>69 GPa</td></tr><tr><td>Length of the bow-shape plate</td><td>40 mm</td></tr><tr><td>Width of the bow-shape plate</td><td>15 mm</td></tr><tr><td>Thickness of the bow-shape plate</td><td>0.5 mm</td></tr><tr><td>Proof mass</td><td>100 g</td></tr><tr><td>Density of the piezo plate</td><td>7800 kg/m3</td></tr><tr><td>Young&#x27;s modulus of the piezo plate</td><td>63 GPa</td></tr><tr><td>Dielectric constant 11</td><td>3170</td></tr><tr><td>Piezoelectric charge constant d31</td><td>−275 × 10−12C/N</td></tr><tr><td>Piezoelectric voltage constant g31</td><td>9.3 × 10−3V m/N</td></tr></table>"
+    },
+    {
+      "heading": "5. RESULTS AND DISCUSSIONS",
+      "level": 1,
+      "text": "In this section, we show both the smulation and expermental results, andexamie themechanical an elcl responses of the HC-PEH.\n\nFigure 5 shows the velocity responses in frequency sweeps under a 0.3 g excitation ( $\\mathrm { g }$ is the gravitational acceleration, $g = 9 . 8 m / s ^ { 2 }$ ) . The external load is $1 0 \\ \\mathrm { M } \\Omega$ , which can be regarded as open-circuit condition. In both the experiment and the numerical simulation, the upward and downward frequency sweeps were done by using a linear chirp excitation with a constant chirp ratio $\\pm 0 . 0 5 ~ \\mathrm { H z / s }$ . The frequency responses show distinct nonlinear phenomena and a wide working bandwidth. As the excitation frequency increases, the velocity ges up\n\n![](images/8e7c4e4e1fc1eda0b183bceaabc620ba09134abc93947e3bd0d4a1ca7833c663.jpg)  \nFigure 4. Experimental setup."
+    },
+    {
+      "heading": "Downloaded From: http://proceedings.spiedigitallbrary.org/on 06/17/2015 Terms of Use: http:/spiedl.orgterms",
+      "level": 1,
+      "text": "constantly and jump down suddenly once the excitation frequency reaches the point, 22.7 Hz, for the protoype While a jump-p phenomenon happens at 18.5 Hz for the casef the downward frequenc sweep . Both the jumpdown equenc nd the jum-dow elocirlarr thanthejup- cnerpart evaleby pa Fig. 5(a) with Fig. 5(b). The hardening nonlinear vibration expands significantly the working bandwidth. Meanwhile,  show Fi. , the resuls tiatedby the developemode is oparegainst theexperena data from the fabricated prototype. No matter on-resonance responses or offresonance responses are matched very well. The developedmodel is validated experimentally, and can estimate the nonlinear mechanical response of the HC-PEH effectively.\n\nThe power extraction of an energy harvester is maximized when the internal impedance matches the load impeancThetealpeanc lecierharvescudepaciive uivndv impedance.19 Therefore, the matching impedance ought to be a complex conjugate load to get the maximum power from the source. But in low frequency range ( $< 1 0 0 ~ \\mathrm { H z }$ ), the impedance of the equivalent inductor ( $Z _ { L } = \\omega L e ^ { j \\frac { \\pi } { 2 } }$ ) is trivial and ignorable. The leakage resistance (parallel to the inherent capacitance) is usually much bigger than the capacitive resistance, and is ignorable, too. So the piezoelectric element behaves likea capacitive element $\\begin{array} { r } { Z _ { C } = \\frac { 1 } { \\omega C } e ^ { j \\left( - \\frac { \\pi } { 2 } \\right) } ) } \\end{array}$ Th mn g xtl an   x impedance matching, which is hard to realize in practice. In this study, we use resistive load to show the capability of generating electricity, and to compare with other energy harvesters conveniently. In experiment, different resistors were connected to the HC-PEH and the optimum resistance was found to be 100 KΩ for the prototype with the parameters aforementioned.\n\nFigure 6 illustrates the comparison between the experimental and numerical voltage responses of the HC-PEH connected to the optimum resistance of $1 0 0 ~ \\mathrm { K } \\Omega$ . Results exhibit obviously a hardening type nonlinearity, and hence a wide bandwidth with large-amplitude voltage output.Overall, key chracteristics, e.g. amplitude, shape, and jump frequencies of the responses in both the upward frequency sweep case and the downward frequency sweep case have good agreements. However, when carefully examining the responses from experiments and simulations, one can fnd that there exists a smal discrepancy. The experimental results are not perfectly symmtrical ke the numerical counterpart, but showalittle arer positiv amplitude than the negativne. The small error is deemed to come from the initial deformation due to the gravity and imperfections in the manufacturing process and experiment.\n\nThe power responses not shown here intentionaly because the mount  powerdelivere across the resitive\n\n![](images/6bb8625fbb19a8a4a8fe6b70f9e37b76d66bbf0f8a377333cb0958c0e939abf2.jpg)  \nFigure 5. Comparison of mechanical responses of the HC-PEH under an acceleration of $\\mathrm { 0 . 3 ~ g }$ . $\\mathrm { a } ( 1 )$ experimental velocity ar wee;baleoar weep;y arb frequency sweep."
+    },
+    {
+      "heading": "Downloaded From: http://proceedings.spiedigitallbrary.org/on 06/17/2015 Terms of Use: http:/spiedl.orgterms",
+      "level": 1,
+      "text": "![](images/08ca77e3a8ce8c02fdfbd48d141ae1b4c5314659a2fcf180e72cf09b65cf05ee.jpg)  \nFigure 6. Comparison of electrical responses of the HC-PEH under an acceleration of $\\mathrm { 0 . 3 ~ g }$ with an external load of 100 $\\mathrm { K } \\Omega$ .a(1) experimental voltage responses in upwardfrequency sweep; b(1) experimentalvoltage response in downward freqny sweep; a(2) voltagerespons etimated by the model in upwr eqenc swep; b(2) voltage responses estimated by the model in downward frequency sweep.\n\nload can be easily got by manipulating Fig. 6 via the relation: Power $=$ Voltage2/Resistance. The maximum peak-peak voltage of the HC-PEH connected to $1 0 0 ~ \\mathrm { K } \\Omega$ resistor is 110 Volt , under $\\mathrm { 0 . 3 ~ g }$ acceleration. So the pow utput is 30 miliwat.Compared wih current advancd PEHs,10,20 the HC-PEH can enera vr ten times more power under same conditions."
+    },
+    {
+      "heading": "6. SUMMARY",
+      "level": 1,
+      "text": "This paper reports a new nonlinear energy harvester using compressive-mode piezoelectric materials. A concise lumped-parameter model was developed analytically and solved numerically. The model is capable of precisely estimating the nonlinear large-amplitude responses of the electromechanical coupling system. The vablity of introducing nonlinearity into energy harvesters to broaden the bandwidth is also verifed theoretically and experimentally. As the microelectronics technology develops rapidly, a variety of low-power sensors ( $< ~ 1$ milliwatt) have emerged. The superior performance of the HC-PEH gives an optimistic outlook for success in the endeavor of achieving self-powered wireless sensor networks.\n\nThe performance of the HC-PEH can be improved further by employing better active materials (e.g. PMN-PT) and optimizing the geometric parameters. A frequency-varying complex impedance matching methodology is also required to maximize the energy extraction, as mentioned before. Meanwhile, since the response of a nonlinear electrical-mechanical coupling system is nonlinear and quite complicated under the ambient random vibrating environment, comprehensive power management and storage strategies are of high value, and need more thorough and intensive research."
+    },
+    {
+      "heading": "ACKNOWLEDGMENTS",
+      "level": 1,
+      "text": "This work was supported by the Natural Science and Engineering Research Council of Canada, and the State Key Program of National Natural Science of China (No.11232009)."
+    },
+    {
+      "heading": "REFERENCES",
+      "level": 1,
+      "text": "[1] X. Tang and L. Zuo, \"Simulation and experiment validation of simultaneous vibration control and energy harvesting from buildings using tuned mass dampers,\" in American Control Conference (ACC), 2011, pp. 31343139, IEEE, 2011."
+    },
+    {
+      "heading": "Downloaded From: http://proceedings.spiedigitallibrary.org/on 06/17/2015 Terms of Use: http:/spiedl.orgterms",
+      "level": 1,
+      "text": "[2] G. Park, T. Rosing, M. D. Todd, C. R. Farrar, and W. Hodgkiss, \"Energy harvesting for structural health monitoring sensor networks,\" Journal of Infrastructure Systems 14(1), pp. 6479, 2008.   \n[3] T. Galcev, J. McCuh, R. eron, an . aj \"Harvtira-nu s forrua health monitoring of bridges,\" Journal of Micromechanics and Microengineering 21(10), p. 104005, 2011.   \n[4] S. McGarry and C. Knight, \"The potential for harvesting energy from the movement of trees,\" Sensors 11(10), pp. 92759299, 2011.   \n[5] G. De Pasquale, A. Somà, and F. Fraccarollo, \"Piezoelectric energy harvesting for autonomous sensors network on safety-improved railway vehicles,\" Proceedings of the Institution of Mechanical Engineers, Part C: Journal of Mechanical Engineering Science 226(4), pp. 11071117, 2012.   \n[6] M. Amin Karami and D. J. Inman, \"Powering pacemakers from heartbeat vibrations using linear and nonlinear energy harvesters,\" Applied Physics Letters 100(4), pp. 042901042901, 2012.   \n[7] I. Capel, H. Dorrel, E. Spencer, and M. Davis, \"The amelioration of the suffering associated with spinal cord injury with subperception transcranial electrical stimulation,\" Spinal Cord 41(2), pp. 109117, 2003.   \n[8] D. Aidin and V. Jeremie, \"Ear canal dynamic motion as a source of power for in-ear devices,\" Journal of Applied Physics 113(6), p. 064701, 2013.   \n[9] Y. Zhu and J. W. Zu, \"Enhanced buckled-beam piezoelectric energy harvesting using midpoint magnetic force,\" Applied Physics Letters 103(4), p. 041905, 2013.   \n[10] D. F. Berdy, P. Srisungsitthisunti, B. Jung, X. Xu, J. F. Rhoads, and D. Peroulis, \"Low-frequency meandering piezoelectric vibration energy harvester,\" Ultrasonics, Ferroelectrics and Frequency Control, IEEE Transactions on 59(5), pp. 846858, 2012.   \n[11] H. Liu, C. Lee, T. Kobayashi, C. J. Tay, and C. Quan, \"Piezoelectric mems-based wideband energy harvesting systems using a frequency-up-conversion cantilever stopper,\" Sensors and Actuators A: Physical 186, pp. 242248, 2012.   \n[12] H. A. Sodano, D. J. Inman, and G. Park, \"Comparison of piezoelectric energy harvesting devices for recharging batteries,\" Journal of Intelligent Material Systems and Structures 16(10), pp. 799807, 2005.   \n[13] D. Ken, \"Piezoelectric vibration energy harvesting device and method,\" July 9 2004. US Patent App. 10/887,216.   \n[14] M. J. T. S P Beeby and N. M. White, \"Energy harvesting vibration sources for microsystems applications,\" Measurement science and technology 17(12), p. R175, 2006.   \n[15] B. L. W. N E. Dutoit and S.-G. Kim, \"Design considerations for mems-scale piezoelectric mechanical vibration energy harvesters,\" Integrated Ferroelectrics 71(1), pp. 121160, 2005.   \n[16] S. Roundy and P. K. Wright, \"A piezoelectric vibration based generator for wireless electronics,\" Smart Materials and structures 13(5), p. 1131, 2004.   \n[7] G. D. Szarka, B. H. Stark, and S. G. Burrow, \"Review of power conditioning for kinetic energy harvesting systems,\" Power Electronics, IEEE Transactions on 27(2), pp. 803815, 2012.   \n[18] S. C. Stanton, A. Erturk, B. P. Mann, and D. J. Inman, \"Resonant manifestation o inrinsic nonlnry within electroelastic micropower generators,\" Applied Physics Letters 97(25), p. 254101, 2010.   \n[19] A. Meitzler, H. Tiersten, A. Warner, D. Berlincourt, G. Couqin, and F. Welsh I, \"Ieee standard on piezoelectricity,\" 1988.   \n[20] A. Khaligh, P. Zeng, and C. Zheng, \"Kinetic energy harvesting using piezoelectric and electromagnetic technologiesstate of the art,\" Industrial Electronics, IEEE Transactions on 57(3), pp. 850-860, 2010.   \n[21] Y. Zheng, X. Wu, M. Parmar, and D.-w. Lee, \"Note: High-eficiency energy harvester using double-clamped piezoelectric beams,\" Review of Scientific Instruments 85(2), p. 026101, 2014.   \n[22] P. D. Mitcheson, E. M. Yeatman, G. K. Rao, A. S. Holmes, and T. C. Green, \"Energy harvesting from human and machine motion for wireless electronic devices,\" Proceedings of the IEEE 96(9), pp. 14571486, 2008"
+    }
+  ],
+  "tables": [
+    {
+      "page": -1,
+      "content": ""
+    },
+    {
+      "page": -1,
+      "content": ""
+    }
+  ],
+  "figures": [
+    {
+      "page": -1,
+      "caption": "",
+      "path": "images/5a81e231f16a98fc7566819c48f7760d512a7ee4dbd12a9eb336efd27231ced9.jpg"
+    },
+    {
+      "page": -1,
+      "caption": "",
+      "path": "images/e77bac35b98a46e90f31acecceef83ba6e516974f4285ce6068fbde191b46003.jpg"
+    },
+    {
+      "page": -1,
+      "caption": "",
+      "path": "images/29200a87494648d2fddd3844761a4c51c7410ec143abc3270bcb076fdb49907a.jpg"
+    },
+    {
+      "page": -1,
+      "caption": "",
+      "path": "images/8e7c4e4e1fc1eda0b183bceaabc620ba09134abc93947e3bd0d4a1ca7833c663.jpg"
+    },
+    {
+      "page": -1,
+      "caption": "",
+      "path": "images/6bb8625fbb19a8a4a8fe6b70f9e37b76d66bbf0f8a377333cb0958c0e939abf2.jpg"
+    },
+    {
+      "page": -1,
+      "caption": "",
+      "path": "images/08ca77e3a8ce8c02fdfbd48d141ae1b4c5314659a2fcf180e72cf09b65cf05ee.jpg"
+    }
+  ],
+  "metadata": {
+    "source": "openalex",
+    "pdf_url": "",
+    "parsed_at": "2026-03-10T10:27:58.139439+00:00"
+  }
+}

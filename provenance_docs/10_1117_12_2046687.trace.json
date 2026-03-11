@@ -1,0 +1,28 @@
+{
+  "paper_id": "10_1117_12_2046687",
+  "doi": "10.1117/12.2046687",
+  "title": "Recent progress on micro-piezoelectric energy harvesters fabricated with aerosol deposition method and the interfacing circuits",
+  "source_apis": [
+    "both"
+  ],
+  "pdf_url": "",
+  "pdf_local_path": "data_registry/raw_stage04_paper_pdf_cleaned/10_1117_12_2046687.pdf",
+  "processing": {
+    "tool": "MinerU",
+    "version": "python -m mineru.cli.client, version 2.7.6",
+    "timestamp": "2026-03-10T10:01:45.511701+00:00",
+    "duration_s": 82.28,
+    "success": true,
+    "error": ""
+  },
+  "outputs": {
+    "content_md": "/root/EH-LLM-vehbench-exp/parsed_docs/10_1117_12_2046687_1ks9xr8_/content.md",
+    "layout_json": "/root/EH-LLM-vehbench-exp/parsed_docs/10_1117_12_2046687_1ks9xr8_/layout.json",
+    "images_dir": "/root/EH-LLM-vehbench-exp/parsed_docs/10_1117_12_2046687_1ks9xr8_/10_1117_12_2046687/auto/images",
+    "normalized_json": "/root/EH-LLM-vehbench-exp/normalized_docs/10_1117_12_2046687.json"
+  },
+  "data_lineage": {
+    "papers_jsonl_hash": "221d07b3689b60e07e5eee65157c1573",
+    "pipeline_step": "ingestion/mineru_runner.py"
+  }
+}

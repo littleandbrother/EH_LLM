@@ -1,0 +1,28 @@
+{
+  "paper_id": "10_1088_0960_1317_21_8_085037",
+  "doi": "10.1088/0960-1317/21/8/085037",
+  "title": "Corrugated aluminum nitride energy harvesters for high energy conversion effectiveness",
+  "source_apis": [
+    "both"
+  ],
+  "pdf_url": "",
+  "pdf_local_path": "data_registry/raw_stage04_paper_pdf_cleaned/10_1088_0960_1317_21_8_085037.pdf",
+  "processing": {
+    "tool": "MinerU",
+    "version": "python -m mineru.cli.client, version 2.7.6",
+    "timestamp": "2026-03-10T09:27:04.001206+00:00",
+    "duration_s": 87.26,
+    "success": true,
+    "error": ""
+  },
+  "outputs": {
+    "content_md": "/root/EH-LLM-vehbench-exp/parsed_docs/10_1088_0960_1317_21_8_085037_x7fqvv2f/content.md",
+    "layout_json": "/root/EH-LLM-vehbench-exp/parsed_docs/10_1088_0960_1317_21_8_085037_x7fqvv2f/layout.json",
+    "images_dir": "/root/EH-LLM-vehbench-exp/parsed_docs/10_1088_0960_1317_21_8_085037_x7fqvv2f/10_1088_0960_1317_21_8_085037/auto/images",
+    "normalized_json": "/root/EH-LLM-vehbench-exp/normalized_docs/10_1088_0960_1317_21_8_085037.json"
+  },
+  "data_lineage": {
+    "papers_jsonl_hash": "383380e8f48dc946a29292f2c8f0bb54",
+    "pipeline_step": "ingestion/mineru_runner.py"
+  }
+}

@@ -1,0 +1,147 @@
+{
+  "metadata": {
+    "paper_id": "10_1088_0960_1317_21_8_085037",
+    "doi": "10.1088/0960-1317/21/8/085037",
+    "title": "Corrugated aluminum nitride energy harvesters for high energy conversion effectiveness",
+    "year": 2011,
+    "journal": "Journal of Micromechanics and Microengineering"
+  },
+  "configuration": "cantilever",
+  "proof_mass": true,
+  "geometry": {
+    "length_mm": 0.25,
+    "width_mm": 0.4,
+    "thickness_mm": null,
+    "substrate_thickness_um": 680,
+    "piezo_thickness_um": 2,
+    "tip_mass_g": 0.00031,
+    "diameter_mm": null
+  },
+  "excitation": {
+    "type": "vibration",
+    "frequency_Hz": 2560,
+    "acceleration_g": 0.25,
+    "displacement_mm": null,
+    "motion_source": "vibration stage"
+  },
+  "load": {
+    "load_resistance_ohm": 860000
+  },
+  "output": {
+    "resonant_frequency_Hz": 2560,
+    "output_power_W": 4.9e-09,
+    "open_circuit_voltage_V": null,
+    "short_circuit_current_A": null,
+    "bandwidth_Hz": null
+  },
+  "evidence": {
+    "configuration": {
+      "quote": "corrugated cantilever structures",
+      "section": "Abstract",
+      "source_type": "abstract"
+    },
+    "proof_mass": {
+      "quote": "proof mass with a thickness of t",
+      "section": "2.1. Corrugated beam design",
+      "source_type": "section"
+    },
+    "geometry": {
+      "length_mm": {
+        "quote": "(l2 - l1) = 250 um",
+        "section": "4. Measurement and discussion",
+        "source_type": "section"
+      },
+      "width_mm": {
+        "quote": "b = 400 um",
+        "section": "4. Measurement and discussion",
+        "source_type": "section"
+      },
+      "thickness_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "substrate_thickness_um": {
+        "quote": "680 um thick silicon wafer",
+        "section": "3. Fabrication process",
+        "source_type": "section"
+      },
+      "piezo_thickness_um": {
+        "quote": "2 um thick piezoelectric AlN film",
+        "section": "3. Fabrication process",
+        "source_type": "section"
+      },
+      "tip_mass_g": {
+        "quote": "M of 0.31 mg",
+        "section": "4. Measurement and discussion",
+        "source_type": "section"
+      },
+      "diameter_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      }
+    },
+    "excitation": {
+      "type": {
+        "quote": "scavenging vibration energy",
+        "section": "1. Introduction",
+        "source_type": "section"
+      },
+      "frequency_Hz": {
+        "quote": "resonance frequency of 2.56 kHz",
+        "section": "Abstract",
+        "source_type": "abstract"
+      },
+      "acceleration_g": {
+        "quote": "input acceleration of 0.25 G",
+        "section": "Abstract",
+        "source_type": "abstract"
+      },
+      "displacement_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "motion_source": {
+        "quote": "mounted on a vibration stage",
+        "section": "4. Measurement and discussion",
+        "source_type": "section"
+      }
+    },
+    "load": {
+      "load_resistance_ohm": {
+        "quote": "load resistance of 0.86 M Ohm",
+        "section": "Abstract",
+        "source_type": "abstract"
+      }
+    },
+    "output": {
+      "resonant_frequency_Hz": {
+        "quote": "resonance frequency of 2.56 kHz",
+        "section": "Abstract",
+        "source_type": "abstract"
+      },
+      "output_power_W": {
+        "quote": "output power is 4.9 nW",
+        "section": "Abstract",
+        "source_type": "abstract"
+      },
+      "open_circuit_voltage_V": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "short_circuit_current_A": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "bandwidth_Hz": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      }
+    }
+  }
+}

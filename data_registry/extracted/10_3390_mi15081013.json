@@ -1,0 +1,147 @@
+{
+  "metadata": {
+    "paper_id": "10_3390_mi15081013",
+    "doi": "10.3390/mi15081013",
+    "title": "Modeling and Experimental Study of Vibration Energy Harvester with Triple-Frequency-Up Voltage Output by Vibration Mode Switching",
+    "year": 2024,
+    "journal": "Micromachines"
+  },
+  "configuration": "cantilever",
+  "proof_mass": true,
+  "geometry": {
+    "length_mm": 75.18,
+    "width_mm": 20,
+    "thickness_mm": 0.16,
+    "substrate_thickness_um": 160,
+    "piezo_thickness_um": 200,
+    "tip_mass_g": 17.8,
+    "diameter_mm": null
+  },
+  "excitation": {
+    "type": "vibration",
+    "frequency_Hz": 9.34,
+    "acceleration_g": 3.352,
+    "displacement_mm": null,
+    "motion_source": "shaker"
+  },
+  "load": {
+    "load_resistance_ohm": null
+  },
+  "output": {
+    "resonant_frequency_Hz": 9.34,
+    "output_power_W": 0.00303,
+    "open_circuit_voltage_V": null,
+    "short_circuit_current_A": null,
+    "bandwidth_Hz": 4.52
+  },
+  "evidence": {
+    "configuration": {
+      "quote": "slender piezoelectric cantilever with two short cantilever-based stoppers",
+      "section": "Abstract",
+      "source_type": "abstract"
+    },
+    "proof_mass": {
+      "quote": "A copper-based proof mass was attached to the free end of the slender beam",
+      "section": "2. System Configuration and Operational Principle",
+      "source_type": "section"
+    },
+    "geometry": {
+      "length_mm": {
+        "quote": "75.18 × 20 × 0.16 mm3",
+        "section": "2. System Configuration and Operational Principle",
+        "source_type": "section"
+      },
+      "width_mm": {
+        "quote": "75.18 × 20 × 0.16 mm3",
+        "section": "2. System Configuration and Operational Principle",
+        "source_type": "section"
+      },
+      "thickness_mm": {
+        "quote": "75.18 × 20 × 0.16 mm3",
+        "section": "2. System Configuration and Operational Principle",
+        "source_type": "section"
+      },
+      "substrate_thickness_um": {
+        "quote": "75.18 × 20 × 0.16 mm3",
+        "section": "2. System Configuration and Operational Principle",
+        "source_type": "section"
+      },
+      "piezo_thickness_um": {
+        "quote": "15 × 20 × 0.2 mm3",
+        "section": "2. System Configuration and Operational Principle",
+        "source_type": "section"
+      },
+      "tip_mass_g": {
+        "quote": "weighing 0.0178 kg",
+        "section": "3.2. Vibration Mode Analysis",
+        "source_type": "section"
+      },
+      "diameter_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      }
+    },
+    "excitation": {
+      "type": {
+        "quote": "harvesting vibration energy",
+        "section": "Abstract",
+        "source_type": "abstract"
+      },
+      "frequency_Hz": {
+        "quote": "measured under an excitation of 9.34 Hz",
+        "section": "4.2. Triple Frequency Up-Conversion",
+        "source_type": "section"
+      },
+      "acceleration_g": {
+        "quote": "3.352 g sinusoidal excitation",
+        "section": "4.2. Triple Frequency Up-Conversion",
+        "source_type": "section"
+      },
+      "displacement_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "motion_source": {
+        "quote": "mounted onto a 200 N shaker",
+        "section": "4.1. Experimental Set-Up",
+        "source_type": "section"
+      }
+    },
+    "load": {
+      "load_resistance_ohm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      }
+    },
+    "output": {
+      "resonant_frequency_Hz": {
+        "quote": "measured under an excitation of 9.34 Hz",
+        "section": "4.2. Triple Frequency Up-Conversion",
+        "source_type": "section"
+      },
+      "output_power_W": {
+        "quote": "A peak power output of 3.03 mW was obtained",
+        "section": "Abstract",
+        "source_type": "abstract"
+      },
+      "open_circuit_voltage_V": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "short_circuit_current_A": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "bandwidth_Hz": {
+        "quote": "functional range from 5 Hz to 9.52 Hz",
+        "section": "4.3. Frequency Responses",
+        "source_type": "section"
+      }
+    }
+  }
+}

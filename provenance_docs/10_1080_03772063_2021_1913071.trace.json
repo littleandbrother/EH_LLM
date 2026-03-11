@@ -1,0 +1,28 @@
+{
+  "paper_id": "10_1080_03772063_2021_1913071",
+  "doi": "10.1080/03772063.2021.1913071",
+  "title": "Multi-perforated Energy-Efficient Piezoelectric Energy Harvester Using Improved Stress Distribution",
+  "source_apis": [
+    "both"
+  ],
+  "pdf_url": "",
+  "pdf_local_path": "data_registry/raw_stage04_paper_pdf_cleaned/10_1080_03772063_2021_1913071.pdf",
+  "processing": {
+    "tool": "MinerU",
+    "version": "python -m mineru.cli.client, version 2.7.6",
+    "timestamp": "2026-03-10T09:54:27.953357+00:00",
+    "duration_s": 104.11,
+    "success": true,
+    "error": ""
+  },
+  "outputs": {
+    "content_md": "/root/EH-LLM-vehbench-exp/parsed_docs/10_1080_03772063_2021_1913071_e06gixfq/content.md",
+    "layout_json": "/root/EH-LLM-vehbench-exp/parsed_docs/10_1080_03772063_2021_1913071_e06gixfq/layout.json",
+    "images_dir": "/root/EH-LLM-vehbench-exp/parsed_docs/10_1080_03772063_2021_1913071_e06gixfq/10_1080_03772063_2021_1913071/auto/images",
+    "normalized_json": "/root/EH-LLM-vehbench-exp/normalized_docs/10_1080_03772063_2021_1913071.json"
+  },
+  "data_lineage": {
+    "papers_jsonl_hash": "91e78c964179ce4901c4e1e4f5dd1ff6",
+    "pipeline_step": "ingestion/mineru_runner.py"
+  }
+}

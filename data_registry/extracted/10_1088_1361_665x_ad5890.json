@@ -1,0 +1,147 @@
+{
+  "metadata": {
+    "paper_id": "10_1088_1361_665x_ad5890",
+    "doi": "10.1088/1361-665x/ad5890",
+    "title": "Piezoelectric energy harvester for wind turbine blades based on bistable response of a composite beam in post-buckling",
+    "year": 2024,
+    "journal": "Smart materials and structures (Print)"
+  },
+  "configuration": "other",
+  "proof_mass": true,
+  "geometry": {
+    "length_mm": 368.0,
+    "width_mm": 35.0,
+    "thickness_mm": 2.5,
+    "substrate_thickness_um": 2500.0,
+    "piezo_thickness_um": null,
+    "tip_mass_g": 287.0,
+    "diameter_mm": null
+  },
+  "excitation": {
+    "type": "vibration",
+    "frequency_Hz": 8.0,
+    "acceleration_g": 1.0,
+    "displacement_mm": null,
+    "motion_source": "wind turbine blades"
+  },
+  "load": {
+    "load_resistance_ohm": null
+  },
+  "output": {
+    "resonant_frequency_Hz": 20.0,
+    "output_power_W": 0.00132,
+    "open_circuit_voltage_V": null,
+    "short_circuit_current_A": null,
+    "bandwidth_Hz": null
+  },
+  "evidence": {
+    "configuration": {
+      "quote": "Two steel corner brackets were used to provide the clamped boundary conditions at both ends of the beam specimen.",
+      "section": "3.1. Axially prestressed beam with harvesting circuit",
+      "source_type": "section"
+    },
+    "proof_mass": {
+      "quote": "A mass of 287 g was bonded at the centre of the specimen.",
+      "section": "4.2. Transient response at various post-buckling sub-regimes",
+      "source_type": "section"
+    },
+    "geometry": {
+      "length_mm": {
+        "quote": "Beam length L 368.0",
+        "section": "Table 2",
+        "source_type": "table"
+      },
+      "width_mm": {
+        "quote": "Beam width b 35.0",
+        "section": "Table 2",
+        "source_type": "table"
+      },
+      "thickness_mm": {
+        "quote": "Beam thickness h 2.5",
+        "section": "Table 2",
+        "source_type": "table"
+      },
+      "substrate_thickness_um": {
+        "quote": "Beam thickness h 2.5",
+        "section": "Table 2",
+        "source_type": "table"
+      },
+      "piezo_thickness_um": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "tip_mass_g": {
+        "quote": "A mass of 287 g was bonded at the centre of the specimen.",
+        "section": "4.2. Transient response at various post-buckling sub-regimes",
+        "source_type": "section"
+      },
+      "diameter_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      }
+    },
+    "excitation": {
+      "type": {
+        "quote": "base excitation",
+        "section": "Abstract",
+        "source_type": "abstract"
+      },
+      "frequency_Hz": {
+        "quote": "under tonal base excitation of 1 g at 8 Hz",
+        "section": "Abstract",
+        "source_type": "abstract"
+      },
+      "acceleration_g": {
+        "quote": "under tonal base excitation of 1 g at 8 Hz",
+        "section": "Abstract",
+        "source_type": "abstract"
+      },
+      "displacement_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "motion_source": {
+        "quote": "wind turbine blades",
+        "section": "Abstract",
+        "source_type": "abstract"
+      }
+    },
+    "load": {
+      "load_resistance_ohm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      }
+    },
+    "output": {
+      "resonant_frequency_Hz": {
+        "quote": "20.0",
+        "section": "Table 5",
+        "source_type": "table"
+      },
+      "output_power_W": {
+        "quote": "1.32 mW",
+        "section": "Abstract",
+        "source_type": "abstract"
+      },
+      "open_circuit_voltage_V": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "short_circuit_current_A": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "bandwidth_Hz": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      }
+    }
+  }
+}

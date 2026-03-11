@@ -1,0 +1,71 @@
+{
+  "metadata": {
+    "paper_id": "10.1063/5.0022881",
+    "title": "An ultralow frequency, low intensity, and multidirectional piezoelectric vibration energy harvester using liquid as energy-capturing medium",
+    "year": 2020,
+    "journal": "Applied Physics Letters",
+    "doi": "10.1063/5.0022881",
+    "eh_type": "piezoelectric",
+    "application_domain": "wireless sensor networks"
+  },
+  "structure": {
+    "configuration": "cantilever",
+    "layers": [
+      {
+        "material": "PZT 5J",
+        "role": "active",
+        "thickness_um": 150.0
+      },
+      {
+        "material": "Stainless steel 304",
+        "role": "substrate",
+        "thickness_um": 150.0
+      }
+    ],
+    "proof_mass": false,
+    "geometry": {
+      "length_mm": 55.3,
+      "width_mm": 23.4,
+      "thickness_mm": 0.3,
+      "diameter_mm": 240.0
+    }
+  },
+  "excitation": {
+    "type": "vibration",
+    "frequency_Hz": 2.6,
+    "acceleration_g": 0.03,
+    "motion_source": "machine vibration"
+  },
+  "circuit": {
+    "rectifier": "not_specified",
+    "load_resistance_ohm": 135000.0
+  },
+  "performance": {
+    "output_power_W": 9.8e-06,
+    "measured_at": {
+      "frequency_Hz": 2.6,
+      "acceleration_g": 0.03,
+      "load_resistance_ohm": 135000.0
+    }
+  },
+  "experiment": {
+    "environment": "lab_shaker",
+    "real_world_test": false
+  },
+  "evidence": {
+    "source": "text",
+    "page": -1,
+    "section": "ABSTRACT",
+    "verbatim": "The experimental results indicate that the proposed harvester with a single floater-lever can generate 9.8 μW under an ultralow frequency (2.6 Hz) and a low intensity vibration excitation (0.03 g)"
+  },
+  "claim": {
+    "novelty": "ultralow frequency, low intensity, and multidirectional vibration energy harvesting",
+    "mechanism": "liquid as an energy-capturing medium"
+  },
+  "limitation": {
+    "items": [
+      "liquid evaporation",
+      "waterproof treatment of electronic components"
+    ]
+  }
+}

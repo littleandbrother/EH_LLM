@@ -1,0 +1,147 @@
+{
+  "metadata": {
+    "paper_id": "10_1016_j_proeng_2015_08_695",
+    "doi": "10.1016/j.proeng.2015.08.695",
+    "title": "Fabrication, Simulation and Characterisation of MEMS Piezoelectric Vibration Energy Harvester for Low Frequency",
+    "year": 2015,
+    "journal": "Procedia Engineering"
+  },
+  "configuration": "cantilever",
+  "proof_mass": true,
+  "geometry": {
+    "length_mm": 2.0,
+    "width_mm": 0.75,
+    "thickness_mm": 0.03,
+    "substrate_thickness_um": 30.0,
+    "piezo_thickness_um": 0.5,
+    "tip_mass_g": null,
+    "diameter_mm": null
+  },
+  "excitation": {
+    "type": "vibration",
+    "frequency_Hz": 114.0,
+    "acceleration_g": 0.024,
+    "displacement_mm": null,
+    "motion_source": "acoustic speaker"
+  },
+  "load": {
+    "load_resistance_ohm": null
+  },
+  "output": {
+    "resonant_frequency_Hz": 114.0,
+    "output_power_W": 5.4e-08,
+    "open_circuit_voltage_V": null,
+    "short_circuit_current_A": null,
+    "bandwidth_Hz": null
+  },
+  "evidence": {
+    "configuration": {
+      "quote": "three reported cantilevers",
+      "section": "4. Characterisation",
+      "source_type": "section"
+    },
+    "proof_mass": {
+      "quote": "The handle silicon serves as the proof mass.",
+      "section": "Abstract",
+      "source_type": "abstract"
+    },
+    "geometry": {
+      "length_mm": {
+        "quote": "dimensions of the beam are 2 mm x 0.75 mm",
+        "section": "3. Fabrication",
+        "source_type": "section"
+      },
+      "width_mm": {
+        "quote": "dimensions of the beam are 2 mm x 0.75 mm",
+        "section": "3. Fabrication",
+        "source_type": "section"
+      },
+      "thickness_mm": {
+        "quote": "30 um thick device silicon layer",
+        "section": "3. Fabrication",
+        "source_type": "section"
+      },
+      "substrate_thickness_um": {
+        "quote": "30 um thick device silicon layer",
+        "section": "3. Fabrication",
+        "source_type": "section"
+      },
+      "piezo_thickness_um": {
+        "quote": "0.5 um thick AlN layer",
+        "section": "3. Fabrication",
+        "source_type": "section"
+      },
+      "tip_mass_g": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "diameter_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      }
+    },
+    "excitation": {
+      "type": {
+        "quote": "MEMS vibration energy harvester",
+        "section": "Abstract",
+        "source_type": "abstract"
+      },
+      "frequency_Hz": {
+        "quote": "measured resonant frequency of around 114 Hz",
+        "section": "Abstract",
+        "source_type": "abstract"
+      },
+      "acceleration_g": {
+        "quote": "24 mili-g",
+        "section": "Abstract",
+        "source_type": "abstract"
+      },
+      "displacement_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "motion_source": {
+        "quote": "An acoustic speaker served as the excitation source.",
+        "section": "4. Characterisation",
+        "source_type": "section"
+      }
+    },
+    "load": {
+      "load_resistance_ohm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      }
+    },
+    "output": {
+      "resonant_frequency_Hz": {
+        "quote": "measured resonant frequency of around 114 Hz",
+        "section": "Abstract",
+        "source_type": "abstract"
+      },
+      "output_power_W": {
+        "quote": "average output power of 54 nW",
+        "section": "Abstract",
+        "source_type": "abstract"
+      },
+      "open_circuit_voltage_V": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "short_circuit_current_A": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "bandwidth_Hz": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      }
+    }
+  }
+}

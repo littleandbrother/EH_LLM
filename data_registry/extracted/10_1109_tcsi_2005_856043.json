@@ -1,0 +1,147 @@
+{
+  "metadata": {
+    "paper_id": "10_1109_tcsi_2005_856043",
+    "doi": "10.1109/tcsi.2005.856043",
+    "title": "A variable-capacitance vibration-to-electric energy harvester",
+    "year": 2006,
+    "journal": "IEEE Transactions on Circuits and Systems I Fundamental Theory and Applications"
+  },
+  "configuration": "cantilever",
+  "proof_mass": null,
+  "geometry": {
+    "length_mm": 66.0,
+    "width_mm": 66.0,
+    "thickness_mm": 1.27,
+    "substrate_thickness_um": null,
+    "piezo_thickness_um": null,
+    "tip_mass_g": null,
+    "diameter_mm": null
+  },
+  "excitation": {
+    "type": "vibration",
+    "frequency_Hz": 1560.0,
+    "acceleration_g": 30.24,
+    "displacement_mm": null,
+    "motion_source": "Ling Dynamic System V456 shaker table"
+  },
+  "load": {
+    "load_resistance_ohm": 20000000.0
+  },
+  "output": {
+    "resonant_frequency_Hz": 1560.0,
+    "output_power_W": 1.8e-06,
+    "open_circuit_voltage_V": null,
+    "short_circuit_current_A": null,
+    "bandwidth_Hz": null
+  },
+  "evidence": {
+    "configuration": {
+      "quote": "A cantilever beam variable capacitor",
+      "section": "Abstract",
+      "source_type": "abstract"
+    },
+    "proof_mass": {
+      "quote": null,
+      "section": null,
+      "source_type": null
+    },
+    "geometry": {
+      "length_mm": {
+        "quote": "measuring 6.6 cm on each side",
+        "section": "IV. VARIABLE CAPACITOR",
+        "source_type": "section"
+      },
+      "width_mm": {
+        "quote": "measuring 6.6 cm on each side",
+        "section": "IV. VARIABLE CAPACITOR",
+        "source_type": "section"
+      },
+      "thickness_mm": {
+        "quote": "0.05'' thick",
+        "section": "IV. VARIABLE CAPACITOR",
+        "source_type": "section"
+      },
+      "substrate_thickness_um": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "piezo_thickness_um": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "tip_mass_g": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "diameter_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      }
+    },
+    "excitation": {
+      "type": {
+        "quote": "vibration-to-electric energy harvester",
+        "section": "Abstract",
+        "source_type": "abstract"
+      },
+      "frequency_Hz": {
+        "quote": "resonant frequency of 1.56 kHz",
+        "section": "Abstract",
+        "source_type": "abstract"
+      },
+      "acceleration_g": {
+        "quote": "applied acceleration per 100 mV of v_AMP,p-p is approximately 8.4 g",
+        "section": "V. EXPERIMENTAL RESULTS",
+        "source_type": "section"
+      },
+      "displacement_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "motion_source": {
+        "quote": "Ling Dynamic System V456 shaker table",
+        "section": "IV. VARIABLE CAPACITOR",
+        "source_type": "section"
+      }
+    },
+    "load": {
+      "load_resistance_ohm": {
+        "quote": "resistive load R_LOAD formed by a 10 M Ohm scope probe in series with a 10 M Ohm resistor",
+        "section": "V. EXPERIMENTAL RESULTS",
+        "source_type": "section"
+      }
+    },
+    "output": {
+      "resonant_frequency_Hz": {
+        "quote": "resonant frequency of 1.56 kHz",
+        "section": "Abstract",
+        "source_type": "abstract"
+      },
+      "output_power_W": {
+        "quote": "delivers 1.8 uW to a resistive load",
+        "section": "Abstract",
+        "source_type": "abstract"
+      },
+      "open_circuit_voltage_V": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "short_circuit_current_A": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "bandwidth_Hz": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      }
+    }
+  }
+}

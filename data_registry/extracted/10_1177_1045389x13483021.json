@@ -1,0 +1,147 @@
+{
+  "metadata": {
+    "paper_id": "10_1177_1045389x13483021",
+    "doi": "10.1177/1045389x13483021",
+    "title": "Increasing the power of piezoelectric energy harvesters by magnetic stiffening",
+    "year": 2013,
+    "journal": "Journal of Intelligent Material Systems and Structures"
+  },
+  "configuration": "cantilever",
+  "proof_mass": true,
+  "geometry": {
+    "length_mm": 45.0,
+    "width_mm": 7.2,
+    "thickness_mm": 0.78,
+    "substrate_thickness_um": 280.0,
+    "piezo_thickness_um": 500.0,
+    "tip_mass_g": 1.51,
+    "diameter_mm": null
+  },
+  "excitation": {
+    "type": "vibration",
+    "frequency_Hz": 215.0,
+    "acceleration_g": null,
+    "displacement_mm": null,
+    "motion_source": "base velocity amplitude of 2.5 mm/s"
+  },
+  "load": {
+    "load_resistance_ohm": 4100.0
+  },
+  "output": {
+    "resonant_frequency_Hz": 215.0,
+    "output_power_W": null,
+    "open_circuit_voltage_V": null,
+    "short_circuit_current_A": null,
+    "bandwidth_Hz": null
+  },
+  "evidence": {
+    "configuration": {
+      "quote": "piezoelectric cantilever beam with a tip mass at its free end is a common energy harvester configuration",
+      "section": "Abstract",
+      "source_type": "abstract"
+    },
+    "proof_mass": {
+      "quote": "piezoelectric cantilever beam with a tip mass at its free end",
+      "section": "Abstract",
+      "source_type": "abstract"
+    },
+    "geometry": {
+      "length_mm": {
+        "quote": "Total length of piezoelectric layers 45.00±0.1mm",
+        "section": "Piezoelectric harvester modelling",
+        "source_type": "table"
+      },
+      "width_mm": {
+        "quote": "Beam width 7.20±0.1 mm",
+        "section": "Piezoelectric harvester modelling",
+        "source_type": "table"
+      },
+      "thickness_mm": {
+        "quote": "Total beam thickness 0.78±0.03 mm",
+        "section": "Piezoelectric harvester modelling",
+        "source_type": "table"
+      },
+      "substrate_thickness_um": {
+        "quote": "Shim layer thickness 0.28±0.05 mm",
+        "section": "Piezoelectric harvester modelling",
+        "source_type": "table"
+      },
+      "piezo_thickness_um": {
+        "quote": "Total beam thickness 0.78±0.03 mm; Shim layer thickness 0.28±0.05 mm",
+        "section": "Piezoelectric harvester modelling",
+        "source_type": "table"
+      },
+      "tip_mass_g": {
+        "quote": "Stiffened set-up 2 ... 1.51",
+        "section": "Experimental set-up",
+        "source_type": "table"
+      },
+      "diameter_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      }
+    },
+    "excitation": {
+      "type": {
+        "quote": "vibration harvesting",
+        "section": "Introduction",
+        "source_type": "section"
+      },
+      "frequency_Hz": {
+        "quote": "Stiffened set-up 2 ... 215",
+        "section": "Experimental set-up",
+        "source_type": "table"
+      },
+      "acceleration_g": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "displacement_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "motion_source": {
+        "quote": "excitation with a base velocity amplitude of 2.5 mm/s has been applied",
+        "section": "Experimental set-up",
+        "source_type": "section"
+      }
+    },
+    "load": {
+      "load_resistance_ohm": {
+        "quote": "4.1 kΩ for the stiffened set-up 2",
+        "section": "Results and discussion",
+        "source_type": "section"
+      }
+    },
+    "output": {
+      "resonant_frequency_Hz": {
+        "quote": "Stiffened set-up 2 ... 215",
+        "section": "Experimental set-up",
+        "source_type": "table"
+      },
+      "output_power_W": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "open_circuit_voltage_V": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "short_circuit_current_A": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "bandwidth_Hz": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      }
+    }
+  }
+}

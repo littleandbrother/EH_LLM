@@ -1,0 +1,28 @@
+{
+  "paper_id": "10_1108_cw_11_2017_0067",
+  "doi": "10.1108/cw-11-2017-0067",
+  "title": "Design and analysis of cantilever based piezoelectric vibration energy harvester",
+  "source_apis": [
+    "both"
+  ],
+  "pdf_url": "",
+  "pdf_local_path": "data_registry/raw_stage04_paper_pdf_cleaned/10_1108_cw_11_2017_0067.pdf",
+  "processing": {
+    "tool": "MinerU",
+    "version": "python -m mineru.cli.client, version 2.7.6",
+    "timestamp": "2026-03-10T09:36:26.036709+00:00",
+    "duration_s": 104.57,
+    "success": true,
+    "error": ""
+  },
+  "outputs": {
+    "content_md": "/root/EH-LLM-vehbench-exp/parsed_docs/10_1108_cw_11_2017_0067_a2y9tgbv/content.md",
+    "layout_json": "/root/EH-LLM-vehbench-exp/parsed_docs/10_1108_cw_11_2017_0067_a2y9tgbv/layout.json",
+    "images_dir": "/root/EH-LLM-vehbench-exp/parsed_docs/10_1108_cw_11_2017_0067_a2y9tgbv/10_1108_cw_11_2017_0067/auto/images",
+    "normalized_json": "/root/EH-LLM-vehbench-exp/normalized_docs/10_1108_cw_11_2017_0067.json"
+  },
+  "data_lineage": {
+    "papers_jsonl_hash": "9c312233f7386c69935ac1ac0a6a127a",
+    "pipeline_step": "ingestion/mineru_runner.py"
+  }
+}

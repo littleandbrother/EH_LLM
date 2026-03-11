@@ -1,0 +1,146 @@
+{
+  "paper_id": "10_1080_00150193_2013_822773",
+  "doi": "10.1080/00150193.2013.822773",
+  "title": "Design of a New Piezoelectric Energy Harvester Based on Secondary Impact",
+  "year": 2013,
+  "venue": "Ferroelectrics",
+  "authors": [
+    "H. Jung",
+    "K. H. Baek",
+    "S. Hidaka",
+    "D. Song",
+    "Se Bin Kim",
+    "T. Sung",
+    "Hyun Jun Jung",
+    "Ki Hwan Baek",
+    "Sinichi Hidaka",
+    "Daniel Song",
+    "Tae Hyun Sung"
+  ],
+  "citation_count": 14,
+  "sections": [
+    {
+      "heading": "Preamble",
+      "level": 0,
+      "text": "This article was downloaded by: [University of Calgary]   \nOn: 03 October 2013, At: 09:47   \nPublisher: Taylor & Francis   \nInforma Ltd Registered in England and Wales Registered Number: 1072954 Registered   \noffice: Mortimer House, 37-41 Mortimer Street, London W1T 3JH, UK"
+    },
+    {
+      "heading": "Ferroelectrics",
+      "level": 1,
+      "text": "Publication details, including instructions for authors and   \nsubscription information:   \nhttp://www.tandfonline.com/loi/gfer20"
+    },
+    {
+      "heading": "Design of a New Piezoelectric Energy Harvester Based on Secondary Impact",
+      "level": 1,
+      "text": "Hyun Jun Jun Hwan Baekinici HidakaDaniel Se Bin Kim a & Tae Hyun Sung a   \nniv 133-791Korea   \nPublished online: 20 Sep 2013.\n\nTo cite this article: Hyun Jun Jung Ki Hwan Baek  Sinichi Hidaka Daniel Song Se Bin Kim & Tae Hyun Sung (2013) Design of a New Piezoelectric Energy Harvester Based on Secondary Impact, Ferr0electrics, 449:1, 83-93, D0I: 10.1080/00150193.2013.822773\n\nTo link to this article: http://dx.doi.org/10.1080/00150193.2013.822773\n\nPLEASE SCROLL DOWN FOR ARTICLE\n\nTaylor & Francis makes every effort to ensure the accuracy of all the information (the \"Content\") contained in the publications on our platform. However, Taylor & Francis, our agents, and our licensors make no representations or warranties whatsoever as to the accuracy, completeness, or suitability for any purpose of the Content. Any opinions and views expressed in this publication are the opinions and views of the authors, and are not the views of or endorsed by Taylor & Francis. The accuracy of the Content should not be relied upon and should be independently verified with primary sources of information. Taylor and Francis shall not be liable for any losses, actions, claims, proceedings, demands, costs, expenses, damages, and other liabilities whatsoever or howsoever caused arising directly or indirectly in connection with, in relation to or arising out of the use of the Content.\n\nThis article may be used for research, teaching, and private study purposes. Any substantial or systematic reproduction, redistribution, reselling, loan, sub-licensing, systematic supply, or distribution in any form to anyone is expressly forbidden. Terms & Conditions of access and use can be found at http: //www.tandfonline.com/page/termsand-conditions"
+    },
+    {
+      "heading": "Design of a New Piezoelectric Energy Harvester Based on Secondary Impact",
+      "level": 1,
+      "text": "HYUN JUN JUNG, KI HWAN BAEK, SINICHI HIDAKA, DANIEL SONG, SE BIN KIM, AND TAE HYUN SUNG\\*\n\nDepartments of Electric Engineering, Hanyang University, Seoul 133-791, Korea\n\nTwo models for an energy harvester imparting rotational energy to piezoelectric materials are presented, in order to compare the effects of applying identical amounts of energy to a cantilever beam by changing the total displacement per unit time, and applying a secondary impact. For a piezoelectric energy harvester given a high total impulse per unit time with low total displacement per unit time, higher power outputs were generated at lower resistive loads. Conversely, for a harvester given high total displacement per unit time with low total impulse per unit time, power output was higher at high resistive loads. At matched impedance, the secondary-impact-type piezoelectric energy harvester generated higher power output than the hitting-type piezoelectric energy harvester did at low resistive load. Optimized response of secondary-impact-type piezoelectric energy harvester was obtained at a frequency of $6 0 H z$ with a low resistive load of 1 kΩ. The generated output power was measured as $I 2 4 m W ,$ which corresponds to power density of 140 mW/cm² for the entire cantilever beam, and a power density of 342 mW/cm² for only the piezoelectric material volume (including sliver paste volume). For a harvester without a secondary impulse at low resistive loads $( l \\ k \\Omega )$ , the optimizing frequency was between 20 and $3 0 \\ : H z$ , with an output power of $2 2 m W ,$ which corresponds to a 25 mW/cm² power density for entire cantilever beam and power density of 60 mW/cm3 for only the piezoelectric material volume(including sliver paste volume).\n\nKeywords energy harvesting; piezoelectric; secondary; impact"
+    },
+    {
+      "heading": "1. Introduction",
+      "level": 1,
+      "text": "Energy harvesting has been actively studied, using piezoelectric conversion from mechanical energy to electrical energy. [12]. Several studies in particular have assessed shock and impact type piezoelectric energy harvesters [36].\n\nThe objective of the study described here was to compare differences in the application of total displacement per unit time and total impulse per unit time to a cantilever beam in the condition where the external energy remains the same. In this paper, two optimized energy harvesting models imparting rotational energy to piezoelectric materials are presented. In the first model (the \"hitting type piezoelectric energy harvester\"), a cantilever beam made of a piezoelectric material is struck repeatedly using a motor-driven stick and then a cantilever beam was vibrating freely. The second model (the \"secondary impact type piezoelectric energy harvester\") involves applying a secondary, discrete impulse using a fixed stick to stop vibration in the beam at the point where it has returned to its initial position (i.e., at its position of maximum kinetic energy). By using a fixed stick, it is possible to deliver the discrete impulse to the cantilever beam while it was at stopped vibration.\n\n![](images/ee7a30fab0a4439d5d8c291c9e5f18d6a175a5635903b25ac56e22f9fbde6c71.jpg)  \nFigure 1. Experimental setup for comparative analysis of hitting type harvester and secondary impact type harvester (a) $1 \\mathrm { N } { \\cdot } \\mathrm { m }$ torque motor, (b) oscilloscope, (c) laser displacement sensor, (d) rpm sensor, (e) voltage controller, (f) hitting bar, (g) piezoelectric material (Color figure available online)."
+    },
+    {
+      "heading": "2. Experimental Procedure",
+      "level": 1,
+      "text": "A $1 \\mathrm { N m }$ torque DC-power motor with a maximum rotational speed of $1 1 0 0 \\mathrm { r p m } \\left( 1 8 . 3 3 \\mathrm { H z } \\right)$ was used to power the strikes on the cantilever beam. A Tektronix DPO-3014 Oscilloscope was used as a voltmeter, and an OMRON ZS Smart Sensor was used to measure displacement. The piezoelectric material in the cantilever beam was manufactured by Higlobe Corporation, Korea. All of measurements were taken over 10 second periods. The secondary impact type harvester was designed so that a discrete impulse would be applied to the cantilever beam when it returned to its starting position, rather than the cantilever beam was vibrating freely. Thus, the secondary impact type harvester was designed to apply a higher total impulse per unit time with lower total displacement per unit time than the hitting type harvester. To apply the discrete impact, a fixed stick was utilized as shown in Fig. 2. The power and displacement of vibrations within the piezoelectric material are measured both as the motor-driven strikes are delivered and then upon delivery of the secondary impact."
+    },
+    {
+      "heading": "A. Comparison of Free Vibration and Secondary Impact in the Open-Circuit",
+      "level": 1,
+      "text": "The Cantilever beam was set to an impact depth of $2 \\mathrm { m m }$ , and cantilever beam was struck by a motor-driven \"hitting stick\" with a frequency of $2 \\ \\mathrm { H z }$ (Fig. 2). The $2 \\ \\mathrm { H z }$ frequency was chosen to clearly measure the decay of free vibrational motion following a strike until vibration had stopped, making an analysis of the free vibrational cycle simpler. Power and displacement in the secondary impact type harvester were measured between the strikes and the discrete impulse caused by the fixed stick. The experiment was conducted in open-circuit conditions.\n\n![](images/221bfea54409108c8fdaa8dd40d54809cdde4665e9fc690bdbc5e4d101559d6d.jpg)  \nFigure 2. (a) Dimensions of the cantilever beam assembly. On top of the cantilever beam is the piezelectricmaterial; bottom of the cantileverbeamis made of stainless steel (sus-301), (b) schematic diagram of the secondary impact type harvester, and (c) schematic diagram of the hitting type harvester (Color figure available online)."
+    },
+    {
+      "heading": "B. Comparison of Free Vibration and Secondary Impact Using Impedance Matching",
+      "level": 1,
+      "text": "In order to investigate the effects of impedance in the two harvesters, matching of stepped levels of impedance $( 1 ~ \\mathrm { k } \\Omega , 2 ~ \\mathrm { k } \\Omega , 3 ~ \\mathrm { k } \\Omega , 4 ~ \\mathrm { k } \\Omega , 5 ~ \\mathrm { k } \\Omega , 1 0 ~ \\mathrm { k } \\Omega , 1 0 0 ~ \\mathrm { k } \\Omega .$ and $1 \\ \\mathbf { M } \\Omega$ was performed at $2 \\ : \\mathrm { H z }$ Owing to the need to use a large inductor, direct impedance matching is usually impractical [7]. As a result, only resistive load measurements were made. After finding an optimized impedance, the relationship between the harvester power output and displacement was investigated.\n\nTable 1 Material properties for cantilever beam   \n\n<table><tr><td>Piezoelectric material</td><td>Value</td></tr><tr><td>Piezoelectric Charge Constants (×10−12 M/V): d33, d31</td><td>450, −200</td></tr><tr><td></td><td>13.8, 11.8</td></tr><tr><td>Piezoelectric voltage constants (x10−3 Vm/N): g33, g31</td><td>22.1, −11.1</td></tr><tr><td>Density (g/cm3³)</td><td>7.6</td></tr><tr><td>Stainless steel (SUS-301) Young&#x27;s modulus (GPa)</td><td>200</td></tr><tr><td></td><td>8</td></tr><tr><td>Density (g/cm3)</td><td></td></tr></table>"
+    },
+    {
+      "heading": "C. Optimization",
+      "level": 1,
+      "text": "On the basis of the above results, it was found that for a striking cycle of $0 . 5 ~ \\mathrm { s }$ , the time duration of conversion of mechanical energy to electrical energy was $0 . 0 1 5 { - } 0 . 0 2 ~ \\mathrm { s }$ in the secondary impact type harvester, and $0 . 2 \\mathrm { - } 0 . 3 \\ \\mathrm { s }$ in the hitting type harvester. These results show electrical energy being generated over $3- 4 \\%$ of the striking cycle in the secondary impact type harvester and over $4 0 { - } 6 0 \\%$ of the striking cycle in the hitting type harvester. For each of these harvesters, it is expected that an optimizing output condition can be obtained when the striking cycle equals the duration of piezoelectric electricity generation. Additional experiments were conducted to measure the power output and displacement of both harvesters under striking frequencies from $2 \\ : \\mathrm { H z }$ to $7 0 \\ : \\mathrm { H z }$ and with resistive loads of $1 \\mathrm { k } \\Omega$ , $1 0 0 \\mathrm { k } \\Omega$ , and 1 MΩ. Resonance frequency matching was not taken into consideration in any of the experiments described here [8]."
+    },
+    {
+      "heading": "A. Comparison of Free Vibration and Secondary Impact in the Open-Circuit",
+      "level": 1,
+      "text": "Figure 3 shows the open-circuit experimental results at a striking frequency of $2 \\ : \\mathrm { H z }$ The maximum displacement experienced by the hitting type harvester and the secondary impact type harvester were $1 5 . 5 \\mathrm { m m }$ and $1 1 \\mathrm { m m }$ , respectively. As can be seen in Fig. 3(a), the total displacement per unit time of the hitting harvester was higher than that of the secondary impact type harvester (Fig. 3(b)). This difference was a result of the effects of the fixed stick on the secondary impact type harvester. The output voltage of the hitting type harvester was $3 6 . 8 5 ~ \\mathrm { V _ { R M S } }$ , as shown in Fig. 3(c), which was higher than the measured value of $3 2 . 5 2 ~ \\mathrm { V _ { R M S } }$ in the secondary impact type harvester (Fig. 3(d)). The output voltage was higher under open-circuit conditions, owing to the higher total displacement per unit time caused by continuous free vibrations. From [9], the relationship among the output voltage, beam parameters, and displacement can be given as:\n\n$$\n\\mathrm { V _ { o c } = \\frac { 3 } { 8 } \\left( \\frac { H } { L } \\right) ^ { 2 } h _ { 3 1 } \\delta _ { c } }\n$$\n\nwhere $\\delta _ { \\mathrm { c } }$ is the magnitude of the displacement $( \\mathrm { m } )$ , $_ \\mathrm { H }$ is the beam thickness (m), L is the beam length $\\mathrm { ( m ) }$ , and $\\mathrm { h } _ { 3 1 } \\mathrm { h } _ { 3 1 } \\mathrm { h } _ { 3 1 }$ is the piezoelectric constant. Measurement results confirm\n\n![](images/45f72d04723a28bea4e1330270e59a66dedbfeddbe777c46dd9eeb10140df82e.jpg)  \nFigure 3. Open-circuit measurements at $2 \\ \\mathrm { H z }$ striking frequency: (a) displacement in hitting type harvester, (b) displacement in secondary impact type harvester, (c) voltage of hitting type harvester, (d) voltage of secondary impact type harvester (Color figure available online).\n\nthe theoretical prediction that the voltage generated is proportional to the harvester's total displacement per unit time."
+    },
+    {
+      "heading": "B. Comparison of Free Vibration and Secondary Impact Using Impedance Matching",
+      "level": 1,
+      "text": "As can be seen in Fig. 4, the secondary impact type harvester generated higher power and current than did the hitting type harvester at resistive loads of $1 \\ \\mathrm { k } \\Omega , \\ 2 \\ \\mathrm { k } \\Omega , \\ 3 \\ \\mathrm { k } \\Omega$ $4 \\ \\mathrm { k } \\Omega$ ,or $5 \\ \\mathrm { k } \\Omega$ However, at $1 0 \\ \\mathrm { k } \\Omega$ and above, these were reversed, and the hitting type harvester generated higher power and current. The maximum power output of the secondary impact type harvester was $4 . 7 5 \\mathrm { m W } ,$ occurring at $3 \\mathrm { k } \\Omega$ ; this was higher than the maximum power of $4 . 0 9 \\mathrm { m W }$ generated by the hitting type harvester at $1 0 \\mathbf { k } \\Omega$ Fig. 5 shows the output power generated by the two harvesters at a frequency of $2 \\ : \\mathrm { H z }$ and a resistive load of $3 \\mathrm { k } \\Omega$ . From Figs. 5(b), (d), and (f), it can be seen that secondary impact type harvester generated most of the power output within 0.02 s of the striking time (0.110.13 s), during which the displacement on the cantilever beam went from a maximum value of $1 1 ~ \\mathrm { m m }$ to $0 \\mathrm { m m }$ . For the hitting type harvester, Figs. 5(a), (c), and (e) show that most power generation occurred between $0 . 2 \\mathrm { - } 0 . 3 \\ \\mathrm { s }$ (with output peaks from $0 . 0 0 { - } 0 . 0 5 ~ \\mathrm { s }$ and from 0.10.2 s). For a secondary impact type harvester given a high total impulse per unit time with low total displacement per unit time, power output was higher than with the hitting type harvester at lower resistive loads. Conversely, for the hitting type harvester with high total displacement per unit time at a low total impulse per unit time, power output was higher than secondary impact type harvester at high resistive loads. At matched impedance, the secondary impact type harvester generated a higher power output than the hitting type harvester did at low resistive load.\n\n![](images/260e659a3f25890586f13f8baf77d38804d4088ce9286be3dd1281f99cdee357.jpg)  \nFigure 4. Power graph over varying resistive loads at a frequency of $2 \\ \\mathrm { H z }$ (Color figure available online)."
+    },
+    {
+      "heading": "C. Optimization",
+      "level": 1,
+      "text": "Figure 6 shows the power outputs of both the secondary impact type harvester and the hitting type harvester, measured from $2 \\mathrm { H z }$ to $7 0 \\mathrm { H z }$ at resistive loads of $1 \\mathrm { k } \\Omega$ , $1 0 0 \\mathrm { k } \\Omega$ , and $1 \\ \\mathbf { M } \\Omega$ Fig. 6(a) shows the power output of the secondary impact type harvester linearly increasing as the striking frequency increases. In this case, an optimizing frequency was $6 0 \\ \\mathrm { H z }$ and output power was $1 2 4 { \\mathrm { ~ m W } } ,$ which was in line with a predicted optimal range of $5 0 – 6 6 ~ \\mathrm { H z }$ Figs. 7(a) and 7(b) show peak output power was $3 . 2 ~ \\mathrm { W }$ at $6 0 ~ \\mathrm { H z }$ with a $1 \\ \\mathrm { k } \\Omega$ resistive load. For the hitting type harvester, optimizing frequencies between 20 and $3 0 ~ \\mathrm { H z }$ (close to the expected range of $1 5 \\mathrm { - } 2 0 ~ \\mathrm { H z } ,$ generated $2 2 { \\mathrm { ~ m W } } .$ Fig. 6(b) shows a linear rise with frequency up to $6 0 \\ \\mathrm { H z }$ for the secondary impact type harvester's output power. The optimizing frequency of $6 0 \\mathrm { H z }$ generated $1 2 \\mathrm { m W }$ of power, again in line with the expected results range $( 5 0 { - } 6 6 ~ \\mathrm { H z } )$ . The hitting type harvester's optimizing frequency of $4 0 \\ : \\mathrm { H z }$ generated $1 0 \\mathrm { m W }$ and optimizing frequencies differed from the expected values. Fig. 6(c) shows the secondary impact type harvester delivering a linear power output rise up to $6 0 \\mathrm { H z }$ at $1 \\ : \\mathbf { M } \\Omega$ . This optimizing frequency generated $1 . 3 \\mathrm { m W }$ of power, which was once again within the expected range of $5 0 { \\mathrm { - } } 6 6 ~ \\mathrm { H z }$ At the hitting type harvester's optimizing frequency of $1 0 \\ \\mathrm { H z }$ , $0 . 7 8 ~ \\mathrm { m W }$ of power was generated. As can be seen from the results shown here, the hitting type harvester's optimizing frequencies differed from the expected values. Although the secondary impact type harvester results showed that resistive load level had no effect on the optimizing frequency, optimizing power was affected by the resistive load. The optimizing frequency represents a resonance at which the time interval over which the cantilever beam delivers electrical energy matches the interval over which it moves from maximum displacement ( $\\mathrm { 1 1 m m ) }$ to zero displacement $\\mathrm { 0 } \\mathrm { m m } )$ . The dynamic equations of beam motion between maximum and zero displacement (strain) are given as\n\n![](images/4da96493bcfd783a6e4a61ce361118eb58693954065ae3e8e5c60d25e201a158.jpg)  \nFigure 5. Relationship between displacement and power: (a) displacement of hitting type harvester, (b) displacement of secondary impact type harvester, (c) power output of hitting type harvester, (d) power output of secondary impact type harvester, (e) power output of hitting type harvester for $0 . 4 \\ : \\mathrm { s }$ after striking, (f) power output of secondary impact type harvester for 0.05 s after striking (Color figure available online).\n\nfollows:\n\n$$\n\\begin{array} { l } { \\displaystyle \\delta _ { \\mathrm { m a x } } = \\frac { \\mathrm { P a } ^ { 2 } } { \\mathsf { d } \\mathsf { E } \\mathsf { I } _ { 1 } } \\left( \\mathsf { 3 L } - \\mathrm { a } \\right) } \\\\ { \\displaystyle \\mathsf { k } = \\frac { 6 \\mathsf { E } \\mathsf { I } _ { 1 } } { \\left( \\mathsf { 3 L } - \\mathrm { a } \\right) \\mathrm { a } ^ { 2 } } } \\\\ { \\displaystyle \\mathsf { I } _ { 2 } \\frac { \\mathrm { d } ^ { 2 } \\theta } { \\mathrm { d } \\mathrm { t } ^ { 2 } } + \\mathrm { c } \\frac { \\mathrm { d } \\theta } { \\mathrm { d } \\mathrm { t } } + \\mathrm { k } \\theta = 0 } \\\\ { \\displaystyle \\mathrm { d } \\mathrm { x } = \\mathrm { L d } \\theta } \\end{array}\n$$\n\n![](images/1ae87723357aadc574687ccd31f89cf5d87b8a22ad3eb8c7292851838836eee2.jpg)  \nFigure 6. Relationship between power and frequency: (a) power outputs by frequency at a $1 \\ \\mathrm { k } \\Omega$ resistive load, (b) by frequency at a $1 0 0 \\mathrm { k } \\Omega$ resistive load, and (c) by frequency at a $1 \\ \\mathbf { M } \\Omega$ resistive load (Color figure available online).\n\n![](images/9b171ba4e7dc42d170e4e03604bccb71f89779443d545676fb758c371c73e6b0.jpg)  \nFigure 7. secondary impact type harvester: (a) power outputs at $6 0 \\ \\mathrm { H z }$ striking frequency with a 1 $\\mathbf { k } \\Omega$ resistive load, (b) voltage outputs at $6 0 \\mathrm { H z }$ and $1 \\mathrm { k } \\Omega$ resistive load.\n\n$$\n\\begin{array} { l } { \\displaystyle \\frac { \\mathrm { I } _ { 2 } } { \\mathrm { L } } \\frac { \\mathrm { d } ^ { 2 } \\mathrm { x } } { \\mathrm { d t } ^ { 2 } } + \\frac { \\mathrm { c } } { \\mathrm { L } } \\frac { \\mathrm { d x } } { \\mathrm { d t } } + \\frac { \\mathrm { k } } { \\mathrm { L } } \\mathrm { x } = 0 } \\\\ { \\displaystyle \\delta _ { \\mathrm { m a x } } = \\mathrm { x } \\left( 0 \\right) = 0 . 0 1 1 , \\frac { \\mathrm { d x } \\left( 0 \\right) } { \\mathrm { d t } } = 0 } \\end{array}\n$$\n\nwhere x is the displacement (m), $\\mathbf { k }$ is the stiffness coefficient $\\left( \\mathrm { N } { \\cdot } \\mathrm { m } \\right)$ , $\\mathrm { \\bf P }$ is the force $( \\mathrm { N } )$ , $\\mathrm { L }$ is the cantilever beam length (m), $\\mathrm { I } _ { 1 }$ is the first moment of inertia $\\left( \\mathbf { k g } { \\cdot } \\mathbf { m } _ { 2 } \\right)$ , $\\mathrm { I } _ { 2 }$ is the second (elastic) moment of inertia $\\left( \\mathbf { k g } { \\cdot } \\mathbf { m } _ { 2 } \\right)$ , c is the attenuation constant, $\\mathrm { T }$ is the torque $\\left( \\mathrm { N } { \\cdot } \\mathrm { m } \\right)$ , and a is defined as the distance between the hitting point and the fixed end of the cantilever beam in m [1012]. We calculated the time interval over which it moves from maximum displacement $\\left( 1 1 \\mathrm { m m } \\right)$ to zero displacement( $\\mathrm { ~ \\textit ~ { ~ O ~ m m } ~ }$ using the MATLAB tool Fig. 8 shows the interval time where cantilever recovers from maximum displacement $\\left( 1 1 \\ \\mathrm { m m } \\right)$ to zero displacement $\\mathrm { ( 0 ~ m m ) }$ was approximately 0.0145 s and frequency was $6 9 \\mathrm { H z }$ This value is closed to experimental result $( 6 0 \\mathrm { H z } )$ . Therefore in order to obtain the optimized frequency, this suggested calculation method can be applied to various cantilever beam types of secondary impact type harvesters.\n\n![](images/eaaea1564ba5a261dcc3e3f229d9bc12cb40f40dbb938f0bedc1414e58003866.jpg)  \nFigure 8. Relationship between recovery displacement and time (Color figure available online)."
+    },
+    {
+      "heading": "4. Conclusion",
+      "level": 1,
+      "text": "In the experiments described here, changes in the power output characteristics of a piezoelectric beam based on response to mechanical impulses and total displacement per unit time were investigated; the results showed that a secondary impact type harvester with higher total impulse per unit time and lower total displacement per unit time generated higher power outputs than a hitting type harvester at low resistive loads. On the other hand, a hitting type harvester with higher total displacement per unit time and lower total impulse per unit time generated higher power outputs than did a secondary impact type harvester at high resistive loads. However, under matched impedance conditions, the secondary impact type harvester generated higher power than the hitting type harvester. The results of the optimizing experiment show that the electrical power generated by the secondary impact type harvester increased linearly until the striking cycle equaled the duration of piezoelectric electricity generation. In the secondary impact type harvester, the fixed stick helped the cantilever beam to maintain a steady free vibrational frequency. Thus, the reproducibility of the secondary impact type harvester results was high. At $6 0 \\mathrm { H z }$ and at the optimized frequency of the secondary impact type harvester at a low resistive load of $1 \\mathrm { k } \\Omega$ , the generated output power was measured $1 2 4 \\mathrm { m W } .$ ,which corresponds to power density of $1 4 0 \\mathrm { m W } / \\mathrm { c m } ^ { 3 }$ for entire cantilever beam and power density of $3 4 2 \\mathrm { m W } / \\mathrm { c m } ^ { 3 }$ for only piezoelectric material volume (including sliver paste volume).\n\nIn comparison to the linear response of the secondary impact type harvester, the hitting type harvester experienced interference; this occurred, in particular, when the striking frequency exceeded the generating frequency, which caused interference in the cantilever beam's vibrations from repeated hits. Because the vibration of the cantilever beam was irregular, reproducibility was decreased. At low resistive loads $( 1 ~ \\mathrm { k } \\Omega )$ , the optimizing frequency of the hitting type harvester was between 20 and $3 0 ~ \\mathrm { H z }$ , and the output power of $2 2 \\mathrm { m W }$ ,which corresponds to a $2 5 \\mathrm { \\ m W } / \\mathrm { c m } ^ { 3 }$ power density for entire cantilever beam and power density of $6 0 \\mathrm { m W } / \\mathrm { c m } ^ { 3 }$ for only piezoelectric material volume (including sliver paste volume).\n\nThe experiments described in this paper demonstrated that in a piezoelectric harvester given a high total impulse per unit time with low total displacement per unit time, higher power outputs were generated at lower resistive loads. Conversely, for a harvester with high total displacement per unit time at a low total impulse per unit time, the power output was higher at high resistive loads. Power generation from secondary impact, instead of free vibration, is an effective means of reducing power output time in converting mechanical energy to electrical energy; this method is also effective in generating high levels of power."
+    },
+    {
+      "heading": "References",
+      "level": 1,
+      "text": "1. R. Amnrosio, A. Kimenez, J. Mireles, M. Moreno, K. Monfil, and H. Heredia, Ferroelectrics.   \n126, 77 (2011).   \n2. I. Kim, H. Joo, S. Jeong, M. Kim, and J. Song, Ferroelectrics. 409, 100 (2010).   \n3. M. Umeda, K. Nakamura, and S. Ueha, Jpn. J. Appl. Phys. 35, 3267 (1996).   \n4. M. Umeda, K. Nakamura, and S. Ueha, Jpn. J. Appl. Phys. 36, 3146 (1997).   \n5. M. Renaud, P. Fiorini, and C. Hoof, Smart Materials and Structures. 16, 1125 (2007).   \n6. P. Gltnne-Jones and N. M. White, Sens. Rev. 21, 91 (2000).   \n7. N. Kong, D. S. Ha, A. Erturk, and D. Inman, Journal of Intelligent Material Systems and Structures. 21, 1293 (2010).   \n8. Y. Tadesse, S. Zhang, and S. Priya, Journal of Intelligent Material Systems and Structures. 20, 625 (2009).   \n9. S. Priya, Appl. Phys. Lett. 87, 184101 (2005).   \n10. F. P. Beer and E. R. Johnston, Mechanics of Materials, 5th ed., McGraw-Hill, Korea, 547630 2010.   \n11. S. S. Rao, Mechanical Vibration, 4th ed., Pearson Education, 133244 2004.   \n12. R. C. Hibbeler, Engineering Mechanics: DYNAMICS, 11th ed., Pearson Education, 459496 2007."
+    }
+  ],
+  "tables": [
+    {
+      "page": -1,
+      "content": ""
+    }
+  ],
+  "figures": [
+    {
+      "page": -1,
+      "caption": "",
+      "path": "images/ee7a30fab0a4439d5d8c291c9e5f18d6a175a5635903b25ac56e22f9fbde6c71.jpg"
+    },
+    {
+      "page": -1,
+      "caption": "",
+      "path": "images/221bfea54409108c8fdaa8dd40d54809cdde4665e9fc690bdbc5e4d101559d6d.jpg"
+    },
+    {
+      "page": -1,
+      "caption": "",
+      "path": "images/45f72d04723a28bea4e1330270e59a66dedbfeddbe777c46dd9eeb10140df82e.jpg"
+    },
+    {
+      "page": -1,
+      "caption": "",
+      "path": "images/260e659a3f25890586f13f8baf77d38804d4088ce9286be3dd1281f99cdee357.jpg"
+    },
+    {
+      "page": -1,
+      "caption": "",
+      "path": "images/4da96493bcfd783a6e4a61ce361118eb58693954065ae3e8e5c60d25e201a158.jpg"
+    },
+    {
+      "page": -1,
+      "caption": "",
+      "path": "images/1ae87723357aadc574687ccd31f89cf5d87b8a22ad3eb8c7292851838836eee2.jpg"
+    },
+    {
+      "page": -1,
+      "caption": "",
+      "path": "images/9b171ba4e7dc42d170e4e03604bccb71f89779443d545676fb758c371c73e6b0.jpg"
+    },
+    {
+      "page": -1,
+      "caption": "",
+      "path": "images/eaaea1564ba5a261dcc3e3f229d9bc12cb40f40dbb938f0bedc1414e58003866.jpg"
+    }
+  ],
+  "metadata": {
+    "source": "both",
+    "pdf_url": "",
+    "parsed_at": "2026-03-10T09:21:52.498120+00:00"
+  }
+}

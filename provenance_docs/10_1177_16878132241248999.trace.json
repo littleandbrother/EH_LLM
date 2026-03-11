@@ -1,0 +1,28 @@
+{
+  "paper_id": "10_1177_16878132241248999",
+  "doi": "10.1177/16878132241248999",
+  "title": "Design and test of liquid sloshing piezoelectric energy harvester",
+  "source_apis": [
+    "both"
+  ],
+  "pdf_url": "https://doi.org/10.1177/16878132241248999",
+  "pdf_local_path": "data_registry/raw_stage04_paper_pdf_cleaned/10_1177_16878132241248999.pdf",
+  "processing": {
+    "tool": "MinerU",
+    "version": "python -m mineru.cli.client, version 2.7.6",
+    "timestamp": "2026-03-10T09:59:08.384549+00:00",
+    "duration_s": 74.25,
+    "success": true,
+    "error": ""
+  },
+  "outputs": {
+    "content_md": "/root/EH-LLM-vehbench-exp/parsed_docs/10_1177_16878132241248999_tbkjqqxb/content.md",
+    "layout_json": "/root/EH-LLM-vehbench-exp/parsed_docs/10_1177_16878132241248999_tbkjqqxb/layout.json",
+    "images_dir": "/root/EH-LLM-vehbench-exp/parsed_docs/10_1177_16878132241248999_tbkjqqxb/10_1177_16878132241248999/auto/images",
+    "normalized_json": "/root/EH-LLM-vehbench-exp/normalized_docs/10_1177_16878132241248999.json"
+  },
+  "data_lineage": {
+    "papers_jsonl_hash": "71ce258bcf89482aafb1811aac4dee48",
+    "pipeline_step": "ingestion/mineru_runner.py"
+  }
+}

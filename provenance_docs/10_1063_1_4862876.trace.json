@@ -1,0 +1,28 @@
+{
+  "paper_id": "10_1063_1_4862876",
+  "doi": "10.1063/1.4862876",
+  "title": "Energy harvesting from ambient low-frequency magnetic field using magneto-mechano-electric composite cantilever",
+  "source_apis": [
+    "both"
+  ],
+  "pdf_url": "",
+  "pdf_local_path": "data_registry/raw_stage04_paper_pdf_cleaned/10_1063_1_4862876.pdf",
+  "processing": {
+    "tool": "MinerU",
+    "version": "python -m mineru.cli.client, version 2.7.6",
+    "timestamp": "2026-03-10T09:43:59.841751+00:00",
+    "duration_s": 67.73,
+    "success": true,
+    "error": ""
+  },
+  "outputs": {
+    "content_md": "/root/EH-LLM-vehbench-exp/parsed_docs/10_1063_1_4862876_d1v_ay2h/content.md",
+    "layout_json": "/root/EH-LLM-vehbench-exp/parsed_docs/10_1063_1_4862876_d1v_ay2h/layout.json",
+    "images_dir": "/root/EH-LLM-vehbench-exp/parsed_docs/10_1063_1_4862876_d1v_ay2h/10_1063_1_4862876/auto/images",
+    "normalized_json": "/root/EH-LLM-vehbench-exp/normalized_docs/10_1063_1_4862876.json"
+  },
+  "data_lineage": {
+    "papers_jsonl_hash": "5fa04f716e922e9f8b132882ff72cd5a",
+    "pipeline_step": "ingestion/mineru_runner.py"
+  }
+}

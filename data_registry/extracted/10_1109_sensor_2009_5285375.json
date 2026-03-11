@@ -1,0 +1,147 @@
+{
+  "metadata": {
+    "paper_id": "10_1109_sensor_2009_5285375",
+    "doi": "10.1109/sensor.2009.5285375",
+    "title": "High performance piezoelectric MEMS energy harvester based on D33 mode of PZT thin film on buffer-layer with PBTIO3 inter-layer",
+    "year": 2009,
+    "journal": "TRANSDUCERS 2009 - 2009 International Solid-State Sensors, Actuators and Microsystems Conference"
+  },
+  "configuration": "cantilever",
+  "proof_mass": true,
+  "geometry": {
+    "length_mm": 1.0,
+    "width_mm": 0.8,
+    "thickness_mm": 0.01,
+    "substrate_thickness_um": 10.0,
+    "piezo_thickness_um": 1.0,
+    "tip_mass_g": null,
+    "diameter_mm": null
+  },
+  "excitation": {
+    "type": "vibration",
+    "frequency_Hz": 528.0,
+    "acceleration_g": 0.39,
+    "displacement_mm": null,
+    "motion_source": null
+  },
+  "load": {
+    "load_resistance_ohm": 2200000.0
+  },
+  "output": {
+    "resonant_frequency_Hz": 528.0,
+    "output_power_W": 1.1e-06,
+    "open_circuit_voltage_V": null,
+    "short_circuit_current_A": null,
+    "bandwidth_Hz": null
+  },
+  "evidence": {
+    "configuration": {
+      "quote": "silicon cantilever with proof mass",
+      "section": "ABSTRACT",
+      "source_type": "abstract"
+    },
+    "proof_mass": {
+      "quote": "silicon cantilever with proof mass",
+      "section": "ABSTRACT",
+      "source_type": "abstract"
+    },
+    "geometry": {
+      "length_mm": {
+        "quote": "800 x 1000 um^2 cantilever structure",
+        "section": "DESIGN AND FABRICATION",
+        "source_type": "section"
+      },
+      "width_mm": {
+        "quote": "800 x 1000 um^2 cantilever structure",
+        "section": "DESIGN AND FABRICATION",
+        "source_type": "section"
+      },
+      "thickness_mm": {
+        "quote": "10 um thickness",
+        "section": "DESIGN AND FABRICATION",
+        "source_type": "section"
+      },
+      "substrate_thickness_um": {
+        "quote": "SOI wafer with 10 um device layer",
+        "section": "DESIGN AND FABRICATION",
+        "source_type": "section"
+      },
+      "piezo_thickness_um": {
+        "quote": "1um of PZT thin film",
+        "section": "DESIGN AND FABRICATION",
+        "source_type": "section"
+      },
+      "tip_mass_g": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "diameter_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      }
+    },
+    "excitation": {
+      "type": {
+        "quote": "scavenge power from ambient vibration source",
+        "section": "ABSTRACT",
+        "source_type": "abstract"
+      },
+      "frequency_Hz": {
+        "quote": "resonant frequency of 528 Hz",
+        "section": "ABSTRACT",
+        "source_type": "abstract"
+      },
+      "acceleration_g": {
+        "quote": "vibration of 0.39 g acceleration",
+        "section": "ABSTRACT",
+        "source_type": "abstract"
+      },
+      "displacement_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "motion_source": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      }
+    },
+    "load": {
+      "load_resistance_ohm": {
+        "quote": "2.2MΩ of load",
+        "section": "ABSTRACT",
+        "source_type": "abstract"
+      }
+    },
+    "output": {
+      "resonant_frequency_Hz": {
+        "quote": "resonant frequency of 528 Hz",
+        "section": "ABSTRACT",
+        "source_type": "abstract"
+      },
+      "output_power_W": {
+        "quote": "generated 1.1 uW of electrical power",
+        "section": "ABSTRACT",
+        "source_type": "abstract"
+      },
+      "open_circuit_voltage_V": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "short_circuit_current_A": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "bandwidth_Hz": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      }
+    }
+  }
+}

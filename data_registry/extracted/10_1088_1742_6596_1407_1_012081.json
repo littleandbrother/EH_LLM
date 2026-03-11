@@ -1,0 +1,147 @@
+{
+  "metadata": {
+    "paper_id": "10_1088_1742_6596_1407_1_012081",
+    "doi": "10.1088/1742-6596/1407/1/012081",
+    "title": "MEMS Energy Harvesting Based on Uniform-Stress Cantilever with Multilayer PZT Thin Films",
+    "year": 2019,
+    "journal": "Journal of Physics Conference Series"
+  },
+  "configuration": "cantilever",
+  "proof_mass": true,
+  "geometry": {
+    "length_mm": 10,
+    "width_mm": 10,
+    "thickness_mm": null,
+    "substrate_thickness_um": 80,
+    "piezo_thickness_um": 10,
+    "tip_mass_g": null,
+    "diameter_mm": null
+  },
+  "excitation": {
+    "type": "vibration",
+    "frequency_Hz": null,
+    "acceleration_g": 1.2,
+    "displacement_mm": null,
+    "motion_source": null
+  },
+  "load": {
+    "load_resistance_ohm": 13000
+  },
+  "output": {
+    "resonant_frequency_Hz": null,
+    "output_power_W": 0.000115,
+    "open_circuit_voltage_V": null,
+    "short_circuit_current_A": null,
+    "bandwidth_Hz": null
+  },
+  "evidence": {
+    "configuration": {
+      "quote": "unimorph cantilever structure",
+      "section": "MEMS Energy Harvesting Based on Uniform-Stress Cantilever with Multilayer PZT Thin Films",
+      "source_type": "abstract"
+    },
+    "proof_mass": {
+      "quote": "MEMS-PEHs described in this study have cantilever structures with a proof mass.",
+      "section": "2. Basic design of MEMS-PEH",
+      "source_type": "section"
+    },
+    "geometry": {
+      "length_mm": {
+        "quote": "device size is designed to be 10 mm square",
+        "section": "1. Introduction",
+        "source_type": "section"
+      },
+      "width_mm": {
+        "quote": "device size is designed to be 10 mm square",
+        "section": "1. Introduction",
+        "source_type": "section"
+      },
+      "thickness_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "substrate_thickness_um": {
+        "quote": "80 um-thick Si elastic layer",
+        "section": "MEMS Energy Harvesting Based on Uniform-Stress Cantilever with Multilayer PZT Thin Films",
+        "source_type": "abstract"
+      },
+      "piezo_thickness_um": {
+        "quote": "10 um-thick multilayered PZT",
+        "section": "MEMS Energy Harvesting Based on Uniform-Stress Cantilever with Multilayer PZT Thin Films",
+        "source_type": "abstract"
+      },
+      "tip_mass_g": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "diameter_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      }
+    },
+    "excitation": {
+      "type": {
+        "quote": "sinusoidal acceleration",
+        "section": "3.2. Evaluation",
+        "source_type": "section"
+      },
+      "frequency_Hz": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "acceleration_g": {
+        "quote": "input acceleration of approximately 1.2 G",
+        "section": "MEMS Energy Harvesting Based on Uniform-Stress Cantilever with Multilayer PZT Thin Films",
+        "source_type": "abstract"
+      },
+      "displacement_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "motion_source": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      }
+    },
+    "load": {
+      "load_resistance_ohm": {
+        "quote": "optimum load of 13 kOhm",
+        "section": "3.2. Evaluation",
+        "source_type": "section"
+      }
+    },
+    "output": {
+      "resonant_frequency_Hz": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "output_power_W": {
+        "quote": "output power... of the uniform-stress PEH were 115 uW",
+        "section": "3.2. Evaluation",
+        "source_type": "section"
+      },
+      "open_circuit_voltage_V": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "short_circuit_current_A": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "bandwidth_Hz": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      }
+    }
+  }
+}

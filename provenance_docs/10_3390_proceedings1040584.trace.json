@@ -1,0 +1,28 @@
+{
+  "paper_id": "10_3390_proceedings1040584",
+  "doi": "10.3390/proceedings1040584",
+  "title": "Bulk PZT Cantilever Based MEMS Acoustic Transducer for Cochlear Implant Applications",
+  "source_apis": [
+    "openalex"
+  ],
+  "pdf_url": "https://www.mdpi.com/2504-3900/1/4/584/pdf?version=1504663980",
+  "pdf_local_path": "data_registry/raw_stage04_paper_pdf_cleaned/10_3390_proceedings1040584.pdf",
+  "processing": {
+    "tool": "MinerU",
+    "version": "python -m mineru.cli.client, version 2.7.6",
+    "timestamp": "2026-03-10T09:51:24.607156+00:00",
+    "duration_s": 59.94,
+    "success": true,
+    "error": ""
+  },
+  "outputs": {
+    "content_md": "/root/EH-LLM-vehbench-exp/parsed_docs/10_3390_proceedings1040584_xk86sthc/content.md",
+    "layout_json": "/root/EH-LLM-vehbench-exp/parsed_docs/10_3390_proceedings1040584_xk86sthc/layout.json",
+    "images_dir": "/root/EH-LLM-vehbench-exp/parsed_docs/10_3390_proceedings1040584_xk86sthc/10_3390_proceedings1040584/auto/images",
+    "normalized_json": "/root/EH-LLM-vehbench-exp/normalized_docs/10_3390_proceedings1040584.json"
+  },
+  "data_lineage": {
+    "papers_jsonl_hash": "1cdb0fb617f2c35364d1f0ac56e18082",
+    "pipeline_step": "ingestion/mineru_runner.py"
+  }
+}

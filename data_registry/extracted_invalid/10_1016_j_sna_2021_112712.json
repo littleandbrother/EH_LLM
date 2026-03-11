@@ -1,0 +1,250 @@
+{
+  "status": "invalid",
+  "doc_path": "/Users/depengsu/Desktop/paper_story_agnet/EH-LLM-vehbench-exp/normalized_docs/10_1016_j_sna_2021_112712.json",
+  "doc_metadata": {
+    "paper_id": "10_1016_j_sna_2021_112712",
+    "doi": "10.1016/j.sna.2021.112712",
+    "title": "A new concept of frequency-excitation-up conversion to improve the yield of linear piezoelectric generators",
+    "year": 2021,
+    "journal": "Sensors and Actuators A: Physical"
+  },
+  "errors": [
+    "output has no populated metric"
+  ],
+  "warnings": [],
+  "record": {
+    "metadata": {
+      "paper_id": "10_1016_j_sna_2021_112712",
+      "doi": "10.1016/j.sna.2021.112712",
+      "title": "A new concept of frequency-excitation-up conversion to improve the yield of linear piezoelectric generators",
+      "year": 2021,
+      "journal": "Sensors and Actuators A: Physical"
+    },
+    "configuration": "cantilever",
+    "proof_mass": false,
+    "geometry": {
+      "length_mm": 50,
+      "width_mm": 16,
+      "thickness_mm": 0.3,
+      "substrate_thickness_um": null,
+      "piezo_thickness_um": 250,
+      "tip_mass_g": null,
+      "diameter_mm": null
+    },
+    "excitation": {
+      "type": "vibration",
+      "frequency_Hz": 4,
+      "acceleration_g": 0.322,
+      "displacement_mm": 10,
+      "motion_source": null
+    },
+    "load": {
+      "load_resistance_ohm": 15000
+    },
+    "output": {
+      "resonant_frequency_Hz": null,
+      "output_power_W": null,
+      "open_circuit_voltage_V": null,
+      "short_circuit_current_A": null,
+      "bandwidth_Hz": null
+    },
+    "evidence": {
+      "configuration": {
+        "quote": "a single piezoelectric cantilever beam is added to the friction system",
+        "section": "a b s t r a c t",
+        "source_type": "abstract"
+      },
+      "proof_mass": {
+        "quote": "the tip mass of the piezoelectric cantilever beam is removed",
+        "section": "2.2.1. Test setup and methodologies",
+        "source_type": "section"
+      },
+      "geometry": {
+        "length_mm": {
+          "quote": "cantilever beam (50 mm x 16 mm x 0.3 mm)",
+          "section": "2.1.1. Methodology",
+          "source_type": "section"
+        },
+        "width_mm": {
+          "quote": "cantilever beam (50 mm x 16 mm x 0.3 mm)",
+          "section": "2.1.1. Methodology",
+          "source_type": "section"
+        },
+        "thickness_mm": {
+          "quote": "cantilever beam (50 mm x 16 mm x 0.3 mm)",
+          "section": "2.1.1. Methodology",
+          "source_type": "section"
+        },
+        "substrate_thickness_um": {
+          "quote": null,
+          "section": null,
+          "source_type": null
+        },
+        "piezo_thickness_um": {
+          "quote": "piezoelectric layer 17 mm x 16 mm x 0.25 mm",
+          "section": "2.1.1. Methodology",
+          "source_type": "section"
+        },
+        "tip_mass_g": {
+          "quote": null,
+          "section": null,
+          "source_type": null
+        },
+        "diameter_mm": {
+          "quote": null,
+          "section": null,
+          "source_type": null
+        }
+      },
+      "excitation": {
+        "type": {
+          "quote": "vibrator starts to reciprocate in sine motion",
+          "section": "2.2.1. Test setup and methodologies",
+          "source_type": "section"
+        },
+        "frequency_Hz": {
+          "quote": "reciprocating frequencies are 2, 3, 4, and 5 Hz",
+          "section": "2.2.1. Test setup and methodologies",
+          "source_type": "section"
+        },
+        "acceleration_g": {
+          "quote": "corresponding equivalent excitation accelerations are 0.79, 1.78, 3.16, and 4.93 m/s^2",
+          "section": "2.2.1. Test setup and methodologies",
+          "source_type": "section"
+        },
+        "displacement_mm": {
+          "quote": "consistent stroke of 10 mm",
+          "section": "2.2.1. Test setup and methodologies",
+          "source_type": "section"
+        },
+        "motion_source": {
+          "quote": null,
+          "section": null,
+          "source_type": null
+        }
+      },
+      "load": {
+        "load_resistance_ohm": {
+          "quote": "optimal resistance here is sharply reduced to 15 kOhm",
+          "section": "2.2.2. Results and discussion",
+          "source_type": "section"
+        }
+      },
+      "output": {
+        "resonant_frequency_Hz": {
+          "quote": null,
+          "section": null,
+          "source_type": null
+        },
+        "output_power_W": {
+          "quote": null,
+          "section": null,
+          "source_type": null
+        },
+        "open_circuit_voltage_V": {
+          "quote": null,
+          "section": null,
+          "source_type": null
+        },
+        "short_circuit_current_A": {
+          "quote": null,
+          "section": null,
+          "source_type": null
+        },
+        "bandwidth_Hz": {
+          "quote": null,
+          "section": null,
+          "source_type": null
+        }
+      }
+    }
+  },
+  "llm_result": {
+    "ok": true,
+    "data": {
+      "configuration": "cantilever",
+      "proof_mass": false,
+      "geometry": {
+        "length_mm": 50,
+        "width_mm": 16,
+        "thickness_mm": 0.3,
+        "piezo_thickness_um": 250
+      },
+      "excitation": {
+        "type": "vibration",
+        "frequency_Hz": 4,
+        "acceleration_g": 0.322,
+        "displacement_mm": 10
+      },
+      "load": {
+        "load_resistance_ohm": 15000
+      },
+      "output": {},
+      "evidence": {
+        "configuration": {
+          "quote": "a single piezoelectric cantilever beam is added to the friction system",
+          "section": "a b s t r a c t",
+          "source_type": "abstract"
+        },
+        "proof_mass": {
+          "quote": "the tip mass of the piezoelectric cantilever beam is removed",
+          "section": "2.2.1. Test setup and methodologies",
+          "source_type": "section"
+        },
+        "geometry": {
+          "length_mm": {
+            "quote": "cantilever beam (50 mm x 16 mm x 0.3 mm)",
+            "section": "2.1.1. Methodology",
+            "source_type": "section"
+          },
+          "width_mm": {
+            "quote": "cantilever beam (50 mm x 16 mm x 0.3 mm)",
+            "section": "2.1.1. Methodology",
+            "source_type": "section"
+          },
+          "thickness_mm": {
+            "quote": "cantilever beam (50 mm x 16 mm x 0.3 mm)",
+            "section": "2.1.1. Methodology",
+            "source_type": "section"
+          },
+          "piezo_thickness_um": {
+            "quote": "piezoelectric layer 17 mm x 16 mm x 0.25 mm",
+            "section": "2.1.1. Methodology",
+            "source_type": "section"
+          }
+        },
+        "excitation": {
+          "type": {
+            "quote": "vibrator starts to reciprocate in sine motion",
+            "section": "2.2.1. Test setup and methodologies",
+            "source_type": "section"
+          },
+          "frequency_Hz": {
+            "quote": "reciprocating frequencies are 2, 3, 4, and 5 Hz",
+            "section": "2.2.1. Test setup and methodologies",
+            "source_type": "section"
+          },
+          "acceleration_g": {
+            "quote": "corresponding equivalent excitation accelerations are 0.79, 1.78, 3.16, and 4.93 m/s^2",
+            "section": "2.2.1. Test setup and methodologies",
+            "source_type": "section"
+          },
+          "displacement_mm": {
+            "quote": "consistent stroke of 10 mm",
+            "section": "2.2.1. Test setup and methodologies",
+            "source_type": "section"
+          }
+        },
+        "load": {
+          "load_resistance_ohm": {
+            "quote": "optimal resistance here is sharply reduced to 15 kOhm",
+            "section": "2.2.2. Results and discussion",
+            "source_type": "section"
+          }
+        },
+        "output": {}
+      }
+    },
+    "raw_output": "{\n  \"configuration\": \"cantilever\",\n  \"proof_mass\": false,\n  \"geometry\": {\n    \"length_mm\": 50,\n    \"width_mm\": 16,\n    \"thickness_mm\": 0.3,\n    \"piezo_thickness_um\": 250\n  },\n  \"excitation\": {\n    \"type\": \"vibration\",\n    \"frequency_Hz\": 4,\n    \"acceleration_g\": 0.322,\n    \"displacement_mm\": 10\n  },\n  \"load\": {\n    \"load_resistance_ohm\": 15000\n  },\n  \"output\": {},\n  \"evidence\": {\n    \"configuration\": {\n      \"quote\": \"a single piezoelectric cantilever beam is added to the friction system\",\n      \"section\": \"a b s t r a c t\",\n      \"source_type\": \"abstract\"\n    },\n    \"proof_mass\": {\n      \"quote\": \"the tip mass of the piezoelectric cantilever beam is removed\",\n      \"section\": \"2.2.1. Test setup and methodologies\",\n      \"source_type\": \"section\"\n    },\n    \"geometry\": {\n      \"length_mm\": {\n        \"quote\": \"cantilever beam (50 mm x 16 mm x 0.3 mm)\",\n      \"section\": \"2.1.1. Methodology\",\n        \"source_type\": \"section\"\n      },\n      \"width_mm\": {\n        \"quote\": \"cantilever beam (50 mm x 16 mm x 0.3 mm)\",\n        \"section\": \"2.1.1. Methodology\",\n        \"source_type\": \"section\"\n      },\n      \"thickness_mm\": {\n        \"quote\": \"cantilever beam (50 mm x 16 mm x 0.3 mm)\",\n        \"section\": \"2.1.1. Methodology\",\n        \"source_type\": \"section\"\n      },\n      \"piezo_thickness_um\": {\n        \"quote\": \"piezoelectric layer 17 mm x 16 mm x 0.25 mm\",\n        \"section\": \"2.1.1. Methodology\",\n        \"source_type\": \"section\"\n      }\n    },\n    \"excitation\": {\n      \"type\": {\n        \"quote\": \"vibrator starts to reciprocate in sine motion\",\n        \"section\": \"2.2.1. Test setup and methodologies\",\n        \"source_type\": \"section\"\n      },\n      \"frequency_Hz\": {\n        \"quote\": \"reciprocating frequencies are 2, 3, 4, and 5 Hz\",\n        \"section\": \"2.2.1. Test setup and methodologies\",\n        \"source_type\": \"section\"\n      },\n      \"acceleration_g\": {\n        \"quote\": \"corresponding equivalent excitation accelerations are 0.79, 1.78, 3.16, and 4.93 m/s^2\",\n        \"section\": \"2.2.1. Test setup and methodologies\",\n        \"source_type\": \"section\"\n      },\n      \"displacement_mm\": {\n        \"quote\": \"consistent stroke of 10 mm\",\n        \"section\": \"2.2.1. Test setup and methodologies\",\n        \"source_type\": \"section\"\n      }\n    },\n    \"load\": {\n      \"load_resistance_ohm\": {\n        \"quote\": \"optimal resistance here is sharply reduced to 15 kOhm\",\n        \"section\": \"2.2.2. Results and discussion\",\n        \"source_type\": \"section\"\n      }\n    },\n    \"output\": {}\n  }\n}"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "paper_id": "10_1109_uksim_2013_153",
+  "doi": "10.1109/uksim.2013.153",
+  "title": "Vibration-based MEMS Piezoelectric Energy Harvester for Power Optimization",
+  "source_apis": [
+    "both"
+  ],
+  "pdf_url": "",
+  "pdf_local_path": "data_registry/raw_stage04_paper_pdf_cleaned/10_1109_uksim_2013_153.pdf",
+  "processing": {
+    "tool": "MinerU",
+    "version": "python -m mineru.cli.client, version 2.7.6",
+    "timestamp": "2026-03-10T10:26:19.193175+00:00",
+    "duration_s": 91.7,
+    "success": true,
+    "error": ""
+  },
+  "outputs": {
+    "content_md": "/root/EH-LLM-vehbench-exp/parsed_docs/10_1109_uksim_2013_153_0fog_651/content.md",
+    "layout_json": "/root/EH-LLM-vehbench-exp/parsed_docs/10_1109_uksim_2013_153_0fog_651/layout.json",
+    "images_dir": "/root/EH-LLM-vehbench-exp/parsed_docs/10_1109_uksim_2013_153_0fog_651/10_1109_uksim_2013_153/auto/images",
+    "normalized_json": "/root/EH-LLM-vehbench-exp/normalized_docs/10_1109_uksim_2013_153.json"
+  },
+  "data_lineage": {
+    "papers_jsonl_hash": "6098a364be2ca638684d3a1700810f04",
+    "pipeline_step": "ingestion/mineru_runner.py"
+  }
+}

@@ -1,0 +1,147 @@
+{
+  "metadata": {
+    "paper_id": "10_1007_s10483_019_2542_5",
+    "doi": "10.1007/s10483-019-2542-5",
+    "title": "Low-frequency and broadband vibration energy harvester driven by mechanical impact based on layer-separated piezoelectric beam",
+    "year": 2019,
+    "journal": "Applied Mathematics and Mechanics"
+  },
+  "configuration": "cantilever",
+  "proof_mass": true,
+  "geometry": {
+    "length_mm": 25,
+    "width_mm": 10,
+    "thickness_mm": null,
+    "substrate_thickness_um": 100,
+    "piezo_thickness_um": 300,
+    "tip_mass_g": 1.5,
+    "diameter_mm": null
+  },
+  "excitation": {
+    "type": "vibration",
+    "frequency_Hz": 36,
+    "acceleration_g": 0.2,
+    "displacement_mm": null,
+    "motion_source": null
+  },
+  "load": {
+    "load_resistance_ohm": 2500000
+  },
+  "output": {
+    "resonant_frequency_Hz": 36,
+    "output_power_W": 4.45e-07,
+    "open_circuit_voltage_V": null,
+    "short_circuit_current_A": null,
+    "bandwidth_Hz": null
+  },
+  "evidence": {
+    "configuration": {
+      "quote": "piezoelectric laminated cantilever beam",
+      "section": "2.1 Mechanical configuration and working principle",
+      "source_type": "section"
+    },
+    "proof_mass": {
+      "quote": "tip mass at the free end",
+      "section": "2.1 Mechanical configuration and working principle",
+      "source_type": "section"
+    },
+    "geometry": {
+      "length_mm": {
+        "quote": "Length L 25 mm",
+        "section": "3.2 Analytical results",
+        "source_type": "table"
+      },
+      "width_mm": {
+        "quote": "Width b 10 mm",
+        "section": "3.2 Analytical results",
+        "source_type": "table"
+      },
+      "thickness_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "substrate_thickness_um": {
+        "quote": "Thickness hs 0.1 mm",
+        "section": "3.2 Analytical results",
+        "source_type": "table"
+      },
+      "piezo_thickness_um": {
+        "quote": "Thickness hp 0.3 mm",
+        "section": "3.2 Analytical results",
+        "source_type": "table"
+      },
+      "tip_mass_g": {
+        "quote": "Tip mass m 0.0015 kg",
+        "section": "3.2 Analytical results",
+        "source_type": "table"
+      },
+      "diameter_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      }
+    },
+    "excitation": {
+      "type": {
+        "quote": "vibration energy harvester",
+        "section": "Abstract",
+        "source_type": "abstract"
+      },
+      "frequency_Hz": {
+        "quote": "at 36 Hz",
+        "section": "4.2 Experimental results",
+        "source_type": "section"
+      },
+      "acceleration_g": {
+        "quote": "excitation acceleration is 0.2 g",
+        "section": "Abstract",
+        "source_type": "abstract"
+      },
+      "displacement_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "motion_source": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      }
+    },
+    "load": {
+      "load_resistance_ohm": {
+        "quote": "load resistance is 2.5 M Ohm",
+        "section": "4.2 Experimental results",
+        "source_type": "section"
+      }
+    },
+    "output": {
+      "resonant_frequency_Hz": {
+        "quote": "at 36 Hz",
+        "section": "4.2 Experimental results",
+        "source_type": "section"
+      },
+      "output_power_W": {
+        "quote": "maximum output power 0.445 uW",
+        "section": "4.2 Experimental results",
+        "source_type": "section"
+      },
+      "open_circuit_voltage_V": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "short_circuit_current_A": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "bandwidth_Hz": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      }
+    }
+  }
+}

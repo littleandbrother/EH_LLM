@@ -1,0 +1,28 @@
+{
+  "paper_id": "10_1063_1_3296156",
+  "doi": "10.1063/1.3296156",
+  "title": "Energy harvesting using a modified rectangular cymbal transducer based on 0.71Pb(Mg1/3Nb2/3)O3–0.29PbTiO3 single crystal",
+  "source_apis": [
+    "openalex"
+  ],
+  "pdf_url": "https://aip.scitation.org/doi/pdf/10.1063/1.3296156",
+  "pdf_local_path": "data_registry/raw_stage04_paper_pdf_cleaned/10_1063_1_3296156.pdf",
+  "processing": {
+    "tool": "MinerU",
+    "version": "python -m mineru.cli.client, version 2.7.6",
+    "timestamp": "2026-03-10T09:44:58.142620+00:00",
+    "duration_s": 71.34,
+    "success": true,
+    "error": ""
+  },
+  "outputs": {
+    "content_md": "/root/EH-LLM-vehbench-exp/parsed_docs/10_1063_1_3296156_5jmujgz8/content.md",
+    "layout_json": "/root/EH-LLM-vehbench-exp/parsed_docs/10_1063_1_3296156_5jmujgz8/layout.json",
+    "images_dir": "/root/EH-LLM-vehbench-exp/parsed_docs/10_1063_1_3296156_5jmujgz8/10_1063_1_3296156/auto/images",
+    "normalized_json": "/root/EH-LLM-vehbench-exp/normalized_docs/10_1063_1_3296156.json"
+  },
+  "data_lineage": {
+    "papers_jsonl_hash": "bfee4c061fa58388894d077aa89266f1",
+    "pipeline_step": "ingestion/mineru_runner.py"
+  }
+}

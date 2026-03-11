@@ -1,0 +1,147 @@
+{
+  "metadata": {
+    "paper_id": "10_3390_s21217042",
+    "doi": "10.3390/s21217042",
+    "title": "Experimental Characterization of Optimized Piezoelectric Energy Harvesters for Wearable Sensor Networks",
+    "year": 2021,
+    "journal": "Sensors"
+  },
+  "configuration": "cantilever",
+  "proof_mass": false,
+  "geometry": {
+    "length_mm": 23,
+    "width_mm": 15,
+    "thickness_mm": 0.7,
+    "substrate_thickness_um": 150,
+    "piezo_thickness_um": 254,
+    "tip_mass_g": null,
+    "diameter_mm": null
+  },
+  "excitation": {
+    "type": "impact",
+    "frequency_Hz": 793.7,
+    "acceleration_g": null,
+    "displacement_mm": 0.38,
+    "motion_source": "rotating flywheel"
+  },
+  "load": {
+    "load_resistance_ohm": 13000
+  },
+  "output": {
+    "resonant_frequency_Hz": 793.7,
+    "output_power_W": 0.03195,
+    "open_circuit_voltage_V": null,
+    "short_circuit_current_A": null,
+    "bandwidth_Hz": null
+  },
+  "evidence": {
+    "configuration": {
+      "quote": "bimorph cantilever",
+      "section": "1. Introduction",
+      "source_type": "section"
+    },
+    "proof_mass": {
+      "quote": "without tip mass",
+      "section": "5. Strength Analysis of Optimized PEH Shapes",
+      "source_type": "section"
+    },
+    "geometry": {
+      "length_mm": {
+        "quote": "length (l) x width (w) = 23 x 15 mm",
+        "section": "3. Geometry Optimization and Influence on the PEH Response",
+        "source_type": "section"
+      },
+      "width_mm": {
+        "quote": "length (l) x width (w) = 23 x 15 mm",
+        "section": "3. Geometry Optimization and Influence on the PEH Response",
+        "source_type": "section"
+      },
+      "thickness_mm": {
+        "quote": "overall thickness of the bimorph t ~ 0.7 mm",
+        "section": "3. Geometry Optimization and Influence on the PEH Response",
+        "source_type": "section"
+      },
+      "substrate_thickness_um": {
+        "quote": "thickness of the stainless steel substrate is t_s = 0.15 mm",
+        "section": "3. Geometry Optimization and Influence on the PEH Response",
+        "source_type": "section"
+      },
+      "piezo_thickness_um": {
+        "quote": "two PZT-5A piezoelectric layers is t_pzt = 0.254 mm",
+        "section": "3. Geometry Optimization and Influence on the PEH Response",
+        "source_type": "section"
+      },
+      "tip_mass_g": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "diameter_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      }
+    },
+    "excitation": {
+      "type": {
+        "quote": "impacting (plucking) the free end",
+        "section": "2. Energy from Human Motion and Frequency Up-Conversion",
+        "source_type": "section"
+      },
+      "frequency_Hz": {
+        "quote": "793.7",
+        "section": "6.3. Optimized PEH Responses",
+        "source_type": "table"
+      },
+      "acceleration_g": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "displacement_mm": {
+        "quote": "delta_z = 0.38 mm",
+        "section": "6.3. Optimized PEH Responses",
+        "source_type": "section"
+      },
+      "motion_source": {
+        "quote": "rotating flywheel",
+        "section": "Experimental Characterization of Optimized Piezoelectric Energy Harvesters for Wearable Sensor Networks",
+        "source_type": "abstract"
+      }
+    },
+    "load": {
+      "load_resistance_ohm": {
+        "quote": "R_L opt = 13 kOhm",
+        "section": "6.3. Optimized PEH Responses",
+        "source_type": "section"
+      }
+    },
+    "output": {
+      "resonant_frequency_Hz": {
+        "quote": "793.7",
+        "section": "6.3. Optimized PEH Responses",
+        "source_type": "table"
+      },
+      "output_power_W": {
+        "quote": "31.95 mW",
+        "section": "6.3. Optimized PEH Responses",
+        "source_type": "table"
+      },
+      "open_circuit_voltage_V": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "short_circuit_current_A": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "bandwidth_Hz": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      }
+    }
+  }
+}

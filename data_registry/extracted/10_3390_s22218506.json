@@ -1,0 +1,147 @@
+{
+  "metadata": {
+    "paper_id": "10_3390_s22218506",
+    "doi": "10.3390/s22218506",
+    "title": "Vibration Energy Conversion Power Supply Based on the Piezoelectric Thin Film Planar Array",
+    "year": 2022,
+    "journal": "Sensors"
+  },
+  "configuration": "cantilever",
+  "proof_mass": false,
+  "geometry": {
+    "length_mm": 46.4,
+    "width_mm": 13.21,
+    "thickness_mm": 0.4,
+    "substrate_thickness_um": 125,
+    "piezo_thickness_um": 400,
+    "tip_mass_g": null,
+    "diameter_mm": null
+  },
+  "excitation": {
+    "type": "vibration",
+    "frequency_Hz": 75,
+    "acceleration_g": 2.198,
+    "displacement_mm": null,
+    "motion_source": "FF-130SH three-speed vibration motor"
+  },
+  "load": {
+    "load_resistance_ohm": null
+  },
+  "output": {
+    "resonant_frequency_Hz": 75,
+    "output_power_W": 0.000304,
+    "open_circuit_voltage_V": 10.4,
+    "short_circuit_current_A": null,
+    "bandwidth_Hz": null
+  },
+  "evidence": {
+    "configuration": {
+      "quote": "The supporting model of the piezoelectric cantilever structure is shown in Figure 1a.",
+      "section": "2. Energy Conversion Principle and Circuit Model of Vibration Energy Harvester",
+      "source_type": "section"
+    },
+    "proof_mass": {
+      "quote": "First, the VEH based on a piezoelectric thin film was stuck on the motor shell to capture the vibration energy and measured its output with a multimeter and oscilloscope at the same time.",
+      "section": "3.1. Fabrication and Testing of a Vibration Energy Harvester Based on a PVDF Piezoelectric Thin Film",
+      "source_type": "section"
+    },
+    "geometry": {
+      "length_mm": {
+        "quote": "dimensions of the main structure is 46.4 × 13.21 × 0.4 mm^3",
+        "section": "3.1. Fabrication and Testing of a Vibration Energy Harvester Based on a PVDF Piezoelectric Thin Film",
+        "source_type": "section"
+      },
+      "width_mm": {
+        "quote": "dimensions of the main structure is 46.4 × 13.21 × 0.4 mm^3",
+        "section": "3.1. Fabrication and Testing of a Vibration Energy Harvester Based on a PVDF Piezoelectric Thin Film",
+        "source_type": "section"
+      },
+      "thickness_mm": {
+        "quote": "dimensions of the main structure is 46.4 × 13.21 × 0.4 mm^3",
+        "section": "3.1. Fabrication and Testing of a Vibration Energy Harvester Based on a PVDF Piezoelectric Thin Film",
+        "source_type": "section"
+      },
+      "substrate_thickness_um": {
+        "quote": "laminated to a 125 μm polyester substrate",
+        "section": "3.1. Fabrication and Testing of a Vibration Energy Harvester Based on a PVDF Piezoelectric Thin Film",
+        "source_type": "section"
+      },
+      "piezo_thickness_um": {
+        "quote": "utilized two 200 μm thick piezoelectric PVDF polymers",
+        "section": "3.1. Fabrication and Testing of a Vibration Energy Harvester Based on a PVDF Piezoelectric Thin Film",
+        "source_type": "section"
+      },
+      "tip_mass_g": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "diameter_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      }
+    },
+    "excitation": {
+      "type": {
+        "quote": "vibration conditions of 75 Hz – 2.198 g",
+        "section": "Abstract",
+        "source_type": "abstract"
+      },
+      "frequency_Hz": {
+        "quote": "vibration conditions of 75 Hz – 2.198 g",
+        "section": "Abstract",
+        "source_type": "abstract"
+      },
+      "acceleration_g": {
+        "quote": "vibration conditions of 75 Hz – 2.198 g",
+        "section": "Abstract",
+        "source_type": "abstract"
+      },
+      "displacement_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "motion_source": {
+        "quote": "Firstly, an FF-130SH three-speed vibration motor was adjusted to 4500 r/min.",
+        "section": "3.1. Fabrication and Testing of a Vibration Energy Harvester Based on a PVDF Piezoelectric Thin Film",
+        "source_type": "section"
+      }
+    },
+    "load": {
+      "load_resistance_ohm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      }
+    },
+    "output": {
+      "resonant_frequency_Hz": {
+        "quote": "vibration conditions of 75 Hz – 2.198 g",
+        "section": "Abstract",
+        "source_type": "abstract"
+      },
+      "output_power_W": {
+        "quote": "The maximum open circuit voltage and output power, respectively, were 10.4 V and 0.304 mW.",
+        "section": "Abstract",
+        "source_type": "abstract"
+      },
+      "open_circuit_voltage_V": {
+        "quote": "The maximum open circuit voltage and output power, respectively, were 10.4 V and 0.304 mW.",
+        "section": "Abstract",
+        "source_type": "abstract"
+      },
+      "short_circuit_current_A": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "bandwidth_Hz": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      }
+    }
+  }
+}

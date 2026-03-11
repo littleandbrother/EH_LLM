@@ -1,0 +1,28 @@
+{
+  "paper_id": "10_12913_22998624_110175",
+  "doi": "10.12913/22998624/110175",
+  "title": "Investigation of Electrical Properties for Cantilever-Based Piezoelectric Energy Harvester",
+  "source_apis": [
+    "both"
+  ],
+  "pdf_url": "http://www.astrj.com/pdf-110175-41173?filename=Investigation of.pdf",
+  "pdf_local_path": "data_registry/raw_stage04_paper_pdf_cleaned/10_12913_22998624_110175.pdf",
+  "processing": {
+    "tool": "MinerU",
+    "version": "python -m mineru.cli.client, version 2.7.6",
+    "timestamp": "2026-03-10T09:51:04.202253+00:00",
+    "duration_s": 86.38,
+    "success": true,
+    "error": ""
+  },
+  "outputs": {
+    "content_md": "/root/EH-LLM-vehbench-exp/parsed_docs/10_12913_22998624_110175_qq8ydb01/content.md",
+    "layout_json": "/root/EH-LLM-vehbench-exp/parsed_docs/10_12913_22998624_110175_qq8ydb01/layout.json",
+    "images_dir": "/root/EH-LLM-vehbench-exp/parsed_docs/10_12913_22998624_110175_qq8ydb01/10_12913_22998624_110175/auto/images",
+    "normalized_json": "/root/EH-LLM-vehbench-exp/normalized_docs/10_12913_22998624_110175.json"
+  },
+  "data_lineage": {
+    "papers_jsonl_hash": "2faf37d339c5733f25847d04ac76adc7",
+    "pipeline_step": "ingestion/mineru_runner.py"
+  }
+}

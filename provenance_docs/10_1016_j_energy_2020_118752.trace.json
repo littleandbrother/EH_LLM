@@ -1,0 +1,28 @@
+{
+  "paper_id": "10_1016_j_energy_2020_118752",
+  "doi": "10.1016/j.energy.2020.118752",
+  "title": "An experimental study on a novel cylinder harvester made of L-shaped piezoelectric coupled beams with a high efficiency",
+  "source_apis": [
+    "both"
+  ],
+  "pdf_url": "",
+  "pdf_local_path": "data_registry/raw_stage04_paper_pdf_cleaned/10_1016_j_energy_2020_118752.pdf",
+  "processing": {
+    "tool": "MinerU",
+    "version": "python -m mineru.cli.client, version 2.7.6",
+    "timestamp": "2026-03-10T10:08:30.692525+00:00",
+    "duration_s": 96.53,
+    "success": true,
+    "error": ""
+  },
+  "outputs": {
+    "content_md": "/root/EH-LLM-vehbench-exp/parsed_docs/10_1016_j_energy_2020_118752_83gocah4/content.md",
+    "layout_json": "/root/EH-LLM-vehbench-exp/parsed_docs/10_1016_j_energy_2020_118752_83gocah4/layout.json",
+    "images_dir": "/root/EH-LLM-vehbench-exp/parsed_docs/10_1016_j_energy_2020_118752_83gocah4/10_1016_j_energy_2020_118752/auto/images",
+    "normalized_json": "/root/EH-LLM-vehbench-exp/normalized_docs/10_1016_j_energy_2020_118752.json"
+  },
+  "data_lineage": {
+    "papers_jsonl_hash": "5eef9d5b7f1316dee3467d9d03ec6984",
+    "pipeline_step": "ingestion/mineru_runner.py"
+  }
+}

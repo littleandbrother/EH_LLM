@@ -1,0 +1,28 @@
+{
+  "paper_id": "10_3390_mi14040892",
+  "doi": "10.3390/mi14040892",
+  "title": "Simulation and Experimental Study of a Piezoelectric Stack Energy Harvester for Railway Track Vibrations",
+  "source_apis": [
+    "openalex"
+  ],
+  "pdf_url": "https://www.mdpi.com/2072-666X/14/4/892/pdf?version=1682074628",
+  "pdf_local_path": "data_registry/raw_stage04_paper_pdf_cleaned/10_3390_mi14040892.pdf",
+  "processing": {
+    "tool": "MinerU",
+    "version": "python -m mineru.cli.client, version 2.7.6",
+    "timestamp": "2026-03-10T09:50:21.110370+00:00",
+    "duration_s": 77.27,
+    "success": true,
+    "error": ""
+  },
+  "outputs": {
+    "content_md": "/root/EH-LLM-vehbench-exp/parsed_docs/10_3390_mi14040892_hge_hfkn/content.md",
+    "layout_json": "/root/EH-LLM-vehbench-exp/parsed_docs/10_3390_mi14040892_hge_hfkn/layout.json",
+    "images_dir": "/root/EH-LLM-vehbench-exp/parsed_docs/10_3390_mi14040892_hge_hfkn/10_3390_mi14040892/auto/images",
+    "normalized_json": "/root/EH-LLM-vehbench-exp/normalized_docs/10_3390_mi14040892.json"
+  },
+  "data_lineage": {
+    "papers_jsonl_hash": "343725b79863ff720fe3363130840113",
+    "pipeline_step": "ingestion/mineru_runner.py"
+  }
+}

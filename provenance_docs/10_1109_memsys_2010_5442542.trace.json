@@ -1,0 +1,28 @@
+{
+  "paper_id": "10_1109_memsys_2010_5442542",
+  "doi": "10.1109/memsys.2010.5442542",
+  "title": "High efficiency energy harvester of transferred epitaxial PZT films on stainless steel sheets",
+  "source_apis": [
+    "both"
+  ],
+  "pdf_url": "",
+  "pdf_local_path": "data_registry/raw_stage04_paper_pdf_cleaned/10_1109_memsys_2010_5442542.pdf",
+  "processing": {
+    "tool": "MinerU",
+    "version": "python -m mineru.cli.client, version 2.7.6",
+    "timestamp": "2026-03-10T09:57:05.078801+00:00",
+    "duration_s": 87.82,
+    "success": true,
+    "error": ""
+  },
+  "outputs": {
+    "content_md": "/root/EH-LLM-vehbench-exp/parsed_docs/10_1109_memsys_2010_5442542_0x9v0nyv/content.md",
+    "layout_json": "/root/EH-LLM-vehbench-exp/parsed_docs/10_1109_memsys_2010_5442542_0x9v0nyv/layout.json",
+    "images_dir": "/root/EH-LLM-vehbench-exp/parsed_docs/10_1109_memsys_2010_5442542_0x9v0nyv/10_1109_memsys_2010_5442542/auto/images",
+    "normalized_json": "/root/EH-LLM-vehbench-exp/normalized_docs/10_1109_memsys_2010_5442542.json"
+  },
+  "data_lineage": {
+    "papers_jsonl_hash": "a0ef6b07653684bbbd20923e52611477",
+    "pipeline_step": "ingestion/mineru_runner.py"
+  }
+}

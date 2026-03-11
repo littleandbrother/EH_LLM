@@ -1,0 +1,28 @@
+{
+  "paper_id": "10_3390_s19092196",
+  "doi": "10.3390/s19092196",
+  "title": "A Comparison Study of Fatigue Behavior of Hard and Soft Piezoelectric Single Crystal Macro-Fiber Composites for Vibration Energy Harvesting",
+  "source_apis": [
+    "both"
+  ],
+  "pdf_url": "https://www.mdpi.com/1424-8220/19/9/2196/pdf?version=1557720480",
+  "pdf_local_path": "data_registry/raw_stage04_paper_pdf_cleaned/10_3390_s19092196.pdf",
+  "processing": {
+    "tool": "MinerU",
+    "version": "python -m mineru.cli.client, version 2.7.6",
+    "timestamp": "2026-03-10T10:07:54.467806+00:00",
+    "duration_s": 78.83,
+    "success": true,
+    "error": ""
+  },
+  "outputs": {
+    "content_md": "/root/EH-LLM-vehbench-exp/parsed_docs/10_3390_s19092196_qjd1mh_b/content.md",
+    "layout_json": "/root/EH-LLM-vehbench-exp/parsed_docs/10_3390_s19092196_qjd1mh_b/layout.json",
+    "images_dir": "/root/EH-LLM-vehbench-exp/parsed_docs/10_3390_s19092196_qjd1mh_b/10_3390_s19092196/auto/images",
+    "normalized_json": "/root/EH-LLM-vehbench-exp/normalized_docs/10_3390_s19092196.json"
+  },
+  "data_lineage": {
+    "papers_jsonl_hash": "be6a7a6cc63d41d89d9def41c778e118",
+    "pipeline_step": "ingestion/mineru_runner.py"
+  }
+}

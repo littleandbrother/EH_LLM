@@ -1,0 +1,147 @@
+{
+  "metadata": {
+    "paper_id": "10_1088_0964_1726_25_8_085029",
+    "doi": "10.1088/0964-1726/25/8/085029",
+    "title": "Design and characterisation of a piezoelectric knee-joint energy harvester with frequency up-conversion through magnetic plucking",
+    "year": 2016,
+    "journal": "Smart Materials and Structures"
+  },
+  "configuration": "cantilever",
+  "proof_mass": true,
+  "geometry": {
+    "length_mm": 38.1,
+    "width_mm": 12.7,
+    "thickness_mm": 0.38,
+    "substrate_thickness_um": 126.0,
+    "piezo_thickness_um": 127.0,
+    "tip_mass_g": null,
+    "diameter_mm": null
+  },
+  "excitation": {
+    "type": "human_motion",
+    "frequency_Hz": 0.9,
+    "acceleration_g": null,
+    "displacement_mm": null,
+    "motion_source": "knee-joint motion"
+  },
+  "load": {
+    "load_resistance_ohm": 15000.0
+  },
+  "output": {
+    "resonant_frequency_Hz": null,
+    "output_power_W": 0.0058,
+    "open_circuit_voltage_V": null,
+    "short_circuit_current_A": null,
+    "bandwidth_Hz": null
+  },
+  "evidence": {
+    "configuration": {
+      "quote": "Eight piezoelectric bimorphs are mounted in the inner hub to form cantilevers",
+      "section": "2. Description of the piezoelectric KEH",
+      "source_type": "section"
+    },
+    "proof_mass": {
+      "quote": "a 3x3x3 mm^3 magnet ... was glued to the tip of a PZT-5H bimorph ... and served as a SM",
+      "section": "3.1. Experimental setups and methods",
+      "source_type": "section"
+    },
+    "geometry": {
+      "length_mm": {
+        "quote": "dimension 38.1 x 12.7 x 0.38 mm^3",
+        "section": "3.1. Experimental setups and methods",
+        "source_type": "section"
+      },
+      "width_mm": {
+        "quote": "dimension 38.1 x 12.7 x 0.38 mm^3",
+        "section": "3.1. Experimental setups and methods",
+        "source_type": "section"
+      },
+      "thickness_mm": {
+        "quote": "dimension 38.1 x 12.7 x 0.38 mm^3",
+        "section": "3.1. Experimental setups and methods",
+        "source_type": "section"
+      },
+      "substrate_thickness_um": {
+        "quote": "t_s (0.126 mm) is the thickness of the substrate",
+        "section": "4.2. Characterisation results and discussion",
+        "source_type": "section"
+      },
+      "piezo_thickness_um": {
+        "quote": "t_p (0.127 mm) is the thickness of the piezoelectric layer",
+        "section": "4.2. Characterisation results and discussion",
+        "source_type": "section"
+      },
+      "tip_mass_g": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "diameter_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      }
+    },
+    "excitation": {
+      "type": {
+        "quote": "actuated by knee-joint motion",
+        "section": "Abstract",
+        "source_type": "abstract"
+      },
+      "frequency_Hz": {
+        "quote": "actuated by knee-joint motion of 0.9 Hz",
+        "section": "Abstract",
+        "source_type": "abstract"
+      },
+      "acceleration_g": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "displacement_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "motion_source": {
+        "quote": "actuated by knee-joint motion",
+        "section": "Abstract",
+        "source_type": "abstract"
+      }
+    },
+    "load": {
+      "load_resistance_ohm": {
+        "quote": "optimal load resistance of 15 kOhm",
+        "section": "4.2.2. Energy and power output of the KEH with 8 bimorphs.",
+        "source_type": "section"
+      }
+    },
+    "output": {
+      "resonant_frequency_Hz": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "output_power_W": {
+        "quote": "average power output of 5.8 mW",
+        "section": "Abstract",
+        "source_type": "abstract"
+      },
+      "open_circuit_voltage_V": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "short_circuit_current_A": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "bandwidth_Hz": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      }
+    }
+  }
+}

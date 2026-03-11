@@ -1,0 +1,147 @@
+{
+  "metadata": {
+    "paper_id": "10_1038_srep38798",
+    "doi": "10.1038/srep38798",
+    "title": "A piezoelectric micro generator worked at low frequency and high acceleration based on PZT and phosphor bronze bonding",
+    "year": 2016,
+    "journal": "Scientific Reports"
+  },
+  "configuration": "cantilever",
+  "proof_mass": true,
+  "geometry": {
+    "length_mm": 12,
+    "width_mm": 6,
+    "thickness_mm": 0.114,
+    "substrate_thickness_um": 57,
+    "piezo_thickness_um": 57,
+    "tip_mass_g": null,
+    "diameter_mm": null
+  },
+  "excitation": {
+    "type": "vibration",
+    "frequency_Hz": 100.8,
+    "acceleration_g": 3.0,
+    "displacement_mm": null,
+    "motion_source": "electromagnetic shaker"
+  },
+  "load": {
+    "load_resistance_ohm": null
+  },
+  "output": {
+    "resonant_frequency_Hz": 100.8,
+    "output_power_W": 0.000321,
+    "open_circuit_voltage_V": 35,
+    "short_circuit_current_A": null,
+    "bandwidth_Hz": null
+  },
+  "evidence": {
+    "configuration": {
+      "quote": "micro cantilever generator",
+      "section": "A piezoelectric micro generator worked at low frequency and high acceleration based on PZT and phosphor bronze bonding",
+      "source_type": "abstract"
+    },
+    "proof_mass": {
+      "quote": "rectangle tungsten proof mass cut by dicing method is assembled on the top of the cantilever",
+      "section": "Results",
+      "source_type": "section"
+    },
+    "geometry": {
+      "length_mm": {
+        "quote": "Length 12000",
+        "section": "Results",
+        "source_type": "table"
+      },
+      "width_mm": {
+        "quote": "Width 6000",
+        "section": "Results",
+        "source_type": "table"
+      },
+      "thickness_mm": {
+        "quote": "Thickness 57",
+        "section": "Results",
+        "source_type": "table"
+      },
+      "substrate_thickness_um": {
+        "quote": "Thickness 57",
+        "section": "Results",
+        "source_type": "table"
+      },
+      "piezo_thickness_um": {
+        "quote": "Thickness 57",
+        "section": "Results",
+        "source_type": "table"
+      },
+      "tip_mass_g": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "diameter_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      }
+    },
+    "excitation": {
+      "type": {
+        "quote": "vibration acceleration",
+        "section": "A piezoelectric micro generator worked at low frequency and high acceleration based on PZT and phosphor bronze bonding",
+        "source_type": "abstract"
+      },
+      "frequency_Hz": {
+        "quote": "resonant frequency of 100.8 Hz",
+        "section": "A piezoelectric micro generator worked at low frequency and high acceleration based on PZT and phosphor bronze bonding",
+        "source_type": "abstract"
+      },
+      "acceleration_g": {
+        "quote": "excitation of 3.0 g acceleration",
+        "section": "A piezoelectric micro generator worked at low frequency and high acceleration based on PZT and phosphor bronze bonding",
+        "source_type": "abstract"
+      },
+      "displacement_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "motion_source": {
+        "quote": "electromagnetic shaker",
+        "section": "Methods",
+        "source_type": "section"
+      }
+    },
+    "load": {
+      "load_resistance_ohm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      }
+    },
+    "output": {
+      "resonant_frequency_Hz": {
+        "quote": "resonant frequency of 100.8 Hz",
+        "section": "A piezoelectric micro generator worked at low frequency and high acceleration based on PZT and phosphor bronze bonding",
+        "source_type": "abstract"
+      },
+      "output_power_W": {
+        "quote": "output power ... 321 uW",
+        "section": "A piezoelectric micro generator worked at low frequency and high acceleration based on PZT and phosphor bronze bonding",
+        "source_type": "abstract"
+      },
+      "open_circuit_voltage_V": {
+        "quote": "open-circuit output voltage ... 35V",
+        "section": "A piezoelectric micro generator worked at low frequency and high acceleration based on PZT and phosphor bronze bonding",
+        "source_type": "abstract"
+      },
+      "short_circuit_current_A": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "bandwidth_Hz": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      }
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "paper_id": "10_1299_jsmedmc_2010__607_1_",
+  "doi": "10.1299/jsmedmc.2010._607-1_",
+  "title": "607 Power Generation Performance Evaluation of Vibration Energy Harvester with Piezocomposite and Power Loss Evaluation of a Full-Bridge Rectifier",
+  "source_apis": [
+    "openalex"
+  ],
+  "pdf_url": "",
+  "pdf_local_path": "data_registry/raw_stage04_paper_pdf_cleaned/10_1299_jsmedmc_2010__607_1_.pdf",
+  "processing": {
+    "tool": "MinerU",
+    "version": "python -m mineru.cli.client, version 2.7.6",
+    "timestamp": "2026-03-10T09:41:27.376644+00:00",
+    "duration_s": 87.07,
+    "success": true,
+    "error": ""
+  },
+  "outputs": {
+    "content_md": "/root/EH-LLM-vehbench-exp/parsed_docs/10_1299_jsmedmc_2010__607_1__zgqpz4hj/content.md",
+    "layout_json": "/root/EH-LLM-vehbench-exp/parsed_docs/10_1299_jsmedmc_2010__607_1__zgqpz4hj/layout.json",
+    "images_dir": "/root/EH-LLM-vehbench-exp/parsed_docs/10_1299_jsmedmc_2010__607_1__zgqpz4hj/10_1299_jsmedmc_2010__607_1_/auto/images",
+    "normalized_json": "/root/EH-LLM-vehbench-exp/normalized_docs/10_1299_jsmedmc_2010__607_1_.json"
+  },
+  "data_lineage": {
+    "papers_jsonl_hash": "737dd82e628eb42bd5d0afc5a371fa0d",
+    "pipeline_step": "ingestion/mineru_runner.py"
+  }
+}

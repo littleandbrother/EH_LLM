@@ -1,0 +1,147 @@
+{
+  "metadata": {
+    "paper_id": "10_1002_adfm_201304211",
+    "doi": "10.1002/adfm.201304211",
+    "title": "3D Stack Integrated Triboelectric Nanogenerator for Harvesting Vibration Energy",
+    "year": 2014,
+    "journal": "Advanced Functional Materials"
+  },
+  "configuration": "stack",
+  "proof_mass": null,
+  "geometry": {
+    "length_mm": 50,
+    "width_mm": 14,
+    "thickness_mm": 3,
+    "substrate_thickness_um": 3000,
+    "piezo_thickness_um": null,
+    "tip_mass_g": null,
+    "diameter_mm": null
+  },
+  "excitation": {
+    "type": "vibration",
+    "frequency_Hz": 40,
+    "acceleration_g": null,
+    "displacement_mm": null,
+    "motion_source": "electrodynamic shaker"
+  },
+  "load": {
+    "load_resistance_ohm": 2000000
+  },
+  "output": {
+    "resonant_frequency_Hz": 40,
+    "output_power_W": null,
+    "open_circuit_voltage_V": 303,
+    "short_circuit_current_A": 0.00114,
+    "bandwidth_Hz": 36
+  },
+  "evidence": {
+    "configuration": {
+      "quote": "3D Stack Integrated Triboelectric Nanogenerator",
+      "section": "3D Stack Integrated Triboelectric Nanogenerator for Harvesting Vibration Energy",
+      "source_type": "title"
+    },
+    "proof_mass": {
+      "quote": null,
+      "section": null,
+      "source_type": null
+    },
+    "geometry": {
+      "length_mm": {
+        "quote": "size of 1.4 cm by 5 cm",
+        "section": "5. Experimental Section",
+        "source_type": "section"
+      },
+      "width_mm": {
+        "quote": "size of 1.4 cm by 5 cm",
+        "section": "5. Experimental Section",
+        "source_type": "section"
+      },
+      "thickness_mm": {
+        "quote": "made from the acrylic sheets with a thickness of 3 mm",
+        "section": "5. Experimental Section",
+        "source_type": "section"
+      },
+      "substrate_thickness_um": {
+        "quote": "made from the acrylic sheets with a thickness of 3 mm",
+        "section": "5. Experimental Section",
+        "source_type": "section"
+      },
+      "piezo_thickness_um": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "tip_mass_g": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "diameter_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      }
+    },
+    "excitation": {
+      "type": {
+        "quote": "harvesting ambient vibration energy",
+        "section": "3D Stack Integrated Triboelectric Nanogenerator for Harvesting Vibration Energy",
+        "source_type": "abstract"
+      },
+      "frequency_Hz": {
+        "quote": "resonance vibration frequency of 40 Hz",
+        "section": "3. Results and Discussion",
+        "source_type": "section"
+      },
+      "acceleration_g": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "displacement_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "motion_source": {
+        "quote": "electrodynamic shaker (Labworks Inc.)",
+        "section": "2. Design and Analysis",
+        "source_type": "section"
+      }
+    },
+    "load": {
+      "load_resistance_ohm": {
+        "quote": "maximized at a load resistance of 2 MΩ",
+        "section": "3. Results and Discussion",
+        "source_type": "section"
+      }
+    },
+    "output": {
+      "resonant_frequency_Hz": {
+        "quote": "40 Hz is the resonance frequency",
+        "section": "3. Results and Discussion",
+        "source_type": "section"
+      },
+      "output_power_W": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "open_circuit_voltage_V": {
+        "quote": "open-circuit voltage (V_oc) and short-circuit current (I_sc) are respectively as high as 303 V and 1.14 mA",
+        "section": "3. Results and Discussion",
+        "source_type": "section"
+      },
+      "short_circuit_current_A": {
+        "quote": "open-circuit voltage (V_oc) and short-circuit current (I_sc) are respectively as high as 303 V and 1.14 mA",
+        "section": "3. Results and Discussion",
+        "source_type": "section"
+      },
+      "bandwidth_Hz": {
+        "quote": "wide working bandwidth of 36 Hz",
+        "section": "3. Results and Discussion",
+        "source_type": "section"
+      }
+    }
+  }
+}

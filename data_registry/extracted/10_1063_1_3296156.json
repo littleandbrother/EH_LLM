@@ -1,0 +1,147 @@
+{
+  "metadata": {
+    "paper_id": "10_1063_1_3296156",
+    "doi": "10.1063/1.3296156",
+    "title": "Energy harvesting using a modified rectangular cymbal transducer based on 0.71Pb(Mg1/3Nb2/3)O3–0.29PbTiO3 single crystal",
+    "year": 2010,
+    "journal": "Journal of Applied Physics"
+  },
+  "configuration": "other",
+  "proof_mass": true,
+  "geometry": {
+    "length_mm": 26.6,
+    "width_mm": 4.0,
+    "thickness_mm": 0.7,
+    "substrate_thickness_um": null,
+    "piezo_thickness_um": 700,
+    "tip_mass_g": 17.0,
+    "diameter_mm": null
+  },
+  "excitation": {
+    "type": "vibration",
+    "frequency_Hz": 500,
+    "acceleration_g": null,
+    "displacement_mm": null,
+    "motion_source": "mechanical shaker"
+  },
+  "load": {
+    "load_resistance_ohm": 74000
+  },
+  "output": {
+    "resonant_frequency_Hz": 500,
+    "output_power_W": 0.014,
+    "open_circuit_voltage_V": null,
+    "short_circuit_current_A": null,
+    "bandwidth_Hz": null
+  },
+  "evidence": {
+    "configuration": {
+      "quote": "modified rectangular cymbal transducer",
+      "section": "Energy harvesting using a modified rectangular cymbal transducer based on 0.71Pb„Mg1/3Nb2/3…O3–0.29PbTiO3 single crystal",
+      "source_type": "abstract"
+    },
+    "proof_mass": {
+      "quote": "with a proof mass of 17.0 g",
+      "section": "Energy harvesting using a modified rectangular cymbal transducer based on 0.71Pb„Mg1/3Nb2/3…O3–0.29PbTiO3 single crystal",
+      "source_type": "abstract"
+    },
+    "geometry": {
+      "length_mm": {
+        "quote": "26.6 × 4.0 × 0.7 mm^3",
+        "section": "A. Structure and fabrication",
+        "source_type": "section"
+      },
+      "width_mm": {
+        "quote": "26.6 × 4.0 × 0.7 mm^3",
+        "section": "A. Structure and fabrication",
+        "source_type": "section"
+      },
+      "thickness_mm": {
+        "quote": "26.6 × 4.0 × 0.7 mm^3",
+        "section": "A. Structure and fabrication",
+        "source_type": "section"
+      },
+      "substrate_thickness_um": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "piezo_thickness_um": {
+        "quote": "26.6 × 4.0 × 0.7 mm^3",
+        "section": "A. Structure and fabrication",
+        "source_type": "section"
+      },
+      "tip_mass_g": {
+        "quote": "proof mass of 17.0 g",
+        "section": "Energy harvesting using a modified rectangular cymbal transducer based on 0.71Pb„Mg1/3Nb2/3…O3–0.29PbTiO3 single crystal",
+        "source_type": "abstract"
+      },
+      "diameter_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      }
+    },
+    "excitation": {
+      "type": {
+        "quote": "vibration energy harvesting device",
+        "section": "Energy harvesting using a modified rectangular cymbal transducer based on 0.71Pb„Mg1/3Nb2/3…O3–0.29PbTiO3 single crystal",
+        "source_type": "abstract"
+      },
+      "frequency_Hz": {
+        "quote": "measured at 500 Hz",
+        "section": "Energy harvesting using a modified rectangular cymbal transducer based on 0.71Pb„Mg1/3Nb2/3…O3–0.29PbTiO3 single crystal",
+        "source_type": "abstract"
+      },
+      "acceleration_g": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "displacement_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "motion_source": {
+        "quote": "mechanical shaker",
+        "section": "B. Measurement setup and procedure",
+        "source_type": "section"
+      }
+    },
+    "load": {
+      "load_resistance_ohm": {
+        "quote": "matching load resistance of 74 kΩ",
+        "section": "I. INTRODUCTION",
+        "source_type": "section"
+      }
+    },
+    "output": {
+      "resonant_frequency_Hz": {
+        "quote": "at the resonance frequency 500 Hz",
+        "section": "I. INTRODUCTION",
+        "source_type": "section"
+      },
+      "output_power_W": {
+        "quote": "maximum power of 14 mW",
+        "section": "Energy harvesting using a modified rectangular cymbal transducer based on 0.71Pb„Mg1/3Nb2/3…O3–0.29PbTiO3 single crystal",
+        "source_type": "abstract"
+      },
+      "open_circuit_voltage_V": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "short_circuit_current_A": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "bandwidth_Hz": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      }
+    }
+  }
+}

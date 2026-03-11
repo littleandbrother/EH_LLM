@@ -1,0 +1,147 @@
+{
+  "metadata": {
+    "paper_id": "10_3390_nano12213718",
+    "doi": "10.3390/nano12213718",
+    "title": "Comparison of L-Shaped and U-Shaped Beams in Bidirectional Piezoelectric Vibration Energy Harvesting",
+    "year": 2022,
+    "journal": "Nanomaterials"
+  },
+  "configuration": "other",
+  "proof_mass": true,
+  "geometry": {
+    "length_mm": 60,
+    "width_mm": 20,
+    "thickness_mm": null,
+    "substrate_thickness_um": 140,
+    "piezo_thickness_um": 180,
+    "tip_mass_g": 8.56,
+    "diameter_mm": null
+  },
+  "excitation": {
+    "type": "vibration",
+    "frequency_Hz": 5.0,
+    "acceleration_g": 0.1,
+    "displacement_mm": null,
+    "motion_source": "vibration experimental platform"
+  },
+  "load": {
+    "load_resistance_ohm": 60000
+  },
+  "output": {
+    "resonant_frequency_Hz": 5.0,
+    "output_power_W": 0.0004,
+    "open_circuit_voltage_V": 14.6,
+    "short_circuit_current_A": null,
+    "bandwidth_Hz": null
+  },
+  "evidence": {
+    "configuration": {
+      "quote": "The U-shaped PVEH is mainly composed of a fixed base, three piezoelectric bimorphs, a proof mass, and three connectors.",
+      "section": "2.1. FEA Modeling",
+      "source_type": "section"
+    },
+    "proof_mass": {
+      "quote": "The U-shaped PVEH is mainly composed of a fixed base, three piezoelectric bimorphs, a proof mass, and three connectors.",
+      "section": "2.1. FEA Modeling",
+      "source_type": "section"
+    },
+    "geometry": {
+      "length_mm": {
+        "quote": "Bimorph length 60 mm",
+        "section": "Table 1",
+        "source_type": "table"
+      },
+      "width_mm": {
+        "quote": "Bimorph breadth 20 mm",
+        "section": "Table 1",
+        "source_type": "table"
+      },
+      "thickness_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "substrate_thickness_um": {
+        "quote": "Substrate layer thickness 0.14 mm",
+        "section": "Table 1",
+        "source_type": "table"
+      },
+      "piezo_thickness_um": {
+        "quote": "Piezoelectric layer thickness 0.18 mm",
+        "section": "Table 1",
+        "source_type": "table"
+      },
+      "tip_mass_g": {
+        "quote": "Tip proof mass 8.56 g",
+        "section": "Table 1",
+        "source_type": "table"
+      },
+      "diameter_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      }
+    },
+    "excitation": {
+      "type": {
+        "quote": "vibration experimental platform",
+        "section": "3.1. Experimental Configuration",
+        "source_type": "section"
+      },
+      "frequency_Hz": {
+        "quote": "resonant frequency of 5.0 Hz",
+        "section": "3.3. Clamping Angle Comparison",
+        "source_type": "section"
+      },
+      "acceleration_g": {
+        "quote": "0.1 g acceleration",
+        "section": "3.3. Clamping Angle Comparison",
+        "source_type": "section"
+      },
+      "displacement_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "motion_source": {
+        "quote": "vibration experimental platform",
+        "section": "3.1. Experimental Configuration",
+        "source_type": "section"
+      }
+    },
+    "load": {
+      "load_resistance_ohm": {
+        "quote": "optimal load resistance of 60 kΩ",
+        "section": "3.3. Clamping Angle Comparison",
+        "source_type": "section"
+      }
+    },
+    "output": {
+      "resonant_frequency_Hz": {
+        "quote": "resonant frequency of 5.0 Hz",
+        "section": "3.3. Clamping Angle Comparison",
+        "source_type": "section"
+      },
+      "output_power_W": {
+        "quote": "maximum output RMS power is 0.4 mW",
+        "section": "3.3. Clamping Angle Comparison",
+        "source_type": "section"
+      },
+      "open_circuit_voltage_V": {
+        "quote": "maximum output voltage of 14.6 V",
+        "section": "3.3. Clamping Angle Comparison",
+        "source_type": "section"
+      },
+      "short_circuit_current_A": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "bandwidth_Hz": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      }
+    }
+  }
+}

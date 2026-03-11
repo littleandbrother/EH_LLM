@@ -1,0 +1,147 @@
+{
+  "metadata": {
+    "paper_id": "10_3390_s22082880",
+    "doi": "10.3390/s22082880",
+    "title": "Bi-Directional Piezoelectric Multi-Modal Energy Harvester Based on Saw-Tooth Cantilever Array",
+    "year": 2022,
+    "journal": "Sensors"
+  },
+  "configuration": "array",
+  "proof_mass": true,
+  "geometry": {
+    "length_mm": 79.0,
+    "width_mm": 93.0,
+    "thickness_mm": 1.5,
+    "substrate_thickness_um": 500.0,
+    "piezo_thickness_um": 500.0,
+    "tip_mass_g": null,
+    "diameter_mm": null
+  },
+  "excitation": {
+    "type": "vibration",
+    "frequency_Hz": null,
+    "acceleration_g": 0.051,
+    "displacement_mm": null,
+    "motion_source": "electromagnetic shaker"
+  },
+  "load": {
+    "load_resistance_ohm": null
+  },
+  "output": {
+    "resonant_frequency_Hz": null,
+    "output_power_W": 0.0153,
+    "open_circuit_voltage_V": 82.87,
+    "short_circuit_current_A": null,
+    "bandwidth_Hz": null
+  },
+  "evidence": {
+    "configuration": {
+      "quote": "Bi-Directional Piezoelectric Multi-Modal Energy Harvester Based on Saw-Tooth Cantilever Array",
+      "section": "Article Bi-Directional Piezoelectric Multi-Modal Energy Harvester Based on Saw-Tooth Cantilever Array",
+      "source_type": "title"
+    },
+    "proof_mass": {
+      "quote": "At each junction of the cantilevers, there are placed seismic masses",
+      "section": "Abstract",
+      "source_type": "abstract"
+    },
+    "geometry": {
+      "length_mm": {
+        "quote": "L2 79mm Length of the second piezoelectric cantilever",
+        "section": "2. Design and Operation Principle",
+        "source_type": "table"
+      },
+      "width_mm": {
+        "quote": "W 93 mm Width of the bi-directional multi-modal energy harvester",
+        "section": "2. Design and Operation Principle",
+        "source_type": "table"
+      },
+      "thickness_mm": {
+        "quote": "t 1.5 mm Total thickness of piezoelectric cantilevers",
+        "section": "2. Design and Operation Principle",
+        "source_type": "table"
+      },
+      "substrate_thickness_um": {
+        "quote": "tb 0.5 mm Thickness of cantilevers' passive layer",
+        "section": "2. Design and Operation Principle",
+        "source_type": "table"
+      },
+      "piezo_thickness_um": {
+        "quote": "tpzt 0.5 mm Thickness of piezoceramic used to compose cantilevers",
+        "section": "2. Design and Operation Principle",
+        "source_type": "table"
+      },
+      "tip_mass_g": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "diameter_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      }
+    },
+    "excitation": {
+      "type": {
+        "quote": "vibration energy harvesting",
+        "section": "Abstract",
+        "source_type": "abstract"
+      },
+      "frequency_Hz": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "acceleration_g": {
+        "quote": "excitation amplitude is 0.5 m/s^2",
+        "section": "Abstract",
+        "source_type": "abstract"
+      },
+      "displacement_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "motion_source": {
+        "quote": "electromagnetic shaker (Model 4806, HP, Palo Alto, CA, USA)",
+        "section": "4. Experimental Investigation",
+        "source_type": "section"
+      }
+    },
+    "load": {
+      "load_resistance_ohm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      }
+    },
+    "output": {
+      "resonant_frequency_Hz": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "output_power_W": {
+        "quote": "average output power of 15.3 mW",
+        "section": "Abstract",
+        "source_type": "abstract"
+      },
+      "open_circuit_voltage_V": {
+        "quote": "highest output voltage was obtained at the first resonance frequency and it reached 82.87 VDC",
+        "section": "4. Experimental Investigation",
+        "source_type": "section"
+      },
+      "short_circuit_current_A": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "bandwidth_Hz": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      }
+    }
+  }
+}

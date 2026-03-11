@@ -1,0 +1,28 @@
+{
+  "paper_id": "10_1016_j_sna_2013_12_033",
+  "doi": "10.1016/j.sna.2013.12.033",
+  "title": "Theoretical modeling and analysis of mechanical impact driven and frequency up-converted piezoelectric energy harvester for low-frequency and wide-bandwidth operation",
+  "source_apis": [
+    "openalex"
+  ],
+  "pdf_url": "https://doi.org/10.1016/j.sna.2013.12.033",
+  "pdf_local_path": "data_registry/raw_stage04_paper_pdf_cleaned/10_1016_j_sna_2013_12_033.pdf",
+  "processing": {
+    "tool": "MinerU",
+    "version": "python -m mineru.cli.client, version 2.7.6",
+    "timestamp": "2026-03-10T09:25:18.945874+00:00",
+    "duration_s": 100.99,
+    "success": true,
+    "error": ""
+  },
+  "outputs": {
+    "content_md": "/root/EH-LLM-vehbench-exp/parsed_docs/10_1016_j_sna_2013_12_033_jtlxadfn/content.md",
+    "layout_json": "/root/EH-LLM-vehbench-exp/parsed_docs/10_1016_j_sna_2013_12_033_jtlxadfn/layout.json",
+    "images_dir": "/root/EH-LLM-vehbench-exp/parsed_docs/10_1016_j_sna_2013_12_033_jtlxadfn/10_1016_j_sna_2013_12_033/auto/images",
+    "normalized_json": "/root/EH-LLM-vehbench-exp/normalized_docs/10_1016_j_sna_2013_12_033.json"
+  },
+  "data_lineage": {
+    "papers_jsonl_hash": "960ab9414e6bbf0b2e6046fc61695f75",
+    "pipeline_step": "ingestion/mineru_runner.py"
+  }
+}

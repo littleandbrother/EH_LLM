@@ -1,0 +1,147 @@
+{
+  "metadata": {
+    "paper_id": "10_1109_access_2017_2775652",
+    "doi": "10.1109/access.2017.2775652",
+    "title": "Performance Dependence on Initial Free-End Levitation of a Magnetically Levitated Piezoelectric Vibration Energy Harvester With a Composite Cantilever Beam",
+    "year": 2017,
+    "journal": "IEEE Access"
+  },
+  "configuration": "cantilever",
+  "proof_mass": true,
+  "geometry": {
+    "length_mm": 45,
+    "width_mm": 39,
+    "thickness_mm": 0.5,
+    "substrate_thickness_um": 200,
+    "piezo_thickness_um": 300,
+    "tip_mass_g": 19.66,
+    "diameter_mm": null
+  },
+  "excitation": {
+    "type": "vibration",
+    "frequency_Hz": null,
+    "acceleration_g": null,
+    "displacement_mm": 0.5,
+    "motion_source": "electrodynamic vibration generator"
+  },
+  "load": {
+    "load_resistance_ohm": null
+  },
+  "output": {
+    "resonant_frequency_Hz": 51,
+    "output_power_W": 0.0027356,
+    "open_circuit_voltage_V": null,
+    "short_circuit_current_A": null,
+    "bandwidth_Hz": null
+  },
+  "evidence": {
+    "configuration": {
+      "quote": "magnetically levitated piezoelectric vibration energy harvester (PVEH) with a composite cantilever beam",
+      "section": "ABSTRACT",
+      "source_type": "abstract"
+    },
+    "proof_mass": {
+      "quote": "high-stiffness lead zirconate titanate beam with a proof mass and a flexible brass beam with a tip mass",
+      "section": "ABSTRACT",
+      "source_type": "abstract"
+    },
+    "geometry": {
+      "length_mm": {
+        "quote": "commercial piezoelectric plate with the size of 45 x 39 x 0.5 mm^3 was adopted as the primary beam",
+        "section": "III. FABRICATION",
+        "source_type": "section"
+      },
+      "width_mm": {
+        "quote": "commercial piezoelectric plate with the size of 45 x 39 x 0.5 mm^3 was adopted as the primary beam",
+        "section": "III. FABRICATION",
+        "source_type": "section"
+      },
+      "thickness_mm": {
+        "quote": "commercial piezoelectric plate with the size of 45 x 39 x 0.5 mm^3 was adopted as the primary beam",
+        "section": "III. FABRICATION",
+        "source_type": "section"
+      },
+      "substrate_thickness_um": {
+        "quote": "The thicknesses of PZT plate and substrate plate were 0.3 mm and 0.2 mm, respectively",
+        "section": "III. FABRICATION",
+        "source_type": "section"
+      },
+      "piezo_thickness_um": {
+        "quote": "The thicknesses of PZT plate and substrate plate were 0.3 mm and 0.2 mm, respectively",
+        "section": "III. FABRICATION",
+        "source_type": "section"
+      },
+      "tip_mass_g": {
+        "quote": "The total tip mass (including small metal plates on the tip, two permanent magnets and an additional fixture that held the magnets) of the brass beam was 19.66 g",
+        "section": "III. FABRICATION",
+        "source_type": "section"
+      },
+      "diameter_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      }
+    },
+    "excitation": {
+      "type": {
+        "quote": "Vibration energy harvesting by using piezoelectric materials",
+        "section": "ABSTRACT",
+        "source_type": "abstract"
+      },
+      "frequency_Hz": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "acceleration_g": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "displacement_mm": {
+        "quote": "vibration excitation was held constant at a displacement amplitude of 0.5 mm",
+        "section": "IV. EXPERIMENTAL RESULTS AND DISCUSSION",
+        "source_type": "section"
+      },
+      "motion_source": {
+        "quote": "The fabricated prototype was mounted on an electrodynamic vibration generator",
+        "section": "IV. EXPERIMENTAL RESULTS AND DISCUSSION",
+        "source_type": "section"
+      }
+    },
+    "load": {
+      "load_resistance_ohm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      }
+    },
+    "output": {
+      "resonant_frequency_Hz": {
+        "quote": "second resonance frequency decreased from 54 to 51 Hz",
+        "section": "IV. EXPERIMENTAL RESULTS AND DISCUSSION",
+        "source_type": "section"
+      },
+      "output_power_W": {
+        "quote": "peak power at the second resonance frequency was increased from 904.5 to 2735.6 uW",
+        "section": "IV. EXPERIMENTAL RESULTS AND DISCUSSION",
+        "source_type": "section"
+      },
+      "open_circuit_voltage_V": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "short_circuit_current_A": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "bandwidth_Hz": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      }
+    }
+  }
+}

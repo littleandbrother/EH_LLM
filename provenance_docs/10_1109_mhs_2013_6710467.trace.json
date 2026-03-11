@@ -1,0 +1,28 @@
+{
+  "paper_id": "10_1109_mhs_2013_6710467",
+  "doi": "10.1109/mhs.2013.6710467",
+  "title": "Modeling of metal-based piezoelectric MEMS energy harvesters",
+  "source_apis": [
+    "both"
+  ],
+  "pdf_url": "",
+  "pdf_local_path": "data_registry/raw_stage04_paper_pdf_cleaned/10_1109_mhs_2013_6710467.pdf",
+  "processing": {
+    "tool": "MinerU",
+    "version": "python -m mineru.cli.client, version 2.7.6",
+    "timestamp": "2026-03-10T10:04:24.558599+00:00",
+    "duration_s": 69.6,
+    "success": true,
+    "error": ""
+  },
+  "outputs": {
+    "content_md": "/root/EH-LLM-vehbench-exp/parsed_docs/10_1109_mhs_2013_6710467_8o06gbay/content.md",
+    "layout_json": "/root/EH-LLM-vehbench-exp/parsed_docs/10_1109_mhs_2013_6710467_8o06gbay/layout.json",
+    "images_dir": "/root/EH-LLM-vehbench-exp/parsed_docs/10_1109_mhs_2013_6710467_8o06gbay/10_1109_mhs_2013_6710467/auto/images",
+    "normalized_json": "/root/EH-LLM-vehbench-exp/normalized_docs/10_1109_mhs_2013_6710467.json"
+  },
+  "data_lineage": {
+    "papers_jsonl_hash": "582b2bbcc11d8a7301358a8202126116",
+    "pipeline_step": "ingestion/mineru_runner.py"
+  }
+}

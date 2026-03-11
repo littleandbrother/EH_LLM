@@ -1,0 +1,147 @@
+{
+  "metadata": {
+    "paper_id": "10_1109_ultsym_2009_5441676",
+    "doi": "10.1109/ultsym.2009.5441676",
+    "title": "Free-standing thick-film piezoelectric multimorph cantilevers for energy harvesting",
+    "year": 2009,
+    "journal": "2009 IEEE International Ultrasonics Symposium"
+  },
+  "configuration": "cantilever",
+  "proof_mass": null,
+  "geometry": {
+    "length_mm": 18,
+    "width_mm": 9,
+    "thickness_mm": null,
+    "substrate_thickness_um": null,
+    "piezo_thickness_um": 40,
+    "tip_mass_g": null,
+    "diameter_mm": null
+  },
+  "excitation": {
+    "type": "vibration",
+    "frequency_Hz": 400,
+    "acceleration_g": 5.1,
+    "displacement_mm": null,
+    "motion_source": "shaker"
+  },
+  "load": {
+    "load_resistance_ohm": 38000
+  },
+  "output": {
+    "resonant_frequency_Hz": 400,
+    "output_power_W": 4.2e-05,
+    "open_circuit_voltage_V": null,
+    "short_circuit_current_A": null,
+    "bandwidth_Hz": null
+  },
+  "evidence": {
+    "configuration": {
+      "quote": "multimorph cantilever structure",
+      "section": "Free-Standing Thick-Film Piezoelectric Multimorph Cantilevers for energy harvesting",
+      "source_type": "abstract"
+    },
+    "proof_mass": {
+      "quote": null,
+      "section": null,
+      "source_type": null
+    },
+    "geometry": {
+      "length_mm": {
+        "quote": "PZT Length 18",
+        "section": "III. EXPERIMENT SETUP",
+        "source_type": "table"
+      },
+      "width_mm": {
+        "quote": "PZT Width 9",
+        "section": "III. EXPERIMENT SETUP",
+        "source_type": "table"
+      },
+      "thickness_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "substrate_thickness_um": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "piezo_thickness_um": {
+        "quote": "equal thickness 40 um",
+        "section": "Free-Standing Thick-Film Piezoelectric Multimorph Cantilevers for energy harvesting",
+        "source_type": "abstract"
+      },
+      "tip_mass_g": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "diameter_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      }
+    },
+    "excitation": {
+      "type": {
+        "quote": "sinusoidal vibration",
+        "section": "III. EXPERIMENT SETUP",
+        "source_type": "section"
+      },
+      "frequency_Hz": {
+        "quote": "resonant frequency of 400 Hz",
+        "section": "Free-Standing Thick-Film Piezoelectric Multimorph Cantilevers for energy harvesting",
+        "source_type": "abstract"
+      },
+      "acceleration_g": {
+        "quote": "constant acceleration level of 50 m/s^2",
+        "section": "I. INTRODUCTION",
+        "source_type": "section"
+      },
+      "displacement_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "motion_source": {
+        "quote": "A shaker was used to excite the multimorph samples",
+        "section": "I. INTRODUCTION",
+        "source_type": "section"
+      }
+    },
+    "load": {
+      "load_resistance_ohm": {
+        "quote": "load resistance of 38 k Ohm",
+        "section": "IV. EXPERIMENTAL RESULTS AND DISCUSSION",
+        "source_type": "section"
+      }
+    },
+    "output": {
+      "resonant_frequency_Hz": {
+        "quote": "resonant frequency of 400 Hz",
+        "section": "Free-Standing Thick-Film Piezoelectric Multimorph Cantilevers for energy harvesting",
+        "source_type": "abstract"
+      },
+      "output_power_W": {
+        "quote": "optimum output power of 42 uW",
+        "section": "Free-Standing Thick-Film Piezoelectric Multimorph Cantilevers for energy harvesting",
+        "source_type": "abstract"
+      },
+      "open_circuit_voltage_V": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "short_circuit_current_A": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "bandwidth_Hz": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      }
+    }
+  }
+}

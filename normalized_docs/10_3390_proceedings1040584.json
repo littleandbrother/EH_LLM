@@ -1,0 +1,77 @@
+{
+  "paper_id": "10_3390_proceedings1040584",
+  "doi": "10.3390/proceedings1040584",
+  "title": "Bulk PZT Cantilever Based MEMS Acoustic Transducer for Cochlear Implant Applications",
+  "year": 2017,
+  "venue": "",
+  "authors": [
+    "Aziz Koyuncuoğlu",
+    "Bedirhan İlik",
+    "Salar Chamanian",
+    "Hasan Uluşan",
+    "Parinaz Ashrafi",
+    "Dilek Işık",
+    "Haluk Külah"
+  ],
+  "citation_count": 16,
+  "sections": [
+    {
+      "heading": "Proceedings Bulk PZT Cantilever Based MEMS Acoustic Transducer for Cochlear Implant Applications",
+      "level": 1,
+      "text": "Aziz Koyuncuoğlu 1,2, Bedirhan İlik 1,3, Salar Chamanian 1,3, Hasan Uluşan 1,3, Parinaz Ashrafi 1, Dilek Işık 1 and Haluk Külah $^ { 1 , 2 , 3 , * }$\n\n1 METU-MEMS Research and Application Center, Middle East Technical University, Ankara, Turkey; akoyuncuoglu@mems.metu.edu.tr (A.K.); bilik@mems.metu.edu.tr (B.I.); schamanian@mems.metu.edu.tr (S.C.); hulusan@mems.metu.edu.tr (H.U.); pashrafi@mems.metu.edu.tr (P.A.); disik@mems.metu.edu.tr (D.I.)   \n2 Micro Nano Technology Graduate Program, Middle East Technical University, Ankara, Turkey   \n3 Department of Electrical and Electronics Engineering, Middle East Technical University, Ankara, Turkey   \n\\* Correspondence: kulah@metu.edu.tr; Tel.: $+ 9 0$ -321-210-2345   \n† Presented at the Eurosensors 2017 Conference, Paris, France, 3–6 September 2017.\n\nPublished: 11 August 2017\n\nAbstract: This paper presents the first acoustic experimental results of a MEMS based bulk piezoelectric transducer for use in fully implantable cochlear implants (FICI). For this purpose, the transducer was attached onto an acoustically vibrating membrane. Sensing and energy harvesting performances were measured using neural stimulation and rectifier circuits, respectively. The chip has a $1 5 0 ~ \\mathrm { H z }$ bandwidth around $1 8 0 0 ~ \\mathrm { H z }$ resonance frequency that is suitable for mechanical filtering as a sensor. As an energy harvester, bulk piezoelectric transducer generated a rectified power of $1 6 . 2 5 ~ \\mu \\mathrm { W }$ with $2 . 4 7 ~ \\mathrm { V _ { D C } }$ with 120 dB-A sound input at $1 7 8 0 ~ \\mathrm { H z }$ . Among other MEMS acoustic energy harvesters in the literature, reported transducer has the highest power density $( 1 . 5 \\times 1 0 ^ { - 3 } \\mathrm { W } / \\mathrm { c m } ^ { 3 } )$ to our knowledge.\n\nKeywords: energy harvesting; bulk PZT; acoustic energy harvesting; cochlear implants"
+    },
+    {
+      "heading": "1. Introduction",
+      "level": 1,
+      "text": "Cochlea is a key organ in the inner ear which converts the mechanical waves of the incoming sound into electrical signals for the auditory nerves. Any damage in cochlea would result problems with the sensorineural connections in the inner ear and cause severe hearing loss. There are approximately 360 million people living with disabling hearing loss greater than 40 dB SPL (sound pressure level) as of 2015 [1]. Cochlear implants (CI) are used by such patients to bypass the damaged hair cells or other components of cochlea and directly stimulate the nerve cells. However, current state of the art CI systems have several drawbacks such as frequent battery replacement requirement or risk of external components damage under water. Fully implantable CI systems have the potential to eliminate many of the problems, but a reliable internal power source and an implantable acoustic sensor are the main bottlenecks. One alternative is powering the implant with the incoming acoustic wave using an energy harvester.\n\nPrevious research on the acoustic piezoelectric energy harvesters focuses on diaphragm structures with a cavity to scavenge sound power. Up to $9 . 8 \\mathrm { n W } / \\mathrm { c m } ^ { 2 }$ of power density was reported at 100 dB-SPL using thin film lead-zirconate-titanate (PZT) MEMS acoustic energy harvesters [2]. A piezoelectric cantilever array reported by Jang et al. uses thin film AlN piezoelectric transducers [3], but the generated voltage is on the order of $5 0 \\mu \\mathrm { V }$ and requires an external power source for neural stimulation. In a previous study of our group, Beker et al. theoretically investigated the bulk piezoelectric energy harvesters attached on a flat ear drum model and verified the efficiency of using bulk PZT for power generation in CIs [4].\n\nThis study presents MEMS piezoelectric cantilever structures on a membrane as an acoustic transducer. Both energy harvesting and acoustic sensing characteristics were determined."
+    },
+    {
+      "heading": "2. Materials and Methods",
+      "level": 1,
+      "text": "Many of the MEMS piezoelectric energy harvesting systems in the literature are composed of a cantilever structure with a tip mass at the free end [4]. Base of the cantilever is attached to a vibration source and a piezoelectric layer is placed on the cantilever. In our case, for using the piezoelectric harvester with an acoustic source, the harvester chip is attached on a flexible membrane similar to tympanic membrane in actual ear.\n\nFigure 1 shows the schematics of proposed system attached on a membrane and the acoustic test setup. Sound pressure at the inlet of the test canal is measured with a sound level meter. Calibration of the loudspeaker and dB-meter were done in an anechoic room. Signal generator output is adjusted for each frequency. A circuit with custom off-chip components and a microcontroller is used for generating biphasic neural stimulation signal with the piezoelectric transducer output. A simple rectifier circuit is used for power generation.\n\nFigure 2 shows the fabrication process flows of the transducer that is based on the SOI-wafer technology (2a) and the parylene carrier (2b). Bulk PZT chip is bonded on an SOI-wafer by AuIn transient liquid phase (TLP) bonding and, subsequently thinned down to $5 0 \\mu \\mathrm { m }$ by lapping. Active and handle layers of the SOI wafer $3 0 \\mu \\mathrm { m }$ and $3 0 0 \\mu \\mathrm { m } $ ) define the cantilever and tip mass thicknesses, respectively. DRIE is used for cantilever formation. A parylene layer $( 2 0 ~ \\mu \\mathrm { m } )$ with gold contacts is used as carrier.\n\n![](images/f36b0fcd115e944f1cbf6c7b29af0fec00d8b30fcf36f69ff04efac64e8df633.jpg)  \nFigure 1. (a) Schematic view of the piezoelectric transducer on the ear drum mimicking membrane. Parylene carrier is attached onto the membrane with a double-sided tape; (b) Schematic view of the acoustic test setup.\n\nThe piezoelectric chip is fixed with epoxy on the flexible parylene carrier prior to attaching the device on the vibrating membrane. Epoxy bumps prevent the tip mass from contacting the membrane surface while vibrating. Electrical connections are established using wire bonding and conductive epoxy. A ${ \\sim } 4 0 ~ \\mu \\mathrm { m }$ thick parylene film is used as the ear drum mimicking vibrating membrane. The membrane is placed at the end of a hollow tube with $9 \\mathrm { m m }$ diameter and $3 . 5 \\mathrm { c m }$ length, similar to ear drum and ear canal dimensions respectively. Figure 3 shows the actual test chip attached on parylene carrier and the vibrating membrane on hollow tube.\n\n![](images/399aa1b15cb1797f975ad681538d412cc7384ebf8ed33b0cb998e624bf893aa9.jpg)  \nFigure 2. Fabrication flow of the piezoelectric transducer (a) and flexible parylene carrier (b). SOI wafer has a $3 0 \\mu \\mathrm { m }$ device layer, $2 \\mu \\mathrm { m }$ buried oxide and $3 0 0 \\mu \\mathrm { m }$ handle layer. Parylene thickness of the carrier is $2 0 \\mu \\mathrm { m }$ .\n\n![](images/bfc1a6f2929d61659154eb460a370f78133a2057b0e0583667c5b48fcf8dabcc.jpg)  \nFigure 3. (a) Flexible parylene carrier before and after chip attachment; (b) Side view of the attached chip with epoxy bumps; (c) Chip and carrier placed on the vibrating membrane on hollow tube. Electrical connections are made with a zero-insertion-force (ZIF) connector."
+    },
+    {
+      "heading": "3. Results",
+      "level": 1,
+      "text": "Acoustic tests at different sound levels and resistive loading conditions were done. Figure 4 shows the overall test results. $1 . 5 1 ~ \\mathrm { V } _ { \\mathrm { r m s } }$ output was obtained under 120 dB-A acoustic input at the inlet of the canal around $1 7 8 0 \\mathrm { H z }$ resonance frequency with a $1 5 0 \\mathrm { H z }$ bandwidth. Generated voltage is sufficient for the state of the art signal processing circuits of the CIs $( 6 ~ \\mathrm { m V }$ at 90 dB SPL [5]). Maximum rectified DC output power was $1 6 . 2 5 \\mu \\mathrm { W }$ with an open circuit voltage of $2 . 4 7 \\mathrm { V } _ { \\mathrm { D C } }$ . Among other MEMS acoustic energy harvesters in the literature, reported transducer has the highest power density $( 1 . 5 \\times 1 0 ^ { - 3 } \\mathrm { W } / \\mathrm { c m } ^ { 3 } )$ ) to our knowledge [6].\n\n![](images/2ae376bff139e313bcb8a321471d849d223f4c705b4ac56967d95c05296a08c8.jpg)  \nFigure 4. (a) Measured frequency sweep results of the prototype chip. Inset is the stimulation signals (biphasic, $1 \\mathrm { k H z }$ ) of $1 . 8 \\mathrm { k H z }$ input at 80, 90 and $1 0 0 \\mathrm { d B }$ ; (b) Rectified power and voltage at $1 7 8 0 \\ \\mathrm { H z }$ 120 dB-A sound input. Maximum power is $1 6 . 2 5 \\mu W$ with $2 . 4 7 \\mathrm { V o c }$ ."
+    },
+    {
+      "heading": "3. Discussion and Conclusions",
+      "level": 1,
+      "text": "First experimental results of a bulk PZT based MEMS acoustic energy harvester on a vibrating membrane for fully implantable cochlear implant systems have been presented. The obtained power density is highest among the MEMS scale acoustic harvesters in the literature. It is shown that the chip can also be used for nerve stimulation using a biphasic signal generating circuit. These results indicate that the chip can produce power for supplementing a FICI battery while providing acoustic sensing signal with good frequency selectivity.\n\nAcknowledgments: This work is realized in the scope of FLAMENCO project which is supported by 2015 ERC Consolidator Grant. First author is supported by the Scientific and Technological Research Council of Turkey (TUBITAK) Graduate Scholarship Program.\n\nConflicts of Interest: The authors declare no conflict of interest."
+    },
+    {
+      "heading": "References",
+      "level": 1,
+      "text": "1. Cosetti, M.K.; Waltzman, S.B. Cochlear implants: Current status and future potential. Expert Rev. Med. Devices 2014, 8, 389–401.   \n2. Tomioka, S.; Kimura, S.; Tsujimoto, K.; Iizumi, S.; Uchida, Y.; Tomii, K.; Matsuda, T.; Nishioka, Y. Lead-Zirconate-Titanate Acoustic Energy Harvesters with Dual Top Electrodes. Jpn. J. Appl. Phys. 2011, 50, 09ND16.   \n3. Jang, J.; Lee, J.; Woo, S.; Sly, D.J.; Campbell, L.J.; Cho, J.-H.; O’Leary, S.J.; Park, M.-H.; Han, S.; Choi, J.-W.; et al. A microelectromechanical system artificial basilar membrane based on a piezoelectric cantilever array and its characterization using an animal model. Sci. Rep. 2015, 5, 12447.   \n4. Beker, L.; Zorlu, O.; Goksu, N.; Kulah, H. Stimulating auditory nerve with MEMS harvesters for fully implantable and self-powered cochlear implants. In Proceedings of the IEEE 17th International Conference on Solid-State Sensors, Actuators and Microsystems (TRANSDUCERS & EUROSENSORS XXVII), Barcelona, Spain, 16–20 June 2013; pp. 1663–1666.   \n5. Yip, M.; Jin, R.; Nakajima, H.H.; Stankovic, K.M.; Chandrakasan, A.P. A Fully-Implantable Cochlear Implant SoC with Piezoelectric Middle-Ear Sensor and Arbitrary Waveform Neural Stimulation. IEEE J. Solid-State Circuits 2014, 50, 214–229.   \n6. Khan, F.U. Izhar State of the art in acoustic energy harvesting. J. Micromech. Microeng. 2016, 25, 023001.\n\n$©$ 2017 by the authors. Licensee MDPI, Basel, Switzerland. This article is an open access article distributed under the terms and conditions of the Creative Commons Attribution (CC BY) license (http://creativecommons.org/licenses/by/4.0/)."
+    }
+  ],
+  "tables": [],
+  "figures": [
+    {
+      "page": -1,
+      "caption": "",
+      "path": "images/f36b0fcd115e944f1cbf6c7b29af0fec00d8b30fcf36f69ff04efac64e8df633.jpg"
+    },
+    {
+      "page": -1,
+      "caption": "",
+      "path": "images/399aa1b15cb1797f975ad681538d412cc7384ebf8ed33b0cb998e624bf893aa9.jpg"
+    },
+    {
+      "page": -1,
+      "caption": "",
+      "path": "images/bfc1a6f2929d61659154eb460a370f78133a2057b0e0583667c5b48fcf8dabcc.jpg"
+    },
+    {
+      "page": -1,
+      "caption": "",
+      "path": "images/2ae376bff139e313bcb8a321471d849d223f4c705b4ac56967d95c05296a08c8.jpg"
+    }
+  ],
+  "metadata": {
+    "source": "openalex",
+    "pdf_url": "https://www.mdpi.com/2504-3900/1/4/584/pdf?version=1504663980",
+    "parsed_at": "2026-03-10T09:51:21.057750+00:00"
+  }
+}

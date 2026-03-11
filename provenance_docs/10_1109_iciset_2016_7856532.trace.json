@@ -1,0 +1,28 @@
+{
+  "paper_id": "10_1109_iciset_2016_7856532",
+  "doi": "10.1109/iciset.2016.7856532",
+  "title": "Design and simulation of piezoelectric cantilever beam based on mechanical vibration for energy harvesting application",
+  "source_apis": [
+    "openalex"
+  ],
+  "pdf_url": "",
+  "pdf_local_path": "data_registry/raw_stage04_paper_pdf_cleaned/10_1109_iciset_2016_7856532.pdf",
+  "processing": {
+    "tool": "MinerU",
+    "version": "python -m mineru.cli.client, version 2.7.6",
+    "timestamp": "2026-03-10T10:20:13.843423+00:00",
+    "duration_s": 67.04,
+    "success": true,
+    "error": ""
+  },
+  "outputs": {
+    "content_md": "/root/EH-LLM-vehbench-exp/parsed_docs/10_1109_iciset_2016_7856532_je9xa0ou/content.md",
+    "layout_json": "/root/EH-LLM-vehbench-exp/parsed_docs/10_1109_iciset_2016_7856532_je9xa0ou/layout.json",
+    "images_dir": "/root/EH-LLM-vehbench-exp/parsed_docs/10_1109_iciset_2016_7856532_je9xa0ou/10_1109_iciset_2016_7856532/auto/images",
+    "normalized_json": "/root/EH-LLM-vehbench-exp/normalized_docs/10_1109_iciset_2016_7856532.json"
+  },
+  "data_lineage": {
+    "papers_jsonl_hash": "58e930c3871d6a77744e3e64cb2377cd",
+    "pipeline_step": "ingestion/mineru_runner.py"
+  }
+}

@@ -1,0 +1,147 @@
+{
+  "metadata": {
+    "paper_id": "10_1109_jmems_2012_2213069",
+    "doi": "10.1109/jmems.2012.2213069",
+    "title": "Comparison of MEMS PZT Cantilevers Based on $d_{31}$  and $d_{33}$ Modes for Vibration Energy Harvesting",
+    "year": 2012,
+    "journal": "Journal of Microelectromechanical Systems"
+  },
+  "configuration": "cantilever",
+  "proof_mass": true,
+  "geometry": {
+    "length_mm": 3.0,
+    "width_mm": 1.0,
+    "thickness_mm": 0.021,
+    "substrate_thickness_um": 20.0,
+    "piezo_thickness_um": 1.0,
+    "tip_mass_g": null,
+    "diameter_mm": null
+  },
+  "excitation": {
+    "type": "vibration",
+    "frequency_Hz": 243.0,
+    "acceleration_g": 0.5,
+    "displacement_mm": null,
+    "motion_source": null
+  },
+  "load": {
+    "load_resistance_ohm": 9880.0
+  },
+  "output": {
+    "resonant_frequency_Hz": 243.0,
+    "output_power_W": 2.15e-06,
+    "open_circuit_voltage_V": null,
+    "short_circuit_current_A": null,
+    "bandwidth_Hz": null
+  },
+  "evidence": {
+    "configuration": {
+      "quote": "Both types of devices have the same dimensions in a cantilever structure",
+      "section": "Comparison of MEMS PZT Cantilevers Based on d31 and $d _ { 3 3 }$ Modes for Vibration Energy Harvesting",
+      "source_type": "abstract"
+    },
+    "proof_mass": {
+      "quote": "The cantilever and proof mass were defined by reactive ion etching.",
+      "section": "II. DEVICE FABRICATION AND CHARACTERIZATION",
+      "source_type": "section"
+    },
+    "geometry": {
+      "length_mm": {
+        "quote": "The dimensions of the cantilever were 1000 $\\mu$m $\\times$ 3000 $\\mu$m $\\times$ 21 $\\mu$m",
+        "section": "II. DEVICE FABRICATION AND CHARACTERIZATION",
+        "source_type": "section"
+      },
+      "width_mm": {
+        "quote": "The dimensions of the cantilever were 1000 $\\mu$m $\\times$ 3000 $\\mu$m $\\times$ 21 $\\mu$m",
+        "section": "II. DEVICE FABRICATION AND CHARACTERIZATION",
+        "source_type": "section"
+      },
+      "thickness_mm": {
+        "quote": "The dimensions of the cantilever were 1000 $\\mu$m $\\times$ 3000 $\\mu$m $\\times$ 21 $\\mu$m",
+        "section": "II. DEVICE FABRICATION AND CHARACTERIZATION",
+        "source_type": "section"
+      },
+      "substrate_thickness_um": {
+        "quote": "20-$\\mu$m-thick Si device layer",
+        "section": "II. DEVICE FABRICATION AND CHARACTERIZATION",
+        "source_type": "section"
+      },
+      "piezo_thickness_um": {
+        "quote": "1 $\\mu$m-thick PZT",
+        "section": "II. DEVICE FABRICATION AND CHARACTERIZATION",
+        "source_type": "section"
+      },
+      "tip_mass_g": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "diameter_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      }
+    },
+    "excitation": {
+      "type": {
+        "quote": "converted from vibration",
+        "section": "Comparison of MEMS PZT Cantilevers Based on d31 and $d _ { 3 3 }$ Modes for Vibration Energy Harvesting",
+        "source_type": "abstract"
+      },
+      "frequency_Hz": {
+        "quote": "The resonant frequencies of the cantilevers are 243 Hz",
+        "section": "Comparison of MEMS PZT Cantilevers Based on d31 and $d _ { 3 3 }$ Modes for Vibration Energy Harvesting",
+        "source_type": "abstract"
+      },
+      "acceleration_g": {
+        "quote": "0.5–g vibration",
+        "section": "II. DEVICE FABRICATION AND CHARACTERIZATION",
+        "source_type": "section"
+      },
+      "displacement_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "motion_source": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      }
+    },
+    "load": {
+      "load_resistance_ohm": {
+        "quote": "optimum resistance values to obtain maximum power were 9.88 k$\\Omega$ for $d_{31}$",
+        "section": "IV. RESULT AND DISCUSSION",
+        "source_type": "section"
+      }
+    },
+    "output": {
+      "resonant_frequency_Hz": {
+        "quote": "The resonant frequencies of the cantilevers are 243 Hz",
+        "section": "Comparison of MEMS PZT Cantilevers Based on d31 and $d _ { 3 3 }$ Modes for Vibration Energy Harvesting",
+        "source_type": "abstract"
+      },
+      "output_power_W": {
+        "quote": "The output power of the $d_{31}$ mode PEH was 2.15 $\\mu$W",
+        "section": "Comparison of MEMS PZT Cantilevers Based on d31 and $d _ { 3 3 }$ Modes for Vibration Energy Harvesting",
+        "source_type": "abstract"
+      },
+      "open_circuit_voltage_V": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "short_circuit_current_A": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "bandwidth_Hz": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      }
+    }
+  }
+}

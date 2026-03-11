@@ -1,0 +1,147 @@
+{
+  "metadata": {
+    "paper_id": "10_1063_5_0002400",
+    "doi": "10.1063/5.0002400",
+    "title": "Fabrication and performance of Tile transducers for piezoelectric energy harvesting",
+    "year": 2020,
+    "journal": "AIP Advances"
+  },
+  "configuration": "other",
+  "proof_mass": false,
+  "geometry": {
+    "length_mm": 40,
+    "width_mm": 20,
+    "thickness_mm": 4,
+    "substrate_thickness_um": 2000,
+    "piezo_thickness_um": 4000,
+    "tip_mass_g": null,
+    "diameter_mm": null
+  },
+  "excitation": {
+    "type": "vibration",
+    "frequency_Hz": 6,
+    "acceleration_g": null,
+    "displacement_mm": null,
+    "motion_source": "traffic load"
+  },
+  "load": {
+    "load_resistance_ohm": 3200000
+  },
+  "output": {
+    "resonant_frequency_Hz": 6,
+    "output_power_W": 0.00565,
+    "open_circuit_voltage_V": 222,
+    "short_circuit_current_A": 0.0001,
+    "bandwidth_Hz": null
+  },
+  "evidence": {
+    "configuration": {
+      "quote": "A new type of Tile transducer for roadway applications was developed",
+      "section": "ABSTRACT",
+      "source_type": "abstract"
+    },
+    "proof_mass": {
+      "quote": "combination with an elastic metal base",
+      "section": "ABSTRACT",
+      "source_type": "abstract"
+    },
+    "geometry": {
+      "length_mm": {
+        "quote": "Tile ... 40",
+        "section": "TABLE II. Geometric dimensions of the Tile and Plane transducers.",
+        "source_type": "table"
+      },
+      "width_mm": {
+        "quote": "Tile ... 20",
+        "section": "TABLE II. Geometric dimensions of the Tile and Plane transducers.",
+        "source_type": "table"
+      },
+      "thickness_mm": {
+        "quote": "Tile ... 4",
+        "section": "TABLE II. Geometric dimensions of the Tile and Plane transducers.",
+        "source_type": "table"
+      },
+      "substrate_thickness_um": {
+        "quote": "thickness was 2 mm",
+        "section": "A. Transducer fabrication process",
+        "source_type": "section"
+      },
+      "piezo_thickness_um": {
+        "quote": "Tile ... 4",
+        "section": "TABLE II. Geometric dimensions of the Tile and Plane transducers.",
+        "source_type": "table"
+      },
+      "tip_mass_g": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "diameter_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      }
+    },
+    "excitation": {
+      "type": {
+        "quote": "Laboratory tests were performed on Tile transducers",
+        "section": "ABSTRACT",
+        "source_type": "abstract"
+      },
+      "frequency_Hz": {
+        "quote": "excitation frequency was 6 Hz",
+        "section": "ABSTRACT",
+        "source_type": "abstract"
+      },
+      "acceleration_g": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "displacement_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "motion_source": {
+        "quote": "action of traffic load",
+        "section": "ABSTRACT",
+        "source_type": "abstract"
+      }
+    },
+    "load": {
+      "load_resistance_ohm": {
+        "quote": "3.2 MOhm",
+        "section": "C. Output power under various load resistances",
+        "source_type": "section"
+      }
+    },
+    "output": {
+      "resonant_frequency_Hz": {
+        "quote": "excitation frequency was 6 Hz",
+        "section": "ABSTRACT",
+        "source_type": "abstract"
+      },
+      "output_power_W": {
+        "quote": "5.65 mW",
+        "section": "ABSTRACT",
+        "source_type": "abstract"
+      },
+      "open_circuit_voltage_V": {
+        "quote": "222 V",
+        "section": "A. Open circuit voltage",
+        "source_type": "section"
+      },
+      "short_circuit_current_A": {
+        "quote": "100 uA",
+        "section": "B. Short circuit current",
+        "source_type": "section"
+      },
+      "bandwidth_Hz": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      }
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "paper_id": "10_1109_jmems_2019_2920213",
+  "doi": "10.1109/jmems.2019.2920213",
+  "title": "Design, Fabrication, and Characterization of Bimorph Micromachined Harvester With Asymmetrical PZT Films",
+  "source_apis": [
+    "openalex"
+  ],
+  "pdf_url": "",
+  "pdf_local_path": "data_registry/raw_stage04_paper_pdf_cleaned/10_1109_jmems_2019_2920213.pdf",
+  "processing": {
+    "tool": "MinerU",
+    "version": "python -m mineru.cli.client, version 2.7.6",
+    "timestamp": "2026-03-10T09:47:48.031809+00:00",
+    "duration_s": 75.77,
+    "success": true,
+    "error": ""
+  },
+  "outputs": {
+    "content_md": "/root/EH-LLM-vehbench-exp/parsed_docs/10_1109_jmems_2019_2920213_7y4jw5eg/content.md",
+    "layout_json": "/root/EH-LLM-vehbench-exp/parsed_docs/10_1109_jmems_2019_2920213_7y4jw5eg/layout.json",
+    "images_dir": "/root/EH-LLM-vehbench-exp/parsed_docs/10_1109_jmems_2019_2920213_7y4jw5eg/10_1109_jmems_2019_2920213/auto/images",
+    "normalized_json": "/root/EH-LLM-vehbench-exp/normalized_docs/10_1109_jmems_2019_2920213.json"
+  },
+  "data_lineage": {
+    "papers_jsonl_hash": "159c7adda55da50b6a336178a2ec949b",
+    "pipeline_step": "ingestion/mineru_runner.py"
+  }
+}

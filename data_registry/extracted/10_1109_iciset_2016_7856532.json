@@ -1,0 +1,147 @@
+{
+  "metadata": {
+    "paper_id": "10_1109_iciset_2016_7856532",
+    "doi": "10.1109/iciset.2016.7856532",
+    "title": "Design and simulation of piezoelectric cantilever beam based on mechanical vibration for energy harvesting application",
+    "year": 2016,
+    "journal": null
+  },
+  "configuration": "cantilever",
+  "proof_mass": false,
+  "geometry": {
+    "length_mm": 15.0,
+    "width_mm": 2.5,
+    "thickness_mm": null,
+    "substrate_thickness_um": 100.0,
+    "piezo_thickness_um": 30.0,
+    "tip_mass_g": null,
+    "diameter_mm": null
+  },
+  "excitation": {
+    "type": "vibration",
+    "frequency_Hz": 345.75,
+    "acceleration_g": 1.0,
+    "displacement_mm": 0.0709,
+    "motion_source": "ambient vibration"
+  },
+  "load": {
+    "load_resistance_ohm": 12600.0
+  },
+  "output": {
+    "resonant_frequency_Hz": 345.75,
+    "output_power_W": 1.485e-05,
+    "open_circuit_voltage_V": null,
+    "short_circuit_current_A": null,
+    "bandwidth_Hz": null
+  },
+  "evidence": {
+    "configuration": {
+      "quote": "piezoelectric cantilever beam",
+      "section": "Abstract",
+      "source_type": "abstract"
+    },
+    "proof_mass": {
+      "quote": "The piezoelectric cantilever beam was consisted of copper substrate, two piezoelectric layers, and a base.",
+      "section": "Abstract",
+      "source_type": "abstract"
+    },
+    "geometry": {
+      "length_mm": {
+        "quote": "dimension (length x width x thickness in mm) of copper substrate was 15 x 2.5 x 0.1",
+        "section": "B. Design of PZT beam",
+        "source_type": "section"
+      },
+      "width_mm": {
+        "quote": "dimension (length x width x thickness in mm) of copper substrate was 15 x 2.5 x 0.1",
+        "section": "B. Design of PZT beam",
+        "source_type": "section"
+      },
+      "thickness_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "substrate_thickness_um": {
+        "quote": "dimension (length x width x thickness in mm) of copper substrate was 15 x 2.5 x 0.1",
+        "section": "B. Design of PZT beam",
+        "source_type": "section"
+      },
+      "piezo_thickness_um": {
+        "quote": "dimension (length x width x thickness in mm) of piezoelectric layers was 12 x 2.5 x 0.03",
+        "section": "B. Design of PZT beam",
+        "source_type": "section"
+      },
+      "tip_mass_g": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "diameter_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      }
+    },
+    "excitation": {
+      "type": {
+        "quote": "mechanical ambient vibration",
+        "section": "Abstract",
+        "source_type": "abstract"
+      },
+      "frequency_Hz": {
+        "quote": "resonant frequency of 345.75 Hz",
+        "section": "Abstract",
+        "source_type": "abstract"
+      },
+      "acceleration_g": {
+        "quote": "under the acceleration of 1 g",
+        "section": "Abstract",
+        "source_type": "abstract"
+      },
+      "displacement_mm": {
+        "quote": "maximum vertical displacement of 70.9 um",
+        "section": "Abstract",
+        "source_type": "abstract"
+      },
+      "motion_source": {
+        "quote": "mechanical ambient vibration",
+        "section": "Abstract",
+        "source_type": "abstract"
+      }
+    },
+    "load": {
+      "load_resistance_ohm": {
+        "quote": "at 12.6 kOhm",
+        "section": "Abstract",
+        "source_type": "abstract"
+      }
+    },
+    "output": {
+      "resonant_frequency_Hz": {
+        "quote": "resonant frequency of 345.75 Hz",
+        "section": "Abstract",
+        "source_type": "abstract"
+      },
+      "output_power_W": {
+        "quote": "maximum output power of 14.85 uw",
+        "section": "Abstract",
+        "source_type": "abstract"
+      },
+      "open_circuit_voltage_V": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "short_circuit_current_A": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "bandwidth_Hz": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      }
+    }
+  }
+}

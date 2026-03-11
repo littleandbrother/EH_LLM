@@ -1,0 +1,147 @@
+{
+  "metadata": {
+    "paper_id": "10_1088_1361_665x_ab3f47",
+    "doi": "10.1088/1361-665x/ab3f47",
+    "title": "A novel passive mechanism to improve power output in 2DOF piezoelectric vibration energy harvester",
+    "year": 2019,
+    "journal": "Smart materials and structures (Print)"
+  },
+  "configuration": "cantilever",
+  "proof_mass": true,
+  "geometry": {
+    "length_mm": 109.5,
+    "width_mm": 17.5,
+    "thickness_mm": 0.8,
+    "substrate_thickness_um": 500,
+    "piezo_thickness_um": 300,
+    "tip_mass_g": 0.58,
+    "diameter_mm": null
+  },
+  "excitation": {
+    "type": "vibration",
+    "frequency_Hz": 30.03,
+    "acceleration_g": null,
+    "displacement_mm": 0.05,
+    "motion_source": "mechanical shaker table"
+  },
+  "load": {
+    "load_resistance_ohm": 252000
+  },
+  "output": {
+    "resonant_frequency_Hz": 30.03,
+    "output_power_W": 0.00113,
+    "open_circuit_voltage_V": 41.3,
+    "short_circuit_current_A": null,
+    "bandwidth_Hz": 6.9
+  },
+  "evidence": {
+    "configuration": {
+      "quote": "Cantilevered piezoelectric vibration energy harvesters are usually operated in the first mode",
+      "section": "Abstract",
+      "source_type": "abstract"
+    },
+    "proof_mass": {
+      "quote": "tip mass of 0.58 gm",
+      "section": "3.1. Simulations in COMSOL multiphysics 3a",
+      "source_type": "section"
+    },
+    "geometry": {
+      "length_mm": {
+        "quote": "The dimension of copper substructure of 109.5 x 17.5 x 0.5 mm",
+        "section": "3.1. Simulations in COMSOL multiphysics 3a",
+        "source_type": "section"
+      },
+      "width_mm": {
+        "quote": "The dimension of copper substructure of 109.5 x 17.5 x 0.5 mm",
+        "section": "3.1. Simulations in COMSOL multiphysics 3a",
+        "source_type": "section"
+      },
+      "thickness_mm": {
+        "quote": "The dimension of copper substructure of 109.5 x 17.5 x 0.5 mm ... Dimensions of MFC: ... 0.3 mm",
+        "section": "3.1. Simulations in COMSOL multiphysics 3a",
+        "source_type": "section"
+      },
+      "substrate_thickness_um": {
+        "quote": "The dimension of copper substructure of 109.5 x 17.5 x 0.5 mm",
+        "section": "3.1. Simulations in COMSOL multiphysics 3a",
+        "source_type": "section"
+      },
+      "piezo_thickness_um": {
+        "quote": "Dimensions of MFC: Active dimensions: 28 x 14 x 0.3 mm",
+        "section": "3.1. Simulations in COMSOL multiphysics 3a",
+        "source_type": "section"
+      },
+      "tip_mass_g": {
+        "quote": "tip mass of 0.58 gm",
+        "section": "3.1. Simulations in COMSOL multiphysics 3a",
+        "source_type": "section"
+      },
+      "diameter_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      }
+    },
+    "excitation": {
+      "type": {
+        "quote": "vibration energy harvester",
+        "section": "Title",
+        "source_type": "title"
+      },
+      "frequency_Hz": {
+        "quote": "30.03",
+        "section": "Table 2",
+        "source_type": "table"
+      },
+      "acceleration_g": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "displacement_mm": {
+        "quote": "harmonic base excitation of amplitude 0.05 mm",
+        "section": "3.3. Instrumentation and interface",
+        "source_type": "section"
+      },
+      "motion_source": {
+        "quote": "mechanical shaker table",
+        "section": "2.3. Experimental verification of 1:1 four bar mechanism configuration",
+        "source_type": "section"
+      }
+    },
+    "load": {
+      "load_resistance_ohm": {
+        "quote": "1.13 mW at resistance of 252 kOhm",
+        "section": "3.5. Experimental study of 2DOF harvester",
+        "source_type": "section"
+      }
+    },
+    "output": {
+      "resonant_frequency_Hz": {
+        "quote": "30.03",
+        "section": "Table 2",
+        "source_type": "table"
+      },
+      "output_power_W": {
+        "quote": "1.13 mW",
+        "section": "3.5. Experimental study of 2DOF harvester",
+        "source_type": "section"
+      },
+      "open_circuit_voltage_V": {
+        "quote": "41.3 V",
+        "section": "3.5. Experimental study of 2DOF harvester",
+        "source_type": "section"
+      },
+      "short_circuit_current_A": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "bandwidth_Hz": {
+        "quote": "bandwidth of ... 2DOF harvester is measured as 6.9 Hz",
+        "section": "3.5. Experimental study of 2DOF harvester",
+        "source_type": "section"
+      }
+    }
+  }
+}

@@ -1,0 +1,143 @@
+{
+  "paper_id": "10_1117_12_885861",
+  "doi": "10.1117/12.885861",
+  "title": "Modeling and analysis of a micromachined piezoelectric energy harvester stimulated by ambient random vibrations",
+  "year": 2011,
+  "venue": "Proceedings of SPIE, the International Society for Optical Engineering/Proceedings of SPIE",
+  "authors": [
+    "A. B. Alamin Dow",
+    "Hasan A. Al-Rubaye",
+    "D. Koo",
+    "M. Schneider",
+    "A. Bittner",
+    "U. Schmid",
+    "N. Kherani",
+    "Ali B. Alamin Dow",
+    "Hasan Al-Rubaye",
+    "David Koo",
+    "Michael Schneider",
+    "Achim Bittner",
+    "Nazir P. Kherani"
+  ],
+  "citation_count": 5,
+  "sections": [
+    {
+      "heading": "Modeling and Analysis of a Micromachined Piezoelectric Energy Harvester Stimulated by Ambient Random Vibrations",
+      "level": 1,
+      "text": "Ali B. Alamin Dowa, Hasan A. Al-Rubayea, David Kooa, Michael Schneiderb, Achim Bittnerb, Ulrich Schmidb, Nazir P. Kherania\n\naDepartment of Electrical and Computer Engineering, University of Toronto, 10 Kings College Road, Toronto, ON M5S 3G4 Canada bDepartment for Microsystems Technology, Institute of Sensors and Actuator Systems, Vienna University of Technology, Floragasse 7, A-1040 Vienna, Austria"
+    },
+    {
+      "heading": "Abstract",
+      "level": 1,
+      "text": "Pzleci energy microgenerators are devis that continuousy enerate electricy when they re subjet varying mechanical strain due to vibrations. They can generate electrical power up to $1 0 0 \\mu \\mathrm { W }$ which can be used to drive varius sensing andactuating ME devices.Today piezoelectricenergy harvesters are considereautonomous and faciitymanagement and biomedical applicationsTheadvantageso piezoelectricenergy harvestersincludinhh ee uu owend  cat t paru e fvv maeal a cpaibiliyabelizat arteratsteh include sensors, actuators and energy storage. Piezoelectric MEMS energy microgenerator is used to capture and pae pe aieTv tve ic e  whiu mas e cBplnal avahe o   lu confidence in the model.\n\nKeywords: piezoelectricity, energy harvesting, modeling, vibration, AlN, MEMS."
+    },
+    {
+      "heading": "1. Introduction",
+      "level": 1,
+      "text": "T e h  u u crsaniu eeyeratolli patbil ols a  e exeveus harv hnl a  cr ecleh prnt  nalytimodeMEM aver bas pleateTeevcn Aiaveas\n\nThe model was implemented in MATLAB and Simulink. The results obtained from the model have bee compared and validated with experimental data [14]."
+    },
+    {
+      "heading": "2. Device Design and Structures",
+      "level": 1,
+      "text": "Ih fl nwic btween  metal electrode  apture elecril pow eted uponration iet c thus the electrical power.\n\n![](images/e95361d4e2bb9cc70e6d0c83c656f81177fb929294fcbf9158b33e8a14c78273.jpg)  \nFigure 1: Schematics of the energy harvester\n\n![](images/8a4a257d1ac750779d7c2af5ac571bfa04c7b3a2a7a3d03d5daca9c5956e11f0.jpg)  \nFigure 2: Vibrating beam"
+    },
+    {
+      "heading": "3. Electromechanical Modeling of the Device",
+      "level": 1,
+      "text": "Iu el l Applying Kirchhoff's current $( i )$ and voltage $\\boldsymbol { \\mathit { V } } )$ laws leads to the following relationships:\n\n$$\n\\begin{array} { l } { { \\sigma = L _ { m } \\ddot { S } + R _ { m } \\dot { S } + { } ^ { S } \\big / C _ { m } + n V _ { o u t } } } \\\\ { { \\ } } \\\\ { { i = C _ { p } \\dot { V } _ { o u t } + \\left. \\begin{array} { l } { { V _ { o u t } } } \\end{array} \\right| _ { R _ { L } } } } \\end{array}\n$$"
+    },
+    {
+      "heading": "Downloaded From: http://proceedings.spiedigitallibrary.org/on 05/15/2015 Terms of Use: http:/spiedl.orgterms",
+      "level": 1,
+      "text": "where $C _ { m }$ $\\begin{array} { r } { C _ { p } = \\frac { \\epsilon w L } { t } } \\end{array}$ solve these two equations, we need to develop mathematical expressions for the equivalent stress generator $( \\sigma )$ , the equivalent inductance of the generator mass $( L _ { m } )$ , the equivalent resistance of the mechanical damping $\\left( R _ { m } \\right)$ ,and the equivalent capacitance of the generator $( C _ { m } )$ . The average stress generated within the beam is directly proportional to the vibrational force $F$ with the proportionality constant $\\alpha _ { 1 }$ .\n\n$$\n\\sigma = \\alpha _ { 1 } F\n$$"
+    },
+    {
+      "heading": "Downloaded From: http://proceedings.spiedigitallibrary.org/on 05/15/2015 Terms of Use: http:/spiedl.orgterms",
+      "level": 1,
+      "text": "Next, a geometric constant $\\alpha _ { 2 }$ is defined which relates the strain $S$ within the beam to the displacement in $y .$ direction of the tip,\n\n$$\nz = \\alpha _ { 2 } S\n$$\n\nGiven that the harvester is studied in the 31 mode, we need to find the corresponding stress in the $x$ direction. The stress along this axis is given by,\n\n$$\n\\begin{array} { r } { \\sigma _ { x } = - \\frac { z ^ { \\prime } E } { \\rho ( x ) } } \\end{array}\n$$\n\nwhere $z { \\mathrm { ~ ~ } }$ is the distance from the neutral axis to the center of the piezoelectric material, $E$ is Young's modulus of the piezoelectric film and $\\rho ( x )$ is the radius of curvature. It has been assumed that stress in the piezoelectric material is small thickness of the film compared to its width.\n\n![](images/80e4c22e4019a45864be91945b37c2f0106125d46da4cca4758e92af2ad44dc4.jpg)  \nFigure 3: A schematic cross sectional view on the harvesting device\n\n![](images/173574ba1e0f04bf92b583b1f16d7f876c110992249927e767f10b3cc602226f.jpg)  \nFigure 4: Equivalent circuit diagram of the harvester\n\nThe radius of curvature can be evaluated by,\n\n$$\n\\begin{array} { r } { \\rho ( x ) = - \\frac { E I } { M ( x ) } } \\end{array}\n$$\n\nWhere the moment  inetia $\\begin{array} { r } { I \\approx \\frac { w h _ { 0 } ^ { 3 } } { 1 2 } . } \\end{array}$ is much greater than the corresponding value of the beam $h$ and that the width $w$ is uniform along the beam. In conclusion,\n\n$$\n\\begin{array} { r } { \\sigma _ { x } \\ = \\ \\frac { 1 } { l _ { e } } \\int _ { 0 } ^ { l _ { e } } \\frac { M ( x ) z ^ { \\prime } } { I } \\ d x } \\end{array}\n$$\n\nR a can be used to show that both the output current and voltage ratio are given, respectively, by\n\n$$\n\\begin{array} { l } { i = w L _ { e } d _ { 3 1 } E S } \\\\ { \\quad n = \\frac { - d _ { 3 1 } E } { t } } \\end{array}\n$$"
+    },
+    {
+      "heading": "Downloaded From: http://proceedings.spiedigitallibrary.org/on 05/15/2015 Terms of Use: http:/spiedl.orgterms",
+      "level": 1,
+      "text": "where $L _ { e }$ and $w$ are the length and width of the electrode, $d _ { 3 1 }$ is the piezoelectric strain constant in the 31-mode, and $t$ is t  h T resistor $R _ { m }$ is found to be equal to\n\n$$\nR _ { m } = \\alpha _ { 1 } \\alpha _ { 2 } b _ { m }\n$$\n\nThe damping coefficient can be evaluated using the expression $b _ { m } = 2 \\zeta w _ { n } m \\alpha _ { 1 }$ , where $w _ { n }$ is the natural frequency, $\\zeta$ is the damping ratio and $m$ is the mass of the proof-mass. The inductance $L _ { m }$ that relates the mechanical stress to the second-order derivative of the strain $\\ddot { S }$ is given by\n\n$$\nL _ { m } = \\alpha _ { 1 } \\alpha _ { 2 } m\n$$\n\nFinally, the geometrical constants are equal to\n\n$$\n\\begin{array} { r l } & { \\alpha _ { 1 } = \\frac { z ^ { \\prime } ( 2 L + L _ { 0 } - L _ { e } ) } { 2 I } } \\\\ & { \\alpha _ { 2 } = \\frac { L ^ { 2 } } { 3 z ^ { \\prime } } \\frac { 2 L + \\frac { 3 } { 2 } L _ { 0 } } { 2 L + L _ { 0 } - L _ { e } } } \\end{array}\n$$\n\nH\n\n$$\n\\begin{array} { r l } & { \\ddot { S } = \\frac { - E } { \\alpha _ { 1 } \\alpha _ { 2 } m } S - \\frac { b _ { m } } { m } \\dot { S } + \\frac { d _ { 3 1 } E } { t \\alpha _ { 1 } \\alpha _ { 2 } m } V _ { o u t } + \\frac { \\ddot { y } } { \\alpha _ { 2 } } } \\\\ & { \\dot { V } _ { o u t } = \\frac { t d _ { 3 1 } E } { \\epsilon } \\dot { S } + \\frac { V _ { o u t } } { R _ { L } C _ { p } } } \\end{array}\n$$"
+    },
+    {
+      "heading": "4. Results",
+      "level": 1,
+      "text": "u have been tested by the model. A thin film of AlN of $1 \\mu \\mathrm { m }$ thickness is used and the devices are operating in the 31- mThe nalytil eutis we plent  ATLABThe eatins  there ne arvest test are presented in table (1).\n\nTable 1: Results at $0 . 2 \\mathrm { g } \\mathrm { m } / \\mathrm { s } ^ { 2 }$ .   \n\n<table><tr><td>Specifications</td><td>DEV#1</td><td>DEV#2</td><td>DEV#3</td></tr><tr><td>Beam Width (mm)</td><td>3.0</td><td>5.0</td><td>7.0</td></tr><tr><td>Beam Length (mm)</td><td>1.31</td><td>1.01</td><td>0.90</td></tr><tr><td>Beam Thickness (μm)</td><td>45 ± 5</td><td>45 ± 5</td><td>45 ± 5</td></tr><tr><td>Mass Width (mm)</td><td>3.0</td><td>5.0</td><td>7.0</td></tr><tr><td>Mass Length (mm)</td><td>3.0</td><td>5.0</td><td>7.0</td></tr><tr><td>Mass Thickness (μm)</td><td>675</td><td>675</td><td>675</td></tr><tr><td>Experimental Resonant Frequency(Hz)</td><td>1050</td><td>573</td><td>355</td></tr><tr><td>Modeled Resonant Frequency (Hz)</td><td>1050.6</td><td>573.1</td><td>355.7</td></tr></table>"
+    },
+    {
+      "heading": "Downloaded From: http://proceedings.spiedigitallibrary.org/on 05/15/2015 Terms of Use: http:/spiedl.orgterms",
+      "level": 1,
+      "text": "valuexcellent arent isbtai betwee the modeled nexpemntl oant eqencs or l e deviTheotial eiancmxiu pow ansr oheoicaltite n cpar w pel valuThe h n eqy an  heund she be theoretically evaluated using [16]\n\n$$\nf _ { r e s } ^ { 2 } = f _ { n } ^ { 2 } ( 1 - 2 \\zeta ^ { 2 } )\n$$\n\nwhere $f _ { n }$ is the natural frequency of the beam which is equal to the resonant frequency in vacuum and $\\zeta$ is the air damping ratio.\n\n![](images/8e707f2d507569f5255e305750bb6a7707f07560d982ca4b49711475a2bfd0e5.jpg)  \nFigure 5: Power vs. Frequency (unpackaged device-1 at $0 . 2 { \\ } \\mathrm { g } )$\n\n![](images/bba3cfab349054a091be1494e1e8d638fdd6ed5bcccbff3104eea03825d06879.jpg)  \nFigure 6: Power vs. Frequency (unpackaged device-2 at $0 . 2 { \\ } \\mathrm { g } )$\n\nTh ul ho     ee n al  p H e avel by the model su s o sher s efecs. gu  hows thet power  the stm or fnt acceleration levels, where the generated power increases significantly when increasing acceleration values.\n\n![](images/0c2da4ab780f40dec69906afcd1c84f9a682eefb5a5ae75d47fe61b74f644e65.jpg)  \nFigure 7: Power versus load resistance (unpackaged device-2 at $0 . 2 5 \\mathrm { g }$ in air)\n\n![](images/8904bd28089ba62df63c4c580e69e59fcd78edc837ecf0b231448903b195886f.jpg)  \nFigure 8: Power versus frequency at different acceleration levels (unpackaged device-2 in air)"
+    },
+    {
+      "heading": "5. Conclusions",
+      "level": 1,
+      "text": "ua  e development micelectronidawitention ergyharvestingEM s viablean clean ener urA spl n efeciv nalytial model pizeieey reeas bee petdTheodel as be alu experimental results was obtained. The developed model can be used to quickly predict the output power level. Fuhemore odean s timzndtnarvepeonhanc powe"
+    },
+    {
+      "heading": "Acknowledgements",
+      "level": 1,
+      "text": "This work has been supported by the ORF-RE (OntarioResearch Fund  Research Excellence) and NSEC (Natural Sciences and Engineering Research Council Canada)."
+    },
+    {
+      "heading": "References",
+      "level": 1,
+      "text": "[1] Anton, S. R. and Sodano, H. A., \"A review of power harvesting using piezoelectric materials (2003 - 2006),\" Smart Mater. Struc. 16(3), 1-21 (2007).   \n[2] Beeby, S. P., Tudor, M. J. and White, N. M., \"Energy harvesting vibration sources for microsystems applications,\" Measur. Sci. Technol. 17(12), 175-195 (2006).   \n[3] DeeGJagerThailout J. Lege JVassi,A.BasuranChalot, B \"Fa characterisation  hig damping elecrostaticmicrdevicesorvibration energy cavenging\" ro.Desg, Test, Integration and Packaging of MEMS and MOEMS, 386390 (2005).   \n[4] Ma, W. Wong M. and Ruber, L., \"Dynamic simulationof an implemented electrostatic power micro-generator,\" Proc. Design, Test, Integration and Packaging of MEMS and MOEMS, 380385 (2005).   \n[5] Miyazaki, M., Tanaka, H., Ono, G., Nagano, T., Ohkubo, N. Kawahara, T. and Yano, K., \"Electric-energy generation using variable-capacitive resonator for power-free LSI: efficiency analysis and fundamental experiment,\" ISLPED, 193198 (2003).   \n[6] Richards, C. D. Anderson, M. J. Bahr, D. F.and Richards, R. F. \"Efiency  energy conversion or devic containing a piezoelectric component,\" J. Micromech. Microeng, 14(5), 717-721 (2004).   \n[7] Go BeyS. . J..Whi .M. Te generator for Microsystems,\" Transducers 01/Eurosensors XV, 4649 (2001).   \n[8] O GK. Ho H.   G.AO - down converter in discontinuous conduction mode,\" IEEE Trans. Power Electron.18(2), 696703 (2003).   \n[9] Kulah, H. and Najafi, K., \"An electromagnetic micro power generator for low-frequency environmental Vibrations,\" 17th IEEE Conf. on MEMS, 23740 (2004).   \n[10] Amirtharajah, R. and Chandrakasan, A. P., \"Self-powered signal processing using vibration-based power generation,\" IEEE J. Solid-State Circuits, 33(5), 68795 (1998).   \n[11] Elink, R., Kamel, T. M. Goedbloe, M. Matova, S., Hohlfeld, D., Andel, Y. and van Schaijk, R., \"Vibratn energy harvesting with aluminium nitride-based piezoelectric devices,\" J. Micromech. Microeng. 19(9), (2009).   \n[ FAM Sn. R. transformers,\" IEEE Trans. Power Electron. 17(1), 814 (2002).   \n[ .A H H.F  .   \" The $1 3 ^ { \\mathrm { t h } }$ Int. Conf. on Adaptive Structures and Technologies, 368377 (2002).   \n[4] Kamel T. M. El, R. Hohel, D.Gble M. vaAndel Y. eNoojer, C. Jmun, M. a Schaijk, R., \"MEMS-based Aluminum Nitride Piezoelectric Energy Harvesting Module,\" Smart Systems Integration, (2009).   \n[ Rudy S.nd Writ, K A peca basea  ireec,\"mar Struct. 13(5), 1131-1142 (2004).   \n[16] Xu, G, Zhang, C.and Jiang, Q., \"Air-damping Effect on a Micro-and Nano-machined Beam Resonator,\" Technical Proceedings of the 2000 International Conference on Modeling and Simulation of Microsystems, 579 582 (2000)."
+    }
+  ],
+  "tables": [
+    {
+      "page": -1,
+      "content": ""
+    }
+  ],
+  "figures": [
+    {
+      "page": -1,
+      "caption": "",
+      "path": "images/e95361d4e2bb9cc70e6d0c83c656f81177fb929294fcbf9158b33e8a14c78273.jpg"
+    },
+    {
+      "page": -1,
+      "caption": "",
+      "path": "images/8a4a257d1ac750779d7c2af5ac571bfa04c7b3a2a7a3d03d5daca9c5956e11f0.jpg"
+    },
+    {
+      "page": -1,
+      "caption": "",
+      "path": "images/80e4c22e4019a45864be91945b37c2f0106125d46da4cca4758e92af2ad44dc4.jpg"
+    },
+    {
+      "page": -1,
+      "caption": "",
+      "path": "images/173574ba1e0f04bf92b583b1f16d7f876c110992249927e767f10b3cc602226f.jpg"
+    },
+    {
+      "page": -1,
+      "caption": "",
+      "path": "images/8e707f2d507569f5255e305750bb6a7707f07560d982ca4b49711475a2bfd0e5.jpg"
+    },
+    {
+      "page": -1,
+      "caption": "",
+      "path": "images/bba3cfab349054a091be1494e1e8d638fdd6ed5bcccbff3104eea03825d06879.jpg"
+    },
+    {
+      "page": -1,
+      "caption": "",
+      "path": "images/0c2da4ab780f40dec69906afcd1c84f9a682eefb5a5ae75d47fe61b74f644e65.jpg"
+    },
+    {
+      "page": -1,
+      "caption": "",
+      "path": "images/8904bd28089ba62df63c4c580e69e59fcd78edc837ecf0b231448903b195886f.jpg"
+    }
+  ],
+  "metadata": {
+    "source": "both",
+    "pdf_url": "",
+    "parsed_at": "2026-03-10T10:27:33.111768+00:00"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "paper_id": "10_3390_nano12213718",
+  "doi": "10.3390/nano12213718",
+  "title": "Comparison of L-Shaped and U-Shaped Beams in Bidirectional Piezoelectric Vibration Energy Harvesting",
+  "source_apis": [
+    "both"
+  ],
+  "pdf_url": "https://www.mdpi.com/2079-4991/12/21/3718/pdf?version=1666501432",
+  "pdf_local_path": "data_registry/raw_stage04_paper_pdf_cleaned/10_3390_nano12213718.pdf",
+  "processing": {
+    "tool": "MinerU",
+    "version": "python -m mineru.cli.client, version 2.7.6",
+    "timestamp": "2026-03-10T10:03:22.182466+00:00",
+    "duration_s": 89.05,
+    "success": true,
+    "error": ""
+  },
+  "outputs": {
+    "content_md": "/root/EH-LLM-vehbench-exp/parsed_docs/10_3390_nano12213718_u4laq8ix/content.md",
+    "layout_json": "/root/EH-LLM-vehbench-exp/parsed_docs/10_3390_nano12213718_u4laq8ix/layout.json",
+    "images_dir": "/root/EH-LLM-vehbench-exp/parsed_docs/10_3390_nano12213718_u4laq8ix/10_3390_nano12213718/auto/images",
+    "normalized_json": "/root/EH-LLM-vehbench-exp/normalized_docs/10_3390_nano12213718.json"
+  },
+  "data_lineage": {
+    "papers_jsonl_hash": "1a8af702d83074438e12cac6c4b65984",
+    "pipeline_step": "ingestion/mineru_runner.py"
+  }
+}

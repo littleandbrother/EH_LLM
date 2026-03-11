@@ -1,0 +1,147 @@
+{
+  "metadata": {
+    "paper_id": "10_1021_acsanm_7b00317",
+    "doi": "10.1021/acsanm.7b00317",
+    "title": "Hierarchical PbZr<sub><i>x</i></sub>Ti<sub>1–<i>x</i></sub>O<sub>3</sub> Nanowires for Vibrational Energy Harvesting",
+    "year": 2018,
+    "journal": "ACS Applied Nano Materials"
+  },
+  "configuration": "cantilever",
+  "proof_mass": false,
+  "geometry": {
+    "length_mm": 40,
+    "width_mm": 7,
+    "thickness_mm": 0.04,
+    "substrate_thickness_um": null,
+    "piezo_thickness_um": null,
+    "tip_mass_g": null,
+    "diameter_mm": null
+  },
+  "excitation": {
+    "type": "vibration",
+    "frequency_Hz": 25.2,
+    "acceleration_g": 0.1,
+    "displacement_mm": null,
+    "motion_source": "electromagnetic shaker"
+  },
+  "load": {
+    "load_resistance_ohm": 2000000
+  },
+  "output": {
+    "resonant_frequency_Hz": 25.2,
+    "output_power_W": 5.8e-07,
+    "open_circuit_voltage_V": 2.7,
+    "short_circuit_current_A": null,
+    "bandwidth_Hz": null
+  },
+  "evidence": {
+    "configuration": {
+      "quote": "unimorph cantilever energy harvester",
+      "section": "ABSTRACT",
+      "source_type": "abstract"
+    },
+    "proof_mass": {
+      "quote": "The final geometry of the unimorph cantilever beam is 4 cm (L) x 0.7 cm (W) x 0.004 cm (H)",
+      "section": "EXPERIMENTAL SECTION",
+      "source_type": "section"
+    },
+    "geometry": {
+      "length_mm": {
+        "quote": "4 cm (L)",
+        "section": "EXPERIMENTAL SECTION",
+        "source_type": "section"
+      },
+      "width_mm": {
+        "quote": "0.7 cm (W)",
+        "section": "EXPERIMENTAL SECTION",
+        "source_type": "section"
+      },
+      "thickness_mm": {
+        "quote": "0.004 cm (H)",
+        "section": "EXPERIMENTAL SECTION",
+        "source_type": "section"
+      },
+      "substrate_thickness_um": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "piezo_thickness_um": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "tip_mass_g": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "diameter_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      }
+    },
+    "excitation": {
+      "type": {
+        "quote": "vibrational energy harvesting",
+        "section": "ABSTRACT",
+        "source_type": "abstract"
+      },
+      "frequency_Hz": {
+        "quote": "fundamental resonance (25.2 Hz)",
+        "section": "ABSTRACT",
+        "source_type": "abstract"
+      },
+      "acceleration_g": {
+        "quote": "100 mg root mean square (RMS) acceleration input",
+        "section": "ABSTRACT",
+        "source_type": "abstract"
+      },
+      "displacement_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "motion_source": {
+        "quote": "electromagnetic shaker",
+        "section": "EXPERIMENTAL SECTION",
+        "source_type": "section"
+      }
+    },
+    "load": {
+      "load_resistance_ohm": {
+        "quote": "optimal load resistance of 2 MΩ",
+        "section": "ABSTRACT",
+        "source_type": "abstract"
+      }
+    },
+    "output": {
+      "resonant_frequency_Hz": {
+        "quote": "fundamental resonance (25.2 Hz)",
+        "section": "ABSTRACT",
+        "source_type": "abstract"
+      },
+      "output_power_W": {
+        "quote": "peak value of 0.58 μW is reached",
+        "section": "RESULTS AND DISCUSSION",
+        "source_type": "section"
+      },
+      "open_circuit_voltage_V": {
+        "quote": "open-circuit voltage from this harvester was 2.7 V",
+        "section": "ABSTRACT",
+        "source_type": "abstract"
+      },
+      "short_circuit_current_A": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "bandwidth_Hz": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      }
+    }
+  }
+}

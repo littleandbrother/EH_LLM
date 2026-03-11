@@ -3,26 +3,26 @@
   "doi": "10.1063/1.4879876",
   "title": "Structure–performance relationships for cantilever-type piezoelectric energy harvesters",
   "source_apis": [
-    "openalex"
+    "both"
   ],
   "pdf_url": "https://pubs.aip.org/aip/jap/article-pdf/doi/10.1063/1.4879876/15138629/204108_1_online.pdf",
-  "pdf_local_path": "",
+  "pdf_local_path": "data_registry/raw/10_1063_1_4879876.pdf",
   "processing": {
     "tool": "MinerU",
-    "version": "mineru, version 2.7.6",
-    "timestamp": "2026-02-23T11:36:58.195214+00:00",
-    "duration_s": 6.87,
-    "success": false,
+    "version": "python -m mineru.cli.client, version 2.7.6",
+    "timestamp": "2026-03-09T15:20:33.272852+00:00",
+    "duration_s": 70.01,
+    "success": true,
     "error": ""
   },
   "outputs": {
-    "content_md": "",
-    "layout_json": "",
-    "images_dir": "",
-    "normalized_json": ""
+    "content_md": "/root/EH-LLM-vehbench-exp/parsed_docs/10_1063_1_4879876_n40e74u_/content.md",
+    "layout_json": "/root/EH-LLM-vehbench-exp/parsed_docs/10_1063_1_4879876_n40e74u_/layout.json",
+    "images_dir": "/root/EH-LLM-vehbench-exp/parsed_docs/10_1063_1_4879876_n40e74u_/10_1063_1_4879876/auto/images",
+    "normalized_json": "/root/EH-LLM-vehbench-exp/normalized_docs/10_1063_1_4879876.json"
   },
   "data_lineage": {
-    "papers_jsonl_hash": "46518b84e3f717b323275e8956e7dcfe",
+    "papers_jsonl_hash": "a11c6f5a502959550c53a3d47b1ea3dc",
     "pipeline_step": "ingestion/mineru_runner.py"
   }
 }

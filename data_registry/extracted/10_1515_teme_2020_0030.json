@@ -1,0 +1,147 @@
+{
+  "metadata": {
+    "paper_id": "10_1515_teme_2020_0030",
+    "doi": "10.1515/teme-2020-0030",
+    "title": "Electromechanical modelling of piezoelectric vibration energy harvester with a novel dynamic magnifier",
+    "year": 2020,
+    "journal": "tm - Technisches Messen"
+  },
+  "configuration": "cantilever",
+  "proof_mass": true,
+  "geometry": {
+    "length_mm": 109.5,
+    "width_mm": 17.5,
+    "thickness_mm": null,
+    "substrate_thickness_um": 500,
+    "piezo_thickness_um": 300,
+    "tip_mass_g": 0.58,
+    "diameter_mm": null
+  },
+  "excitation": {
+    "type": "vibration",
+    "frequency_Hz": 25.64,
+    "acceleration_g": null,
+    "displacement_mm": 0.05,
+    "motion_source": null
+  },
+  "load": {
+    "load_resistance_ohm": 210000
+  },
+  "output": {
+    "resonant_frequency_Hz": 25.64,
+    "output_power_W": 0.00063,
+    "open_circuit_voltage_V": 34.8,
+    "short_circuit_current_A": null,
+    "bandwidth_Hz": null
+  },
+  "evidence": {
+    "configuration": {
+      "quote": "cantilevered type piezoelectric energy harvester",
+      "section": "3.1 Design of primary system (four bar mechanism with helical spring)",
+      "source_type": "section"
+    },
+    "proof_mass": {
+      "quote": "tip mass: 0.58 g",
+      "section": "3.2 Design of secondary system (harvester beam)",
+      "source_type": "section"
+    },
+    "geometry": {
+      "length_mm": {
+        "quote": "dimensions of the substructure beam... 109.5 x 17.5 x 0.5 mm^3",
+        "section": "3.2 Design of secondary system (harvester beam)",
+        "source_type": "section"
+      },
+      "width_mm": {
+        "quote": "dimensions of the substructure beam... 109.5 x 17.5 x 0.5 mm^3",
+        "section": "3.2 Design of secondary system (harvester beam)",
+        "source_type": "section"
+      },
+      "thickness_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "substrate_thickness_um": {
+        "quote": "dimensions of the substructure beam... 109.5 x 17.5 x 0.5 mm^3",
+        "section": "3.2 Design of secondary system (harvester beam)",
+        "source_type": "section"
+      },
+      "piezo_thickness_um": {
+        "quote": "Overall dimensions of the MFC: 37 x 18 x 0.3 mm^3",
+        "section": "3.2 Design of secondary system (harvester beam)",
+        "source_type": "section"
+      },
+      "tip_mass_g": {
+        "quote": "tip mass: 0.58 g",
+        "section": "3.2 Design of secondary system (harvester beam)",
+        "source_type": "section"
+      },
+      "diameter_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      }
+    },
+    "excitation": {
+      "type": {
+        "quote": "base excitation",
+        "section": "Abstract",
+        "source_type": "abstract"
+      },
+      "frequency_Hz": {
+        "quote": "measured frequency and voltage in the first mode are 25.64 Hz and 34.8 V",
+        "section": "4.1.2 Experimental study of 2DOF harvester",
+        "source_type": "section"
+      },
+      "acceleration_g": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "displacement_mm": {
+        "quote": "base excitation amplitude of 0.05 mm",
+        "section": "Abstract",
+        "source_type": "abstract"
+      },
+      "motion_source": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      }
+    },
+    "load": {
+      "load_resistance_ohm": {
+        "quote": "maximum power in the first mode is measured as 0.63 mW at 210 kOhm",
+        "section": "4.1.2 Experimental study of 2DOF harvester",
+        "source_type": "section"
+      }
+    },
+    "output": {
+      "resonant_frequency_Hz": {
+        "quote": "measured frequency and voltage in the first mode are 25.64 Hz and 34.8 V",
+        "section": "4.1.2 Experimental study of 2DOF harvester",
+        "source_type": "section"
+      },
+      "output_power_W": {
+        "quote": "maximum power in the first mode is measured as 0.63 mW",
+        "section": "4.1.2 Experimental study of 2DOF harvester",
+        "source_type": "section"
+      },
+      "open_circuit_voltage_V": {
+        "quote": "measured frequency and voltage in the first mode are 25.64 Hz and 34.8 V",
+        "section": "4.1.2 Experimental study of 2DOF harvester",
+        "source_type": "section"
+      },
+      "short_circuit_current_A": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "bandwidth_Hz": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      }
+    }
+  }
+}

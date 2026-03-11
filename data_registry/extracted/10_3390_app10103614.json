@@ -1,0 +1,147 @@
+{
+  "metadata": {
+    "paper_id": "10_3390_app10103614",
+    "doi": "10.3390/app10103614",
+    "title": "Snap-Through Buckling Mechanism for Frequency-up Conversion in Piezoelectric Energy Harvesting",
+    "year": 2020,
+    "journal": "Applied Sciences"
+  },
+  "configuration": "cantilever",
+  "proof_mass": true,
+  "geometry": {
+    "length_mm": 15,
+    "width_mm": 1.5,
+    "thickness_mm": 0.625,
+    "substrate_thickness_um": 65,
+    "piezo_thickness_um": 280,
+    "tip_mass_g": 0.74,
+    "diameter_mm": null
+  },
+  "excitation": {
+    "type": "vibration",
+    "frequency_Hz": 20,
+    "acceleration_g": 2,
+    "displacement_mm": null,
+    "motion_source": "electrodynamic shaker"
+  },
+  "load": {
+    "load_resistance_ohm": 400000
+  },
+  "output": {
+    "resonant_frequency_Hz": 305,
+    "output_power_W": 0.004,
+    "open_circuit_voltage_V": 60,
+    "short_circuit_current_A": null,
+    "bandwidth_Hz": null
+  },
+  "evidence": {
+    "configuration": {
+      "quote": "one piezolaminated cantilever beam is connected to a nonlinear bistable structure",
+      "section": "1. Introduction",
+      "source_type": "section"
+    },
+    "proof_mass": {
+      "quote": "Model B is obtained, by placing a lead spherical mass (having radius 2.5 mm and hence mass approximately ugual to 740 mg,) on the free end of the bimorph beam",
+      "section": "3. Design of the STB-EH Device",
+      "source_type": "section"
+    },
+    "geometry": {
+      "length_mm": {
+        "quote": "Lb,tot [mm] 15",
+        "section": "Table 1",
+        "source_type": "table"
+      },
+      "width_mm": {
+        "quote": "bb [mm] 1.5",
+        "section": "Table 1",
+        "source_type": "table"
+      },
+      "thickness_mm": {
+        "quote": "ttot [mm] 0.625",
+        "section": "Table 1",
+        "source_type": "table"
+      },
+      "substrate_thickness_um": {
+        "quote": "ts [mm] 0.065",
+        "section": "Table 1",
+        "source_type": "table"
+      },
+      "piezo_thickness_um": {
+        "quote": "tp [mm] 0.28",
+        "section": "Table 1",
+        "source_type": "table"
+      },
+      "tip_mass_g": {
+        "quote": "mass approximately ugual to 740 mg",
+        "section": "3. Design of the STB-EH Device",
+        "source_type": "section"
+      },
+      "diameter_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      }
+    },
+    "excitation": {
+      "type": {
+        "quote": "tested on an electrodynamic shaker",
+        "section": "4.4. Experimental Characterization of the STB-EH under Sinusoidal Excitation",
+        "source_type": "section"
+      },
+      "frequency_Hz": {
+        "quote": "sinusoidal accelerations with frequency 20 Hz, 25 Hz and 30 Hz",
+        "section": "4.4. Experimental Characterization of the STB-EH under Sinusoidal Excitation",
+        "source_type": "section"
+      },
+      "acceleration_g": {
+        "quote": "The peak amplitude of 2g is sufficient to pass over the energy barrier",
+        "section": "4.4. Experimental Characterization of the STB-EH under Sinusoidal Excitation",
+        "source_type": "section"
+      },
+      "displacement_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "motion_source": {
+        "quote": "tested on an electrodynamic shaker (Bruel and Kjaer Vibration Exciter 4808)",
+        "section": "4.4. Experimental Characterization of the STB-EH under Sinusoidal Excitation",
+        "source_type": "section"
+      }
+    },
+    "load": {
+      "load_resistance_ohm": {
+        "quote": "maximum value of 4 mW for RL = 400 kOhm",
+        "section": "4.3. Experimental Characterization of the STB-EH Prototype Connected to a Resistive Load and to a Rectifier Circuit with Storage Capacitor",
+        "source_type": "section"
+      }
+    },
+    "output": {
+      "resonant_frequency_Hz": {
+        "quote": "fres,2 = 305 Hz for models A and B, respectively.",
+        "section": "4.2. Experimental Characterization of the STB-EH Prototypes in Open-Circuit Configuration",
+        "source_type": "section"
+      },
+      "output_power_W": {
+        "quote": "Maximum power of 4 mW",
+        "section": "Abstract",
+        "source_type": "abstract"
+      },
+      "open_circuit_voltage_V": {
+        "quote": "A peak voltage of almost 60 V is obtained from the STB test on the shaker",
+        "section": "5. Discussion and Conclusions",
+        "source_type": "section"
+      },
+      "short_circuit_current_A": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "bandwidth_Hz": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      }
+    }
+  }
+}

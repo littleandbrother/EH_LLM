@@ -1,0 +1,147 @@
+{
+  "metadata": {
+    "paper_id": "10_1166_jnn_2013_8106",
+    "doi": "10.1166/jnn.2013.8106",
+    "title": "Design and fabrication of vibration based energy harvester using microelectromechanical system piezoelectric cantilever for low power applications.",
+    "year": 2013,
+    "journal": "Journal of Nanoscience and Nanotechnology"
+  },
+  "configuration": "cantilever",
+  "proof_mass": true,
+  "geometry": {
+    "length_mm": 5.4,
+    "width_mm": 0.29,
+    "thickness_mm": null,
+    "substrate_thickness_um": 10,
+    "piezo_thickness_um": 1.2,
+    "tip_mass_g": null,
+    "diameter_mm": null
+  },
+  "excitation": {
+    "type": "vibration",
+    "frequency_Hz": 78.7,
+    "acceleration_g": 1.0,
+    "displacement_mm": null,
+    "motion_source": "vibrator"
+  },
+  "load": {
+    "load_resistance_ohm": 20200
+  },
+  "output": {
+    "resonant_frequency_Hz": 78.7,
+    "output_power_W": 8.03e-07,
+    "open_circuit_voltage_V": null,
+    "short_circuit_current_A": null,
+    "bandwidth_Hz": null
+  },
+  "evidence": {
+    "configuration": {
+      "quote": "We fabricated dual-beam cantilevers on the microelectromechanical system (MEMS) scale with an integrated Si proof mass.",
+      "section": "Design and Fabrication of Vibration Based Energy Harvester Using Microelectromechanical System Piezoelectric Cantilever for Low Power Applications",
+      "source_type": "abstract"
+    },
+    "proof_mass": {
+      "quote": "We fabricated dual-beam cantilevers on the microelectromechanical system (MEMS) scale with an integrated Si proof mass.",
+      "section": "Design and Fabrication of Vibration Based Energy Harvester Using Microelectromechanical System Piezoelectric Cantilever for Low Power Applications",
+      "source_type": "abstract"
+    },
+    "geometry": {
+      "length_mm": {
+        "quote": "The fabricated device has a beam length of about 5400 + 200 um.",
+        "section": "3. RESULTS AND DISCUSSION",
+        "source_type": "section"
+      },
+      "width_mm": {
+        "quote": "The each beam width of dual beam cantilever was 290 um.",
+        "section": "3. RESULTS AND DISCUSSION",
+        "source_type": "section"
+      },
+      "thickness_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "substrate_thickness_um": {
+        "quote": "The thicknesses of the first silicon layer, the thermal silicon dioxide layer, and the second silicon layer were 10 um, 100 nm, and 500 um, respectively.",
+        "section": "2.1. Fabrication Process",
+        "source_type": "section"
+      },
+      "piezo_thickness_um": {
+        "quote": "The PZT was coated using the sol–gel method until it reached a thickness of 1.2 um.",
+        "section": "2.1. Fabrication Process",
+        "source_type": "section"
+      },
+      "tip_mass_g": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "diameter_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      }
+    },
+    "excitation": {
+      "type": {
+        "quote": "A PZT cantilever was designed as a mechanical vibration energy-harvesting system for low power applications.",
+        "section": "Design and Fabrication of Vibration Based Energy Harvester Using Microelectromechanical System Piezoelectric Cantilever for Low Power Applications",
+        "source_type": "abstract"
+      },
+      "frequency_Hz": {
+        "quote": "Experiments revealed the resonant frequency, voltage, and average power density to be 78.7 Hz, 118.5 mV, and 0.34 uW, respectively.",
+        "section": "Design and Fabrication of Vibration Based Energy Harvester Using Microelectromechanical System Piezoelectric Cantilever for Low Power Applications",
+        "source_type": "abstract"
+      },
+      "acceleration_g": {
+        "quote": "We obtained a maximum average power of about 0.803 uW at 1.0 g and optimal resistance",
+        "section": "3. RESULTS AND DISCUSSION",
+        "source_type": "section"
+      },
+      "displacement_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "motion_source": {
+        "quote": "The cantilever device was mounted on a vibrator.",
+        "section": "2.3. Measurements",
+        "source_type": "section"
+      }
+    },
+    "load": {
+      "load_resistance_ohm": {
+        "quote": "specific resistance was about 20.2 kOhm",
+        "section": "3. RESULTS AND DISCUSSION",
+        "source_type": "section"
+      }
+    },
+    "output": {
+      "resonant_frequency_Hz": {
+        "quote": "Experiments revealed the resonant frequency, voltage, and average power density to be 78.7 Hz, 118.5 mV, and 0.34 uW, respectively.",
+        "section": "Design and Fabrication of Vibration Based Energy Harvester Using Microelectromechanical System Piezoelectric Cantilever for Low Power Applications",
+        "source_type": "abstract"
+      },
+      "output_power_W": {
+        "quote": "We obtained a maximum average power of about 0.803 uW at 1.0 g and optimal resistance",
+        "section": "3. RESULTS AND DISCUSSION",
+        "source_type": "section"
+      },
+      "open_circuit_voltage_V": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "short_circuit_current_A": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "bandwidth_Hz": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      }
+    }
+  }
+}

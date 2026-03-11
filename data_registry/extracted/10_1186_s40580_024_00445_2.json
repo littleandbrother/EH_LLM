@@ -1,0 +1,147 @@
+{
+  "metadata": {
+    "paper_id": "10_1186_s40580_024_00445_2",
+    "doi": "10.1186/s40580-024-00445-2",
+    "title": "Simultaneous low-frequency vibration isolation and energy harvesting via attachable metamaterials",
+    "year": 2024,
+    "journal": "Nano Convergence"
+  },
+  "configuration": "cantilever",
+  "proof_mass": true,
+  "geometry": {
+    "length_mm": null,
+    "width_mm": null,
+    "thickness_mm": 6,
+    "substrate_thickness_um": null,
+    "piezo_thickness_um": 2000,
+    "tip_mass_g": 6,
+    "diameter_mm": 24
+  },
+  "excitation": {
+    "type": "vibration",
+    "frequency_Hz": 360,
+    "acceleration_g": null,
+    "displacement_mm": null,
+    "motion_source": "electrodynamic exciter"
+  },
+  "load": {
+    "load_resistance_ohm": 40000
+  },
+  "output": {
+    "resonant_frequency_Hz": 360,
+    "output_power_W": 4e-08,
+    "open_circuit_voltage_V": 0.0609,
+    "short_circuit_current_A": null,
+    "bandwidth_Hz": 80
+  },
+  "evidence": {
+    "configuration": {
+      "quote": "cantilever-based metamaterial unit cell",
+      "section": "Abstract",
+      "source_type": "abstract"
+    },
+    "proof_mass": {
+      "quote": "titanium cylinder with a mass of 6 g as the tip mass",
+      "section": "2.1 Design of an attachable locally-resonant metamaterial (a-LRM) unit cell",
+      "source_type": "section"
+    },
+    "geometry": {
+      "length_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "width_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "thickness_mm": {
+        "quote": "transparent acrylic sheet with a thickness of 6 mm",
+        "section": "2.3 Experimental setup for vibration characteristic of the a-LRM unit cell",
+        "source_type": "section"
+      },
+      "substrate_thickness_um": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "piezo_thickness_um": {
+        "quote": "thickness of 2 mm",
+        "section": "3.5 Piezoelectric energy harvesting performance using the a-LRM",
+        "source_type": "section"
+      },
+      "tip_mass_g": {
+        "quote": "titanium cylinder with a mass of 6 g",
+        "section": "2.1 Design of an attachable locally-resonant metamaterial (a-LRM) unit cell",
+        "source_type": "section"
+      },
+      "diameter_mm": {
+        "quote": "diameter of 24 mm",
+        "section": "3.5 Piezoelectric energy harvesting performance using the a-LRM",
+        "source_type": "section"
+      }
+    },
+    "excitation": {
+      "type": {
+        "quote": "flexural vibrations",
+        "section": "Abstract",
+        "source_type": "abstract"
+      },
+      "frequency_Hz": {
+        "quote": "frequency at which the output voltage was maximized was 360 Hz",
+        "section": "3.5 Piezoelectric energy harvesting performance using the a-LRM",
+        "source_type": "section"
+      },
+      "acceleration_g": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "displacement_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "motion_source": {
+        "quote": "electrodynamic exciter",
+        "section": "2.4 Experimental setup for flexural vibration amplification and EH via the a-LRM",
+        "source_type": "section"
+      }
+    },
+    "load": {
+      "load_resistance_ohm": {
+        "quote": "optimal load resistance level of 40 kΩ",
+        "section": "3.5 Piezoelectric energy harvesting performance using the a-LRM",
+        "source_type": "section"
+      }
+    },
+    "output": {
+      "resonant_frequency_Hz": {
+        "quote": "frequency at which the output voltage was maximized was 360 Hz",
+        "section": "3.5 Piezoelectric energy harvesting performance using the a-LRM",
+        "source_type": "section"
+      },
+      "output_power_W": {
+        "quote": "output power of 40.0 nW",
+        "section": "3.5 Piezoelectric energy harvesting performance using the a-LRM",
+        "source_type": "section"
+      },
+      "open_circuit_voltage_V": {
+        "quote": "open-circuit output voltage of 60.9 mV",
+        "section": "3.5 Piezoelectric energy harvesting performance using the a-LRM",
+        "source_type": "section"
+      },
+      "short_circuit_current_A": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "bandwidth_Hz": {
+        "quote": "wide frequency range (approximately 300-380 Hz)",
+        "section": "3.5 Piezoelectric energy harvesting performance using the a-LRM",
+        "source_type": "section"
+      }
+    }
+  }
+}

@@ -1,0 +1,215 @@
+{
+  "paper_id": "10_1117_12_2046687",
+  "doi": "10.1117/12.2046687",
+  "title": "Recent progress on micro-piezoelectric energy harvesters fabricated with aerosol deposition method and the interfacing circuits",
+  "year": 2014,
+  "venue": "Proceedings of SPIE, the International Society for Optical Engineering/Proceedings of SPIE",
+  "authors": [
+    "S. P. Yeh",
+    "L. Wang",
+    "Y. J. Wang",
+    "S. C. Lin",
+    "Y. Shih",
+    "W. Wu",
+    "Sou Peng Yeh",
+    "Li‐Ting Wang",
+    "Shih‐Hung Lin",
+    "Ya-Shan Shih",
+    "Wen-Jong Wu"
+  ],
+  "citation_count": 5,
+  "sections": [
+    {
+      "heading": "Recent progress on micro-piezoelectric energy harvesters fabricated with aerosol deposition method and the interfacing circuits",
+      "level": 1,
+      "text": "S. P. Yeha, L. T. Wang, Y. J. Wang, S. C. Lin, Y. S. Shih, and W. J. Wu\\* Graduate Instituteof Electronics Engineering, National Taiwan University, Taipei, Taiwan; Dept. Of Engineering Science and Ocean Engineering, National Taiwan University, Taipei, Taiwan \\*email: wjwu@ntu.edu.tw"
+    },
+    {
+      "heading": "ABSTRACT",
+      "level": 1,
+      "text": "This paper presents a system integration of micro-piezoelectric energy harvester (MPEH) system based on MPEHs eon l zl t y was designed to boost the harvested power in comparison to standard rectifying ciruits. The boosting effct in coparon heecalpeations  rnteTe owerpatio owe lowcurent as lso beeiscusExpermenal esul how hat hedevi bas li substratehow maximum output power of $2 1 ~ \\mu \\mathrm { W }$ with the output voltage of $2 . 2 ~ \\mathrm { V r m s }$ excited at $2 1 5 \\ : \\mathrm { H z }$ under a $1 . 5 \\ \\mathrm { g }$ vibrating source. Inna in power of $3 4 \\mu \\mathrm { W }$ with $1 . 8 \\mathrm { V r m s }$ at the resonant frequency of $2 0 2 \\mathrm { H z }$ The power densities were $4 . 7 \\mu \\mathrm { W } \\mathrm { m m } { - 2 }$ and $7 . 6 \\mu \\mathrm { W }$ $\\mathrm { m m } { - } 2$ fo   bsateanheaie  sbsra bs dvi . The aniv u later improved to the power output of $2 0 0 . 2 8 ~ \\mu \\mathrm { W } .$ To further improve the output characteristic, the device was tested under vacuumed circumstance, which then gave the output power of $2 4 1 . 6 0 \\mu \\mathrm { W } _ { : }$ with a $6 . 0 2 \\mathrm { V r m s }$ under $1 . 5 \\ : \\mathrm { g } , 1 0 4 . 4 \\mathrm { H z }$ The power boosting circuit gave a power gain of 2.03 times, as the overall system outputs $9 1 . 4 ~ \\mu \\mathrm { W }$ using the self-powered nonlinear technique under $0 . 7 5 \\mathrm { ~ g ~ }$ with a similar device. The overall system, using only the standard rectifying circuit was able to light a low consumption red- colored SMD-0805 packaged LED in a duty ratio of approximately $2 5 \\%$ .\n\nKeywords: piezoelectric, MEMS, energy harvester, aerosol deposition, rectifying circuit"
+    },
+    {
+      "heading": "2. INTRODUCTION",
+      "level": 1,
+      "text": "In te advent  art devi cloucomputin, the usage sensors and microprocessors arn the iThee s ik hatvc eeap hh e  u ct wot u  Ih wor h   maait In o  e oan an net eno poweny art dvi attahed  y  w n ve iuTaly tt vb to reach places. Moreover, the maintenance, the amount of energy required and the cost for replacements are lhuk  e n s energ has bee touted as the prime energy sourcefom the evomnt that can be utilized i micoproessors. L plecic ceffit e a wtal  ATdeve m en i the osnprov he peoanc h ne arvesr wange heritmatel cnva rnpliivo e uliz hroout he Sond wei isc about hetcal ds ealiz  he evet, itio briefly go over the basic concept of such circuit design."
+    },
+    {
+      "heading": "2. Aerosol Deposition Method",
+      "level": 1,
+      "text": "The aerosol deposition method was first published by Akedo et al 3). This method is suitable for MEMS fati ecu n ertn metuT pro nab de variety f materials such as PZT, aluminum-oxide $\\left( \\mathrm { A l } _ { 2 } \\mathrm { O } _ { 3 } \\right)$ The basiconcpt  hi depostn metho is a fo umping the desid deposin mateal as power form with high pressured gas, namey nitrgen gs t\n\nInordrcreate he esi pat he ustratesawedopteai roes  een u $1 ^ { ( 6 ) }$ The THB-SMiconceiv hoes  al ayerasusecaees paten l a the removal  the resist.igure shows actual photos taken  show th devic fabrication n ilcon bce h ol e  bil massive number of separate devices on a single wafer or steel sheet. The devices shown are of the $\\{ 3 - 1 \\}$ mode; we will ol surface at any given point.\n\n![](images/5148bcfd8a7cd9e3237edf4ae5d0fac27a4ac06178c6471fa1c0f8473a5ec2bb.jpg)\n\n![](images/6f2f3b52c8e21392074cca72e4f5df0651111687ccb920282a423fed1fc2359c.jpg)  \nTHB-151N by acetone   \nFigure 2 The patterned PZT layer by lift-off process in an area measuring $6 0 * 8 0 \\mathrm { m m } ^ { 2 }$ (a) fabricated on silicon substrate, (b) abricated on stainless-steel substrate, and (c) the sidewall of the PZT layer based on silicon substrate\n\nAr goiro an XRD scanf te PZT power,  seengue 3(a we can e that he pe e types."
+    },
+    {
+      "heading": "Downloaded From: http://proceedings.spiedigitalibrary.org/ on05/13/2015 Terms of Use: http://spiedl.org/terms",
+      "level": 1,
+      "text": "![](images/383deb01fb5fc49d8492fe3ff29b05408163570d8e45415ed8eacd7142118078.jpg)  \nPZT layer on silicon and stainless-steel substrate\n\ns  tal e ig an ihe  heT y M phoas wek before and after $6 5 0 ^ { \\circ } \\mathrm { C }$ annealing has been applied(6). The surface became much smoother. From the cross section view in a adeqate t depositing PZT material. Additionally, the surfac rougness has beig documente as seen Fi. $5 ^ { ( 6 ) }$ .\n\n![](images/ee383cbbed506bd49e0ea9e6d2a6ea0ef37947a5e119d2ae1d18eecfec0b8d29.jpg)  \nPZT layer after $6 5 0 ^ { \\circ } \\mathrm { C }$ annealing and the upper electrode deposition, and (c) the cross-sectional view of the PZT layer.\n\n![](images/d3c64a807cf4b5711ede3559b56b26b4322c051dfd947f1bcaffe1edb800f3c8.jpg)  \nFigure 5. Profile image of the PZT layer with surface roughness measurement data. Inyha ye 1 provide a substantial amount of ferroelectric energy."
+    },
+    {
+      "heading": "3.1 The {3-3} mode piezoelectric MEMS energy harvester",
+      "level": 1,
+      "text": "Oneof the two most prominently used modes of electril energy conversin method s the {3-3} mode. This mode"
+    },
+    {
+      "heading": "Downloaded From: http://proceedings.spiedigitallbrary.org/ on 05/13/2015 Terms of Use: http://spiedl.org/terms",
+      "level": 1,
+      "text": "achieve this, the interdigitated electrodes were developed to realize this concept. The generated open volage $( V )$ can be evaluated as follows(8).\n\n$$\nV = \\sigma _ { x x } g _ { 3 3 } L\n$$\n\nwhere the $\\sigma _ { \\mathrm { x x } }$ signifies the stress in the $\\mathbf { X }$ direction. $L$ is the gap between the interdigitated electrodes, and $g _ { 3 3 }$ is the plecn c o  bt aee parallel to the direction of the bending. The maximum open circuit output voltage of a $\\{ 3 - 3 \\}$ mode energy harvester is $4 . 1 2 7 \\mathrm { V _ { p - p } }$ and the maximum output power is $1 . 2 8 8 \\mu \\mathrm { W }$ with $2 . 2 9 2 \\mathrm { V _ { p - p } }$ volage  nant qu $2 1 4 \\mathrm { H z }$ at a $2 \\mathrm { g }$ acceleration level. The substrate used is silicon."
+    },
+    {
+      "heading": "3.2 The {3-1} mode piezoelectric MEMS energy harvester",
+      "level": 1,
+      "text": "Sa $\\{ 3 - 1 \\}$ mode is commonly used for energy harvestinThismodoperatesunder theconditon that theelecicdipole inside the pizlecicmateal is perpendicular the direction the material is bending. As with $\\{ 3 - 3 \\}$ mode, the dipole direction is set by applying an device the ds dretin. The eatin  he e ct voe $( V )$ is given as follows(8).\n\n$$\nV = \\sigma _ { x x } g _ { 3 1 } H\n$$\n\nWhere H signifies the thickness of the cantilever beam, and $g _ { 3 1 }$ is the piezoelectric coefficient. The maximum open circuit output voltage of a $\\{ 3 - 3 \\}$ mode energy harvester is $2 . 6 7 5 \\mathrm { V _ { p - p } }$ and the maximum output power is $2 . 7 6 5 ~ \\mu \\mathrm { W }$ with $1 . 7 9 2 \\mathrm { ~ V _ { p \\cdot p } ~ }$ voltage at a resonant frequency of $2 5 5 . 9 ~ \\mathrm { H z }$ at a $2 \\mathrm { g }$ acceleration level. Theoretically, the piezoelectric coefficient for $\\{ 3 - 3 \\}$ mode is about three times higher than that of the $\\{ 3 - 1 \\}$ mode. So it is expected that the results for {- interdigitated electrode has hampered its direction. Thus, it is not $100 \\%$ in the same direction of the dipoles inside the T e r. Iu    o are compared°). Both of these designs were deposited on silicon based substrates.\n\n![](images/fdd99f05e958fe2e7840733343d0cb26d1b86f447907aa66ec1201d38d1dbf61.jpg)  \noi eEa  3- in -"
+    },
+    {
+      "heading": "3.3 Multi-cantilever piezoelectric MEMS generator",
+      "level": 1,
+      "text": "For sesor plications  MEMS eratorcan e dese  operat rund he nvnment rati e. Au cantilever structure can be made the same resonance frequency. Figure 7 shows the schematic diagrams of the multi-cantilever piezoelectric MEMS generator. A cantilever beam structure in this study was designed to be $3 0 0 { \\bar { 0 } } { \\times } 1 5 0 0 ~ \\mathrm { \\mu m } ^ { 2 }$ with an overall thickness of $1 2 \\mu \\mathrm { m }$ It is comprised of a $5 \\mu \\mathrm { m }$ piezoelectric PZT layer, $0 . 5 \\mu \\mathrm { m } \\ \\mathrm { S i } 0 _ { 2 }$ under the PZT layer"
+    },
+    {
+      "heading": "Downloaded From: http://proceedings.spiedigitallbrary.org/ on 05/13/2015 Terms of Use: http://spiedl.org/terms",
+      "level": 1,
+      "text": "as insulation layer, $6 \\mu \\mathrm { m } \\mathrm { S i }$ us    be $0 . 5 \\mu \\mathrm { m } \\ \\mathrm { S i } 0 _ { 2 }$ on the bottom as etch stop layer. For the $\\{ 3 - 3 \\}$ mode device, the interdigitated electrodes were fabricated with $3 0 \\mu \\mathrm { m }$ widths and $3 0 \\mu \\mathrm { m }$ gaps.\n\n![](images/e006b7a1a0ee1c99dbff01604ee1eec0d64858005b920ac891d8a0cf5853f703.jpg)  \nFig. 7 Schematic diagrams of the multi-cantilever piezoelectric MEMS generator.\n\nThe photograph of the multi-cantilever pzolectricME generator i hown in igure 8(a).A multi-cantilever piezoelectric MEMS generator comprises of two $\\{ 3 - 1 \\}$ mode devices and two $\\{ 3 - 3 \\}$ mode devices. And the electrodes an       lu ho  ul pe  Teecul    w e n  Tei performance. The measurement results show that our device possesses resonance frequencies between $2 3 7 \\mathrm { H z }$ and $\\mathsf { 2 4 4 . 5 H z ^ { ( 1 2 ) } }$ u still require optimization, in which they will be worked on in future research.\n\nWe leared that power extraction depend on umerous factors, such as the inut equencies, acceleration, the ma  raeal anecnilcupct yser Prof. $\\mathrm { S u } ^ { ( 1 2 ) }$ .\n\n![](images/461b2410930c6c8fec673345f7ca70381d9eff9bd42c7b4273602094f09ae864.jpg)  \nFi.8Photographs of the multi-cantilever piezolectric MEMS generator: ) fnished wafer, () a singledie"
+    },
+    {
+      "heading": "3.4 Piezoelectric bimorph generator",
+      "level": 1,
+      "text": "iure  hows he schematic  a MEMS generator wih piezoelectric bimorph(). The cantilever beam made  a aT PZT   heaye ul  po al diretion (Theupper Z ye nd he lower  aye expencd copein n extesn individually due to both layers utilize the {3-1} mode of the piezoelectric material."
+    },
+    {
+      "heading": "Downloaded From: http://proceedings.spiedigitallbrary.org/ on 05/13/2015 Terms of Use: http://spiedl.org/terms",
+      "level": 1,
+      "text": "![](images/ebaf7e539b39425bc9948b5b3651558fd8b249993113aecd4cb7f22d8022dbaf.jpg)  \ndirection\n\nFigures 10(a) and 10(b) shows SEM photos of the finished MEMS piezoelectric bimorph generators(13). The plecmor rar s mi m-anter bemiat w doubye  nd mas at the ip is shown Thre conact pad at theight hand side of the M photo were used to meaue the peormance the evigure 10 shows th ross-sctn  thedouble layer  srucure the MEMS piezoelectric bimorph generator.\n\n![](images/9e1e2b49b57a5d9097ee77905794825ec0b4c52089231e5206fe69be82bde748.jpg)  \nof the beam with double layer PZT\n\nThe mautu poweanhestut volifnexteally p ceeat impedance matching conditions were also studiedThe experimental results showed that our device had a maximum open-circuit output voltage of $1 . 9 1 \\mathrm { V } _ { P - P }$ a $ { \\mathrm { I } } 3 . 4 2  { \\mathrm { V } _ { P - P } }$ for a parallel and serial polarization, respectively. The maximum output power was $1 . 5 5 \\ : \\mu \\mathrm { ~ W ~ }$ with a $1 . 1 1 \\nabla _ { P - P }$ output voltage when excited at its resonant frequency $( 2 0 6 . 8 0 \\mathrm { H z } )$ for a parallel polarization device. The maximum output power was $1 . 7 8 \\mu \\mathrm { W }$ with a $2 . 1 7 \\mathrm { V } _ { P - P }$ output voltage at its resonant frequency $( 1 6 7 . 9 5 \\mathrm { H z } )$ for a serial polarization device. It confirmed that the piezoelectric bimorph device with parallel polarization.\n\nThe latest results from Lin et al are shown in Table 1, showcasing promising results:\n\nTable 1. Summary of our output performance of PMEH with bimorph type and {3-1} mode at 1g acceleration.   \n\n<table><tr><td>Type</td><td>Frequency</td><td>load</td><td>Power</td><td>Voltage</td><td>Volume</td></tr><tr><td>Bimorph-parallel</td><td>94.5 Hz</td><td>82 kΩ</td><td>184.5 μW</td><td>11 V</td><td>27.36 mm3</td></tr><tr><td>Bimorph-serial</td><td>89.8 Hz</td><td>390 kΩ</td><td>184.6 μW</td><td>24 V</td><td>27.36 mm3</td></tr><tr><td>{3-1} mode</td><td>114.2 Hz</td><td>100 kΩ</td><td>135.4 μW</td><td>10.4 V</td><td>12.96 mm3</td></tr></table>"
+    },
+    {
+      "heading": "3.4 Piezoelectric energy harvesters fabricated on stainless-steel substrates",
+      "level": 1,
+      "text": "In tement publishe paper, te ubstrtematerals  ln OI waes n mos  the piz malB  ll ml Foraplatns hrain veuu   iatlioOI susra susa roThevanaies-se ustao  ep, properties, good formability and high extension.\n\nFigure 11 (a) and (b) show the schematic diagram of the device(14). The device was composed of a $3 0 ~ \\mu \\mathrm { { m } }$ stainless-steel substrate, a lower electrode, a $1 5 \\ : \\mu \\mathrm { m }$ PZT layer, an upper electrode, and a bonded tungsten proof mass. A cantilever beam structure in this study was designed to have the dimensions of $6 0 0 0 { \\times } 8 0 0 0 \\mu \\mathrm { m } ^ { 2 }$ .The proof mass for the PMEH was bonded to the cantilever-bem structure to adjust the resonant feqency. The irst mode resoance e     uu $1 2 0 \\ : \\mathrm { H z }$ e        o SMa    t e The a ou  pes a high yield rate PMEHs can be fabricated.\n\n![](images/5e5541d1d70723045cb2af189e02657be9ffc7196a029e2ffeb82c1f23a0cc20.jpg)  \nF the PMEH for the first mode resonant frequency by COMSOL Multiphysics\n\n![](images/ae800fd1305657f43edfbf065aa655400a62049c91b7e2ad2542ea6f18de249e.jpg)  \nstainless substrate\n\nThe output performance with $1 . 5 \\mathrm { g }$ acceleration in a vacuum was approximately 1.2 times higher than that in atmosphere. Also, the output performance at a low $0 . 0 5 \\mathrm { g }$ acceleration in vacuum was approximately 2-3 times greater u a o power of $2 0 0 . 2 8 ~ \\mu \\mathrm { W }$ with a $1 2 . 6 5 8 \\mathrm { ~ V ~ } _ { P - P }$ output voltage at a resonant frequency of $1 1 2 . 4 ~ \\mathrm { H z }$ at a $1 . 5 \\mathrm { g }$ acceleration level when connected to a $1 0 0 ~ \\mathrm { k } \\Omega$ optimal load impedance, while working in a vacuum under a $1 5 0 ~ \\mathrm { k } \\Omega$ optimal load impedance it had a maximum output power of $2 4 1 . 6 0 \\mu \\mathrm { W }$ with a $1 7 . 0 2 7 \\mathrm { ~ V ~ } _ { P - P }$ output voltage at a resonant frequency of $1 0 4 . 4 \\ : \\mathrm { H z }$ at a $1 . 5 \\mathrm { g }$ acceleration level. The result shows that the maximum energy densities at a $1 . 5 \\mathrm { g }$ acceleration of the PMEH in a vacuum and in atmosphere were 178.6 and $1 3 7 . 5 \\mathrm { n J } \\mathrm { m m } ^ { - 3 }$ , respectively.\n\ns"
+    },
+    {
+      "heading": "Downloaded From: http://proceedings.spiedigitallbrary.org/ on 05/13/2015 Terms of Use: http://spiedl.org/terms",
+      "level": 1,
+      "text": "recent $\\{ 3 - 1 \\}$ mode piezoelectric cantilever beam energy harvesting device from our team has great output density at a relatively low resonant frequency, $2 0 2 \\ \\mathrm { H z }$ It is much more realistic for our device to operate at such frequency because of  device based on stainless-steel substrate can provide a maximum output power of $3 4 \\mu \\mathrm { W }$ with $1 . 8 \\mathrm { V _ { r m s } }$ output voltage at a resonant frequency of $2 0 2 \\mathrm { H z }$ under a $1 . 5 \\mathrm { g }$ acceleration. The areal power density is at $7 . 6 ~ \\mu \\mathrm { W } ~ \\mathrm { m m } ^ { - 2 }$ , as seen in Table In coparion wi slicn-bas substraes, staiess-steel substrateae much moreurableanfexib tus staies-se sitablera en womoveent  akurhe stainless-steel manufacturing process is cheaper and moreaffordable, requiring less expensive machinery to be the conventional silicon based substrates.\n\nTable 2. All published piezoelectric MEMS energy harvesters with $\\{ 3 - 1 \\}$ mode and $\\{ 3 - 3 \\}$ mode.   \n\n<table><tr><td rowspan=\"2\">Author</td><td rowspan=\"2\">Mode</td><td rowspan=\"2\">Material</td><td rowspan=\"2\">A (g)</td><td rowspan=\"2\">f (Hz)</td><td rowspan=\"2\">Power (μW)</td><td rowspan=\"2\">Areab (m)</td><td rowspan=\"2\">effective voolume (mm2)</td><td colspan=\"2\">Power density</td><td colspan=\"2\">Normalized power density</td></tr><tr><td>: μW</td><td>• μW</td><td>:μW g^ H-}$</td><td>μW g&#x27; Hz$</td></tr><tr><td>Jeon et al 2005 (8)</td><td>3-3</td><td>PZT</td><td>10.8</td><td>13.9 k</td><td>1</td><td>0.04</td><td>0.027a</td><td>mm2 25</td><td>mm2 37</td><td>cm{2}$ 0.02</td><td>cm2$ 0.25</td></tr><tr><td>Fang et al 2006 (16)</td><td>3-1</td><td>PZT</td><td>1.0</td><td>608</td><td>2.16</td><td>1.2</td><td>0.194</td><td>1.8</td><td>11</td><td>0.3</td><td>18</td></tr><tr><td>Marzencki et al 2008 (17)</td><td>3-1</td><td>AIN</td><td>2.0</td><td>1495</td><td>0.8</td><td>0.96</td><td>0.32a</td><td>0.83</td><td>2.5</td><td>0.03</td><td>0.84</td></tr><tr><td>Shen et al 2008 (10)</td><td>3-1</td><td>PZT</td><td>2.0</td><td>461.2</td><td>2.15</td><td>1.9</td><td>0.652</td><td>1.1</td><td>3.3</td><td>0.12</td><td>3.6</td></tr><tr><td>Our team,Lee et al 2009(9)</td><td>3-1</td><td>PZT</td><td>2.5</td><td>255.9</td><td>2.8</td><td>4.5</td><td>0.425</td><td>0.62</td><td>6.6</td><td>0.1</td><td>10.</td></tr><tr><td>Our team,Lee et al 2009(9)</td><td>3-3</td><td>PZT</td><td>2.0</td><td>214</td><td>1.29</td><td>4.5</td><td>0.607</td><td>0.29</td><td>2.1</td><td>0.07</td><td>4.9</td></tr><tr><td>Elfrink et al 2009 (18)</td><td>3-1</td><td>AIN</td><td>2.0</td><td>572</td><td>60</td><td>30</td><td>9.088a</td><td>2</td><td>0.15</td><td>0.17</td><td>5.8</td></tr><tr><td>Muralt et al 2009 (19)</td><td>3-3</td><td>PZT</td><td>2.0</td><td>870</td><td>1.4</td><td>0.96</td><td>0.167 a</td><td>1.5</td><td>8.4</td><td>0.08</td><td>4.8</td></tr><tr><td>Aktakka et al 2011 (20)</td><td>3-1</td><td>PZT</td><td>1.5</td><td>154</td><td>205</td><td>49</td><td>19.705</td><td>4.2</td><td>10</td><td>1.81</td><td>45</td></tr><tr><td>Lei et al 2011 (21)</td><td>3-1</td><td>PZT</td><td>1.0</td><td>235</td><td>14</td><td>35.8</td><td>4.64 a</td><td>0.39</td><td>3.0</td><td>0.17</td><td>13</td></tr><tr><td>Kanno et al 2012 (22)</td><td>3-1</td><td>KNN</td><td>1.0</td><td>1036</td><td>1.1</td><td>68</td><td>13.6</td><td>0.02</td><td>0.08</td><td>0.002</td><td>0.08</td></tr><tr><td>Tang et al 2012 (23)</td><td>3-1</td><td>PZT</td><td>1.0</td><td>514.1</td><td>11.5</td><td>2.5</td><td>0.4</td><td>4.6</td><td>29</td><td>0.89</td><td>56</td></tr><tr><td>Our team, Lin et al 2013(14)</td><td>3-1</td><td>PZT</td><td>1.5</td><td>104.4</td><td>241.6</td><td>48</td><td>12.96</td><td>5.0</td><td>18.6</td><td>3.19</td><td>267</td></tr><tr><td>Our team, Lin et al 2013(6)</td><td>3-1</td><td>PZT</td><td>1.5</td><td>215</td><td>21</td><td>4.5</td><td>0.567</td><td>4.7</td><td>37</td><td>1.45</td><td>114</td></tr><tr><td>Our team, Lin et al 2013(6)</td><td>3-1</td><td>PZT</td><td>1.5</td><td>202</td><td>34</td><td>4.5</td><td>2.36</td><td>7.6</td><td>14</td><td>2.49</td><td>48</td></tr></table>"
+    },
+    {
+      "heading": "Interface Design by Synchronized Switching Circuitry",
+      "level": 1,
+      "text": "Apil arvesviequusetsupotenal powe s ui t I e u   pa et I nrstora ee are aly duy  cue dpi he andar n l cii de, nd artiularur weca  he - characteristics in effect when SSHI is activated(24).\n\n![](images/69c5c1192d809f2cc25b7d9a9d97244873b751e408716084bf8750c238dd1577.jpg)  \nnon-linear technique\n\nWhen a parallel SHI desig is implemented, the voltageof the device is quickly inverted after the harvesting maitde is anithuscreasng the pizlec coupl c, whic isdr colatn w the u o harvetig, henche elpw des pet Thi partilar de cefom ro Lalrt(27).\n\nTh i decnt he part eFigur (a The peadteor is usseve e alb he peaketeo wh u i  hedr wi e ze The pra cons  iranss n a he  cnol an hecnduic bs -cal M tnor. ucde imen weee  pawi s uy c our energy harvesters. In Figure 14 (b) the micro generator and the circuit design is shown(24).\n\n![](images/d11b19279510e3856a1d17175d09595a70d16291cd9e016940b85d9f9fbfebf4.jpg)  \n(middle), and the inductor for the circuit (left)"
+    },
+    {
+      "heading": "Downloaded From: http://proceedings.spiedigitalibrary.org/ on05/13/2015 Terms of Use: http://spiedl.org/terms",
+      "level": 1,
+      "text": "PME that has been used o generate energy thus ar has been capable to produce nly micro-leve current. When H o for any sort of energy harvester.\n\n![](images/11b8a0e8a01943f535dd2faf326f76b4f0d7e6b885f5d1a7dfc4e095e905a6fd.jpg)  \nFigure 15. The relationship between voltage input (Voc) and the SSHI gain"
+    },
+    {
+      "heading": "5. Summary",
+      "level": 1,
+      "text": "In this paper wereviewe ahi peroan E desfabriaten bothslion sbsrate anstailes-el u  e ul w u e  he i-ey  pret.  ditn, he B- SRMicroncnegative ho sal ye was opte the ps, whc an edfi byhe  ptte a kee he MEMS energy harvester f {3-3} mode and {3-1} mode;multi-cantilever beam; bimorh mode; base  stainless-steel, SHTh rectifying circuit, more harvesters were used to generate a bigger $\\mathrm { V _ { o c } }$ Once the circuit is operating in a linear mode, the a-pe  deit  e powenoalpowedensi furnish a better performance."
+    },
+    {
+      "heading": "Acknowledgement",
+      "level": 1,
+      "text": "We would like to thank the PHC (Partenariat Hubert Curien) Orchid Program (Program Number: NSC 101-2911-1-002-511, which is held by the BFT (Bureu Français de Taipei) and the NSC (National Science Council, National Taiwan University and Intel Corporation under Grants NSC1011-2911-1-002-001 and NTU102R7501, and also"
+    },
+    {
+      "heading": "Downloaded From: http://proceedings.spiedigitallbrary.org/ on 05/13/2015 Terms of Use: http://spiedl.org/terms",
+      "level": 1,
+      "text": "partially ranted by the NSC program with the program number: NSC 101-2628-E-002-011-MY3. This work was also supported by National Science Council, National Taiwan University and Intel Corporation under Grants NC102-2911-1-002-001 and NTU103R7501Special thanks to Prof Mickal Lallart or his continue assistance nd collaboration with our group."
+    },
+    {
+      "heading": "References",
+      "level": 1,
+      "text": "[1] K. Ashton, \"That Internet of Things' Thing, in the real world things matter more than ideas\", RFID Joural [2 .Rny, . . Wri n J. Rab, \" yow ve vra   w uror ires nodes,\" Computer Communications 26(11), 1131-1144 (2003)   \n[ J.Ao n . Lee, \"Mistue Elecial ropert  L Zce tae $\\mathrm { ( P b ( Z r _ { 0 . 5 2 } / T i _ { 0 . 4 8 } ) O _ { 3 } ) }$ Thic Fil Deposited by Aerosol DeposiMethod\" Japane Joural Appli hysi 38(Part 1, No.B), 597 [4 J.Ak, \"A dosihi i   ptue ensiti ehan layers,\" Journal of the American Ceramic Society 89(6), 1834-1839 (2006)   \n[5] . Ao \"Ro tperat mpa consolidtio () ofi cami powr by roso desin med and applications to microdevices,\" J Therm Spray Tech 17(2), 181-198 (2008)   \n[.. , \"       e utlizing an aerosol deposition method,\" Journal of Micromechanics and Microengineering 23(12), 125028 (2013) [7] J. Akedo and M. Lebedev, \"Piezoelectric properties and poling effect of $\\mathrm { P b } ( \\mathrm { Z r } , \\mathrm { T i } ) \\mathrm { O } [ \\mathrm { s u b } \\ 3 ]$ thick films prepared for microactuators by aerosol deposition,\" Applied Physics Letters 77(11), 1710 (2000)   \n[ Y. B. Jon, R. Sod, J. H. Jeong and S. G. Kim \"EMS power enerator with transver mod thin film PZT,\" Sensor Actuat a-Phys 122(1), 16-22 (2005)   \n.. .C.  .J.W X.Y.P. Z. . .e with an aerosol deposition PZT thin film,\" Journal of Micromechanics and Microengineering 19(6), 065014 (2009) J. H J. ..  H.  . . of a MEMS PZT cantilever with an integrated Si proof mass for vibration energy harvesting,\" Journal of   \nMicromechanics and Microengineering 18(5), 055017 (2008)   \n[ .C. Li B. S. ee W. J. W  C. K. ee, \"uaeve zecc ES   y harvesting,\" in Ultrasonics Symposium (IUS), 2009 IEEE International, pp. 755-758 (2009).   \n[2Y. C. Shu nd I. .L, \"Analys oetut r pec ne arve ystes,\"  a. Struct. 15(6), 1499 (2006)   \n[ ..e..   ., \"a v Vibration Energy Harvesting,\" Journal of Mechanics 26(04), 493-499 (2010)   \n[1 .C. Lin nd W. J. Wu, \"Pizlectric mico eergy harvesters bas on stainess-stee subsrates,\" Materials and Structures 22(4), 045016 (2013)   \n[E.tak R. L.Pe nd . a \"AMOS-c a ave 31.35.31-31.35.34 (2010).   \nB. . .X   .. \" MEMS-based piezoelectric power generator for vibration energy harvesting,\" Microelectronics Journal 37(11), 1280-1284 (2006)   \n[ . e Y. arn . Br \"In pw t ys clu  MES power management circuit,\" Sensor Actuat a-Phys 145(0), 363-370 (2008)   \n[ R.Eik, T. M.Kael M. Ge SMaov D. Hoed, Y. vaeanR.va Schaik, \"V energy harvesting with aluminum nitride-based piezoelectric devices,\" Journal of Micromechanics and   \nMicroengineering 19(9), 094005 (2009)   \nMural . rc, B. Bel, F. ala n . Bas, \"Vibr egy Harveg wi ZT Mi Device,\" Procedia Chemistry 1(1), 1191-1194 (2009)   \n[20] E. E. Aktakka, R. L. Peterson and K. Najafi, \"Thinned-PZT on SOI process and design optimization for pizelecric inertal eergy harvesting, in SolidStateSensors, Actuators and Microsystems onference   \n(TRANSDUCERS), 2011 16th International, pp. 1649-1652 (2011).   \n[A.Lei, R. Xu, A. Thyss,A.C.StootT. L.Christans, K. Han, R. Lou-Moler, E. . Tho n. Brkelund, \"MES-basethick filmZT vratinal negy harvester,\" in MicElectro Mechanial Systes (ES), 2011 IEEE 24th International Conference on, pp. 125-128 (2011). [ . ao. Ichi .a H.otr.Shib.Mish e pe $( \\mathrm { K } , \\mathrm { N a } ) \\mathrm { N b } { \\mathrm { O } } _ { 3 }$ piezoelectric thin-film energy harvesters,\" Sensor Actuat a-Phys 179(0), 132-136 (2012)   \n[G.T J.Q.Lu B. J. B.uo, H.S. L.G.LiC.S.Y ..He ..oK.T. Sug, \"Fabricatio ndanalysi high-peroac pizolecrMEgnerators,\" JouralMic and Microengineering 22(6), 065017 (2012)   \n[ Y. .i M. L .C.Li nd WJ. W, \"Semicro-piezoelectric energy harvesters,\" Proceedings of the ASME 2013 Conference on Smart Materials, Adaptive Structures and Intelligent Systems (2013)   \n[ . Lefee A. BadeC. Richar L.Peti nd .Gyar  cpn eeve vrapiezoelectric generators for standalone systems,\" Sensor Actuat a-Phys 126(2), 405-416 (2006)   \n[26 D. Guyomar, A. Badel, E. Lefeuvre and C. Richard, \"Toward energy harvesting using active materials and conversion improvement by nonlinear processing,\" Ieee T Ultrason Ferr 52(4), 584-595 (2005)   \n[27] M. Lallart, E. Lefeuvre, C. Richard and D. Guyomar, \"Self-powered circuit for broadband, multimodal piezoelectric vibration control,\" Sensor Actuat a-Phys 143(2), 377-382 (2008)   \n....., \" interace circuit or piezoelectri mico power harvesters,\" Proceedin of Smart Materials and Structures (2014"
+    }
+  ],
+  "tables": [
+    {
+      "page": -1,
+      "content": ""
+    },
+    {
+      "page": -1,
+      "content": ""
+    }
+  ],
+  "figures": [
+    {
+      "page": -1,
+      "caption": "",
+      "path": "images/5148bcfd8a7cd9e3237edf4ae5d0fac27a4ac06178c6471fa1c0f8473a5ec2bb.jpg"
+    },
+    {
+      "page": -1,
+      "caption": "",
+      "path": "images/6f2f3b52c8e21392074cca72e4f5df0651111687ccb920282a423fed1fc2359c.jpg"
+    },
+    {
+      "page": -1,
+      "caption": "",
+      "path": "images/383deb01fb5fc49d8492fe3ff29b05408163570d8e45415ed8eacd7142118078.jpg"
+    },
+    {
+      "page": -1,
+      "caption": "",
+      "path": "images/ee383cbbed506bd49e0ea9e6d2a6ea0ef37947a5e119d2ae1d18eecfec0b8d29.jpg"
+    },
+    {
+      "page": -1,
+      "caption": "",
+      "path": "images/d3c64a807cf4b5711ede3559b56b26b4322c051dfd947f1bcaffe1edb800f3c8.jpg"
+    },
+    {
+      "page": -1,
+      "caption": "",
+      "path": "images/fdd99f05e958fe2e7840733343d0cb26d1b86f447907aa66ec1201d38d1dbf61.jpg"
+    },
+    {
+      "page": -1,
+      "caption": "",
+      "path": "images/e006b7a1a0ee1c99dbff01604ee1eec0d64858005b920ac891d8a0cf5853f703.jpg"
+    },
+    {
+      "page": -1,
+      "caption": "",
+      "path": "images/461b2410930c6c8fec673345f7ca70381d9eff9bd42c7b4273602094f09ae864.jpg"
+    },
+    {
+      "page": -1,
+      "caption": "",
+      "path": "images/ebaf7e539b39425bc9948b5b3651558fd8b249993113aecd4cb7f22d8022dbaf.jpg"
+    },
+    {
+      "page": -1,
+      "caption": "",
+      "path": "images/9e1e2b49b57a5d9097ee77905794825ec0b4c52089231e5206fe69be82bde748.jpg"
+    },
+    {
+      "page": -1,
+      "caption": "",
+      "path": "images/5e5541d1d70723045cb2af189e02657be9ffc7196a029e2ffeb82c1f23a0cc20.jpg"
+    },
+    {
+      "page": -1,
+      "caption": "",
+      "path": "images/ae800fd1305657f43edfbf065aa655400a62049c91b7e2ad2542ea6f18de249e.jpg"
+    },
+    {
+      "page": -1,
+      "caption": "",
+      "path": "images/69c5c1192d809f2cc25b7d9a9d97244873b751e408716084bf8750c238dd1577.jpg"
+    },
+    {
+      "page": -1,
+      "caption": "",
+      "path": "images/d11b19279510e3856a1d17175d09595a70d16291cd9e016940b85d9f9fbfebf4.jpg"
+    },
+    {
+      "page": -1,
+      "caption": "",
+      "path": "images/11b8a0e8a01943f535dd2faf326f76b4f0d7e6b885f5d1a7dfc4e095e905a6fd.jpg"
+    }
+  ],
+  "metadata": {
+    "source": "both",
+    "pdf_url": "",
+    "parsed_at": "2026-03-10T10:01:42.084294+00:00"
+  }
+}

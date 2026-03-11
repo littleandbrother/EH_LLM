@@ -1,0 +1,147 @@
+{
+  "metadata": {
+    "paper_id": "10_37934_arfmts_102_2_8198",
+    "doi": "10.37934/arfmts.102.2.8198",
+    "title": "Modelling and Characterization Piezoelectric Transducer for Sound Wave Energy Harvesting",
+    "year": 2023,
+    "journal": "Journal of Advanced Research in Fluid Mechanics and Thermal Sciences"
+  },
+  "configuration": "cantilever",
+  "proof_mass": false,
+  "geometry": {
+    "length_mm": 31.8,
+    "width_mm": 12.7,
+    "thickness_mm": 0.51,
+    "substrate_thickness_um": null,
+    "piezo_thickness_um": null,
+    "tip_mass_g": null,
+    "diameter_mm": null
+  },
+  "excitation": {
+    "type": "vibration",
+    "frequency_Hz": 269.88,
+    "acceleration_g": null,
+    "displacement_mm": 7.78e-11,
+    "motion_source": "sound wave"
+  },
+  "load": {
+    "load_resistance_ohm": 12000
+  },
+  "output": {
+    "resonant_frequency_Hz": 269.88,
+    "output_power_W": 6.0187e-09,
+    "open_circuit_voltage_V": 3.635,
+    "short_circuit_current_A": null,
+    "bandwidth_Hz": null
+  },
+  "evidence": {
+    "configuration": {
+      "quote": "This research is to concentrate on rectangular and trapezium-shaped cantilever.",
+      "section": "Modelling and Characterization Piezoelectric Transducer for Sound Wave Energy Harvesting",
+      "source_type": "abstract"
+    },
+    "proof_mass": {
+      "quote": "future work, a proof mass magnet can be added",
+      "section": "4. Conclusions",
+      "source_type": "section"
+    },
+    "geometry": {
+      "length_mm": {
+        "quote": "length... is 31.8 mm",
+        "section": "2.1 Development of Rectangular and Trapezium Shaped Piezoelectric Cantilever",
+        "source_type": "section"
+      },
+      "width_mm": {
+        "quote": "12.7 mm in depth",
+        "section": "2.1 Development of Rectangular and Trapezium Shaped Piezoelectric Cantilever",
+        "source_type": "section"
+      },
+      "thickness_mm": {
+        "quote": "height of 0.51 mm",
+        "section": "2.1 Development of Rectangular and Trapezium Shaped Piezoelectric Cantilever",
+        "source_type": "section"
+      },
+      "substrate_thickness_um": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "piezo_thickness_um": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "tip_mass_g": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "diameter_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      }
+    },
+    "excitation": {
+      "type": {
+        "quote": "mechanical vibration from the sound energy",
+        "section": "Modelling and Characterization Piezoelectric Transducer for Sound Wave Energy Harvesting",
+        "source_type": "abstract"
+      },
+      "frequency_Hz": {
+        "quote": "269.88 Hz",
+        "section": "3.2 Simulation Result for Eigenfrequency on Rectangular Shape Piezoelectric",
+        "source_type": "section"
+      },
+      "acceleration_g": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "displacement_mm": {
+        "quote": "7.78 x 10-11",
+        "section": "Table 2 Natural frequencies of the trapezium shape piezoelectric",
+        "source_type": "table"
+      },
+      "motion_source": {
+        "quote": "sound wave",
+        "section": "Modelling and Characterization Piezoelectric Transducer for Sound Wave Energy Harvesting",
+        "source_type": "abstract"
+      }
+    },
+    "load": {
+      "load_resistance_ohm": {
+        "quote": "R_load of 12 kOhm",
+        "section": "3.6 Analysis for the Rectangular Shaped Piezoelectric Cantilever in Closed Circuit Condition",
+        "source_type": "section"
+      }
+    },
+    "output": {
+      "resonant_frequency_Hz": {
+        "quote": "269.88 Hz",
+        "section": "3.2 Simulation Result for Eigenfrequency on Rectangular Shape Piezoelectric",
+        "source_type": "section"
+      },
+      "output_power_W": {
+        "quote": "6.0187 nW",
+        "section": "3.6 Analysis for the Rectangular Shaped Piezoelectric Cantilever in Closed Circuit Condition",
+        "source_type": "section"
+      },
+      "open_circuit_voltage_V": {
+        "quote": "3.635 V",
+        "section": "3.5 Open Circuit Voltage Result for Trapezium Shaped Cantilever",
+        "source_type": "section"
+      },
+      "short_circuit_current_A": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "bandwidth_Hz": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      }
+    }
+  }
+}

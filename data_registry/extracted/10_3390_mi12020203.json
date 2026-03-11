@@ -1,0 +1,147 @@
+{
+  "metadata": {
+    "paper_id": "10_3390_mi12020203",
+    "doi": "10.3390/mi12020203",
+    "title": "A Multi-Mode Broadband Vibration Energy Harvester Composed of Symmetrically Distributed U-Shaped Cantilever Beams",
+    "year": 2021,
+    "journal": "Micromachines"
+  },
+  "configuration": "cantilever",
+  "proof_mass": true,
+  "geometry": {
+    "length_mm": 38,
+    "width_mm": null,
+    "thickness_mm": 0.15,
+    "substrate_thickness_um": 150,
+    "piezo_thickness_um": 150,
+    "tip_mass_g": null,
+    "diameter_mm": null
+  },
+  "excitation": {
+    "type": "vibration",
+    "frequency_Hz": 18,
+    "acceleration_g": 0.5,
+    "displacement_mm": null,
+    "motion_source": null
+  },
+  "load": {
+    "load_resistance_ohm": 260000
+  },
+  "output": {
+    "resonant_frequency_Hz": 18,
+    "output_power_W": 6.13e-05,
+    "open_circuit_voltage_V": 6.9,
+    "short_circuit_current_A": null,
+    "bandwidth_Hz": null
+  },
+  "evidence": {
+    "configuration": {
+      "quote": "two U-shaped cantilever beams",
+      "section": "2.1. Structural Design",
+      "source_type": "section"
+    },
+    "proof_mass": {
+      "quote": "five tip masses",
+      "section": "Abstract",
+      "source_type": "abstract"
+    },
+    "geometry": {
+      "length_mm": {
+        "quote": "L1 38 mm",
+        "section": "2.1. Structural Design",
+        "source_type": "table"
+      },
+      "width_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "thickness_mm": {
+        "quote": "t1 0.15 mm",
+        "section": "2.1. Structural Design",
+        "source_type": "table"
+      },
+      "substrate_thickness_um": {
+        "quote": "t1 0.15 mm",
+        "section": "2.1. Structural Design",
+        "source_type": "table"
+      },
+      "piezo_thickness_um": {
+        "quote": "t2 0.15 mm",
+        "section": "2.1. Structural Design",
+        "source_type": "table"
+      },
+      "tip_mass_g": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "diameter_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      }
+    },
+    "excitation": {
+      "type": {
+        "quote": "harvest energy from surrounding vibrations",
+        "section": "Abstract",
+        "source_type": "abstract"
+      },
+      "frequency_Hz": {
+        "quote": "13, 15, 18, 21 and 24 Hz",
+        "section": "Abstract",
+        "source_type": "abstract"
+      },
+      "acceleration_g": {
+        "quote": "0.5 g acceleration",
+        "section": "Abstract",
+        "source_type": "abstract"
+      },
+      "displacement_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "motion_source": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      }
+    },
+    "load": {
+      "load_resistance_ohm": {
+        "quote": "optimal resistor value is 260 kOhm",
+        "section": "3.2.2. Experimental Results",
+        "source_type": "section"
+      }
+    },
+    "output": {
+      "resonant_frequency_Hz": {
+        "quote": "13, 15, 18, 21 and 24 Hz",
+        "section": "Abstract",
+        "source_type": "abstract"
+      },
+      "output_power_W": {
+        "quote": "maximum output power is 52.2, 49.4, 61.3, 39.2 and 32.1 uW",
+        "section": "Abstract",
+        "source_type": "abstract"
+      },
+      "open_circuit_voltage_V": {
+        "quote": "peak values of 6.4, 6.2, 6.9, 5.1 and 6.4 V",
+        "section": "3.2.2. Experimental Results",
+        "source_type": "section"
+      },
+      "short_circuit_current_A": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "bandwidth_Hz": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      }
+    }
+  }
+}

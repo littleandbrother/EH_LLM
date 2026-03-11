@@ -1,0 +1,147 @@
+{
+  "metadata": {
+    "paper_id": "10_1063_1_4962979",
+    "doi": "10.1063/1.4962979",
+    "title": "A utility piezoelectric energy harvester with low frequency and high-output voltage: Theoretical model, experimental verification and energy storage",
+    "year": 2016,
+    "journal": "AIP Advances"
+  },
+  "configuration": "cantilever",
+  "proof_mass": true,
+  "geometry": {
+    "length_mm": 30,
+    "width_mm": 25,
+    "thickness_mm": 0.2,
+    "substrate_thickness_um": 200,
+    "piezo_thickness_um": 200,
+    "tip_mass_g": null,
+    "diameter_mm": null
+  },
+  "excitation": {
+    "type": "vibration",
+    "frequency_Hz": 58.9,
+    "acceleration_g": 1.02,
+    "displacement_mm": null,
+    "motion_source": null
+  },
+  "load": {
+    "load_resistance_ohm": 33900
+  },
+  "output": {
+    "resonant_frequency_Hz": 58.9,
+    "output_power_W": 0.0275,
+    "open_circuit_voltage_V": 86.36,
+    "short_circuit_current_A": null,
+    "bandwidth_Hz": null
+  },
+  "evidence": {
+    "configuration": {
+      "quote": "The utility piezoelectric energy harvester comprises an elastic cantilever beam",
+      "section": "II. THEORETICAL STUDY ON THE UTILITY PIEZOELECTRIC ENERGY HARVESTER",
+      "source_type": "section"
+    },
+    "proof_mass": {
+      "quote": "The utility piezoelectric energy harvester comprises an elastic cantilever beam, a mass block",
+      "section": "II. THEORETICAL STUDY ON THE UTILITY PIEZOELECTRIC ENERGY HARVESTER",
+      "source_type": "section"
+    },
+    "geometry": {
+      "length_mm": {
+        "quote": "Length,L1+L2+L3+L4[mm] 30",
+        "section": "TABLE I",
+        "source_type": "table"
+      },
+      "width_mm": {
+        "quote": "Width,B1[mm] 25",
+        "section": "TABLE I",
+        "source_type": "table"
+      },
+      "thickness_mm": {
+        "quote": "Thickness,H1[mm] 0.2",
+        "section": "TABLE I",
+        "source_type": "table"
+      },
+      "substrate_thickness_um": {
+        "quote": "Thickness,H1[mm] 0.2",
+        "section": "TABLE I",
+        "source_type": "table"
+      },
+      "piezo_thickness_um": {
+        "quote": "Thickness,H3[mm] 0.2",
+        "section": "TABLE I",
+        "source_type": "table"
+      },
+      "tip_mass_g": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "diameter_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      }
+    },
+    "excitation": {
+      "type": {
+        "quote": "vibration environment",
+        "section": "A utility piezoelectric energy harvester with low frequency and high-output voltage: Theoretical model, experimental verification and energy storage",
+        "source_type": "abstract"
+      },
+      "frequency_Hz": {
+        "quote": "first modal frequency (58.90 Hz)",
+        "section": "A utility piezoelectric energy harvester with low frequency and high-output voltage: Theoretical model, experimental verification and energy storage",
+        "source_type": "abstract"
+      },
+      "acceleration_g": {
+        "quote": "acceleration 10 m/s^2",
+        "section": "A utility piezoelectric energy harvester with low frequency and high-output voltage: Theoretical model, experimental verification and energy storage",
+        "source_type": "abstract"
+      },
+      "displacement_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "motion_source": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      }
+    },
+    "load": {
+      "load_resistance_ohm": {
+        "quote": "optimal load is about 33.9 K Ohm",
+        "section": "III. SIMULATIONS AND EXPERIMENTAL VERIFICATION",
+        "source_type": "section"
+      }
+    },
+    "output": {
+      "resonant_frequency_Hz": {
+        "quote": "first modal frequency is 58.90 Hz",
+        "section": "III. SIMULATIONS AND EXPERIMENTAL VERIFICATION",
+        "source_type": "section"
+      },
+      "output_power_W": {
+        "quote": "output power can reach up to 27.5 mW",
+        "section": "A utility piezoelectric energy harvester with low frequency and high-output voltage: Theoretical model, experimental verification and energy storage",
+        "source_type": "abstract"
+      },
+      "open_circuit_voltage_V": {
+        "quote": "peak voltage is 86.36 v",
+        "section": "III. SIMULATIONS AND EXPERIMENTAL VERIFICATION",
+        "source_type": "section"
+      },
+      "short_circuit_current_A": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "bandwidth_Hz": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      }
+    }
+  }
+}

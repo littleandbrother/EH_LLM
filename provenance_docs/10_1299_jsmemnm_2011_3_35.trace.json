@@ -1,0 +1,28 @@
+{
+  "paper_id": "10_1299_jsmemnm_2011_3_35",
+  "doi": "10.1299/jsmemnm.2011.3.35",
+  "title": "3-7 Characterization of vibration energy harvesters composed of piezoelectric thin films",
+  "source_apis": [
+    "openalex"
+  ],
+  "pdf_url": "https://doi.org/10.1299/jsmemnm.2011.3.35",
+  "pdf_local_path": "data_registry/raw_stage04_paper_pdf_cleaned/10_1299_jsmemnm_2011_3_35.pdf",
+  "processing": {
+    "tool": "MinerU",
+    "version": "python -m mineru.cli.client, version 2.7.6",
+    "timestamp": "2026-03-10T10:04:38.430544+00:00",
+    "duration_s": 72.86,
+    "success": true,
+    "error": ""
+  },
+  "outputs": {
+    "content_md": "/root/EH-LLM-vehbench-exp/parsed_docs/10_1299_jsmemnm_2011_3_35_tbfug28a/content.md",
+    "layout_json": "/root/EH-LLM-vehbench-exp/parsed_docs/10_1299_jsmemnm_2011_3_35_tbfug28a/layout.json",
+    "images_dir": "/root/EH-LLM-vehbench-exp/parsed_docs/10_1299_jsmemnm_2011_3_35_tbfug28a/10_1299_jsmemnm_2011_3_35/auto/images",
+    "normalized_json": "/root/EH-LLM-vehbench-exp/normalized_docs/10_1299_jsmemnm_2011_3_35.json"
+  },
+  "data_lineage": {
+    "papers_jsonl_hash": "1961c51bee30ba145951a8d8ed864796",
+    "pipeline_step": "ingestion/mineru_runner.py"
+  }
+}

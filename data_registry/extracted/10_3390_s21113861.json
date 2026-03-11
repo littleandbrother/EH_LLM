@@ -1,0 +1,147 @@
+{
+  "metadata": {
+    "paper_id": "10_3390_s21113861",
+    "doi": "10.3390/s21113861",
+    "title": "Analytical Modeling of a Doubly Clamped Flexible Piezoelectric Energy Harvester with Axial Excitation and Its Experimental Characterization",
+    "year": 2021,
+    "journal": "Sensors"
+  },
+  "configuration": "other",
+  "proof_mass": false,
+  "geometry": {
+    "length_mm": 45,
+    "width_mm": 20,
+    "thickness_mm": 0.041,
+    "substrate_thickness_um": 23,
+    "piezo_thickness_um": 18,
+    "tip_mass_g": null,
+    "diameter_mm": null
+  },
+  "excitation": {
+    "type": "vibration",
+    "frequency_Hz": 27,
+    "acceleration_g": null,
+    "displacement_mm": null,
+    "motion_source": "vibration shaker"
+  },
+  "load": {
+    "load_resistance_ohm": 5700000
+  },
+  "output": {
+    "resonant_frequency_Hz": 27,
+    "output_power_W": 1.38e-06,
+    "open_circuit_voltage_V": 4.64,
+    "short_circuit_current_A": null,
+    "bandwidth_Hz": null
+  },
+  "evidence": {
+    "configuration": {
+      "quote": "doubly clamped flexible piezoelectric energy harvester",
+      "section": "Abstract",
+      "source_type": "abstract"
+    },
+    "proof_mass": {
+      "quote": "doubly clamped beam energy harvester with flexible plastic substrate without proof mass is devised",
+      "section": "1. Introduction",
+      "source_type": "section"
+    },
+    "geometry": {
+      "length_mm": {
+        "quote": "45 mm × 20 mm × 0.023 mm",
+        "section": "3. Numerical Simulation",
+        "source_type": "table"
+      },
+      "width_mm": {
+        "quote": "45 mm × 20 mm × 0.023 mm",
+        "section": "3. Numerical Simulation",
+        "source_type": "table"
+      },
+      "thickness_mm": {
+        "quote": "45 mm × 20 mm × 0.023 mm",
+        "section": "3. Numerical Simulation",
+        "source_type": "table"
+      },
+      "substrate_thickness_um": {
+        "quote": "45 mm × 20 mm × 0.023 mm",
+        "section": "3. Numerical Simulation",
+        "source_type": "table"
+      },
+      "piezo_thickness_um": {
+        "quote": "45 mm × 20 mm × 0.018 mm",
+        "section": "3. Numerical Simulation",
+        "source_type": "table"
+      },
+      "tip_mass_g": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "diameter_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      }
+    },
+    "excitation": {
+      "type": {
+        "quote": "low-frequency vibration environment",
+        "section": "Abstract",
+        "source_type": "abstract"
+      },
+      "frequency_Hz": {
+        "quote": "27",
+        "section": "4.3. Comparison of Recent Doubly Clamped Energy Harvesters",
+        "source_type": "table"
+      },
+      "acceleration_g": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "displacement_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "motion_source": {
+        "quote": "vibration shaker",
+        "section": "4.1. Test. Setup for the Doubly Clamped Energy Harvester",
+        "source_type": "section"
+      }
+    },
+    "load": {
+      "load_resistance_ohm": {
+        "quote": "5.7 × 103",
+        "section": "4.3. Comparison of Recent Doubly Clamped Energy Harvesters",
+        "source_type": "table"
+      }
+    },
+    "output": {
+      "resonant_frequency_Hz": {
+        "quote": "27",
+        "section": "4.3. Comparison of Recent Doubly Clamped Energy Harvesters",
+        "source_type": "table"
+      },
+      "output_power_W": {
+        "quote": "4.05 V /1.38 μW",
+        "section": "4.3. Comparison of Recent Doubly Clamped Energy Harvesters",
+        "source_type": "table"
+      },
+      "open_circuit_voltage_V": {
+        "quote": "open circuit output voltage signal that is captured by the oscilloscope, where the amplitude is about 4.64 V",
+        "section": "4.2.2. Resistance Load Matching",
+        "source_type": "section"
+      },
+      "short_circuit_current_A": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "bandwidth_Hz": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      }
+    }
+  }
+}

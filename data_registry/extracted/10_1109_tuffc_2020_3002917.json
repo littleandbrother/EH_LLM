@@ -1,0 +1,147 @@
+{
+  "metadata": {
+    "paper_id": "10_1109_tuffc_2020_3002917",
+    "doi": "10.1109/tuffc.2020.3002917",
+    "title": "Axe-Head-Shaped Piezoelectric Energy Harvesters Designed for Base and Tip Excitation-Based Energy Scavenging",
+    "year": 2020,
+    "journal": "IEEE Transactions on Ultrasonics, Ferroelectrics and Frequency Control"
+  },
+  "configuration": "cantilever",
+  "proof_mass": true,
+  "geometry": {
+    "length_mm": 8.0,
+    "width_mm": 5.2,
+    "thickness_mm": null,
+    "substrate_thickness_um": 125.0,
+    "piezo_thickness_um": 28.0,
+    "tip_mass_g": 0.72,
+    "diameter_mm": null
+  },
+  "excitation": {
+    "type": "vibration",
+    "frequency_Hz": 24.1,
+    "acceleration_g": 0.5,
+    "displacement_mm": null,
+    "motion_source": "vibrator"
+  },
+  "load": {
+    "load_resistance_ohm": 1200000.0
+  },
+  "output": {
+    "resonant_frequency_Hz": 24.1,
+    "output_power_W": 5.945e-07,
+    "open_circuit_voltage_V": null,
+    "short_circuit_current_A": null,
+    "bandwidth_Hz": null
+  },
+  "evidence": {
+    "configuration": {
+      "quote": "Axe-Head shaped cantilever type piezoelectric energy harvester (C-PEH)",
+      "section": "Axe-Head Shaped Piezoelectric Energy Harvesters Designed for Base and Tip Excitation Based Energy Scavenging",
+      "source_type": "abstract"
+    },
+    "proof_mass": {
+      "quote": "Device-1.1 with ring proof mass",
+      "section": "Axe-Head Shaped Piezoelectric Energy Harvesters Designed for Base and Tip Excitation Based Energy Scavenging",
+      "source_type": "abstract"
+    },
+    "geometry": {
+      "length_mm": {
+        "quote": "AB5 8 mm",
+        "section": "II. DESIGN CONCEPT & WORKING PRINCIPLE",
+        "source_type": "table"
+      },
+      "width_mm": {
+        "quote": "AB7 5.2 mm",
+        "section": "II. DESIGN CONCEPT & WORKING PRINCIPLE",
+        "source_type": "table"
+      },
+      "thickness_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "substrate_thickness_um": {
+        "quote": "mylar polyester substrate (125 um)",
+        "section": "II. DESIGN CONCEPT & WORKING PRINCIPLE",
+        "source_type": "section"
+      },
+      "piezo_thickness_um": {
+        "quote": "PVDF (28 um)",
+        "section": "II. DESIGN CONCEPT & WORKING PRINCIPLE",
+        "source_type": "section"
+      },
+      "tip_mass_g": {
+        "quote": "0.72 gram ring proof mass",
+        "section": "Axe-Head Shaped Piezoelectric Energy Harvesters Designed for Base and Tip Excitation Based Energy Scavenging",
+        "source_type": "abstract"
+      },
+      "diameter_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      }
+    },
+    "excitation": {
+      "type": {
+        "quote": "base excitation",
+        "section": "Axe-Head Shaped Piezoelectric Energy Harvesters Designed for Base and Tip Excitation Based Energy Scavenging",
+        "source_type": "abstract"
+      },
+      "frequency_Hz": {
+        "quote": "resonant frequency of 24.1 Hz",
+        "section": "V. EXPERIMENTAL SETUP AND PROCEDURE",
+        "source_type": "section"
+      },
+      "acceleration_g": {
+        "quote": "input acceleration of 0.5 g",
+        "section": "V. EXPERIMENTAL SETUP AND PROCEDURE",
+        "source_type": "section"
+      },
+      "displacement_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "motion_source": {
+        "quote": "vibrator incorporated with a C-PEH holding stage",
+        "section": "IV. EXPERIMENTAL SETUP AND PROCEDURE",
+        "source_type": "section"
+      }
+    },
+    "load": {
+      "load_resistance_ohm": {
+        "quote": "optimal load resistance of 1.2 MΩ",
+        "section": "V. EXPERIMENTAL SETUP AND PROCEDURE",
+        "source_type": "section"
+      }
+    },
+    "output": {
+      "resonant_frequency_Hz": {
+        "quote": "resonant frequency of 24.1 Hz",
+        "section": "V. EXPERIMENTAL SETUP AND PROCEDURE",
+        "source_type": "section"
+      },
+      "output_power_W": {
+        "quote": "594.5 nW",
+        "section": "Axe-Head Shaped Piezoelectric Energy Harvesters Designed for Base and Tip Excitation Based Energy Scavenging",
+        "source_type": "abstract"
+      },
+      "open_circuit_voltage_V": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "short_circuit_current_A": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "bandwidth_Hz": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      }
+    }
+  }
+}

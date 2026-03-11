@@ -1,0 +1,28 @@
+{
+  "paper_id": "10_1080_14686996_2018_1508985",
+  "doi": "10.1080/14686996.2018.1508985",
+  "title": "Bimorph piezoelectric vibration energy harvester with flexible 3D meshed-core structure for low frequency vibration",
+  "source_apis": [
+    "openalex"
+  ],
+  "pdf_url": "https://www.tandfonline.com/doi/pdf/10.1080/14686996.2018.1508985?needAccess=true",
+  "pdf_local_path": "data_registry/raw_stage04_paper_pdf_cleaned/10_1080_14686996_2018_1508985.pdf",
+  "processing": {
+    "tool": "MinerU",
+    "version": "python -m mineru.cli.client, version 2.7.6",
+    "timestamp": "2026-03-10T09:46:28.745460+00:00",
+    "duration_s": 88.82,
+    "success": true,
+    "error": ""
+  },
+  "outputs": {
+    "content_md": "/root/EH-LLM-vehbench-exp/parsed_docs/10_1080_14686996_2018_1508985_vi7gowas/content.md",
+    "layout_json": "/root/EH-LLM-vehbench-exp/parsed_docs/10_1080_14686996_2018_1508985_vi7gowas/layout.json",
+    "images_dir": "/root/EH-LLM-vehbench-exp/parsed_docs/10_1080_14686996_2018_1508985_vi7gowas/10_1080_14686996_2018_1508985/auto/images",
+    "normalized_json": "/root/EH-LLM-vehbench-exp/normalized_docs/10_1080_14686996_2018_1508985.json"
+  },
+  "data_lineage": {
+    "papers_jsonl_hash": "80dbb36f9a59ddcee0f59b1738dbd1e2",
+    "pipeline_step": "ingestion/mineru_runner.py"
+  }
+}

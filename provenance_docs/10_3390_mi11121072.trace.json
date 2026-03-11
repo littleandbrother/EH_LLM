@@ -1,0 +1,28 @@
+{
+  "paper_id": "10_3390_mi11121072",
+  "doi": "10.3390/mi11121072",
+  "title": "Fluorinated Polyethylene Propylene Ferroelectrets with an Air-Filled Concentric Tunnel Structure: Preparation, Characterization, and Application in Energy Harvesting",
+  "source_apis": [
+    "openalex"
+  ],
+  "pdf_url": "https://www.mdpi.com/2072-666X/11/12/1072/pdf?version=1606832038",
+  "pdf_local_path": "data_registry/raw_stage04_paper_pdf_cleaned/10_3390_mi11121072.pdf",
+  "processing": {
+    "tool": "MinerU",
+    "version": "python -m mineru.cli.client, version 2.7.6",
+    "timestamp": "2026-03-10T10:13:18.433906+00:00",
+    "duration_s": 87.84,
+    "success": true,
+    "error": ""
+  },
+  "outputs": {
+    "content_md": "/root/EH-LLM-vehbench-exp/parsed_docs/10_3390_mi11121072_iaxm4vg_/content.md",
+    "layout_json": "/root/EH-LLM-vehbench-exp/parsed_docs/10_3390_mi11121072_iaxm4vg_/layout.json",
+    "images_dir": "/root/EH-LLM-vehbench-exp/parsed_docs/10_3390_mi11121072_iaxm4vg_/10_3390_mi11121072/auto/images",
+    "normalized_json": "/root/EH-LLM-vehbench-exp/normalized_docs/10_3390_mi11121072.json"
+  },
+  "data_lineage": {
+    "papers_jsonl_hash": "7468d1879bee9dd572a686398b0879a3",
+    "pipeline_step": "ingestion/mineru_runner.py"
+  }
+}

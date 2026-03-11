@@ -1,0 +1,147 @@
+{
+  "metadata": {
+    "paper_id": "10_3390_mi8040115",
+    "doi": "10.3390/mi8040115",
+    "title": "Helical Piezoelectric Energy Harvester and Its Application to Energy Harvesting Garments",
+    "year": 2017,
+    "journal": "Micromachines"
+  },
+  "configuration": "other",
+  "proof_mass": null,
+  "geometry": {
+    "length_mm": 120,
+    "width_mm": 5,
+    "thickness_mm": 0.11,
+    "substrate_thickness_um": null,
+    "piezo_thickness_um": 110,
+    "tip_mass_g": null,
+    "diameter_mm": 3
+  },
+  "excitation": {
+    "type": "vibration",
+    "frequency_Hz": 1,
+    "acceleration_g": null,
+    "displacement_mm": 60,
+    "motion_source": "PC-controlled linear actuator"
+  },
+  "load": {
+    "load_resistance_ohm": 3000000
+  },
+  "output": {
+    "resonant_frequency_Hz": 1,
+    "output_power_W": 0.00142,
+    "open_circuit_voltage_V": 75,
+    "short_circuit_current_A": null,
+    "bandwidth_Hz": null
+  },
+  "evidence": {
+    "configuration": {
+      "quote": "helical piezoelectric energy harvester",
+      "section": "Abstract",
+      "source_type": "abstract"
+    },
+    "proof_mass": {
+      "quote": null,
+      "section": null,
+      "source_type": null
+    },
+    "geometry": {
+      "length_mm": {
+        "quote": "initial length of the fabricated device is 12 cm",
+        "section": "4.1. Single HPEH",
+        "source_type": "section"
+      },
+      "width_mm": {
+        "quote": "width of the PVDF strap is 5 mm for Type 1 and Type 2",
+        "section": "2. Principle",
+        "source_type": "section"
+      },
+      "thickness_mm": {
+        "quote": "110-μm-thick PVDF sheet",
+        "section": "3. Fabrication",
+        "source_type": "section"
+      },
+      "substrate_thickness_um": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "piezo_thickness_um": {
+        "quote": "110-μm-thick PVDF sheet",
+        "section": "3. Fabrication",
+        "source_type": "section"
+      },
+      "tip_mass_g": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "diameter_mm": {
+        "quote": "core diameter is 3 mm for Type 2",
+        "section": "2. Principle",
+        "source_type": "section"
+      }
+    },
+    "excitation": {
+      "type": {
+        "quote": "measured when a force is applied to the fabricated device using a PC-controlled linear actuator",
+        "section": "4.1. Single HPEH",
+        "source_type": "section"
+      },
+      "frequency_Hz": {
+        "quote": "operation frequency is fixed at a low value of 1 Hz",
+        "section": "4.1. Single HPEH",
+        "source_type": "section"
+      },
+      "acceleration_g": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "displacement_mm": {
+        "quote": "stretched change in length was fixed at 6 cm",
+        "section": "4.1. Single HPEH",
+        "source_type": "section"
+      },
+      "motion_source": {
+        "quote": "PC-controlled linear actuator",
+        "section": "4.1. Single HPEH",
+        "source_type": "section"
+      }
+    },
+    "load": {
+      "load_resistance_ohm": {
+        "quote": "maximum output power was 1.42 mW at a 3 MΩ load resistance",
+        "section": "4.1. Single HPEH",
+        "source_type": "section"
+      }
+    },
+    "output": {
+      "resonant_frequency_Hz": {
+        "quote": "operation frequency is fixed at a low value of 1 Hz",
+        "section": "4.1. Single HPEH",
+        "source_type": "section"
+      },
+      "output_power_W": {
+        "quote": "maximum output power was 1.42 mW",
+        "section": "4.1. Single HPEH",
+        "source_type": "section"
+      },
+      "open_circuit_voltage_V": {
+        "quote": "maximum output voltage for a change in length of 6 cm is ... 75 V for Type 2",
+        "section": "4.1. Single HPEH",
+        "source_type": "section"
+      },
+      "short_circuit_current_A": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "bandwidth_Hz": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      }
+    }
+  }
+}

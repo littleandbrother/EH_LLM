@@ -1,0 +1,147 @@
+{
+  "metadata": {
+    "paper_id": "10_1111_jace_17606",
+    "doi": "10.1111/jace.17606",
+    "title": "Interdependence of piezoelectric coefficient and film thickness in LiTaO <sub>3</sub> cantilevers",
+    "year": 2020,
+    "journal": "Journal of the American Ceramic Society"
+  },
+  "configuration": "cantilever",
+  "proof_mass": false,
+  "geometry": {
+    "length_mm": 16,
+    "width_mm": 1.6,
+    "thickness_mm": null,
+    "substrate_thickness_um": 125,
+    "piezo_thickness_um": 4.37,
+    "tip_mass_g": null,
+    "diameter_mm": null
+  },
+  "excitation": {
+    "type": "vibration",
+    "frequency_Hz": null,
+    "acceleration_g": 0.1529,
+    "displacement_mm": null,
+    "motion_source": "custom-made shaker setup"
+  },
+  "load": {
+    "load_resistance_ohm": 1000000
+  },
+  "output": {
+    "resonant_frequency_Hz": null,
+    "output_power_W": 2.81e-09,
+    "open_circuit_voltage_V": null,
+    "short_circuit_current_A": null,
+    "bandwidth_Hz": null
+  },
+  "evidence": {
+    "configuration": {
+      "quote": "LiTaO3 films ... have been fabricated as cantilevers",
+      "section": "Abstract",
+      "source_type": "abstract"
+    },
+    "proof_mass": {
+      "quote": "specimen size of the piezoelectric cantilever was 16 x 1.6 mm^2 area",
+      "section": "2.1 | Piezoelectric vibrational energy harvester fabrication",
+      "source_type": "section"
+    },
+    "geometry": {
+      "length_mm": {
+        "quote": "specimen size of the piezoelectric cantilever was 16 x 1.6 mm^2 area",
+        "section": "2.1 | Piezoelectric vibrational energy harvester fabrication",
+        "source_type": "section"
+      },
+      "width_mm": {
+        "quote": "specimen size of the piezoelectric cantilever was 16 x 1.6 mm^2 area",
+        "section": "2.1 | Piezoelectric vibrational energy harvester fabrication",
+        "source_type": "section"
+      },
+      "thickness_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "substrate_thickness_um": {
+        "quote": "stainless steel substrates (18 x 18 x 0.125 mm^3)",
+        "section": "2 | MATERIALS AND METHODS",
+        "source_type": "section"
+      },
+      "piezo_thickness_um": {
+        "quote": "film thickness ... LT6 (4.37 um)",
+        "section": "3.1 | Material properties",
+        "source_type": "section"
+      },
+      "tip_mass_g": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "diameter_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      }
+    },
+    "excitation": {
+      "type": {
+        "quote": "vibrational energy harvester (VEH) applications",
+        "section": "Abstract",
+        "source_type": "abstract"
+      },
+      "frequency_Hz": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "acceleration_g": {
+        "quote": "fixed acceleration of 1.5 m/s^2",
+        "section": "Abstract",
+        "source_type": "abstract"
+      },
+      "displacement_mm": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "motion_source": {
+        "quote": "custom-made shaker setup",
+        "section": "2.1 | Piezoelectric vibrational energy harvester fabrication",
+        "source_type": "section"
+      }
+    },
+    "load": {
+      "load_resistance_ohm": {
+        "quote": "using a 1 MΩ resistor",
+        "section": "Abstract",
+        "source_type": "abstract"
+      }
+    },
+    "output": {
+      "resonant_frequency_Hz": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "output_power_W": {
+        "quote": "Vp-p of ... 0.15 V ... using a 1 MΩ resistor",
+        "section": "3.3 | Dielectric properties and energy harvesting",
+        "source_type": "section"
+      },
+      "open_circuit_voltage_V": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "short_circuit_current_A": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      },
+      "bandwidth_Hz": {
+        "quote": null,
+        "section": null,
+        "source_type": null
+      }
+    }
+  }
+}

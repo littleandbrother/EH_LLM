@@ -1,0 +1,28 @@
+{
+  "paper_id": "10_1016_j_rinp_2018_09_009",
+  "doi": "10.1016/j.rinp.2018.09.009",
+  "title": "Fabrication and characterization of miniature nonlinear piezoelectric harvester applied for low frequency and weak vibration",
+  "source_apis": [
+    "both"
+  ],
+  "pdf_url": "https://doi.org/10.1016/j.rinp.2018.09.009",
+  "pdf_local_path": "data_registry/raw_stage04_paper_pdf_cleaned/10_1016_j_rinp_2018_09_009.pdf",
+  "processing": {
+    "tool": "MinerU",
+    "version": "python -m mineru.cli.client, version 2.7.6",
+    "timestamp": "2026-03-10T10:00:11.522663+00:00",
+    "duration_s": 88.33,
+    "success": true,
+    "error": ""
+  },
+  "outputs": {
+    "content_md": "/root/EH-LLM-vehbench-exp/parsed_docs/10_1016_j_rinp_2018_09_009__wrk88s2/content.md",
+    "layout_json": "/root/EH-LLM-vehbench-exp/parsed_docs/10_1016_j_rinp_2018_09_009__wrk88s2/layout.json",
+    "images_dir": "/root/EH-LLM-vehbench-exp/parsed_docs/10_1016_j_rinp_2018_09_009__wrk88s2/10_1016_j_rinp_2018_09_009/auto/images",
+    "normalized_json": "/root/EH-LLM-vehbench-exp/normalized_docs/10_1016_j_rinp_2018_09_009.json"
+  },
+  "data_lineage": {
+    "papers_jsonl_hash": "6b5284cc3663475de4eb15c3465186ed",
+    "pipeline_step": "ingestion/mineru_runner.py"
+  }
+}

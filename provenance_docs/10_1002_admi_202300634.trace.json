@@ -1,0 +1,28 @@
+{
+  "paper_id": "10_1002_admi_202300634",
+  "doi": "10.1002/admi.202300634",
+  "title": "Compositional Modification of Epitaxial Pb(Zr,Ti)O3 Thin Films for High‐Performance Piezoelectric Energy Harvesters",
+  "source_apis": [
+    "semantic_scholar"
+  ],
+  "pdf_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/admi.202300634",
+  "pdf_local_path": "data_registry/raw_stage04_paper_pdf_cleaned/10_1002_admi_202300634.pdf",
+  "processing": {
+    "tool": "MinerU",
+    "version": "python -m mineru.cli.client, version 2.7.6",
+    "timestamp": "2026-03-10T10:01:49.563101+00:00",
+    "duration_s": 73.13,
+    "success": true,
+    "error": ""
+  },
+  "outputs": {
+    "content_md": "/root/EH-LLM-vehbench-exp/parsed_docs/10_1002_admi_202300634_47tze35_/content.md",
+    "layout_json": "/root/EH-LLM-vehbench-exp/parsed_docs/10_1002_admi_202300634_47tze35_/layout.json",
+    "images_dir": "/root/EH-LLM-vehbench-exp/parsed_docs/10_1002_admi_202300634_47tze35_/10_1002_admi_202300634/auto/images",
+    "normalized_json": "/root/EH-LLM-vehbench-exp/normalized_docs/10_1002_admi_202300634.json"
+  },
+  "data_lineage": {
+    "papers_jsonl_hash": "4cf224ed74afbd126ba2b44b1a1fbeef",
+    "pipeline_step": "ingestion/mineru_runner.py"
+  }
+}

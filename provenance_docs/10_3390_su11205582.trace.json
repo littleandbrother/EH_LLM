@@ -1,0 +1,28 @@
+{
+  "paper_id": "10_3390_su11205582",
+  "doi": "10.3390/su11205582",
+  "title": "Design and Evaluation of Double-Stage Energy Harvesting Floor Tile",
+  "source_apis": [
+    "openalex"
+  ],
+  "pdf_url": "https://www.mdpi.com/2071-1050/11/20/5582/pdf?version=1571020654",
+  "pdf_local_path": "data_registry/raw_stage04_paper_pdf_cleaned/10_3390_su11205582.pdf",
+  "processing": {
+    "tool": "MinerU",
+    "version": "python -m mineru.cli.client, version 2.7.6",
+    "timestamp": "2026-03-10T09:20:49.141295+00:00",
+    "duration_s": 52.38,
+    "success": true,
+    "error": ""
+  },
+  "outputs": {
+    "content_md": "/root/EH-LLM-vehbench-exp/parsed_docs/10_3390_su11205582_frjqlnws/content.md",
+    "layout_json": "/root/EH-LLM-vehbench-exp/parsed_docs/10_3390_su11205582_frjqlnws/layout.json",
+    "images_dir": "/root/EH-LLM-vehbench-exp/parsed_docs/10_3390_su11205582_frjqlnws/10_3390_su11205582/auto/images",
+    "normalized_json": "/root/EH-LLM-vehbench-exp/normalized_docs/10_3390_su11205582.json"
+  },
+  "data_lineage": {
+    "papers_jsonl_hash": "a5a247748cbc794773b7b6dd09db9a33",
+    "pipeline_step": "ingestion/mineru_runner.py"
+  }
+}

@@ -3,26 +3,26 @@
   "doi": "10.1007/s10483-019-2542-5",
   "title": "Low-frequency and broadband vibration energy harvester driven by mechanical impact based on layer-separated piezoelectric beam",
   "source_apis": [
-    "semantic_scholar"
+    "both"
   ],
   "pdf_url": "https://link.springer.com/content/pdf/10.1007/s10483-019-2542-5.pdf",
-  "pdf_local_path": "",
+  "pdf_local_path": "data_registry/raw/10_1007_s10483_019_2542_5.pdf",
   "processing": {
     "tool": "MinerU",
-    "version": "mineru, version 2.7.6",
-    "timestamp": "2026-02-23T11:40:05.332301+00:00",
-    "duration_s": 5.26,
-    "success": false,
+    "version": "python -m mineru.cli.client, version 2.7.6",
+    "timestamp": "2026-03-09T15:15:44.218729+00:00",
+    "duration_s": 74.19,
+    "success": true,
     "error": ""
   },
   "outputs": {
-    "content_md": "",
-    "layout_json": "",
-    "images_dir": "",
-    "normalized_json": ""
+    "content_md": "/root/EH-LLM-vehbench-exp/parsed_docs/10_1007_s10483_019_2542_5_iturrrle/content.md",
+    "layout_json": "/root/EH-LLM-vehbench-exp/parsed_docs/10_1007_s10483_019_2542_5_iturrrle/layout.json",
+    "images_dir": "/root/EH-LLM-vehbench-exp/parsed_docs/10_1007_s10483_019_2542_5_iturrrle/10_1007_s10483_019_2542_5/auto/images",
+    "normalized_json": "/root/EH-LLM-vehbench-exp/normalized_docs/10_1007_s10483_019_2542_5.json"
   },
   "data_lineage": {
-    "papers_jsonl_hash": "1c8b747037835ca11c88f2b5ca4bc0e2",
+    "papers_jsonl_hash": "c210fd8d1c7800c2e6725584f048bc46",
     "pipeline_step": "ingestion/mineru_runner.py"
   }
 }

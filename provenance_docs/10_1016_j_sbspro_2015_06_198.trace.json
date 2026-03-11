@@ -1,0 +1,28 @@
+{
+  "paper_id": "10_1016_j_sbspro_2015_06_198",
+  "doi": "10.1016/j.sbspro.2015.06.198",
+  "title": "Micro-Electro-Mechanical System (MEMS)-Based Piezoelectric Energy Harvester for Ambient Vibrations",
+  "source_apis": [
+    "both"
+  ],
+  "pdf_url": "https://doi.org/10.1016/j.sbspro.2015.06.198",
+  "pdf_local_path": "data_registry/raw_stage04_paper_pdf_cleaned/10_1016_j_sbspro_2015_06_198.pdf",
+  "processing": {
+    "tool": "MinerU",
+    "version": "python -m mineru.cli.client, version 2.7.6",
+    "timestamp": "2026-03-10T10:08:31.503132+00:00",
+    "duration_s": 84.46,
+    "success": true,
+    "error": ""
+  },
+  "outputs": {
+    "content_md": "/root/EH-LLM-vehbench-exp/parsed_docs/10_1016_j_sbspro_2015_06_198_rzkm9v5s/content.md",
+    "layout_json": "/root/EH-LLM-vehbench-exp/parsed_docs/10_1016_j_sbspro_2015_06_198_rzkm9v5s/layout.json",
+    "images_dir": "/root/EH-LLM-vehbench-exp/parsed_docs/10_1016_j_sbspro_2015_06_198_rzkm9v5s/10_1016_j_sbspro_2015_06_198/auto/images",
+    "normalized_json": "/root/EH-LLM-vehbench-exp/normalized_docs/10_1016_j_sbspro_2015_06_198.json"
+  },
+  "data_lineage": {
+    "papers_jsonl_hash": "93cc7e44f4e53935c9dc434eaaa5d9d3",
+    "pipeline_step": "ingestion/mineru_runner.py"
+  }
+}

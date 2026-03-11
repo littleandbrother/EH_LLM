@@ -1,0 +1,28 @@
+{
+  "paper_id": "10_1088_1742_6596_1407_1_012119",
+  "doi": "10.1088/1742-6596/1407/1/012119",
+  "title": "An Umbrella-Shaped Topology for Broadband MEMS Piezoelectric Vibration Energy Harvesting",
+  "source_apis": [
+    "openalex"
+  ],
+  "pdf_url": "https://doi.org/10.1088/1742-6596/1407/1/012119",
+  "pdf_local_path": "data_registry/raw_stage04_paper_pdf_cleaned/10_1088_1742_6596_1407_1_012119.pdf",
+  "processing": {
+    "tool": "MinerU",
+    "version": "python -m mineru.cli.client, version 2.7.6",
+    "timestamp": "2026-03-10T10:04:48.101458+00:00",
+    "duration_s": 73.8,
+    "success": true,
+    "error": ""
+  },
+  "outputs": {
+    "content_md": "/root/EH-LLM-vehbench-exp/parsed_docs/10_1088_1742_6596_1407_1_012119_5qtfwt_s/content.md",
+    "layout_json": "/root/EH-LLM-vehbench-exp/parsed_docs/10_1088_1742_6596_1407_1_012119_5qtfwt_s/layout.json",
+    "images_dir": "/root/EH-LLM-vehbench-exp/parsed_docs/10_1088_1742_6596_1407_1_012119_5qtfwt_s/10_1088_1742_6596_1407_1_012119/auto/images",
+    "normalized_json": "/root/EH-LLM-vehbench-exp/normalized_docs/10_1088_1742_6596_1407_1_012119.json"
+  },
+  "data_lineage": {
+    "papers_jsonl_hash": "9af8e3b33a9c1bb900609d001aa90cd5",
+    "pipeline_step": "ingestion/mineru_runner.py"
+  }
+}
