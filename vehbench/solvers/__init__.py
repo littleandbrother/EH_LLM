@@ -1,2 +1,1 @@
-from .registry import AVAILABLE_SOLVERS, build_solver
-
+from .registry import AVAILABLE_SOLVERS, CLASSICAL_SOLVERS, build_solver

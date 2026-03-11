@@ -12,21 +12,14 @@ if str(REPO_ROOT) not in sys.path:
     sys.path.insert(0, str(REPO_ROOT))
 
 from vehbench.eval import load_tasks, run_benchmark
-from vehbench.solvers import CLASSICAL_SOLVERS
 
 
 def parse_args() -> argparse.Namespace:
-    parser = argparse.ArgumentParser(description="Run VEHBench classical baseline harness.")
+    parser = argparse.ArgumentParser(description="Run VEHBench zero-shot LLM baseline.")
     parser.add_argument(
         "--tasks-file",
         default="data_registry/benchmark/tasks_paper_grounded.jsonl",
         help="Benchmark task file to execute.",
-    )
-    parser.add_argument(
-        "--solver",
-        default="all",
-        choices=("all",) + CLASSICAL_SOLVERS,
-        help="Single solver to run or 'all'.",
     )
     parser.add_argument("--task-type", default=None, help="Optional task type filter.")
     parser.add_argument("--split", default=None, help="Optional split filter.")
@@ -34,7 +27,7 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--seed", type=int, default=7, help="Base random seed.")
     parser.add_argument(
         "--output-root",
-        default="artifacts/runs/classical_baselines",
+        default="artifacts/runs/zero_shot_llm",
         help="Directory that will hold run outputs.",
     )
     parser.add_argument(
@@ -61,16 +54,14 @@ def main() -> None:
     if not tasks:
         raise SystemExit("no tasks selected")
 
-    solvers = list(CLASSICAL_SOLVERS) if args.solver == "all" else [args.solver]
     stamp = datetime.now().strftime("%Y%m%d_%H%M%S_%f")
     task_slug = args.task_type or "all_tasks"
     split_slug = args.split or "all_splits"
-    solver_slug = args.solver
-    run_id = f"vehbench_classical_{task_slug}_{split_slug}_{solver_slug}_{stamp}"
+    run_id = f"vehbench_zero_shot_llm_{task_slug}_{split_slug}_{stamp}"
     output_dir = Path(args.output_root) / run_id
     result = run_benchmark(
         tasks=tasks,
-        solver_names=solvers,
+        solver_names=["zero_shot_llm"],
         seed=args.seed,
         output_dir=output_dir,
         apply_frequency_calibration=not args.disable_frequency_calibration,
@@ -80,7 +71,7 @@ def main() -> None:
         {
             "run_id": run_id,
             "task_count": len(tasks),
-            "solvers": solvers,
+            "solver": "zero_shot_llm",
             "output_dir": str(output_dir),
             "use_task_anchors": not args.disable_task_anchors,
             "summary": result["summary"],

@@ -5,12 +5,14 @@ from .cma_es import CmaEsSolver
 from .genetic_algorithm import GeneticAlgorithmSolver
 from .random_search import RandomSearchSolver
 
-AVAILABLE_SOLVERS = (
+CLASSICAL_SOLVERS = (
     "random_search",
     "genetic_algorithm",
     "cma_es",
     "bayesian_optimization",
 )
+
+AVAILABLE_SOLVERS = CLASSICAL_SOLVERS + ("zero_shot_llm",)
 
 
 def build_solver(name: str, seed: int = 0):
@@ -22,5 +24,8 @@ def build_solver(name: str, seed: int = 0):
         return CmaEsSolver(seed=seed)
     if name == "bayesian_optimization":
         return BayesianOptimizationSolver(seed=seed)
-    raise ValueError(f"unknown solver: {name}")
+    if name == "zero_shot_llm":
+        from .zero_shot_llm import ZeroShotLlmSolver
 
+        return ZeroShotLlmSolver(seed=seed)
+    raise ValueError(f"unknown solver: {name}")

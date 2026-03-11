@@ -6,6 +6,7 @@ import json
 import random
 import sys
 from collections import Counter
+from itertools import combinations, product
 from pathlib import Path
 
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
@@ -28,6 +29,34 @@ FREQUENCY_TOLERANCE_PCT = 2.0
 FREQUENCY_SHIFT_MIN_PCT = 8.0
 FREQUENCY_SHIFT_MAX_PCT = 30.0
 POOL_RANDOM_SAMPLES = 24
+REPAIR_DIFFICULTY_PROFILES = {
+    "train": {
+        "min_error_pct": 3.0,
+        "max_error_pct": 7.5,
+        "target_error_pct": 5.0,
+    },
+    "val": {
+        "min_error_pct": 4.5,
+        "max_error_pct": 9.5,
+        "target_error_pct": 6.5,
+    },
+    "test-id": {
+        "min_error_pct": 6.5,
+        "max_error_pct": 14.0,
+        "target_error_pct": 9.5,
+    },
+    "test-ood": {
+        "min_error_pct": 5.5,
+        "max_error_pct": 11.5,
+        "target_error_pct": 8.0,
+    },
+}
+REPAIR_FREQUENCY_TOLERANCE_BY_SPLIT = {
+    "train": FREQUENCY_TOLERANCE_PCT,
+    "val": FREQUENCY_TOLERANCE_PCT,
+    "test-id": 1.0,
+    "test-ood": FREQUENCY_TOLERANCE_PCT,
+}
 
 
 def load_jsonl(path: Path) -> list[dict]:
@@ -221,6 +250,14 @@ def count_bound_touches(variable_bounds: dict, candidate: dict) -> int:
     return touches
 
 
+def frequency_error_pct(target_frequency_hz: float | None, observed_frequency_hz: float | None) -> float | None:
+    if target_frequency_hz is None or observed_frequency_hz is None:
+        return None
+    target = float(target_frequency_hz)
+    observed = float(observed_frequency_hz)
+    return abs(observed - target) / max(abs(target), 1e-9) * 100.0
+
+
 def build_request_from_seed(
     seed: dict,
     candidate: dict,
@@ -388,6 +425,8 @@ def select_repair_initial_candidate(
     blueprint: dict,
     reference_solution: dict,
     target_frequency_hz: float,
+    split_name: str,
+    frequency_tolerance_pct: float,
 ) -> dict | None:
     variable_bounds = blueprint["variable_bounds"]
     pool = sample_candidate_pool(seed, variable_bounds)
@@ -397,9 +436,30 @@ def select_repair_initial_candidate(
             candidate = dict(reference_solution)
             candidate[key] = endpoint
             targeted.append(clamp_candidate(variable_bounds, candidate))
+        reference_value = reference_solution.get(key)
+        if reference_value is None:
+            continue
+        for factor in (0.82, 0.9, 1.1, 1.18):
+            candidate = dict(reference_solution)
+            candidate[key] = float(reference_value) * factor
+            targeted.append(clamp_candidate(variable_bounds, candidate))
+    keys = list(variable_bounds)
+    for key_a, key_b in combinations(keys, 2):
+        bounds_a = variable_bounds[key_a]
+        bounds_b = variable_bounds[key_b]
+        for endpoint_a, endpoint_b in product(
+            (bounds_a["min"], bounds_a["max"]),
+            (bounds_b["min"], bounds_b["max"]),
+        ):
+            candidate = dict(reference_solution)
+            candidate[key_a] = endpoint_a
+            candidate[key_b] = endpoint_b
+            targeted.append(clamp_candidate(variable_bounds, candidate))
     pool.extend(targeted)
 
-    best = None
+    profile = REPAIR_DIFFICULTY_PROFILES.get(split_name, REPAIR_DIFFICULTY_PROFILES["train"])
+    preferred: list[dict] = []
+    fallback: list[dict] = []
     for candidate in pool:
         if candidate == reference_solution:
             continue
@@ -409,30 +469,48 @@ def select_repair_initial_candidate(
             candidate,
             task_type="feasibility_repair",
             target_frequency_hz=target_frequency_hz,
-            frequency_tolerance_pct=FREQUENCY_TOLERANCE_PCT,
+            frequency_tolerance_pct=frequency_tolerance_pct,
         )["response"]
         if response["is_feasible"]:
             continue
         violations = response.get("violations") or []
-        score = (
-            float(response.get("normalized_objective") or 0.0),
-            -len(violations),
-            -count_bound_touches(variable_bounds, candidate),
+        error_pct = frequency_error_pct(
+            target_frequency_hz,
+            response["outputs"]["resonant_frequency_hz"],
+        )
+        only_frequency = bool(violations) and all(item.startswith("frequency_") for item in violations)
+        in_band = (
+            error_pct is not None
+            and profile["min_error_pct"] <= error_pct <= profile["max_error_pct"]
         )
         record = {
             "candidate": candidate,
             "violations": violations,
             "normalized_objective": response.get("normalized_objective"),
             "frequency_hz": response["outputs"]["resonant_frequency_hz"],
+            "frequency_error_pct": None if error_pct is None else round(error_pct, 6),
             "bound_touches": count_bound_touches(variable_bounds, candidate),
-            "score": score,
+            "selection_key": (
+                1 if in_band else 0,
+                1 if len(violations) == 1 and only_frequency else 0,
+                1 if only_frequency else 0,
+                0.0 if error_pct is None else -abs(error_pct - profile["target_error_pct"]),
+                0.0 if error_pct is None else error_pct,
+                -count_bound_touches(variable_bounds, candidate),
+            ),
         }
-        if best is None or record["score"] > best["score"]:
-            best = record
-    return best
+        if in_band:
+            preferred.append(record)
+        fallback.append(record)
+
+    choices = preferred or fallback
+    if not choices:
+        return None
+    choices.sort(key=lambda item: item["selection_key"], reverse=True)
+    return choices[0]
 
 
-def tune_seed_blueprints(seed: dict) -> dict:
+def tune_seed_blueprints(seed: dict, split: dict) -> dict:
     blueprints = [dict(blueprint) for blueprint in seed["task_blueprints"]]
     by_type = {blueprint["task_type"]: blueprint for blueprint in blueprints}
     difficulty_audit = {}
@@ -463,9 +541,10 @@ def tune_seed_blueprints(seed: dict) -> dict:
 
     repair_blueprint = by_type.get("feasibility_repair")
     if repair_blueprint is not None:
+        repair_frequency_tolerance_pct = REPAIR_FREQUENCY_TOLERANCE_BY_SPLIT[split["name"]]
         repair_blueprint["hard_constraints"] = {
             **repair_blueprint["hard_constraints"],
-            "frequency_error_tolerance_pct": FREQUENCY_TOLERANCE_PCT,
+            "frequency_error_tolerance_pct": repair_frequency_tolerance_pct,
         }
         reference_solution = (
             frequency_blueprint.get("reference_solution_override")
@@ -487,6 +566,8 @@ def tune_seed_blueprints(seed: dict) -> dict:
             repair_blueprint,
             reference_solution=dict(reference_solution),
             target_frequency_hz=float(target_frequency_hz),
+            split_name=split["name"],
+            frequency_tolerance_pct=repair_frequency_tolerance_pct,
         )
         if selected is not None:
             repair_blueprint["initial_candidate_override"] = selected["candidate"]
@@ -495,7 +576,9 @@ def tune_seed_blueprints(seed: dict) -> dict:
                 "violations": selected["violations"],
                 "normalized_objective": selected["normalized_objective"],
                 "frequency_hz": selected["frequency_hz"],
+                "frequency_error_pct": selected["frequency_error_pct"],
                 "bound_touches": selected["bound_touches"],
+                "target_split": split["name"],
             }
         else:
             difficulty_audit["feasibility_repair"] = {"status": "dropped_no_infeasible_start"}
@@ -568,8 +651,9 @@ def build_task(seed: dict, blueprint: dict, split: dict) -> dict:
 
 
 def main() -> None:
-    seeds = [tune_seed_blueprints(seed) for seed in load_jsonl(SEEDS_PATH)]
-    split_map = assign_seed_splits(seeds)
+    raw_seeds = load_jsonl(SEEDS_PATH)
+    split_map = assign_seed_splits(raw_seeds)
+    seeds = [tune_seed_blueprints(seed, split_map[seed["source_paper_id"]]) for seed in raw_seeds]
 
     tasks = []
     by_type = {"frequency_matching": [], "constrained_power_maximization": [], "feasibility_repair": []}
@@ -626,13 +710,40 @@ def main() -> None:
         for seed in seeds
         if (seed.get("difficulty_audit", {}).get("feasibility_repair", {}) or {}).get("status") == "dropped_no_infeasible_start"
     )
+    repair_errors_by_split = {"train": [], "val": [], "test-id": [], "test-ood": []}
+    for seed in seeds:
+        split_name = split_map[seed["source_paper_id"]]["name"]
+        audit = (seed.get("difficulty_audit", {}).get("feasibility_repair", {}) or {})
+        if audit.get("status") != "challenged":
+            continue
+        error_pct = audit.get("frequency_error_pct")
+        if error_pct is not None:
+            repair_errors_by_split[split_name].append(float(error_pct))
     lines.extend(
         [
             f"- frequency tasks retargeted: `{freq_challenged}`",
             f"- repair tasks with audited infeasible starts: `{repair_challenged}`",
             f"- repair tasks dropped for triviality: `{repair_dropped}`",
+            "",
+            "## Repair Initial Difficulty",
+            "",
         ]
     )
+    for split_name in ("train", "val", "test-id", "test-ood"):
+        errors = repair_errors_by_split[split_name]
+        profile = REPAIR_DIFFICULTY_PROFILES[split_name]
+        if not errors:
+            lines.append(f"- {split_name}: `0` tasks")
+            continue
+        lines.append(
+            "- "
+            + split_name
+            + ": "
+            + f"`{len(errors)}` tasks, avg error `{sum(errors) / len(errors):.3f}%`, "
+            + f"range `{min(errors):.3f}%`-`{max(errors):.3f}%`, "
+            + f"profile `{profile['min_error_pct']:.1f}%`-`{profile['max_error_pct']:.1f}%`, "
+            + f"tolerance `{REPAIR_FREQUENCY_TOLERANCE_BY_SPLIT[split_name]:.1f}%`"
+        )
     REPORT_PATH.parent.mkdir(parents=True, exist_ok=True)
     REPORT_PATH.write_text("\n".join(lines) + "\n")
     print(json.dumps({
