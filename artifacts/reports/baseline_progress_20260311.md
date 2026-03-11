@@ -117,3 +117,56 @@ Run: `artifacts/runs/zero_shot_llm/vehbench_zero_shot_llm_frequency_matching_tes
 - `frequency/test-id`: Kimi is clearly below the classical solvers, but no longer degenerate
 - `frequency/test-ood`: Kimi matches the prior zero-shot level numerically, but now the result reflects actual one-shot model behavior
 - this is a valid first `classical vs zero-shot` comparison for the benchmark
+
+## Kimi Repair Zero-Shot
+
+- `test-id` run: `artifacts/runs/zero_shot_llm/vehbench_zero_shot_llm_feasibility_repair_test-id_20260312_062010_734271`
+  - success `0.125`
+  - avg best normalized objective `0.5625`
+  - avg wall clock `3.017s`
+- `test-ood` run: `artifacts/runs/zero_shot_llm/vehbench_zero_shot_llm_feasibility_repair_test-ood_20260312_062010_734255`
+  - success `0.000`
+  - avg best normalized objective `0.500`
+  - avg wall clock `2.703s`
+
+### Repair Interpretation
+
+- Kimi repair is now operational and low-latency enough for benchmark runs
+- current failure mode is narrow: almost all failed cases are still single frequency violations (`frequency_too_low` or `frequency_too_high`)
+- compared with classical repair baselines, Kimi is currently much weaker:
+  - `test-id`: Kimi `0.125` vs random `0.750`, GA `0.875`, BO `1.000`
+  - `test-ood`: Kimi `0.000` vs random `0.625`, GA `0.500`, BO `0.750`
+- this makes zero-shot repair a useful lower baseline, but not yet a competitive solver
+
+## Verifier-Guided LLM Agent (Initial Build)
+
+- solver added: `vehbench/solvers/verifier_guided_llm.py`
+- runner added: `scripts/run_verifier_guided_llm.py`
+- current policy:
+  - bootstrap from midpoint or provided infeasible start
+  - show verifier feedback plus recent history to Kimi
+  - allow up to 3 LLM-guided repair iterations after bootstrap
+
+### Smoke
+
+- `frequency/test-id` single-task smoke: no success
+- `repair/test-id` single-task smoke: success in `3` queries
+
+### Full repair runs
+
+- `test-id` run: `artifacts/runs/verifier_guided_llm/vehbench_verifier_guided_llm_feasibility_repair_test-id_20260312_062543_470594`
+  - success `0.000`
+  - avg best normalized objective `0.500`
+  - avg wall clock `14.397s`
+- `test-ood` run: `artifacts/runs/verifier_guided_llm/vehbench_verifier_guided_llm_feasibility_repair_test-ood_20260312_062543_470496`
+  - success `0.000`
+  - avg best normalized objective `0.500`
+  - avg wall clock `13.894s`
+
+### Agent Interpretation
+
+- the verifier-guided agent is now fully wired and runnable
+- latency is acceptable and there were no provider errors
+- however, the current prompting policy is not yet extracting useful directional information from the verifier
+- across full repair runs, every task remained stuck at a single frequency violation
+- this means the agent implementation is a valid baseline scaffold, but not yet a competitive repair solver

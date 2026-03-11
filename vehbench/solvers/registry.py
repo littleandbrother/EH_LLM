@@ -12,7 +12,7 @@ CLASSICAL_SOLVERS = (
     "bayesian_optimization",
 )
 
-AVAILABLE_SOLVERS = CLASSICAL_SOLVERS + ("zero_shot_llm",)
+AVAILABLE_SOLVERS = CLASSICAL_SOLVERS + ("zero_shot_llm", "verifier_guided_llm")
 
 
 def build_solver(name: str, seed: int = 0):
@@ -28,4 +28,8 @@ def build_solver(name: str, seed: int = 0):
         from .zero_shot_llm import ZeroShotLlmSolver
 
         return ZeroShotLlmSolver(seed=seed)
+    if name == "verifier_guided_llm":
+        from .verifier_guided_llm import VerifierGuidedLlmSolver
+
+        return VerifierGuidedLlmSolver(seed=seed)
     raise ValueError(f"unknown solver: {name}")
