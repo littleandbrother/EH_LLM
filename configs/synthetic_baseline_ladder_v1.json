@@ -1,0 +1,42 @@
+{
+  "version": "synthetic_baseline_ladder_v1",
+  "benchmark_root": "data_registry/benchmark",
+  "task_files": {
+    "all": "data_registry/benchmark/synthetic_pilot_v1_tasks.jsonl",
+    "frequency_matching": "data_registry/benchmark/synthetic_pilot_v1_tasks_frequency_matching.jsonl",
+    "constrained_power_maximization": "data_registry/benchmark/synthetic_pilot_v1_tasks_constrained_power_maximization.jsonl",
+    "feasibility_repair": "data_registry/benchmark/synthetic_pilot_v1_tasks_feasibility_repair.jsonl"
+  },
+  "stages": [
+    {
+      "name": "classical_core",
+      "goal": "Establish strong local-search baselines on the larger synthetic benchmark.",
+      "task_types": ["frequency_matching", "feasibility_repair"],
+      "solvers": ["random_search", "genetic_algorithm", "cma_es", "bayesian_optimization"]
+    },
+    {
+      "name": "zero_shot_llm",
+      "goal": "Measure raw one-shot design quality before any structured repair loop.",
+      "task_types": ["frequency_matching", "feasibility_repair"],
+      "solvers": ["zero_shot_llm"]
+    },
+    {
+      "name": "feedback_ablation",
+      "goal": "Separate iterative prompting from structured physical feedback.",
+      "task_types": ["feasibility_repair"],
+      "solvers": ["scalar_reward_llm", "verifier_guided_llm"]
+    },
+    {
+      "name": "power_gate",
+      "goal": "Only run power baselines after auditing surrogate-label stability on the pilot synthetic set.",
+      "task_types": ["constrained_power_maximization"],
+      "solvers": ["random_search", "bayesian_optimization", "verifier_guided_llm"]
+    },
+    {
+      "name": "future_surrogate_models",
+      "goal": "Add learned surrogates once synthetic label confidence is high enough.",
+      "task_types": ["frequency_matching", "constrained_power_maximization", "feasibility_repair"],
+      "solvers": ["surrogate_mlp", "operator_model"]
+    }
+  ]
+}

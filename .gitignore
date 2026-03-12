@@ -21,6 +21,8 @@ artifacts/checkpoints/
 runs/*.log
 runs/*/logs/
 runs/*/tensorboard/
+artifacts/runs/
+artifacts/reports/llm_probe*.json
 data_registry/local_stage13_snapshot/
 data_registry/local_stage13_incremental_snapshot/
 data_registry/*.progress.json
