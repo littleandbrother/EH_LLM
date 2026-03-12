@@ -42,6 +42,8 @@ class VerifierGuidedLlmSolver(BaseSolver):
         self.probe_step = float(os.getenv("VEHBENCH_VERIFIER_GUIDED_PROBE_STEP", "0.12"))
         self.directional_scale = float(os.getenv("VEHBENCH_VERIFIER_GUIDED_DIRECTIONAL_SCALE", "1.8"))
         self.max_directional_dims = int(os.getenv("VEHBENCH_VERIFIER_GUIDED_MAX_DIRECTIONAL_DIMS", "2"))
+        self.low_budget_threshold = int(os.getenv("VEHBENCH_VERIFIER_GUIDED_LOW_BUDGET_THRESHOLD", "8"))
+        self.low_budget_max_attempts = int(os.getenv("VEHBENCH_VERIFIER_GUIDED_LOW_BUDGET_MAX_ATTEMPTS", "2"))
 
     def _default_candidate(self, task: dict) -> dict:
         if task.get("task_type") == "feasibility_repair":
@@ -126,16 +128,25 @@ class VerifierGuidedLlmSolver(BaseSolver):
             summary["feedback"] = probe["solver_feedback"]
         return summary
 
-    def _initial_local_probe_scan(self, session, base_record: dict, rng: np.random.Generator) -> list[dict[str, Any]]:
+    def _initial_local_probe_scan(
+        self,
+        session,
+        base_record: dict,
+        rng: np.random.Generator,
+        max_probe_records: int | None = None,
+    ) -> list[dict[str, Any]]:
         if session.exhausted:
             return []
         base_candidate = base_record["candidate"]
         base_frequency = self._record_frequency(base_record)
         base_gap = self._frequency_gap(session.task, base_frequency)
         probe_summaries: list[dict[str, Any]] = []
+        probe_count = 0
 
         for key in self._priority_probe_keys(session.task):
             for direction_sign, direction_label in ((-1.0, "down"), (1.0, "up")):
+                if max_probe_records is not None and probe_count >= max_probe_records:
+                    break
                 if session.exhausted:
                     break
                 candidate = self._shift_candidate(session.task, base_candidate, key, direction_sign * self.probe_step)
@@ -171,9 +182,12 @@ class VerifierGuidedLlmSolver(BaseSolver):
                         "solver_feedback": diagnostics.get("solver_visible_message"),
                     }
                 )
+                probe_count += 1
                 if response.get("is_feasible"):
                     break
             if session.best_record and session.best_record["interaction"]["response"]["is_feasible"]:
+                break
+            if max_probe_records is not None and probe_count >= max_probe_records:
                 break
 
         probe_summaries.sort(key=self._probe_rank, reverse=True)
@@ -376,15 +390,26 @@ class VerifierGuidedLlmSolver(BaseSolver):
         if bootstrap_record["interaction"]["response"]["is_feasible"]:
             return
 
+        effective_max_attempts = self.max_attempts
+        if session.budget <= self.low_budget_threshold:
+            effective_max_attempts = min(self.max_attempts, self.low_budget_max_attempts)
+
         local_probe_summaries = []
         if self.feedback_mode == "structured":
-            local_probe_summaries = self._initial_local_probe_scan(session, bootstrap_record, rng)
+            reserved = max(1, effective_max_attempts)
+            probe_budget = max(0, session.remaining - reserved - 1)
+            local_probe_summaries = self._initial_local_probe_scan(
+                session,
+                bootstrap_record,
+                rng,
+                max_probe_records=probe_budget if probe_budget > 0 else 0,
+            )
             if session.best_record and session.best_record["interaction"]["response"]["is_feasible"]:
                 return
         directional_summary = None
 
         llm_attempt_index = 0
-        while not session.exhausted and llm_attempt_index < self.max_attempts:
+        while not session.exhausted and llm_attempt_index < effective_max_attempts:
             prompt = self._build_prompt(
                 session,
                 attempt_index=llm_attempt_index + 1,
@@ -410,7 +435,7 @@ class VerifierGuidedLlmSolver(BaseSolver):
             llm_attempt_index += 1
             if record["interaction"]["response"]["is_feasible"]:
                 break
-            if self.feedback_mode == "structured":
+            if self.feedback_mode == "structured" and session.remaining > 0:
                 directional_summary = self._directional_search(
                     session,
                     base_record=session.best_record or record,

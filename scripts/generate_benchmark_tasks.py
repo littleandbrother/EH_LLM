@@ -26,8 +26,18 @@ BENCHMARK_DIR = PROJECT_ROOT / "data_registry" / "benchmark"
 REPORT_PATH = PROJECT_ROOT / "artifacts" / "reports" / "benchmark_task_generation.md"
 CALIBRATION_PROFILE = load_frequency_profile()
 FREQUENCY_TOLERANCE_PCT = 2.0
-FREQUENCY_SHIFT_MIN_PCT = 8.0
-FREQUENCY_SHIFT_MAX_PCT = 30.0
+FREQUENCY_TOLERANCE_BY_SPLIT = {
+    "train": FREQUENCY_TOLERANCE_PCT,
+    "val": FREQUENCY_TOLERANCE_PCT,
+    "test-id": FREQUENCY_TOLERANCE_PCT,
+    "test-ood": FREQUENCY_TOLERANCE_PCT,
+}
+FREQUENCY_SHIFT_PROFILES = {
+    "train": {"min_shift_pct": 8.0, "max_shift_pct": 30.0, "target_shift_pct": 14.0},
+    "val": {"min_shift_pct": 8.0, "max_shift_pct": 30.0, "target_shift_pct": 14.0},
+    "test-id": {"min_shift_pct": 8.0, "max_shift_pct": 30.0, "target_shift_pct": 14.0},
+    "test-ood": {"min_shift_pct": 8.0, "max_shift_pct": 30.0, "target_shift_pct": 14.0},
+}
 POOL_RANDOM_SAMPLES = 24
 REPAIR_DIFFICULTY_PROFILES = {
     "train": {
@@ -264,6 +274,8 @@ def build_request_from_seed(
     task_type: str,
     target_frequency_hz: float | None = None,
     power_target_uw: float | None = None,
+    stress_limit_mpa: float | None = None,
+    displacement_limit_mm: float | None = None,
 ) -> dict:
     mapping = seed["verifier_mapping"]
     candidate = dict(candidate)
@@ -280,8 +292,8 @@ def build_request_from_seed(
         },
         "constraint_context": {
             "target_resonant_frequency_hz": target_frequency_hz,
-            "stress_limit_mpa": None,
-            "displacement_limit_mm": None,
+            "stress_limit_mpa": stress_limit_mpa,
+            "displacement_limit_mm": displacement_limit_mm,
             "power_target_uw": power_target_uw,
         },
     }
@@ -295,6 +307,8 @@ def evaluate_seed_candidate(
     target_frequency_hz: float | None = None,
     power_target_uw: float | None = None,
     frequency_tolerance_pct: float = FREQUENCY_TOLERANCE_PCT,
+    stress_limit_mpa: float | None = None,
+    displacement_limit_mm: float | None = None,
 ) -> dict:
     candidate = clamp_candidate(variable_bounds, candidate)
     request = build_request_from_seed(
@@ -303,6 +317,8 @@ def evaluate_seed_candidate(
         task_type=task_type,
         target_frequency_hz=target_frequency_hz,
         power_target_uw=power_target_uw,
+        stress_limit_mpa=stress_limit_mpa,
+        displacement_limit_mm=displacement_limit_mm,
     )
     temp_task = {
         "task_type": task_type,
@@ -317,6 +333,17 @@ def evaluate_seed_candidate(
         calibration_profile=CALIBRATION_PROFILE,
         use_task_anchors=False,
     )
+
+
+def _candidate_change_dims(reference_solution: dict, candidate: dict) -> int:
+    changed = 0
+    for key, ref_value in reference_solution.items():
+        value = candidate.get(key)
+        if value is None or ref_value is None:
+            continue
+        if abs(float(value) - float(ref_value)) > 1e-9:
+            changed += 1
+    return changed
 
 
 def sample_candidate_pool(seed: dict, variable_bounds: dict) -> list[dict]:
@@ -359,9 +386,17 @@ def sample_candidate_pool(seed: dict, variable_bounds: dict) -> list[dict]:
     return list(dedup.values())
 
 
-def select_frequency_design(seed: dict, blueprint: dict) -> dict | None:
+def select_frequency_design(seed: dict, blueprint: dict, split_name: str) -> dict | None:
     variable_bounds = blueprint["variable_bounds"]
     observed_target = float(blueprint["objective"]["target_value"])
+    profile = FREQUENCY_SHIFT_PROFILES.get(split_name, FREQUENCY_SHIFT_PROFILES["train"])
+    hard_constraints = blueprint.get("hard_constraints") or {}
+    hardening = blueprint.get("hardening_options") or {}
+    min_bound_touches = int(hardening.get("min_bound_touches", 0) or 0)
+    prefer_edge_reference = bool(hardening.get("prefer_edge_reference", False))
+    stress_limit_mpa = hard_constraints.get("stress_limit_mpa")
+    displacement_limit_mm = hard_constraints.get("displacement_limit_mm")
+    frequency_tolerance_pct = float(hard_constraints.get("frequency_error_tolerance_pct", FREQUENCY_TOLERANCE_PCT))
     midpoint = midpoint_candidate(variable_bounds)
     midpoint_response = evaluate_seed_candidate(
         seed,
@@ -369,6 +404,8 @@ def select_frequency_design(seed: dict, blueprint: dict) -> dict | None:
         midpoint,
         task_type="frequency_matching",
         target_frequency_hz=observed_target,
+        stress_limit_mpa=stress_limit_mpa,
+        displacement_limit_mm=displacement_limit_mm,
     )["response"]
     midpoint_frequency = midpoint_response["outputs"]["resonant_frequency_hz"]
     if midpoint_frequency is None:
@@ -383,15 +420,20 @@ def select_frequency_design(seed: dict, blueprint: dict) -> dict | None:
             candidate,
             task_type="frequency_matching",
             target_frequency_hz=observed_target,
+            stress_limit_mpa=stress_limit_mpa,
+            displacement_limit_mm=displacement_limit_mm,
         )["response"]
         frequency = response["outputs"]["resonant_frequency_hz"]
         if frequency is None:
             continue
         shift_pct = abs(frequency - observed_target) / max(abs(observed_target), 1e-9) * 100.0
         midpoint_gap_pct = abs(frequency - midpoint_frequency) / max(abs(frequency), 1e-9) * 100.0
-        if shift_pct < FREQUENCY_SHIFT_MIN_PCT or shift_pct > FREQUENCY_SHIFT_MAX_PCT:
+        if shift_pct < profile["min_shift_pct"] or shift_pct > profile["max_shift_pct"]:
             continue
-        if midpoint_gap_pct <= FREQUENCY_TOLERANCE_PCT:
+        if midpoint_gap_pct <= frequency_tolerance_pct:
+            continue
+        bound_touches = count_bound_touches(variable_bounds, candidate)
+        if bound_touches < min_bound_touches:
             continue
         choices.append(
             {
@@ -399,7 +441,7 @@ def select_frequency_design(seed: dict, blueprint: dict) -> dict | None:
                 "target_frequency_hz": round(frequency, 6),
                 "shift_pct": round(shift_pct, 6),
                 "midpoint_gap_pct": round(midpoint_gap_pct, 6),
-                "bound_touches": count_bound_touches(variable_bounds, candidate),
+                "bound_touches": bound_touches,
             }
         )
 
@@ -408,13 +450,14 @@ def select_frequency_design(seed: dict, blueprint: dict) -> dict | None:
 
     choices.sort(
         key=lambda item: (
-            item["bound_touches"],
+            -item["bound_touches"] if prefer_edge_reference else item["bound_touches"],
             -item["midpoint_gap_pct"],
-            abs(item["shift_pct"] - 14.0),
+            abs(item["shift_pct"] - profile["target_shift_pct"]),
         )
     )
     return {
         **choices[0],
+        "target_shift_profile": profile,
         "midpoint_frequency_hz": round(midpoint_frequency, 6),
         "midpoint_feasible_to_original": bool(midpoint_response["is_feasible"]),
     }
@@ -429,6 +472,13 @@ def select_repair_initial_candidate(
     frequency_tolerance_pct: float,
 ) -> dict | None:
     variable_bounds = blueprint["variable_bounds"]
+    hard_constraints = blueprint.get("hard_constraints") or {}
+    hardening = blueprint.get("hardening_options") or {}
+    stress_limit_mpa = hard_constraints.get("stress_limit_mpa")
+    displacement_limit_mm = hard_constraints.get("displacement_limit_mm")
+    min_changed_dims = int(hardening.get("min_changed_dims", 1) or 1)
+    prefer_multi_violation = bool(hardening.get("prefer_multi_violation", False))
+    prefer_nonfrequency_violation = bool(hardening.get("prefer_nonfrequency_violation", False))
     pool = sample_candidate_pool(seed, variable_bounds)
     targeted = []
     for key, bounds in variable_bounds.items():
@@ -470,6 +520,8 @@ def select_repair_initial_candidate(
             task_type="feasibility_repair",
             target_frequency_hz=target_frequency_hz,
             frequency_tolerance_pct=frequency_tolerance_pct,
+            stress_limit_mpa=stress_limit_mpa,
+            displacement_limit_mm=displacement_limit_mm,
         )["response"]
         if response["is_feasible"]:
             continue
@@ -478,7 +530,11 @@ def select_repair_initial_candidate(
             target_frequency_hz,
             response["outputs"]["resonant_frequency_hz"],
         )
+        changed_dims = _candidate_change_dims(reference_solution, candidate)
+        if changed_dims < min_changed_dims:
+            continue
         only_frequency = bool(violations) and all(item.startswith("frequency_") for item in violations)
+        has_nonfrequency = any(not item.startswith("frequency_") for item in violations)
         in_band = (
             error_pct is not None
             and profile["min_error_pct"] <= error_pct <= profile["max_error_pct"]
@@ -490,13 +546,17 @@ def select_repair_initial_candidate(
             "frequency_hz": response["outputs"]["resonant_frequency_hz"],
             "frequency_error_pct": None if error_pct is None else round(error_pct, 6),
             "bound_touches": count_bound_touches(variable_bounds, candidate),
+            "changed_dims": changed_dims,
             "selection_key": (
                 1 if in_band else 0,
+                1 if prefer_nonfrequency_violation and has_nonfrequency else 0,
+                len(violations) if prefer_multi_violation else 0,
+                changed_dims,
                 1 if len(violations) == 1 and only_frequency else 0,
                 1 if only_frequency else 0,
                 0.0 if error_pct is None else -abs(error_pct - profile["target_error_pct"]),
                 0.0 if error_pct is None else error_pct,
-                -count_bound_touches(variable_bounds, candidate),
+                count_bound_touches(variable_bounds, candidate),
             ),
         }
         if in_band:
@@ -517,11 +577,12 @@ def tune_seed_blueprints(seed: dict, split: dict) -> dict:
 
     frequency_blueprint = by_type.get("frequency_matching")
     if frequency_blueprint is not None:
+        frequency_tolerance_pct = FREQUENCY_TOLERANCE_BY_SPLIT.get(split["name"], FREQUENCY_TOLERANCE_PCT)
         frequency_blueprint["hard_constraints"] = {
             **frequency_blueprint["hard_constraints"],
-            "frequency_error_tolerance_pct": FREQUENCY_TOLERANCE_PCT,
+            "frequency_error_tolerance_pct": frequency_tolerance_pct,
         }
-        selected = select_frequency_design(seed, frequency_blueprint)
+        selected = select_frequency_design(seed, frequency_blueprint, split["name"])
         if selected is not None:
             frequency_blueprint["fixed_conditions"] = {
                 **frequency_blueprint["fixed_conditions"],

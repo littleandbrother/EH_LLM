@@ -29,11 +29,13 @@ from vehbench.verifier.v1.evaluator import evaluate_request
 
 SEEDS_PATH = PROJECT_ROOT / "data_registry" / "benchmark" / "paper_grounded_task_seeds.jsonl"
 TASKS_PATH = PROJECT_ROOT / "data_registry" / "benchmark" / "tasks_paper_grounded.jsonl"
-OUT_PATH = PROJECT_ROOT / "data_registry" / "benchmark" / "synthetic_pilot_v1_seeds.jsonl"
-REPORT_PATH = PROJECT_ROOT / "artifacts" / "reports" / "synthetic_pilot_v1.md"
 TARGET_SYNTHETIC_COUNT = 1000
 FREQUENCY_LABEL_SOURCE = "beam_fem_1d_v1"
 ELECTROMECH_LABEL_SOURCE = "vehbench_verifier_surrogate_v1"
+RUNTIME_FREQUENCY_LABEL_SOURCE = "vehbench_verifier_calibrated_v1"
+SYNTHETIC_VERSION = "v2"
+OUT_PATH = PROJECT_ROOT / "data_registry" / "benchmark" / f"synthetic_pilot_{SYNTHETIC_VERSION}_seeds.jsonl"
+REPORT_PATH = PROJECT_ROOT / "artifacts" / "reports" / f"synthetic_pilot_{SYNTHETIC_VERSION}.md"
 
 
 def prune_none(mapping: dict) -> dict:
@@ -98,19 +100,19 @@ def sample_candidate(anchor: dict, sample_index: int) -> tuple[dict, str, int]:
     rng = np.random.default_rng(rng_seed)
 
     if policy == "local_gaussian":
-        vector = np.clip(rng.normal(base_unit, 0.09), 0.02, 0.98)
+        vector = np.clip(rng.normal(base_unit, 0.08), 0.04, 0.96)
     elif policy == "wide_gaussian":
-        vector = np.clip(rng.normal(base_unit, 0.16), 0.02, 0.98)
+        vector = np.clip(rng.normal(base_unit, 0.13), 0.04, 0.96)
     else:
         vector = base_unit.copy()
         dim_count = min(len(vector), 2 if len(vector) >= 4 else 1)
         dims = rng.choice(len(vector), size=dim_count, replace=False)
         for dim in np.atleast_1d(dims):
-            direction = 0.04 if vector[dim] >= 0.5 else 0.96
-            vector[dim] = float(np.clip(direction + rng.normal(0.0, 0.02), 0.02, 0.98))
+            direction = 0.10 if vector[dim] >= 0.5 else 0.90
+            vector[dim] = float(np.clip(direction + rng.normal(0.0, 0.015), 0.04, 0.96))
         untouched = [idx for idx in range(len(vector)) if idx not in set(np.atleast_1d(dims))]
         for dim in untouched:
-            vector[dim] = float(np.clip(rng.normal(vector[dim], 0.06), 0.02, 0.98))
+            vector[dim] = float(np.clip(rng.normal(vector[dim], 0.05), 0.04, 0.96))
 
     candidate = unit_to_candidate(variable_bounds, vector.tolist())
     return candidate, policy, rng_seed
@@ -214,7 +216,7 @@ def build_seed(anchor: dict, sample_index: int) -> dict | None:
     interaction = evaluate_request(
         request,
         task=None,
-        apply_frequency_calibration=False,
+        apply_frequency_calibration=True,
         calibration_profile=None,
         use_task_anchors=False,
     )
@@ -226,8 +228,12 @@ def build_seed(anchor: dict, sample_index: int) -> dict | None:
     if assumption_notes:
         surrogate_assumptions = [item.strip() for item in assumption_notes.split(";") if item.strip()]
 
+    runtime_frequency_hz = outputs.get("resonant_frequency_hz")
+    if runtime_frequency_hz is None:
+        return None
+
     observed_outputs = {
-        "resonant_frequency_hz": round(fem_frequency_hz, 6),
+        "resonant_frequency_hz": round(runtime_frequency_hz, 6),
         "load_power_w": None if outputs.get("load_power_uw") is None else float(outputs["load_power_uw"]) * 1e-6,
         "open_circuit_voltage_v": outputs.get("open_circuit_voltage_v"),
         "short_circuit_current_a": None,
@@ -235,7 +241,7 @@ def build_seed(anchor: dict, sample_index: int) -> dict | None:
         "tip_displacement_mm": outputs.get("tip_displacement_mm"),
         "root_stress_mpa": outputs.get("root_stress_mpa"),
     }
-    task_blueprints = build_blueprints(anchor, candidate, fem_frequency_hz, observed_outputs["load_power_w"])
+    task_blueprints = build_blueprints(anchor, candidate, runtime_frequency_hz, observed_outputs["load_power_w"])
     ood_tags = list((anchor["assigned_split"] or {}).get("ood_tags") or [])
     if policy == "boundary_push":
         ood_tags = sorted(set(ood_tags + ["synthetic_boundary_push"]))
@@ -256,8 +262,11 @@ def build_seed(anchor: dict, sample_index: int) -> dict | None:
         "sample_index": sample_index,
         "label_provenance": {
             "frequency_label_source": FREQUENCY_LABEL_SOURCE,
+            "runtime_frequency_label_source": RUNTIME_FREQUENCY_LABEL_SOURCE,
             "electromechanical_label_source": ELECTROMECH_LABEL_SOURCE,
             "rng_seed": rng_seed,
+            "raw_fem_frequency_hz": round(fem_frequency_hz, 6),
+            "runtime_calibrated_frequency_hz": round(runtime_frequency_hz, 6),
             "fem_assumptions": fem_assumptions,
             "surrogate_assumptions": surrogate_assumptions,
         },
@@ -300,7 +309,7 @@ def main() -> None:
             task_counter[blueprint["task_type"]] += 1
 
     lines = [
-        "# Synthetic Pilot v1",
+        f"# Synthetic Pilot {SYNTHETIC_VERSION.upper()}",
         "",
         f"- ready anchors used: `{len(anchors)}`",
         f"- target synthetic seeds: `{TARGET_SYNTHETIC_COUNT}`",
