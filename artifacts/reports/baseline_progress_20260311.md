@@ -170,3 +170,35 @@ Run: `artifacts/runs/zero_shot_llm/vehbench_zero_shot_llm_frequency_matching_tes
 - however, the current prompting policy is not yet extracting useful directional information from the verifier
 - across full repair runs, every task remained stuck at a single frequency violation
 - this means the agent implementation is a valid baseline scaffold, but not yet a competitive repair solver
+
+## Verifier-Guided LLM Agent (Local Sensitivity + Direction Search)
+
+- upgraded policy:
+  - perform an explicit local sensitivity scan with verifier queries before the first LLM step
+  - include empirically measured `local_probes` in the Kimi prompt
+  - perform a boundary-seeking directional search along the best observed improvement directions
+  - include `load_resistance_ohm` in probe priority because electromechanical coupling can shift calibrated frequency
+
+### Updated repair runs
+
+- `test-id` run: `artifacts/runs/verifier_guided_llm/vehbench_verifier_guided_llm_feasibility_repair_test-id_20260312_140513_536411`
+  - success `1.000`
+  - avg queries to success `9.125`
+  - avg best normalized objective `1.000`
+  - avg wall clock `6.115s`
+- `test-ood` run: `artifacts/runs/verifier_guided_llm/vehbench_verifier_guided_llm_feasibility_repair_test-ood_20260312_140611_768999`
+  - success `0.750`
+  - avg queries to success `9.167`
+  - avg best normalized objective `0.875`
+  - avg wall clock `13.405s`
+
+### Updated Interpretation
+
+- this is no longer just a scaffold; the agent is now competitive on repair
+- compared with zero-shot repair, verifier-guided policy is materially stronger:
+  - `test-id`: `1.000` vs `0.125`
+  - `test-ood`: `0.750` vs `0.000`
+- compared with classical repair:
+  - `test-id`: matches BO and exceeds random / GA on success rate
+  - `test-ood`: matches BO and exceeds random / GA
+- the decisive change was not a larger model or longer prompt; it was exposing local verifier sensitivity and using explicit directional search before each LLM repair decision
