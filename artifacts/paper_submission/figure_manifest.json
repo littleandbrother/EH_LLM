@@ -1,0 +1,121 @@
+{
+  "funnel": {
+    "path": "/Users/depengsu/Desktop/paper_story_agnet/EH-LLM-vehbench-baselines/artifacts/paper_submission/figures/funnel_overview.png",
+    "counts": [
+      [
+        "Metadata",
+        1908
+      ],
+      [
+        "Stage 1",
+        1104
+      ],
+      [
+        "Stage 2",
+        820
+      ],
+      [
+        "Stage 3",
+        301
+      ],
+      [
+        "Stage 4",
+        236
+      ],
+      [
+        "PDF aligned",
+        199
+      ],
+      [
+        "Parsed",
+        197
+      ],
+      [
+        "Valid extract",
+        186
+      ],
+      [
+        "Curated gold",
+        55
+      ],
+      [
+        "Tasks",
+        162
+      ]
+    ]
+  },
+  "task_inventory": {
+    "path": "/Users/depengsu/Desktop/paper_story_agnet/EH-LLM-vehbench-baselines/artifacts/paper_submission/figures/task_inventory.png",
+    "counts": [
+      {
+        "task_type": "constrained_power_maximization",
+        "split": "test-id",
+        "count": 8
+      },
+      {
+        "task_type": "constrained_power_maximization",
+        "split": "test-ood",
+        "count": 10
+      },
+      {
+        "task_type": "constrained_power_maximization",
+        "split": "train",
+        "count": 29
+      },
+      {
+        "task_type": "constrained_power_maximization",
+        "split": "val",
+        "count": 8
+      },
+      {
+        "task_type": "feasibility_repair",
+        "split": "test-id",
+        "count": 8
+      },
+      {
+        "task_type": "feasibility_repair",
+        "split": "test-ood",
+        "count": 8
+      },
+      {
+        "task_type": "feasibility_repair",
+        "split": "train",
+        "count": 29
+      },
+      {
+        "task_type": "feasibility_repair",
+        "split": "val",
+        "count": 7
+      },
+      {
+        "task_type": "frequency_matching",
+        "split": "test-id",
+        "count": 8
+      },
+      {
+        "task_type": "frequency_matching",
+        "split": "test-ood",
+        "count": 10
+      },
+      {
+        "task_type": "frequency_matching",
+        "split": "train",
+        "count": 29
+      },
+      {
+        "task_type": "frequency_matching",
+        "split": "val",
+        "count": 8
+      }
+    ]
+  },
+  "verifier_calibration": {
+    "path": "/Users/depengsu/Desktop/paper_story_agnet/EH-LLM-vehbench-baselines/artifacts/paper_submission/figures/verifier_calibration_summary.png"
+  },
+  "main_success_heatmap": {
+    "path": "/Users/depengsu/Desktop/paper_story_agnet/EH-LLM-vehbench-baselines/artifacts/paper_submission/figures/main_success_heatmap.png"
+  },
+  "ood_pareto": {
+    "path": "/Users/depengsu/Desktop/paper_story_agnet/EH-LLM-vehbench-baselines/artifacts/paper_submission/figures/ood_pareto.png"
+  }
+}
