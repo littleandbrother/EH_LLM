@@ -43,7 +43,7 @@ class VerifierGuidedLlmSolver(BaseSolver):
         self.directional_scale = float(os.getenv("VEHBENCH_VERIFIER_GUIDED_DIRECTIONAL_SCALE", "1.8"))
         self.max_directional_dims = int(os.getenv("VEHBENCH_VERIFIER_GUIDED_MAX_DIRECTIONAL_DIMS", "2"))
         self.low_budget_threshold = int(os.getenv("VEHBENCH_VERIFIER_GUIDED_LOW_BUDGET_THRESHOLD", "8"))
-        self.low_budget_max_attempts = int(os.getenv("VEHBENCH_VERIFIER_GUIDED_LOW_BUDGET_MAX_ATTEMPTS", "2"))
+        self.low_budget_max_attempts = int(os.getenv("VEHBENCH_VERIFIER_GUIDED_LOW_BUDGET_MAX_ATTEMPTS", "1"))
 
     def _default_candidate(self, task: dict) -> dict:
         if task.get("task_type") == "feasibility_repair":
@@ -108,6 +108,15 @@ class VerifierGuidedLlmSolver(BaseSolver):
         shifted = unit_to_candidate(task, unit.tolist())
         return clamp_candidate(task, shifted)
 
+    def _move_candidate_toward_bound(self, task: dict, candidate: dict, key: str, direction_label: str, fraction: float = 1.0) -> dict:
+        unit = np.array(candidate_to_unit(task, candidate), dtype=float)
+        keys = ordered_variable_keys(task)
+        index = keys.index(key)
+        target = 0.0 if direction_label == "down" else 1.0
+        unit[index] = float(np.clip(unit[index] + fraction * (target - unit[index]), 0.0, 1.0))
+        shifted = unit_to_candidate(task, unit.tolist())
+        return clamp_candidate(task, shifted)
+
     def _probe_rank(self, probe: dict) -> tuple[float, float, float]:
         feasible_bonus = 1.0 if probe.get("feasible") else 0.0
         gap_improvement = float(probe.get("gap_improvement_hz") or 0.0)
@@ -127,6 +136,151 @@ class VerifierGuidedLlmSolver(BaseSolver):
         if probe.get("solver_feedback"):
             summary["feedback"] = probe["solver_feedback"]
         return summary
+
+    def _summarize_record_as_probe(
+        self,
+        session,
+        base_record: dict,
+        record: dict,
+        *,
+        key: str,
+        direction_label: str,
+        solver_feedback: str | None = None,
+    ) -> dict[str, Any]:
+        base_frequency = self._record_frequency(base_record)
+        frequency_hz = self._record_frequency(record)
+        base_gap = self._frequency_gap(session.task, base_frequency)
+        gap = self._frequency_gap(session.task, frequency_hz)
+        response = (record.get("interaction") or {}).get("response") or {}
+        diagnostics = response.get("diagnostics") or {}
+        return {
+            "key": key,
+            "direction_sign": -1.0 if direction_label == "down" else 1.0,
+            "direction_label": direction_label,
+            "candidate": record["candidate"],
+            "frequency_hz": frequency_hz,
+            "frequency_delta_hz": None if frequency_hz is None or base_frequency is None else round(frequency_hz - base_frequency, 6),
+            "gap_improvement_hz": None if gap is None or base_gap is None else round(base_gap - gap, 6),
+            "violations": response.get("violations") or [],
+            "feasible": bool(response.get("is_feasible")),
+            "score": record["score"],
+            "solver_feedback": solver_feedback or diagnostics.get("solver_visible_message"),
+        }
+
+    def _dominant_frequency_direction(self, record: dict) -> str | None:
+        violations = ((record.get("interaction") or {}).get("response") or {}).get("violations") or []
+        if "frequency_too_low" in violations:
+            return "up"
+        if "frequency_too_high" in violations:
+            return "down"
+        return None
+
+    def _low_budget_repair_probe_scan(
+        self,
+        session,
+        base_record: dict,
+        rng: np.random.Generator,
+        max_probe_records: int,
+    ) -> list[dict[str, Any]]:
+        if max_probe_records <= 0 or session.exhausted:
+            return []
+
+        base_candidate = base_record["candidate"]
+        response = (base_record.get("interaction") or {}).get("response") or {}
+        violations = response.get("violations") or []
+        freq_direction = self._dominant_frequency_direction(base_record)
+        probe_specs: list[tuple[str, str, dict[str, float], str]] = []
+
+        if "beam_length_mm" in ordered_variable_keys(session.task):
+            if freq_direction == "up" or "stress_exceeded" in violations or "displacement_exceeded" in violations:
+                probe_specs.append(
+                    (
+                        "beam_length_mm",
+                        "down",
+                        {"beam_length_mm": 1.0},
+                        "Shorter beam tends to relieve stress/displacement and increase resonance.",
+                    )
+                )
+            elif freq_direction == "down":
+                probe_specs.append(
+                    (
+                        "beam_length_mm",
+                        "up",
+                        {"beam_length_mm": 1.0},
+                        "Longer beam tends to decrease resonance.",
+                    )
+                )
+
+        if "load_resistance_ohm" in ordered_variable_keys(session.task) and freq_direction is not None:
+            probe_specs.append(
+                (
+                    "load_resistance_ohm",
+                    "down" if freq_direction == "up" else "up",
+                    {"load_resistance_ohm": 1.0},
+                    "Electrical tuning probe on matched load direction.",
+                )
+            )
+
+        if (
+            "beam_length_mm" in ordered_variable_keys(session.task)
+            and "load_resistance_ohm" in ordered_variable_keys(session.task)
+            and freq_direction is not None
+        ):
+            probe_specs.append(
+                (
+                    "beam_length_mm+load_resistance_ohm",
+                    "down" if freq_direction == "up" else "up",
+                    {
+                        "beam_length_mm": 0.5 if freq_direction == "up" else 0.35,
+                        "load_resistance_ohm": 1.0 if freq_direction == "up" else 0.85,
+                    },
+                    "Blend structural and electrical correction under the same budget.",
+                )
+            )
+
+        if "tip_mass_g" in ordered_variable_keys(session.task) and freq_direction is not None:
+            probe_specs.append(
+                (
+                    "tip_mass_g",
+                    "down" if freq_direction == "up" else "up",
+                    {"tip_mass_g": 1.0},
+                    "Mass tuning probe for resonance correction.",
+                )
+            )
+
+        summaries: list[dict[str, Any]] = []
+        for key, direction_label, fractions, feedback in probe_specs:
+            if len(summaries) >= max_probe_records or session.exhausted:
+                break
+            candidate = dict(base_candidate)
+            for move_key, fraction in fractions.items():
+                candidate = self._move_candidate_toward_bound(session.task, candidate, move_key, direction_label, fraction=fraction)
+            candidate = self.ensure_unique(session, candidate, rng)
+            if session.has_seen(candidate):
+                continue
+            record = session.evaluate(
+                candidate,
+                metadata={
+                    "strategy": "verifier_guided_low_budget_probe",
+                    "probe_key": key,
+                    "probe_direction": direction_label,
+                },
+            )
+            summaries.append(
+                self._summarize_record_as_probe(
+                    session,
+                    base_record,
+                    record,
+                    key=key,
+                    direction_label=direction_label,
+                    solver_feedback=feedback,
+                )
+            )
+            if record["interaction"]["response"]["is_feasible"]:
+                break
+
+        summaries.sort(key=self._probe_rank, reverse=True)
+        return summaries
 
     def _initial_local_probe_scan(
         self,
@@ -391,19 +545,34 @@ class VerifierGuidedLlmSolver(BaseSolver):
             return
 
         effective_max_attempts = self.max_attempts
+        low_budget_repair = (
+            self.feedback_mode == "structured"
+            and session.task.get("task_type") == "feasibility_repair"
+            and session.budget <= self.low_budget_threshold
+        )
         if session.budget <= self.low_budget_threshold:
             effective_max_attempts = min(self.max_attempts, self.low_budget_max_attempts)
 
         local_probe_summaries = []
         if self.feedback_mode == "structured":
-            reserved = max(1, effective_max_attempts)
-            probe_budget = max(0, session.remaining - reserved - 1)
-            local_probe_summaries = self._initial_local_probe_scan(
-                session,
-                bootstrap_record,
-                rng,
-                max_probe_records=probe_budget if probe_budget > 0 else 0,
-            )
+            if low_budget_repair:
+                reserved = 1
+                probe_budget = max(0, session.remaining - reserved)
+                local_probe_summaries = self._low_budget_repair_probe_scan(
+                    session,
+                    bootstrap_record,
+                    rng,
+                    max_probe_records=probe_budget,
+                )
+            else:
+                reserved = max(1, effective_max_attempts)
+                probe_budget = max(0, session.remaining - reserved - 1)
+                local_probe_summaries = self._initial_local_probe_scan(
+                    session,
+                    bootstrap_record,
+                    rng,
+                    max_probe_records=probe_budget if probe_budget > 0 else 0,
+                )
             if session.best_record and session.best_record["interaction"]["response"]["is_feasible"]:
                 return
         directional_summary = None
@@ -435,7 +604,7 @@ class VerifierGuidedLlmSolver(BaseSolver):
             llm_attempt_index += 1
             if record["interaction"]["response"]["is_feasible"]:
                 break
-            if self.feedback_mode == "structured" and session.remaining > 0:
+            if self.feedback_mode == "structured" and session.remaining > 0 and not low_budget_repair:
                 directional_summary = self._directional_search(
                     session,
                     base_record=session.best_record or record,
