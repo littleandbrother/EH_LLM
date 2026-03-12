@@ -1,0 +1,238 @@
+{
+  "frequency_matching::test-id": {
+    "task_type": "frequency_matching",
+    "split": "test-id",
+    "source_runs": {
+      "classical": "/Users/depengsu/Desktop/paper_story_agnet/EH-LLM-vehbench-baselines/artifacts/runs/classical_baselines/vehbench_classical_frequency_matching_test-id_all_20260311_155132_113319",
+      "zero_shot_llm": "/Users/depengsu/Desktop/paper_story_agnet/EH-LLM-vehbench-baselines/artifacts/runs/zero_shot_llm/vehbench_zero_shot_llm_frequency_matching_test-id_20260312_061601_216713",
+      "verifier_guided_llm": "/Users/depengsu/Desktop/paper_story_agnet/EH-LLM-vehbench-baselines/artifacts/runs/verifier_guided_llm/vehbench_verifier_guided_llm_frequency_matching_test-id_20260312_144951_168102"
+    },
+    "rows": {
+      "random_search": {
+        "task_count": 8,
+        "success_rate": 1.0,
+        "avg_queries_to_success": 2.75,
+        "avg_best_normalized_objective": 0.779856,
+        "avg_invalid_proposal_rate": 0.0,
+        "avg_wall_clock_s": 0.001288
+      },
+      "genetic_algorithm": {
+        "task_count": 8,
+        "success_rate": 1.0,
+        "avg_queries_to_success": 2.625,
+        "avg_best_normalized_objective": 0.7454805,
+        "avg_invalid_proposal_rate": 0.0,
+        "avg_wall_clock_s": 0.00081025
+      },
+      "cma_es": {
+        "task_count": 8,
+        "success_rate": 1.0,
+        "avg_queries_to_success": 13.125,
+        "avg_best_normalized_objective": 0.47450075,
+        "avg_invalid_proposal_rate": 0.0,
+        "avg_wall_clock_s": 0.0008424999999999999
+      },
+      "bayesian_optimization": {
+        "task_count": 8,
+        "success_rate": 1.0,
+        "avg_queries_to_success": 3.375,
+        "avg_best_normalized_objective": 0.83670525,
+        "avg_invalid_proposal_rate": 0.0,
+        "avg_wall_clock_s": 0.000814375
+      },
+      "zero_shot_llm": {
+        "task_count": 8,
+        "success_rate": 0.5,
+        "avg_queries_to_success": 1.0,
+        "avg_best_normalized_objective": 0.365331375,
+        "avg_invalid_proposal_rate": 0.0,
+        "avg_wall_clock_s": 2.473870375
+      },
+      "verifier_guided_llm": {
+        "task_count": 8,
+        "success_rate": 1.0,
+        "avg_queries_to_success": 8.0,
+        "avg_best_normalized_objective": 0.58665775,
+        "avg_invalid_proposal_rate": 0.0,
+        "avg_wall_clock_s": 4.029964375
+      }
+    }
+  },
+  "frequency_matching::test-ood": {
+    "task_type": "frequency_matching",
+    "split": "test-ood",
+    "source_runs": {
+      "classical": "/Users/depengsu/Desktop/paper_story_agnet/EH-LLM-vehbench-baselines/artifacts/runs/classical_baselines/vehbench_classical_frequency_matching_test-ood_all_20260311_155132_227910",
+      "zero_shot_llm": "/Users/depengsu/Desktop/paper_story_agnet/EH-LLM-vehbench-baselines/artifacts/runs/zero_shot_llm/vehbench_zero_shot_llm_frequency_matching_test-ood_20260312_061601_216649",
+      "verifier_guided_llm": "/Users/depengsu/Desktop/paper_story_agnet/EH-LLM-vehbench-baselines/artifacts/runs/verifier_guided_llm/vehbench_verifier_guided_llm_frequency_matching_test-ood_20260312_145028_529382"
+    },
+    "rows": {
+      "random_search": {
+        "task_count": 10,
+        "success_rate": 0.5,
+        "avg_queries_to_success": 2.2,
+        "avg_best_normalized_objective": 0.3365558,
+        "avg_invalid_proposal_rate": 0.2,
+        "avg_wall_clock_s": 0.0006441
+      },
+      "genetic_algorithm": {
+        "task_count": 10,
+        "success_rate": 0.5,
+        "avg_queries_to_success": 4.4,
+        "avg_best_normalized_objective": 0.3375,
+        "avg_invalid_proposal_rate": 0.2,
+        "avg_wall_clock_s": 0.0005208
+      },
+      "cma_es": {
+        "task_count": 10,
+        "success_rate": 0.3,
+        "avg_queries_to_success": 5.666666666666667,
+        "avg_best_normalized_objective": 0.2230322,
+        "avg_invalid_proposal_rate": 0.2,
+        "avg_wall_clock_s": 0.0006328999999999999
+      },
+      "bayesian_optimization": {
+        "task_count": 10,
+        "success_rate": 0.6,
+        "avg_queries_to_success": 5.833333333333333,
+        "avg_best_normalized_objective": 0.3452979,
+        "avg_invalid_proposal_rate": 0.2,
+        "avg_wall_clock_s": 0.0006832
+      },
+      "zero_shot_llm": {
+        "task_count": 10,
+        "success_rate": 0.2,
+        "avg_queries_to_success": 1.0,
+        "avg_best_normalized_objective": 0.07133819999999999,
+        "avg_invalid_proposal_rate": 0.2,
+        "avg_wall_clock_s": 2.2987114
+      },
+      "verifier_guided_llm": {
+        "task_count": 10,
+        "success_rate": 0.6,
+        "avg_queries_to_success": 7.0,
+        "avg_best_normalized_objective": 0.26604110000000003,
+        "avg_invalid_proposal_rate": 0.2,
+        "avg_wall_clock_s": 8.327126699999999
+      }
+    }
+  },
+  "feasibility_repair::test-id": {
+    "task_type": "feasibility_repair",
+    "split": "test-id",
+    "source_runs": {
+      "classical": "/Users/depengsu/Desktop/paper_story_agnet/EH-LLM-vehbench-baselines/artifacts/runs/classical_baselines/vehbench_classical_feasibility_repair_test-id_all_20260311_170126_997067",
+      "zero_shot_llm": "/Users/depengsu/Desktop/paper_story_agnet/EH-LLM-vehbench-baselines/artifacts/runs/zero_shot_llm/vehbench_zero_shot_llm_feasibility_repair_test-id_20260312_062010_734271",
+      "verifier_guided_llm": "/Users/depengsu/Desktop/paper_story_agnet/EH-LLM-vehbench-baselines/artifacts/runs/verifier_guided_llm/vehbench_verifier_guided_llm_feasibility_repair_test-id_20260312_140513_536411"
+    },
+    "rows": {
+      "random_search": {
+        "task_count": 8,
+        "success_rate": 0.75,
+        "avg_queries_to_success": 3.8333333333333335,
+        "avg_best_normalized_objective": 0.875,
+        "avg_invalid_proposal_rate": 0.0,
+        "avg_wall_clock_s": 0.001984375
+      },
+      "genetic_algorithm": {
+        "task_count": 8,
+        "success_rate": 0.875,
+        "avg_queries_to_success": 6.428571428571429,
+        "avg_best_normalized_objective": 0.9375,
+        "avg_invalid_proposal_rate": 0.0,
+        "avg_wall_clock_s": 0.000570125
+      },
+      "cma_es": {
+        "task_count": 8,
+        "success_rate": 0.0,
+        "avg_queries_to_success": null,
+        "avg_best_normalized_objective": 0.5,
+        "avg_invalid_proposal_rate": 0.0,
+        "avg_wall_clock_s": 0.00038725
+      },
+      "bayesian_optimization": {
+        "task_count": 8,
+        "success_rate": 1.0,
+        "avg_queries_to_success": 7.0,
+        "avg_best_normalized_objective": 1.0,
+        "avg_invalid_proposal_rate": 0.0,
+        "avg_wall_clock_s": 0.0004345
+      },
+      "zero_shot_llm": {
+        "task_count": 8,
+        "success_rate": 0.125,
+        "avg_queries_to_success": 1.0,
+        "avg_best_normalized_objective": 0.5625,
+        "avg_invalid_proposal_rate": 0.0,
+        "avg_wall_clock_s": 3.01651975
+      },
+      "verifier_guided_llm": {
+        "task_count": 8,
+        "success_rate": 1.0,
+        "avg_queries_to_success": 9.125,
+        "avg_best_normalized_objective": 1.0,
+        "avg_invalid_proposal_rate": 0.0,
+        "avg_wall_clock_s": 6.11541225
+      }
+    }
+  },
+  "feasibility_repair::test-ood": {
+    "task_type": "feasibility_repair",
+    "split": "test-ood",
+    "source_runs": {
+      "classical": "/Users/depengsu/Desktop/paper_story_agnet/EH-LLM-vehbench-baselines/artifacts/runs/classical_baselines/vehbench_classical_feasibility_repair_test-ood_all_20260311_170126_995736",
+      "zero_shot_llm": "/Users/depengsu/Desktop/paper_story_agnet/EH-LLM-vehbench-baselines/artifacts/runs/zero_shot_llm/vehbench_zero_shot_llm_feasibility_repair_test-ood_20260312_062010_734255",
+      "verifier_guided_llm": "/Users/depengsu/Desktop/paper_story_agnet/EH-LLM-vehbench-baselines/artifacts/runs/verifier_guided_llm/vehbench_verifier_guided_llm_feasibility_repair_test-ood_20260312_140611_768999"
+    },
+    "rows": {
+      "random_search": {
+        "task_count": 8,
+        "success_rate": 0.625,
+        "avg_queries_to_success": 4.8,
+        "avg_best_normalized_objective": 0.8125,
+        "avg_invalid_proposal_rate": 0.0,
+        "avg_wall_clock_s": 0.001031
+      },
+      "genetic_algorithm": {
+        "task_count": 8,
+        "success_rate": 0.5,
+        "avg_queries_to_success": 2.75,
+        "avg_best_normalized_objective": 0.75,
+        "avg_invalid_proposal_rate": 0.0,
+        "avg_wall_clock_s": 0.00047037500000000004
+      },
+      "cma_es": {
+        "task_count": 8,
+        "success_rate": 0.125,
+        "avg_queries_to_success": 12.0,
+        "avg_best_normalized_objective": 0.5625,
+        "avg_invalid_proposal_rate": 0.0,
+        "avg_wall_clock_s": 0.000396375
+      },
+      "bayesian_optimization": {
+        "task_count": 8,
+        "success_rate": 0.75,
+        "avg_queries_to_success": 6.666666666666667,
+        "avg_best_normalized_objective": 0.875,
+        "avg_invalid_proposal_rate": 0.0,
+        "avg_wall_clock_s": 0.000447875
+      },
+      "zero_shot_llm": {
+        "task_count": 8,
+        "success_rate": 0.0,
+        "avg_queries_to_success": null,
+        "avg_best_normalized_objective": 0.5,
+        "avg_invalid_proposal_rate": 0.0,
+        "avg_wall_clock_s": 2.70342025
+      },
+      "verifier_guided_llm": {
+        "task_count": 8,
+        "success_rate": 0.75,
+        "avg_queries_to_success": 9.166666666666666,
+        "avg_best_normalized_objective": 0.875,
+        "avg_invalid_proposal_rate": 0.0,
+        "avg_wall_clock_s": 13.40470075
+      }
+    }
+  }
+}
