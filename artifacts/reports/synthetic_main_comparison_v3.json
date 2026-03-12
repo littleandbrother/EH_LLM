@@ -95,6 +95,54 @@
       "avg_invalid_proposal_rate": 0.0,
       "avg_best_normalized_objective": 0.6958874090909091,
       "avg_wall_clock_s": 0.00015481168831168833
+    },
+    {
+      "evaluation_set": "full_test_ood",
+      "task_type": "frequency_matching",
+      "solver": "zero_shot_llm",
+      "task_count": 154,
+      "success_rate": 0.3181818181818182,
+      "avg_queries_used": 1.0,
+      "avg_queries_to_success": 1.0,
+      "avg_invalid_proposal_rate": 0.0,
+      "avg_best_normalized_objective": 0.1246301948051948,
+      "avg_wall_clock_s": 2.727076051948052
+    },
+    {
+      "evaluation_set": "full_test_ood",
+      "task_type": "frequency_matching",
+      "solver": "verifier_guided_llm",
+      "task_count": 154,
+      "success_rate": 0.487012987012987,
+      "avg_queries_used": 7.8311688311688314,
+      "avg_queries_to_success": 7.653333333333333,
+      "avg_invalid_proposal_rate": 0.0,
+      "avg_best_normalized_objective": 0.3201495714285714,
+      "avg_wall_clock_s": 5.25085498051948
+    },
+    {
+      "evaluation_set": "full_test_ood",
+      "task_type": "feasibility_repair",
+      "solver": "zero_shot_llm",
+      "task_count": 154,
+      "success_rate": 0.15584415584415584,
+      "avg_queries_used": 1.0,
+      "avg_queries_to_success": 1.0,
+      "avg_invalid_proposal_rate": 0.0,
+      "avg_best_normalized_objective": 0.4886363246753247,
+      "avg_wall_clock_s": 2.876660435064935
+    },
+    {
+      "evaluation_set": "full_test_ood",
+      "task_type": "feasibility_repair",
+      "solver": "verifier_guided_llm",
+      "task_count": 154,
+      "success_rate": 0.7337662337662337,
+      "avg_queries_used": 4.201298701298701,
+      "avg_queries_to_success": 3.663716814159292,
+      "avg_invalid_proposal_rate": 0.0,
+      "avg_best_normalized_objective": 0.8354977987012987,
+      "avg_wall_clock_s": 1.6631079220779221
     }
   ],
   "matched_subset_24": [

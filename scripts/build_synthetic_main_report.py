@@ -13,6 +13,16 @@ FULL_CLASSICAL = {
     "frequency_matching": PROJECT_ROOT / "artifacts" / "runs" / "classical_baselines" / "vehbench_classical_frequency_matching_test-ood_all_20260312_232301_859696" / "summary.json",
     "feasibility_repair": PROJECT_ROOT / "artifacts" / "runs" / "classical_baselines" / "vehbench_classical_feasibility_repair_test-ood_all_20260312_232301_925792" / "summary.json",
 }
+FULL_LLM = {
+    "frequency_matching": {
+        "zero_shot_llm": PROJECT_ROOT / "artifacts" / "runs" / "zero_shot_llm" / "vehbench_zero_shot_llm_frequency_matching_test-ood_20260313_013657_386549" / "summary.json",
+        "verifier_guided_llm": PROJECT_ROOT / "artifacts" / "runs" / "verifier_guided_llm" / "vehbench_verifier_guided_llm_frequency_matching_test-ood_20260313_014612_422335" / "summary.json",
+    },
+    "feasibility_repair": {
+        "zero_shot_llm": PROJECT_ROOT / "artifacts" / "runs" / "zero_shot_llm" / "vehbench_zero_shot_llm_feasibility_repair_test-ood_20260313_013657_386560" / "summary.json",
+        "verifier_guided_llm": PROJECT_ROOT / "artifacts" / "runs" / "verifier_guided_llm" / "vehbench_verifier_guided_llm_feasibility_repair_test-ood_20260313_014612_491050" / "summary.json",
+    },
+}
 
 MATCHED_SUBSET = {
     "frequency_matching": {
@@ -45,6 +55,17 @@ def main() -> None:
     for task_type, path in FULL_CLASSICAL.items():
         data = load_summary(path)
         for solver_name, summary in data["solvers"].items():
+            full_rows.append(
+                {
+                    "evaluation_set": "full_test_ood",
+                    "task_type": task_type,
+                    "solver": solver_name,
+                    **summary,
+                }
+            )
+    for task_type, bundle in FULL_LLM.items():
+        for solver_name, path in bundle.items():
+            summary = load_summary(path)["solvers"][solver_name]
             full_rows.append(
                 {
                     "evaluation_set": "full_test_ood",
@@ -90,16 +111,25 @@ def main() -> None:
         "- runtime setting: calibrated frequency on, task anchors off",
         "- zero-shot / verifier-guided model: `kimi-k2.5` via DashScope coding endpoint",
         "",
-        "## Full Test-OOD Classical Baselines",
+        "## Full Test-OOD Results",
         "",
-        "| Task | Solver | Success | Avg Queries To Success | Avg Wall Clock (s) |",
-        "| --- | --- | ---: | ---: | ---: |",
+        "| Task | Solver | Success | Avg Queries Used | Avg Queries To Success | Avg Wall Clock (s) |",
+        "| --- | --- | ---: | ---: | ---: | ---: |",
     ]
     for task_type in ("frequency_matching", "feasibility_repair"):
         task_rows = [row for row in full_rows if row["task_type"] == task_type]
+        solver_order = [
+            "random_search",
+            "genetic_algorithm",
+            "cma_es",
+            "bayesian_optimization",
+            "zero_shot_llm",
+            "verifier_guided_llm",
+        ]
+        task_rows = sorted(task_rows, key=lambda row: solver_order.index(row["solver"]))
         for row in task_rows:
             lines.append(
-                f"| `{task_type}` | `{row['solver']}` | `{fmt(row['success_rate'])}` | `{fmt(row['avg_queries_to_success'])}` | `{fmt(row['avg_wall_clock_s'])}` |"
+                f"| `{task_type}` | `{row['solver']}` | `{fmt(row['success_rate'])}` | `{fmt(row['avg_queries_used'])}` | `{fmt(row['avg_queries_to_success'])}` | `{fmt(row['avg_wall_clock_s'])}` |"
             )
     lines.extend(
         [
@@ -132,6 +162,9 @@ def main() -> None:
             "## Takeaways",
             "",
             "- `synthetic v3` no longer collapses on OOD: full classical `test-ood` now separates solvers instead of pushing them all to near-zero or near-one.",
+            "- Full `test-ood` LLM runs confirm the same ordering seen in the matched subset: `verifier_guided_llm` beats `zero_shot_llm` on both task families.",
+            "- On full `feasibility_repair / test-ood`, verifier-guided reaches `0.734`, far above zero-shot (`0.156`) and above every classical baseline in the same split.",
+            "- On full `frequency_matching / test-ood`, verifier-guided reaches `0.487`, beating zero-shot (`0.318`) but still trailing the strongest classical baselines (`GA = 0.630`, `BO = 0.636`).",
             "- On the stratified matched subset, `verifier_guided_llm` now clearly beats `zero_shot_llm` on both families.",
             "- The biggest gain is on `feasibility_repair`: after the low-budget policy fix, verifier-guided repair rises to `0.708`, well above zero-shot (`0.083`) and the strongest matched-subset classical baseline (`random_search = 0.375`).",
             "- On `frequency_matching`, verifier-guided improves over zero-shot (`0.458` vs `0.292`) but still trails the strongest classical baselines on the matched subset.",
