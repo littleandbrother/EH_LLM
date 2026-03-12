@@ -1,0 +1,21 @@
+{
+  "reference_transfer": {
+    "count": 52,
+    "fem_frequency_mape_pct": 750.6247216879046,
+    "fem_frequency_median_ape_pct": 191.52339652485182,
+    "verifier_vs_fem_frequency_mape_pct": 71.00894965978648,
+    "verifier_vs_fem_decision_consistency": 0.7115384615384616
+  },
+  "audited_reference_transfer": {
+    "count": 18,
+    "fem_frequency_mape_pct": 261.7269523780611,
+    "fem_frequency_median_ape_pct": 46.097030168246185,
+    "verifier_vs_fem_frequency_mape_pct": 63.152408561693356,
+    "verifier_vs_fem_decision_consistency": 0.7777777777777778
+  },
+  "local_ranking_transfer": {
+    "task_count": 52,
+    "mean_spearman_rho": 0.10368477676169986,
+    "median_spearman_rho": 0.33916083916083917
+  }
+}

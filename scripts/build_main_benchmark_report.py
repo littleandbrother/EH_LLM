@@ -139,6 +139,12 @@ def render_markdown(tables: dict[str, dict]) -> str:
     lines.append("- reason: verifier-guided frequency reaches `1.000` on `test-id` and `0.600` on `test-ood`, matching the current best OOD classical success rate (`BO = 0.600`) while clearly beating Kimi zero-shot (`0.500 / 0.200`)")
     lines.append("- reason: verifier-guided repair reaches `1.000` on `test-id` and `0.750` on `test-ood`, matching or exceeding the strongest classical baseline and decisively beating zero-shot repair")
     lines.append("")
+    lines.append("## Supplementary Hardening Reports")
+    lines.append("")
+    lines.append("- structured-feedback ablation: `artifacts/reports/structured_feedback_ablation.md`")
+    lines.append("- repeated OOD stability: `artifacts/reports/repeated_ood_summary.md`")
+    lines.append("- independent FEM transfer: `artifacts/reports/fem_frequency_transfer.md`")
+    lines.append("")
     return "\n".join(lines) + "\n"
 
 

@@ -1,0 +1,453 @@
+{
+  "structured_feedback_ablation": {
+    "repair_test_id_single_run": {
+      "zero_shot_llm": {
+        "task_count": 8,
+        "success_rate": 0.125,
+        "avg_queries_used": 1.0,
+        "avg_queries_to_success": 1.0,
+        "avg_invalid_proposal_rate": 0.0,
+        "avg_best_normalized_objective": 0.5625,
+        "avg_wall_clock_s": 3.01651975
+      },
+      "scalar_reward_llm": {
+        "task_count": 8,
+        "success_rate": 0.0,
+        "avg_queries_used": 4.0,
+        "avg_queries_to_success": null,
+        "avg_invalid_proposal_rate": 0.0,
+        "avg_best_normalized_objective": 0.5,
+        "avg_wall_clock_s": 13.76353325
+      },
+      "verifier_guided_llm": {
+        "task_count": 8,
+        "success_rate": 1.0,
+        "avg_queries_used": 9.125,
+        "avg_queries_to_success": 9.125,
+        "avg_invalid_proposal_rate": 0.0,
+        "avg_best_normalized_objective": 1.0,
+        "avg_wall_clock_s": 6.11541225
+      }
+    },
+    "repair_test_ood_single_run": {
+      "zero_shot_llm": {
+        "task_count": 8,
+        "success_rate": 0.0,
+        "avg_queries_used": 1.0,
+        "avg_queries_to_success": null,
+        "avg_invalid_proposal_rate": 0.0,
+        "avg_best_normalized_objective": 0.5,
+        "avg_wall_clock_s": 2.70342025
+      },
+      "scalar_reward_llm": {
+        "task_count": 8,
+        "success_rate": 0.0,
+        "avg_queries_used": 4.0,
+        "avg_queries_to_success": null,
+        "avg_invalid_proposal_rate": 0.0,
+        "avg_best_normalized_objective": 0.5,
+        "avg_wall_clock_s": 14.133660375
+      },
+      "verifier_guided_llm": {
+        "task_count": 8,
+        "success_rate": 0.75,
+        "avg_queries_used": 10.5,
+        "avg_queries_to_success": 9.166666666666666,
+        "avg_invalid_proposal_rate": 0.0,
+        "avg_best_normalized_objective": 0.875,
+        "avg_wall_clock_s": 13.40470075
+      }
+    },
+    "repair_test_ood_repeated": {
+      "zero_shot_llm": {
+        "success_rate": {
+          "mean": 0.0,
+          "std": 0.0
+        },
+        "avg_queries_to_success": {
+          "mean": null,
+          "std": null
+        },
+        "avg_best_normalized_objective": {
+          "mean": 0.5,
+          "std": 0.0
+        },
+        "avg_invalid_proposal_rate": {
+          "mean": 0.0,
+          "std": 0.0
+        },
+        "avg_wall_clock_s": {
+          "mean": 2.86211875,
+          "std": 0.20966483938534952
+        }
+      },
+      "scalar_reward_llm": {
+        "success_rate": {
+          "mean": 0.041666666666666664,
+          "std": 0.07216878364870322
+        },
+        "avg_queries_to_success": {
+          "mean": 4.0,
+          "std": 0.0
+        },
+        "avg_best_normalized_objective": {
+          "mean": 0.5208333333333334,
+          "std": 0.03608439182435161
+        },
+        "avg_invalid_proposal_rate": {
+          "mean": 0.0,
+          "std": 0.0
+        },
+        "avg_wall_clock_s": {
+          "mean": 15.469352791666667,
+          "std": 1.4798674274433683
+        }
+      },
+      "verifier_guided_llm": {
+        "success_rate": {
+          "mean": 0.7083333333333334,
+          "std": 0.07216878364870322
+        },
+        "avg_queries_to_success": {
+          "mean": 9.144444444444444,
+          "std": 0.47881025392033905
+        },
+        "avg_best_normalized_objective": {
+          "mean": 0.8541666666666666,
+          "std": 0.03608439182435161
+        },
+        "avg_invalid_proposal_rate": {
+          "mean": 0.0,
+          "std": 0.0
+        },
+        "avg_wall_clock_s": {
+          "mean": 10.117739416666666,
+          "std": 0.6677541998890328
+        }
+      }
+    }
+  },
+  "repeated_ood": {
+    "frequency_test_ood": {
+      "random_search": {
+        "success_rate": {
+          "mean": 0.4666666666666667,
+          "std": 0.05773502691896256
+        },
+        "avg_queries_to_success": {
+          "mean": 2.6333333333333333,
+          "std": 0.5131601439446885
+        },
+        "avg_best_normalized_objective": {
+          "mean": 0.3163863666666667,
+          "std": 0.017761240491681134
+        },
+        "avg_invalid_proposal_rate": {
+          "mean": 0.2,
+          "std": 0.0
+        },
+        "avg_wall_clock_s": {
+          "mean": 0.0009875333333333332,
+          "std": 0.0008557926170126343
+        }
+      },
+      "genetic_algorithm": {
+        "success_rate": {
+          "mean": 0.43333333333333335,
+          "std": 0.05773502691896256
+        },
+        "avg_queries_to_success": {
+          "mean": 3.3000000000000003,
+          "std": 1.2124355652982142
+        },
+        "avg_best_normalized_objective": {
+          "mean": 0.3389143,
+          "std": 0.012129946437227158
+        },
+        "avg_invalid_proposal_rate": {
+          "mean": 0.2,
+          "std": 0.0
+        },
+        "avg_wall_clock_s": {
+          "mean": 0.0035752333333333333,
+          "std": 0.00531373180197621
+        }
+      },
+      "cma_es": {
+        "success_rate": {
+          "mean": 0.36666666666666664,
+          "std": 0.11547005383792516
+        },
+        "avg_queries_to_success": {
+          "mean": 8.377777777777778,
+          "std": 3.8622580231047534
+        },
+        "avg_best_normalized_objective": {
+          "mean": 0.26837063333333333,
+          "std": 0.04122633743789682
+        },
+        "avg_invalid_proposal_rate": {
+          "mean": 0.2,
+          "std": 0.0
+        },
+        "avg_wall_clock_s": {
+          "mean": 0.0008388666666666667,
+          "std": 0.0005614330711076195
+        }
+      },
+      "bayesian_optimization": {
+        "success_rate": {
+          "mean": 0.6,
+          "std": 0.0
+        },
+        "avg_queries_to_success": {
+          "mean": 5.222222222222222,
+          "std": 0.5853140973807074
+        },
+        "avg_best_normalized_objective": {
+          "mean": 0.3404209,
+          "std": 0.00425303973647083
+        },
+        "avg_invalid_proposal_rate": {
+          "mean": 0.2,
+          "std": 0.0
+        },
+        "avg_wall_clock_s": {
+          "mean": 0.0007851333333333333,
+          "std": 0.00040219438500970313
+        }
+      },
+      "zero_shot_llm": {
+        "success_rate": {
+          "mean": 0.23333333333333334,
+          "std": 0.15275252316519466
+        },
+        "avg_queries_to_success": {
+          "mean": 1.0,
+          "std": 0.0
+        },
+        "avg_best_normalized_objective": {
+          "mean": 0.12123433333333333,
+          "std": 0.03789633592332288
+        },
+        "avg_invalid_proposal_rate": {
+          "mean": 0.2,
+          "std": 0.0
+        },
+        "avg_wall_clock_s": {
+          "mean": 2.945042133333333,
+          "std": 0.34668284783244346
+        }
+      },
+      "verifier_guided_llm": {
+        "success_rate": {
+          "mean": 0.6,
+          "std": 0.0
+        },
+        "avg_queries_to_success": {
+          "mean": 7.111111111111112,
+          "std": 0.0962250448649378
+        },
+        "avg_best_normalized_objective": {
+          "mean": 0.26713603333333336,
+          "std": 0.00973348425607878
+        },
+        "avg_invalid_proposal_rate": {
+          "mean": 0.2,
+          "std": 0.0
+        },
+        "avg_wall_clock_s": {
+          "mean": 10.259175766666667,
+          "std": 2.2889089977903283
+        }
+      }
+    },
+    "repair_test_ood": {
+      "random_search": {
+        "success_rate": {
+          "mean": 0.5833333333333334,
+          "std": 0.07216878364870322
+        },
+        "avg_queries_to_success": {
+          "mean": 4.233333333333333,
+          "std": 0.6658328118479393
+        },
+        "avg_best_normalized_objective": {
+          "mean": 0.7916666666666666,
+          "std": 0.03608439182435161
+        },
+        "avg_invalid_proposal_rate": {
+          "mean": 0.0,
+          "std": 0.0
+        },
+        "avg_wall_clock_s": {
+          "mean": 0.000373,
+          "std": 3.024302605560494e-05
+        }
+      },
+      "genetic_algorithm": {
+        "success_rate": {
+          "mean": 0.5416666666666666,
+          "std": 0.07216878364870322
+        },
+        "avg_queries_to_success": {
+          "mean": 3.3333333333333335,
+          "std": 0.6291528696058958
+        },
+        "avg_best_normalized_objective": {
+          "mean": 0.7708333333333334,
+          "std": 0.03608439182435161
+        },
+        "avg_invalid_proposal_rate": {
+          "mean": 0.0,
+          "std": 0.0
+        },
+        "avg_wall_clock_s": {
+          "mean": 0.000368125,
+          "std": 1.126110562955523e-05
+        }
+      },
+      "cma_es": {
+        "success_rate": {
+          "mean": 0.08333333333333333,
+          "std": 0.07216878364870322
+        },
+        "avg_queries_to_success": {
+          "mean": 6.5,
+          "std": 7.7781745930520225
+        },
+        "avg_best_normalized_objective": {
+          "mean": 0.5416666666666666,
+          "std": 0.03608439182435161
+        },
+        "avg_invalid_proposal_rate": {
+          "mean": 0.0,
+          "std": 0.0
+        },
+        "avg_wall_clock_s": {
+          "mean": 0.000388375,
+          "std": 3.1858083746515553e-05
+        }
+      },
+      "bayesian_optimization": {
+        "success_rate": {
+          "mean": 0.6666666666666666,
+          "std": 0.07216878364870322
+        },
+        "avg_queries_to_success": {
+          "mean": 5.7555555555555555,
+          "std": 0.8441519961432259
+        },
+        "avg_best_normalized_objective": {
+          "mean": 0.8333333333333334,
+          "std": 0.03608439182435161
+        },
+        "avg_invalid_proposal_rate": {
+          "mean": 0.0,
+          "std": 0.0
+        },
+        "avg_wall_clock_s": {
+          "mean": 0.0004085,
+          "std": 1.1469388606198671e-05
+        }
+      },
+      "zero_shot_llm": {
+        "success_rate": {
+          "mean": 0.0,
+          "std": 0.0
+        },
+        "avg_queries_to_success": {
+          "mean": null,
+          "std": null
+        },
+        "avg_best_normalized_objective": {
+          "mean": 0.5,
+          "std": 0.0
+        },
+        "avg_invalid_proposal_rate": {
+          "mean": 0.0,
+          "std": 0.0
+        },
+        "avg_wall_clock_s": {
+          "mean": 2.86211875,
+          "std": 0.20966483938534952
+        }
+      },
+      "scalar_reward_llm": {
+        "success_rate": {
+          "mean": 0.041666666666666664,
+          "std": 0.07216878364870322
+        },
+        "avg_queries_to_success": {
+          "mean": 4.0,
+          "std": 0.0
+        },
+        "avg_best_normalized_objective": {
+          "mean": 0.5208333333333334,
+          "std": 0.03608439182435161
+        },
+        "avg_invalid_proposal_rate": {
+          "mean": 0.0,
+          "std": 0.0
+        },
+        "avg_wall_clock_s": {
+          "mean": 15.469352791666667,
+          "std": 1.4798674274433683
+        }
+      },
+      "verifier_guided_llm": {
+        "success_rate": {
+          "mean": 0.7083333333333334,
+          "std": 0.07216878364870322
+        },
+        "avg_queries_to_success": {
+          "mean": 9.144444444444444,
+          "std": 0.47881025392033905
+        },
+        "avg_best_normalized_objective": {
+          "mean": 0.8541666666666666,
+          "std": 0.03608439182435161
+        },
+        "avg_invalid_proposal_rate": {
+          "mean": 0.0,
+          "std": 0.0
+        },
+        "avg_wall_clock_s": {
+          "mean": 10.117739416666666,
+          "std": 0.6677541998890328
+        }
+      }
+    }
+  },
+  "fem_frequency_transfer": {
+    "reference_transfer": {
+      "count": 52,
+      "fem_frequency_mape_pct": 750.6247216879046,
+      "fem_frequency_median_ape_pct": 191.52339652485182,
+      "verifier_vs_fem_frequency_mape_pct": 71.00894965978648,
+      "verifier_vs_fem_decision_consistency": 0.7115384615384616
+    },
+    "audited_reference_transfer": {
+      "count": 18,
+      "fem_frequency_mape_pct": 261.7269523780611,
+      "fem_frequency_median_ape_pct": 46.097030168246185,
+      "verifier_vs_fem_frequency_mape_pct": 63.152408561693356,
+      "verifier_vs_fem_decision_consistency": 0.7777777777777778
+    },
+    "local_ranking_transfer": {
+      "task_count": 52,
+      "mean_spearman_rho": 0.10368477676169986,
+      "median_spearman_rho": 0.33916083916083917
+    }
+  },
+  "sources": {
+    "zero_shot_repair_test_id": "/Users/depengsu/Desktop/paper_story_agnet/EH-LLM-vehbench-baselines/artifacts/runs/zero_shot_llm/vehbench_zero_shot_llm_feasibility_repair_test-id_20260312_062010_734271",
+    "zero_shot_repair_test_ood": "/Users/depengsu/Desktop/paper_story_agnet/EH-LLM-vehbench-baselines/artifacts/runs/zero_shot_llm/vehbench_zero_shot_llm_feasibility_repair_test-ood_20260312_062010_734255",
+    "scalar_reward_repair_test_id": "/Users/depengsu/Desktop/paper_story_agnet/EH-LLM-vehbench-baselines/artifacts/runs/scalar_reward_llm/vehbench_scalar_reward_llm_feasibility_repair_test-id_20260312_153146_446662",
+    "scalar_reward_repair_test_ood": "/Users/depengsu/Desktop/paper_story_agnet/EH-LLM-vehbench-baselines/artifacts/runs/scalar_reward_llm/vehbench_scalar_reward_llm_feasibility_repair_test-ood_20260312_153342_333513",
+    "verifier_guided_repair_test_id": "/Users/depengsu/Desktop/paper_story_agnet/EH-LLM-vehbench-baselines/artifacts/runs/verifier_guided_llm/vehbench_verifier_guided_llm_feasibility_repair_test-id_20260312_140513_536411",
+    "verifier_guided_repair_test_ood": "/Users/depengsu/Desktop/paper_story_agnet/EH-LLM-vehbench-baselines/artifacts/runs/verifier_guided_llm/vehbench_verifier_guided_llm_feasibility_repair_test-ood_20260312_140611_768999",
+    "repeat_frequency_ood": "/Users/depengsu/Desktop/paper_story_agnet/EH-LLM-vehbench-baselines/artifacts/runs/repeated_benchmarks/vehbench_repeat_frequency_matching_test-ood_random_search-genetic_algorithm-cma_es-bayesian_optimization-zero_shot_llm-verifier_guided_llm_20260312_154817_064923",
+    "repeat_repair_ood": "/Users/depengsu/Desktop/paper_story_agnet/EH-LLM-vehbench-baselines/artifacts/runs/repeated_benchmarks/vehbench_repeat_feasibility_repair_test-ood_random_search-genetic_algorithm-cma_es-bayesian_optimization-zero_shot_llm-scalar_reward_llm-verifier_guided_llm_20260312_155503_234461"
+  }
+}

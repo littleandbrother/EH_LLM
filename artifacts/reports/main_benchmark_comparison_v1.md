@@ -73,3 +73,9 @@ Runtime policy:
 - reason: verifier-guided frequency reaches `1.000` on `test-id` and `0.600` on `test-ood`, matching the current best OOD classical success rate (`BO = 0.600`) while clearly beating Kimi zero-shot (`0.500 / 0.200`)
 - reason: verifier-guided repair reaches `1.000` on `test-id` and `0.750` on `test-ood`, matching or exceeding the strongest classical baseline and decisively beating zero-shot repair
 
+## Supplementary Hardening Reports
+
+- structured-feedback ablation: `artifacts/reports/structured_feedback_ablation.md`
+- repeated OOD stability: `artifacts/reports/repeated_ood_summary.md`
+- independent FEM transfer: `artifacts/reports/fem_frequency_transfer.md`
+

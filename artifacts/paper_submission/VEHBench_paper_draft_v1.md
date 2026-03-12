@@ -43,7 +43,7 @@ We introduce **VEHBench**, a physics-grounded benchmark for inverse design of **
 
 Our current pipeline starts from `1,908` focused metadata records, narrows them to `301` strong stage-3 candidates, retains `236` stage-4 core papers, aligns `199` PDFs, successfully parses `197` documents, produces `186` valid extraction records, and curates `55` gold records. From these gold records we generate `162` paper-grounded benchmark tasks spanning **frequency matching**, **feasibility repair**, and an audited **power subset**. The current verifier is deliberately **frequency-first**: raw physics is not accurate enough for direct literature back-substitution, but calibrated frequency prediction reduces literature back-substitution MAPE from `759.8%` to `7.1%` on `52` ready mappings, which is sufficient for benchmark execution.
 
-We evaluate four classical optimizers, a Kimi zero-shot LLM baseline, and a verifier-guided Kimi agent. On `frequency_matching / test-ood`, the verifier-guided agent reaches `0.60` success rate, matching the strongest current classical baseline and clearly exceeding zero-shot Kimi (`0.20`). On `feasibility_repair / test-ood`, the verifier-guided agent reaches `0.75`, again matching the strongest classical baseline and decisively outperforming zero-shot Kimi (`0.00`). The key improvement is not a larger model, but **structured physical feedback**: explicit local sensitivity probes plus directional search turn verifier feedback into actionable repair trajectories. These results support the central claim of VEHBench: standardized tasks plus structured physics feedback provide a credible benchmark for inverse design, and they reveal capability boundaries that are not visible in isolated paper-by-paper optimization studies.
+We evaluate four classical optimizers, a Kimi zero-shot LLM baseline, a scalar-reward-only iterative LLM, and a verifier-guided Kimi agent. On `frequency_matching / test-ood`, the verifier-guided agent reaches `0.600±0.000` success rate over three seeds, matching the strongest current classical baseline and clearly exceeding zero-shot Kimi (`0.233±0.153`). On `feasibility_repair / test-ood`, the verifier-guided agent reaches `0.708±0.072`, slightly exceeding BO (`0.667±0.072`) and decisively outperforming both zero-shot Kimi (`0.000±0.000`) and scalar-reward-only Kimi (`0.042±0.072`). The key improvement is not a larger model, but **structured physical feedback**: explicit local sensitivity probes plus directional search turn verifier feedback into actionable repair trajectories. An independent 1D beam-FEM transfer check is still imperfect globally, but it reaches `0.778` feasibility-decision consistency on an audited 18-paper subset, which is enough to support a cautious external validation claim. These results support the central claim of VEHBench: standardized tasks plus structured physics feedback provide a credible benchmark for inverse design, and they reveal capability boundaries that are not visible in isolated paper-by-paper optimization studies.
 
 ---
 
@@ -86,7 +86,8 @@ This draft supports the following concrete contributions:
 1. We construct a **paper-grounded benchmark pipeline** for linear piezoelectric cantilever inverse design, from metadata retrieval to curated gold records and task generation.
 2. We define a **frequency-first verifier** and show that calibrated frequency back-substitution is good enough to support benchmark execution, even though power prediction remains too noisy for mainline use.
 3. We release a **unified evaluation protocol** with fixed task schema, fixed budgets, clean splits, and directly comparable solver interfaces.
-4. We show that **structured physical feedback** materially improves LLM-based repair: zero-shot Kimi is weak on repair, while verifier-guided Kimi with local sensitivity and directional search becomes competitive with the strongest classical baselines.
+4. We show that **structured physical feedback** materially improves LLM-based repair: zero-shot and scalar-reward-only Kimi remain weak, while verifier-guided Kimi with local sensitivity and directional search becomes competitive with the strongest classical baselines.
+5. We add a first independent **1D beam-FEM frequency transfer** check and multi-seed OOD repeats, so the current draft is backed by initial external validation and stability evidence rather than single-run numbers alone.
 
 ---
 
@@ -426,7 +427,73 @@ This matches or exceeds the strongest classical repair baselines:
 
 This is arguably the most important current experimental finding in the project.
 
-### 6.4 OOD Pareto View
+### 6.4 Structured-Feedback Ablation
+
+Repair is where structured feedback matters most, and the ablation now makes that statement explicit.
+
+Single-run repair results already show the gap:
+
+- `test-id`: zero-shot `0.125`, scalar-reward-only `0.000`, verifier-guided `1.000`
+- `test-ood`: zero-shot `0.000`, scalar-reward-only `0.000`, verifier-guided `0.750`
+
+More importantly, the repeated OOD study over seeds `7, 17, 27` confirms that this is not a one-off:
+
+- zero-shot Kimi: `0.000±0.000`
+- scalar-reward-only Kimi: `0.042±0.072`
+- verifier-guided Kimi: `0.708±0.072`
+
+This is the cleanest current scientific result in the project. It shows that the gain is **not** “more LLM calls” and **not** “more tokens.” The gain comes from exposing the model to structured verifier outputs, local probes, and directional search hints.
+
+### 6.5 Repeated OOD Runs
+
+We now have multi-seed OOD repeats for the most discriminative two benchmark slices: `frequency_matching / test-ood` and `feasibility_repair / test-ood`.
+
+For frequency OOD, the repeated results are:
+
+- Random Search: `0.467±0.058`
+- GA: `0.433±0.058`
+- CMA-ES: `0.367±0.115`
+- BO: `0.600±0.000`
+- Kimi Zero-Shot: `0.233±0.153`
+- Kimi Verifier-Guided: `0.600±0.000`
+
+For repair OOD, the repeated results are:
+
+- Random Search: `0.583±0.072`
+- GA: `0.542±0.072`
+- CMA-ES: `0.083±0.072`
+- BO: `0.667±0.072`
+- Kimi Zero-Shot: `0.000±0.000`
+- Scalar-Reward Kimi: `0.042±0.072`
+- Kimi Verifier-Guided: `0.708±0.072`
+
+These repeats materially strengthen the draft. The main solver ranking on OOD is stable, and verifier-guided Kimi remains competitive after averaging over seeds rather than only under a lucky single run.
+
+### 6.6 Independent FEM Transfer
+
+We also added a first independent frequency-only external validation check using a 1D Euler-Bernoulli beam FEM. This is intentionally **not** a full multiphysics replacement for the runtime verifier; it is a lightweight external reference intended to test whether the verifier roughly preserves feasibility boundaries and local ranking structure.
+
+The full 52-paper reference set is still noisy:
+
+- FEM vs literature frequency MAPE: `750.6%`
+- calibrated verifier vs FEM frequency MAPE: `71.0%`
+- calibrated verifier vs FEM decision consistency: `0.712`
+
+This poor absolute agreement is informative rather than surprising. Many papers still rely on defaulted substrate or thickness placeholders in the current mapping, and a more independent FEM is much less forgiving to those defaults.
+
+On the audited 18-paper subset with no defaulted thickness/material placeholders, the signal is better:
+
+- audited FEM vs literature median APE: `46.1%`
+- audited calibrated verifier vs FEM decision consistency: `0.778`
+
+The local ranking transfer is still weak to moderate:
+
+- mean Spearman rho: `0.104`
+- median Spearman rho: `0.339`
+
+So the current claim should be conservative: VEHBench now has an initial independent FEM sanity check, but not yet a strong high-fidelity external validation story.
+
+### 6.7 OOD Pareto View
 
 Success rate alone is not enough; query cost matters too.
 
@@ -442,7 +509,7 @@ The OOD Pareto view shows the current frontier:
 
 This is exactly the kind of benchmark insight the paper should emphasize: not “who is best overall,” but **what tradeoff each solver makes**.
 
-### 6.5 What the Results Mean
+### 6.8 What the Results Mean
 
 The current results support four concrete statements:
 
@@ -486,12 +553,11 @@ It should **not** yet claim:
 
 The current draft still has several important limitations:
 
-- single-seed or limited-seed reporting for some baselines
-- no full FEM transfer study yet
+- repeated runs are currently concentrated on the most important OOD slices rather than every table entry
+- FEM transfer is still only a first independent 1D beam-frequency study, not a full electromechanical validation
 - no hardware transfer study yet
 - no retrieval-enabled LLM baseline yet
 - no distilled small-model baseline yet
-- no scalar-reward-only ablation yet
 
 These are not reasons to stop writing the paper. They are the reasons to clearly separate:
 
@@ -584,6 +650,8 @@ That is the format adopted in this draft.
 | Raw frequency MAPE (%) | 759.8 |
 | Calibrated frequency MAPE (%) | 7.1 |
 | Leave-one-out calibrated frequency MAPE (%) | 10.3 |
+| Independent FEM decision consistency (full 52) | 0.712 |
+| Independent FEM decision consistency (audited 18) | 0.778 |
 | Power-gold subset size | 18 |
 | Runtime power calibration enabled | No |
 
@@ -600,10 +668,8 @@ This draft is now complete enough to guide writing and review, but not yet compl
 
 | Missing item | Why it matters | Priority |
 |---|---|---|
-| FEM transfer validation | Needed to show verifier ranking consistency beyond literature back-substitution | High |
 | Hardware transfer validation | Needed if the paper wants stronger physical credibility claims | High |
-| Multi-seed baseline repeats | Needed for error bars and stability claims | High |
-| Scalar-reward vs structured-feedback ablation | Needed to isolate the actual gain from structured verifier feedback | High |
+| Stronger FEM / electromechanical transfer validation | Needed if the paper wants stronger external-physics claims than the current 1D beam check | High |
 | Retrieval-enabled LLM baseline | Needed for a fuller LLM comparison ladder | Medium |
 | Distilled small-model baseline | Valuable, but not required for the first complete benchmark submission | Medium |
 | Mainline power benchmark results | Useful for v1.1, but not essential for a frequency-first submission | Medium |
@@ -613,10 +679,8 @@ This draft is now complete enough to guide writing and review, but not yet compl
 If submission pressure is high, the most rational sequence is:
 
 1. keep the paper **frequency-first**
-2. add FEM transfer
-3. add structured-feedback ablation
-4. add repeated baseline runs
-5. only then decide whether to expand into power, retrieval, or distillation
+2. decide whether the current FEM transfer is enough, or whether to add a stronger external validation pass
+3. only then decide whether to expand into retrieval, distillation, or power
 
 ## Appendix E. Figure Index
 
@@ -625,4 +689,6 @@ If submission pressure is high, the most rational sequence is:
 - Figure 3: verifier calibration summary
 - Figure 4: main benchmark success-rate matrix
 - Figure 5: OOD Pareto view
-
+- Table / report supplement: structured-feedback ablation
+- Table / report supplement: repeated OOD stability
+- Table / report supplement: independent FEM transfer

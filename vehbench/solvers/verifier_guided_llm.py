@@ -30,9 +30,10 @@ Response format:
 
 
 class VerifierGuidedLlmSolver(BaseSolver):
-    def __init__(self, seed: int = 0) -> None:
-        super().__init__(name="verifier_guided_llm", base_seed=seed)
+    def __init__(self, seed: int = 0, feedback_mode: str = "structured", name: str | None = None) -> None:
+        super().__init__(name=name or "verifier_guided_llm", base_seed=seed)
         self.client, self.config = get_llm_client()
+        self.feedback_mode = feedback_mode
         self.temperature = float(os.getenv("VEHBENCH_VERIFIER_GUIDED_TEMPERATURE", "0.0"))
         self.max_attempts = int(os.getenv("VEHBENCH_VERIFIER_GUIDED_MAX_ATTEMPTS", "4"))
         self.hard_timeout_s = float(os.getenv("VEHBENCH_VERIFIER_GUIDED_HARD_TIMEOUT_S", "15"))
@@ -274,16 +275,19 @@ class VerifierGuidedLlmSolver(BaseSolver):
         def summarize(record: dict) -> dict:
             response = record["interaction"]["response"]
             diagnostics = response.get("diagnostics") or {}
-            return {
+            payload = {
                 "candidate": record["candidate"],
                 "feasible": response.get("is_feasible"),
-                "violations": response.get("violations") or [],
                 "normalized_objective": response.get("normalized_objective"),
-                "feedback": diagnostics.get("solver_visible_message"),
             }
+            if self.feedback_mode == "structured":
+                payload["violations"] = response.get("violations") or []
+                payload["feedback"] = diagnostics.get("solver_visible_message")
+            return payload
 
         payload = {
             "task": task["task_type"],
+            "feedback_mode": self.feedback_mode,
             "attempt": attempt_index,
             "bounds": {
                 key: [value.get("min"), value.get("max"), value.get("unit")]
@@ -296,11 +300,6 @@ class VerifierGuidedLlmSolver(BaseSolver):
             "current": summarize(last_record),
             "best": summarize(best_record),
         }
-        last_violations = ((last_record.get("interaction") or {}).get("response") or {}).get("violations") or []
-        if "frequency_too_low" in last_violations:
-            payload["repair_direction"] = "increase_resonant_frequency_hz"
-        elif "frequency_too_high" in last_violations:
-            payload["repair_direction"] = "decrease_resonant_frequency_hz"
         if task.get("task_type") == "feasibility_repair":
             payload["goal"] = "Repair the current design to satisfy the frequency constraint."
         else:
@@ -308,17 +307,28 @@ class VerifierGuidedLlmSolver(BaseSolver):
 
         if len(session.records) > 1:
             payload["recent"] = [summarize(record) for record in session.records[-2:]]
-        trend_hint = self._trend_hint(session)
-        if trend_hint is not None:
-            payload["trend_hint"] = trend_hint
-        if local_probe_summaries:
-            payload["local_probes"] = [self._compact_probe_summary(probe) for probe in local_probe_summaries[:4]]
+        if self.feedback_mode == "structured":
+            last_violations = ((last_record.get("interaction") or {}).get("response") or {}).get("violations") or []
+            if "frequency_too_low" in last_violations:
+                payload["repair_direction"] = "increase_resonant_frequency_hz"
+            elif "frequency_too_high" in last_violations:
+                payload["repair_direction"] = "decrease_resonant_frequency_hz"
+            trend_hint = self._trend_hint(session)
+            if trend_hint is not None:
+                payload["trend_hint"] = trend_hint
+            if local_probe_summaries:
+                payload["local_probes"] = [self._compact_probe_summary(probe) for probe in local_probe_summaries[:4]]
+                payload["agent_rule"] = (
+                    "Prefer directions that empirically reduced |resonant_frequency_hz-target_hz| in local_probes. "
+                    "Avoid repeating moves that worsened the gap."
+                )
+            if directional_summary is not None:
+                payload["latest_directional_search"] = directional_summary
+        else:
             payload["agent_rule"] = (
-                "Prefer directions that empirically reduced |resonant_frequency_hz-target_hz| in local_probes. "
-                "Avoid repeating moves that worsened the gap."
+                "You only observe scalar reward and feasibility. Improve reward while staying in bounds. "
+                "No structured violation labels are available."
             )
-        if directional_summary is not None:
-            payload["latest_directional_search"] = directional_summary
         return json.dumps(payload, ensure_ascii=True, separators=(",", ":"))
 
     def _call_llm(self, prompt: str) -> tuple[dict[str, Any], dict | None, str | None, float]:
@@ -366,9 +376,11 @@ class VerifierGuidedLlmSolver(BaseSolver):
         if bootstrap_record["interaction"]["response"]["is_feasible"]:
             return
 
-        local_probe_summaries = self._initial_local_probe_scan(session, bootstrap_record, rng)
-        if session.best_record and session.best_record["interaction"]["response"]["is_feasible"]:
-            return
+        local_probe_summaries = []
+        if self.feedback_mode == "structured":
+            local_probe_summaries = self._initial_local_probe_scan(session, bootstrap_record, rng)
+            if session.best_record and session.best_record["interaction"]["response"]["is_feasible"]:
+                return
         directional_summary = None
 
         llm_attempt_index = 0
@@ -398,11 +410,12 @@ class VerifierGuidedLlmSolver(BaseSolver):
             llm_attempt_index += 1
             if record["interaction"]["response"]["is_feasible"]:
                 break
-            directional_summary = self._directional_search(
-                session,
-                base_record=session.best_record or record,
-                probe_summaries=local_probe_summaries,
-                rng=rng,
-            )
-            if session.best_record and session.best_record["interaction"]["response"]["is_feasible"]:
-                break
+            if self.feedback_mode == "structured":
+                directional_summary = self._directional_search(
+                    session,
+                    base_record=session.best_record or record,
+                    probe_summaries=local_probe_summaries,
+                    rng=rng,
+                )
+                if session.best_record and session.best_record["interaction"]["response"]["is_feasible"]:
+                    break
