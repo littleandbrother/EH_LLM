@@ -1,0 +1,14 @@
+{
+  "task_id": "pg_seed::10_1016_j_apenergy_2020_115518::syn::0001::frequency_matching",
+  "queries": 9,
+  "cycles": 2,
+  "feasible_found": true,
+  "best_score": 1.829373,
+  "best_frequency_error_pct": 0.20573,
+  "best_candidate": {
+    "beam_length_mm": 23.941223834,
+    "beam_width_mm": 11.651551384000001,
+    "load_resistance_ohm": 682.05021039
+  },
+  "best_cycle": "bootstrap"
+}
