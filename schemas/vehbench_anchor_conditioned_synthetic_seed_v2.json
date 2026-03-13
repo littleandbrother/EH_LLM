@@ -1,0 +1,225 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "vehbench_anchor_conditioned_synthetic_seed_v2.json",
+  "title": "VEHBench Anchor-Conditioned Synthetic Seed v2",
+  "description": "Synthetic seed derived from a paper-grounded anchor with explicit FEM and electromechanical label provenance.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "record_type",
+    "synthetic_seed_id",
+    "source_type",
+    "parent_anchor_id",
+    "parent_paper_id",
+    "assigned_split",
+    "sample_policy",
+    "sample_index",
+    "label_provenance",
+    "verifier_mapping",
+    "task_blueprints"
+  ],
+  "$defs": {
+    "nullableNumber": { "type": ["number", "null"] },
+    "nullableString": { "type": ["string", "null"] },
+    "boundedVariable": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["min", "max", "unit"],
+      "properties": {
+        "min": { "type": "number" },
+        "max": { "type": "number" },
+        "unit": { "type": "string" }
+      }
+    },
+    "designParameterSet": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "beam_length_mm": { "$ref": "#/$defs/nullableNumber" },
+        "beam_width_mm": { "$ref": "#/$defs/nullableNumber" },
+        "substrate_thickness_um": { "$ref": "#/$defs/nullableNumber" },
+        "piezo_thickness_um": { "$ref": "#/$defs/nullableNumber" },
+        "tip_mass_g": { "$ref": "#/$defs/nullableNumber" },
+        "load_resistance_ohm": { "$ref": "#/$defs/nullableNumber" }
+      }
+    }
+  },
+  "properties": {
+    "schema_version": { "const": "vehbench_anchor_conditioned_synthetic_seed_v2" },
+    "record_type": { "const": "anchor_conditioned_synthetic_seed" },
+    "synthetic_seed_id": { "type": "string" },
+    "source_type": { "const": "synthetic" },
+    "parent_anchor_id": { "type": "string" },
+    "parent_paper_id": { "type": "string" },
+    "parent_doi": { "$ref": "#/$defs/nullableString" },
+    "assigned_split": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["name", "ood_tags"],
+      "properties": {
+        "name": {
+          "type": "string",
+          "enum": ["train", "val", "test-id", "test-ood"]
+        },
+        "ood_tags": {
+          "type": "array",
+          "items": { "type": "string" }
+        }
+      }
+    },
+    "sample_policy": {
+      "type": "string",
+      "enum": [
+        "local_gaussian",
+        "wide_gaussian",
+        "geometry_edge_push",
+        "thickness_exchange",
+        "load_sweep"
+      ]
+    },
+    "sample_index": { "type": "integer" },
+    "label_provenance": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "frequency_label_source",
+        "stress_label_source",
+        "displacement_label_source",
+        "power_label_source",
+        "rng_seed",
+        "element_count"
+      ],
+      "properties": {
+        "frequency_label_source": { "type": "string" },
+        "stress_label_source": { "type": "string" },
+        "displacement_label_source": { "type": "string" },
+        "power_label_source": { "type": "string" },
+        "rng_seed": { "type": "integer" },
+        "element_count": { "type": "integer" },
+        "fem_assumptions": {
+          "type": "array",
+          "items": { "type": "string" }
+        },
+        "electromech_assumptions": {
+          "type": "array",
+          "items": { "type": "string" }
+        }
+      }
+    },
+    "verifier_mapping": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "design_parameters",
+        "excitation_settings",
+        "load_settings",
+        "material_parameters",
+        "observed_outputs",
+        "missing_for_verifier"
+      ],
+      "properties": {
+        "design_parameters": { "$ref": "#/$defs/designParameterSet" },
+        "excitation_settings": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "excitation_type": { "$ref": "#/$defs/nullableString" },
+            "frequency_hz": { "$ref": "#/$defs/nullableNumber" },
+            "acceleration_g": { "$ref": "#/$defs/nullableNumber" },
+            "base_displacement_mm": { "$ref": "#/$defs/nullableNumber" },
+            "motion_source": { "$ref": "#/$defs/nullableString" }
+          }
+        },
+        "load_settings": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "load_type": { "$ref": "#/$defs/nullableString" },
+            "load_resistance_ohm": { "$ref": "#/$defs/nullableNumber" }
+          }
+        },
+        "material_parameters": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "structure_class": { "$ref": "#/$defs/nullableString" },
+            "piezo_material": { "$ref": "#/$defs/nullableString" },
+            "substrate_material": { "$ref": "#/$defs/nullableString" }
+          }
+        },
+        "observed_outputs": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "resonant_frequency_hz": { "$ref": "#/$defs/nullableNumber" },
+            "load_power_w": { "$ref": "#/$defs/nullableNumber" },
+            "matched_load_power_w": { "$ref": "#/$defs/nullableNumber" },
+            "matched_load_resistance_ohm": { "$ref": "#/$defs/nullableNumber" },
+            "open_circuit_voltage_v": { "$ref": "#/$defs/nullableNumber" },
+            "short_circuit_current_a": { "$ref": "#/$defs/nullableNumber" },
+            "bandwidth_hz": { "$ref": "#/$defs/nullableNumber" },
+            "tip_displacement_mm": { "$ref": "#/$defs/nullableNumber" },
+            "root_stress_mpa": { "$ref": "#/$defs/nullableNumber" }
+          }
+        },
+        "missing_for_verifier": {
+          "type": "array",
+          "items": { "type": "string" }
+        }
+      }
+    },
+    "task_blueprints": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "task_type",
+          "variable_bounds",
+          "fixed_conditions",
+          "hard_constraints",
+          "objective",
+          "budget_hint"
+        ],
+        "properties": {
+          "task_type": {
+            "type": "string",
+            "enum": [
+              "frequency_matching",
+              "constrained_power_maximization",
+              "feasibility_repair"
+            ]
+          },
+          "variable_bounds": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+              "beam_length_mm": { "$ref": "#/$defs/boundedVariable" },
+              "beam_width_mm": { "$ref": "#/$defs/boundedVariable" },
+              "substrate_thickness_um": { "$ref": "#/$defs/boundedVariable" },
+              "piezo_thickness_um": { "$ref": "#/$defs/boundedVariable" },
+              "tip_mass_g": { "$ref": "#/$defs/boundedVariable" },
+              "load_resistance_ohm": { "$ref": "#/$defs/boundedVariable" }
+            }
+          },
+          "fixed_conditions": {
+            "type": "object",
+            "additionalProperties": true
+          },
+          "hard_constraints": {
+            "type": "object",
+            "additionalProperties": true
+          },
+          "objective": {
+            "type": "object",
+            "additionalProperties": true
+          },
+          "budget_hint": {
+            "type": "integer"
+          }
+        }
+      }
+    }
+  }
+}

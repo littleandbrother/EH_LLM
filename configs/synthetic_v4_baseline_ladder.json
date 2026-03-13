@@ -1,0 +1,42 @@
+{
+  "schema_version": "synthetic_v4_baseline_ladder_v1",
+  "primary_benchmark": "synthetic_v4_pilot_1k",
+  "stages": [
+    {
+      "name": "classical_core",
+      "solvers": [
+        "random_search",
+        "genetic_algorithm",
+        "cma_es",
+        "bayesian_optimization"
+      ],
+      "task_families": [
+        "frequency_matching",
+        "feasibility_repair"
+      ]
+    },
+    {
+      "name": "llm_core",
+      "solvers": [
+        "zero_shot_llm",
+        "verifier_guided_llm"
+      ],
+      "task_families": [
+        "frequency_matching",
+        "feasibility_repair"
+      ]
+    },
+    {
+      "name": "power_extension",
+      "solvers": [
+        "bayesian_optimization",
+        "zero_shot_llm",
+        "verifier_guided_llm"
+      ],
+      "task_families": [
+        "constrained_power_maximization"
+      ],
+      "gating": "run only after power label audit and verifier-v4 calibration"
+    }
+  ]
+}
