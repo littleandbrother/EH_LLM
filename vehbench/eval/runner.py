@@ -64,6 +64,7 @@ def run_benchmark(
     output_dir: str | Path,
     apply_frequency_calibration: bool = True,
     use_task_anchors: bool = True,
+    calibration_profile_path: str | Path | None = None,
 ) -> dict:
     output_path = Path(output_dir)
     output_path.mkdir(parents=True, exist_ok=True)
@@ -78,6 +79,7 @@ def run_benchmark(
                 solver_name=solver.name,
                 apply_frequency_calibration=apply_frequency_calibration,
                 use_task_anchors=use_task_anchors,
+                calibration_profile_path=calibration_profile_path,
             )
             solver.solve(session, task_seed=seed + solver_index * 1000 + task_index)
             interaction_rows.extend(session.records)

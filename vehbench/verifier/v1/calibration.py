@@ -2,12 +2,14 @@ from __future__ import annotations
 
 import json
 import math
+import os
 from pathlib import Path
 
 PROJECT_ROOT = Path(__file__).resolve().parents[3]
 DEFAULT_PROFILE_PATH = (
     PROJECT_ROOT / "data_registry" / "benchmark" / "verifier_v1_frequency_calibration_profile.json"
 )
+FREQUENCY_PROFILE_ENV = "VEHBENCH_FREQUENCY_PROFILE_PATH"
 
 
 def _safe_number(value) -> float | None:
@@ -71,8 +73,12 @@ def profile_feature_vector(feature_map: dict[str, float], profile: dict) -> list
     return [feature_map.get(name, 0.0) for name in profile["feature_names"]]
 
 
-def load_frequency_profile(path: Path | None = None) -> dict | None:
-    path = path or DEFAULT_PROFILE_PATH
+def load_frequency_profile(path: Path | str | None = None) -> dict | None:
+    if path is None:
+        env_path = os.environ.get(FREQUENCY_PROFILE_ENV)
+        path = Path(env_path) if env_path else DEFAULT_PROFILE_PATH
+    else:
+        path = Path(path)
     if not path.exists():
         return None
     return json.loads(path.read_text())

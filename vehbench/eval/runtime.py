@@ -202,13 +202,14 @@ class TaskSession:
     solver_name: str
     apply_frequency_calibration: bool = True
     use_task_anchors: bool = True
+    calibration_profile_path: str | Path | None = None
     calibration_profile: dict | None = None
     records: list[dict] = field(default_factory=list)
     _seen: set[tuple[float, ...]] = field(default_factory=set)
 
     def __post_init__(self) -> None:
         if self.calibration_profile is None and self.apply_frequency_calibration:
-            self.calibration_profile = load_frequency_profile()
+            self.calibration_profile = load_frequency_profile(self.calibration_profile_path)
 
     @property
     def budget(self) -> int:

@@ -1,0 +1,23 @@
+{
+  "stress": {
+    "count": 1000,
+    "raw_mape_pct": 355127.0874737975,
+    "log_bias_mape_pct": 370703.4686732839,
+    "scale_ratio_median": 1.043864885322488,
+    "recommend_runtime_correction": false
+  },
+  "displacement": {
+    "count": 1000,
+    "raw_mape_pct": 8.23053288008289,
+    "log_bias_mape_pct": 2.3081677551271262,
+    "scale_ratio_median": 1.0879931551164068,
+    "recommend_runtime_correction": true
+  },
+  "power": {
+    "count": 1000,
+    "raw_mape_pct": 34.346373781283326,
+    "log_bias_mape_pct": 4.6004423586932806,
+    "scale_ratio_median": 0.7425897281718761,
+    "recommend_runtime_correction": true
+  }
+}

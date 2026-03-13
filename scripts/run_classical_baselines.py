@@ -47,6 +47,11 @@ def parse_args() -> argparse.Namespace:
         action="store_true",
         help="Disable task-local anchors during runtime evaluation.",
     )
+    parser.add_argument(
+        "--frequency-profile-path",
+        default=None,
+        help="Optional calibration profile path. If set, use this profile instead of the default verifier-v1 profile.",
+    )
     return parser.parse_args()
 
 
@@ -75,6 +80,7 @@ def main() -> None:
         output_dir=output_dir,
         apply_frequency_calibration=not args.disable_frequency_calibration,
         use_task_anchors=not args.disable_task_anchors,
+        calibration_profile_path=args.frequency_profile_path,
     )
     print(json.dumps(
         {
@@ -83,6 +89,7 @@ def main() -> None:
             "solvers": solvers,
             "output_dir": str(output_dir),
             "use_task_anchors": not args.disable_task_anchors,
+            "frequency_profile_path": args.frequency_profile_path,
             "summary": result["summary"],
         },
         indent=2,

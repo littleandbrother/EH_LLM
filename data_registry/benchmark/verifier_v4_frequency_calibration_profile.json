@@ -1,0 +1,51 @@
+{
+  "profile_name": "vehbench_verifier_v4_frequency_log_ridge",
+  "target": "resonant_frequency_hz",
+  "model_type": "log10_ridge_regression",
+  "ridge_lambda": 0.001,
+  "feature_names": [
+    "bias",
+    "log10_acceleration_g",
+    "log10_beam_length_mm",
+    "log10_beam_width_mm",
+    "log10_excitation_frequency_hz",
+    "log10_load_resistance_ohm",
+    "log10_piezo_thickness_um",
+    "log10_raw_resonant_frequency_hz",
+    "log10_substrate_thickness_um",
+    "log10_tip_mass_g",
+    "piezo::AlN",
+    "piezo::PVDF",
+    "piezo::PZT",
+    "piezo::unknown",
+    "struct::bimorph",
+    "struct::other_piezo_cantilever",
+    "struct::unimorph"
+  ],
+  "coefficients": [
+    0.004834847192545113,
+    0.0004961858821901904,
+    -0.005088459876627465,
+    -0.0005493929648361272,
+    0.00010272999762115795,
+    1.2594859567662264e-05,
+    0.00025003727690585436,
+    0.9970358060620753,
+    0.002004738694835183,
+    0.0014451752726231423,
+    0.002551059638302767,
+    0.0007738045406679134,
+    0.0005393376938898904,
+    0.0009706430490429252,
+    0.002040035144455816,
+    0.0013611073491749655,
+    0.0014337016979382234
+  ],
+  "cross_validation": {
+    "count": 1000,
+    "raw_frequency_mape_pct": 0.9010090774268633,
+    "raw_frequency_median_ape_pct": 1.403714029035374,
+    "calibrated_frequency_mape_pct": 0.2676937312070876,
+    "calibrated_frequency_median_ape_pct": 0.2310955619844101
+  }
+}
